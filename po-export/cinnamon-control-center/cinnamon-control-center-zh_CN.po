@@ -1,0 +1,2103 @@
+# Simplified Chinese translation for cinnamon-control-center.
+# Copyright (C) 2002, 2003, 2006, 2009, 2010, 2011 Free Software Foundation, Inc.
+# This file is distributed under the same license as cinnamon-control-center package.
+# Some translations are taken from tranditional Chinese translation.
+# by Abel Cheung <maddog@linuxhall.org>, 2001.
+# He Qiangqiang <carton@linux.net.cn>, 2002.
+# Sun G11n <gnome_int_l10n@ireland.sun.com>, 2002.
+# Funda Wang <fundawang@linux.net.cn>, 2003-2006.
+# 甘露(Gan Lu) <rhythm.gan@gmail.com>, 2009.
+# Deng Xiyue <manphiz@gmail.com>, 2009.
+# FujianWzh <fujianwzh@gmail.com>, 2009.
+# Tao Wei <weitao1979@gmail.com>, 2009, 2010.
+# Xhacker Liu <liu.dongyuan@gmail.com>, 2010.
+# 朱涛 <bill_zt@sina.com>, 2010.
+# zhang ping <zhangping159@gmail.com>, 2010.
+# 指冷玉笙寒 (dhyang) <dhyang555@gmail.com>, 2011.
+# Lele Long <schemacs@gmail.com>, 2011.
+# Wylmer Wang <wantinghard@gmail.com>, 2011, 2012.
+# Wind He <lofwind@gmail.com>, 2011.
+# YunQiang Su <wzssyqa@gmail.com>, 2011.
+# Aron Xu <happyaron.xu@gmail.com>, 2010-2012.
+# bsfmig <bigslowfat@gmail.com>, 2012.
+# Cheng Lu <chenglu1990@gmail.com>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cinnamon-control-center master\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=cinnamon-control-"
+"center&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-08-30 17:55+0100\n"
+"PO-Revision-Date: 2013-10-08 12:37+0000\n"
+"Last-Translator: Wylmer Wang <Unknown>\n"
+"Language-Team: Chinese (Simplified) <i18n-zh@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2013-11-26 11:42+0000\n"
+"X-Generator: Launchpad (build 16840)\n"
+"Language: zh_CN\n"
+
+#: panels/color/cc-color-panel.c:106
+msgid "Other profile…"
+msgstr "其他配置..."
+
+#: panels/color/cc-color-panel.c:119
+msgid "Default: "
+msgstr "默认： "
+
+#: panels/color/cc-color-panel.c:126
+msgid "Colorspace: "
+msgstr "色彩空间： "
+
+#: panels/color/cc-color-panel.c:132
+msgid "Test profile: "
+msgstr "测试配置： "
+
+#: panels/color/cc-color-panel.c:185 panels/color/color.ui.h:11
+msgid "Set for all users"
+msgstr "为所有用户设置"
+
+#: panels/color/cc-color-panel.c:192
+msgid "Create virtual device"
+msgstr "创建虚拟设备"
+
+#: panels/color/cc-color-panel.c:227
+msgid "Select ICC Profile File"
+msgstr "选择 ICC 配置文件"
+
+#: panels/color/cc-color-panel.c:230
+msgid "_Import"
+msgstr "导入(_I)"
+
+#: panels/color/cc-color-panel.c:241
+msgid "Supported ICC profiles"
+msgstr "支持的 ICC 配置"
+
+#: panels/color/cc-color-panel.c:248
+msgid "All files"
+msgstr "所有文件"
+
+#: panels/color/cc-color-panel.c:638
+msgid "Available Profiles for Displays"
+msgstr "可用的显示配置"
+
+#: panels/color/cc-color-panel.c:642
+msgid "Available Profiles for Scanners"
+msgstr "可用的扫描仪配置"
+
+#: panels/color/cc-color-panel.c:646
+msgid "Available Profiles for Printers"
+msgstr "可用的打印机配置"
+
+#: panels/color/cc-color-panel.c:650
+msgid "Available Profiles for Cameras"
+msgstr "可用的相机配置"
+
+#: panels/color/cc-color-panel.c:654
+msgid "Available Profiles for Webcams"
+msgstr "可用的摄像头配置"
+
+#: panels/color/cc-color-panel.c:659 panels/color/color.ui.h:2
+msgid "Available Profiles"
+msgstr "可用配置"
+
+#: panels/color/cc-color-panel.c:935 panels/sound/gvc-mixer-dialog.c:1523
+#: panels/sound-nua/gvc-mixer-dialog.c:1596
+msgid "Device"
+msgstr "设备"
+
+#: panels/color/cc-color-panel.c:970
+msgid "Calibration"
+msgstr "校准"
+
+#: panels/color/cc-color-panel.c:1002
+msgid "Create a color profile for the selected device"
+msgstr "为所选设备创建一份色彩配置"
+
+#: panels/color/cc-color-panel.c:1016 panels/color/cc-color-panel.c:1040
+msgid ""
+"The measuring instrument is not detected. Please check it is turned on and "
+"correctly connected."
+msgstr "没有检测到测量仪器。请检查它是否打开和正确连接。"
+
+#: panels/color/cc-color-panel.c:1049
+msgid "The measuring instrument does not support printer profiling."
+msgstr "测量仪器不支持打印机校正。"
+
+#: panels/color/cc-color-panel.c:1060
+msgid "The device type is not currently supported."
+msgstr "目前不支持该设备类型。"
+
+#: panels/color/cc-color-panel.c:1132
+msgid "Cannot remove automatically added profile"
+msgstr "不能移除自动添加的配置"
+
+#: panels/color/cc-color-panel.c:1463
+msgid "No profile"
+msgstr "无配置"
+
+#: panels/color/cc-color-panel.c:1494
+#, c-format
+msgid "%i year"
+msgid_plural "%i years"
+msgstr[0] "%i 年"
+
+#: panels/color/cc-color-panel.c:1505
+#, c-format
+msgid "%i month"
+msgid_plural "%i months"
+msgstr[0] "%i 个月"
+
+#: panels/color/cc-color-panel.c:1516
+#, c-format
+msgid "%i week"
+msgid_plural "%i weeks"
+msgstr[0] "%i 周"
+
+#: panels/color/cc-color-panel.c:1523
+msgid "Less than 1 week"
+msgstr "不到一周"
+
+#: panels/color/cc-color-panel.c:1713 panels/color/cc-color-panel.c:1754
+#: panels/color/cc-color-panel.c:1765 panels/color/cc-color-panel.c:1776
+msgid "Uncalibrated"
+msgstr "未校准"
+
+#: panels/color/cc-color-panel.c:1716
+msgid "This device is not color managed."
+msgstr "此设备没有进行色彩管理。"
+
+#: panels/color/cc-color-panel.c:1757
+msgid "This device is using manufacturing calibrated data."
+msgstr "此设备正在使用出厂校准数据。"
+
+#: panels/color/cc-color-panel.c:1768
+msgid ""
+"This device does not have a profile suitable for whole-screen color "
+"correction."
+msgstr "此设备没有一份适于全屏色彩修正的配置。"
+
+#: panels/color/cc-color-panel.c:1801
+msgid "This device has an old profile that may no longer be accurate."
+msgstr "此设备有一份可能已经不准确的旧配置。"
+
+#: panels/color/cc-color-panel.c:1829
+msgid "Not specified"
+msgstr "未指定"
+
+#: panels/color/cc-color-panel.c:2014
+msgid "No devices supporting color management detected"
+msgstr "没有检测到支持色彩管理的设备"
+
+#: panels/common/cc-common-language.c:533
+msgid "English"
+msgstr "英语"
+
+#: panels/common/cc-common-language.c:535
+msgid "British English"
+msgstr "英国英语"
+
+#: panels/common/cc-common-language.c:538
+msgid "German"
+msgstr "德语"
+
+#: panels/common/cc-common-language.c:541
+msgid "French"
+msgstr "法语"
+
+#: panels/common/cc-common-language.c:544
+msgid "Spanish"
+msgstr "西班牙语"
+
+#: panels/common/cc-common-language.c:546
+msgid "Chinese (simplified)"
+msgstr "简体中文"
+
+#: panels/common/cc-common-language.c:549
+msgid "Russian"
+msgstr "俄语"
+
+#: panels/common/cc-common-language.c:552
+msgid "Arabic"
+msgstr "阿拉伯语"
+
+#: panels/common/cc-common-language.c:581
+msgid "United States"
+msgstr "美国"
+
+#: panels/common/cc-common-language.c:582
+msgid "Germany"
+msgstr "德国"
+
+#: panels/common/cc-common-language.c:583
+msgid "France"
+msgstr "法国"
+
+#: panels/common/cc-common-language.c:584
+msgid "Spain"
+msgstr "西班牙"
+
+#: panels/common/cc-common-language.c:585
+msgid "China"
+msgstr "中国"
+
+#: panels/common/cc-language-chooser.c:301
+msgid "Select a region"
+msgstr "选择一个地区"
+
+#: panels/common/gdm-languages.c:781
+msgid "Unspecified"
+msgstr "未指定"
+
+#: panels/display/cc-display-panel.c:624 panels/display/cc-rr-labeler.c:449
+msgid "Mirrored Displays"
+msgstr "镜像显示"
+
+#: panels/display/cc-display-panel.c:648 panels/display/display-capplet.ui.h:1
+msgid "Monitor"
+msgstr "显示器"
+
+#: panels/display/cc-display-panel.c:758
+#, c-format
+msgid "%d x %d (%s)"
+msgstr "%d x %d (%s)"
+
+#: panels/display/cc-display-panel.c:760
+#, c-format
+msgid "%d x %d"
+msgstr "%d x %d"
+
+#: panels/display/cc-display-panel.c:1669
+msgid ""
+"Select a monitor to change its properties; drag it to rearrange its "
+"placement."
+msgstr "选择一台显示器来更改它的属性；拖动它来排列位置。"
+
+#: panels/display/cc-display-panel.c:2185
+#: panels/display/cc-display-panel.c:2237
+#, c-format
+msgid "Failed to apply configuration: %s"
+msgstr "应用配置失败：%s"
+
+#: panels/display/cc-display-panel.c:2265
+msgid "Could not save the monitor configuration"
+msgstr "无法保存显示器配置"
+
+#: panels/display/cc-display-panel.c:2325
+msgid "Could not detect displays"
+msgstr "无法检测显示器"
+
+#: panels/display/cc-display-panel.c:2563
+msgid "Could not get screen information"
+msgstr "无法获得屏幕信息"
+
+#: panels/network/cc-network-panel.c:661
+msgid "Network proxy"
+msgstr "网络代理"
+
+#: panels/network/cc-network-panel.c:853 panels/network/net-vpn.c:278
+#, c-format
+msgid "%s VPN"
+msgstr "%s VPN"
+
+#: panels/network/cc-network-panel.c:920
+msgid "The system network services are not compatible with this version."
+msgstr "系统的网络服务与此版本的网络管理器不兼容。"
+
+#: panels/network/cc-network-panel.c:1108
+msgid "Air_plane Mode"
+msgstr "飞行模式(_P)"
+
+#: panels/network/net-device-mobile.c:222
+msgid "Add new connection"
+msgstr "添加新连接"
+
+#: panels/network/net-device-mobile.c:261 panels/network/net-device-wifi.c:725
+#: panels/network/net-device-wired.c:126
+#, c-format
+msgid "%d Mb/s"
+msgstr "%d Mb/秒"
+
+#: panels/network/net-device-wifi.c:258 panels/network/net-device-wifi.c:437
+msgid "WEP"
+msgstr "WEP"
+
+#: panels/network/net-device-wifi.c:262 panels/network/net-device-wifi.c:441
+msgid "WPA"
+msgstr "WPA"
+
+#: panels/network/net-device-wifi.c:266
+msgid "WPA2"
+msgstr "WPA2"
+
+#: panels/network/net-device-wifi.c:271
+msgid "Enterprise"
+msgstr "企业"
+
+#: panels/network/net-device-wifi.c:652
+msgid "never"
+msgstr "从不"
+
+#: panels/network/net-device-wifi.c:662
+msgid "today"
+msgstr "今天"
+
+#: panels/network/net-device-wifi.c:664
+msgid "yesterday"
+msgstr "昨天"
+
+#: panels/network/net-device-wifi.c:666
+#, c-format
+msgid "%i day ago"
+msgid_plural "%i days ago"
+msgstr[0] "%i 天前"
+
+#: panels/network/net-device-wifi.c:735 panels/network/panel-common.c:277
+msgid "Not connected"
+msgstr "未连接"
+
+#: panels/network/net-device-wifi.c:737 panels/network/net-device-wifi.c:2100
+msgid "Out of range"
+msgstr "超出范围"
+
+#: panels/network/net-device-wifi.c:960
+#, c-format
+msgid ""
+"Network details for %s including password and any custom configuration will "
+"be lost."
+msgstr "网络 %s 包括密码和全部自定义设置的细节都将丢失。"
+
+#: panels/network/net-device-wifi.c:971
+msgid "Forget"
+msgstr "忘记"
+
+#: panels/network/net-device-wifi.c:1554
+msgid ""
+"If you have a connection to the Internet other than wireless, you can use it "
+"to share your internet connection with others."
+msgstr "如果您有除无线网络以外的方式连接到互联网，您可以使用它来与其他人分享你您的互联网连接。"
+
+#: panels/network/net-device-wifi.c:1558
+#, c-format
+msgid "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+msgstr "切换无线网热点会使得您从 <b>%s</b> 断线。"
+
+#: panels/network/net-device-wifi.c:1562
+msgid ""
+"It is not possible to access the internet through your wireless while the "
+"hotspot is active."
+msgstr "当热点在使用时是无法通过无线网络访问互联网的。"
+
+#: panels/network/net-device-wifi.c:1628
+msgid "Stop hotspot and disconnect any users?"
+msgstr "停止热点并断开所有用户？"
+
+#: panels/network/net-device-wifi.c:1631
+msgid "_Stop Hotspot"
+msgstr "停止热点(_S)"
+
+#: panels/network/net-proxy.c:67
+msgid ""
+"Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+msgstr "若未提供配置 URL，将使用网络代理自动发现。"
+
+#: panels/network/net-proxy.c:75
+msgid "This is not recommended for untrusted public networks."
+msgstr "对于不可信的公共网络，不建议这样做。"
+
+#: panels/network/net-proxy.c:368
+msgid "Proxy"
+msgstr "代理"
+
+#: panels/network/panel-common.c:82 panels/network/panel-common.c:162
+msgid "Unknown"
+msgstr "未知"
+
+#: panels/network/panel-common.c:86
+msgid "Wired"
+msgstr "有线"
+
+#: panels/network/panel-common.c:90 panels/network/network-wifi.ui.h:3
+msgid "Wireless"
+msgstr "无线"
+
+#: panels/network/panel-common.c:97
+msgid "Mobile broadband"
+msgstr "移动宽带"
+
+#: panels/network/panel-common.c:102
+msgid "Bluetooth"
+msgstr "蓝牙"
+
+#: panels/network/panel-common.c:106
+msgid "Mesh"
+msgstr "网格"
+
+#: panels/network/panel-common.c:166
+msgid "Ad-hoc"
+msgstr "Ad-hoc"
+
+#: panels/network/panel-common.c:170
+msgid "Infrastructure"
+msgstr "架构"
+
+#: panels/network/panel-common.c:194 panels/network/panel-common.c:255
+msgid "Status unknown"
+msgstr "未知状态"
+
+#: panels/network/panel-common.c:198
+msgid "Unmanaged"
+msgstr "未托管"
+
+#: panels/network/panel-common.c:203
+msgid "Firmware missing"
+msgstr "固件缺失"
+
+#: panels/network/panel-common.c:206
+msgid "Cable unplugged"
+msgstr "线缆被拔出"
+
+#: panels/network/panel-common.c:208
+msgid "Unavailable"
+msgstr "不可用"
+
+#: panels/network/panel-common.c:212
+msgid "Disconnected"
+msgstr "已断开"
+
+#: panels/network/panel-common.c:219 panels/network/panel-common.c:261
+msgid "Connecting"
+msgstr "正在连接"
+
+#: panels/network/panel-common.c:223 panels/network/panel-common.c:265
+msgid "Authentication required"
+msgstr "需要认证"
+
+#: panels/network/panel-common.c:227 panels/network/panel-common.c:269
+msgid "Connected"
+msgstr "已连接"
+
+#: panels/network/panel-common.c:231
+msgid "Disconnecting"
+msgstr "正在断开"
+
+#: panels/network/panel-common.c:235 panels/network/panel-common.c:273
+msgid "Connection failed"
+msgstr "连接失败"
+
+#: panels/network/panel-common.c:239 panels/network/panel-common.c:281
+msgid "Status unknown (missing)"
+msgstr "未知状态(丢失)"
+
+#: panels/network/panel-common.c:301
+msgid "Configuration failed"
+msgstr "配置失败"
+
+#: panels/network/panel-common.c:305
+msgid "IP configuration failed"
+msgstr "IP 配置失败"
+
+#: panels/network/panel-common.c:309
+msgid "IP configuration expired"
+msgstr "IP 配置过期"
+
+#: panels/network/panel-common.c:313
+msgid "Secrets were required, but not provided"
+msgstr "需要认证凭据，但没有提供"
+
+#: panels/network/panel-common.c:317
+msgid "802.1x supplicant disconnected"
+msgstr "802.1x 客户端已断开"
+
+#: panels/network/panel-common.c:321
+msgid "802.1x supplicant configuration failed"
+msgstr "802.1x 客户端配置失败"
+
+#: panels/network/panel-common.c:325
+msgid "802.1x supplicant failed"
+msgstr "802.1x 客户端失败"
+
+#: panels/network/panel-common.c:329
+msgid "802.1x supplicant took too long to authenticate"
+msgstr "802.1x 客户端认证耗时过长"
+
+#: panels/network/panel-common.c:333
+msgid "PPP service failed to start"
+msgstr "PPP 服务启动失败"
+
+#: panels/network/panel-common.c:337
+msgid "PPP service disconnected"
+msgstr "PPP 服务已断开"
+
+#: panels/network/panel-common.c:341
+msgid "PPP failed"
+msgstr "PPP 失败"
+
+#: panels/network/panel-common.c:345
+msgid "DHCP client failed to start"
+msgstr "DHCP 服务启动失败"
+
+#: panels/network/panel-common.c:349
+msgid "DHCP client error"
+msgstr "DHCP 客户端错误"
+
+#: panels/network/panel-common.c:353
+msgid "DHCP client failed"
+msgstr "DHCP 客户端失败"
+
+#: panels/network/panel-common.c:357
+msgid "Shared connection service failed to start"
+msgstr "共享连接服务启动失败"
+
+#: panels/network/panel-common.c:361
+msgid "Shared connection service failed"
+msgstr "共享连接服务失败"
+
+#: panels/network/panel-common.c:365
+msgid "AutoIP service failed to start"
+msgstr "自动 IP(AutoIP) 服务启动失败"
+
+#: panels/network/panel-common.c:369
+msgid "AutoIP service error"
+msgstr "自动 IP(AutoIP) 服务出错"
+
+#: panels/network/panel-common.c:373
+msgid "AutoIP service failed"
+msgstr "自动 IP(AutoIP) 服务失败"
+
+#: panels/network/panel-common.c:377
+msgid "Line busy"
+msgstr "线路忙"
+
+#: panels/network/panel-common.c:381
+msgid "No dial tone"
+msgstr "无拨号音"
+
+#: panels/network/panel-common.c:385
+msgid "No carrier could be established"
+msgstr "无法建立载波"
+
+#: panels/network/panel-common.c:389
+msgid "Dialing request timed out"
+msgstr "拨号请求超时"
+
+#: panels/network/panel-common.c:393
+msgid "Dialing attempt failed"
+msgstr "拨号尝试失败"
+
+#: panels/network/panel-common.c:397
+msgid "Modem initialization failed"
+msgstr "调制解调器初始化失败"
+
+#: panels/network/panel-common.c:401
+msgid "Failed to select the specified APN"
+msgstr "无法选择指定的 APN"
+
+#: panels/network/panel-common.c:405
+msgid "Not searching for networks"
+msgstr "不搜索网络"
+
+#: panels/network/panel-common.c:409
+msgid "Network registration denied"
+msgstr "网络注册遭拒绝"
+
+#: panels/network/panel-common.c:413
+msgid "Network registration timed out"
+msgstr "网络注册超时"
+
+#: panels/network/panel-common.c:417
+msgid "Failed to register with the requested network"
+msgstr "无法在请求的网络上注册"
+
+#: panels/network/panel-common.c:421
+msgid "PIN check failed"
+msgstr "PIN 检查未通过"
+
+#: panels/network/panel-common.c:425
+msgid "Firmware for the device may be missing"
+msgstr "可能缺少设备固件"
+
+#: panels/network/panel-common.c:429
+msgid "Connection disappeared"
+msgstr "连接丢失"
+
+#: panels/network/panel-common.c:433
+msgid "Carrier/link changed"
+msgstr "载波/连接已更改"
+
+#: panels/network/panel-common.c:437
+msgid "Existing connection was assumed"
+msgstr "已假定为现有连接"
+
+#: panels/network/panel-common.c:441
+msgid "Modem not found"
+msgstr "未找到调制解调器"
+
+#: panels/network/panel-common.c:445
+msgid "Bluetooth connection failed"
+msgstr "蓝牙连接失败"
+
+#: panels/network/panel-common.c:449
+msgid "SIM Card not inserted"
+msgstr "未插入 SIM 卡"
+
+#: panels/network/panel-common.c:453
+msgid "SIM Pin required"
+msgstr "要求 SIM PIN 码"
+
+#: panels/network/panel-common.c:457
+msgid "SIM Puk required"
+msgstr "要求 SIM PUK 码"
+
+#: panels/network/panel-common.c:461
+msgid "SIM wrong"
+msgstr "SIM 错误"
+
+#: panels/network/panel-common.c:465
+msgid "InfiniBand device does not support connected mode"
+msgstr "高速互联设备不支持已连接模式"
+
+#: panels/network/panel-common.c:469
+msgid "Connection dependency failed"
+msgstr "连接依赖失败"
+
+#: panels/network/panel-common.c:683 panels/network/network-wifi.ui.h:13
+#: panels/network/network-wired.ui.h:2
+msgid "IPv4 Address"
+msgstr "IPv4 地址"
+
+#: panels/network/panel-common.c:684 panels/network/network-mobile.ui.h:4
+#: panels/network/network-wifi.ui.h:14 panels/network/network-wired.ui.h:3
+msgid "IPv6 Address"
+msgstr "IPv6 地址"
+
+#: panels/network/panel-common.c:686 panels/network/panel-common.c:688
+#: panels/network/network-mobile.ui.h:3
+msgid "IP Address"
+msgstr "IP 地址"
+
+#: panels/power/cc-power-panel.c:166
+msgid "Unknown time"
+msgstr "未知时间"
+
+#: panels/power/cc-power-panel.c:172
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "%i 分钟"
+
+#: panels/power/cc-power-panel.c:184
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] "%i 小时"
+
+#: panels/power/cc-power-panel.c:192
+#, c-format
+msgid "%i %s %i %s"
+msgstr "%i %s %i %s"
+
+#: panels/power/cc-power-panel.c:193
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "时"
+
+#: panels/power/cc-power-panel.c:194
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "分"
+
+#: panels/power/cc-power-panel.c:237
+#, c-format
+msgid "Charging - %s until fully charged"
+msgstr "正在充电 - 剩余 %s"
+
+#: panels/power/cc-power-panel.c:245
+#, c-format
+msgid "Caution low battery, %s remaining"
+msgstr "电池电量低，剩余 %s"
+
+#: panels/power/cc-power-panel.c:253
+#, c-format
+msgid "Using battery power - %s remaining"
+msgstr "使用电池 - 剩余 %s"
+
+#: panels/power/cc-power-panel.c:270
+msgid "Charging"
+msgstr "正在充电"
+
+#: panels/power/cc-power-panel.c:275
+msgid "Using battery power"
+msgstr "使用电池"
+
+#: panels/power/cc-power-panel.c:279
+msgid "Charging - fully charged"
+msgstr "充电完成"
+
+#: panels/power/cc-power-panel.c:283
+msgid "Empty"
+msgstr "电池已空"
+
+#: panels/power/cc-power-panel.c:351
+#, c-format
+msgid "Caution low UPS, %s remaining"
+msgstr "UPS 电量低，剩余 %s"
+
+#: panels/power/cc-power-panel.c:357
+#, c-format
+msgid "Using UPS power - %s remaining"
+msgstr "使用 UPS - 剩余 %s"
+
+#: panels/power/cc-power-panel.c:375
+msgid "Caution low UPS"
+msgstr "UPS 电量低"
+
+#: panels/power/cc-power-panel.c:380
+msgid "Using UPS power"
+msgstr "使用 UPS"
+
+#: panels/power/cc-power-panel.c:432
+msgid "Your secondary battery is fully charged"
+msgstr "您的辅电池已充满"
+
+#: panels/power/cc-power-panel.c:436
+msgid "Your secondary battery is empty"
+msgstr "您的辅电池已空"
+
+#: panels/power/cc-power-panel.c:519
+msgid "Wireless mouse"
+msgstr "无线鼠标"
+
+#: panels/power/cc-power-panel.c:523
+msgid "Wireless keyboard"
+msgstr "无线键盘"
+
+#: panels/power/cc-power-panel.c:527
+msgid "Uninterruptible power supply"
+msgstr "不间断电源(UPS)"
+
+#: panels/power/cc-power-panel.c:531
+msgid "Personal digital assistant"
+msgstr "个人数字助理(PDA)"
+
+#: panels/power/cc-power-panel.c:535
+msgid "Cellphone"
+msgstr "手机"
+
+#: panels/power/cc-power-panel.c:539
+msgid "Media player"
+msgstr "媒体播放器"
+
+#: panels/power/cc-power-panel.c:543
+msgid "Tablet"
+msgstr "手写板"
+
+#: panels/power/cc-power-panel.c:547
+msgid "Computer"
+msgstr "计算机"
+
+#: panels/power/cc-power-panel.c:551
+msgid "Battery"
+msgstr "电池"
+
+#: panels/region/cc-region-panel.c:178
+msgid "Get more languages..."
+msgstr "获取更多语言..."
+
+#: panels/region/cinnamon-region-panel-formats.c:142
+msgid "Imperial"
+msgstr "英制"
+
+#: panels/region/cinnamon-region-panel-formats.c:144
+msgid "Metric"
+msgstr "公制"
+
+#: panels/region/cinnamon-region-panel-system.c:420
+msgid ""
+"The login screen, system accounts and new user accounts use the system-wide "
+"Region and Language settings."
+msgstr "登录屏幕、系统账户和新用户均使用系统的“区域和语言”设置。"
+
+#: panels/region/cinnamon-region-panel-system.c:425
+#: panels/region/cinnamon-region-panel.ui.h:32
+msgid ""
+"The login screen, system accounts and new user accounts use the system-wide "
+"Region and Language settings. You may change the system settings to match "
+"yours."
+msgstr "登录屏幕、系统账户和新用户均使用系统的“区域和语言”设置。您可以在那里按需修改相关系统设置。"
+
+#: panels/region/cinnamon-region-panel-system.c:428
+msgid "Copy Settings"
+msgstr "复制设置"
+
+#: panels/region/cinnamon-region-panel-system.c:431
+#: panels/region/cinnamon-region-panel.ui.h:39
+msgid "Copy Settings..."
+msgstr "复制设置..."
+
+#: panels/region/cinnamon-region-panel-xkblt.c:210
+msgid "Layout"
+msgstr "布局"
+
+#: panels/region/cinnamon-region-panel-xkbot.c:229
+msgid "Default"
+msgstr "默认"
+
+#: panels/sound/applet-main.c:49
+msgid "Enable debugging code"
+msgstr "启用调试代码"
+
+#: panels/sound/applet-main.c:50
+msgid "Version of this application"
+msgstr "此应用程序的版本"
+
+#: panels/sound/applet-main.c:62
+msgid " — Cinnamon Volume Control Applet"
+msgstr " — Cinnamon 音量控制小程序"
+
+#: panels/sound/gvc-applet.c:270 panels/sound/gvc-mixer-dialog.c:1654
+#: panels/sound-nua/gvc-mixer-dialog.c:1748
+msgid "Output"
+msgstr "输出"
+
+#: panels/sound/gvc-applet.c:272
+msgid "Sound Output Volume"
+msgstr "输出音量"
+
+#: panels/sound/gvc-applet.c:276 panels/sound/gvc-mixer-dialog.c:1695
+#: panels/sound-nua/gvc-mixer-dialog.c:1881
+msgid "Input"
+msgstr "输入"
+
+#: panels/sound/gvc-applet.c:278
+msgid "Microphone Volume"
+msgstr "话筒音量"
+
+#: panels/sound/gvc-balance-bar.c:295 panels/sound-nua/gvc-balance-bar.c:295
+msgid "_Balance:"
+msgstr "均衡(_B)："
+
+#: panels/sound/gvc-balance-bar.c:298 panels/sound-nua/gvc-balance-bar.c:298
+msgid "_Fade:"
+msgstr "淡入淡出(_F)："
+
+#: panels/sound/gvc-balance-bar.c:301 panels/sound-nua/gvc-balance-bar.c:301
+msgid "_Subwoofer:"
+msgstr "重低音(_S)："
+
+#: panels/sound/gvc-combo-box.c:167 panels/sound/gvc-mixer-dialog.c:258
+#: panels/sound/gvc-mixer-dialog.c:519
+msgid "_Profile:"
+msgstr "配置(_P)："
+
+#: panels/sound/gvc-mixer-control.c:1834
+msgid "Disabled"
+msgstr "禁用"
+
+#: panels/sound/gvc-mixer-control.c:1841
+#, c-format
+msgid "%u Output"
+msgid_plural "%u Outputs"
+msgstr[0] "%u 路输出"
+
+#: panels/sound/gvc-mixer-control.c:1851
+#, c-format
+msgid "%u Input"
+msgid_plural "%u Inputs"
+msgstr[0] "%u 路输入"
+
+#: panels/sound/gvc-mixer-control.c:2375
+msgid "System Sounds"
+msgstr "系统声音"
+
+#: panels/sound/gvc-mixer-dialog.c:260
+msgid "_Test Speakers"
+msgstr "测试扬声器(_T)"
+
+#: panels/sound/gvc-mixer-dialog.c:424 panels/sound-nua/gvc-mixer-dialog.c:341
+msgid "Peak detect"
+msgstr "峰值检测"
+
+#: panels/sound/gvc-mixer-dialog.c:1504
+#: panels/sound-nua/gvc-mixer-dialog.c:1578
+msgid "Name"
+msgstr "名称"
+
+#: panels/sound/gvc-mixer-dialog.c:1586
+#: panels/sound-nua/gvc-mixer-dialog.c:1680
+#, c-format
+msgid "Speaker Testing for %s"
+msgstr "%s 扬声器测试"
+
+#: panels/sound/gvc-mixer-dialog.c:1640
+#: panels/sound-nua/gvc-mixer-dialog.c:2016
+msgid "_Output volume:"
+msgstr "输出音量(_O)："
+
+#: panels/sound/gvc-mixer-dialog.c:1659
+msgid "C_hoose a device for sound output:"
+msgstr "选择音频输出设备(_H)："
+
+#: panels/sound/gvc-mixer-dialog.c:1684
+msgid "Settings for the selected device:"
+msgstr "选中设备的设置："
+
+#: panels/sound/gvc-mixer-dialog.c:1702
+#: panels/sound-nua/gvc-mixer-dialog.c:1928
+msgid "_Input volume:"
+msgstr "输入音量(_I)："
+
+#: panels/sound/gvc-mixer-dialog.c:1725
+#: panels/sound-nua/gvc-mixer-dialog.c:1961
+msgid "Input level:"
+msgstr "输入等级："
+
+#: panels/sound/gvc-mixer-dialog.c:1753
+msgid "C_hoose a device for sound input:"
+msgstr "选择音频输入设备(_H)："
+
+#: panels/sound/gvc-mixer-dialog.c:1780
+#: panels/sound-nua/gvc-mixer-dialog.c:1982
+msgid "Sound Effects"
+msgstr "声音效果"
+
+#: panels/sound/gvc-mixer-dialog.c:1787
+#: panels/sound-nua/gvc-mixer-dialog.c:1989
+msgid "_Alert volume:"
+msgstr "警告音量(_A)："
+
+#: panels/sound/gvc-mixer-dialog.c:1795
+#: panels/sound-nua/gvc-mixer-dialog.c:1997
+msgid "Applications"
+msgstr "应用程序"
+
+#: panels/sound/gvc-mixer-dialog.c:1799
+#: panels/sound-nua/gvc-mixer-dialog.c:2001
+msgid "No application is currently playing or recording audio."
+msgstr "没有程序正在播放或录制音频。"
+
+#: panels/sound/gvc-speaker-test.c:220
+msgid "Stop"
+msgstr "停止"
+
+#: panels/sound/gvc-speaker-test.c:220 panels/sound/gvc-speaker-test.c:332
+msgid "Test"
+msgstr "测试"
+
+#: panels/sound/gvc-speaker-test.c:228
+msgid "Subwoofer"
+msgstr "超低音"
+
+#: panels/sound/gvc-stream-status-icon.c:236
+#, c-format
+msgid "Failed to start Sound Preferences: %s"
+msgstr "声音首选项启动失败：%s"
+
+#: panels/sound/gvc-stream-status-icon.c:262
+msgid "_Mute"
+msgstr "静音(_M)"
+
+#: panels/sound/gvc-stream-status-icon.c:271
+msgid "_Sound Preferences"
+msgstr "声音首选项(_S)"
+
+#: panels/sound/gvc-stream-status-icon.c:416
+msgid "Muted"
+msgstr "已静音"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:774
+#: panels/sound-nua/gvc-mixer-dialog.c:944
+#, c-format
+msgid "Settings for %s"
+msgstr "%s 设置"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:800
+#: panels/sound-nua/gvc-mixer-dialog.c:953
+msgid "Mode:"
+msgstr "模式:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1753
+msgid "Play sound through"
+msgstr "使用以下输出播放声音"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1778
+#: panels/sound-nua/gvc-mixer-dialog.c:1910
+msgid "Settings for the selected device"
+msgstr "已选设备的设置"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1851
+msgid "Test:"
+msgstr "测试："
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1858
+msgid "Test Sound"
+msgstr "测试声音"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1885
+msgid "Record sound from"
+msgstr "录制声音，从"
+
+#: panels/universal-access/cc-ua-panel.c:289
+#: panels/universal-access/cc-ua-panel.c:295
+msgid "No shortcut set"
+msgstr "未设置快捷键"
+
+#: shell/cc-shell-nav-bar.c:117
+msgid "_All Settings"
+msgstr "全部设置(_A)"
+
+#: shell/control-center.c:58
+msgid "Enable verbose mode"
+msgstr "启用详细模式"
+
+#: shell/control-center.c:59
+msgid "Show the overview"
+msgstr "显示摘要"
+
+#: shell/control-center.c:60 shell/control-center.c:61
+#: shell/control-center.c:62
+msgid "Show help options"
+msgstr "显示帮助选项"
+
+#: shell/control-center.c:63
+msgid "Panel to display"
+msgstr "显示面板"
+
+#: shell/control-center.c:85
+msgid "- System Settings"
+msgstr "- 系统设置"
+
+#: shell/control-center.c:93
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"运行 “%s --help” 查看所有可用的命令行选项。\n"
+
+#: shell/control-center.c:215
+msgid "Help"
+msgstr "帮助"
+
+#: shell/control-center.c:216
+msgid "Quit"
+msgstr "退出"
+
+#: panels/color/color.ui.h:3 generate_additional_files.py:83
+msgid "Color"
+msgstr "色彩"
+
+#: panels/color/color.ui.h:4
+msgid "Each device needs an up to date color profile to be color managed."
+msgstr "每个设备需要一份最新的色彩配置以进行色彩管理。"
+
+#: panels/color/color.ui.h:5
+msgid "Learn more"
+msgstr "了解更多"
+
+#: panels/color/color.ui.h:6
+msgid "Learn more about color management"
+msgstr "了解更多有关色彩管理的信息"
+
+#: panels/color/color.ui.h:7
+msgid "Add device"
+msgstr "添加设备"
+
+#: panels/color/color.ui.h:8
+msgid "Add a virtual device"
+msgstr "添加一个虚拟设备"
+
+#: panels/color/color.ui.h:9
+msgid "Delete device"
+msgstr "删除设备"
+
+#: panels/color/color.ui.h:10
+msgid "Remove a device"
+msgstr "移除设备"
+
+#: panels/color/color.ui.h:12
+msgid "Set this profile for all users on this computer"
+msgstr "为此计算机上的所有用户设置此配置"
+
+#: panels/color/color.ui.h:13
+msgid "Add profile"
+msgstr "添加配置"
+
+#: panels/color/color.ui.h:14
+msgid "Calibrate…"
+msgstr "校准..."
+
+#: panels/color/color.ui.h:15
+msgid "Calibrate the device"
+msgstr "校准该设备"
+
+#: panels/color/color.ui.h:16
+msgid "Remove profile"
+msgstr "移除帐户"
+
+#: panels/color/color.ui.h:17
+msgid "View details"
+msgstr "查看详情"
+
+#: panels/color/color.ui.h:18
+msgid "Device type:"
+msgstr "设备类型："
+
+#: panels/color/color.ui.h:19
+msgid "Manufacturer:"
+msgstr "厂商："
+
+#: panels/color/color.ui.h:20
+msgid "Model:"
+msgstr "型号："
+
+#: panels/color/color.ui.h:21
+msgid ""
+"Image files can be dragged on this window to auto-complete the above fields."
+msgstr "可以将图像文件拖放到此窗口来自动填写以上字段。"
+
+#: panels/common/language-chooser.ui.h:1
+msgid "Select a language"
+msgstr "选择一种语言"
+
+#: panels/common/language-chooser.ui.h:2
+msgid "_Cancel"
+msgstr "取消(_C)"
+
+#: panels/common/language-chooser.ui.h:3
+msgid "_Select"
+msgstr "选择(_S)"
+
+#: panels/display/display-capplet.ui.h:2
+msgid "Set as Primary"
+msgstr "设为主显示器"
+
+#: panels/display/display-capplet.ui.h:3
+msgid "_Resolution"
+msgstr "分辨率(_R)"
+
+#: panels/display/display-capplet.ui.h:4
+msgid "R_otation"
+msgstr "旋转(_O)"
+
+#: panels/display/display-capplet.ui.h:6
+msgid "_Mirror displays"
+msgstr "镜像显示(_M)"
+
+#: panels/display/display-capplet.ui.h:7
+msgid "Note: may limit resolution options"
+msgstr "提醒：可能会限制分辨率选项"
+
+#: panels/display/display-capplet.ui.h:8
+msgid "_Detect Displays"
+msgstr "检测显示(_D)"
+
+#: panels/network/network-mobile.ui.h:1
+msgid "IMEI"
+msgstr "IMEI"
+
+#: panels/network/network-mobile.ui.h:2
+msgid "Provider"
+msgstr "提供商"
+
+#: panels/network/network-mobile.ui.h:5 panels/network/network-wifi.ui.h:15
+#: panels/network/network-wired.ui.h:4
+msgid "Default Route"
+msgstr "默认路由"
+
+#: panels/network/network-mobile.ui.h:6 panels/network/network-wifi.ui.h:16
+#: panels/network/network-wired.ui.h:5
+msgid "DNS"
+msgstr "DNS"
+
+#: panels/network/network-mobile.ui.h:7 generate_additional_files.py:173
+msgid "Network"
+msgstr "网络"
+
+#: panels/network/network-mobile.ui.h:8 panels/network/network-wired.ui.h:6
+#: panels/region/cinnamon-region-panel.ui.h:26
+msgid "_Options..."
+msgstr "选项(_O)..."
+
+#: panels/network/network-proxy.ui.h:4
+msgid "_Method"
+msgstr "方法(_M)"
+
+#: panels/network/network-proxy.ui.h:5
+msgid "_Configuration URL"
+msgstr "配置 URL(_C)"
+
+#: panels/network/network-proxy.ui.h:6
+msgid "_HTTP Proxy"
+msgstr "_HTTP 代理"
+
+#: panels/network/network-proxy.ui.h:7
+msgid "H_TTPS Proxy"
+msgstr "H_TTPS 代理"
+
+#: panels/network/network-proxy.ui.h:8
+msgid "_FTP Proxy"
+msgstr "_FTP 代理"
+
+#: panels/network/network-proxy.ui.h:9
+msgid "_Socks Host"
+msgstr "_Socks 主机"
+
+#: panels/network/network.ui.h:1
+msgid "Select the interface to use for the new service"
+msgstr "选择用于新服务的接口"
+
+#: panels/network/network.ui.h:2
+msgid "C_reate..."
+msgstr "创建(_R)..."
+
+#: panels/network/network.ui.h:3
+msgid "_Interface"
+msgstr "接口(_I)"
+
+#: panels/network/network.ui.h:4 panels/network/network-vpn.ui.h:1
+msgid "VPN"
+msgstr "VPN"
+
+#: panels/network/network.ui.h:8
+msgid "Add Device"
+msgstr "添加设备"
+
+#: panels/network/network.ui.h:9
+msgid "Remove Device"
+msgstr "移除设备"
+
+#: panels/network/network-vpn.ui.h:2
+msgid "VPN Type"
+msgstr "VPN 类型"
+
+#: panels/network/network-vpn.ui.h:3
+msgid "Gateway"
+msgstr "网关"
+
+#: panels/network/network-vpn.ui.h:4
+msgid "Group Name"
+msgstr "组名称"
+
+#: panels/network/network-vpn.ui.h:5
+msgid "Group Password"
+msgstr "组密码"
+
+#: panels/network/network-vpn.ui.h:6
+msgid "Username"
+msgstr "用户名"
+
+#: panels/network/network-vpn.ui.h:7
+msgid "_Configure..."
+msgstr "配置(_C)..."
+
+#: panels/network/network-wifi.ui.h:1
+msgid "Wireless Hotspot"
+msgstr "无线热点"
+
+#: panels/network/network-wifi.ui.h:2
+msgid "_Turn On"
+msgstr "开启(_T)"
+
+#: panels/network/network-wifi.ui.h:4
+msgid "_Use as Hotspot..."
+msgstr "用作热点(_U)..."
+
+#: panels/network/network-wifi.ui.h:5
+msgid "Connect to a Hidden Network"
+msgstr "连接到隐藏网络"
+
+#: panels/network/network-wifi.ui.h:6
+msgid "_Disconnect"
+msgstr "断开连接(_D)"
+
+#: panels/network/network-wifi.ui.h:7
+msgid "_Connect"
+msgstr "连接(_C)"
+
+#: panels/network/network-wifi.ui.h:8
+msgid "Last used"
+msgstr "上次使用的"
+
+#: panels/network/network-wifi.ui.h:9 panels/network/network-wired.ui.h:1
+msgid "Hardware Address"
+msgstr "硬件地址"
+
+#: panels/network/network-wifi.ui.h:10
+msgid "Security"
+msgstr "安全"
+
+#: panels/network/network-wifi.ui.h:11
+msgid "Strength"
+msgstr "强度"
+
+#: panels/network/network-wifi.ui.h:12
+msgid "Link speed"
+msgstr "连接速度"
+
+#: panels/network/network-wifi.ui.h:17
+msgid "_Forget Network"
+msgstr "忘记网络(_F)"
+
+#: panels/network/network-wifi.ui.h:18
+msgid "_Settings..."
+msgstr "设置(_S)…"
+
+#: panels/network/network-wifi.ui.h:19
+msgid "Switch off to connect to a wireless network"
+msgstr "关闭以连接到无线网络"
+
+#: panels/network/network-wifi.ui.h:20
+msgid "Network Name"
+msgstr "网络名称"
+
+#: panels/network/network-wifi.ui.h:21
+msgid "Connected Devices"
+msgstr "已连接的设备"
+
+#: panels/network/network-wifi.ui.h:22
+msgid "Security type"
+msgstr "加密类型"
+
+#: panels/network/network-wifi.ui.h:23
+msgid "Security key"
+msgstr "安全密钥"
+
+#: panels/power/power.ui.h:1
+msgid "Hibernate"
+msgstr "休眠"
+
+#: panels/power/power.ui.h:2
+msgid "Power off"
+msgstr "关机"
+
+#: panels/power/power.ui.h:3 panels/screen/screen.ui.h:6
+msgid "5 minutes"
+msgstr "5 分钟"
+
+#: panels/power/power.ui.h:4 panels/screen/screen.ui.h:7
+msgid "10 minutes"
+msgstr "10 分钟"
+
+#: panels/power/power.ui.h:5 panels/screen/screen.ui.h:8
+msgid "30 minutes"
+msgstr "30 分钟"
+
+#: panels/power/power.ui.h:6 panels/screen/screen.ui.h:9
+msgid "1 hour"
+msgstr "1 小时"
+
+#: panels/power/power.ui.h:7
+msgid "Don't suspend"
+msgstr "不要挂起"
+
+#: panels/power/power.ui.h:8
+msgid "Suspend"
+msgstr "挂起"
+
+#: panels/power/power.ui.h:9
+msgid "Do nothing"
+msgstr "无操作"
+
+#: panels/power/power.ui.h:10
+msgid "Lock Screen"
+msgstr "锁屏"
+
+#: panels/power/power.ui.h:11
+msgid "Shutdown Immediately"
+msgstr "立即关闭"
+
+#: panels/power/power.ui.h:12
+msgid "Ask"
+msgstr "询问"
+
+#: panels/power/power.ui.h:13
+msgid "When battery is present"
+msgstr "使用电池时"
+
+#: panels/power/power.ui.h:14
+msgid "When battery is charging/in use"
+msgstr "充电/使用电池时"
+
+#: panels/power/power.ui.h:15 panels/screen/screen.ui.h:10
+msgid "Never"
+msgstr "从不"
+
+#: panels/power/power.ui.h:16
+msgid "On battery power"
+msgstr "电池供电时"
+
+#: panels/power/power.ui.h:17
+msgid "When plugged in"
+msgstr "电源插入时"
+
+#: panels/power/power.ui.h:18
+msgid "Suspend when inactive for"
+msgstr "在此时间内无操作则挂起："
+
+#: panels/power/power.ui.h:19
+msgid "When power is _critically low"
+msgstr "电量严重不足时(_C)："
+
+#: panels/power/power.ui.h:20
+msgid "When the lid is closed"
+msgstr "合上盖子时"
+
+#: panels/power/power.ui.h:21
+msgid "Show battery status in the _menu bar"
+msgstr "在菜单栏显示电池状态(_M)"
+
+#: panels/power/power.ui.h:22
+msgid "Power button action"
+msgstr "电源按钮动作"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:1
+msgid "Choose a Layout"
+msgstr "选择布局"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:2
+msgid "Preview"
+msgstr "预览"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:3
+msgid "Select an input source to add"
+msgstr "选择一个要添加的输入源"
+
+#: panels/region/cinnamon-region-panel-options-dialog.ui.h:1
+msgid "Keyboard Layout Options"
+msgstr "键盘布局选项"
+
+#: panels/region/cinnamon-region-panel.ui.h:1
+msgid "Region and Language"
+msgstr "区域和语言"
+
+#: panels/region/cinnamon-region-panel.ui.h:2
+msgid ""
+"Select a display language (change will be applied next time you log in)"
+msgstr "选择界面语言(将在下次登录时应用)"
+
+#: panels/region/cinnamon-region-panel.ui.h:3
+msgid "Add Language"
+msgstr "添加语言"
+
+#: panels/region/cinnamon-region-panel.ui.h:4
+msgid "Remove Language"
+msgstr "移除语言"
+
+#: panels/region/cinnamon-region-panel.ui.h:5
+msgid "button"
+msgstr "按钮"
+
+#: panels/region/cinnamon-region-panel.ui.h:6
+msgid "Language"
+msgstr "语言"
+
+#: panels/region/cinnamon-region-panel.ui.h:7
+msgid "Select a region (change will be applied the next time you log in)"
+msgstr "选择一个地区(将在下次登录时应用更改)"
+
+#: panels/region/cinnamon-region-panel.ui.h:8
+msgid "Add Region"
+msgstr "添加地区"
+
+#: panels/region/cinnamon-region-panel.ui.h:9
+msgid "Remove Region"
+msgstr "移除地区"
+
+#: panels/region/cinnamon-region-panel.ui.h:10
+msgid "Dates"
+msgstr "日期"
+
+#: panels/region/cinnamon-region-panel.ui.h:11
+msgid "Times"
+msgstr "时间"
+
+#: panels/region/cinnamon-region-panel.ui.h:12
+msgid "Numbers"
+msgstr "数字"
+
+#: panels/region/cinnamon-region-panel.ui.h:13
+msgid "Currency"
+msgstr "货币"
+
+#: panels/region/cinnamon-region-panel.ui.h:14
+msgid "Measurement"
+msgstr "度量衡"
+
+#: panels/region/cinnamon-region-panel.ui.h:15
+msgid "Examples"
+msgstr "示例"
+
+#: panels/region/cinnamon-region-panel.ui.h:16
+msgid "Formats"
+msgstr "格式"
+
+#: panels/region/cinnamon-region-panel.ui.h:17
+msgid "Add Layout"
+msgstr "添加布局"
+
+#: panels/region/cinnamon-region-panel.ui.h:18
+msgid "Remove Layout"
+msgstr "移除布局"
+
+#: panels/region/cinnamon-region-panel.ui.h:19
+msgid "Move Up"
+msgstr "上移"
+
+#: panels/region/cinnamon-region-panel.ui.h:20
+msgid "Move Down"
+msgstr "下移"
+
+#: panels/region/cinnamon-region-panel.ui.h:21
+msgid "Preview Layout"
+msgstr "预览布局"
+
+#: panels/region/cinnamon-region-panel.ui.h:22
+msgid "Use the same layout for all windows"
+msgstr "所有窗口使用相同的布局"
+
+#: panels/region/cinnamon-region-panel.ui.h:23
+msgid "Allow different layouts for individual windows"
+msgstr "允许各个窗口拥有不同的布局"
+
+#: panels/region/cinnamon-region-panel.ui.h:24
+msgid "New windows use the default layout"
+msgstr "新窗口使用默认布局"
+
+#: panels/region/cinnamon-region-panel.ui.h:25
+msgid "New windows use the previous window's layout"
+msgstr "新窗口中使用前一窗口的布局"
+
+#: panels/region/cinnamon-region-panel.ui.h:27
+msgid "View and edit keyboard layout options"
+msgstr "查看并编辑键盘布局选项"
+
+#: panels/region/cinnamon-region-panel.ui.h:28
+msgid "Reset to De_faults"
+msgstr "重置为默认值(_F)"
+
+#: panels/region/cinnamon-region-panel.ui.h:29
+msgid ""
+"Replace the current keyboard layout settings with the\n"
+"default settings"
+msgstr "使用默认设置替换当前键盘布局"
+
+#: panels/region/cinnamon-region-panel.ui.h:31
+msgid "Keyboard Layouts"
+msgstr "键盘布局"
+
+#: panels/region/cinnamon-region-panel.ui.h:34
+msgid "Display language:"
+msgstr "显示语言："
+
+#: panels/region/cinnamon-region-panel.ui.h:35
+msgid "Input source:"
+msgstr "输入源："
+
+#: panels/region/cinnamon-region-panel.ui.h:36
+msgid "Format:"
+msgstr "格式化："
+
+#: panels/region/cinnamon-region-panel.ui.h:37
+msgid "Your settings"
+msgstr "我的设置"
+
+#: panels/region/cinnamon-region-panel.ui.h:38
+msgid "System settings"
+msgstr "系统设置"
+
+#: panels/region/cinnamon-region-panel.ui.h:40
+msgid "System"
+msgstr "系统"
+
+#: panels/screen/screen.ui.h:1
+msgid "Screen turns off"
+msgstr "关闭屏幕"
+
+#: panels/screen/screen.ui.h:2
+msgid "30 seconds"
+msgstr "30 秒"
+
+#: panels/screen/screen.ui.h:3
+msgid "1 minute"
+msgstr "1 分钟"
+
+#: panels/screen/screen.ui.h:4
+msgid "2 minutes"
+msgstr "2 分钟"
+
+#: panels/screen/screen.ui.h:5
+msgid "3 minutes"
+msgstr "3 分钟"
+
+#: panels/screen/screen.ui.h:11
+msgid "_Dim screen to save power"
+msgstr "调暗屏幕以省电(_D)"
+
+#: panels/screen/screen.ui.h:12
+msgid "Brightness"
+msgstr "亮度"
+
+#: panels/screen/screen.ui.h:13
+msgid "_Turn screen off when inactive for:"
+msgstr "在此时间内无操作则关闭屏幕(_T)："
+
+#: panels/screen/screen.ui.h:14
+msgid "_Lock screen after:"
+msgstr "定时锁定屏幕(_L)："
+
+#: panels/screen/screen.ui.h:15
+msgid "Require my password when waking from suspend"
+msgstr "从挂起状态唤醒时需要密码"
+
+#: panels/screen/screen.ui.h:16
+msgid "Lock"
+msgstr "锁定"
+
+#: panels/universal-access/uap.ui.h:5
+msgid "On screen keyboard"
+msgstr "屏幕键盘"
+
+#: panels/universal-access/uap.ui.h:6
+msgid "GOK"
+msgstr "GNOME 屏幕键盘"
+
+#: panels/universal-access/uap.ui.h:7
+msgid "OnBoard"
+msgstr "屏幕键盘"
+
+#: panels/universal-access/uap.ui.h:8
+msgid "None"
+msgstr "空"
+
+#: panels/universal-access/uap.ui.h:10
+#, no-c-format
+msgid "75%"
+msgstr "75%"
+
+#: panels/universal-access/uap.ui.h:13
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#: panels/universal-access/uap.ui.h:16
+#, no-c-format
+msgid "125%"
+msgstr "125%"
+
+#: panels/universal-access/uap.ui.h:19
+#, no-c-format
+msgid "150%"
+msgstr "150%"
+
+#: panels/universal-access/uap.ui.h:21
+msgid "High Contrast"
+msgstr "高对比度"
+
+#: panels/universal-access/uap.ui.h:22
+msgid "Beep on Caps and Num Lock"
+msgstr "按 Caps 或 Num Lock 键时蜂鸣"
+
+#: panels/universal-access/uap.ui.h:23
+msgid "Options..."
+msgstr "选项..."
+
+#: panels/universal-access/uap.ui.h:24
+msgid "Screen Reader"
+msgstr "屏幕阅读器"
+
+#: panels/universal-access/uap.ui.h:25
+msgid "Turn on or off:"
+msgstr "打开或关闭："
+
+#: panels/universal-access/uap.ui.h:27
+msgid "Zoom in:"
+msgstr "放大："
+
+#: panels/universal-access/uap.ui.h:28
+msgid "Zoom out:"
+msgstr "缩小："
+
+#: panels/universal-access/uap.ui.h:29
+msgid "Large Text"
+msgstr "大号文本"
+
+#: panels/universal-access/uap.ui.h:30
+msgid "Seeing"
+msgstr "视觉"
+
+#: panels/universal-access/uap.ui.h:31
+msgid "Visual Alerts"
+msgstr "视觉警告"
+
+#: panels/universal-access/uap.ui.h:32
+msgid "Use a visual indication when an alert sound occurs"
+msgstr "当警告声发生时使用视觉提示"
+
+#: panels/universal-access/uap.ui.h:33
+msgid "Flash the window title"
+msgstr "闪烁窗口标题栏"
+
+#: panels/universal-access/uap.ui.h:34
+msgid "Flash the entire screen"
+msgstr "闪烁整个屏幕"
+
+#: panels/universal-access/uap.ui.h:35
+msgid "Closed Captioning"
+msgstr "闭合注释"
+
+#: panels/universal-access/uap.ui.h:36
+msgid "Display a textual description of speech and sounds"
+msgstr "显示语音和声音的文字描述。"
+
+#: panels/universal-access/uap.ui.h:37
+msgid "_Test flash"
+msgstr "测试闪光灯(_T)"
+
+#: panels/universal-access/uap.ui.h:38
+msgid "Hearing"
+msgstr "听觉"
+
+#: panels/universal-access/uap.ui.h:39
+msgid "On Screen Keyboard"
+msgstr "屏幕键盘"
+
+#: panels/universal-access/uap.ui.h:40
+msgid "Sticky Keys"
+msgstr "粘滞键"
+
+#: panels/universal-access/uap.ui.h:41
+msgid "Treats a sequence of modifier keys as a key combination"
+msgstr "将一串修改过的键当作一个组合键"
+
+#: panels/universal-access/uap.ui.h:42
+msgid "_Disable if two keys are pressed together"
+msgstr "若同时按下两个键则禁用(_D)"
+
+#: panels/universal-access/uap.ui.h:43
+msgid "Beep when a _modifer key is pressed"
+msgstr "当按下修饰键时发出蜂鸣声(_M)"
+
+#: panels/universal-access/uap.ui.h:44
+msgid "Slow Keys"
+msgstr "慢速键"
+
+#: panels/universal-access/uap.ui.h:45
+msgid "Puts a delay between when a key is pressed and when it is accepted"
+msgstr "当某键按下和接受(识别)之间插入延迟"
+
+#: panels/universal-access/uap.ui.h:46
+msgid "A_cceptance delay:"
+msgstr "可接受延迟(_C)："
+
+#: panels/universal-access/uap.ui.h:48
+msgid "Short"
+msgstr "短"
+
+#: panels/universal-access/uap.ui.h:49
+msgid "Slow keys typing delay"
+msgstr "慢速键输入延迟"
+
+#: panels/universal-access/uap.ui.h:51
+msgid "Long"
+msgstr "长"
+
+#: panels/universal-access/uap.ui.h:53
+msgid "Beep when a key is"
+msgstr "发出蜂鸣声，当键"
+
+#: panels/universal-access/uap.ui.h:55
+msgid "pressed"
+msgstr "被按下"
+
+#: panels/universal-access/uap.ui.h:57
+msgid "accepted"
+msgstr "被接受"
+
+#: panels/universal-access/uap.ui.h:59
+msgid "rejected"
+msgstr "被拒绝"
+
+#: panels/universal-access/uap.ui.h:60
+msgid "Bounce Keys"
+msgstr "回弹键"
+
+#: panels/universal-access/uap.ui.h:61
+msgid "Ignores fast duplicate keypresses"
+msgstr "忽略快速重复按键"
+
+#: panels/universal-access/uap.ui.h:62
+msgid "Acc_eptance delay:"
+msgstr "可接受延迟(_E)："
+
+#: panels/universal-access/uap.ui.h:63
+msgid "Bounce keys typing delay"
+msgstr "回弹键输入延迟"
+
+#: panels/universal-access/uap.ui.h:64
+msgid "Beep when a key is _rejected"
+msgstr "当某个键被拒绝时发出蜂鸣声(_R)"
+
+#: panels/universal-access/uap.ui.h:65
+msgid "Enable by Keyboard"
+msgstr "通过键盘启用"
+
+#: panels/universal-access/uap.ui.h:66
+msgid "Turn accessibility features on and off using the keyboard"
+msgstr "通过键盘开关辅助功能特性"
+
+#: panels/universal-access/uap.ui.h:67
+msgid "Typing"
+msgstr "打字"
+
+#: panels/universal-access/uap.ui.h:68
+msgid "Mouse Keys"
+msgstr "鼠标键"
+
+#: panels/universal-access/uap.ui.h:69
+msgid "Control the pointer using the keypad"
+msgstr "使用小键盘控制鼠标指针。"
+
+#: panels/universal-access/uap.ui.h:70
+msgid "Video Mouse"
+msgstr "视频鼠标"
+
+#: panels/universal-access/uap.ui.h:71
+msgid "Control the pointer using the video camera."
+msgstr "使用摄像头控制鼠标指针"
+
+#: panels/universal-access/uap.ui.h:72
+msgid "Simulated Secondary Click"
+msgstr "模拟次要点击"
+
+#: panels/universal-access/uap.ui.h:73
+msgid "Trigger a secondary click by holding down the primary button"
+msgstr "按住鼠标主键不放时触发次击"
+
+#: panels/universal-access/uap.ui.h:74
+msgid "Secondary click delay"
+msgstr "次要点击延迟"
+
+#: panels/universal-access/uap.ui.h:75
+msgid "Hover Click"
+msgstr "悬停单击"
+
+#: panels/universal-access/uap.ui.h:76
+msgid "Trigger a click when the pointer hovers"
+msgstr "指针悬停时执行点击。"
+
+#: panels/universal-access/uap.ui.h:77
+msgid "D_elay:"
+msgstr "延时(_E)："
+
+#: panels/universal-access/uap.ui.h:78
+msgid "Motion _threshold:"
+msgstr "运动阈值(_T)："
+
+#: panels/universal-access/uap.ui.h:80
+msgid "Small"
+msgstr "小"
+
+#: panels/universal-access/uap.ui.h:82
+msgid "Large"
+msgstr "大"
+
+#: panels/universal-access/uap.ui.h:83
+msgid "Mouse Settings"
+msgstr "鼠标设置"
+
+#: panels/universal-access/uap.ui.h:84
+msgid "Pointing and Clicking"
+msgstr "指向和单击"
+
+#: panels/universal-access/zoom-options.ui.h:1
+msgid "Full Screen"
+msgstr "全屏"
+
+#: panels/universal-access/zoom-options.ui.h:2
+msgid "Top Half"
+msgstr "上半部"
+
+#: panels/universal-access/zoom-options.ui.h:3
+msgid "Bottom Half"
+msgstr "下半部"
+
+#: panels/universal-access/zoom-options.ui.h:4
+msgid "Left Half"
+msgstr "左半部"
+
+#: panels/universal-access/zoom-options.ui.h:5
+msgid "Right Half"
+msgstr "右半部"
+
+#: panels/universal-access/zoom-options.ui.h:6
+msgid "Zoom Options"
+msgstr "缩放选项"
+
+#: panels/universal-access/zoom-options.ui.h:7
+msgid "Zoom"
+msgstr "缩放"
+
+#: panels/universal-access/zoom-options.ui.h:8
+msgid "Magnification:"
+msgstr "放大:"
+
+#: panels/universal-access/zoom-options.ui.h:9
+msgid "Follow mouse cursor"
+msgstr "跟随鼠标光标"
+
+#: panels/universal-access/zoom-options.ui.h:10
+msgid "Screen part:"
+msgstr "屏幕区域："
+
+#: panels/universal-access/zoom-options.ui.h:11
+msgid "Magnifier extends outside of screen"
+msgstr "使放大镜能够表示屏幕显示内容以外的区域"
+
+#: panels/universal-access/zoom-options.ui.h:12
+msgid "Keep magnifier cursor centered"
+msgstr "保持放大镜中鼠标指针在该区域的正中位置"
+
+#: panels/universal-access/zoom-options.ui.h:13
+msgid "Magnifier cursor pushes contents around"
+msgstr "放大镜中鼠标指针移动至其边缘时推挤被放大内容移动"
+
+#: panels/universal-access/zoom-options.ui.h:14
+msgid "Magnifier cursor moves with contents"
+msgstr "放大镜中鼠标指针和被放大内容一同移动"
+
+#: panels/universal-access/zoom-options.ui.h:15
+msgid "Magnifier Position:"
+msgstr "放大镜区域位置："
+
+#: panels/universal-access/zoom-options.ui.h:16
+msgid "Magnifier"
+msgstr "放大镜"
+
+#: panels/universal-access/zoom-options.ui.h:17
+msgid "Thickness:"
+msgstr "粗细："
+
+#: panels/universal-access/zoom-options.ui.h:19
+msgid "Thin"
+msgstr "细"
+
+#: panels/universal-access/zoom-options.ui.h:21
+msgid "Thick"
+msgstr "粗"
+
+#: panels/universal-access/zoom-options.ui.h:22
+msgid "Length:"
+msgstr "长度："
+
+#: panels/universal-access/zoom-options.ui.h:23
+msgid "Color:"
+msgstr "颜色："
+
+#: panels/universal-access/zoom-options.ui.h:24
+msgid "Crosshairs:"
+msgstr "十字光标："
+
+#: panels/universal-access/zoom-options.ui.h:25
+msgid "Overlaps mouse cursor"
+msgstr "光标与鼠标指针重叠"
+
+#: panels/universal-access/zoom-options.ui.h:26
+msgid "Crosshairs"
+msgstr "十字光标"
+
+#: panels/universal-access/zoom-options.ui.h:27
+msgid "White on black:"
+msgstr "白底黑字："
+
+#: panels/universal-access/zoom-options.ui.h:28
+msgid "Brightness:"
+msgstr "亮度："
+
+#: panels/universal-access/zoom-options.ui.h:29
+msgid "Contrast:"
+msgstr "对比度："
+
+#: panels/universal-access/zoom-options.ui.h:34
+msgid "Low"
+msgstr "低"
+
+#: panels/universal-access/zoom-options.ui.h:36
+msgid "High"
+msgstr "高"
+
+#: panels/universal-access/zoom-options.ui.h:37
+msgid "Color Effects:"
+msgstr "色彩效果："
+
+#: panels/universal-access/zoom-options.ui.h:38
+msgid "Color Effects"
+msgstr "色彩效果"
+
+#: generate_additional_files.py:53
+msgid "Brightness & Lock"
+msgstr "亮度和锁屏"
+
+#: generate_additional_files.py:53
+msgid "Screen brightness and lock settings"
+msgstr "配置屏幕亮度和锁定"
+
+#: generate_additional_files.py:68 generate_additional_files.py:99
+msgid "Sound"
+msgstr "声音"
+
+#: generate_additional_files.py:68 generate_additional_files.py:99
+msgid "Change sound volume and sound events"
+msgstr "更改音量和声音事件"
+
+#: generate_additional_files.py:83
+msgid "Color management settings"
+msgstr "色彩管理设置"
+
+#: generate_additional_files.py:113
+msgid "Volume Control"
+msgstr "音量控制"
+
+#: generate_additional_files.py:113
+msgid "Show desktop volume control"
+msgstr "显示桌面音量控制"
+
+#: generate_additional_files.py:128
+msgid "Power"
+msgstr "电源"
+
+#: generate_additional_files.py:128
+msgid "Power management settings"
+msgstr "电源管理设置"
+
+#: generate_additional_files.py:143
+msgid "Region & Language"
+msgstr "区域和语言"
+
+#: generate_additional_files.py:143
+msgid "Change your region and language settings"
+msgstr "更改您的区域和语言设置"
+
+#: generate_additional_files.py:158
+msgid "Displays"
+msgstr "显示"
+
+#: generate_additional_files.py:158
+msgid "Change resolution and position of monitors and projectors"
+msgstr "更改显示器和投影仪的分辨率和位置"
+
+#: generate_additional_files.py:173
+msgid "Network settings"
+msgstr "网络设置"
+
+#: generate_additional_files.py:188
+msgid "Universal Access"
+msgstr "通用辅助功能"
+
+#: generate_additional_files.py:188
+msgid "Universal Access Preferences"
+msgstr "通用辅助功能首选项"

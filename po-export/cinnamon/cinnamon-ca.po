@@ -1,0 +1,4036 @@
+# Catalan translation for linuxmint
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-11-19 23:55+0000\n"
+"PO-Revision-Date: 2013-11-21 09:51+0000\n"
+"Last-Translator: Isidro Pisa <isidro@utils.info>\n"
+"Language-Team: Catalan <ca@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2013-11-26 11:39+0000\n"
+"X-Generator: Launchpad (build 16840)\n"
+
+#: src/gvc/gvc-mixer-control.c:1099
+#, c-format
+msgid "%u Input"
+msgid_plural "%u Inputs"
+msgstr[0] "%u entrada"
+msgstr[1] "%u entrades"
+
+#: generate_additional_files.py:50
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:81
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:37
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:244
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:532
+msgid "System Settings"
+msgstr "Configuració del sistema"
+
+#: generate_additional_files.py:50
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:38
+msgid "Control Center"
+msgstr "Centre de Control"
+
+#: generate_additional_files.py:63
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:82
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:371
+msgid "Users and Groups"
+msgstr "Usuaris i grups"
+
+#: generate_additional_files.py:63
+msgid "Add or remove users and groups"
+msgstr "Afegiu o suprimiu usuaris i grups"
+
+#: src/cinnamon-app.c:347 src/cinnamon-app.c:355
+#: js/ui/notificationDaemon.js:458
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:124
+msgid "Unknown"
+msgstr "Desconeguda"
+
+#: src/cinnamon-app.c:581
+#, c-format
+msgid "Failed to launch '%s'"
+msgstr "No s'ha pogut executar «%s»"
+
+#: src/cinnamon-util.c:89
+msgid "Home"
+msgstr "Inici"
+
+#: src/cinnamon-util.c:98
+msgid "File System"
+msgstr "Sistema de fitxers"
+
+#: src/cinnamon-util.c:244
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:129
+msgid "Search"
+msgstr "Cercar"
+
+#: src/cinnamon-util.c:294
+#, c-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: src/gvc/gvc-mixer-control.c:1082
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:117
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:117
+msgid "Disabled"
+msgstr "Inhabilitat"
+
+#: src/gvc/gvc-mixer-control.c:1089
+#, c-format
+msgid "%u Output"
+msgid_plural "%u Outputs"
+msgstr[0] "%u Sortida"
+msgstr[1] "%u Sortides"
+
+#: src/gvc/gvc-mixer-control.c:1397
+msgid "System Sounds"
+msgstr "Sons del sistema"
+
+#: js/misc/util.js:89
+msgid "Command not found"
+msgstr "No s'ha trobat l'ordre"
+
+#: js/misc/util.js:116
+msgid "Could not parse command:"
+msgstr "No s'ha pogut interpretar l'ordre:"
+
+#: js/misc/util.js:124
+#, c-format
+msgid "Execution of '%s' failed:"
+msgstr "L'execució de '%s' ha fallat:"
+
+#: js/ui/applet.js:410
+msgid "Remove this applet"
+msgstr "Elimina aquest applet"
+
+#: js/ui/applet.js:423 js/ui/desklet.js:226
+msgid "Configure..."
+msgstr "Configura..."
+
+#: js/ui/cinnamonEntry.js:30
+msgid "Copy"
+msgstr "Copiar"
+
+#: js/ui/cinnamonEntry.js:35
+msgid "Paste"
+msgstr "Enganxar"
+
+#: js/ui/cinnamonEntry.js:81
+msgid "Show Text"
+msgstr "Mostra el text"
+
+#: js/ui/cinnamonEntry.js:83
+msgid "Hide Text"
+msgstr "Amaga el text"
+
+#: js/ui/cinnamonMountOperation.js:285
+msgid "Wrong password, please try again"
+msgstr "La contrasenya no és vàlida, torneu-ho a provar"
+
+#: js/ui/desklet.js:233
+msgid "Remove this desklet"
+msgstr "Esborrar aquest desklet"
+
+#: js/ui/expoThumbnail.js:313 js/ui/panel.js:384
+msgid "Yes"
+msgstr "Sí"
+
+#: js/ui/expoThumbnail.js:321 js/ui/panel.js:391
+msgid "No"
+msgstr "No"
+
+#: js/ui/expoThumbnail.js:936
+#, c-format
+msgid ""
+"Are you sure you want to remove workspace \"%s\"?\n"
+"\n"
+msgstr ""
+"Esteu segurs que voleu esborrar l'espai de treball \"%s\"\n"
+"\n"
+
+#: js/ui/extension.js:367
+msgid "Initializing"
+msgstr "S'està inicialitzant"
+
+#: js/ui/extension.js:369
+msgid "Loaded"
+msgstr "Carregat"
+
+#: js/ui/extension.js:371
+msgid "Error"
+msgstr "Error"
+
+#: js/ui/extension.js:373
+msgid "Out of date"
+msgstr "Desactualitzat"
+
+#: js/ui/hotCorner.js:41
+msgid "Invalid overview options: Incorrect number of corners"
+msgstr ""
+"Les opcions de resum no són correctes: el nombre de cantonades és incorrecte"
+
+#: js/ui/keyboard.js:324
+msgid "tray"
+msgstr "safata"
+
+#: js/ui/keyboard.js:555
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:112
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:161
+msgid "Keyboard"
+msgstr "Teclat"
+
+#: js/ui/lookingGlass.js:716
+msgid "No extensions installed"
+msgstr "No hi ha cap extensió instal·lada"
+
+#: js/ui/lookingGlass.js:808
+msgid "View Source"
+msgstr "Visualitza l'origen"
+
+#: js/ui/lookingGlass.js:817
+msgid "Web Page"
+msgstr "Pàgina web"
+
+#: js/ui/lookingGlass.js:826
+msgid "Reload Code"
+msgstr "Recarregar el codi"
+
+#: js/ui/main.js:410
+msgid "Running in software rendering mode"
+msgstr "S'està executant en mode de renderització per software"
+
+#: js/ui/main.js:411
+msgid ""
+"Cinnamon is currently running without video hardware acceleration and, as a "
+"result, you may observe much higher than normal CPU usage.\n"
+"\n"
+msgstr ""
+"El Cinnamon s'està executant sense accel·leració de vídeo oer maquinari i, "
+"llavors, podeu observar un consum de la CPU major del normal.\n"
+"\n"
+
+#: js/ui/main.js:412
+msgid ""
+"There could be a problem with your drivers or some other issue.  For the "
+"best experience, it is recommended that you only use this mode for"
+msgstr ""
+"Podria haver un problema amb els vostres controladors. Per a una experiència "
+"millor, es recomana que només useu aquest mode amb"
+
+#: js/ui/main.js:413
+msgid " troubleshooting purposes."
+msgstr " l'intenció de resoldre problemes"
+
+#: js/ui/main.js:468
+msgid "WORKSPACE"
+msgstr "Espai de treball"
+
+#: js/ui/messageTray.js:448
+#: files/usr/share/cinnamon/applets/calendar@cinnamon.org/applet.js:14
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:204
+msgid "%l:%M %p"
+msgstr "%l:%M %p"
+
+#: js/ui/messageTray.js:1251
+msgid "Open"
+msgstr "Obrir"
+
+#: js/ui/messageTray.js:1258
+#: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:58
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:491
+msgid "Remove"
+msgstr "Suprimir"
+
+#: js/ui/messageTray.js:1814
+msgid "System Information"
+msgstr "Informació del sistema"
+
+#: js/ui/panel.js:426
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:148
+#: files/usr/share/cinnamon/applets/settings@cinnamon.org/applet.js:28
+msgid "Settings"
+msgstr "Configuració"
+
+#: js/ui/panel.js:428 files/usr/lib/cinnamon-settings/modules/cs_themes.py:17
+msgid "Themes"
+msgstr "Temes"
+
+#: js/ui/panel.js:431 files/usr/lib/cinnamon-settings/modules/cs_applets.py:14
+msgid "Applets"
+msgstr "Applets"
+
+#: js/ui/panel.js:434 files/usr/lib/cinnamon-settings/modules/cs_panel.py:9
+msgid "Panel"
+msgstr "Tauler"
+
+#: js/ui/panel.js:442
+msgid "All settings"
+msgstr "Tots els paràmetres"
+
+#: js/ui/panel.js:447
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:147
+msgid "Troubleshoot"
+msgstr "Solució de problemes"
+
+#: js/ui/panel.js:448
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:148
+msgid "Restart Cinnamon"
+msgstr "Reiniciar Cinnamon"
+
+#: js/ui/panel.js:452
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:152
+msgid "Looking Glass"
+msgstr "Consola de l'escriptori"
+
+#: js/ui/panel.js:456
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:156
+msgid "Restore all settings to default"
+msgstr "Restaurar la configuració per defecte"
+
+#: js/ui/panel.js:466
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:166
+msgid "Panel Edit mode"
+msgstr "Mode d'edició del tauler"
+
+#: js/ui/panel.js:490
+msgid "Panel settings"
+msgstr "Opcions del panell"
+
+#: js/ui/panel.js:493
+msgid "Add applets to the panel"
+msgstr "Afegeix applets al tauler"
+
+#: js/ui/placesManager.js:120
+#, c-format
+msgid "Failed to unmount '%s'"
+msgstr "Error al desmuntar '%s'"
+
+#: js/ui/placesManager.js:127
+msgid "Retry"
+msgstr "Tornar a provar"
+
+#: js/ui/placesManager.js:170
+msgid "Connect to..."
+msgstr "Connectar a..."
+
+#: js/ui/runDialog.js:215
+msgid "Please enter a command:"
+msgstr "Si us plau, introdueix una ordre:"
+
+#: js/ui/windowManager.js:974
+msgid "Hold <Super> to enter snap mode"
+msgstr "Manteniu polsat <Super> per entrar en modus ajustat"
+
+#: js/ui/windowManager.js:976
+msgid "Hold <Alt> to enter snap mode"
+msgstr "Manteniu polsat <Alt> per entrar en modus ajustat"
+
+#: js/ui/windowManager.js:978
+msgid "Hold <Ctrl> to enter snap mode"
+msgstr "Manteniu polsat <Ctrl> per entrar en modus ajustat"
+
+#: js/ui/windowManager.js:980
+msgid "Hold <Shift> to enter snap mode"
+msgstr "Manteniu polsat <Shift> per entrar en modus ajustat"
+
+#: js/ui/windowManager.js:982
+msgid "Use the arrow keys to shift workspaces"
+msgstr "Utilitzeu les tecles de fletxa per canviar els espais de treball"
+
+#: js/ui/workspace.js:1492
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:44
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:208
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:88
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:108
+msgid "Close"
+msgstr "Tancar"
+
+#: js/ui/workspace.js:1496
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:53
+msgid "Restore"
+msgstr "Restaurar"
+
+#: js/ui/workspace.js:1498
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:53
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:89
+msgid "Minimize"
+msgstr "Minimitzar"
+
+#: js/ui/workspace.js:1501 js/ui/workspace.js:1574
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:56
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:90
+msgid "Maximize"
+msgstr "Maximitzar"
+
+#: js/ui/workspace.js:1504
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:59
+msgid "Move to left workspace"
+msgstr "Mou a l'espai de treball de l'esquerra"
+
+#: js/ui/workspace.js:1507
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:62
+msgid "Move to right workspace"
+msgstr "Mou a l'espai de treball de la dreta"
+
+#: js/ui/workspace.js:1510 js/ui/workspace.js:1559
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:65
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:73
+msgid "Visible on all workspaces"
+msgstr "Visible a tots els espais de treball"
+
+#: js/ui/workspace.js:1513
+msgid "Move to a new workspace"
+msgstr "Moure a un nou espai de treball"
+
+#: js/ui/workspace.js:1523
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:90
+#, c-format
+msgid "Move to monitor %d"
+msgstr "Moure al monitor %d"
+
+#: js/ui/workspace.js:1557
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:69
+msgid "Only on this workspace"
+msgstr "Només en aquest espai de treball"
+
+#: js/ui/workspace.js:1572
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:56
+msgid "Unmaximize"
+msgstr "Desmaximitzar"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:44
+msgid "Accessibility"
+msgstr "Accessibilitat"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:56
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:34
+msgid "Zoom"
+msgstr "Zoom"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:67
+msgid "Screen Keyboard"
+msgstr "Teclat de pantalla"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:71
+msgid "Visual Alerts"
+msgstr "Alertes visuals"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:74
+msgid "Sticky Keys"
+msgstr "Tecles enganxoses"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:77
+msgid "Slow Keys"
+msgstr "Tecles lentes"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:80
+msgid "Bounce Keys"
+msgstr "Tecles de salt"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:83
+msgid "Mouse Keys"
+msgstr "Tecles del ratolí"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:87
+msgid "Universal Access Settings"
+msgstr "Paràmetres d'accés universal"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:142
+msgid "High Contrast"
+msgstr "Contrast alt"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:179
+msgid "Large Text"
+msgstr "Text gran"
+
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:112
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:143
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:225
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:228
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:230
+msgid "Brightness"
+msgstr "Brillantor"
+
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:117
+msgid "Dimming settings"
+msgstr "Ajustos d'atenuació"
+
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:119
+msgid "Dim screen on AC power"
+msgstr "Pantalla d'atenuació del corrent altern"
+
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:121
+msgid "Dim screen on battery"
+msgstr "Pantalla d'atenuació de la bateria"
+
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:144
+msgid "Brightness not available"
+msgstr "Lluentor no disponible"
+
+#: files/usr/share/cinnamon/applets/calendar@cinnamon.org/applet.js:72
+msgid "Date and Time Settings"
+msgstr "Configurar Data i Hora"
+
+#: files/usr/share/cinnamon/applets/calendar@cinnamon.org/applet.js:86
+msgid "%A %B %e, %Y"
+msgstr "%A, %e %B %Y"
+
+#: files/usr/share/cinnamon/applets/expo@cinnamon.org/applet.js:20
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:118
+msgid "Expo"
+msgstr "Expo"
+
+#: files/usr/share/cinnamon/applets/keyboard@cinnamon.org/applet.js:74
+msgid "Show Keyboard Layout"
+msgstr "Mostrar el mapa del teclat"
+
+#: files/usr/share/cinnamon/applets/keyboard@cinnamon.org/applet.js:78
+msgid "Show Character Table"
+msgstr "Mostrar taula de caràcters"
+
+#: files/usr/share/cinnamon/applets/keyboard@cinnamon.org/applet.js:82
+msgid "Region and Language Settings"
+msgstr "Configuració de la Regió i l'Idioma"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:221
+msgid "Add to panel"
+msgstr "Afegix al tauler"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:224
+msgid "Add to desktop"
+msgstr "Afegeix a l'escriptori"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:228
+msgid "Remove from favorites"
+msgstr "Eliminar dels preferits"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:231
+msgid "Add to favorites"
+msgstr "Afegir a preferits"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:472
+#: files/usr/share/cinnamon/applets/recent@cinnamon.org/applet.js:70
+msgid "Clear list"
+msgstr "Neteja la llista"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:509
+msgid "All Applications"
+msgstr "Totes les aplicacions"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:534
+msgid "Places"
+msgstr "Llocs"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:554
+msgid "Recent Files"
+msgstr "Fitxers recents"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:798
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:87
+msgid "Menu"
+msgstr "Menú"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1571
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:120
+#: files/usr/lib/cinnamon-screensaver-lock-dialog/cinnamon-screensaver-lock-dialog.py:37
+msgid "Lock screen"
+msgstr "Bloqueja la pantalla"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1572
+msgid "Lock the screen"
+msgstr "Bloqueja la pantalla"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1601
+msgid "Logout"
+msgstr "Tancar sessió"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1602
+msgid "Leave the session"
+msgstr "Abandona la sessió"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1618
+msgid "Quit"
+msgstr "Sortir"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1619
+msgid "Shutdown the computer"
+msgstr "Aturar l'equip"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1726
+msgid "Type to search..."
+msgstr "Escriu per cercar..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:95
+msgid "<unknown>"
+msgstr "<desconegut>"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:305
+msgid "disabled"
+msgstr "desabilitada"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:505
+msgid "unmanaged"
+msgstr "no gestionat"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:507
+msgid "disconnecting..."
+msgstr "desconnectant..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:513
+msgid "connecting..."
+msgstr "connectant..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:516
+msgid "authentication required"
+msgstr "Es necessita autenticació"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:526
+msgid "firmware missing"
+msgstr "no es troba el controlador"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:533
+msgid "cable unplugged"
+msgstr "cable desconnectat"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:538
+msgid "unavailable"
+msgstr "no disponible"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:540
+msgid "connection failed"
+msgstr "ha fallat la connexió"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:596
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1553
+msgid "More..."
+msgstr "Més..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:632
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1488
+msgid "Connected (private)"
+msgstr "Connectat (privat)"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:710
+msgid "Auto Ethernet"
+msgstr "Ethernet automàtic"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:774
+msgid "Auto broadband"
+msgstr "Banda ampla automàtica"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:777
+msgid "Auto dial-up"
+msgstr "Connexió telefònica automàtica"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:899
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1500
+#, c-format
+msgid "Auto %s"
+msgstr "%s automàtic"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:901
+msgid "Auto bluetooth"
+msgstr "Bluetooth automàtic"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1502
+msgid "Auto wireless"
+msgstr "Xarxa sense fils automàtic"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1590
+msgid "Network Manager"
+msgstr "Gestor de xarxes"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1623
+msgid "Enable networking"
+msgstr "Habilita la xarxa"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1635
+msgid "Wired"
+msgstr "Amb fil"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1646
+msgid "Wireless"
+msgstr "Sense fil"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1656
+msgid "Mobile broadband"
+msgstr "Banda ampla mòbil"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1666
+msgid "VPN Connections"
+msgstr "Connexions VPN"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1677
+msgid "Network Settings"
+msgstr "Configuració de xarxa"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1828
+msgid "Connection failed"
+msgstr "Ha fallat la connexió"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1829
+msgid "Activation of network connection failed"
+msgstr "Ha fallat l'activació de la xarxa"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2086
+msgid "Networking is disabled"
+msgstr "La xarxa està deshabilitada"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2105
+msgid "No connection"
+msgstr "Sense connexió"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2111
+msgid "Connecting to the cellular network..."
+msgstr "Connectant a la xarxa mòbil..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2115
+msgid "Connecting to the wireless network..."
+msgstr "Connectant a la xarxa sense fil..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2119
+msgid "Connecting to the wired network..."
+msgstr "Connectant a la xarxa amb fil..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2123
+msgid "Connecting to the VPN..."
+msgstr "Connectant a la xarxa VPN..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2129
+msgid "Connecting to the network..."
+msgstr "Connectant a la xarxa..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2145
+msgid "Connected to the wireless network"
+msgstr "Connectat a la xarxa sense fil"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2148
+msgid "Wireless connection"
+msgstr "Connexió per xarxa sense fil"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2158
+msgid "Connected to the wired network"
+msgstr "Connectat a la xarxa amb fil"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2169
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2174
+msgid "Connected to the cellular network"
+msgstr "Connectat a la xarxa mòbil"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2179
+msgid "Connected to the VPN"
+msgstr "Connectat a la xarxa VPN"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2185
+msgid "Connected to the network"
+msgstr "Connectat a la xarxa"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:36
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:63
+msgid "Notifications"
+msgstr "Notificacions"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:46
+msgid "Clear notifications"
+msgstr "Esborra les notificacions"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:237
+msgid "No notifications"
+msgstr "Sense notificacions"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:240
+msgid " notification"
+msgstr " notificació"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:243
+msgid " notifications"
+msgstr " notificacions"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:257
+msgid " (Just now)"
+msgstr " (Ara mateix)"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:260
+#, c-format
+msgid " (%s seconds ago)"
+msgstr " (fa %s segons)"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:263
+#, c-format
+msgid " (%s minute ago)"
+msgstr " (fa %s minut)"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:266
+#, c-format
+msgid " (%s minutes ago)"
+msgstr " (fa %s minuts)"
+
+#: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:46
+msgid "Launch"
+msgstr "Executar"
+
+#: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:50
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:503
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:272
+msgid "Add"
+msgstr "Afegir"
+
+#: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:54
+msgid "Edit"
+msgstr "Editar"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:102
+msgid "AC adapter"
+msgstr "Adaptador de la xarxa elèctrica"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:104
+msgid "Laptop battery"
+msgstr "Bateria del portàtil"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:106
+msgid "UPS"
+msgstr "SAI"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:108
+msgid "Monitor"
+msgstr "Monitor"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:110
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:30
+msgid "Mouse"
+msgstr "Ratolí"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:114
+msgid "PDA"
+msgstr "PDA"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:116
+msgid "Cell phone"
+msgstr "Telèfon mòbil"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:118
+msgid "Media player"
+msgstr "Reproductor multimèdia"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:120
+msgid "Tablet"
+msgstr "Tauleta tàctil"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:122
+msgid "Computer"
+msgstr "Ordinador"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:180
+#: files/usr/share/cinnamon/applets/xrandr@cinnamon.org/applet.js:45
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:64
+msgid "Display"
+msgstr "Pantalla"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:182
+msgid "Show percentage"
+msgstr "Mostra el percentatge"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:187
+msgid "Show time remaining"
+msgstr "Mostra el temps restant"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:192
+msgid "Hide label"
+msgstr "Amaga l'etiqueta"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:200
+msgid "Power Settings"
+msgstr "Configuració d'energia"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:249
+msgid "Estimating..."
+msgstr "Estimant..."
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:256
+#, c-format
+msgid "%d hour remaining"
+msgid_plural "%d hours remaining"
+msgstr[0] "Queda %d hora"
+msgstr[1] "Queden %d hores"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:259
+#, c-format
+msgid "%d %s %d %s remaining"
+msgstr "Queden %d %s %d %s"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:261
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "hora"
+msgstr[1] "hores"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:261
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minut"
+msgstr[1] "minuts"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:264
+#, c-format
+msgid "%d minute remaining"
+msgid_plural "%d minutes remaining"
+msgstr[0] "Queda %d minut"
+msgstr[1] "Queden %d minuts"
+
+#: files/usr/share/cinnamon/applets/recent@cinnamon.org/applet.js:41
+msgid "Recent documents"
+msgstr "Documents recents"
+
+#: files/usr/share/cinnamon/applets/recent@cinnamon.org/applet.js:74
+msgid "No recent documents"
+msgstr "No hi ha documents recents"
+
+#: files/usr/share/cinnamon/applets/removable-drives@cinnamon.org/applet.js:53
+msgid "Removable drives"
+msgstr "Unitats extraïbles"
+
+#: files/usr/share/cinnamon/applets/removable-drives@cinnamon.org/applet.js:65
+msgid "Open file manager"
+msgstr "Obrir el gestor de fitxers"
+
+#: files/usr/share/cinnamon/applets/scale@cinnamon.org/applet.js:20
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:80
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:84
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:88
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:92
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:96
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:100
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:119
+msgid "Scale"
+msgstr "Escala"
+
+#: files/usr/share/cinnamon/applets/settings-example@cinnamon.org/applet.js:96
+msgid "Hi there!"
+msgstr "Hola!"
+
+#: files/usr/share/cinnamon/applets/settings-example@cinnamon.org/applet.js:129
+msgid "YOU PRESSED THE BUTTON!!!"
+msgstr "Heu apretat el botó!"
+
+#: files/usr/share/cinnamon/applets/settings-example@cinnamon.org/applet.js:137
+msgid "YOU USED THE HOTKEY!!!"
+msgstr "Heu usat la tecla de drecera!"
+
+#: files/usr/share/cinnamon/applets/show-desktop@cinnamon.org/applet.js:15
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:58
+msgid "Show desktop"
+msgstr "Mostrar l'escriptori"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:114
+msgid "Playing"
+msgstr "Reproduint"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:115
+msgid "Paused"
+msgstr "Pausat"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:116
+msgid "Stopped"
+msgstr "Aturat"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:394
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:575
+msgid "Unknown Artist"
+msgstr "Artista desconegut"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:395
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:579
+msgid "Unknown Album"
+msgstr "Àlbum desconegut"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:396
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:583
+msgid "Unknown Title"
+msgstr "Títol desconegut"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:407
+msgid "Previous"
+msgstr "Anterior"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:410
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:136
+msgid "Play"
+msgstr "Reprodueix"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:413
+msgid "Stop"
+msgstr "Atura"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:416
+msgid "Next"
+msgstr "Següent"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:452
+msgid "Open Player"
+msgstr "Obre el reproductor"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:462
+msgid "Quit Player"
+msgstr "Tanca el reproductor"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:841
+msgid "Mute output"
+msgstr "Silencia la sortida d'audio"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:842
+msgid "Mute input"
+msgstr "Silencia l'entrada d'audio"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1009
+msgid "Launch player..."
+msgstr "Executar reproductor..."
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1022
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1084
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1085
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1090
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1091
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1110
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1111
+msgid "Volume"
+msgstr "Volum"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1029
+msgid "Microphone"
+msgstr "Micròfon"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1036
+msgid "Sound Settings"
+msgstr "Paràmetres del so"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1038
+msgid "Output device..."
+msgstr "Dispositiu de sortida"
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:21
+msgid "Trash"
+msgstr "Paperera"
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:39
+msgid "Empty Trash"
+msgstr "Buidar paperera"
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:42
+msgid "Open Trash"
+msgstr "Obrir paperera"
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:86
+msgid "Are you sure you want to delete all items from the trash?"
+msgstr "Estàs segur/a que vols eliminar tots els elements de la paperera?"
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:86
+msgid "This operation cannot be undone."
+msgstr "Aquesta operació no es pot desfer."
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:107
+msgid "Empty Trash?"
+msgstr "Buidar paperera?"
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:118
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:277
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:125
+msgid "Empty"
+msgstr "Buida"
+
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:77
+msgid "Account Details"
+msgstr "Detalls del compte"
+
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:87
+msgid "Lock Screen"
+msgstr "Bloca la pantalla"
+
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:105
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:117
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:123
+msgid "Switch User"
+msgstr "Canvia d'usuari"
+
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:110
+msgid "Guest Session"
+msgstr "Sessió de convidat"
+
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:129
+msgid "Log Out..."
+msgstr "Surt..."
+
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:135
+msgid "Power Off..."
+msgstr "Apagar ..."
+
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:47
+msgid "Close all"
+msgstr "Tanca-ho tot"
+
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:50
+msgid "Close others"
+msgstr "Tancar altres"
+
+#: files/usr/share/cinnamon/applets/windows-quick-list@cinnamon.org/applet.js:24
+msgid "All windows"
+msgstr "Totes les finestres"
+
+#: files/usr/share/cinnamon/applets/windows-quick-list@cinnamon.org/applet.js:106
+msgid "No open windows"
+msgstr "No hi han finestres obertes"
+
+#: files/usr/share/cinnamon/applets/workspace-switcher@cinnamon.org/applet.js:18
+msgid "Switch workspace"
+msgstr "Canvia l'espai de treball"
+
+#: files/usr/share/cinnamon/applets/xrandr@cinnamon.org/applet.js:88
+msgid "Configure display settings..."
+msgstr "Configurar les opcions de visualització"
+
+#: files/usr/share/cinnamon/desklets/clock@cinnamon.org/desklet.js:20
+msgid "Clock"
+msgstr "Rellotge"
+
+#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/desklet.js:31
+msgid "Add new launcher"
+msgstr "Afegir un nou llançador"
+
+#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/desklet.js:34
+msgid "Edit launcher"
+msgstr "Modificar llançador"
+
+#: files/usr/share/cinnamon/desklets/photoframe@cinnamon.org/desklet.js:85
+msgid "Photo Frame"
+msgstr "Fotograma"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:39
+msgid "Switch to Normal Mode"
+msgstr "Canviar a mode normal"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:40
+msgid "Switch to Advanced Mode"
+msgstr "Canviar a mode avançat"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:55
+msgid "Appearance"
+msgstr "Aspecte"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:56
+msgid "Preferences"
+msgstr "Preferències"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:57
+msgid "Hardware"
+msgstr "Maquinari"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:58
+msgid "Administration"
+msgstr "Administració"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:63
+msgid "Networking"
+msgstr "Connexions"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:63
+msgid "network, wireless, wifi, ethernet, broadband, internet"
+msgstr "xarxa, sense fils, wifi, ethernet, banda ampla, internet"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:64
+msgid "display, screen, monitor, layout, resolution, dual, lcd"
+msgstr "visualització, pantalla, monitor, disposició, resolució, dual, lcd"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:65
+msgid "Regional Settings"
+msgstr "Configuració regional"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:65
+msgid "region, layout, keyboard, language"
+msgstr "regió, disposició, teclat, idioma"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:66
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:66
+msgid "bluetooth, dongle, transfer, mobile"
+msgstr "bluetooth, dongle, transferència, mòbil"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:67
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:474
+msgid "Universal Access"
+msgstr "Accés universal"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:67
+msgid "magnifier, talk, access, zoom, keys, contrast"
+msgstr "lupa, veu, accès, zoom, tecles, contrast"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:68
+msgid "Power Management"
+msgstr "Gestió d'energia"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:68
+msgid "power, suspend, hibernate, laptop, desktop"
+msgstr "energia, suspendre, hivernar, portàtil, escriptori"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:69
+msgid "Sound"
+msgstr "Àudio"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:69
+msgid "sound, speakers, headphones, test"
+msgstr "so, altaveus, auriculars, prova"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:70
+msgid "Color"
+msgstr "Color"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:70
+msgid "color, profile, display, printer, output"
+msgstr "color, perfil, visualització, impresora, sortida"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:75
+msgid "Printers"
+msgstr "Impressores"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:75
+msgid "printers, laser, inkjet"
+msgstr "impresora, làser, injecció de tinta"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:76
+msgid "Firewall"
+msgstr "Tallafocs"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:76
+msgid "firewall, block, filter, programs"
+msgstr "tallafocs, bloqueig, filtre, programes"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:77
+msgid "Languages"
+msgstr "Idiomes"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:77
+msgid "language, install, foreign"
+msgstr "idioma, instal·lació, estranger"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:78
+msgid "Login Screen"
+msgstr "Pantalla d'inici de sessió"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:78
+msgid "login, mdm, gdm, manager, user, password, startup, switch"
+msgstr "inici de sessió, mdm, gdm, gestor, usuari, contrasenya, inici, canvi"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:79
+msgid "Startup Programs"
+msgstr "Programes d'inici"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:79
+msgid "startup, programs, boot, init, session"
+msgstr "inici, programes, arrencada, init, sessió"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:80
+msgid "Device Drivers"
+msgstr "Controladors de dispositius"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:80
+msgid ""
+"video, driver, wifi, card, hardware, proprietary, nvidia, radeon, nouveau, "
+"fglrx"
+msgstr ""
+"vídeo, controlador, wifi, tarja, maquinari, propietari, nvidia, radeon, "
+"nouveau, fglrx"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:81
+msgid "Software Sources"
+msgstr "Fonts del programari"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:81
+msgid "ppa, repository, package, source, download"
+msgstr "ppa, repositori, paquet, font, baixada"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:82
+msgid "user, users, account, accounts, group, groups, password"
+msgstr "usuari, usuaris, compte, comptes, grup, grups, contrasenya"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:155
+msgid "All Settings"
+msgstr "Totes les opcions"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:49
+msgid "The group name cannot contain space characters"
+msgstr "El nom del grup no pot contenir espais"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:158
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:336
+msgid "New password"
+msgstr "Contrasenya nova"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:158
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:340
+msgid "Confirm password"
+msgstr "Confirmeu la contrasenya"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:162
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:351
+msgid "Generate a password"
+msgstr "Genera una contrasenya"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:168
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:174
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:357
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:363
+msgid "Your new password needs to be at least 8 characters long"
+msgstr "La nova contrasenya ha de tenir almenys 8 caracters"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:182
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:371
+msgid "Show password"
+msgstr "Mostra la contrasenya"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:188
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:377
+msgid "An error occured. Your password was not changed."
+msgstr "Hi ha hagut un error. La vostra contrasenya no s'ha canviat."
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:199
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:388
+msgid "Change"
+msgstr "Canvia"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:246
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:469
+msgid "Passwords do not match"
+msgstr "Les contrasenyes no coincideixen"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:250
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:473
+msgid "Too short"
+msgstr "Massa curta"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:253
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:476
+msgid "OK"
+msgstr "Acceptar"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:278
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:456
+msgid "Standard"
+msgstr "Estàndard"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:279
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:457
+msgid "Administrator"
+msgstr "Administrador"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:289
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:486
+msgid "Account Type"
+msgstr "Tipus de compte"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:289
+msgid "Full Name"
+msgstr "Nom complert"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:289
+msgid "Username"
+msgstr "Usuari"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:310
+msgid "The username cannot contain space characters"
+msgstr "El nom d'usuari no pot contenir espais"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:372
+msgid "Users"
+msgstr "Usuaris"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:373
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:486
+msgid "Groups"
+msgstr "Grups"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:421
+msgid "Click to change the picture"
+msgstr "Clica per canviar la imatge"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:426
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:98
+msgid "Browse for more pictures..."
+msgstr "Cerca més imatges…"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:462
+msgid "Click to change the name"
+msgstr "clica per canviar el nom"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:469
+msgid "Click to change the password"
+msgstr "Clica per canviar la contrasenya"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:479
+msgid "Click to change the groups"
+msgstr "Clica per canviar els grups"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:486
+msgid "Picture"
+msgstr "Imatge"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:486
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:241
+msgid "Name"
+msgstr "Nom"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:486
+msgid "Password"
+msgstr "Contrasenya"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:553
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:239
+msgid "Images"
+msgstr "Imatges"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:668
+msgid "No password set"
+msgstr "No s'ha establert contrasenya"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:670
+msgid "Set at login"
+msgstr "Ajust en iniciar la sessió"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:693
+msgid "This user is currently logged in"
+msgstr "Aquest usuari està connectat en aquest moment"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:706
+#, c-format
+msgid ""
+"Are you sure you want to permanently delete %s and all the files associated "
+"with this user?"
+msgstr ""
+"Segur que vols esborrar permanentment %s i tots els fitxers associats amb "
+"aquest usuari?"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:764
+#, c-format
+msgid "This group is set as %s's primary group"
+msgstr "Aquest és el grup primari de %s"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:776
+#, c-format
+msgid "Are you sure you want to permanently delete %s?"
+msgstr "Segur que voleu suprimir permanentment %s?"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:791
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:802
+msgid "Group Name"
+msgstr "Nom del grup"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_applets.py:7
+#: files/usr/lib/cinnamon-settings/modules/cs_applets.py:11
+msgid "applet"
+msgstr "Applet"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_applets.py:12
+msgid "applets"
+msgstr "applets"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_applets.py:13
+msgid "panel"
+msgstr "panell"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_applets.py:26
+msgid ""
+"You can remove specific instances in panel edit mode via the context menu."
+msgstr ""
+"Podeu esborrar instàncies específiques en mode edició de panell a través del "
+"menú contextual"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:17
+msgid "Wallpaper"
+msgstr "Fons d'escriptori"
+
+#. #-#-#-#-#  uniq-cinnamon-json.pot  #-#-#-#-#
+#. photoframe@cinnamon.org->settings-schema.json->effect->options
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:23
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:80
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:84
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:88
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:92
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:96
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:100
+msgid "None"
+msgstr "Cap"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:24
+msgid "Horizontal"
+msgstr "Horitzontal"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:25
+msgid "Vertical"
+msgstr "Vertical"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:29
+msgid "No picture"
+msgstr "Sense imatge"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:30
+msgid "Mosaic"
+msgstr "Mosàic"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:31
+msgid "Centered"
+msgstr "Centrat"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:32
+msgid "Scaled"
+msgstr "Escalat"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:33
+msgid "Stretched"
+msgstr "Estirat"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:35
+msgid "Spanned"
+msgstr "Distribuït"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:42
+msgid "background, picture, screenshot, slideshow"
+msgstr "fons, imatge, captura de pantalla, mostra de diapositives"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:44
+msgid "Backgrounds"
+msgstr "Fons del escriptori"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:352
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:510
+msgid "Add wallpapers"
+msgstr "Afegir fons d'escriptori"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:375
+msgid "Folder"
+msgstr "Carpeta"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:383
+msgid "Recursive listing"
+msgstr "Llistat recursiu"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:388
+msgid "Delay"
+msgstr "Retard"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:499
+msgid "Remove wallpaper"
+msgstr "Suprimeix el fons de l'escriptori"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:529
+msgid "Advanced options"
+msgstr "Opcions avançades"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:537
+msgid "Picture aspect"
+msgstr "Relació d'aspecte de la imatge"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:543
+msgid "Gradient"
+msgstr "Degradat"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:550
+msgid "Colors"
+msgstr "Colors"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:10
+msgid "time, date, calendar, format, network, sync"
+msgstr "hora, data, calendari, format, xarxa, sincronització"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:12
+msgid "Date & Time"
+msgstr "Data i hora"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:21
+msgid "Use network time"
+msgstr "Fer servir l'hora de la xarxa"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:94
+msgid "Region"
+msgstr "Regió"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:116
+msgid "City"
+msgstr "Ciutat"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:178
+msgid "January"
+msgstr "Gener"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:178
+msgid "February"
+msgstr "Febrer"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:178
+msgid "March"
+msgstr "Març"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:178
+msgid "April"
+msgstr "Abril"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:178
+msgid "May"
+msgstr "Maig"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:178
+msgid "June"
+msgstr "Juny"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:178
+msgid "July"
+msgstr "Juliol"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:178
+msgid "August"
+msgstr "Agost"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:178
+msgid "September"
+msgstr "Setembre"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:178
+msgid "October"
+msgstr "Octubre"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:178
+msgid "November"
+msgstr "Novembre"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:178
+msgid "December"
+msgstr "Desembre"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:222
+msgid ":"
+msgstr ":"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:229
+msgid "Date : "
+msgstr "Data: "
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:231
+msgid "Time : "
+msgstr "Hora: "
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:28
+msgid "_Web"
+msgstr "_Web"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:29
+msgid "_Mail"
+msgstr "_Correu"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:30
+msgid "_Calendar"
+msgstr "_Calendari"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:34
+msgid "M_usic"
+msgstr "_Música"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:35
+msgid "_Video"
+msgstr "_Vídeo"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:36
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:43
+msgid "_Photos"
+msgstr "_Fotos"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:40
+msgid "CD _audio"
+msgstr "_CD d'àudio"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:40
+msgid "Select an application for audio CDs"
+msgstr "Seleccioneu l'aplicació per als CD d'àudio"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:41
+msgid "_DVD video"
+msgstr "_DVD de vídeo"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:41
+msgid "Select an application for video DVDs"
+msgstr "Seleccioneu l'aplicació per als DVD de vídeo"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:42
+msgid "_Music player"
+msgstr "Reproductor de _música"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:42
+msgid "Select an application to run when a music player is connected"
+msgstr ""
+"Seleccioneu l'aplicació que s'iniciarà quan es connecti un reproductor de "
+"música"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:43
+msgid "Select an application to run when a camera is connected"
+msgstr "Seleccioneu l'aplicació que s'iniciarà quan es connecti una càmera"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:44
+msgid "_Software"
+msgstr "_Programari"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:44
+msgid "Select an application for software CDs"
+msgstr "Seleccioneu l'aplicació per als CD de programari"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:52
+msgid "audio DVD"
+msgstr "DVD d'àudio"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:53
+msgid "blank Blu-ray disc"
+msgstr "Disc Blu-ray en blanc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:54
+msgid "blank CD disc"
+msgstr "Disc CD en blanc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:55
+msgid "blank DVD disc"
+msgstr "Disc DVD en blanc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:56
+msgid "blank HD DVD disc"
+msgstr "disc DVD HD en blanc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:57
+msgid "Blu-ray video disc"
+msgstr "disc de vídeo Blu-Ray"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:58
+msgid "e-book reader"
+msgstr "Lector de llibres digitals"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:59
+msgid "HD DVD video disc"
+msgstr "disc de vídeo DVD HD"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:60
+msgid "Picture CD"
+msgstr "CD de fotos"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:61
+msgid "Super Video CD"
+msgstr "Supervídeo CD"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:62
+msgid "Video CD"
+msgstr "CD de vídeo"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:63
+msgid "Windows software"
+msgstr "Programari Windows"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:64
+msgid "Software"
+msgstr "Programari"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:143
+msgid "Ask what to do"
+msgstr "Pregunta què s'ha de fer"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:145
+msgid "Open folder"
+msgstr "Obre la carpeta"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:147
+msgid "Do nothing"
+msgstr "No facis res"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:205
+msgid "Other Media"
+msgstr "Altres suports"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:231
+msgid "_Type:"
+msgstr "_Tipus:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:234
+msgid "Select how other media should be handled"
+msgstr "Seleccioneu com s'han de gestionar els altres suports"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:306
+msgid "_Action:"
+msgstr "_Acció:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:311
+msgid ""
+"media, defaults, applications, programs, removable, browser, email, "
+"calendar, music, videos, photos, images, cd, autostart"
+msgstr ""
+"suports, per defecte, aplicacions, programes, extraïbles, navegador, correu "
+"electrònic, agenda, música, vídeos, fotos, imatges, cd, inici automàtic"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:313
+msgid "Applications & Removable Media"
+msgstr "Aplicacions i suports extraïbles"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:330
+msgid "Default Applications"
+msgstr "Aplicacions per defecte"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:350
+msgid "_Other Media..."
+msgstr "_Altres suports..."
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:354
+msgid "_Never prompt or start programs on media insertion"
+msgstr "_No preguntis mai ni iniciïs programes quan s'insereixin suports"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:359
+msgid "Select how media should be handled"
+msgstr "Seleccioneu com s'han de gestionar els suports"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:9
+msgid "desklet, desktop, slideshow"
+msgstr "desklet, escriptori, mostra de diapositives"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:13
+msgid "desklet"
+msgstr "desklet"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:14
+msgid "desklets"
+msgstr "desklets"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:15
+msgid "desktop"
+msgstr "escriptori"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:16
+msgid "Desklets"
+msgstr "Desklets"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:27
+msgid ""
+"You can remove specific instances from the desktop via that desklet's "
+"context menu"
+msgstr ""
+"Esborreu instàncies específiques des de l'escriptori a través del menú "
+"contextual d'aquest desklet"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:39
+msgid "General Desklets Settings"
+msgstr "Preferències generals per als Desklets"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:44
+msgid "No decoration"
+msgstr "Sense decoració"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:44
+msgid "Border only"
+msgstr "Només vora"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:44
+msgid "Border and header"
+msgstr "Vora i capçalera"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:45
+msgid "Decoration of desklets"
+msgstr "Decoració de desklets"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:48
+msgid "Note: Some desklets require the border/header to be always present"
+msgstr ""
+"Nota: alguns desklets requereixen que la vora/capçalera estigui sempre "
+"present"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:48
+msgid "Such requirements override the settings selected here"
+msgstr ""
+"Aquests requisits tenen prioritat sobre la configuració seleccionada aquí"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:50
+msgid "Snap desklets to grid"
+msgstr "Ajustar desklets a la quadrícula"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:51
+msgid "Width of desklet snap grid"
+msgstr "Ample de la quadrícula d'ajust de desklets"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:8
+msgid "desktop, home, button, trash"
+msgstr "escriptori, casa, botó, paperera"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:10
+msgid "Desktop"
+msgstr "Escriptori"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:20
+msgid "Show a computer icon"
+msgstr "Mostrar icona d'equip"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:22
+msgid "Show a home icon"
+msgstr "Mostrar icona de casa"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:24
+msgid "Show the trash"
+msgstr "Mostrar la paperera"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:26
+msgid "Show mounted volumes"
+msgstr "Mostrar els volums muntats"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:28
+msgid "Show network servers"
+msgstr "Mostrar els servidors de xarxa"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:8
+msgid "effects, fancy, window"
+msgstr "efectes, fantasia, finestra"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:10
+msgid "Effects"
+msgstr "Efectes"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:14
+msgid "Enable desktop effects"
+msgstr "Habilita els efectes d'escriptori"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:17
+msgid "Enable desktop effects on dialog boxes"
+msgstr "Habilitar efectes d'escriptori en els quadres de diàleg"
+
+#. #-#-#-#-#  uniq-cinnamon-json.pot  #-#-#-#-#
+#. menu@cinnamon.org->settings-schema.json->hover-delay->units
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:73
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:26
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:29
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:34
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:37
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:41
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:44
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:16
+msgid "milliseconds"
+msgstr "mil·lisegons"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:80
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:84
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:88
+msgid "Fade"
+msgstr "Esvaeix"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:81
+msgid "Closing windows:"
+msgstr "Al tancar finestres:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:85
+msgid "Mapping windows:"
+msgstr "Mapar finestres:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:88
+msgid "Traditional"
+msgstr "Tradicional"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:89
+msgid "Minimizing windows:"
+msgstr "Al minimitzar finestres:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:93
+msgid "Maximizing windows:"
+msgstr "Al maximitzar finestres:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:97
+msgid "Unmaximizing windows:"
+msgstr "Al desmaximitzar finestres:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:101
+msgid "Tiling and snapping windows:"
+msgstr "Fer mosaic i ajustar finestres:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:103
+msgid ""
+"Enable fade effect on Cinnamon scrollboxes (like the Menu application list)"
+msgstr ""
+"Habilitar efecte esvair en quadres de desplaçament de Cinnamon (com ara la "
+"llista d'aplicacions del menú)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_extensions.py:7
+msgid "extension, addon"
+msgstr "extensió, complement"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_extensions.py:11
+msgid "extension"
+msgstr "extensió"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_extensions.py:12
+msgid "extensions"
+msgstr "extensions"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_extensions.py:15
+msgid "Extensions"
+msgstr "Extensions"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:7
+msgid "font, size, small, large"
+msgstr "font, mida, petit, gran"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:9
+msgid "Fonts"
+msgstr "Lletres"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:13
+msgid "Default font"
+msgstr "Tipus de lletra per defecte"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:14
+msgid "Document font"
+msgstr "Tipus de lletra per documents"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:15
+msgid "Monospace font"
+msgstr "Tipus de lletra de mida fixa"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:16
+msgid "Window title font"
+msgstr "Tipus de lletra pel títol de les finestres"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:17
+msgid "Text scaling factor"
+msgstr "Factor d'escalat del tipus de lletra"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:18
+msgid "Antialiasing"
+msgstr "Suavitzat"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:19
+msgid "Hinting"
+msgstr "Millora de contorn de lletres"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:7
+msgid "logging, click, notifications"
+msgstr "inici de sessió, clic, notificacions"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:9
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:36
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:97
+msgid "General"
+msgstr "General"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:13
+msgid ""
+"Log LookingGlass output to ~/.cinnamon/glass.log (Requires Cinnamon restart)"
+msgstr ""
+"Registrar la sortida de LookingGlass en ~/.cinnamon/glass.log (Requereix "
+"reiniciar Cinnamon)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:14
+msgid "Display notifications"
+msgstr "Mostra les notificacions"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:15
+msgid "hotcorner, overview, scale, expo"
+msgstr "cantonada activa, vista general, escala, exposició"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:17
+msgid "Hot Corners"
+msgstr "Cantonades actives"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:120
+msgid "Custom"
+msgstr "Personalitzat"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:132
+msgid "Icon visible"
+msgstr "Icona visible"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:83
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:85
+msgid "Operating System"
+msgstr "Sistema operatiu"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:87
+msgid "Cinnamon Version"
+msgstr "Versió de Cinnamon"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:88
+msgid "Linux Kernel"
+msgstr "Nucli de Linux"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:89
+msgid "Processor"
+msgstr "Processador"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:91
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:93
+msgid "Memory"
+msgstr "Memòria"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:91
+msgid "GiB"
+msgstr "Gb"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:94
+msgid "Hard Drive"
+msgstr "Disc dur"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:94
+msgid "GB"
+msgstr "Gb"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:98
+msgid "Graphics Card"
+msgstr "Targeta gràfica"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:104
+msgid "system, information, details, graphic, sound, kernel, version"
+msgstr "sistema, informació, detalls, gràfics, so, nucli, versió"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:106
+msgid "System Info"
+msgstr "Informació del sistema"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:46
+msgid "Toggle Scale"
+msgstr "Alternar escala"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:47
+msgid "Toggle Expo"
+msgstr "Alternar Exposició"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:48
+msgid "Cycle through open windows"
+msgstr "Rotar per les finestres obertes"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:49
+msgid "Cycle backwards though open windows"
+msgstr "Rotar cap enrere per les finestres obertes"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:50
+msgid "Run dialog"
+msgstr "Executar diàleg"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:51
+msgid "Menu button (must restart Cinnamon)"
+msgstr "Botó de menú (cal reiniciar Cinnamon)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:54
+msgid "Maximize window"
+msgstr "Maximitza la finestra"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:55
+msgid "Unmaximize window"
+msgstr "Desmaximitza la finestra"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:56
+msgid "Minimize window"
+msgstr "Minimitza la finestra"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:57
+msgid "Close window"
+msgstr "Tanca la finestra"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:59
+msgid "Activate window menu"
+msgstr "Activa el menú de finestra"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:60
+msgid "Toggle maximization state"
+msgstr "Commuta l'estat de maximització"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:61
+msgid "Toggle fullscreen state"
+msgstr "Alternar estat de pantalla sencera"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:62
+msgid "Toggle shaded state"
+msgstr "Canvia l'estat d'ombrejat"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:63
+msgid "Maximize vertically"
+msgstr "Maiximitza verticalment"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:64
+msgid "Maximize horizontally"
+msgstr "Maiximitza horitzontalment"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:65
+msgid "Resize window"
+msgstr "Canvia la mida de la finestra"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:66
+msgid "Move window"
+msgstr "Mou finestra"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:67
+msgid "Center window in screen"
+msgstr "Centrar la finestra en la pantalla"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:68
+msgid "Move window to upper-right"
+msgstr "Moure la finestra a la cantonada superior dreta"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:69
+msgid "Move window to upper-left"
+msgstr "Moure la finestra a la cantonada superior esquerra"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:70
+msgid "Move window to lower-right"
+msgstr "Moure la finestra a la cantonada inferior dreta"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:71
+msgid "Move window to lower-left"
+msgstr "Moure la finestra a la cantonada inferior esquerra"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:72
+msgid "Move window to right edge"
+msgstr "Moure la finestra a la vora dreta"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:73
+msgid "Move window to top edge"
+msgstr "Moure la finestra a la vora superior"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:74
+msgid "Move window to bottom edge"
+msgstr "Moure la finestra a la vora inferior"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:75
+msgid "Move window to left edge"
+msgstr "Moure la finestra a la vora esquerra"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:78
+msgid "Push tile left"
+msgstr "Empènyer  la rajola cap a l'esquerra"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:79
+msgid "Push tile right"
+msgstr "Empènyer la rajola cap a la dreta"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:80
+msgid "Push tile up"
+msgstr "Empènyer la rajola cap a dalt"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:81
+msgid "Push tile down"
+msgstr "Empènyer la rajola cap a baix"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:82
+msgid "Push snap left"
+msgstr "Empènyer ajust cap a l'esquerra"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:83
+msgid "Push snap right"
+msgstr "Empènyer ajust cap a la dreta"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:84
+msgid "Push snap up"
+msgstr "Empènyer ajust cap a dalt"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:85
+msgid "Push snap down"
+msgstr "Empènyer ajust cap a baix"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:88
+msgid "Toggle showing window on all workspaces"
+msgstr "Alternar mostrar finestra en tots els espais de treball"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:89
+msgid "Switch to left workspace"
+msgstr "Mou a l'espai de treball de l'esquerra"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:90
+msgid "Switch to right workspace"
+msgstr "Mou a l'espai de treball de la dreta"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:91
+msgid "Switch to workspace 1"
+msgstr "Canvia a l'espai de treball 1"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:92
+msgid "Switch to workspace 2"
+msgstr "Canvia a l'espai de treball 2"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:93
+msgid "Switch to workspace 3"
+msgstr "Canvia a l'espai de treball 3"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:94
+msgid "Switch to workspace 4"
+msgstr "Canvia a l'espai de treball 4"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:95
+msgid "Switch to workspace 5"
+msgstr "Canvia a l'espai de treball 5"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:96
+msgid "Switch to workspace 6"
+msgstr "Canvia a l'espai de treball 6"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:97
+msgid "Switch to workspace 7"
+msgstr "Canvia a l'espai de treball 7"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:98
+msgid "Switch to workspace 8"
+msgstr "Canvia a l'espai de treball 8"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:99
+msgid "Switch to workspace 9"
+msgstr "Canvia a l'àrea de treball 9"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:100
+msgid "Switch to workspace 10"
+msgstr "Canvia a l'espai de treball 10"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:101
+msgid "Switch to workspace 11"
+msgstr "Canvia a l'espai de treball 11"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:102
+msgid "Switch to workspace 12"
+msgstr "Canvia a l'espai de treball 12"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:103
+msgid "Move window to left workspace"
+msgstr "Mou la finestra a l'espai de treball esquerra"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:104
+msgid "Move window to right workspace"
+msgstr "Mou la finestra a l'espai de treball dret"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:105
+msgid "Move window to workspace 1"
+msgstr "Mou la finestra a l'espai de treball 1"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:106
+msgid "Move window to workspace 2"
+msgstr "Mou la finestra a l'espai de treball 2"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:107
+msgid "Move window to workspace 3"
+msgstr "Mou la finestra a l'espai de treball 3"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:108
+msgid "Move window to workspace 4"
+msgstr "Mou la finestra a l'espai de treball 4"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:109
+msgid "Move window to workspace 5"
+msgstr "Mou la finestra a l'espai de treball 5"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:110
+msgid "Move window to workspace 6"
+msgstr "Mou la finestra a l'espai de treball 6"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:111
+msgid "Move window to workspace 7"
+msgstr "Mou la finestra a l'espai de treball 7"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:112
+msgid "Move window to workspace 8"
+msgstr "Mou la finestra a l'espai de treball 8"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:113
+msgid "Move window to workspace 9"
+msgstr "Mou la finestra a l'espai de treball 9"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:114
+msgid "Move window to workspace 10"
+msgstr "Mou la finestra a l'espai de treball 10"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:115
+msgid "Move window to workspace 11"
+msgstr "Mou la finestra a l'espai de treball 11"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:116
+msgid "Move window to workspace 12"
+msgstr "Mou la finestra a l'espai de treball 12"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:119
+msgid "Log out"
+msgstr "Tancar sessió"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:121
+msgid "Toggle recording desktop (must restart Cinnamon)"
+msgstr "Alternar gravació de l'escriptori (cal reiniciar Cinnamon)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:124
+msgid "Launch help browser"
+msgstr "Inicia el navegador d'ajuda"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:125
+msgid "Launch calculator"
+msgstr "Inicia la calculadora"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:126
+msgid "Launch email client"
+msgstr "Inicia el client de correu"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:127
+msgid "Launch web browser"
+msgstr "Inicia el navegador web"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:128
+msgid "Home folder"
+msgstr "Carpeta de l'usuari"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:132
+msgid "Volume mute"
+msgstr "Volum silenciat"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:133
+msgid "Volume down"
+msgstr "Baixa el volum"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:134
+msgid "Volume up"
+msgstr "Puja el volum"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:135
+msgid "Launch media player"
+msgstr "Inicia el reproductor multimèdia"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:137
+msgid "Pause playback"
+msgstr "Fes una pausa a la reproducció"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:138
+msgid "Stop playback"
+msgstr "Atura la reproducció"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:139
+msgid "Previous track"
+msgstr "Pista anterior"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:140
+msgid "Next track"
+msgstr "Pista següent"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:141
+msgid "Eject"
+msgstr "Expulsa"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:144
+msgid "Turn zoom on or off"
+msgstr "Activa o desactiva l'ampliació"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:145
+msgid "Zoom in"
+msgstr "Amplia"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:146
+msgid "Zoom out"
+msgstr "Redueix"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:147
+msgid "Turn screen reader on or off"
+msgstr "Activa o desactiva el lector de pantalla"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:148
+msgid "Turn on-screen keyboard on or off"
+msgstr "Activa o desactiva el teclat a la pantalla"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:149
+msgid "Increase text size"
+msgstr "Augmenta la mida del text"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:150
+msgid "Decrease text size"
+msgstr "Redueix la mida del text"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:151
+msgid "High contrast on or off"
+msgstr "Activa o desactiva el contrast alt"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:155
+msgid "Launch terminal"
+msgstr "Inicia el terminal"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:159
+msgid "keyboard, shortcut, hotkey"
+msgstr "teclat, drecera, tecla d'accés ràpid"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:259
+msgid "unassigned"
+msgstr "sense assignar"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:260
+msgid "Super-"
+msgstr "Super-"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:261
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:264
+msgid "Ctrl-"
+msgstr "Ctrl-"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:262
+msgid "Shift-"
+msgstr "Shift-"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:263
+msgid "Alt-"
+msgstr "Alt-"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:270
+msgid "Update"
+msgstr "Actualitza"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:273
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:408
+msgid "Add custom shortcut"
+msgstr "Afegir drecera personalitzada"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:281
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:146
+msgid "Name:"
+msgstr "Nom:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:282
+msgid "Command:"
+msgstr "Comanda:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:290
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:783
+msgid "Select a file"
+msgstr "Seleccioneu un fitxer"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:342
+msgid "Typing"
+msgstr "Escriptura"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:343
+msgid "Enable key repeat"
+msgstr "Habilitar repetició de tecles"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:345
+msgid "Repeat delay:"
+msgstr "Retard de repetició:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:345
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:73
+msgid "Short"
+msgstr "Curt"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:345
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:73
+msgid "Long"
+msgstr "Llarg"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:350
+msgid "Repeat speed:"
+msgstr "Velocitat de repetició:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:350
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:358
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:58
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:134
+msgid "Slow"
+msgstr "Lenta"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:350
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:358
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:58
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:134
+msgid "Fast"
+msgstr "Ràpida"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:356
+msgid "Text cursor blinks"
+msgstr "Cursor de text parpelleja"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:358
+msgid "Blink speed:"
+msgstr "Velocitat de parpelleig:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:363
+msgid "Test Box"
+msgstr "Quadre de prova"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:367
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:444
+msgid "Keyboard shortcuts"
+msgstr "Dreceres de teclat"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:372
+msgid ""
+"To edit a keyboard binding, click it and press the new keys, or press "
+"backspace to clear it."
+msgstr ""
+"Per editar una combinació de tecles feu clic i premeu les noves tecles, o "
+"premeu la tecla de retrocés per esborrar-la."
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:410
+msgid "Remove custom shortcut"
+msgstr "Elimina drecera personalitzada"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:435
+msgid "Categories"
+msgstr "Categories"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:460
+msgid "Keyboard bindings"
+msgstr "Combinacions de tecles"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:468
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:10
+msgid "Windows"
+msgstr "Finestres"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:469
+msgid "Window Tiling"
+msgstr "Mosaic de finestres"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:470
+msgid "Workspace Management"
+msgstr "Gestió d'espais de treball"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:471
+msgid "System"
+msgstr "Sistema"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:472
+msgid "Launchers"
+msgstr "Llançadors"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:473
+msgid "Sound and Media"
+msgstr "So i multimèdia"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:475
+msgid "Custom Shortcuts"
+msgstr "Dreceres personalitzades"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:579
+#, c-format
+msgid ""
+"\n"
+"This key combination, '<b>%s</b>' cannot be used because it would become "
+"impossible to type using this key.\n"
+"\n"
+msgstr ""
+"\n"
+"Aquesta combinació de tecles, '<b>%s</b>' no es pot utilitzar perquè seria "
+"impossible escriure amb aquesta tecla\n"
+"\n"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:580
+msgid ""
+"Please try again with a modifier key such as Control, Alt or Super (Windows "
+"key) at the same time.\n"
+msgstr ""
+"Torneu-ho a provar polsant alhora una tecla de modificació, com ara Control, "
+"Alt o Súper (tecla de Windows) .\n"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:598
+#, c-format
+msgid ""
+"This key combination, '<b>%s</b>' is currently in use by '<b>%s</b>'.  "
+msgstr ""
+"Aquesta combinació de tecles, '<b>%s</b>' ja la està fent servir "
+"'<b>%s</b>'.  "
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:599
+#, c-format
+msgid ""
+"If you continue, the combination will be reassigned to '<b>%s</b>.'\n"
+"\n"
+msgstr ""
+"Si continueu, la combinació serà reassignada a '<b>%s</b>.'\n"
+"\n"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:600
+msgid "Do you want to continue with this operation?"
+msgstr "Esteu segurs que voleu continuar amb aquesta operació?"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:749
+msgid "Reset to default"
+msgstr "Restaurar els valors per defecte"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:9
+msgid "mouse, touchpad, synaptic, double-click"
+msgstr "ratolí, ratolí tàctil, synaptic, doble clic"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:11
+msgid "Mouse and Touchpad"
+msgstr "Ratolí i ratolí tàctil"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:31
+msgid "Touchpad"
+msgstr "Ratolí tàctil"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:41
+msgid "Left handed (mouse buttons inverted)"
+msgstr "Esquerrà (botons del ratolí intercanviats)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:45
+msgid "Show position of pointer when the Control key is pressed"
+msgstr "Mostrar la posició del cursor quan es prem la tecla Control"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:49
+msgid "Emulate middle click by clicking both left and right buttons"
+msgstr ""
+"Emular el botó central prement els botons esquerre i dret simultàniament"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:53
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:130
+msgid "Pointer Speed"
+msgstr "Velocitat del punter"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:58
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:134
+msgid "Acceleration:"
+msgstr "Acceleració:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:63
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:139
+msgid "Sensitivity:"
+msgstr "Sensibilitat:"
+
+#. #-#-#-#-#  uniq-cinnamon-json.pot  #-#-#-#-#
+#. photoframe@cinnamon.org->settings-schema.json->quality->options
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:63
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:139
+msgid "Low"
+msgstr "Baixa"
+
+#. #-#-#-#-#  uniq-cinnamon-json.pot  #-#-#-#-#
+#. photoframe@cinnamon.org->settings-schema.json->quality->options
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:63
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:139
+msgid "High"
+msgstr "Alta"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:68
+msgid "Double-Click Timeout"
+msgstr "Temps d'espera del doble clic"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:73
+msgid "Timeout:"
+msgstr "Temps d'espera:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:77
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:176
+msgid "Double-click test"
+msgstr "Prova del doble clic"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:82
+msgid "Drag and drop"
+msgstr "Arrossega i deixa"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:87
+msgid "Cinnamon drag threshold"
+msgstr "Llindar d'arrossegament en Cinnamon"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:87
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:91
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:54
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:58
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:17
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:32
+msgid "Pixels"
+msgstr "Píxels"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:91
+msgid "GTK drag threshold"
+msgstr "Llindar d'arrossegament en GTK"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:102
+msgid "Enable touchpad"
+msgstr "Habilita el ratolí tàctil"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:106
+msgid "Disable touchpad while typing"
+msgstr "Inhabilita el ratolí tàctil mentre s'escriu"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:109
+msgid "Enable mouseclicks with touchpad"
+msgstr "Permetre clics de ratolí amb el ratolí tàctil"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:113
+msgid "Scrolling"
+msgstr "Desplaçament"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:117
+msgid "Edge Scrolling"
+msgstr "Desplaçament de la vora"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:117
+msgid "Two-finger scrolling"
+msgstr "Desplaçament amb dos dits"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:118
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:15
+msgid "Panel layout"
+msgstr "Disseny del panell"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:123
+msgid "Enable natural scrolling"
+msgstr "Permetre desplaçament natural"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:126
+msgid "Enable horizontal scrolling"
+msgstr "Habilita el desplaçament horitzontal"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:171
+msgid "DOUBLE-CLICK"
+msgstr "DOBLE CLIC"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:7
+msgid "panel, height, bottom, top, autohide, size, traditional, layout"
+msgstr ""
+"Panell, alçada, inferior, superior, auto-ocultar, mida, tradicional, disseny"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:14
+msgid "Traditional (panel at the bottom)"
+msgstr "Tradicional (panell a baix)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:14
+msgid "Flipped (panel at the top)"
+msgstr "Voltejat (panell a dalt)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:14
+msgid "Classic (panels at the top and at the bottom)"
+msgstr "Clàssic (panells a dalt i a baix)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:18
+msgid ""
+"Note: If you change the layout you will need to restart Cinnamon and "
+"Cinnamon Settings."
+msgstr ""
+"Nota: si canvieu el disseny, caldrà reiniciar Cinnamon i Configuració de "
+"Cinnamon."
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:24
+msgid "Auto-hide panel"
+msgstr "Auto-ocultar panell"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:26
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:34
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:41
+msgid "Show delay"
+msgstr "Retard al mostrar"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:29
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:37
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:44
+msgid "Hide delay"
+msgstr "Retard a l'ocultar"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:32
+msgid "Auto-hide top panel"
+msgstr "Auto-ocultar panell superior"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:39
+msgid "Auto-hide bottom panel"
+msgstr "Auto-ocultar panell inferior"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:47
+msgid "Use customized panel size (otherwise it's defined by the theme)"
+msgstr ""
+"Utilitza mida de panell personalitzada (en cas contrari, és definida pel "
+"tema)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:50
+msgid ""
+"Allow Cinnamon to scale panel text and icons according to the panel heights"
+msgstr ""
+"Permet Cinnamon escalar el text i les icones del tauler d'acord a l'altura "
+"del panell"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:54
+msgid "Top panel height"
+msgstr "Alçada del panell superior"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:58
+msgid "Bottom panel height"
+msgstr "Alçada del panell inferior"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:61
+msgid "Panel edit mode"
+msgstr "Mode d'edició de panell"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:8
+msgid "screensaver, brightness, lock, password, away, message"
+msgstr ""
+"estalvi de pantalla, brillantor, bloqueig, contrasenya, absent, missatge"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:10
+msgid "Screensaver & Lock Settings"
+msgstr "Opcions d'estalvi de pantalla i de bloqueig"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:15
+msgid "Ask for an away message when locking the screen from the menu"
+msgstr ""
+"Demana un missatge d'absència quan es bloqueja la pantalla des del menú"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:16
+msgid "Default away message"
+msgstr "Missatge d'absència per defecte"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:9
+msgid "themes, style"
+msgstr "temes, estil"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:13
+msgid "theme"
+msgstr "tema"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:14
+msgid "themes"
+msgstr "temes"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:40
+msgid "Other settings"
+msgstr "Altres opcions"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:46
+msgid "Controls"
+msgstr "Controls"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:49
+msgid "Icons"
+msgstr "Icones"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:52
+msgid "Window borders"
+msgstr "Vores de la finestra"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:55
+msgid "Mouse pointer"
+msgstr "Punter del ratolí"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:58
+msgid "Keybindings"
+msgstr "Assignacions de tecles"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:61
+msgid "Show icons in menus"
+msgstr "Mostra les icones en els menús"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:64
+msgid "Show icons on buttons"
+msgstr "Mostra les icones als botons"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:8
+msgid "window, tile, flip, tiling, snap, snapping"
+msgstr "finestra, rajola, voltejat, mosaic, ajustar, ajustament"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:10
+msgid "Window Tiling and Edge Flip"
+msgstr "Mosaic de finestres i voltejat de vores"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:15
+msgid "Enable Window Tiling and Snapping"
+msgstr "Activar mosaic de finestres i ajust a quadrícula"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:17
+msgid "Tiling HUD visibility threshold"
+msgstr "Llindar de vilibilitat de mosaico HUD"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:21
+msgid "Super (Windows)"
+msgstr "Tecla Súper (Windows)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:21
+msgid "Alt"
+msgstr "Alt"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:21
+msgid "Shift"
+msgstr "Maj"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:21
+msgid "Control"
+msgstr "Control"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:22
+msgid "Modifier to use for toggling between tile and snap mode"
+msgstr "Modificador usat per alternar entre modus mosaic i modus ajust"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:26
+msgid "Maximize, instead of tile, when dragging a window to the top edge"
+msgstr ""
+"Maximitzar, en lloc de fer mosaic, quan s'arrosega una finestra a la vora "
+"superior"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:30
+msgid "Prevent the snap on-screen-display from showing"
+msgstr "Evitar que es vegi la quadrícula d'ajust"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:33
+msgid "Enable Edge Flip"
+msgstr "Activar voltejat de vores"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:35
+msgid "Edge Flip delay"
+msgstr "Retard de volejat de vores"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:35
+msgid "ms"
+msgstr "ms"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:38
+msgid ""
+"Invert the left and right arrow key directions used to shift workspaces "
+"during a window drag"
+msgstr ""
+"A l'arrosegar una finestra, invertir les direccions de les fletxes esquerra "
+"i dreta per desplaçar espais de treball"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:40
+msgid "Enable legacy window snapping (hold <Shift> while dragging a window)"
+msgstr ""
+"Activa ajust de finestres antic (manteniu polsat <Mayús> mentre arrossegueu "
+"una finestra)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:77
+msgid "user, account, information, details"
+msgstr "usuari, compte, informació, detalls"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:79
+msgid "Account details"
+msgstr "Detalls del compte"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:89
+msgid "Click to change your picture"
+msgstr "Clica per canviar la vostra imatge"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:94
+msgid "Take a photo..."
+msgstr "Fes una fotografia..."
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:125
+msgid "Click to change your name"
+msgstr "Clica per canviar el vostre nom"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:132
+msgid "Picture:"
+msgstr "Imatge:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:142
+msgid "Click to change your password"
+msgstr "Clica per canviar la vostra contrasenya"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:151
+msgid "Password:"
+msgstr "Contrasenya:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:332
+msgid "Current password"
+msgstr "Contrasenya actual"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:454
+msgid "Wrong password"
+msgstr "Contrasenya incorrecta"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:8
+msgid "windows, titlebar, edge, switcher, window list, attention, focus"
+msgstr ""
+"finestres, barra de títol, vora, interruptor, llista de finestres, atenció, "
+"enfocament"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:14
+msgid "Action on title bar double-click"
+msgstr "Acció en fer doble clic a la barra de títol"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:17
+msgid "Action on title bar middle-click"
+msgstr "Acció en fer clic amb el botó del mig a la barra de títol"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:20
+msgid "Action on title bar right-click"
+msgstr "Acció en fer clic amb el botó secundari a la barra de títol"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:23
+msgid "Window focus mode"
+msgstr "Mode de focus de les finestres"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:26
+msgid "Modifier to use for modified window click actions"
+msgstr ""
+"Modificador que s'utilitza per a les accions modificades de clic a la "
+"finestra"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:32
+msgid "Window drag/resize threshold"
+msgstr "Llindar d'arrossegament/canvi de mida"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:34
+msgid "Attach dialog windows to their parent window's titlebar"
+msgstr ""
+"Fixar les finestres de diàleg a la barra de títol de la finestra pare"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:35
+msgid "Icons only"
+msgstr "Només icones"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:35
+msgid "Icons and thumbnails"
+msgstr "Icones i miniatures"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:35
+msgid "Icons and window preview"
+msgstr "Icones i vista prèvia de finestra"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:35
+msgid "Window preview (no icons)"
+msgstr "Vista prèvia de finestra (sense icones)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:35
+msgid "Coverflow (3D)"
+msgstr "Coverflow (3D)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:35
+msgid "Timeline (3D)"
+msgstr "Timeline (3D)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:36
+msgid "ALT-tab switcher style"
+msgstr "Estil del commutador ALT-tab"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:38
+msgid ""
+"Enforce displaying the alt-tab switcher on the primary monitor instead of "
+"the active one"
+msgstr ""
+"Forçar a mostrar el commutador alt-tab al monitor principal en lloc de "
+"l'actiu"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:39
+msgid "Enable mouse-wheel scrolling in Window List applet"
+msgstr ""
+"Activar desplaçament amb la roda del ratolí en l'applet de Llista de "
+"Finestres"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:40
+msgid ""
+"Bring windows which require attention to the current workspace (instead of "
+"switching to the window's workspace)"
+msgstr ""
+"Portar les finestres que requereixen atenció a l'espai de treball actual (en "
+"lloc de canviar a l'espai de treball de la finestra)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:41
+msgid ""
+"Show an alert in the window list when a window from another workspace "
+"requires attention"
+msgstr ""
+"Mostrar una alerta a la llista de finestres quan una finestra d'una altre "
+"espai de treball requereix atenció"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:67
+msgid "Left side title bar buttons"
+msgstr "Botons al costat esquerre de la barra de títol"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:73
+msgid "Right side title bar buttons"
+msgstr "Botons al costat dret de la barra de títol"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:91
+msgid "Sticky"
+msgstr "Nota"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:7
+msgid "workspace, osd, expo, monitor"
+msgstr "espai de treball, osd, exposició, monitor"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:9
+msgid "Workspaces"
+msgstr "Espais de treball"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:13
+msgid "Enable workspace OSD"
+msgstr "Habilitar espai de treball OSD"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:16
+msgid "Workspace OSD duration"
+msgstr "Durada de l'espai de treball OSD"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:20
+msgid "Workspace OSD horizontal position"
+msgstr "Posició horitzontal de l'espai de treball OSD"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:20
+msgid "percent of the monitor's width"
+msgstr "per cent de l'amplada del monitor"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:24
+msgid "Workspace OSD vertical position"
+msgstr "Posició vertical de l'espai de treball OSD"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:24
+msgid "percent of the monitor's height"
+msgstr "per cent de l'altura del monitor"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:27
+msgid "Allow cycling through workspaces"
+msgstr "Permetre rotar pels espais de treball"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:28
+msgid "Only use workspaces on primary monitor (requires Cinnamon restart)"
+msgstr ""
+"Utilitzar espais de treball només en el monitor principal (requereix "
+"reiniciar Cinnamon)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:29
+msgid "Display Expo view as a grid"
+msgstr "Mostrar vista Expo com una quadrícula"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:68
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:263
+#, c-format
+msgid "Search %s"
+msgstr "Cerca %s"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:71
+msgid "Installed"
+msgstr "Instal·lat"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:141
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:487
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:492
+#, c-format
+msgid "Add to %s"
+msgstr "Afegir a %s"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:143
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:494
+msgid "Apply theme"
+msgstr "Aplica el tema"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:146
+#, c-format
+msgid ""
+"Some %s can be added multiple times.\n"
+" Use this to add another instance. Use panel edit mode to remove a single "
+"instance."
+msgstr ""
+"Alguns %s es poden afegir múltiples vegades.\n"
+" Utilitzeu aquesta opció per afegir una altra instància. Utilitzeu el mode "
+"d'edició del panell per eliminar una sola instància."
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:148
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:965
+#, c-format
+msgid "Click to enable this %s"
+msgstr "Clica per activar aquest %s"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:150
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:967
+#, c-format
+msgid "Click to apply this %s"
+msgstr "Clica per aplicar aquest %s"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:153
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:157
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:465
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:472
+msgid "Configure"
+msgstr "Configura"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:155
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:159
+#, c-format
+msgid "Configure this %s"
+msgstr "Configura aquest %s"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:162
+msgid "Restore to default"
+msgstr "Restaurar a valors per defecte"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:164
+msgid "Restore default theme"
+msgstr "Restaurar tema predeterminat"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:172
+#, c-format
+msgid "All %s"
+msgstr "Tots els %s"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:173
+#, c-format
+msgid "Active %s"
+msgstr "%s actius"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:174
+#, c-format
+msgid "Inactive %s"
+msgstr "%s inactius"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:183
+msgid "Show"
+msgstr "Mostra"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:233
+msgid "Get more online"
+msgstr "Obtenir-n'he més de la xarxa"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:242
+msgid "Most popular"
+msgstr "Els més populars"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:243
+msgid "Latest"
+msgstr "Més recent"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:254
+msgid "Sort by"
+msgstr "Ordena per"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:335
+msgid "  Install or update selected"
+msgstr "  Instal·lar o actualitzar seleccionat"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:343
+msgid "Refresh list"
+msgstr "Actualitza la llista"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:401
+#, c-format
+msgid "This %s is read-only, and cannot be uninstalled"
+msgstr "Aquest %s és de només lectura, i no es pot desinstal·lar"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:409
+#, c-format
+msgid "This %s is currently active."
+msgstr "Aquest %s és actiu."
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:411
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Instance count: %d"
+msgstr ""
+"\n"
+"\n"
+"Nombre d'instàncies: %d"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:427
+#, c-format
+msgid "An update is available for this %s"
+msgstr "Hi ha una actualització disponible per aquest %s"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:429
+#, c-format
+msgid "This %s is installed and up-to-date"
+msgstr "Aquest %s està instal·lat i al dia"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:480
+#, c-format
+msgid "Remove from %s"
+msgstr "Suprimeix de %s"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:499
+msgid "Uninstall"
+msgstr "Desinstal·la"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:585
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:595
+msgid "Action"
+msgstr "Acció"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:623
+msgid "Unmark"
+msgstr "Desmarca"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:629
+msgid "Mark for upgrade"
+msgstr "Marca per actualitzar"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:631
+msgid "Mark for installation"
+msgstr "Marca per instal·lar"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:635
+msgid "More info"
+msgstr "Més informació"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:777
+#, c-format
+msgid ""
+"One or more active %s may have been updated.  You probably need to restart "
+"Cinnamon for the changes to take effect"
+msgstr ""
+"Un o més %s actius poden haver estat actualitzats. És probable que hagi de "
+"reiniciar Cinnamon perquè els canvis tinguin efecte"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:833
+#, c-format
+msgid ""
+"There are multiple instances of this %s, do you want to remove them all?\n"
+"\n"
+msgstr ""
+"Hi ha múltiples instàncies d'aquest %s, voleu eliminar-les totes?\n"
+"\n"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:854
+#, c-format
+msgid "Are you sure you want to completely remove %s?"
+msgstr "Esteu segur que voleu suprimir completament %s?"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:928
+#, c-format
+msgid ""
+"This operation will update %d installed %s.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"Aquesta operació actualitzarà %d %s instal·lats.\n"
+"\n"
+"Voleu continuar?"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:943
+#, c-format
+msgid "%d updates available!"
+msgstr "%d actualitzacions disponibles!"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:945
+#, c-format
+msgid "%d update available!"
+msgstr "%d actualització disponible!"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:963
+#, c-format
+msgid ""
+"Some %s can be added multiple times.\n"
+"Use this to add another instance. Use panel edit mode to remove a single "
+"instance."
+msgstr ""
+"Alguns %s es poden afegir múltiples vegades.\n"
+" Utilitzeu aquesta opció per afegir una altra instància. Utilitzeu el mode "
+"d'edició del panell per eliminar una sola instància."
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:974
+#, c-format
+msgid ""
+"\n"
+"This %s does not support multiple instances."
+msgstr ""
+"\n"
+"Aquest %s no admet múltiples instàncies."
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:976
+#, c-format
+msgid ""
+"\n"
+"This %s supports max %d instances."
+msgstr ""
+"\n"
+"Aquest %s admet un màxim de %d instàncies."
+
+#: files/usr/lib/cinnamon-settings/bin/eyedropper.py:13
+msgid ""
+"Click the eyedropper, then click a color anywhere on your screen to select "
+"that color"
+msgstr ""
+"Feu clic al comptagotes; després feu clic a qualsevol punt de la pantalla "
+"per seleccionar-ne el color."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:103
+msgid "Applet info"
+msgstr "Informació de l'applet"
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:106
+msgid "Select and Close"
+msgstr "Triar i tancar"
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:182
+msgid "Downloading screenshot"
+msgstr "Descarregant captura de pantalla"
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:245
+#, c-format
+msgid "Refreshing %s index..."
+msgstr "Actualitzant índex %s ..."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:276
+msgid ""
+"Something went wrong with the spices download.  Please try refreshing the "
+"list again."
+msgstr ""
+"Quelcom ha fallat amb la descàrrega. Si us plau, prova a actualitzar la "
+"llista de nou."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:279
+#, c-format
+msgid "Refreshing %s cache..."
+msgstr "Refrescant cache: %s"
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:384
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:410
+#, c-format
+msgid "Installing %s..."
+msgstr "S'està instal·lant %s..."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:406
+#, c-format
+msgid "Installing translations for %s..."
+msgstr "Instal·lant traduccions de %s ..."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:412
+#, c-format
+msgid ""
+"Please enter your password to install the required settings schema for %s"
+msgstr ""
+"Si us plau, introduïu la contrasenya per instal·lar l'esquema de "
+"configuració necessària per a %s"
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:420
+#, c-format
+msgid ""
+"Could not install the settings schema for %s.  You will have to perform this "
+"step yourself."
+msgstr ""
+"No s'ha pogut instal·lar l'esquema de configuració per a %s. Haurà de fer "
+"aquest pas vostè mateix."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:446
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:495
+#, c-format
+msgid ""
+"An error occurred during installation or updating.  You may wish to report "
+"this incident to the developer of %s.\n"
+"\n"
+"If this was an update, the previous installation is unchanged"
+msgstr ""
+"S'ha produït un error durant la instal·lació o actualització. És possible "
+"que vulgueu reportar aquest incident al desenvolupador de %s.\n"
+"\n"
+"Si es tractava d'una actualització, la instal·lació anterior no ha patit "
+"canvis"
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:503
+#, c-format
+msgid "Uninstalling %s..."
+msgstr "Desinstal·lant %s ..."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:510
+#, c-format
+msgid "Please enter your password to remove the settings schema for %s"
+msgstr ""
+"Si us plau, introduïu la contrasenya per eliminar l'esquema de configuració "
+"per a %s"
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:517
+#, c-format
+msgid ""
+"Could not remove the settings schema for %s.  You will have to perform this "
+"step yourself.  This is not a critical error."
+msgstr ""
+"No s'ha pogut suprimir l'esquema de configuració per a %s. Haurà de fer "
+"aquest pas vostè mateix. No és un error crític."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:536
+#, c-format
+msgid "Problem uninstalling %s.  You may need to manually remove it."
+msgstr "Problema desinstal·lant %s. Podria ser necessari fer-ho manualment."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:591
+msgid ""
+"An error occurred while trying to access the server.  Please try again in a "
+"little while."
+msgstr ""
+"S'ha produït un error en intentar accedir al servidor. Si us plau intenteu-"
+"ho de nou en una estona."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:592
+msgid "Download aborted."
+msgstr "Descàrrega cancel·lada."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:684
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Details:  %s"
+msgstr ""
+"\n"
+"\n"
+"Detalls:  %s"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:46
+msgid "Back to list"
+msgstr "Tornar a la llista"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:47
+msgid "More actions..."
+msgstr "Més accions..."
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:48
+#, c-format
+msgid "Remove the current instance of this %s"
+msgstr "Eliminar la instància actual d'aquest %s"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:49
+#, c-format
+msgid "Momentarily highlight the %s on your desktop"
+msgstr "Ressaltar momentàniament el %s en l'escriptori"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:173
+#, c-format
+msgid "Instance %s"
+msgstr "Instància %s"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:231
+msgid "Reset to defaults"
+msgstr "Reinicialitza als valors per defecte"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:236
+msgid "Import from a file"
+msgstr "Importa des d'un fitxer"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:241
+msgid "Export to a file"
+msgstr "Exporta a un fitxer"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:252
+msgid "Select a JSON file to import"
+msgstr "Trieu un fitxer JSON per importar"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:259
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:279
+msgid "JSON files"
+msgstr "Fitxers JSON"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:271
+msgid "Select or enter file to export to"
+msgstr "Trieu o introduïu fitxer al qual exportar"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:93
+msgid "Error saving file"
+msgstr "Error en desar el fitxer"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:94
+msgid "There was a problem exporting the file to the selected location."
+msgstr ""
+"Hi ha ahgut un problema en exportar el fitxer a la ubicació seleccionada."
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:106
+msgid "Error importing file"
+msgstr "Error en importar fitxer"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:107
+msgid ""
+"There was a problem importing the configuration file.\n"
+"Please check that it is a valid JSON file, and is appropriate for this "
+"applet/desklet/extension.\n"
+"The original configuration file is unchanged."
+msgstr ""
+"Hi ha hagut un error en importar el fitxer de configuració.\n"
+"Si us plau, comprovi que es tracta d'un arxiu JSON vàlid, i és apropiat per "
+"a aquest applet/desklet/extensió.\n"
+"L'arxiu de configuració original no ha patit canvis."
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:177
+msgid "Possible incompatible versions"
+msgstr "Possibilitat de versions incompatibles"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:181
+msgid ""
+"The MD5 tags for the file you are trying to import and the existing file do "
+"not match.\n"
+"This means the two files were generated by different versions of this "
+"applet, desklet or extension,\n"
+"or possibly from a different one entirely.  Continuing with this procedure "
+"could yield unpredictable results.\n"
+"\n"
+"Are you sure you want to proceed?"
+msgstr ""
+"Les etiquetes MD5 per al fitxer que està intentant importar no coincideixen "
+"amb el fitxer existent.\n"
+"Això significa que els dos arxius van ser generats per diferents versions "
+"d'aquest applet, desklet o extensió,\n"
+"o potser per una de completament diferent. Continuar amb aquest procediment "
+"podria produir resultats imprevisibles.\n"
+"\n"
+"Esteu segur que voleu continuar?"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:780
+msgid "Select a directory to use"
+msgstr "Trieu un directori per utilitzar"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:791
+msgid "Directories"
+msgstr "Carpetes"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:864
+msgid "Pick a new icon file"
+msgstr "Trieu un nou arxiu d'icona"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:871
+msgid "Image files"
+msgstr "Fitxers d'imatge"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:960
+msgid "Click to set a new accelerator key."
+msgstr "Feu clic per establir una nova tecla d'acceleració."
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:961
+msgid "  Press Escape or click again to cancel the operation."
+msgstr "  Premeu Esc o feu clic de nou per cancel·lar l'operació."
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:983
+msgid "Pick an accelerator"
+msgstr "Trieu una drecera de teclat"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:1025
+msgid "<not set>"
+msgstr "<no s'estableix>"
+
+#: files/usr/lib/cinnamon-screensaver-lock-dialog/cinnamon-screensaver-lock-dialog.py:40
+msgid "Please type an away message for the lock screen"
+msgstr ""
+"Si us plau, escriviu un missatge d'absència per la pantalla de bloqueig"
+
+#: files/usr/bin/cinnamon-launcher:15
+msgid "Do you want to restart Cinnamon?"
+msgstr "Voleu reiniciar Cinnamon?"
+
+#: files/usr/bin/cinnamon-launcher:15
+msgid "Cinnamon just crashed. You are currently running in Fallback Mode."
+msgstr "Cinnamon ha fallat. Esteu treballant en mode de recuperació."
+
+#. photoframe@cinnamon.org->settings-schema.json->shuffle->description
+msgid "Shuffle"
+msgstr "Ordre aleatori"
+
+#. photoframe@cinnamon.org->settings-schema.json->fade-delay->description
+msgid "Fade delay:"
+msgstr "Retard d'esvaïment:"
+
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. photoframe@cinnamon.org->settings-schema.json->fade-delay->units
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. photoframe@cinnamon.org->settings-schema.json->delay->units
+msgid "seconds"
+msgstr "segons"
+
+#. photoframe@cinnamon.org->settings-schema.json->effect->description
+msgid "Special effect:"
+msgstr "Efecte especial:"
+
+#. photoframe@cinnamon.org->settings-schema.json->effect->options
+msgid "Sepia"
+msgstr "Sèpia"
+
+#. photoframe@cinnamon.org->settings-schema.json->effect->options
+msgid "Black and White"
+msgstr "Blanc i negre"
+
+#. photoframe@cinnamon.org->settings-schema.json->height->description
+msgid "Height:"
+msgstr "Alçada:"
+
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. photoframe@cinnamon.org->settings-schema.json->height->units
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. photoframe@cinnamon.org->settings-schema.json->width->units
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. settings-example@cinnamon.org->settings-schema.json->spinner-number->units
+msgid "pixels"
+msgstr "píxels"
+
+#. photoframe@cinnamon.org->settings-schema.json->delay->description
+msgid "Delay:"
+msgstr "Retard:"
+
+#. photoframe@cinnamon.org->settings-schema.json->width->description
+msgid "Width:"
+msgstr "Amplada:"
+
+#. photoframe@cinnamon.org->settings-schema.json->directory->description
+msgid "Folder:"
+msgstr "Carpeta:"
+
+#. photoframe@cinnamon.org->settings-schema.json->quality->description
+msgid "Image quality:"
+msgstr "Qualitat de la imatge:"
+
+#. photoframe@cinnamon.org->settings-schema.json->quality->options
+msgid "Medium"
+msgstr "Mitjà"
+
+#. clock@cinnamon.org->settings-schema.json->font-size->description
+msgid "Font size:"
+msgstr "Mida de la font:"
+
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. clock@cinnamon.org->settings-schema.json->date-format->description
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. calendar@cinnamon.org->settings-schema.json->custom-format->description
+msgid "Date format:"
+msgstr "Format de la data:"
+
+#. calendar@cinnamon.org->settings-schema.json->use-custom-format->description
+msgid "Use a custom date format"
+msgstr "Utilitzar un format personalitzat de data"
+
+#. calendar@cinnamon.org->settings-schema.json->use-custom-format->tooltip
+msgid ""
+"Check this to define a custom format for the date in the calendar applet."
+msgstr ""
+"Activi aquesta opció per definir un format personalitzat per a la data en "
+"l'applet del calendari."
+
+#. calendar@cinnamon.org->settings-schema.json->format-button->description
+msgid "Show information on date format syntax"
+msgstr "Mostra informació sobre la sintaxi del format de data"
+
+#. calendar@cinnamon.org->settings-schema.json->format-button->tooltip
+msgid "Click this button to know more about the syntax for date formats."
+msgstr ""
+"Feu clic en aquest botó per saber més sobre la sintaxi de formats de data."
+
+#. calendar@cinnamon.org->settings-schema.json->show-week-numbers->description
+msgid "Show week numbers in calendar"
+msgstr "Mostrar els números de setmana al calendari"
+
+#. calendar@cinnamon.org->settings-schema.json->show-week-numbers->tooltip
+msgid "Check this to show week numbers in the calendar."
+msgstr ""
+"Activi aquesta opció per mostrar els números de setmana al calendari."
+
+#. calendar@cinnamon.org->settings-schema.json->custom-format->tooltip
+msgid "Set your custom format here."
+msgstr "Establiu aquí un format personalitzat."
+
+#. menu@cinnamon.org->settings-schema.json->menu-editor-button->description
+msgid "Open the menu editor"
+msgstr "Obrir l'editor de menús"
+
+#. menu@cinnamon.org->settings-schema.json->menu-editor-button->tooltip
+msgid "Press this button to customize your menu entries."
+msgstr "Premeu aquest botó per personalitzar les opcions del menú."
+
+#. menu@cinnamon.org->settings-schema.json->show-recent->description
+msgid "Show recent files"
+msgstr "Mostra fitxers recents"
+
+#. menu@cinnamon.org->settings-schema.json->show-recent->tooltip
+msgid "Choose whether or not to show a recent file list in the menu."
+msgstr "Trieu si cal mostrar o no una llista de fitxers recents en el menú."
+
+#. menu@cinnamon.org->settings-schema.json->hover-delay->description
+msgid "Menu hover delay:"
+msgstr "Retard en l'activació del menú:"
+
+#. menu@cinnamon.org->settings-schema.json->hover-delay->tooltip
+msgid "Delay between switching categories"
+msgstr "Retard al canviar entre categories"
+
+#. menu@cinnamon.org->settings-schema.json->search-filesystem->description
+msgid "Enable filesystem path entry in search box"
+msgstr "Permetre rutes del sistema de fitxers en el quadre de cerca"
+
+#. menu@cinnamon.org->settings-schema.json->search-filesystem->tooltip
+msgid "Allows path entry in the menu search box."
+msgstr "Permet l'entrada d'una ruta en el quadre de cerca del menú."
+
+#. menu@cinnamon.org->settings-schema.json->menu-icon->description
+msgid "Icon"
+msgstr "Icona"
+
+#. menu@cinnamon.org->settings-schema.json->menu-icon->tooltip
+msgid "Select an icon to show in the panel."
+msgstr "Trieu una icona per mostrar en el panell."
+
+#. menu@cinnamon.org->settings-schema.json->menu-label->description
+msgid "Text"
+msgstr "Text"
+
+#. menu@cinnamon.org->settings-schema.json->menu-label->tooltip
+msgid "Enter custom text to show in the panel."
+msgstr "Entreu un text personalitzat per mostrara en el panell."
+
+#. menu@cinnamon.org->settings-schema.json->activate-on-hover->description
+msgid "Open the menu when I move my mouse over it"
+msgstr "Obrir el menú quan el ratolí passa per sobre."
+
+#. menu@cinnamon.org->settings-schema.json->activate-on-hover->tooltip
+msgid "Enable opening the menu when the mouse enters the applet"
+msgstr "Permet obrir el menú quan el ratolí entra en l'applet"
+
+#. menu@cinnamon.org->settings-schema.json->enable-autoscroll->description
+msgid "Enable autoscrolling in application list"
+msgstr "Habilitar el desplaçament automàtic a la llista d'aplicacions"
+
+#. menu@cinnamon.org->settings-schema.json->enable-autoscroll->tooltip
+msgid ""
+"Choose whether or not to enable smooth autoscrolling in the application list."
+msgstr ""
+"Trieu si voleu habilitar el desplaçament automàtic suau a la llista "
+"d'aplicacions."
+
+#. menu@cinnamon.org->settings-schema.json->show-places->description
+msgid "Show bookmarks and places"
+msgstr "Mostrar marcadors i llocs"
+
+#. menu@cinnamon.org->settings-schema.json->show-places->tooltip
+msgid "Choose whether or not to show bookmarks and places in the menu."
+msgstr "Trieu si voleu mostrar marcadors i llocs en el menú."
+
+#. settings-example@cinnamon.org->settings-schema.json->head->description
+msgid "First Section"
+msgstr "Primera secció"
+
+#. settings-example@cinnamon.org->settings-schema.json->custom-
+#. label->description
+msgid "Custom Applet Label:"
+msgstr "Etiqueta d'applet personalitzat:"
+
+#. settings-example@cinnamon.org->settings-schema.json->custom-label->tooltip
+msgid ""
+"Set your custom label here.  This field is unavailable unless the checkbox "
+"above is enabled"
+msgstr ""
+"Posi l'etiqueta personalitzada aquí. Aquest camp només està disponible si la "
+"casella anterior està marcada"
+
+#. settings-example@cinnamon.org->settings-schema.json->head1->description
+msgid "Here's a new section"
+msgstr "Aquí hi ha una nova secció"
+
+#. settings-example@cinnamon.org->settings-schema.json->color->description
+msgid "The background color for the applet:"
+msgstr "El color de fons per l'applet:"
+
+#. settings-example@cinnamon.org->settings-schema.json->color->tooltip
+msgid "Click the button to select a new background color for this applet"
+msgstr ""
+"Feu clic al botó per seleccionar un nou color de fons d'aquest applet"
+
+#. settings-example@cinnamon.org->settings-schema.json->icon-name->description
+msgid "The icon to use in the panel:"
+msgstr "L'icona per utilitzar en el panell:"
+
+#. settings-example@cinnamon.org->settings-schema.json->icon-name->tooltip
+msgid "Select an icon file, or you can type an icon name into the entry box"
+msgstr ""
+"Trieu un fitxer d'icona, o escriviu un nom d'icona al quadre d'entrada"
+
+#. settings-example@cinnamon.org->settings-schema.json->combo-
+#. selection->description
+msgid "Please pick an option:"
+msgstr "Trieu una opció:"
+
+#. settings-example@cinnamon.org->settings-schema.json->combo-
+#. selection->tooltip
+msgid ""
+"A combo selection can select between int, boolean, float, and string values"
+msgstr ""
+"Una selecció combo pot triar entre valors sencers, booleans, de coma "
+"flotant, i de cadena"
+
+#. settings-example@cinnamon.org->settings-schema.json->combo-
+#. selection->options
+msgid "Second Choice"
+msgstr "Segona opció"
+
+#. settings-example@cinnamon.org->settings-schema.json->combo-
+#. selection->options
+msgid "Fourth Choice"
+msgstr "Quarta opció"
+
+#. settings-example@cinnamon.org->settings-schema.json->combo-
+#. selection->options
+msgid "Third Choice"
+msgstr "Tercera opció"
+
+#. settings-example@cinnamon.org->settings-schema.json->combo-
+#. selection->options
+msgid "First Choice"
+msgstr "Primera opció"
+
+#. settings-example@cinnamon.org->settings-schema.json->keybinding-
+#. test->description
+msgid "Set the keybinding here to activate an action: "
+msgstr "Trieu la combinació de tecles per activar una acció: "
+
+#. settings-example@cinnamon.org->settings-schema.json->scale-
+#. demo->description
+msgid "Here is a demonstration of bidirectional control:"
+msgstr "Aixó és una demostració de control bidireccional:"
+
+#. settings-example@cinnamon.org->settings-schema.json->scale-demo->tooltip
+msgid ""
+"If you adjust this scale, it updates in the applet.  If you adjust the scale "
+"in the applet, it updates here"
+msgstr ""
+"Si s'ajusta aquesta escala, s'actualitza en l'applet. Si s'ajusta l'escala "
+"en l'applet, s'actualitza aquí"
+
+#. settings-example@cinnamon.org->settings-schema.json->demo-
+#. button->description
+msgid "Don't Press This Button!!!"
+msgstr "No premeu aquest botó !!!"
+
+#. settings-example@cinnamon.org->settings-schema.json->demo-button->tooltip
+msgid ""
+"Pressing this button activates a callback method in the applet - go ahead, "
+"press it."
+msgstr ""
+"En prémer aquest botó s'activa un mètode 'callback' en l'applet - endavant, "
+"premeu-lo."
+
+#. settings-example@cinnamon.org->settings-schema.json->signal-
+#. test->description
+msgid "This is a test widget for individual key signal firing"
+msgstr ""
+"Es tracta d'un widget de prova per senyals individuals de polsació de tecla"
+
+#. settings-example@cinnamon.org->settings-schema.json->use-custom-
+#. label->description
+msgid "Check this to use a custom label:"
+msgstr "Marqueu aquesta opció per utilitzar una etiqueta personalitzada:"
+
+#. settings-example@cinnamon.org->settings-schema.json->use-custom-
+#. label->tooltip
+msgid ""
+"Checking this box allows you to set a custom label in the field below - this "
+"demonstrates setting dependencies"
+msgstr ""
+"Marcar aquesta casella us permet establir una etiqueta personalitzada en el "
+"camp de sota - això demostra dependències d'opcions"
+
+#. settings-example@cinnamon.org->settings-schema.json->spinner-
+#. number->description
+msgid "Applet width in the panel:"
+msgstr "Amplada de l'applet en el panell"
+
+#. settings-example@cinnamon.org->settings-schema.json->spinner-
+#. number->tooltip
+msgid ""
+"Increase or decrease this spinner value to make the applet wider or narrower "
+"in the panel"
+msgstr ""
+"Augmenteu o disminuiu aquest valor per fer l'applet més ample o més estret "
+"en el panell"
+
+#. spacer@cinnamon.org->settings-schema.json->width->description
+msgid "Amount of space in pixels"
+msgstr "Quantitat d'espai en píxels"
+
+#. spacer@cinnamon.org->settings-schema.json->width->tooltip
+msgid "Adjust this to increase or decrease the width of this spacer"
+msgstr "Ajusteu-ho per augmentar o disminuir l'amplada d'aquest espaiador"
+
+#. scale@cinnamon.org->settings-schema.json->activate-on-hover->description
+msgid "Activate scale on hover"
+msgstr "Activar escala al passar per sobre"
+
+#. keyboard@cinnamon.org->settings-schema.json->use-flags->description
+msgid "Use flags to display keyboard layouts"
+msgstr "Utilitzeu les banderes per mostrar dissenys de teclat"
+
+#. expo@cinnamon.org->settings-schema.json->activate-on-hover->description
+msgid "Activate expo on hover"
+msgstr "Activar exposició al passar per sobre"

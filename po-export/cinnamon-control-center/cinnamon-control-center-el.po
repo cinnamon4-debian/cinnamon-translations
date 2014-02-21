@@ -1,0 +1,2152 @@
+# Greek translation of GNOME Control Center
+# Copyright (C) 2000 ~ 2010, Free Software Foundation, Inc.
+# For screensaver, picked: profilaji o8onis -simos.
+# spyros: initial translation, around 300 messages.
+# Nikos:   one more review 6Sep2003
+# kostas: 15 feb 2004, update
+# Nikos: 30May2004, some fixes.
+# Nikos: 31Jul2004, some fixes.
+# Nikos 17Sep2004, some fixes.
+# simos: 277 messages, 19Aug2000, (24 fuzzy, 40 untranslated).
+# simos: 358 messages, 05Dec2000, updated translation.
+# :  64 messages, 01Aug2002, due to enhancements in application.
+# nikos: 266 messages, 05Aug2002, updated translation.
+# t_p_r: 266 messages, 05Aug2002, reviewed translation.
+# simos: 329 messages, 06Aug2002, updated translation.
+# kostas: 461 messages, 18Oct2002, updated and completed translation.
+# kostas: 535 messages, 10Dec2002, reviewed and updated translation for Gnome 2.1x.
+# kostas: 533 messages, 06Jan2003, one more update.
+# kostas: 537 messages, 26Jan2003, one more update.
+# kostas:  650 messages, 22Jul2003, one more update.
+# kostas:  655 messages, 27Jul2003, one more update.
+# kostas:  674 messages, 10Aug2003, one more update.
+# Nikos:   review, 29Aug03.
+# kostas: 678 messagew,12Nov2003, updates and fixes.
+# kostas: 786 messagew,22Jan2004, updates and fixes.
+# Simos: 723 messages, 20Dec2004, fixes/updates.
+# Spiros Papadimitriou <spapadim+@cs.cmu.edu>, 2000.
+# Nikos Charonitakis <charosn@her.forthnet.gr>, 2002, 2003, 2004, 2005.
+# Τα πάντα ρει <ta_panta_rei@flashmail.com>, 2002.
+# Jennie Petoumenou <epetoumenou@gmail.com>, 2009.
+# Kostas Papadimas <pkst@gnome.org>, 2002,2003, 2004, 2005, 2006, 2007, 2008, 2010, 2011.
+# Theodore Dimitriadis <liakoni@gmail.com>, 2010.
+# Michael Kotsarinis <mk73628@gmail.com>, 2011.
+# Simos Xenitellis <simos@gnome.org>, 2000, 2001, 2002, 2004, 2006, 2011.
+# George Stefanakis <george.stefanakis@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: el\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=cinnamon-control-"
+"center&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-08-30 17:55+0100\n"
+"PO-Revision-Date: 2013-11-17 17:35+0000\n"
+"Last-Translator: StratosJL <stratos@laspas.gr>\n"
+"Language-Team: Greek <team@gnome.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2013-11-26 11:42+0000\n"
+"X-Generator: Launchpad (build 16840)\n"
+"Language: el\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: panels/color/cc-color-panel.c:106
+msgid "Other profile…"
+msgstr "Άλλο προφίλ…"
+
+#: panels/color/cc-color-panel.c:119
+msgid "Default: "
+msgstr "Προεπιλεγμένο: "
+
+#: panels/color/cc-color-panel.c:126
+msgid "Colorspace: "
+msgstr "Χρωματικός χώρος: "
+
+#: panels/color/cc-color-panel.c:132
+msgid "Test profile: "
+msgstr "Δοκιμαστικό προφίλ: "
+
+#: panels/color/cc-color-panel.c:185 panels/color/color.ui.h:11
+msgid "Set for all users"
+msgstr "Ορισμός για όλους τους χρήστες"
+
+#: panels/color/cc-color-panel.c:192
+msgid "Create virtual device"
+msgstr "Δημιουργία εικονικής συσκευής"
+
+#: panels/color/cc-color-panel.c:227
+msgid "Select ICC Profile File"
+msgstr "Επιλογή προφίλ ICC"
+
+#: panels/color/cc-color-panel.c:230
+msgid "_Import"
+msgstr "Ε_ισαγωγή"
+
+#: panels/color/cc-color-panel.c:241
+msgid "Supported ICC profiles"
+msgstr "Υποστηριζόμενα προφίλ ICC"
+
+#: panels/color/cc-color-panel.c:248
+msgid "All files"
+msgstr "Όλα τα αρχεία"
+
+#: panels/color/cc-color-panel.c:638
+msgid "Available Profiles for Displays"
+msgstr "Διαθέσιμα προφίλ για οθόνες"
+
+#: panels/color/cc-color-panel.c:642
+msgid "Available Profiles for Scanners"
+msgstr "Διαθέσιμα προφίλ για σαρωτές"
+
+#: panels/color/cc-color-panel.c:646
+msgid "Available Profiles for Printers"
+msgstr "Διαθέσιμα προφίλ για εκτυπωτές"
+
+#: panels/color/cc-color-panel.c:650
+msgid "Available Profiles for Cameras"
+msgstr "Διαθέσιμα προφίλ για φωτογραφικές μηχανές"
+
+#: panels/color/cc-color-panel.c:654
+msgid "Available Profiles for Webcams"
+msgstr "Διαθέσιμα προφίλ για κάμερες web"
+
+#: panels/color/cc-color-panel.c:659 panels/color/color.ui.h:2
+msgid "Available Profiles"
+msgstr "Διαθέσιμα προφίλ"
+
+#: panels/color/cc-color-panel.c:935 panels/sound/gvc-mixer-dialog.c:1523
+#: panels/sound-nua/gvc-mixer-dialog.c:1596
+msgid "Device"
+msgstr "Συσκευή"
+
+#: panels/color/cc-color-panel.c:970
+msgid "Calibration"
+msgstr "Βαθμονόμηση"
+
+#: panels/color/cc-color-panel.c:1002
+msgid "Create a color profile for the selected device"
+msgstr "Δημιουργία προφίλ χρώματος για την επιλεγμένη συσκευή"
+
+#: panels/color/cc-color-panel.c:1016 panels/color/cc-color-panel.c:1040
+msgid ""
+"The measuring instrument is not detected. Please check it is turned on and "
+"correctly connected."
+msgstr ""
+"Δεν εντοπίστηκε το όργανο μέτρησης. Παρακαλώ ελέγξτε αν είναι ενεργοποιημένο "
+"και σωστά συνδεδεμένο."
+
+#: panels/color/cc-color-panel.c:1049
+msgid "The measuring instrument does not support printer profiling."
+msgstr "Το όργανο μέτρησης δεν υποστηρίζει δημιουργία προφίλ εκτυπωτών."
+
+#: panels/color/cc-color-panel.c:1060
+msgid "The device type is not currently supported."
+msgstr "Δεν υποστηρίζεται ο τύπος της συσκευής."
+
+#: panels/color/cc-color-panel.c:1132
+msgid "Cannot remove automatically added profile"
+msgstr "Δεν είναι δυνατή η αφαίρεση του προφίλ που προστέθηκε αυτόματα"
+
+#: panels/color/cc-color-panel.c:1463
+msgid "No profile"
+msgstr "Δεν υπάρχει προφίλ"
+
+#: panels/color/cc-color-panel.c:1494
+#, c-format
+msgid "%i year"
+msgid_plural "%i years"
+msgstr[0] "%i έτος"
+msgstr[1] "%i έτη"
+
+#: panels/color/cc-color-panel.c:1505
+#, c-format
+msgid "%i month"
+msgid_plural "%i months"
+msgstr[0] "%i μήνας"
+msgstr[1] "%i μήνες"
+
+#: panels/color/cc-color-panel.c:1516
+#, c-format
+msgid "%i week"
+msgid_plural "%i weeks"
+msgstr[0] "%i εβδομάδα"
+msgstr[1] "%i εβδομάδες"
+
+#: panels/color/cc-color-panel.c:1523
+msgid "Less than 1 week"
+msgstr "Λιγότερο από 1 εβδομάδα"
+
+#: panels/color/cc-color-panel.c:1713 panels/color/cc-color-panel.c:1754
+#: panels/color/cc-color-panel.c:1765 panels/color/cc-color-panel.c:1776
+msgid "Uncalibrated"
+msgstr "Μη βαθμονομημένο"
+
+#: panels/color/cc-color-panel.c:1716
+msgid "This device is not color managed."
+msgstr "Αυτή η συσκευή δεν είναι χρωματικά διαχειριζόμενη."
+
+#: panels/color/cc-color-panel.c:1757
+msgid "This device is using manufacturing calibrated data."
+msgstr "Αυτή η συσκευή χρησιμοποιεί δεδομένα βαθμονόμησης του κατασκευαστή."
+
+#: panels/color/cc-color-panel.c:1768
+msgid ""
+"This device does not have a profile suitable for whole-screen color "
+"correction."
+msgstr ""
+"Αυτή η συσκευή δεν έχει ένα κατάλληλο προφίλ για την διόρθωση χρώματος όλης "
+"της οθόνης."
+
+#: panels/color/cc-color-panel.c:1801
+msgid "This device has an old profile that may no longer be accurate."
+msgstr ""
+"Αυτή η συσκευή έχει ένα παλιό προφίλ που πιθανόν να μην είναι πια ακριβές."
+
+#: panels/color/cc-color-panel.c:1829
+msgid "Not specified"
+msgstr "Μη καθορισμένο"
+
+#: panels/color/cc-color-panel.c:2014
+msgid "No devices supporting color management detected"
+msgstr "Δεν εντοπίσθηκαν συσκευές που να υποστηρίζουν διαχείριση χρωμάτων"
+
+#: panels/common/cc-common-language.c:533
+msgid "English"
+msgstr "Αγγλικά"
+
+#: panels/common/cc-common-language.c:535
+msgid "British English"
+msgstr "Αγγλικά Μ.Βρετανίας"
+
+#: panels/common/cc-common-language.c:538
+msgid "German"
+msgstr "Γερμανικά"
+
+#: panels/common/cc-common-language.c:541
+msgid "French"
+msgstr "Γαλλικά"
+
+#: panels/common/cc-common-language.c:544
+msgid "Spanish"
+msgstr "Ισπανικά"
+
+#: panels/common/cc-common-language.c:546
+msgid "Chinese (simplified)"
+msgstr "Κινέζικα (απλοποιημένα)"
+
+#: panels/common/cc-common-language.c:549
+msgid "Russian"
+msgstr "Ρωσικά"
+
+#: panels/common/cc-common-language.c:552
+msgid "Arabic"
+msgstr "Αραβικά"
+
+#: panels/common/cc-common-language.c:581
+msgid "United States"
+msgstr "Ηνωμένες Πολιτείες Αμερικής"
+
+#: panels/common/cc-common-language.c:582
+msgid "Germany"
+msgstr "Γερμανία"
+
+#: panels/common/cc-common-language.c:583
+msgid "France"
+msgstr "Γαλλία"
+
+#: panels/common/cc-common-language.c:584
+msgid "Spain"
+msgstr "Ισπανία"
+
+#: panels/common/cc-common-language.c:585
+msgid "China"
+msgstr "Κίνα"
+
+#: panels/common/cc-language-chooser.c:301
+msgid "Select a region"
+msgstr "Επιλογή περιοχής"
+
+#: panels/common/gdm-languages.c:781
+msgid "Unspecified"
+msgstr "Μη καθορισμένο"
+
+#: panels/display/cc-display-panel.c:624 panels/display/cc-rr-labeler.c:449
+msgid "Mirrored Displays"
+msgstr "Κατοπτρισμός οθονών"
+
+#: panels/display/cc-display-panel.c:648 panels/display/display-capplet.ui.h:1
+msgid "Monitor"
+msgstr "Οθόνη"
+
+#: panels/display/cc-display-panel.c:758
+#, c-format
+msgid "%d x %d (%s)"
+msgstr "%d x %d (%s)"
+
+#: panels/display/cc-display-panel.c:760
+#, c-format
+msgid "%d x %d"
+msgstr "%d x %d"
+
+#: panels/display/cc-display-panel.c:1669
+msgid ""
+"Select a monitor to change its properties; drag it to rearrange its "
+"placement."
+msgstr ""
+"Επιλέξτε μια οθόνη για να αλλάξετε τις ιδιότητες της. Σύρετε την για να "
+"αλλάξετε την θέση της."
+
+#: panels/display/cc-display-panel.c:2185
+#: panels/display/cc-display-panel.c:2237
+#, c-format
+msgid "Failed to apply configuration: %s"
+msgstr "Αποτυχία εφαρμογής των ρυθμίσεων: %s"
+
+#: panels/display/cc-display-panel.c:2265
+msgid "Could not save the monitor configuration"
+msgstr "Αδυναμία αποθήκευσης των ρυθμίσεων της οθόνης"
+
+#: panels/display/cc-display-panel.c:2325
+msgid "Could not detect displays"
+msgstr "Αδυναμία εντοπισμού οθονών"
+
+#: panels/display/cc-display-panel.c:2563
+msgid "Could not get screen information"
+msgstr "Αδυναμία λήψης πληροφοριών οθόνης"
+
+#: panels/network/cc-network-panel.c:661
+msgid "Network proxy"
+msgstr "Διαμεσολαβητής δικτύου"
+
+#: panels/network/cc-network-panel.c:853 panels/network/net-vpn.c:278
+#, c-format
+msgid "%s VPN"
+msgstr "%s VPN"
+
+#: panels/network/cc-network-panel.c:920
+msgid "The system network services are not compatible with this version."
+msgstr ""
+"Οι υπηρεσίες δικτύου του συστήματος δεν είναι συμβατές με αυτή την έκδοση."
+
+#: panels/network/cc-network-panel.c:1108
+msgid "Air_plane Mode"
+msgstr "Λειτουργία αερο_πλάνου"
+
+#: panels/network/net-device-mobile.c:222
+msgid "Add new connection"
+msgstr "Προσθήκη νέας σύνδεσης"
+
+#: panels/network/net-device-mobile.c:261 panels/network/net-device-wifi.c:725
+#: panels/network/net-device-wired.c:126
+#, c-format
+msgid "%d Mb/s"
+msgstr "%d Mb/s"
+
+#: panels/network/net-device-wifi.c:258 panels/network/net-device-wifi.c:437
+msgid "WEP"
+msgstr "WEP"
+
+#: panels/network/net-device-wifi.c:262 panels/network/net-device-wifi.c:441
+msgid "WPA"
+msgstr "WPA"
+
+#: panels/network/net-device-wifi.c:266
+msgid "WPA2"
+msgstr "WPA2"
+
+#: panels/network/net-device-wifi.c:271
+msgid "Enterprise"
+msgstr "Εταιρική"
+
+#: panels/network/net-device-wifi.c:652
+msgid "never"
+msgstr "ποτέ"
+
+#: panels/network/net-device-wifi.c:662
+msgid "today"
+msgstr "σήμερα"
+
+#: panels/network/net-device-wifi.c:664
+msgid "yesterday"
+msgstr "χθες"
+
+#: panels/network/net-device-wifi.c:666
+#, c-format
+msgid "%i day ago"
+msgid_plural "%i days ago"
+msgstr[0] "%i ημέρα πριν"
+msgstr[1] "%i ημέρες πριν"
+
+#: panels/network/net-device-wifi.c:735 panels/network/panel-common.c:277
+msgid "Not connected"
+msgstr "Δεν συνδέθηκε"
+
+#: panels/network/net-device-wifi.c:737 panels/network/net-device-wifi.c:2100
+msgid "Out of range"
+msgstr "Εκτός ορίου"
+
+#: panels/network/net-device-wifi.c:960
+#, c-format
+msgid ""
+"Network details for %s including password and any custom configuration will "
+"be lost."
+msgstr ""
+"Θα χαθούν οι λεπτομέρειες δικτύου για το %s συμπεριλαμβανομένου του κωδικού "
+"πρόσβασης και των προσαρμοσμένων ρυθμίσεων."
+
+#: panels/network/net-device-wifi.c:971
+msgid "Forget"
+msgstr "Ξέχασε"
+
+#: panels/network/net-device-wifi.c:1554
+msgid ""
+"If you have a connection to the Internet other than wireless, you can use it "
+"to share your internet connection with others."
+msgstr ""
+"Αν έχετε άλλη σύνδεση στο Διαδίκτυο εκτός της ασύρματης, μπορείτε να τη "
+"χρησιμοποιήσετε για να μοιραστείτε τη σύνδεση σας με τους άλλους."
+
+#: panels/network/net-device-wifi.c:1558
+#, c-format
+msgid "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+msgstr ""
+"Η ενεργοποίηση της ασύρματης παροχής δικτύωσης θα σας αποσυνδέσει από το "
+"<b>%s</b>."
+
+#: panels/network/net-device-wifi.c:1562
+msgid ""
+"It is not possible to access the internet through your wireless while the "
+"hotspot is active."
+msgstr ""
+"Δεν είναι δυνατή η πρόσβαση στο Διαδίκτυο μέσω του ασύρματου σας ενώ είναι "
+"ενεργή η παροχή ασύρματης δικτύωσης."
+
+#: panels/network/net-device-wifi.c:1628
+msgid "Stop hotspot and disconnect any users?"
+msgstr "Διακοπή παροχής ασύρματης δικτύωσης και αποσύνδεση όλων των χρηστών;"
+
+#: panels/network/net-device-wifi.c:1631
+msgid "_Stop Hotspot"
+msgstr "_Διακοπή παροχής ασύρματης δικτύωσης"
+
+#: panels/network/net-proxy.c:67
+msgid ""
+"Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+msgstr ""
+"Η αυτόματη εύρεση εξυπηρετητή Ιστού χρησιμοποιείτε όταν δεν παρέχετε μια URL "
+"ρυθμίσεων."
+
+#: panels/network/net-proxy.c:75
+msgid "This is not recommended for untrusted public networks."
+msgstr "Αυτό δεν το συνιστούμε για δίκτυα τα οποία δεν εμπιστεύεστε."
+
+#: panels/network/net-proxy.c:368
+msgid "Proxy"
+msgstr "Διαμεσολαβητής"
+
+#: panels/network/panel-common.c:82 panels/network/panel-common.c:162
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+#: panels/network/panel-common.c:86
+msgid "Wired"
+msgstr "Ενσύρματη"
+
+#: panels/network/panel-common.c:90 panels/network/network-wifi.ui.h:3
+msgid "Wireless"
+msgstr "Ασύρματη"
+
+#: panels/network/panel-common.c:97
+msgid "Mobile broadband"
+msgstr "Κινητή ευρυζωνική"
+
+#: panels/network/panel-common.c:102
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: panels/network/panel-common.c:106
+msgid "Mesh"
+msgstr "Mesh"
+
+#: panels/network/panel-common.c:166
+msgid "Ad-hoc"
+msgstr "Ad-hoc"
+
+#: panels/network/panel-common.c:170
+msgid "Infrastructure"
+msgstr "Υποδομή"
+
+#: panels/network/panel-common.c:194 panels/network/panel-common.c:255
+msgid "Status unknown"
+msgstr "Άγνωστη κατάσταση"
+
+#: panels/network/panel-common.c:198
+msgid "Unmanaged"
+msgstr "Χωρίς διαχείριση"
+
+#: panels/network/panel-common.c:203
+msgid "Firmware missing"
+msgstr "Δεν υπάρχει υλισμικό (firmware)"
+
+#: panels/network/panel-common.c:206
+msgid "Cable unplugged"
+msgstr "Το καλώδιο αποσυνδέθηκε"
+
+#: panels/network/panel-common.c:208
+msgid "Unavailable"
+msgstr "Μη διαθέσιμο"
+
+#: panels/network/panel-common.c:212
+msgid "Disconnected"
+msgstr "Αποσυνδεδεμένο"
+
+#: panels/network/panel-common.c:219 panels/network/panel-common.c:261
+msgid "Connecting"
+msgstr "Γίνεται σύνδεση"
+
+#: panels/network/panel-common.c:223 panels/network/panel-common.c:265
+msgid "Authentication required"
+msgstr "Απαιτείται πιστοποίηση"
+
+#: panels/network/panel-common.c:227 panels/network/panel-common.c:269
+msgid "Connected"
+msgstr "Συνδεδεμένο"
+
+#: panels/network/panel-common.c:231
+msgid "Disconnecting"
+msgstr "Γίνεται αποσύνδεση"
+
+#: panels/network/panel-common.c:235 panels/network/panel-common.c:273
+msgid "Connection failed"
+msgstr "Αποτυχία σύνδεσης"
+
+#: panels/network/panel-common.c:239 panels/network/panel-common.c:281
+msgid "Status unknown (missing)"
+msgstr "Άγνωστη κατάσταση (απουσιάζει)"
+
+#: panels/network/panel-common.c:301
+msgid "Configuration failed"
+msgstr "Αποτυχία ρύθμισης"
+
+#: panels/network/panel-common.c:305
+msgid "IP configuration failed"
+msgstr "Αποτυχία ρύθμισης της IP"
+
+#: panels/network/panel-common.c:309
+msgid "IP configuration expired"
+msgstr "Έληξε η ρυθμίση IP"
+
+#: panels/network/panel-common.c:313
+msgid "Secrets were required, but not provided"
+msgstr "Τα μυστικά απαιτήθηκαν, αλλά δεν παρήχθησαν"
+
+#: panels/network/panel-common.c:317
+msgid "802.1x supplicant disconnected"
+msgstr "Αποσυνδέθηκε το 802.1x supplicant"
+
+#: panels/network/panel-common.c:321
+msgid "802.1x supplicant configuration failed"
+msgstr "Αποτυχία ρύθμισης του 802.1x supplicant"
+
+#: panels/network/panel-common.c:325
+msgid "802.1x supplicant failed"
+msgstr "Αποτυχία του 802.1x supplicant"
+
+#: panels/network/panel-common.c:329
+msgid "802.1x supplicant took too long to authenticate"
+msgstr "Το 802.1x supplicant πήρε αρκετή ώρα για να πιστοποιηθεί"
+
+#: panels/network/panel-common.c:333
+msgid "PPP service failed to start"
+msgstr "Αποτυχία εκκίνησης της υπηρεσίας PPP"
+
+#: panels/network/panel-common.c:337
+msgid "PPP service disconnected"
+msgstr "Αποσυνδέθηκε η υπηρεσία PPP"
+
+#: panels/network/panel-common.c:341
+msgid "PPP failed"
+msgstr "Αποτυχία του PPP"
+
+#: panels/network/panel-common.c:345
+msgid "DHCP client failed to start"
+msgstr "Αποτυχία εκκίνησης του πελάτη DHCP"
+
+#: panels/network/panel-common.c:349
+msgid "DHCP client error"
+msgstr "Σφάλμα πελάτη DHCP"
+
+#: panels/network/panel-common.c:353
+msgid "DHCP client failed"
+msgstr "Αποτυχία του πελάτη DHCP"
+
+#: panels/network/panel-common.c:357
+msgid "Shared connection service failed to start"
+msgstr "Αποτυχία εκκίνησης υπηρεσίας της κοινόχρηστης σύνδεσης"
+
+#: panels/network/panel-common.c:361
+msgid "Shared connection service failed"
+msgstr "Αποτυχία υπηρεσίας της κοινόχρηστης σύνδεσης"
+
+#: panels/network/panel-common.c:365
+msgid "AutoIP service failed to start"
+msgstr "Αποτυχία εκκίνησης της υπηρεσίας AutoIP"
+
+#: panels/network/panel-common.c:369
+msgid "AutoIP service error"
+msgstr "Σφάλμα υπηρεσίας AutoIP"
+
+#: panels/network/panel-common.c:373
+msgid "AutoIP service failed"
+msgstr "Αποτυχία υπηρεσίας AutoIP"
+
+#: panels/network/panel-common.c:377
+msgid "Line busy"
+msgstr "Η γραμμή είναι απασχολημένη"
+
+#: panels/network/panel-common.c:381
+msgid "No dial tone"
+msgstr "Δεν ακούγεται ο τόνος κλήσης"
+
+#: panels/network/panel-common.c:385
+msgid "No carrier could be established"
+msgstr "Δεν είναι δυνατή η δημιουργία γραμμής"
+
+#: panels/network/panel-common.c:389
+msgid "Dialing request timed out"
+msgstr "Έληξε το αίτημα κλήσης"
+
+#: panels/network/panel-common.c:393
+msgid "Dialing attempt failed"
+msgstr "Απέτυχε η προσπάθεια κλήσης"
+
+#: panels/network/panel-common.c:397
+msgid "Modem initialization failed"
+msgstr "Απέτυχε η προετοιμασία του μόντεμ"
+
+#: panels/network/panel-common.c:401
+msgid "Failed to select the specified APN"
+msgstr "Απέτυχε η επιλογή του συγκεκριμένου APN"
+
+#: panels/network/panel-common.c:405
+msgid "Not searching for networks"
+msgstr "Δεν ψάχνει για δίκτυα"
+
+#: panels/network/panel-common.c:409
+msgid "Network registration denied"
+msgstr "Αρνήθηκε η εγγραφή του δικτύου"
+
+#: panels/network/panel-common.c:413
+msgid "Network registration timed out"
+msgstr "Έληξε η εγγραφή του δικτύου"
+
+#: panels/network/panel-common.c:417
+msgid "Failed to register with the requested network"
+msgstr "Αποτυχία εγγραφής στο ζητούμενο δίκτυο"
+
+#: panels/network/panel-common.c:421
+msgid "PIN check failed"
+msgstr "Απέτυχε ο έλεγχος του PIN"
+
+#: panels/network/panel-common.c:425
+msgid "Firmware for the device may be missing"
+msgstr "Μπορεί να λείπει το απαραίτητο υλισμικό (firmware) για τη συσκευή"
+
+#: panels/network/panel-common.c:429
+msgid "Connection disappeared"
+msgstr "Η σύνδεση χάθηκε"
+
+#: panels/network/panel-common.c:433
+msgid "Carrier/link changed"
+msgstr "Η γραμμή άλλαξε"
+
+#: panels/network/panel-common.c:437
+msgid "Existing connection was assumed"
+msgstr "Η υπάρχουσα σύνδεση θεωρήθηκε"
+
+#: panels/network/panel-common.c:441
+msgid "Modem not found"
+msgstr "Δεν βρέθηκε μόντεμ"
+
+#: panels/network/panel-common.c:445
+msgid "Bluetooth connection failed"
+msgstr "Αποτυχία σύνδεσης bluetooth"
+
+#: panels/network/panel-common.c:449
+msgid "SIM Card not inserted"
+msgstr "Δεν έχει τοποθετηθεί η κάρτα SIM"
+
+#: panels/network/panel-common.c:453
+msgid "SIM Pin required"
+msgstr "Απαιτείται το Pin της SIM"
+
+#: panels/network/panel-common.c:457
+msgid "SIM Puk required"
+msgstr "Απαιτείται το Puk της SIM"
+
+#: panels/network/panel-common.c:461
+msgid "SIM wrong"
+msgstr "Λάθος SIM"
+
+#: panels/network/panel-common.c:465
+msgid "InfiniBand device does not support connected mode"
+msgstr ""
+"Η συσκευή InfiniBand δεν υποστηρίζει συνδεδεμένη λειτουργία (connected mode)"
+
+#: panels/network/panel-common.c:469
+msgid "Connection dependency failed"
+msgstr "Απέτυχε η εξάρτηση της σύνδεσης"
+
+#: panels/network/panel-common.c:683 panels/network/network-wifi.ui.h:13
+#: panels/network/network-wired.ui.h:2
+msgid "IPv4 Address"
+msgstr "Διεύθυνση IPv4"
+
+#: panels/network/panel-common.c:684 panels/network/network-mobile.ui.h:4
+#: panels/network/network-wifi.ui.h:14 panels/network/network-wired.ui.h:3
+msgid "IPv6 Address"
+msgstr "Διεύθυνση IPv6"
+
+#: panels/network/panel-common.c:686 panels/network/panel-common.c:688
+#: panels/network/network-mobile.ui.h:3
+msgid "IP Address"
+msgstr "Διεύθυνση IP"
+
+#: panels/power/cc-power-panel.c:166
+msgid "Unknown time"
+msgstr "Άγνωστος χρόνος"
+
+#: panels/power/cc-power-panel.c:172
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "%i λεπτό"
+msgstr[1] "%i λεπτά"
+
+#: panels/power/cc-power-panel.c:184
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] "%i ώρα"
+msgstr[1] "%i ώρες"
+
+#: panels/power/cc-power-panel.c:192
+#, c-format
+msgid "%i %s %i %s"
+msgstr "%i %s %i %s"
+
+#: panels/power/cc-power-panel.c:193
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "ώρα"
+msgstr[1] "ώρες"
+
+#: panels/power/cc-power-panel.c:194
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "λεπτό"
+msgstr[1] "λεπτά"
+
+#: panels/power/cc-power-panel.c:237
+#, c-format
+msgid "Charging - %s until fully charged"
+msgstr "Φορτίζεται - απομένει %s μέχρι να φορτιστεί πλήρως"
+
+#: panels/power/cc-power-panel.c:245
+#, c-format
+msgid "Caution low battery, %s remaining"
+msgstr "Προσοχή χαμηλή μπαταρία, απομένει %s"
+
+#: panels/power/cc-power-panel.c:253
+#, c-format
+msgid "Using battery power - %s remaining"
+msgstr "Σε τροφοδοσία από μπαταρία - απομένει %s"
+
+#: panels/power/cc-power-panel.c:270
+msgid "Charging"
+msgstr "Φορτίζεται"
+
+#: panels/power/cc-power-panel.c:275
+msgid "Using battery power"
+msgstr "Σε τροφοδοσία από μπαταρία"
+
+#: panels/power/cc-power-panel.c:279
+msgid "Charging - fully charged"
+msgstr "Φορτίζεται - πλήρες φορτισμένο"
+
+#: panels/power/cc-power-panel.c:283
+msgid "Empty"
+msgstr "Κενό"
+
+#: panels/power/cc-power-panel.c:351
+#, c-format
+msgid "Caution low UPS, %s remaining"
+msgstr "Προσοχή χαμηλό φορτίο UPS, απομένει %s"
+
+#: panels/power/cc-power-panel.c:357
+#, c-format
+msgid "Using UPS power - %s remaining"
+msgstr "Σε τροφοδοσία από UPS - απομένει %s"
+
+#: panels/power/cc-power-panel.c:375
+msgid "Caution low UPS"
+msgstr "Προσοχή χαμηλό φορτίο UPS"
+
+#: panels/power/cc-power-panel.c:380
+msgid "Using UPS power"
+msgstr "Σε τροφοδοσία από UPS"
+
+#: panels/power/cc-power-panel.c:432
+msgid "Your secondary battery is fully charged"
+msgstr "Η δευτερεύουσα μπαταρία είναι πλήρης φορτισμένη"
+
+#: panels/power/cc-power-panel.c:436
+msgid "Your secondary battery is empty"
+msgstr "Η δευτερεύουσα μπαταρία είναι άδεια"
+
+#: panels/power/cc-power-panel.c:519
+msgid "Wireless mouse"
+msgstr "Ασύρματο ποντίκι"
+
+#: panels/power/cc-power-panel.c:523
+msgid "Wireless keyboard"
+msgstr "Ασύρματο πληκτρολόγιο"
+
+#: panels/power/cc-power-panel.c:527
+msgid "Uninterruptible power supply"
+msgstr "Αδιάλειπτη παροχή ρεύματος"
+
+#: panels/power/cc-power-panel.c:531
+msgid "Personal digital assistant"
+msgstr "Προσωπική ψηφιακή βοήθεια"
+
+#: panels/power/cc-power-panel.c:535
+msgid "Cellphone"
+msgstr "Κινητό τηλέφωνο"
+
+#: panels/power/cc-power-panel.c:539
+msgid "Media player"
+msgstr "Αναπαραγωγέας πολυμέσων"
+
+#: panels/power/cc-power-panel.c:543
+msgid "Tablet"
+msgstr "Ταμπλέτα"
+
+#: panels/power/cc-power-panel.c:547
+msgid "Computer"
+msgstr "Υπολογιστής"
+
+#: panels/power/cc-power-panel.c:551
+msgid "Battery"
+msgstr "Μπαταρία"
+
+#: panels/region/cc-region-panel.c:178
+msgid "Get more languages..."
+msgstr "Λήψη περισσότερων γλωσσών..."
+
+#: panels/region/cinnamon-region-panel-formats.c:142
+msgid "Imperial"
+msgstr "Imperial"
+
+#: panels/region/cinnamon-region-panel-formats.c:144
+msgid "Metric"
+msgstr "Μετρικό"
+
+#: panels/region/cinnamon-region-panel-system.c:420
+msgid ""
+"The login screen, system accounts and new user accounts use the system-wide "
+"Region and Language settings."
+msgstr ""
+"Η οθόνη σύνδεσης, οι λογαριασμοί συστήματος και οι νέοι λογαριασμοί χρηστών "
+"χρησιμοποιούν τις καθολικές ρυθμίσεις περιοχής και γλώσσας."
+
+#: panels/region/cinnamon-region-panel-system.c:425
+#: panels/region/cinnamon-region-panel.ui.h:32
+msgid ""
+"The login screen, system accounts and new user accounts use the system-wide "
+"Region and Language settings. You may change the system settings to match "
+"yours."
+msgstr ""
+"Η οθόνη σύνδεσης, οι λογαριασμοί συστήματος και οι νέοι λογαριασμοί χρηστών "
+"χρησιμοποιούν τις καθολικές ρυθμίσεις περιοχής και γλώσσας. Μπορείτε να "
+"αλλάξετε τις ρυθμίσεις συστήματος για να ταιριάζουν στις δικές σας."
+
+#: panels/region/cinnamon-region-panel-system.c:428
+msgid "Copy Settings"
+msgstr "Αντιγραφή ρυθμίσεων"
+
+#: panels/region/cinnamon-region-panel-system.c:431
+#: panels/region/cinnamon-region-panel.ui.h:39
+msgid "Copy Settings..."
+msgstr "Αντιγραφή ρυθμίσεων..."
+
+#: panels/region/cinnamon-region-panel-xkblt.c:210
+msgid "Layout"
+msgstr "Διάταξη"
+
+#: panels/region/cinnamon-region-panel-xkbot.c:229
+msgid "Default"
+msgstr "Προεπιλεγμένη"
+
+#: panels/sound/applet-main.c:49
+msgid "Enable debugging code"
+msgstr "Ενεργοποίηση αποσφαλμάτωσης του κώδικα"
+
+#: panels/sound/applet-main.c:50
+msgid "Version of this application"
+msgstr "Έκδοση αυτής της εφαρμογής"
+
+#: panels/sound/applet-main.c:62
+msgid " — Cinnamon Volume Control Applet"
+msgstr " — Εφαρμογίδιο Έντασης Ήχου Cinnamon"
+
+#: panels/sound/gvc-applet.c:270 panels/sound/gvc-mixer-dialog.c:1654
+#: panels/sound-nua/gvc-mixer-dialog.c:1748
+msgid "Output"
+msgstr "Έξοδος"
+
+#: panels/sound/gvc-applet.c:272
+msgid "Sound Output Volume"
+msgstr "Ένταση ήχου εξόδου"
+
+#: panels/sound/gvc-applet.c:276 panels/sound/gvc-mixer-dialog.c:1695
+#: panels/sound-nua/gvc-mixer-dialog.c:1881
+msgid "Input"
+msgstr "Είσοδος"
+
+#: panels/sound/gvc-applet.c:278
+msgid "Microphone Volume"
+msgstr "Ένταση μικροφώνου"
+
+#: panels/sound/gvc-balance-bar.c:295 panels/sound-nua/gvc-balance-bar.c:295
+msgid "_Balance:"
+msgstr "_Ισοστάθμιση:"
+
+#: panels/sound/gvc-balance-bar.c:298 panels/sound-nua/gvc-balance-bar.c:298
+msgid "_Fade:"
+msgstr "_Βαθμιαία μείωση έντασης:"
+
+#: panels/sound/gvc-balance-bar.c:301 panels/sound-nua/gvc-balance-bar.c:301
+msgid "_Subwoofer:"
+msgstr "_Subwoofer:"
+
+#: panels/sound/gvc-combo-box.c:167 panels/sound/gvc-mixer-dialog.c:258
+#: panels/sound/gvc-mixer-dialog.c:519
+msgid "_Profile:"
+msgstr "_Προφίλ:"
+
+#: panels/sound/gvc-mixer-control.c:1834
+msgid "Disabled"
+msgstr "απενεργοποιήθηκε"
+
+#: panels/sound/gvc-mixer-control.c:1841
+#, c-format
+msgid "%u Output"
+msgid_plural "%u Outputs"
+msgstr[0] "Έξοδος %u"
+msgstr[1] "Έξοδοι %u"
+
+#: panels/sound/gvc-mixer-control.c:1851
+#, c-format
+msgid "%u Input"
+msgid_plural "%u Inputs"
+msgstr[0] "Είσοδος %u"
+msgstr[1] "Είσοδοι %u"
+
+#: panels/sound/gvc-mixer-control.c:2375
+msgid "System Sounds"
+msgstr "Ήχοι συστήματος"
+
+#: panels/sound/gvc-mixer-dialog.c:260
+msgid "_Test Speakers"
+msgstr "_Δοκιμή ηχείων"
+
+#: panels/sound/gvc-mixer-dialog.c:424 panels/sound-nua/gvc-mixer-dialog.c:341
+msgid "Peak detect"
+msgstr "Εντοπισμός κορύφωσης"
+
+#: panels/sound/gvc-mixer-dialog.c:1504
+#: panels/sound-nua/gvc-mixer-dialog.c:1578
+msgid "Name"
+msgstr "Όνομα"
+
+#: panels/sound/gvc-mixer-dialog.c:1586
+#: panels/sound-nua/gvc-mixer-dialog.c:1680
+#, c-format
+msgid "Speaker Testing for %s"
+msgstr "Δοκιμή ηχείου για %s"
+
+#: panels/sound/gvc-mixer-dialog.c:1640
+#: panels/sound-nua/gvc-mixer-dialog.c:2016
+msgid "_Output volume:"
+msgstr "Ένταση ήχου ε_ξόδου:"
+
+#: panels/sound/gvc-mixer-dialog.c:1659
+msgid "C_hoose a device for sound output:"
+msgstr "Επι_λέξτε μια συσκευή για την έξοδο ήχου:"
+
+#: panels/sound/gvc-mixer-dialog.c:1684
+msgid "Settings for the selected device:"
+msgstr "Ρυθμίσεις για την επιλεγμένη συσκευή:"
+
+#: panels/sound/gvc-mixer-dialog.c:1702
+#: panels/sound-nua/gvc-mixer-dialog.c:1928
+msgid "_Input volume:"
+msgstr "Ένταση ήχου ει_σόδου:"
+
+#: panels/sound/gvc-mixer-dialog.c:1725
+#: panels/sound-nua/gvc-mixer-dialog.c:1961
+msgid "Input level:"
+msgstr "Επίπεδο εισόδου"
+
+#: panels/sound/gvc-mixer-dialog.c:1753
+msgid "C_hoose a device for sound input:"
+msgstr "Επιλέ_ξτε μια συσκευή για την είσοδο ήχου:"
+
+#: panels/sound/gvc-mixer-dialog.c:1780
+#: panels/sound-nua/gvc-mixer-dialog.c:1982
+msgid "Sound Effects"
+msgstr "Ηχητικά εφέ"
+
+#: panels/sound/gvc-mixer-dialog.c:1787
+#: panels/sound-nua/gvc-mixer-dialog.c:1989
+msgid "_Alert volume:"
+msgstr "Έν_ταση ειδοποίησης:"
+
+#: panels/sound/gvc-mixer-dialog.c:1795
+#: panels/sound-nua/gvc-mixer-dialog.c:1997
+msgid "Applications"
+msgstr "Εφαρμογές"
+
+#: panels/sound/gvc-mixer-dialog.c:1799
+#: panels/sound-nua/gvc-mixer-dialog.c:2001
+msgid "No application is currently playing or recording audio."
+msgstr "Προς το παρόν καμία εφαρμογή δεν αναπαράγει ή καταγράφει ήχο."
+
+#: panels/sound/gvc-speaker-test.c:220
+msgid "Stop"
+msgstr "Διακοπή"
+
+#: panels/sound/gvc-speaker-test.c:220 panels/sound/gvc-speaker-test.c:332
+msgid "Test"
+msgstr "Δοκιμή"
+
+#: panels/sound/gvc-speaker-test.c:228
+msgid "Subwoofer"
+msgstr "Subwoofer"
+
+#: panels/sound/gvc-stream-status-icon.c:236
+#, c-format
+msgid "Failed to start Sound Preferences: %s"
+msgstr "Αποτυχία εκκίνησης προτιμήσεων ήχου: %s"
+
+#: panels/sound/gvc-stream-status-icon.c:262
+msgid "_Mute"
+msgstr "Σίγα_ση"
+
+#: panels/sound/gvc-stream-status-icon.c:271
+msgid "_Sound Preferences"
+msgstr "Προτιμήσεις ήχου"
+
+#: panels/sound/gvc-stream-status-icon.c:416
+msgid "Muted"
+msgstr "Σε σιγή"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:774
+#: panels/sound-nua/gvc-mixer-dialog.c:944
+#, c-format
+msgid "Settings for %s"
+msgstr "Ρυθμίσεις για %s"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:800
+#: panels/sound-nua/gvc-mixer-dialog.c:953
+msgid "Mode:"
+msgstr "Κατάσταση:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1753
+msgid "Play sound through"
+msgstr "Αναπαραγωγή ήχου μέσω"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1778
+#: panels/sound-nua/gvc-mixer-dialog.c:1910
+msgid "Settings for the selected device"
+msgstr "Ρυθμίσεις για την επιλεγμένη συσκευή"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1851
+msgid "Test:"
+msgstr "Δοκιμή:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1858
+msgid "Test Sound"
+msgstr "Δοκιμή ήχου"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1885
+msgid "Record sound from"
+msgstr "Καταγραφή ήχου από"
+
+#: panels/universal-access/cc-ua-panel.c:289
+#: panels/universal-access/cc-ua-panel.c:295
+msgid "No shortcut set"
+msgstr "Δεν έχει ορισθεί συντόμευση"
+
+#: shell/cc-shell-nav-bar.c:117
+msgid "_All Settings"
+msgstr "_Όλες οι ρυθμίσεις"
+
+#: shell/control-center.c:58
+msgid "Enable verbose mode"
+msgstr "Ενεργοποίηση περιφραστικών μηνυμάτων"
+
+#: shell/control-center.c:59
+msgid "Show the overview"
+msgstr "Εμφάνιση της επισκόπησης"
+
+#: shell/control-center.c:60 shell/control-center.c:61
+#: shell/control-center.c:62
+msgid "Show help options"
+msgstr "Εμφάνιση επιλογών βοήθειας"
+
+#: shell/control-center.c:63
+msgid "Panel to display"
+msgstr "Πίνακας για εμφάνιση"
+
+#: shell/control-center.c:85
+msgid "- System Settings"
+msgstr "- Ρυθμίσεις συστήματος"
+
+#: shell/control-center.c:93
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Εκτελέστε '%s --help' για να δείτε μια πλήρη λίστα των διαθέσιμων επιλογών "
+"της γραμμής εντολών.\n"
+
+#: shell/control-center.c:215
+msgid "Help"
+msgstr "Βοήθεια"
+
+#: shell/control-center.c:216
+msgid "Quit"
+msgstr "Έξοδος"
+
+#: panels/color/color.ui.h:3 generate_additional_files.py:83
+msgid "Color"
+msgstr "Χρωματισμός"
+
+#: panels/color/color.ui.h:4
+msgid "Each device needs an up to date color profile to be color managed."
+msgstr ""
+"Για να μπορεί γίνει διαχείριση χρωμάτων, κάθε συσκευή χρειάζεται ένα "
+"ενημερωμένο προφίλ χρώματος."
+
+#: panels/color/color.ui.h:5
+msgid "Learn more"
+msgstr "Μάθετε περισσότερα"
+
+#: panels/color/color.ui.h:6
+msgid "Learn more about color management"
+msgstr "Μάθετε περισσότερα για τη διαχείριση χρωμάτων"
+
+#: panels/color/color.ui.h:7
+msgid "Add device"
+msgstr "Προσθήκη συσκευής"
+
+#: panels/color/color.ui.h:8
+msgid "Add a virtual device"
+msgstr "Προσθήκη εικονικής συσκευής"
+
+#: panels/color/color.ui.h:9
+msgid "Delete device"
+msgstr "Διαγραφή συσκευής"
+
+#: panels/color/color.ui.h:10
+msgid "Remove a device"
+msgstr "Αφαίρεση συσκευής"
+
+#: panels/color/color.ui.h:12
+msgid "Set this profile for all users on this computer"
+msgstr "Ορισμός του προφίλ για όλους τους χρήστες σε αυτόν τον υπολογιστή"
+
+#: panels/color/color.ui.h:13
+msgid "Add profile"
+msgstr ""
+
+#: panels/color/color.ui.h:14
+msgid "Calibrate…"
+msgstr ""
+
+#: panels/color/color.ui.h:15
+msgid "Calibrate the device"
+msgstr ""
+
+#: panels/color/color.ui.h:16
+msgid "Remove profile"
+msgstr ""
+
+#: panels/color/color.ui.h:17
+msgid "View details"
+msgstr ""
+
+#: panels/color/color.ui.h:18
+msgid "Device type:"
+msgstr ""
+
+#: panels/color/color.ui.h:19
+msgid "Manufacturer:"
+msgstr ""
+
+#: panels/color/color.ui.h:20
+msgid "Model:"
+msgstr ""
+
+#: panels/color/color.ui.h:21
+msgid ""
+"Image files can be dragged on this window to auto-complete the above fields."
+msgstr ""
+
+#: panels/common/language-chooser.ui.h:1
+msgid "Select a language"
+msgstr ""
+
+#: panels/common/language-chooser.ui.h:2
+msgid "_Cancel"
+msgstr ""
+
+#: panels/common/language-chooser.ui.h:3
+msgid "_Select"
+msgstr ""
+
+#: panels/display/display-capplet.ui.h:2
+msgid "Set as Primary"
+msgstr ""
+
+#: panels/display/display-capplet.ui.h:3
+msgid "_Resolution"
+msgstr ""
+
+#: panels/display/display-capplet.ui.h:4
+msgid "R_otation"
+msgstr ""
+
+#: panels/display/display-capplet.ui.h:6
+msgid "_Mirror displays"
+msgstr ""
+
+#: panels/display/display-capplet.ui.h:7
+msgid "Note: may limit resolution options"
+msgstr ""
+
+#: panels/display/display-capplet.ui.h:8
+msgid "_Detect Displays"
+msgstr ""
+
+#: panels/network/network-mobile.ui.h:1
+msgid "IMEI"
+msgstr ""
+
+#: panels/network/network-mobile.ui.h:2
+msgid "Provider"
+msgstr ""
+
+#: panels/network/network-mobile.ui.h:5 panels/network/network-wifi.ui.h:15
+#: panels/network/network-wired.ui.h:4
+msgid "Default Route"
+msgstr ""
+
+#: panels/network/network-mobile.ui.h:6 panels/network/network-wifi.ui.h:16
+#: panels/network/network-wired.ui.h:5
+msgid "DNS"
+msgstr ""
+
+#: panels/network/network-mobile.ui.h:7 generate_additional_files.py:173
+msgid "Network"
+msgstr ""
+
+#: panels/network/network-mobile.ui.h:8 panels/network/network-wired.ui.h:6
+#: panels/region/cinnamon-region-panel.ui.h:26
+msgid "_Options..."
+msgstr ""
+
+#: panels/network/network-proxy.ui.h:4
+msgid "_Method"
+msgstr ""
+
+#: panels/network/network-proxy.ui.h:5
+msgid "_Configuration URL"
+msgstr ""
+
+#: panels/network/network-proxy.ui.h:6
+msgid "_HTTP Proxy"
+msgstr ""
+
+#: panels/network/network-proxy.ui.h:7
+msgid "H_TTPS Proxy"
+msgstr ""
+
+#: panels/network/network-proxy.ui.h:8
+msgid "_FTP Proxy"
+msgstr ""
+
+#: panels/network/network-proxy.ui.h:9
+msgid "_Socks Host"
+msgstr ""
+
+#: panels/network/network.ui.h:1
+msgid "Select the interface to use for the new service"
+msgstr ""
+
+#: panels/network/network.ui.h:2
+msgid "C_reate..."
+msgstr ""
+
+#: panels/network/network.ui.h:3
+msgid "_Interface"
+msgstr ""
+
+#: panels/network/network.ui.h:4 panels/network/network-vpn.ui.h:1
+msgid "VPN"
+msgstr ""
+
+#: panels/network/network.ui.h:8
+msgid "Add Device"
+msgstr ""
+
+#: panels/network/network.ui.h:9
+msgid "Remove Device"
+msgstr "Αφαίρεση συσκευής"
+
+#: panels/network/network-vpn.ui.h:2
+msgid "VPN Type"
+msgstr ""
+
+#: panels/network/network-vpn.ui.h:3
+msgid "Gateway"
+msgstr ""
+
+#: panels/network/network-vpn.ui.h:4
+msgid "Group Name"
+msgstr ""
+
+#: panels/network/network-vpn.ui.h:5
+msgid "Group Password"
+msgstr ""
+
+#: panels/network/network-vpn.ui.h:6
+msgid "Username"
+msgstr ""
+
+#: panels/network/network-vpn.ui.h:7
+msgid "_Configure..."
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:1
+msgid "Wireless Hotspot"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:2
+msgid "_Turn On"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:4
+msgid "_Use as Hotspot..."
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:5
+msgid "Connect to a Hidden Network"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:6
+msgid "_Disconnect"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:7
+msgid "_Connect"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:8
+msgid "Last used"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:9 panels/network/network-wired.ui.h:1
+msgid "Hardware Address"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:10
+msgid "Security"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:11
+msgid "Strength"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:12
+msgid "Link speed"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:17
+msgid "_Forget Network"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:18
+msgid "_Settings..."
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:19
+msgid "Switch off to connect to a wireless network"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:20
+msgid "Network Name"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:21
+msgid "Connected Devices"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:22
+msgid "Security type"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:23
+msgid "Security key"
+msgstr ""
+
+#: panels/power/power.ui.h:1
+msgid "Hibernate"
+msgstr ""
+
+#: panels/power/power.ui.h:2
+msgid "Power off"
+msgstr ""
+
+#: panels/power/power.ui.h:3 panels/screen/screen.ui.h:6
+msgid "5 minutes"
+msgstr ""
+
+#: panels/power/power.ui.h:4 panels/screen/screen.ui.h:7
+msgid "10 minutes"
+msgstr ""
+
+#: panels/power/power.ui.h:5 panels/screen/screen.ui.h:8
+msgid "30 minutes"
+msgstr ""
+
+#: panels/power/power.ui.h:6 panels/screen/screen.ui.h:9
+msgid "1 hour"
+msgstr ""
+
+#: panels/power/power.ui.h:7
+msgid "Don't suspend"
+msgstr ""
+
+#: panels/power/power.ui.h:8
+msgid "Suspend"
+msgstr ""
+
+#: panels/power/power.ui.h:9
+msgid "Do nothing"
+msgstr ""
+
+#: panels/power/power.ui.h:10
+msgid "Lock Screen"
+msgstr ""
+
+#: panels/power/power.ui.h:11
+msgid "Shutdown Immediately"
+msgstr ""
+
+#: panels/power/power.ui.h:12
+msgid "Ask"
+msgstr ""
+
+#: panels/power/power.ui.h:13
+msgid "When battery is present"
+msgstr ""
+
+#: panels/power/power.ui.h:14
+msgid "When battery is charging/in use"
+msgstr ""
+
+#: panels/power/power.ui.h:15 panels/screen/screen.ui.h:10
+msgid "Never"
+msgstr ""
+
+#: panels/power/power.ui.h:16
+msgid "On battery power"
+msgstr ""
+
+#: panels/power/power.ui.h:17
+msgid "When plugged in"
+msgstr ""
+
+#: panels/power/power.ui.h:18
+msgid "Suspend when inactive for"
+msgstr ""
+
+#: panels/power/power.ui.h:19
+msgid "When power is _critically low"
+msgstr ""
+
+#: panels/power/power.ui.h:20
+msgid "When the lid is closed"
+msgstr ""
+
+#: panels/power/power.ui.h:21
+msgid "Show battery status in the _menu bar"
+msgstr ""
+
+#: panels/power/power.ui.h:22
+msgid "Power button action"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:1
+msgid "Choose a Layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:2
+msgid "Preview"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:3
+msgid "Select an input source to add"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel-options-dialog.ui.h:1
+msgid "Keyboard Layout Options"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:1
+msgid "Region and Language"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:2
+msgid ""
+"Select a display language (change will be applied next time you log in)"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:3
+msgid "Add Language"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:4
+msgid "Remove Language"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:5
+msgid "button"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:6
+msgid "Language"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:7
+msgid "Select a region (change will be applied the next time you log in)"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:8
+msgid "Add Region"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:9
+msgid "Remove Region"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:10
+msgid "Dates"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:11
+msgid "Times"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:12
+msgid "Numbers"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:13
+msgid "Currency"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:14
+msgid "Measurement"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:15
+msgid "Examples"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:16
+msgid "Formats"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:17
+msgid "Add Layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:18
+msgid "Remove Layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:19
+msgid "Move Up"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:20
+msgid "Move Down"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:21
+msgid "Preview Layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:22
+msgid "Use the same layout for all windows"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:23
+msgid "Allow different layouts for individual windows"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:24
+msgid "New windows use the default layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:25
+msgid "New windows use the previous window's layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:27
+msgid "View and edit keyboard layout options"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:28
+msgid "Reset to De_faults"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:29
+msgid ""
+"Replace the current keyboard layout settings with the\n"
+"default settings"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:31
+msgid "Keyboard Layouts"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:34
+msgid "Display language:"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:35
+msgid "Input source:"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:36
+msgid "Format:"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:37
+msgid "Your settings"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:38
+msgid "System settings"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:40
+msgid "System"
+msgstr ""
+
+#: panels/screen/screen.ui.h:1
+msgid "Screen turns off"
+msgstr ""
+
+#: panels/screen/screen.ui.h:2
+msgid "30 seconds"
+msgstr ""
+
+#: panels/screen/screen.ui.h:3
+msgid "1 minute"
+msgstr ""
+
+#: panels/screen/screen.ui.h:4
+msgid "2 minutes"
+msgstr ""
+
+#: panels/screen/screen.ui.h:5
+msgid "3 minutes"
+msgstr ""
+
+#: panels/screen/screen.ui.h:11
+msgid "_Dim screen to save power"
+msgstr ""
+
+#: panels/screen/screen.ui.h:12
+msgid "Brightness"
+msgstr ""
+
+#: panels/screen/screen.ui.h:13
+msgid "_Turn screen off when inactive for:"
+msgstr ""
+
+#: panels/screen/screen.ui.h:14
+msgid "_Lock screen after:"
+msgstr ""
+
+#: panels/screen/screen.ui.h:15
+msgid "Require my password when waking from suspend"
+msgstr ""
+
+#: panels/screen/screen.ui.h:16
+msgid "Lock"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:5
+msgid "On screen keyboard"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:6
+msgid "GOK"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:7
+msgid "OnBoard"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:8
+msgid "None"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:10
+#, no-c-format
+msgid "75%"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:13
+#, no-c-format
+msgid "100%"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:16
+#, no-c-format
+msgid "125%"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:19
+#, no-c-format
+msgid "150%"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:21
+msgid "High Contrast"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:22
+msgid "Beep on Caps and Num Lock"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:23
+msgid "Options..."
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:24
+msgid "Screen Reader"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:25
+msgid "Turn on or off:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:27
+msgid "Zoom in:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:28
+msgid "Zoom out:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:29
+msgid "Large Text"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:30
+msgid "Seeing"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:31
+msgid "Visual Alerts"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:32
+msgid "Use a visual indication when an alert sound occurs"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:33
+msgid "Flash the window title"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:34
+msgid "Flash the entire screen"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:35
+msgid "Closed Captioning"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:36
+msgid "Display a textual description of speech and sounds"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:37
+msgid "_Test flash"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:38
+msgid "Hearing"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:39
+msgid "On Screen Keyboard"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:40
+msgid "Sticky Keys"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:41
+msgid "Treats a sequence of modifier keys as a key combination"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:42
+msgid "_Disable if two keys are pressed together"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:43
+msgid "Beep when a _modifer key is pressed"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:44
+msgid "Slow Keys"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:45
+msgid "Puts a delay between when a key is pressed and when it is accepted"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:46
+msgid "A_cceptance delay:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:48
+msgid "Short"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:49
+msgid "Slow keys typing delay"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:51
+msgid "Long"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:53
+msgid "Beep when a key is"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:55
+msgid "pressed"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:57
+msgid "accepted"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:59
+msgid "rejected"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:60
+msgid "Bounce Keys"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:61
+msgid "Ignores fast duplicate keypresses"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:62
+msgid "Acc_eptance delay:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:63
+msgid "Bounce keys typing delay"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:64
+msgid "Beep when a key is _rejected"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:65
+msgid "Enable by Keyboard"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:66
+msgid "Turn accessibility features on and off using the keyboard"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:67
+msgid "Typing"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:68
+msgid "Mouse Keys"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:69
+msgid "Control the pointer using the keypad"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:70
+msgid "Video Mouse"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:71
+msgid "Control the pointer using the video camera."
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:72
+msgid "Simulated Secondary Click"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:73
+msgid "Trigger a secondary click by holding down the primary button"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:74
+msgid "Secondary click delay"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:75
+msgid "Hover Click"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:76
+msgid "Trigger a click when the pointer hovers"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:77
+msgid "D_elay:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:78
+msgid "Motion _threshold:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:80
+msgid "Small"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:82
+msgid "Large"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:83
+msgid "Mouse Settings"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:84
+msgid "Pointing and Clicking"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:1
+msgid "Full Screen"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:2
+msgid "Top Half"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:3
+msgid "Bottom Half"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:4
+msgid "Left Half"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:5
+msgid "Right Half"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:6
+msgid "Zoom Options"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:7
+msgid "Zoom"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:8
+msgid "Magnification:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:9
+msgid "Follow mouse cursor"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:10
+msgid "Screen part:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:11
+msgid "Magnifier extends outside of screen"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:12
+msgid "Keep magnifier cursor centered"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:13
+msgid "Magnifier cursor pushes contents around"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:14
+msgid "Magnifier cursor moves with contents"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:15
+msgid "Magnifier Position:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:16
+msgid "Magnifier"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:17
+msgid "Thickness:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:19
+msgid "Thin"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:21
+msgid "Thick"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:22
+msgid "Length:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:23
+msgid "Color:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:24
+msgid "Crosshairs:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:25
+msgid "Overlaps mouse cursor"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:26
+msgid "Crosshairs"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:27
+msgid "White on black:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:28
+msgid "Brightness:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:29
+msgid "Contrast:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:34
+msgid "Low"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:36
+msgid "High"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:37
+msgid "Color Effects:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:38
+msgid "Color Effects"
+msgstr ""
+
+#: generate_additional_files.py:53
+msgid "Brightness & Lock"
+msgstr ""
+
+#: generate_additional_files.py:53
+msgid "Screen brightness and lock settings"
+msgstr ""
+
+#: generate_additional_files.py:68 generate_additional_files.py:99
+msgid "Sound"
+msgstr ""
+
+#: generate_additional_files.py:68 generate_additional_files.py:99
+msgid "Change sound volume and sound events"
+msgstr ""
+
+#: generate_additional_files.py:83
+msgid "Color management settings"
+msgstr ""
+
+#: generate_additional_files.py:113
+msgid "Volume Control"
+msgstr ""
+
+#: generate_additional_files.py:113
+msgid "Show desktop volume control"
+msgstr ""
+
+#: generate_additional_files.py:128
+msgid "Power"
+msgstr ""
+
+#: generate_additional_files.py:128
+msgid "Power management settings"
+msgstr ""
+
+#: generate_additional_files.py:143
+msgid "Region & Language"
+msgstr ""
+
+#: generate_additional_files.py:143
+msgid "Change your region and language settings"
+msgstr ""
+
+#: generate_additional_files.py:158
+msgid "Displays"
+msgstr ""
+
+#: generate_additional_files.py:158
+msgid "Change resolution and position of monitors and projectors"
+msgstr ""
+
+#: generate_additional_files.py:173
+msgid "Network settings"
+msgstr ""
+
+#: generate_additional_files.py:188
+msgid "Universal Access"
+msgstr ""
+
+#: generate_additional_files.py:188
+msgid "Universal Access Preferences"
+msgstr ""

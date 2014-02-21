@@ -1,0 +1,2116 @@
+# Terjemahan Bahasa Indonesia dari cinnamon-control-center
+# Copyright (C) 2003 cinnamon-control-center's copyright holder
+# This file is distributed under the same license as the cinnamon-control-center package.
+#
+#
+# Mohammad DAMT <mdamt@bisnisweb.com>, 2003.
+# Ahmad Riza H Nst  <rizahnst@gnome.org>, 2006.
+# Dirgita <dirgitadevina@yahoo.co.id>, 2010, 2012.
+# Andika Triwidada <andika@gmail.com>, 2009, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: cinnamon-control-center master\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=cinnamon-control-"
+"center&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-08-30 17:55+0100\n"
+"PO-Revision-Date: 2013-10-03 07:21+0000\n"
+"Last-Translator: Wayan Sudiarnata <Unknown>\n"
+"Language-Team: Indonesian <gnome@i15n.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2013-11-26 11:42+0000\n"
+"X-Generator: Launchpad (build 16840)\n"
+"Language: id\n"
+
+#: panels/color/cc-color-panel.c:106
+msgid "Other profile…"
+msgstr "Profil lain…"
+
+#: panels/color/cc-color-panel.c:119
+msgid "Default: "
+msgstr "Baku: "
+
+#: panels/color/cc-color-panel.c:126
+msgid "Colorspace: "
+msgstr "Ruang warna: "
+
+#: panels/color/cc-color-panel.c:132
+msgid "Test profile: "
+msgstr "Profil uji: "
+
+#: panels/color/cc-color-panel.c:185 panels/color/color.ui.h:11
+msgid "Set for all users"
+msgstr "Tata bagi semua pengguna"
+
+#: panels/color/cc-color-panel.c:192
+msgid "Create virtual device"
+msgstr "Buat perangkat virtual"
+
+#: panels/color/cc-color-panel.c:227
+msgid "Select ICC Profile File"
+msgstr "Pilih Berkas Profil ICC"
+
+#: panels/color/cc-color-panel.c:230
+msgid "_Import"
+msgstr "_Impor"
+
+#: panels/color/cc-color-panel.c:241
+msgid "Supported ICC profiles"
+msgstr "Profil ICC yang didukung"
+
+#: panels/color/cc-color-panel.c:248
+msgid "All files"
+msgstr "Semua berkas"
+
+#: panels/color/cc-color-panel.c:638
+msgid "Available Profiles for Displays"
+msgstr "Profil Tersedia Bagi Monitor"
+
+#: panels/color/cc-color-panel.c:642
+msgid "Available Profiles for Scanners"
+msgstr "Profil Tersedia Bagi Pemindai"
+
+#: panels/color/cc-color-panel.c:646
+msgid "Available Profiles for Printers"
+msgstr "Profil Tersedia Bagi Pencetak"
+
+#: panels/color/cc-color-panel.c:650
+msgid "Available Profiles for Cameras"
+msgstr "Profil Tersedia Bagi Kamera"
+
+#: panels/color/cc-color-panel.c:654
+msgid "Available Profiles for Webcams"
+msgstr "Profil Tersedia Bagi Webcam"
+
+#: panels/color/cc-color-panel.c:659 panels/color/color.ui.h:2
+msgid "Available Profiles"
+msgstr "Profil Tersedia"
+
+#: panels/color/cc-color-panel.c:935 panels/sound/gvc-mixer-dialog.c:1523
+#: panels/sound-nua/gvc-mixer-dialog.c:1596
+msgid "Device"
+msgstr "Perangkat"
+
+#: panels/color/cc-color-panel.c:970
+msgid "Calibration"
+msgstr "Kalibrasi"
+
+#: panels/color/cc-color-panel.c:1002
+msgid "Create a color profile for the selected device"
+msgstr "Buat profil warna bagi perangkat yang dipilih"
+
+#: panels/color/cc-color-panel.c:1016 panels/color/cc-color-panel.c:1040
+msgid ""
+"The measuring instrument is not detected. Please check it is turned on and "
+"correctly connected."
+msgstr ""
+"Instrumen pengukur tak terdeteksi. Silakan periksa apakah sudah dinyalakan "
+"dari disambung dengan benar."
+
+#: panels/color/cc-color-panel.c:1049
+msgid "The measuring instrument does not support printer profiling."
+msgstr "Instrumen pengukur tak mendukung pembuatan profil pencetak."
+
+#: panels/color/cc-color-panel.c:1060
+msgid "The device type is not currently supported."
+msgstr "Jenis perangkat belum didukung."
+
+#: panels/color/cc-color-panel.c:1132
+msgid "Cannot remove automatically added profile"
+msgstr "Tak bisa menghapus profil yang ditambahkan secara otomatis"
+
+#: panels/color/cc-color-panel.c:1463
+msgid "No profile"
+msgstr "Tiada profil"
+
+#: panels/color/cc-color-panel.c:1494
+#, c-format
+msgid "%i year"
+msgid_plural "%i years"
+msgstr[0] "%i tahun"
+
+#: panels/color/cc-color-panel.c:1505
+#, c-format
+msgid "%i month"
+msgid_plural "%i months"
+msgstr[0] "%i bulan"
+
+#: panels/color/cc-color-panel.c:1516
+#, c-format
+msgid "%i week"
+msgid_plural "%i weeks"
+msgstr[0] "%i minggu"
+
+#: panels/color/cc-color-panel.c:1523
+msgid "Less than 1 week"
+msgstr "Kurang dari 1 minggu"
+
+#: panels/color/cc-color-panel.c:1713 panels/color/cc-color-panel.c:1754
+#: panels/color/cc-color-panel.c:1765 panels/color/cc-color-panel.c:1776
+msgid "Uncalibrated"
+msgstr "Tak dikalibrasi"
+
+#: panels/color/cc-color-panel.c:1716
+msgid "This device is not color managed."
+msgstr "Perangkat tak dikelola warnanya."
+
+#: panels/color/cc-color-panel.c:1757
+msgid "This device is using manufacturing calibrated data."
+msgstr "Perangkat ini memakai data terkalibrasi pabrikan."
+
+#: panels/color/cc-color-panel.c:1768
+msgid ""
+"This device does not have a profile suitable for whole-screen color "
+"correction."
+msgstr ""
+"Perangkat tak memiliki profil yang cocok bagi koreksi warna seluruh layar."
+
+#: panels/color/cc-color-panel.c:1801
+msgid "This device has an old profile that may no longer be accurate."
+msgstr "Perangkat memiliki profil tua yang mungkin tidak akurat lagi."
+
+#: panels/color/cc-color-panel.c:1829
+msgid "Not specified"
+msgstr "Tak dinyatakan"
+
+#: panels/color/cc-color-panel.c:2014
+msgid "No devices supporting color management detected"
+msgstr "Tak terdeteksi perangkat yang mendukung manajemen warna"
+
+#: panels/common/cc-common-language.c:533
+msgid "English"
+msgstr "Inggris"
+
+#: panels/common/cc-common-language.c:535
+msgid "British English"
+msgstr "Inggris Britania"
+
+#: panels/common/cc-common-language.c:538
+msgid "German"
+msgstr "Jerman"
+
+#: panels/common/cc-common-language.c:541
+msgid "French"
+msgstr "Perancis"
+
+#: panels/common/cc-common-language.c:544
+msgid "Spanish"
+msgstr "Spanyol"
+
+#: panels/common/cc-common-language.c:546
+msgid "Chinese (simplified)"
+msgstr "Cina (disederhanakan)"
+
+#: panels/common/cc-common-language.c:549
+msgid "Russian"
+msgstr "Rusia"
+
+#: panels/common/cc-common-language.c:552
+msgid "Arabic"
+msgstr "Arab"
+
+#: panels/common/cc-common-language.c:581
+msgid "United States"
+msgstr "Amerika Serikat"
+
+#: panels/common/cc-common-language.c:582
+msgid "Germany"
+msgstr "Jerman"
+
+#: panels/common/cc-common-language.c:583
+msgid "France"
+msgstr "Perancis"
+
+#: panels/common/cc-common-language.c:584
+msgid "Spain"
+msgstr "Spanyol"
+
+#: panels/common/cc-common-language.c:585
+msgid "China"
+msgstr "Cina"
+
+#: panels/common/cc-language-chooser.c:301
+msgid "Select a region"
+msgstr "Pilih daerah"
+
+#: panels/common/gdm-languages.c:781
+msgid "Unspecified"
+msgstr "Tak dinyatakan"
+
+#: panels/display/cc-display-panel.c:624 panels/display/cc-rr-labeler.c:449
+msgid "Mirrored Displays"
+msgstr "Tampilan Kembar"
+
+#: panels/display/cc-display-panel.c:648 panels/display/display-capplet.ui.h:1
+msgid "Monitor"
+msgstr "Monitor"
+
+#: panels/display/cc-display-panel.c:758
+#, c-format
+msgid "%d x %d (%s)"
+msgstr "%d x %d (%s)"
+
+#: panels/display/cc-display-panel.c:760
+#, c-format
+msgid "%d x %d"
+msgstr "%d x %d"
+
+#: panels/display/cc-display-panel.c:1669
+msgid ""
+"Select a monitor to change its properties; drag it to rearrange its "
+"placement."
+msgstr ""
+"Pilih suatu monitor untuk mengubah propertinya; seret dia untuk menata ulang "
+"penempatannya."
+
+#: panels/display/cc-display-panel.c:2185
+#: panels/display/cc-display-panel.c:2237
+#, c-format
+msgid "Failed to apply configuration: %s"
+msgstr "Gagal menerapkan konfigurasi: %s"
+
+#: panels/display/cc-display-panel.c:2265
+msgid "Could not save the monitor configuration"
+msgstr "Tidak dapat menyimpan konfigurasi monitor"
+
+#: panels/display/cc-display-panel.c:2325
+msgid "Could not detect displays"
+msgstr "Tidak dapat mendeteksi tampilan"
+
+#: panels/display/cc-display-panel.c:2563
+msgid "Could not get screen information"
+msgstr "Tidak mendapatkan informasi layar"
+
+#: panels/network/cc-network-panel.c:661
+msgid "Network proxy"
+msgstr "Proxy jaringan"
+
+#: panels/network/cc-network-panel.c:853 panels/network/net-vpn.c:278
+#, c-format
+msgid "%s VPN"
+msgstr "VPN %s"
+
+#: panels/network/cc-network-panel.c:920
+msgid "The system network services are not compatible with this version."
+msgstr "Layanan jaringan sistem tak kompatibel dengan versi ini."
+
+#: panels/network/cc-network-panel.c:1108
+msgid "Air_plane Mode"
+msgstr "Mode _Pesawat Terbang"
+
+#: panels/network/net-device-mobile.c:222
+msgid "Add new connection"
+msgstr "Tambah sambungan baru"
+
+#: panels/network/net-device-mobile.c:261 panels/network/net-device-wifi.c:725
+#: panels/network/net-device-wired.c:126
+#, c-format
+msgid "%d Mb/s"
+msgstr "%d Mb/s"
+
+#: panels/network/net-device-wifi.c:258 panels/network/net-device-wifi.c:437
+msgid "WEP"
+msgstr "WEP"
+
+#: panels/network/net-device-wifi.c:262 panels/network/net-device-wifi.c:441
+msgid "WPA"
+msgstr "WPA"
+
+#: panels/network/net-device-wifi.c:266
+msgid "WPA2"
+msgstr "WPA2"
+
+#: panels/network/net-device-wifi.c:271
+msgid "Enterprise"
+msgstr "Enterprise"
+
+#: panels/network/net-device-wifi.c:652
+msgid "never"
+msgstr "tak pernah"
+
+#: panels/network/net-device-wifi.c:662
+msgid "today"
+msgstr "hari ini"
+
+#: panels/network/net-device-wifi.c:664
+msgid "yesterday"
+msgstr "kemarin"
+
+#: panels/network/net-device-wifi.c:666
+#, c-format
+msgid "%i day ago"
+msgid_plural "%i days ago"
+msgstr[0] "%i hari yang lalu"
+
+#: panels/network/net-device-wifi.c:735 panels/network/panel-common.c:277
+msgid "Not connected"
+msgstr "Tak tersambung"
+
+#: panels/network/net-device-wifi.c:737 panels/network/net-device-wifi.c:2100
+msgid "Out of range"
+msgstr "Di luar jangkauan"
+
+#: panels/network/net-device-wifi.c:960
+#, c-format
+msgid ""
+"Network details for %s including password and any custom configuration will "
+"be lost."
+msgstr ""
+"Rincian jaringan bagi %s termasuk sandi dan sebarang konfigurasi gubahan "
+"akan hilang."
+
+#: panels/network/net-device-wifi.c:971
+msgid "Forget"
+msgstr "Lupakan"
+
+#: panels/network/net-device-wifi.c:1554
+msgid ""
+"If you have a connection to the Internet other than wireless, you can use it "
+"to share your internet connection with others."
+msgstr ""
+"Apabila Anda memiliki koneksi Internet selain nirkabel, Anda dapat "
+"menggunakannya untuk berbagi koneksi Internet dengan yang lain."
+
+#: panels/network/net-device-wifi.c:1558
+#, c-format
+msgid "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+msgstr "Mengaktifkan hotspot nirkabel akan memutuskan Anda dari <b>%s</b>."
+
+#: panels/network/net-device-wifi.c:1562
+msgid ""
+"It is not possible to access the internet through your wireless while the "
+"hotspot is active."
+msgstr ""
+"Anda tidak dapat mengakses Internet melalui jaringan nirkabel apabila "
+"hotspot diaktifkan."
+
+#: panels/network/net-device-wifi.c:1628
+msgid "Stop hotspot and disconnect any users?"
+msgstr "Hentikan hotspot dan putuskan semua pengguna?"
+
+#: panels/network/net-device-wifi.c:1631
+msgid "_Stop Hotspot"
+msgstr "_Stop Hotspot"
+
+#: panels/network/net-proxy.c:67
+msgid ""
+"Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+msgstr ""
+"Mencari Sendiri Proksi Web dipakai ketika URL Konfigurai tak diberikan."
+
+#: panels/network/net-proxy.c:75
+msgid "This is not recommended for untrusted public networks."
+msgstr "Ini tak dianjurkan bagi jaringan publik yang tak terpercaya."
+
+#: panels/network/net-proxy.c:368
+msgid "Proxy"
+msgstr "Proksi"
+
+#: panels/network/panel-common.c:82 panels/network/panel-common.c:162
+msgid "Unknown"
+msgstr "Unknown"
+
+#: panels/network/panel-common.c:86
+msgid "Wired"
+msgstr "Kabel"
+
+#: panels/network/panel-common.c:90 panels/network/network-wifi.ui.h:3
+msgid "Wireless"
+msgstr "Nirkabel"
+
+#: panels/network/panel-common.c:97
+msgid "Mobile broadband"
+msgstr "Data seluler"
+
+#: panels/network/panel-common.c:102
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: panels/network/panel-common.c:106
+msgid "Mesh"
+msgstr "Mesh"
+
+#: panels/network/panel-common.c:166
+msgid "Ad-hoc"
+msgstr "Ad-Hoc"
+
+#: panels/network/panel-common.c:170
+msgid "Infrastructure"
+msgstr "Infrastruktur"
+
+#: panels/network/panel-common.c:194 panels/network/panel-common.c:255
+msgid "Status unknown"
+msgstr "Status tak diketahui"
+
+#: panels/network/panel-common.c:198
+msgid "Unmanaged"
+msgstr "Tak dikelola"
+
+#: panels/network/panel-common.c:203
+msgid "Firmware missing"
+msgstr "Firmware hilang"
+
+#: panels/network/panel-common.c:206
+msgid "Cable unplugged"
+msgstr "Kabel tercabut"
+
+#: panels/network/panel-common.c:208
+msgid "Unavailable"
+msgstr "Tak tersedia"
+
+#: panels/network/panel-common.c:212
+msgid "Disconnected"
+msgstr "Terputus"
+
+#: panels/network/panel-common.c:219 panels/network/panel-common.c:261
+msgid "Connecting"
+msgstr "Menyambung"
+
+#: panels/network/panel-common.c:223 panels/network/panel-common.c:265
+msgid "Authentication required"
+msgstr "Perlu otentikasi"
+
+#: panels/network/panel-common.c:227 panels/network/panel-common.c:269
+msgid "Connected"
+msgstr "Tersambung"
+
+#: panels/network/panel-common.c:231
+msgid "Disconnecting"
+msgstr "Memutus"
+
+#: panels/network/panel-common.c:235 panels/network/panel-common.c:273
+msgid "Connection failed"
+msgstr "Koneksi gagal"
+
+#: panels/network/panel-common.c:239 panels/network/panel-common.c:281
+msgid "Status unknown (missing)"
+msgstr "Status tak diketahui (hilang)"
+
+#: panels/network/panel-common.c:301
+msgid "Configuration failed"
+msgstr "Konfigurasi gagal"
+
+#: panels/network/panel-common.c:305
+msgid "IP configuration failed"
+msgstr "Konfigurasi IP gagal"
+
+#: panels/network/panel-common.c:309
+msgid "IP configuration expired"
+msgstr "Konfigurasi IP kadaluarsa"
+
+#: panels/network/panel-common.c:313
+msgid "Secrets were required, but not provided"
+msgstr "Rahasia diperlukan, tapi tak disediakan"
+
+#: panels/network/panel-common.c:317
+msgid "802.1x supplicant disconnected"
+msgstr "802.1X supplicant diputus"
+
+#: panels/network/panel-common.c:321
+msgid "802.1x supplicant configuration failed"
+msgstr "Konfigurasi 802.1X supplicant gagal"
+
+#: panels/network/panel-common.c:325
+msgid "802.1x supplicant failed"
+msgstr "802.1X supplicant gagal"
+
+#: panels/network/panel-common.c:329
+msgid "802.1x supplicant took too long to authenticate"
+msgstr "802.1X supplicant makan waktu terlalu lama untuk mengotentikasi"
+
+#: panels/network/panel-common.c:333
+msgid "PPP service failed to start"
+msgstr "Layanan PPP gagal dimulai"
+
+#: panels/network/panel-common.c:337
+msgid "PPP service disconnected"
+msgstr "Layanan PPP diputus"
+
+#: panels/network/panel-common.c:341
+msgid "PPP failed"
+msgstr "PPP gagal"
+
+#: panels/network/panel-common.c:345
+msgid "DHCP client failed to start"
+msgstr "Klien DHCP gagal dimulai"
+
+#: panels/network/panel-common.c:349
+msgid "DHCP client error"
+msgstr "Galat klien DHCP"
+
+#: panels/network/panel-common.c:353
+msgid "DHCP client failed"
+msgstr "Klien DHCP gagal"
+
+#: panels/network/panel-common.c:357
+msgid "Shared connection service failed to start"
+msgstr "Layanan koneksi bersama gagal dimulai"
+
+#: panels/network/panel-common.c:361
+msgid "Shared connection service failed"
+msgstr "Layanan koneksi bersama gagal"
+
+#: panels/network/panel-common.c:365
+msgid "AutoIP service failed to start"
+msgstr "Layanan AutoIP gagal dimulai"
+
+#: panels/network/panel-common.c:369
+msgid "AutoIP service error"
+msgstr "Galat layanan AutoIP"
+
+#: panels/network/panel-common.c:373
+msgid "AutoIP service failed"
+msgstr "Layanan AutoIP gagal"
+
+#: panels/network/panel-common.c:377
+msgid "Line busy"
+msgstr "Jalur sibuk"
+
+#: panels/network/panel-common.c:381
+msgid "No dial tone"
+msgstr "Tak ada nada panggil"
+
+#: panels/network/panel-common.c:385
+msgid "No carrier could be established"
+msgstr "Carrier tak dapat dijalin"
+
+#: panels/network/panel-common.c:389
+msgid "Dialing request timed out"
+msgstr "Permintaan pemanggilan habis waktu"
+
+#: panels/network/panel-common.c:393
+msgid "Dialing attempt failed"
+msgstr "Usaha memanggil gagal"
+
+#: panels/network/panel-common.c:397
+msgid "Modem initialization failed"
+msgstr "Inisialisasi modem gagal"
+
+#: panels/network/panel-common.c:401
+msgid "Failed to select the specified APN"
+msgstr "Gagal memilih APN yang dinyatakan"
+
+#: panels/network/panel-common.c:405
+msgid "Not searching for networks"
+msgstr "Tak mencari jaringan"
+
+#: panels/network/panel-common.c:409
+msgid "Network registration denied"
+msgstr "Pendaftaran jaringan ditolak"
+
+#: panels/network/panel-common.c:413
+msgid "Network registration timed out"
+msgstr "Pendaftaran jaringan habis waktu"
+
+#: panels/network/panel-common.c:417
+msgid "Failed to register with the requested network"
+msgstr "Gagal mendaftar ke jaringan yang diminta"
+
+#: panels/network/panel-common.c:421
+msgid "PIN check failed"
+msgstr "Uji PIN gagal"
+
+#: panels/network/panel-common.c:425
+msgid "Firmware for the device may be missing"
+msgstr "Firmware yang diperlukan bagi perangkat mungkin hilang"
+
+#: panels/network/panel-common.c:429
+msgid "Connection disappeared"
+msgstr "Koneksi aktif perangkat menghilang"
+
+#: panels/network/panel-common.c:433
+msgid "Carrier/link changed"
+msgstr "Carrier/link berubah"
+
+#: panels/network/panel-common.c:437
+msgid "Existing connection was assumed"
+msgstr "Koneksi perangkat kini diasumsikan"
+
+#: panels/network/panel-common.c:441
+msgid "Modem not found"
+msgstr "Modem tak ditemukan"
+
+#: panels/network/panel-common.c:445
+msgid "Bluetooth connection failed"
+msgstr "Koneksi Bluetooth gagal"
+
+#: panels/network/panel-common.c:449
+msgid "SIM Card not inserted"
+msgstr "Kartu SIM tak dipasang"
+
+#: panels/network/panel-common.c:453
+msgid "SIM Pin required"
+msgstr "Perlu PIN SIM"
+
+#: panels/network/panel-common.c:457
+msgid "SIM Puk required"
+msgstr "Perlu PUK SIM"
+
+#: panels/network/panel-common.c:461
+msgid "SIM wrong"
+msgstr "SIM salah"
+
+#: panels/network/panel-common.c:465
+msgid "InfiniBand device does not support connected mode"
+msgstr "Perangkat InfiniBand tak mendukung mode tersambung"
+
+#: panels/network/panel-common.c:469
+msgid "Connection dependency failed"
+msgstr "Kebergantungan koneksi gagal"
+
+#: panels/network/panel-common.c:683 panels/network/network-wifi.ui.h:13
+#: panels/network/network-wired.ui.h:2
+msgid "IPv4 Address"
+msgstr "Alamat IPv4"
+
+#: panels/network/panel-common.c:684 panels/network/network-mobile.ui.h:4
+#: panels/network/network-wifi.ui.h:14 panels/network/network-wired.ui.h:3
+msgid "IPv6 Address"
+msgstr "Alamat IPv6"
+
+#: panels/network/panel-common.c:686 panels/network/panel-common.c:688
+#: panels/network/network-mobile.ui.h:3
+msgid "IP Address"
+msgstr "Alamat IP"
+
+#: panels/power/cc-power-panel.c:166
+msgid "Unknown time"
+msgstr "Waktu tak diketahui"
+
+#: panels/power/cc-power-panel.c:172
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "%i menit"
+
+#: panels/power/cc-power-panel.c:184
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] "%i jam"
+
+#: panels/power/cc-power-panel.c:192
+#, c-format
+msgid "%i %s %i %s"
+msgstr "%i %s %i %s"
+
+#: panels/power/cc-power-panel.c:193
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "jam"
+
+#: panels/power/cc-power-panel.c:194
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "menit"
+
+#: panels/power/cc-power-panel.c:237
+#, c-format
+msgid "Charging - %s until fully charged"
+msgstr "Mengisi - %s sampai terisi penuh"
+
+#: panels/power/cc-power-panel.c:245
+#, c-format
+msgid "Caution low battery, %s remaining"
+msgstr "Awas baterai lemah - %s tersisa"
+
+#: panels/power/cc-power-panel.c:253
+#, c-format
+msgid "Using battery power - %s remaining"
+msgstr "Memakai tenaga baterai - %s tersisa"
+
+#: panels/power/cc-power-panel.c:270
+msgid "Charging"
+msgstr "Mengisi"
+
+#: panels/power/cc-power-panel.c:275
+msgid "Using battery power"
+msgstr "Memakai tenaga baterai"
+
+#: panels/power/cc-power-panel.c:279
+msgid "Charging - fully charged"
+msgstr "Mengisi - terisi penuh"
+
+#: panels/power/cc-power-panel.c:283
+msgid "Empty"
+msgstr "Kosong"
+
+#: panels/power/cc-power-panel.c:351
+#, c-format
+msgid "Caution low UPS, %s remaining"
+msgstr "Awas UPS lemah - %s tersisa"
+
+#: panels/power/cc-power-panel.c:357
+#, c-format
+msgid "Using UPS power - %s remaining"
+msgstr "Memakai tenaga UPS - %s tersisa"
+
+#: panels/power/cc-power-panel.c:375
+msgid "Caution low UPS"
+msgstr "Awas UPS lemah"
+
+#: panels/power/cc-power-panel.c:380
+msgid "Using UPS power"
+msgstr "Memakai tenaga UPS"
+
+#: panels/power/cc-power-panel.c:432
+msgid "Your secondary battery is fully charged"
+msgstr "Baterai sekunder Anda terisi penuh"
+
+#: panels/power/cc-power-panel.c:436
+msgid "Your secondary battery is empty"
+msgstr "Baterai sekunder Anda kosong"
+
+#: panels/power/cc-power-panel.c:519
+msgid "Wireless mouse"
+msgstr "Tetikus nirkabel"
+
+#: panels/power/cc-power-panel.c:523
+msgid "Wireless keyboard"
+msgstr "Papan tik nirkabel"
+
+#: panels/power/cc-power-panel.c:527
+msgid "Uninterruptible power supply"
+msgstr "Pasokan tenaga tak putus"
+
+#: panels/power/cc-power-panel.c:531
+msgid "Personal digital assistant"
+msgstr "Asisten dijital pribadi"
+
+#: panels/power/cc-power-panel.c:535
+msgid "Cellphone"
+msgstr "Telepon seluler"
+
+#: panels/power/cc-power-panel.c:539
+msgid "Media player"
+msgstr "Pemutar media"
+
+#: panels/power/cc-power-panel.c:543
+msgid "Tablet"
+msgstr "Tablet"
+
+#: panels/power/cc-power-panel.c:547
+msgid "Computer"
+msgstr "Komputer"
+
+#: panels/power/cc-power-panel.c:551
+msgid "Battery"
+msgstr "Baterai"
+
+#: panels/region/cc-region-panel.c:178
+msgid "Get more languages..."
+msgstr "Dapatkan lebih banyak bahasa..."
+
+#: panels/region/cinnamon-region-panel-formats.c:142
+msgid "Imperial"
+msgstr "Kerajaan"
+
+#: panels/region/cinnamon-region-panel-formats.c:144
+msgid "Metric"
+msgstr "Metrik"
+
+#: panels/region/cinnamon-region-panel-system.c:420
+msgid ""
+"The login screen, system accounts and new user accounts use the system-wide "
+"Region and Language settings."
+msgstr ""
+"Layar log masuk, akun sistem, dan akun pengguna baru memakai pengaturan "
+"Wilayah & Bahasa sistem."
+
+#: panels/region/cinnamon-region-panel-system.c:425
+#: panels/region/cinnamon-region-panel.ui.h:32
+msgid ""
+"The login screen, system accounts and new user accounts use the system-wide "
+"Region and Language settings. You may change the system settings to match "
+"yours."
+msgstr ""
+"Layar log masuk, akun sistem, dan akun pengguna baru memakai pengaturan "
+"Wilayah & Bahasa sistem. Anda boleh mengubah pengaturan sistem agar sesuai "
+"dengan Anda."
+
+#: panels/region/cinnamon-region-panel-system.c:428
+msgid "Copy Settings"
+msgstr "Salin Pengaturan"
+
+#: panels/region/cinnamon-region-panel-system.c:431
+#: panels/region/cinnamon-region-panel.ui.h:39
+msgid "Copy Settings..."
+msgstr "Salin Pengaturan..."
+
+#: panels/region/cinnamon-region-panel-xkblt.c:210
+msgid "Layout"
+msgstr "Tata letak"
+
+#: panels/region/cinnamon-region-panel-xkbot.c:229
+msgid "Default"
+msgstr "Bawaan"
+
+#: panels/sound/applet-main.c:49
+msgid "Enable debugging code"
+msgstr "Aktifkan kode debug"
+
+#: panels/sound/applet-main.c:50
+msgid "Version of this application"
+msgstr "Versi aplikasi ini"
+
+#: panels/sound/applet-main.c:62
+msgid " — Cinnamon Volume Control Applet"
+msgstr " - Aplet Volume Control Cinnamon"
+
+#: panels/sound/gvc-applet.c:270 panels/sound/gvc-mixer-dialog.c:1654
+#: panels/sound-nua/gvc-mixer-dialog.c:1748
+msgid "Output"
+msgstr "Keluaran"
+
+#: panels/sound/gvc-applet.c:272
+msgid "Sound Output Volume"
+msgstr "Volume Keluaran Suara"
+
+#: panels/sound/gvc-applet.c:276 panels/sound/gvc-mixer-dialog.c:1695
+#: panels/sound-nua/gvc-mixer-dialog.c:1881
+msgid "Input"
+msgstr "Masukan"
+
+#: panels/sound/gvc-applet.c:278
+msgid "Microphone Volume"
+msgstr "Volume Mikrofon"
+
+#: panels/sound/gvc-balance-bar.c:295 panels/sound-nua/gvc-balance-bar.c:295
+msgid "_Balance:"
+msgstr "_Balans:"
+
+#: panels/sound/gvc-balance-bar.c:298 panels/sound-nua/gvc-balance-bar.c:298
+msgid "_Fade:"
+msgstr "_Fade:"
+
+#: panels/sound/gvc-balance-bar.c:301 panels/sound-nua/gvc-balance-bar.c:301
+msgid "_Subwoofer:"
+msgstr "_Subwoofer:"
+
+#: panels/sound/gvc-combo-box.c:167 panels/sound/gvc-mixer-dialog.c:258
+#: panels/sound/gvc-mixer-dialog.c:519
+msgid "_Profile:"
+msgstr "_Profil:"
+
+#: panels/sound/gvc-mixer-control.c:1834
+msgid "Disabled"
+msgstr "Dimatikan"
+
+#: panels/sound/gvc-mixer-control.c:1841
+#, c-format
+msgid "%u Output"
+msgid_plural "%u Outputs"
+msgstr[0] "%u Keluaran"
+
+#: panels/sound/gvc-mixer-control.c:1851
+#, c-format
+msgid "%u Input"
+msgid_plural "%u Inputs"
+msgstr[0] "%u Masukan"
+
+#: panels/sound/gvc-mixer-control.c:2375
+msgid "System Sounds"
+msgstr "Suara Sistem"
+
+#: panels/sound/gvc-mixer-dialog.c:260
+msgid "_Test Speakers"
+msgstr "_Uji Speaker"
+
+#: panels/sound/gvc-mixer-dialog.c:424 panels/sound-nua/gvc-mixer-dialog.c:341
+msgid "Peak detect"
+msgstr "Deteksi puncak"
+
+#: panels/sound/gvc-mixer-dialog.c:1504
+#: panels/sound-nua/gvc-mixer-dialog.c:1578
+msgid "Name"
+msgstr "Nama"
+
+#: panels/sound/gvc-mixer-dialog.c:1586
+#: panels/sound-nua/gvc-mixer-dialog.c:1680
+#, c-format
+msgid "Speaker Testing for %s"
+msgstr "Pengujian Speaker bagi %s"
+
+#: panels/sound/gvc-mixer-dialog.c:1640
+#: panels/sound-nua/gvc-mixer-dialog.c:2016
+msgid "_Output volume:"
+msgstr "V_olume keluaran:"
+
+#: panels/sound/gvc-mixer-dialog.c:1659
+msgid "C_hoose a device for sound output:"
+msgstr "Pili_h perangkat bagi keluaran suara:"
+
+#: panels/sound/gvc-mixer-dialog.c:1684
+msgid "Settings for the selected device:"
+msgstr "Tatanan bagi perangkat yang dipilih:"
+
+#: panels/sound/gvc-mixer-dialog.c:1702
+#: panels/sound-nua/gvc-mixer-dialog.c:1928
+msgid "_Input volume:"
+msgstr "Volume _masukan:"
+
+#: panels/sound/gvc-mixer-dialog.c:1725
+#: panels/sound-nua/gvc-mixer-dialog.c:1961
+msgid "Input level:"
+msgstr "Tingkat masukan:"
+
+#: panels/sound/gvc-mixer-dialog.c:1753
+msgid "C_hoose a device for sound input:"
+msgstr "Pili_h perangkat bagi masukan suara:"
+
+#: panels/sound/gvc-mixer-dialog.c:1780
+#: panels/sound-nua/gvc-mixer-dialog.c:1982
+msgid "Sound Effects"
+msgstr "Efek Suara"
+
+#: panels/sound/gvc-mixer-dialog.c:1787
+#: panels/sound-nua/gvc-mixer-dialog.c:1989
+msgid "_Alert volume:"
+msgstr "Volume w_aspada:"
+
+#: panels/sound/gvc-mixer-dialog.c:1795
+#: panels/sound-nua/gvc-mixer-dialog.c:1997
+msgid "Applications"
+msgstr "Aplikasi"
+
+#: panels/sound/gvc-mixer-dialog.c:1799
+#: panels/sound-nua/gvc-mixer-dialog.c:2001
+msgid "No application is currently playing or recording audio."
+msgstr "Tak ada aplikasi yang sedang memainkan atau merekam audio."
+
+#: panels/sound/gvc-speaker-test.c:220
+msgid "Stop"
+msgstr "Berhenti"
+
+#: panels/sound/gvc-speaker-test.c:220 panels/sound/gvc-speaker-test.c:332
+msgid "Test"
+msgstr "Uji"
+
+#: panels/sound/gvc-speaker-test.c:228
+msgid "Subwoofer"
+msgstr "Subwoofer"
+
+#: panels/sound/gvc-stream-status-icon.c:236
+#, c-format
+msgid "Failed to start Sound Preferences: %s"
+msgstr "Gagal memulai Preferensi Suara: %s"
+
+#: panels/sound/gvc-stream-status-icon.c:262
+msgid "_Mute"
+msgstr "_Bisu"
+
+#: panels/sound/gvc-stream-status-icon.c:271
+msgid "_Sound Preferences"
+msgstr "Preferensi _Suara"
+
+#: panels/sound/gvc-stream-status-icon.c:416
+msgid "Muted"
+msgstr "Bisu"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:774
+#: panels/sound-nua/gvc-mixer-dialog.c:944
+#, c-format
+msgid "Settings for %s"
+msgstr "Pengaturan bagi %s"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:800
+#: panels/sound-nua/gvc-mixer-dialog.c:953
+msgid "Mode:"
+msgstr "Mode:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1753
+msgid "Play sound through"
+msgstr "Bunyikan suara melalui"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1778
+#: panels/sound-nua/gvc-mixer-dialog.c:1910
+msgid "Settings for the selected device"
+msgstr "Pengaturan bagi perangkat yang dipilih"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1851
+msgid "Test:"
+msgstr "Uji:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1858
+msgid "Test Sound"
+msgstr "Uji Suara"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1885
+msgid "Record sound from"
+msgstr "Rekam suara dari"
+
+#: panels/universal-access/cc-ua-panel.c:289
+#: panels/universal-access/cc-ua-panel.c:295
+msgid "No shortcut set"
+msgstr "Tak ada pintasan yang ditata"
+
+#: shell/cc-shell-nav-bar.c:117
+msgid "_All Settings"
+msgstr "Semu_a Pengaturan"
+
+#: shell/control-center.c:58
+msgid "Enable verbose mode"
+msgstr "Aktifkan moda verbose"
+
+#: shell/control-center.c:59
+msgid "Show the overview"
+msgstr "Tampilkan ringkasan"
+
+#: shell/control-center.c:60 shell/control-center.c:61
+#: shell/control-center.c:62
+msgid "Show help options"
+msgstr "Menampilkan opsi bantuan"
+
+#: shell/control-center.c:63
+msgid "Panel to display"
+msgstr "Panel yang hendak ditampilkan"
+
+#: shell/control-center.c:85
+msgid "- System Settings"
+msgstr "- Pengaturan Sistem"
+
+#: shell/control-center.c:93
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Jalankan '%s --help' untuk melihat daftar lengkap dari pilihan baris "
+"perintah.\n"
+
+#: shell/control-center.c:215
+msgid "Help"
+msgstr "Bantuan"
+
+#: shell/control-center.c:216
+msgid "Quit"
+msgstr "Keluar"
+
+#: panels/color/color.ui.h:3 generate_additional_files.py:83
+msgid "Color"
+msgstr "Warna"
+
+#: panels/color/color.ui.h:4
+msgid "Each device needs an up to date color profile to be color managed."
+msgstr ""
+"Setiap perangkat perlu profil warna terkini untuk menjadi terkelola warnanya."
+
+#: panels/color/color.ui.h:5
+msgid "Learn more"
+msgstr "Pelajari lebih lanjut"
+
+#: panels/color/color.ui.h:6
+msgid "Learn more about color management"
+msgstr "Pelajari lebih jauh tentang manajemen warna"
+
+#: panels/color/color.ui.h:7
+msgid "Add device"
+msgstr "Tambah perangkat"
+
+#: panels/color/color.ui.h:8
+msgid "Add a virtual device"
+msgstr "Tambahkan perangkat virtual"
+
+#: panels/color/color.ui.h:9
+msgid "Delete device"
+msgstr "Hapus perangkat"
+
+#: panels/color/color.ui.h:10
+msgid "Remove a device"
+msgstr "Hapus perangkat"
+
+#: panels/color/color.ui.h:12
+msgid "Set this profile for all users on this computer"
+msgstr "Tata profil ini bagi semua pengguna pada komputer ini"
+
+#: panels/color/color.ui.h:13
+msgid "Add profile"
+msgstr "Tambah profil"
+
+#: panels/color/color.ui.h:14
+msgid "Calibrate…"
+msgstr "Mengalibrasi..."
+
+#: panels/color/color.ui.h:15
+msgid "Calibrate the device"
+msgstr "Kalibrasikan perangkat"
+
+#: panels/color/color.ui.h:16
+msgid "Remove profile"
+msgstr "Hapus profil"
+
+#: panels/color/color.ui.h:17
+msgid "View details"
+msgstr "Lihat detail"
+
+#: panels/color/color.ui.h:18
+msgid "Device type:"
+msgstr "Jenis perangkat"
+
+#: panels/color/color.ui.h:19
+msgid "Manufacturer:"
+msgstr "Pabrikan:"
+
+#: panels/color/color.ui.h:20
+msgid "Model:"
+msgstr "Model:"
+
+#: panels/color/color.ui.h:21
+msgid ""
+"Image files can be dragged on this window to auto-complete the above fields."
+msgstr ""
+"Berkas gambar dapat diseret ke jendela ini untuk melengkapi otomatis ruas-"
+"ruas di atas."
+
+#: panels/common/language-chooser.ui.h:1
+msgid "Select a language"
+msgstr "Pilih sebuah bahasa"
+
+#: panels/common/language-chooser.ui.h:2
+msgid "_Cancel"
+msgstr "_Batal"
+
+#: panels/common/language-chooser.ui.h:3
+msgid "_Select"
+msgstr "_Pilih"
+
+#: panels/display/display-capplet.ui.h:2
+msgid "Set as Primary"
+msgstr "Atur sebagai Utama"
+
+#: panels/display/display-capplet.ui.h:3
+msgid "_Resolution"
+msgstr "_Resolusi"
+
+#: panels/display/display-capplet.ui.h:4
+msgid "R_otation"
+msgstr "R_otasi"
+
+#: panels/display/display-capplet.ui.h:6
+msgid "_Mirror displays"
+msgstr "Layar ke_mbar"
+
+#: panels/display/display-capplet.ui.h:7
+msgid "Note: may limit resolution options"
+msgstr "Catatan: mungkin membatasi opsi resolusi"
+
+#: panels/display/display-capplet.ui.h:8
+msgid "_Detect Displays"
+msgstr "_Pendeteksian Tampilan"
+
+#: panels/network/network-mobile.ui.h:1
+msgid "IMEI"
+msgstr "IMEI"
+
+#: panels/network/network-mobile.ui.h:2
+msgid "Provider"
+msgstr "Penyedia"
+
+#: panels/network/network-mobile.ui.h:5 panels/network/network-wifi.ui.h:15
+#: panels/network/network-wired.ui.h:4
+msgid "Default Route"
+msgstr "Jalur Bawaan"
+
+#: panels/network/network-mobile.ui.h:6 panels/network/network-wifi.ui.h:16
+#: panels/network/network-wired.ui.h:5
+msgid "DNS"
+msgstr "DNS"
+
+#: panels/network/network-mobile.ui.h:7 generate_additional_files.py:173
+msgid "Network"
+msgstr "Jaringan"
+
+#: panels/network/network-mobile.ui.h:8 panels/network/network-wired.ui.h:6
+#: panels/region/cinnamon-region-panel.ui.h:26
+msgid "_Options..."
+msgstr "_Opsi..."
+
+#: panels/network/network-proxy.ui.h:4
+msgid "_Method"
+msgstr "_Metode"
+
+#: panels/network/network-proxy.ui.h:5
+msgid "_Configuration URL"
+msgstr "URL _Konfigurasi"
+
+#: panels/network/network-proxy.ui.h:6
+msgid "_HTTP Proxy"
+msgstr "Proxy _HTTP"
+
+#: panels/network/network-proxy.ui.h:7
+msgid "H_TTPS Proxy"
+msgstr "Proxy H_TTPS"
+
+#: panels/network/network-proxy.ui.h:8
+msgid "_FTP Proxy"
+msgstr "Proxy _FTP"
+
+#: panels/network/network-proxy.ui.h:9
+msgid "_Socks Host"
+msgstr "Host _Socks"
+
+#: panels/network/network.ui.h:1
+msgid "Select the interface to use for the new service"
+msgstr "Pilih antarmuka untuk dipakai bagi layanan baru"
+
+#: panels/network/network.ui.h:2
+msgid "C_reate..."
+msgstr "Bua_t..."
+
+#: panels/network/network.ui.h:3
+msgid "_Interface"
+msgstr "_Antar muka"
+
+#: panels/network/network.ui.h:4 panels/network/network-vpn.ui.h:1
+msgid "VPN"
+msgstr "VPN"
+
+#: panels/network/network.ui.h:8
+msgid "Add Device"
+msgstr "Tambah Perangkat"
+
+#: panels/network/network.ui.h:9
+msgid "Remove Device"
+msgstr "Hapus Perangkat"
+
+#: panels/network/network-vpn.ui.h:2
+msgid "VPN Type"
+msgstr "Jenis VPN"
+
+#: panels/network/network-vpn.ui.h:3
+msgid "Gateway"
+msgstr "Gateway"
+
+#: panels/network/network-vpn.ui.h:4
+msgid "Group Name"
+msgstr "Nama Grup"
+
+#: panels/network/network-vpn.ui.h:5
+msgid "Group Password"
+msgstr "Sandi Grup"
+
+#: panels/network/network-vpn.ui.h:6
+msgid "Username"
+msgstr "Nama Pengguna"
+
+#: panels/network/network-vpn.ui.h:7
+msgid "_Configure..."
+msgstr "_Konfigurasi..."
+
+#: panels/network/network-wifi.ui.h:1
+msgid "Wireless Hotspot"
+msgstr "Hotspot Nirkabel"
+
+#: panels/network/network-wifi.ui.h:2
+msgid "_Turn On"
+msgstr "Ak_tifkan"
+
+#: panels/network/network-wifi.ui.h:4
+msgid "_Use as Hotspot..."
+msgstr "Jadikan _Hotspot..."
+
+#: panels/network/network-wifi.ui.h:5
+msgid "Connect to a Hidden Network"
+msgstr "Menyambung ke Jaringan Tersembunyi"
+
+#: panels/network/network-wifi.ui.h:6
+msgid "_Disconnect"
+msgstr "_Putus"
+
+#: panels/network/network-wifi.ui.h:7
+msgid "_Connect"
+msgstr "_Sambung"
+
+#: panels/network/network-wifi.ui.h:8
+msgid "Last used"
+msgstr "Terakhir dipakai"
+
+#: panels/network/network-wifi.ui.h:9 panels/network/network-wired.ui.h:1
+msgid "Hardware Address"
+msgstr "Alamat Perangkat Keras"
+
+#: panels/network/network-wifi.ui.h:10
+msgid "Security"
+msgstr "Keamanan"
+
+#: panels/network/network-wifi.ui.h:11
+msgid "Strength"
+msgstr "Kekuatan"
+
+#: panels/network/network-wifi.ui.h:12
+msgid "Link speed"
+msgstr "Kecepatan link"
+
+#: panels/network/network-wifi.ui.h:17
+msgid "_Forget Network"
+msgstr "_Lupakan Jaringan"
+
+#: panels/network/network-wifi.ui.h:18
+msgid "_Settings..."
+msgstr "_Pengaturan..."
+
+#: panels/network/network-wifi.ui.h:19
+msgid "Switch off to connect to a wireless network"
+msgstr "Matikan untuk menyambung ke jaringan nirkabel"
+
+#: panels/network/network-wifi.ui.h:20
+msgid "Network Name"
+msgstr "Nama Jaringan"
+
+#: panels/network/network-wifi.ui.h:21
+msgid "Connected Devices"
+msgstr "Perangkat Yang Tersambung"
+
+#: panels/network/network-wifi.ui.h:22
+msgid "Security type"
+msgstr "Tipe keamanan"
+
+#: panels/network/network-wifi.ui.h:23
+msgid "Security key"
+msgstr "Kunci keamanan"
+
+#: panels/power/power.ui.h:1
+msgid "Hibernate"
+msgstr "Hibernasi"
+
+#: panels/power/power.ui.h:2
+msgid "Power off"
+msgstr "Matikan"
+
+#: panels/power/power.ui.h:3 panels/screen/screen.ui.h:6
+msgid "5 minutes"
+msgstr "5 menit"
+
+#: panels/power/power.ui.h:4 panels/screen/screen.ui.h:7
+msgid "10 minutes"
+msgstr "10 menit"
+
+#: panels/power/power.ui.h:5 panels/screen/screen.ui.h:8
+msgid "30 minutes"
+msgstr "30 menit"
+
+#: panels/power/power.ui.h:6 panels/screen/screen.ui.h:9
+msgid "1 hour"
+msgstr "1 jam"
+
+#: panels/power/power.ui.h:7
+msgid "Don't suspend"
+msgstr "Jangan ditangguhkan"
+
+#: panels/power/power.ui.h:8
+msgid "Suspend"
+msgstr "Tangguhkan"
+
+#: panels/power/power.ui.h:9
+msgid "Do nothing"
+msgstr "Jangan lakukan apapun"
+
+#: panels/power/power.ui.h:10
+msgid "Lock Screen"
+msgstr "Kunci Layar"
+
+#: panels/power/power.ui.h:11
+msgid "Shutdown Immediately"
+msgstr "Matikan secepatnya"
+
+#: panels/power/power.ui.h:12
+msgid "Ask"
+msgstr "Tanya"
+
+#: panels/power/power.ui.h:13
+msgid "When battery is present"
+msgstr "Ketika baterai ada"
+
+#: panels/power/power.ui.h:14
+msgid "When battery is charging/in use"
+msgstr "Ketika baterai sedang diisi/dipakai"
+
+#: panels/power/power.ui.h:15 panels/screen/screen.ui.h:10
+msgid "Never"
+msgstr "Tidak Pernah"
+
+#: panels/power/power.ui.h:16
+msgid "On battery power"
+msgstr "Memakai tenaga baterai"
+
+#: panels/power/power.ui.h:17
+msgid "When plugged in"
+msgstr "Ketika ditancapkan"
+
+#: panels/power/power.ui.h:18
+msgid "Suspend when inactive for"
+msgstr "Tangguhkan ketika tak aktif untuk"
+
+#: panels/power/power.ui.h:19
+msgid "When power is _critically low"
+msgstr "Ketika daya _nyaris habis"
+
+#: panels/power/power.ui.h:20
+msgid "When the lid is closed"
+msgstr "Ketika lid ditutup"
+
+#: panels/power/power.ui.h:21
+msgid "Show battery status in the _menu bar"
+msgstr "Tampilkan status baterai di bar  _menu"
+
+#: panels/power/power.ui.h:22
+msgid "Power button action"
+msgstr "Aksi tombol power"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:1
+msgid "Choose a Layout"
+msgstr "Pilih Tata Letak"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:2
+msgid "Preview"
+msgstr "Pratinjau"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:3
+msgid "Select an input source to add"
+msgstr "Pilih sumber masukan untuk ditambahkan"
+
+#: panels/region/cinnamon-region-panel-options-dialog.ui.h:1
+msgid "Keyboard Layout Options"
+msgstr "Pilihan-pilihan Tata Letak Keyboard"
+
+#: panels/region/cinnamon-region-panel.ui.h:1
+msgid "Region and Language"
+msgstr "Wilayah dan Bahasa"
+
+#: panels/region/cinnamon-region-panel.ui.h:2
+msgid ""
+"Select a display language (change will be applied next time you log in)"
+msgstr ""
+"Pilih bahasa tampilan (perubahan akan diterapkan setelah kamu masuk kembali "
+"pada waktu berikutnya)"
+
+#: panels/region/cinnamon-region-panel.ui.h:3
+msgid "Add Language"
+msgstr "Tambah Bahasa"
+
+#: panels/region/cinnamon-region-panel.ui.h:4
+msgid "Remove Language"
+msgstr "Hapus Bahasa"
+
+#: panels/region/cinnamon-region-panel.ui.h:5
+msgid "button"
+msgstr "tombol"
+
+#: panels/region/cinnamon-region-panel.ui.h:6
+msgid "Language"
+msgstr "Bahasa"
+
+#: panels/region/cinnamon-region-panel.ui.h:7
+msgid "Select a region (change will be applied the next time you log in)"
+msgstr ""
+"Pilih sebuah wilayah (perubahan akan diterapkan setelah kamu masuk kembali "
+"pada waktu berikutnya)"
+
+#: panels/region/cinnamon-region-panel.ui.h:8
+msgid "Add Region"
+msgstr "Tambah Wilayah"
+
+#: panels/region/cinnamon-region-panel.ui.h:9
+msgid "Remove Region"
+msgstr "Hapus Wilayah"
+
+#: panels/region/cinnamon-region-panel.ui.h:10
+msgid "Dates"
+msgstr "Tanggal"
+
+#: panels/region/cinnamon-region-panel.ui.h:11
+msgid "Times"
+msgstr "Waktu"
+
+#: panels/region/cinnamon-region-panel.ui.h:12
+msgid "Numbers"
+msgstr "Nomor"
+
+#: panels/region/cinnamon-region-panel.ui.h:13
+msgid "Currency"
+msgstr "Mata Uang"
+
+#: panels/region/cinnamon-region-panel.ui.h:14
+msgid "Measurement"
+msgstr "Pengukuran"
+
+#: panels/region/cinnamon-region-panel.ui.h:15
+msgid "Examples"
+msgstr "Contoh"
+
+#: panels/region/cinnamon-region-panel.ui.h:16
+msgid "Formats"
+msgstr "Format"
+
+#: panels/region/cinnamon-region-panel.ui.h:17
+msgid "Add Layout"
+msgstr "Tambah Tata Letak"
+
+#: panels/region/cinnamon-region-panel.ui.h:18
+msgid "Remove Layout"
+msgstr "Hapus tata letak"
+
+#: panels/region/cinnamon-region-panel.ui.h:19
+msgid "Move Up"
+msgstr "Pindah Ke Atas"
+
+#: panels/region/cinnamon-region-panel.ui.h:20
+msgid "Move Down"
+msgstr "Pindah Ke Bawah"
+
+#: panels/region/cinnamon-region-panel.ui.h:21
+msgid "Preview Layout"
+msgstr "Pratinjau Tata Letak"
+
+#: panels/region/cinnamon-region-panel.ui.h:22
+msgid "Use the same layout for all windows"
+msgstr "Gunakan tata letak yang sama pada semua jendela"
+
+#: panels/region/cinnamon-region-panel.ui.h:23
+msgid "Allow different layouts for individual windows"
+msgstr "Perbolehkan tata letak berbeda untuk tiap jendela"
+
+#: panels/region/cinnamon-region-panel.ui.h:24
+msgid "New windows use the default layout"
+msgstr "Jendela baru memakai tata letak bawaan"
+
+#: panels/region/cinnamon-region-panel.ui.h:25
+msgid "New windows use the previous window's layout"
+msgstr "Jendela baru memakai tata letak jendela sebelumnya"
+
+#: panels/region/cinnamon-region-panel.ui.h:27
+msgid "View and edit keyboard layout options"
+msgstr "Lihat dan ubah opsi tata letak keyboard"
+
+#: panels/region/cinnamon-region-panel.ui.h:28
+msgid "Reset to De_faults"
+msgstr "_Kembali Semula"
+
+#: panels/region/cinnamon-region-panel.ui.h:29
+msgid ""
+"Replace the current keyboard layout settings with the\n"
+"default settings"
+msgstr ""
+"Ganti tatanan tata letak papan tik kini dengan\n"
+"pengaturan bawaan"
+
+#: panels/region/cinnamon-region-panel.ui.h:31
+msgid "Keyboard Layouts"
+msgstr "Tampilan Keyboard"
+
+#: panels/region/cinnamon-region-panel.ui.h:34
+msgid "Display language:"
+msgstr "Tampilkan bahasa:"
+
+#: panels/region/cinnamon-region-panel.ui.h:35
+msgid "Input source:"
+msgstr "Sumber masukan:"
+
+#: panels/region/cinnamon-region-panel.ui.h:36
+msgid "Format:"
+msgstr "Fromat:"
+
+#: panels/region/cinnamon-region-panel.ui.h:37
+msgid "Your settings"
+msgstr "Pengaturanmu"
+
+#: panels/region/cinnamon-region-panel.ui.h:38
+msgid "System settings"
+msgstr "Pengaturan sistem"
+
+#: panels/region/cinnamon-region-panel.ui.h:40
+msgid "System"
+msgstr "Sistem"
+
+#: panels/screen/screen.ui.h:1
+msgid "Screen turns off"
+msgstr "Layar dimatikan"
+
+#: panels/screen/screen.ui.h:2
+msgid "30 seconds"
+msgstr "30 detik"
+
+#: panels/screen/screen.ui.h:3
+msgid "1 minute"
+msgstr "1 menit"
+
+#: panels/screen/screen.ui.h:4
+msgid "2 minutes"
+msgstr "2 menit"
+
+#: panels/screen/screen.ui.h:5
+msgid "3 minutes"
+msgstr "3 menit"
+
+#: panels/screen/screen.ui.h:11
+msgid "_Dim screen to save power"
+msgstr "Re_dupkan layar untuk mengirit daya"
+
+#: panels/screen/screen.ui.h:12
+msgid "Brightness"
+msgstr "Kecerahan"
+
+#: panels/screen/screen.ui.h:13
+msgid "_Turn screen off when inactive for:"
+msgstr "Ma_tikan layar ketika tak aktif selama:"
+
+#: panels/screen/screen.ui.h:14
+msgid "_Lock screen after:"
+msgstr "Kunci _layar setelah:"
+
+#: panels/screen/screen.ui.h:15
+msgid "Require my password when waking from suspend"
+msgstr "Butuhkan sandiku ketika bangun dari mode penangguhan"
+
+#: panels/screen/screen.ui.h:16
+msgid "Lock"
+msgstr "Kunci"
+
+#: panels/universal-access/uap.ui.h:5
+msgid "On screen keyboard"
+msgstr "Keyboard di layar"
+
+#: panels/universal-access/uap.ui.h:6
+msgid "GOK"
+msgstr "GOK"
+
+#: panels/universal-access/uap.ui.h:7
+msgid "OnBoard"
+msgstr "OnBoard"
+
+#: panels/universal-access/uap.ui.h:8
+msgid "None"
+msgstr "Nihil"
+
+#: panels/universal-access/uap.ui.h:10
+#, no-c-format
+msgid "75%"
+msgstr "75%"
+
+#: panels/universal-access/uap.ui.h:13
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#: panels/universal-access/uap.ui.h:16
+#, no-c-format
+msgid "125%"
+msgstr "125%"
+
+#: panels/universal-access/uap.ui.h:19
+#, no-c-format
+msgid "150%"
+msgstr "150%"
+
+#: panels/universal-access/uap.ui.h:21
+msgid "High Contrast"
+msgstr "Kontras Tinggi"
+
+#: panels/universal-access/uap.ui.h:22
+msgid "Beep on Caps and Num Lock"
+msgstr "Bip saat Caps Lock dan Num Lock"
+
+#: panels/universal-access/uap.ui.h:23
+msgid "Options..."
+msgstr "Opsi..."
+
+#: panels/universal-access/uap.ui.h:24
+msgid "Screen Reader"
+msgstr "Pembaca Layar"
+
+#: panels/universal-access/uap.ui.h:25
+msgid "Turn on or off:"
+msgstr "Nyalakan atau matikan:"
+
+#: panels/universal-access/uap.ui.h:27
+msgid "Zoom in:"
+msgstr "Perbesar:"
+
+#: panels/universal-access/uap.ui.h:28
+msgid "Zoom out:"
+msgstr "Perkecil:"
+
+#: panels/universal-access/uap.ui.h:29
+msgid "Large Text"
+msgstr "Teks Besar"
+
+#: panels/universal-access/uap.ui.h:30
+msgid "Seeing"
+msgstr "Penglihatan"
+
+#: panels/universal-access/uap.ui.h:31
+msgid "Visual Alerts"
+msgstr "Peringatan Visual"
+
+#: panels/universal-access/uap.ui.h:32
+msgid "Use a visual indication when an alert sound occurs"
+msgstr "Gunakan indikasi visual ketika terjadi suara waspada"
+
+#: panels/universal-access/uap.ui.h:33
+msgid "Flash the window title"
+msgstr "Kedipkan judul jendela"
+
+#: panels/universal-access/uap.ui.h:34
+msgid "Flash the entire screen"
+msgstr "Kedipkan seluruh layar"
+
+#: panels/universal-access/uap.ui.h:35
+msgid "Closed Captioning"
+msgstr "Penjelasan Tertutup"
+
+#: panels/universal-access/uap.ui.h:36
+msgid "Display a textual description of speech and sounds"
+msgstr "Tampilkan deskripsi tekstual dari pidato dan suara"
+
+#: panels/universal-access/uap.ui.h:37
+msgid "_Test flash"
+msgstr "_Uji flash"
+
+#: panels/universal-access/uap.ui.h:38
+msgid "Hearing"
+msgstr "Pendengaran"
+
+#: panels/universal-access/uap.ui.h:39
+msgid "On Screen Keyboard"
+msgstr "Keyboard di Layar"
+
+#: panels/universal-access/uap.ui.h:40
+msgid "Sticky Keys"
+msgstr "Tombol Lengket"
+
+#: panels/universal-access/uap.ui.h:41
+msgid "Treats a sequence of modifier keys as a key combination"
+msgstr "Perlakukan urutan tombol pengubah sebagai suatu kombinasi tombol"
+
+#: panels/universal-access/uap.ui.h:42
+msgid "_Disable if two keys are pressed together"
+msgstr "Matikan bila _dua tombol ditekan bersamaan"
+
+#: panels/universal-access/uap.ui.h:43
+msgid "Beep when a _modifer key is pressed"
+msgstr "Bip ketika kunci _pengubah ditekan"
+
+#: panels/universal-access/uap.ui.h:44
+msgid "Slow Keys"
+msgstr "Tombol Lambat"
+
+#: panels/universal-access/uap.ui.h:45
+msgid "Puts a delay between when a key is pressed and when it is accepted"
+msgstr ""
+"Sisipkan jeda antara ketika suatu tombol ditekan dan ketika itu diterima"
+
+#: panels/universal-access/uap.ui.h:46
+msgid "A_cceptance delay:"
+msgstr "_Tundaan penerimaan:"
+
+#: panels/universal-access/uap.ui.h:48
+msgid "Short"
+msgstr "Singkat"
+
+#: panels/universal-access/uap.ui.h:49
+msgid "Slow keys typing delay"
+msgstr "Tundaan pengetikan tombol lambat"
+
+#: panels/universal-access/uap.ui.h:51
+msgid "Long"
+msgstr "Panjang"
+
+#: panels/universal-access/uap.ui.h:53
+msgid "Beep when a key is"
+msgstr "Bip ketika kunci"
+
+#: panels/universal-access/uap.ui.h:55
+msgid "pressed"
+msgstr "ditekan"
+
+#: panels/universal-access/uap.ui.h:57
+msgid "accepted"
+msgstr "diterima"
+
+#: panels/universal-access/uap.ui.h:59
+msgid "rejected"
+msgstr "ditolak"
+
+#: panels/universal-access/uap.ui.h:60
+msgid "Bounce Keys"
+msgstr "Tombol Pantul"
+
+#: panels/universal-access/uap.ui.h:61
+msgid "Ignores fast duplicate keypresses"
+msgstr "Abaikan penekanan cepat tombol yang sama"
+
+#: panels/universal-access/uap.ui.h:62
+msgid "Acc_eptance delay:"
+msgstr "Tundaan p_enerimaan:"
+
+#: panels/universal-access/uap.ui.h:63
+msgid "Bounce keys typing delay"
+msgstr "Tundaan pengetikan tombol pantul"
+
+#: panels/universal-access/uap.ui.h:64
+msgid "Beep when a key is _rejected"
+msgstr "Bip ketika kunci ditola_k"
+
+#: panels/universal-access/uap.ui.h:65
+msgid "Enable by Keyboard"
+msgstr "Aktifkan melalui Keyboard"
+
+#: panels/universal-access/uap.ui.h:66
+msgid "Turn accessibility features on and off using the keyboard"
+msgstr "Nyalakan dan matikan fitur aksesibilitas memakai keyboard"
+
+#: panels/universal-access/uap.ui.h:67
+msgid "Typing"
+msgstr "Mengetik"
+
+#: panels/universal-access/uap.ui.h:68
+msgid "Mouse Keys"
+msgstr "Tombol Mouse"
+
+#: panels/universal-access/uap.ui.h:69
+msgid "Control the pointer using the keypad"
+msgstr "Kendalikan penunjuk memakai tombol panah"
+
+#: panels/universal-access/uap.ui.h:70
+msgid "Video Mouse"
+msgstr "Mouse Video"
+
+#: panels/universal-access/uap.ui.h:71
+msgid "Control the pointer using the video camera."
+msgstr "Kendalikan penunjuk memakai kamera video."
+
+#: panels/universal-access/uap.ui.h:72
+msgid "Simulated Secondary Click"
+msgstr "Simulasi Klik Sekunder"
+
+#: panels/universal-access/uap.ui.h:73
+msgid "Trigger a secondary click by holding down the primary button"
+msgstr "Picu klik sekunder dengan menahan tombol primer"
+
+#: panels/universal-access/uap.ui.h:74
+msgid "Secondary click delay"
+msgstr "Tundaan klik sekunder"
+
+#: panels/universal-access/uap.ui.h:75
+msgid "Hover Click"
+msgstr "Klik Mengambang"
+
+#: panels/universal-access/uap.ui.h:76
+msgid "Trigger a click when the pointer hovers"
+msgstr "Picu klik ketika penunjuk mengambang"
+
+#: panels/universal-access/uap.ui.h:77
+msgid "D_elay:"
+msgstr "T_unda"
+
+#: panels/universal-access/uap.ui.h:78
+msgid "Motion _threshold:"
+msgstr "A_mbang gerakan:"
+
+#: panels/universal-access/uap.ui.h:80
+msgid "Small"
+msgstr "Kecil"
+
+#: panels/universal-access/uap.ui.h:82
+msgid "Large"
+msgstr "Besar"
+
+#: panels/universal-access/uap.ui.h:83
+msgid "Mouse Settings"
+msgstr "Setelan Mouse"
+
+#: panels/universal-access/uap.ui.h:84
+msgid "Pointing and Clicking"
+msgstr "Menunjuk dan Mengklik"
+
+#: panels/universal-access/zoom-options.ui.h:1
+msgid "Full Screen"
+msgstr "Layar Penuh"
+
+#: panels/universal-access/zoom-options.ui.h:2
+msgid "Top Half"
+msgstr "Belahan Puncak"
+
+#: panels/universal-access/zoom-options.ui.h:3
+msgid "Bottom Half"
+msgstr "Belahan Bawah"
+
+#: panels/universal-access/zoom-options.ui.h:4
+msgid "Left Half"
+msgstr "Belahan Kiri"
+
+#: panels/universal-access/zoom-options.ui.h:5
+msgid "Right Half"
+msgstr "Belahan Kanan"
+
+#: panels/universal-access/zoom-options.ui.h:6
+msgid "Zoom Options"
+msgstr "Pilihan Pembesaran"
+
+#: panels/universal-access/zoom-options.ui.h:7
+msgid "Zoom"
+msgstr "Perbesar"
+
+#: panels/universal-access/zoom-options.ui.h:8
+msgid "Magnification:"
+msgstr "Pembesaran:"
+
+#: panels/universal-access/zoom-options.ui.h:9
+msgid "Follow mouse cursor"
+msgstr "Mengikuti kursor mouse"
+
+#: panels/universal-access/zoom-options.ui.h:10
+msgid "Screen part:"
+msgstr "Bagian layar:"
+
+#: panels/universal-access/zoom-options.ui.h:11
+msgid "Magnifier extends outside of screen"
+msgstr "Pembesar meluas sampai ke luar layar"
+
+#: panels/universal-access/zoom-options.ui.h:12
+msgid "Keep magnifier cursor centered"
+msgstr "Jaga kursor pembesar di tengah"
+
+#: panels/universal-access/zoom-options.ui.h:13
+msgid "Magnifier cursor pushes contents around"
+msgstr "Kursor pembesar mendorong isi ke sekitar"
+
+#: panels/universal-access/zoom-options.ui.h:14
+msgid "Magnifier cursor moves with contents"
+msgstr "Kursor pembesar berpindah bersama isi"
+
+#: panels/universal-access/zoom-options.ui.h:15
+msgid "Magnifier Position:"
+msgstr "Posisi Pembesar:"
+
+#: panels/universal-access/zoom-options.ui.h:16
+msgid "Magnifier"
+msgstr "Kaca Pembesar"
+
+#: panels/universal-access/zoom-options.ui.h:17
+msgid "Thickness:"
+msgstr "Ketebalan:"
+
+#: panels/universal-access/zoom-options.ui.h:19
+msgid "Thin"
+msgstr "Tipis"
+
+#: panels/universal-access/zoom-options.ui.h:21
+msgid "Thick"
+msgstr "Tebal"
+
+#: panels/universal-access/zoom-options.ui.h:22
+msgid "Length:"
+msgstr "Lebar:"
+
+#: panels/universal-access/zoom-options.ui.h:23
+msgid "Color:"
+msgstr "Warna:"
+
+#: panels/universal-access/zoom-options.ui.h:24
+msgid "Crosshairs:"
+msgstr "Pembidik silang:"
+
+#: panels/universal-access/zoom-options.ui.h:25
+msgid "Overlaps mouse cursor"
+msgstr "Kursor mouse bertindih"
+
+#: panels/universal-access/zoom-options.ui.h:26
+msgid "Crosshairs"
+msgstr "Pembidik silang"
+
+#: panels/universal-access/zoom-options.ui.h:27
+msgid "White on black:"
+msgstr "Putih di atas hitam:"
+
+#: panels/universal-access/zoom-options.ui.h:28
+msgid "Brightness:"
+msgstr "Kecerahan:"
+
+#: panels/universal-access/zoom-options.ui.h:29
+msgid "Contrast:"
+msgstr "Kontras:"
+
+#: panels/universal-access/zoom-options.ui.h:34
+msgid "Low"
+msgstr "Rendah"
+
+#: panels/universal-access/zoom-options.ui.h:36
+msgid "High"
+msgstr "Tinggi"
+
+#: panels/universal-access/zoom-options.ui.h:37
+msgid "Color Effects:"
+msgstr "Efek Warna:"
+
+#: panels/universal-access/zoom-options.ui.h:38
+msgid "Color Effects"
+msgstr "Efek Warna"
+
+#: generate_additional_files.py:53
+msgid "Brightness & Lock"
+msgstr "Kecerahan & Kunci"
+
+#: generate_additional_files.py:53
+msgid "Screen brightness and lock settings"
+msgstr "Pengaturan kunci dan kecerahan layar"
+
+#: generate_additional_files.py:68 generate_additional_files.py:99
+msgid "Sound"
+msgstr "Suara"
+
+#: generate_additional_files.py:68 generate_additional_files.py:99
+msgid "Change sound volume and sound events"
+msgstr "Ubah volume suara dan peristiwa suara"
+
+#: generate_additional_files.py:83
+msgid "Color management settings"
+msgstr "Pengaturan manajemen warna"
+
+#: generate_additional_files.py:113
+msgid "Volume Control"
+msgstr "Pengatur Volume"
+
+#: generate_additional_files.py:113
+msgid "Show desktop volume control"
+msgstr "Tampilkan kendali volume desktop"
+
+#: generate_additional_files.py:128
+msgid "Power"
+msgstr "Daya"
+
+#: generate_additional_files.py:128
+msgid "Power management settings"
+msgstr "Pengaturan manajemen daya"
+
+#: generate_additional_files.py:143
+msgid "Region & Language"
+msgstr "Wilayah & Bahasa"
+
+#: generate_additional_files.py:143
+msgid "Change your region and language settings"
+msgstr "Ubah pengaturan wilayah dan bahasa Anda"
+
+#: generate_additional_files.py:158
+msgid "Displays"
+msgstr "Tampilan"
+
+#: generate_additional_files.py:158
+msgid "Change resolution and position of monitors and projectors"
+msgstr "Ubah resolusi dan posisi monitor dan projektor"
+
+#: generate_additional_files.py:173
+msgid "Network settings"
+msgstr "Pengaturan jaringan"
+
+#: generate_additional_files.py:188
+msgid "Universal Access"
+msgstr "Akses Menyeluruh"
+
+#: generate_additional_files.py:188
+msgid "Universal Access Preferences"
+msgstr "Preferensi Akses Universal"

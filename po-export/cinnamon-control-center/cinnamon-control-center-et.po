@@ -1,0 +1,2129 @@
+# GNOME juhtimiskeskuse eesti keele tõlge.
+# Estonian translation of GNOME Control Center.
+#
+# Copyright (C) 1999, 2002, 2003, 2005, 2006 Free Software Foundation, Inc.
+# Copyright (C) 2007–2011 The Gnome Project.
+# This file is distributed under the same license as the cinnamon-control-center
+# package.
+#
+# Lauris Kaplinski <lauris ariman ee>, 1999.
+# Tõivo Leedjärv <toivo linux ee>, 2002, 2003.
+# Ivar Smolin <okul linux ee>, 2005–2011.
+# Priit Laes <plaes+gi18n plaes org>, 2005, 2006, 2008.
+# Mattias Põldaru <mahfiaz@gmail.com>, 2009, 2010, 2011, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Control Center MASTER\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=cinnamon-control-"
+"center&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-08-30 17:55+0100\n"
+"PO-Revision-Date: 2013-11-15 13:03+0000\n"
+"Last-Translator: Kristjan Vool <tictac7x@gmail.com>\n"
+"Language-Team: Estonian <cinnamon-et@linux.ee>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2013-11-26 11:42+0000\n"
+"X-Generator: Launchpad (build 16840)\n"
+"X-Poedit-Country: ESTONIA\n"
+"Language: et\n"
+"X-Poedit-Language: Estonian\n"
+
+#: panels/color/cc-color-panel.c:106
+msgid "Other profile…"
+msgstr "Muu profiil…"
+
+#: panels/color/cc-color-panel.c:119
+msgid "Default: "
+msgstr "Vaikimisi: "
+
+#: panels/color/cc-color-panel.c:126
+msgid "Colorspace: "
+msgstr "Värviruum: "
+
+#: panels/color/cc-color-panel.c:132
+msgid "Test profile: "
+msgstr "Katseprofiil: "
+
+#: panels/color/cc-color-panel.c:185 panels/color/color.ui.h:11
+msgid "Set for all users"
+msgstr "Määra kõigile kasutajaile"
+
+#: panels/color/cc-color-panel.c:192
+msgid "Create virtual device"
+msgstr "Virtuaalse seadme loomine"
+
+#: panels/color/cc-color-panel.c:227
+msgid "Select ICC Profile File"
+msgstr "ICC profiili valimine"
+
+#: panels/color/cc-color-panel.c:230
+msgid "_Import"
+msgstr "_Impordi"
+
+#: panels/color/cc-color-panel.c:241
+msgid "Supported ICC profiles"
+msgstr "Teotatud ICC profiilid"
+
+#: panels/color/cc-color-panel.c:248
+msgid "All files"
+msgstr "Kõik failid"
+
+#: panels/color/cc-color-panel.c:638
+msgid "Available Profiles for Displays"
+msgstr "Saadaolevad kuvade profiilid"
+
+#: panels/color/cc-color-panel.c:642
+msgid "Available Profiles for Scanners"
+msgstr "Saadaolevad skännerite profiilid"
+
+#: panels/color/cc-color-panel.c:646
+msgid "Available Profiles for Printers"
+msgstr "Saadaolevad printerite profiilid"
+
+#: panels/color/cc-color-panel.c:650
+msgid "Available Profiles for Cameras"
+msgstr "Saadaolevad kaamerate profiilid"
+
+#: panels/color/cc-color-panel.c:654
+msgid "Available Profiles for Webcams"
+msgstr "Saadaolevad veebikaamerate profiilid"
+
+#: panels/color/cc-color-panel.c:659 panels/color/color.ui.h:2
+msgid "Available Profiles"
+msgstr "Saadaolevad profiilid"
+
+#: panels/color/cc-color-panel.c:935 panels/sound/gvc-mixer-dialog.c:1523
+#: panels/sound-nua/gvc-mixer-dialog.c:1596
+msgid "Device"
+msgstr "Seade"
+
+#: panels/color/cc-color-panel.c:970
+msgid "Calibration"
+msgstr "Kalibreerimine"
+
+#: panels/color/cc-color-panel.c:1002
+msgid "Create a color profile for the selected device"
+msgstr "Valitud seadmele värviporfiili loomine"
+
+#: panels/color/cc-color-panel.c:1016 panels/color/cc-color-panel.c:1040
+msgid ""
+"The measuring instrument is not detected. Please check it is turned on and "
+"correctly connected."
+msgstr ""
+"Mõõteriista ei tuvastatud. Palun veendu, et see on sisse lülitatud ja "
+"õigesti ühendatud."
+
+#: panels/color/cc-color-panel.c:1049
+msgid "The measuring instrument does not support printer profiling."
+msgstr "Mõõteriist ei toeta printeri profiilimist."
+
+#: panels/color/cc-color-panel.c:1060
+msgid "The device type is not currently supported."
+msgstr "Seda seadmetüüpi hetkel ei toetata."
+
+#: panels/color/cc-color-panel.c:1132
+msgid "Cannot remove automatically added profile"
+msgstr "Automaatselt lisatud profiili ei õnnestunud eemaldada."
+
+#: panels/color/cc-color-panel.c:1463
+msgid "No profile"
+msgstr "Profiil puudub"
+
+#: panels/color/cc-color-panel.c:1494
+#, c-format
+msgid "%i year"
+msgid_plural "%i years"
+msgstr[0] "%i aasta"
+msgstr[1] "%i aastat"
+
+#: panels/color/cc-color-panel.c:1505
+#, c-format
+msgid "%i month"
+msgid_plural "%i months"
+msgstr[0] "%i kuu"
+msgstr[1] "%i kuud"
+
+#: panels/color/cc-color-panel.c:1516
+#, c-format
+msgid "%i week"
+msgid_plural "%i weeks"
+msgstr[0] "%i nädal"
+msgstr[1] "%i nädalat"
+
+#: panels/color/cc-color-panel.c:1523
+msgid "Less than 1 week"
+msgstr "Alla ühe nädala"
+
+#: panels/color/cc-color-panel.c:1713 panels/color/cc-color-panel.c:1754
+#: panels/color/cc-color-panel.c:1765 panels/color/cc-color-panel.c:1776
+msgid "Uncalibrated"
+msgstr "Kalibreerimata"
+
+#: panels/color/cc-color-panel.c:1716
+msgid "This device is not color managed."
+msgstr "Selle seadme värve ei hallata."
+
+#: panels/color/cc-color-panel.c:1757
+msgid "This device is using manufacturing calibrated data."
+msgstr "See seade kasutab tootjapoolset kalibreeringut."
+
+#: panels/color/cc-color-panel.c:1768
+msgid ""
+"This device does not have a profile suitable for whole-screen color "
+"correction."
+msgstr ""
+"Sellel seadmel ei ole sobivat profiili, mis sobiks täisekraani "
+"värvikorrektuuriks."
+
+#: panels/color/cc-color-panel.c:1801
+msgid "This device has an old profile that may no longer be accurate."
+msgstr "Sellel seadmel on vana profiil, mis ei pruugi olla enam täpne."
+
+#: panels/color/cc-color-panel.c:1829
+msgid "Not specified"
+msgstr "Määramata"
+
+#: panels/color/cc-color-panel.c:2014
+msgid "No devices supporting color management detected"
+msgstr "Värvihaldust toetavaid seadmeid ei leitud"
+
+#: panels/common/cc-common-language.c:533
+msgid "English"
+msgstr "Ingise keel"
+
+#: panels/common/cc-common-language.c:535
+msgid "British English"
+msgstr "Briti inglise keel"
+
+#: panels/common/cc-common-language.c:538
+msgid "German"
+msgstr "Saksa keel"
+
+#: panels/common/cc-common-language.c:541
+msgid "French"
+msgstr "Prantsuse keel"
+
+#: panels/common/cc-common-language.c:544
+msgid "Spanish"
+msgstr "Hispaania keel"
+
+#: panels/common/cc-common-language.c:546
+msgid "Chinese (simplified)"
+msgstr "Hiina keel (lihtsustatud)"
+
+#: panels/common/cc-common-language.c:549
+msgid "Russian"
+msgstr "Vene"
+
+#: panels/common/cc-common-language.c:552
+msgid "Arabic"
+msgstr "Araabia"
+
+#: panels/common/cc-common-language.c:581
+msgid "United States"
+msgstr "Ameerika Ühendriigid"
+
+#: panels/common/cc-common-language.c:582
+msgid "Germany"
+msgstr "Saksamaa"
+
+#: panels/common/cc-common-language.c:583
+msgid "France"
+msgstr "Prantsusmaa"
+
+#: panels/common/cc-common-language.c:584
+msgid "Spain"
+msgstr "Hispaania"
+
+#: panels/common/cc-common-language.c:585
+msgid "China"
+msgstr "Hiina"
+
+#: panels/common/cc-language-chooser.c:301
+msgid "Select a region"
+msgstr "Vali asukoht"
+
+#: panels/common/gdm-languages.c:781
+msgid "Unspecified"
+msgstr "Määramata"
+
+#: panels/display/cc-display-panel.c:624 panels/display/cc-rr-labeler.c:449
+msgid "Mirrored Displays"
+msgstr "Peegeldatud ekraanid"
+
+#: panels/display/cc-display-panel.c:648 panels/display/display-capplet.ui.h:1
+msgid "Monitor"
+msgstr "Kuvar"
+
+#: panels/display/cc-display-panel.c:758
+#, c-format
+msgid "%d x %d (%s)"
+msgstr "%d x %d (%s)"
+
+#: panels/display/cc-display-panel.c:760
+#, c-format
+msgid "%d x %d"
+msgstr "%d x %d"
+
+#: panels/display/cc-display-panel.c:1669
+msgid ""
+"Select a monitor to change its properties; drag it to rearrange its "
+"placement."
+msgstr ""
+"Omaduste muutmiseks vali kuvar. Asukoha muutmiseks lohista see uuele "
+"asukohale."
+
+#: panels/display/cc-display-panel.c:2185
+#: panels/display/cc-display-panel.c:2237
+#, c-format
+msgid "Failed to apply configuration: %s"
+msgstr "Seadistuse rakendamine nurjus: %s"
+
+#: panels/display/cc-display-panel.c:2265
+msgid "Could not save the monitor configuration"
+msgstr "Kuvari sätteid pole võimalik salvestada"
+
+#: panels/display/cc-display-panel.c:2325
+msgid "Could not detect displays"
+msgstr "Kuvasid pole võimalik tuvastada"
+
+#: panels/display/cc-display-panel.c:2563
+msgid "Could not get screen information"
+msgstr "Ekraani andmeid pole võimalik hankida"
+
+#: panels/network/cc-network-panel.c:661
+msgid "Network proxy"
+msgstr "Võrgu proksi"
+
+#: panels/network/cc-network-panel.c:853 panels/network/net-vpn.c:278
+#, c-format
+msgid "%s VPN"
+msgstr "%s VPN"
+
+#: panels/network/cc-network-panel.c:920
+msgid "The system network services are not compatible with this version."
+msgstr "Süsteemi võrguteenused ei sobi selle versiooniga."
+
+#: panels/network/cc-network-panel.c:1108
+msgid "Air_plane Mode"
+msgstr "_Lennukirežiim"
+
+#: panels/network/net-device-mobile.c:222
+msgid "Add new connection"
+msgstr "Uue ühenduse lisamine"
+
+#: panels/network/net-device-mobile.c:261 panels/network/net-device-wifi.c:725
+#: panels/network/net-device-wired.c:126
+#, c-format
+msgid "%d Mb/s"
+msgstr "%d Mb/s"
+
+#: panels/network/net-device-wifi.c:258 panels/network/net-device-wifi.c:437
+msgid "WEP"
+msgstr "WEP"
+
+#: panels/network/net-device-wifi.c:262 panels/network/net-device-wifi.c:441
+msgid "WPA"
+msgstr "WPA"
+
+#: panels/network/net-device-wifi.c:266
+msgid "WPA2"
+msgstr "WPA2"
+
+#: panels/network/net-device-wifi.c:271
+msgid "Enterprise"
+msgstr "Ettevõtte"
+
+#: panels/network/net-device-wifi.c:652
+msgid "never"
+msgstr "mitte kunagi"
+
+#: panels/network/net-device-wifi.c:662
+msgid "today"
+msgstr "täna"
+
+#: panels/network/net-device-wifi.c:664
+msgid "yesterday"
+msgstr "eile"
+
+#: panels/network/net-device-wifi.c:666
+#, c-format
+msgid "%i day ago"
+msgid_plural "%i days ago"
+msgstr[0] "%i päev tagasi"
+msgstr[1] "%i päeva tagasi"
+
+#: panels/network/net-device-wifi.c:735 panels/network/panel-common.c:277
+msgid "Not connected"
+msgstr "Pole ühendatud"
+
+#: panels/network/net-device-wifi.c:737 panels/network/net-device-wifi.c:2100
+msgid "Out of range"
+msgstr "Vahemikust väljas"
+
+#: panels/network/net-device-wifi.c:960
+#, c-format
+msgid ""
+"Network details for %s including password and any custom configuration will "
+"be lost."
+msgstr ""
+"%s võrgu andmed, sealhulgas parool ja eriseadistused, lähevad kaotsi."
+
+#: panels/network/net-device-wifi.c:971
+msgid "Forget"
+msgstr "Unusta võrk"
+
+#: panels/network/net-device-wifi.c:1554
+msgid ""
+"If you have a connection to the Internet other than wireless, you can use it "
+"to share your internet connection with others."
+msgstr ""
+"Kui su internetiühendus ei tule juhtmeta võrgu kaudu, võid kasutada juhtmeta "
+"võrku teistele internetiühenduse jagamiseks."
+
+#: panels/network/net-device-wifi.c:1558
+#, c-format
+msgid "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+msgstr ""
+"Juhtmeta võrgu kaudu jagamise (hotspot) sisselülitamine katkestab ühenduse "
+"võrguga <b>%s</b>."
+
+#: panels/network/net-device-wifi.c:1562
+msgid ""
+"It is not possible to access the internet through your wireless while the "
+"hotspot is active."
+msgstr ""
+"Pole võimalik ühenduda internetti juhtmeta võrgu kaudu, kuni hotspot on "
+"aktiivne."
+
+#: panels/network/net-device-wifi.c:1628
+msgid "Stop hotspot and disconnect any users?"
+msgstr "Kas seisata tugijaam ja ühendada kasutajad lahti?"
+
+#: panels/network/net-device-wifi.c:1631
+msgid "_Stop Hotspot"
+msgstr "_Seiska tugijaam"
+
+#: panels/network/net-proxy.c:67
+msgid ""
+"Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+msgstr ""
+"Veebiproksi isetuvastust kasutatakse siis, kui seadistamise URL pole "
+"määratud."
+
+#: panels/network/net-proxy.c:75
+msgid "This is not recommended for untrusted public networks."
+msgstr "See ei ole mitteusaldatavates avalikes võrkudes soovitatav."
+
+#: panels/network/net-proxy.c:368
+msgid "Proxy"
+msgstr "Proksi"
+
+#: panels/network/panel-common.c:82 panels/network/panel-common.c:162
+msgid "Unknown"
+msgstr "Tundmatu"
+
+#: panels/network/panel-common.c:86
+msgid "Wired"
+msgstr "Juhtmega"
+
+#: panels/network/panel-common.c:90 panels/network/network-wifi.ui.h:3
+msgid "Wireless"
+msgstr "Juhtmeta"
+
+#: panels/network/panel-common.c:97
+msgid "Mobile broadband"
+msgstr "Mobiiliühendus"
+
+#: panels/network/panel-common.c:102
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: panels/network/panel-common.c:106
+msgid "Mesh"
+msgstr "Silmusvõrk"
+
+#: panels/network/panel-common.c:166
+msgid "Ad-hoc"
+msgstr "Ad-hoc"
+
+#: panels/network/panel-common.c:170
+msgid "Infrastructure"
+msgstr "Infrastruktuur"
+
+#: panels/network/panel-common.c:194 panels/network/panel-common.c:255
+msgid "Status unknown"
+msgstr "Olek teadmata"
+
+#: panels/network/panel-common.c:198
+msgid "Unmanaged"
+msgstr "Haldamata"
+
+#: panels/network/panel-common.c:203
+msgid "Firmware missing"
+msgstr "Püsivara puudub"
+
+#: panels/network/panel-common.c:206
+msgid "Cable unplugged"
+msgstr "Juhe eemaldatud"
+
+#: panels/network/panel-common.c:208
+msgid "Unavailable"
+msgstr "Pole saadaval"
+
+#: panels/network/panel-common.c:212
+msgid "Disconnected"
+msgstr "Pole ühendatud"
+
+#: panels/network/panel-common.c:219 panels/network/panel-common.c:261
+msgid "Connecting"
+msgstr "Ühendumine"
+
+#: panels/network/panel-common.c:223 panels/network/panel-common.c:265
+msgid "Authentication required"
+msgstr "Autentimine on vajalik"
+
+#: panels/network/panel-common.c:227 panels/network/panel-common.c:269
+msgid "Connected"
+msgstr "Ühendatud"
+
+#: panels/network/panel-common.c:231
+msgid "Disconnecting"
+msgstr "Ühenduse katkestamine"
+
+#: panels/network/panel-common.c:235 panels/network/panel-common.c:273
+msgid "Connection failed"
+msgstr "Ühendumine nurjus"
+
+#: panels/network/panel-common.c:239 panels/network/panel-common.c:281
+msgid "Status unknown (missing)"
+msgstr "Olek teadmata (puudub)"
+
+#: panels/network/panel-common.c:301
+msgid "Configuration failed"
+msgstr "Seadistamine nurjus"
+
+#: panels/network/panel-common.c:305
+msgid "IP configuration failed"
+msgstr "IP seadistamine nurjus"
+
+#: panels/network/panel-common.c:309
+msgid "IP configuration expired"
+msgstr "IP seadistus aegus"
+
+#: panels/network/panel-common.c:313
+msgid "Secrets were required, but not provided"
+msgstr "Vajalik on parool, aga seda ei antud"
+
+#: panels/network/panel-common.c:317
+msgid "802.1x supplicant disconnected"
+msgstr "802.1x supplicant-iga katkes ühendus"
+
+#: panels/network/panel-common.c:321
+msgid "802.1x supplicant configuration failed"
+msgstr "802.1x supplicant-i seadistus nurjus"
+
+#: panels/network/panel-common.c:325
+msgid "802.1x supplicant failed"
+msgstr "802.1x supplicant nurjus"
+
+#: panels/network/panel-common.c:329
+msgid "802.1x supplicant took too long to authenticate"
+msgstr "802.1x supplicant-il läks autentimiseks liiga kaua"
+
+#: panels/network/panel-common.c:333
+msgid "PPP service failed to start"
+msgstr "PPP teenuse käivitamine nurjus"
+
+#: panels/network/panel-common.c:337
+msgid "PPP service disconnected"
+msgstr "PPP teenuse ühendus katkes"
+
+#: panels/network/panel-common.c:341
+msgid "PPP failed"
+msgstr "PPP nurjus"
+
+#: panels/network/panel-common.c:345
+msgid "DHCP client failed to start"
+msgstr "DHCP kliendi käivitamine nurjus"
+
+#: panels/network/panel-common.c:349
+msgid "DHCP client error"
+msgstr "DHCP kliendi viga"
+
+#: panels/network/panel-common.c:353
+msgid "DHCP client failed"
+msgstr "DHCP kliendi päring nurjus"
+
+#: panels/network/panel-common.c:357
+msgid "Shared connection service failed to start"
+msgstr "Jagatud ühenduse teenuse käivitamine nurjus"
+
+#: panels/network/panel-common.c:361
+msgid "Shared connection service failed"
+msgstr "Jagatud ühenduse teenus nurjus"
+
+#: panels/network/panel-common.c:365
+msgid "AutoIP service failed to start"
+msgstr "AutoIP teenuse käivitamine nurjus"
+
+#: panels/network/panel-common.c:369
+msgid "AutoIP service error"
+msgstr "AutoIP teenuse viga"
+
+#: panels/network/panel-common.c:373
+msgid "AutoIP service failed"
+msgstr "AutoIP teenus nurjus"
+
+#: panels/network/panel-common.c:377
+msgid "Line busy"
+msgstr "Liin on hõivatud"
+
+#: panels/network/panel-common.c:381
+msgid "No dial tone"
+msgstr "Tooni pole"
+
+#: panels/network/panel-common.c:385
+msgid "No carrier could be established"
+msgstr "Kandjat polnud võimalik luua"
+
+#: panels/network/panel-common.c:389
+msgid "Dialing request timed out"
+msgstr "Valimise katse aegus"
+
+#: panels/network/panel-common.c:393
+msgid "Dialing attempt failed"
+msgstr "Valimise katse nurjus"
+
+#: panels/network/panel-common.c:397
+msgid "Modem initialization failed"
+msgstr "Modemi lähtestamine nurjus"
+
+#: panels/network/panel-common.c:401
+msgid "Failed to select the specified APN"
+msgstr "Määratud APN-i valimine nurjus"
+
+#: panels/network/panel-common.c:405
+msgid "Not searching for networks"
+msgstr "Võrke ei otsita"
+
+#: panels/network/panel-common.c:409
+msgid "Network registration denied"
+msgstr "Võrgu registreerimine on keelatud"
+
+#: panels/network/panel-common.c:413
+msgid "Network registration timed out"
+msgstr "Võrgu registreerimine aegus"
+
+#: panels/network/panel-common.c:417
+msgid "Failed to register with the requested network"
+msgstr "Valitud võrku registreerimine nurjus"
+
+#: panels/network/panel-common.c:421
+msgid "PIN check failed"
+msgstr "PIN-i kontroll nurjus"
+
+#: panels/network/panel-common.c:425
+msgid "Firmware for the device may be missing"
+msgstr "Selle seadme püsivara (firmware) võib olla puudu"
+
+#: panels/network/panel-common.c:429
+msgid "Connection disappeared"
+msgstr "Ühendus kadus"
+
+#: panels/network/panel-common.c:433
+msgid "Carrier/link changed"
+msgstr "Kandja/ühendus muutus"
+
+#: panels/network/panel-common.c:437
+msgid "Existing connection was assumed"
+msgstr "Olemasolev ühendus on eeldatav"
+
+#: panels/network/panel-common.c:441
+msgid "Modem not found"
+msgstr "Modemit ei leitud"
+
+#: panels/network/panel-common.c:445
+msgid "Bluetooth connection failed"
+msgstr "Bluetooth ühendus nurjus"
+
+#: panels/network/panel-common.c:449
+msgid "SIM Card not inserted"
+msgstr "SIM kaart ei ole sees"
+
+#: panels/network/panel-common.c:453
+msgid "SIM Pin required"
+msgstr "Vajalik on SIM-kaardi PIN-kood"
+
+#: panels/network/panel-common.c:457
+msgid "SIM Puk required"
+msgstr "Vajalik on SIM-kaardi PUK-kood"
+
+#: panels/network/panel-common.c:461
+msgid "SIM wrong"
+msgstr "Vale SIM"
+
+#: panels/network/panel-common.c:465
+msgid "InfiniBand device does not support connected mode"
+msgstr "InfiniBand seade ei toeta seda ühenduse režiimi"
+
+#: panels/network/panel-common.c:469
+msgid "Connection dependency failed"
+msgstr "Ühenduse sõltuvus nurjus"
+
+#: panels/network/panel-common.c:683 panels/network/network-wifi.ui.h:13
+#: panels/network/network-wired.ui.h:2
+msgid "IPv4 Address"
+msgstr "IPv4-aadress"
+
+#: panels/network/panel-common.c:684 panels/network/network-mobile.ui.h:4
+#: panels/network/network-wifi.ui.h:14 panels/network/network-wired.ui.h:3
+msgid "IPv6 Address"
+msgstr "IPv6-aadress"
+
+#: panels/network/panel-common.c:686 panels/network/panel-common.c:688
+#: panels/network/network-mobile.ui.h:3
+msgid "IP Address"
+msgstr "IP-aadress"
+
+#: panels/power/cc-power-panel.c:166
+msgid "Unknown time"
+msgstr "Tundmatu aeg"
+
+#: panels/power/cc-power-panel.c:172
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "%i minut"
+msgstr[1] "%i minutit"
+
+#: panels/power/cc-power-panel.c:184
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] "%i tund"
+msgstr[1] "%i tundi"
+
+#: panels/power/cc-power-panel.c:192
+#, c-format
+msgid "%i %s %i %s"
+msgstr "%i %s %i %s"
+
+#: panels/power/cc-power-panel.c:193
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "tund"
+msgstr[1] "tundi"
+
+#: panels/power/cc-power-panel.c:194
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minut"
+msgstr[1] "minutit"
+
+#: panels/power/cc-power-panel.c:237
+#, c-format
+msgid "Charging - %s until fully charged"
+msgstr "Laadimine - %s täislaadimiseni"
+
+#: panels/power/cc-power-panel.c:245
+#, c-format
+msgid "Caution low battery, %s remaining"
+msgstr "Hoiatus, aku varsti tühi, %s jäänud"
+
+#: panels/power/cc-power-panel.c:253
+#, c-format
+msgid "Using battery power - %s remaining"
+msgstr "Akutoitel - %s jäänud"
+
+#: panels/power/cc-power-panel.c:270
+msgid "Charging"
+msgstr "Laadimine"
+
+#: panels/power/cc-power-panel.c:275
+msgid "Using battery power"
+msgstr "Akutoitel"
+
+#: panels/power/cc-power-panel.c:279
+msgid "Charging - fully charged"
+msgstr "Laadimine - täiesti täis"
+
+#: panels/power/cc-power-panel.c:283
+msgid "Empty"
+msgstr "Tühi"
+
+#: panels/power/cc-power-panel.c:351
+#, c-format
+msgid "Caution low UPS, %s remaining"
+msgstr "Hoiatus, UPS varsti tühi, %s jäänud"
+
+#: panels/power/cc-power-panel.c:357
+#, c-format
+msgid "Using UPS power - %s remaining"
+msgstr "UPS-i toitel - %s jäänud"
+
+#: panels/power/cc-power-panel.c:375
+msgid "Caution low UPS"
+msgstr "Hoiatus, UPS varsti tühi"
+
+#: panels/power/cc-power-panel.c:380
+msgid "Using UPS power"
+msgstr "UPS-i toitel"
+
+#: panels/power/cc-power-panel.c:432
+msgid "Your secondary battery is fully charged"
+msgstr "Sinu teine aku on täiesti täis"
+
+#: panels/power/cc-power-panel.c:436
+msgid "Your secondary battery is empty"
+msgstr "Sinu teine aku on tühi"
+
+#: panels/power/cc-power-panel.c:519
+msgid "Wireless mouse"
+msgstr "Juhtmeta hiir"
+
+#: panels/power/cc-power-panel.c:523
+msgid "Wireless keyboard"
+msgstr "Juhtmeta klaviatuur"
+
+#: panels/power/cc-power-panel.c:527
+msgid "Uninterruptible power supply"
+msgstr "Katkestuseta toite allikas (UPS)"
+
+#: panels/power/cc-power-panel.c:531
+msgid "Personal digital assistant"
+msgstr "Isiklik digitaalassistent"
+
+#: panels/power/cc-power-panel.c:535
+msgid "Cellphone"
+msgstr "Mobiiltelefon"
+
+#: panels/power/cc-power-panel.c:539
+msgid "Media player"
+msgstr "Muusikaesitaja"
+
+#: panels/power/cc-power-panel.c:543
+msgid "Tablet"
+msgstr "Digitaallaud"
+
+#: panels/power/cc-power-panel.c:547
+msgid "Computer"
+msgstr "Arvuti"
+
+#: panels/power/cc-power-panel.c:551
+msgid "Battery"
+msgstr "Aku"
+
+#: panels/region/cc-region-panel.c:178
+msgid "Get more languages..."
+msgstr "Rohkemate keelte leidmine..."
+
+#: panels/region/cinnamon-region-panel-formats.c:142
+msgid "Imperial"
+msgstr "Briti mõõdustik"
+
+#: panels/region/cinnamon-region-panel-formats.c:144
+msgid "Metric"
+msgstr "Meetermõõdustik"
+
+#: panels/region/cinnamon-region-panel-system.c:420
+msgid ""
+"The login screen, system accounts and new user accounts use the system-wide "
+"Region and Language settings."
+msgstr ""
+"Sisselogimisaknale, süsteemi kasutajatele ja uutele süsteemi kasutajatele "
+"rakenduvad süsteemi-ülesed piirkonna ja keelte seaded."
+
+#: panels/region/cinnamon-region-panel-system.c:425
+#: panels/region/cinnamon-region-panel.ui.h:32
+msgid ""
+"The login screen, system accounts and new user accounts use the system-wide "
+"Region and Language settings. You may change the system settings to match "
+"yours."
+msgstr ""
+"Sisselogimisaknale, süsteemi kasutajatele ja uutele süsteemi kasutajatele "
+"rakenduvad süsteemi-ülesed regiooni ja keelte seaded. Neid võib pärast "
+"individuaalselt muuta."
+
+#: panels/region/cinnamon-region-panel-system.c:428
+msgid "Copy Settings"
+msgstr "Seadete kopeerimine"
+
+#: panels/region/cinnamon-region-panel-system.c:431
+#: panels/region/cinnamon-region-panel.ui.h:39
+msgid "Copy Settings..."
+msgstr "Kopeeri seaded..."
+
+#: panels/region/cinnamon-region-panel-xkblt.c:210
+msgid "Layout"
+msgstr "Paigutus"
+
+#: panels/region/cinnamon-region-panel-xkbot.c:229
+msgid "Default"
+msgstr "Vaikimisi"
+
+#: panels/sound/applet-main.c:49
+msgid "Enable debugging code"
+msgstr "Silumiskoodi lubamine"
+
+#: panels/sound/applet-main.c:50
+msgid "Version of this application"
+msgstr "Selle rakenduse versioon"
+
+#: panels/sound/applet-main.c:62
+msgid " — Cinnamon Volume Control Applet"
+msgstr " — Cinnamon'i heli seadete vidin"
+
+#: panels/sound/gvc-applet.c:270 panels/sound/gvc-mixer-dialog.c:1654
+#: panels/sound-nua/gvc-mixer-dialog.c:1748
+msgid "Output"
+msgstr "Väljund"
+
+#: panels/sound/gvc-applet.c:272
+msgid "Sound Output Volume"
+msgstr "Heliväljundi valjus"
+
+#: panels/sound/gvc-applet.c:276 panels/sound/gvc-mixer-dialog.c:1695
+#: panels/sound-nua/gvc-mixer-dialog.c:1881
+msgid "Input"
+msgstr "Sisend"
+
+#: panels/sound/gvc-applet.c:278
+msgid "Microphone Volume"
+msgstr "Mikrofoni valjus"
+
+#: panels/sound/gvc-balance-bar.c:295 panels/sound-nua/gvc-balance-bar.c:295
+msgid "_Balance:"
+msgstr "_Tasakaal:"
+
+# või on esimeste/tagumiste vahel jaotamise mõttes?
+#: panels/sound/gvc-balance-bar.c:298 panels/sound-nua/gvc-balance-bar.c:298
+msgid "_Fade:"
+msgstr "_Hajumine:"
+
+#: panels/sound/gvc-balance-bar.c:301 panels/sound-nua/gvc-balance-bar.c:301
+msgid "_Subwoofer:"
+msgstr "_Bassikõlar:"
+
+#: panels/sound/gvc-combo-box.c:167 panels/sound/gvc-mixer-dialog.c:258
+#: panels/sound/gvc-mixer-dialog.c:519
+msgid "_Profile:"
+msgstr "_Profiil:"
+
+#: panels/sound/gvc-mixer-control.c:1834
+msgid "Disabled"
+msgstr "Välja lülitatud"
+
+#: panels/sound/gvc-mixer-control.c:1841
+#, c-format
+msgid "%u Output"
+msgid_plural "%u Outputs"
+msgstr[0] "%u väljund"
+msgstr[1] "%u väljundit"
+
+#: panels/sound/gvc-mixer-control.c:1851
+#, c-format
+msgid "%u Input"
+msgid_plural "%u Inputs"
+msgstr[0] "%u sisend"
+msgstr[1] "%u sisendid"
+
+#: panels/sound/gvc-mixer-control.c:2375
+msgid "System Sounds"
+msgstr "Süsteemsed helid"
+
+#: panels/sound/gvc-mixer-dialog.c:260
+msgid "_Test Speakers"
+msgstr "_Kõlarite kontroll"
+
+#: panels/sound/gvc-mixer-dialog.c:424 panels/sound-nua/gvc-mixer-dialog.c:341
+msgid "Peak detect"
+msgstr "Tipu tuvastamine"
+
+#: panels/sound/gvc-mixer-dialog.c:1504
+#: panels/sound-nua/gvc-mixer-dialog.c:1578
+msgid "Name"
+msgstr "Nimi"
+
+#: panels/sound/gvc-mixer-dialog.c:1586
+#: panels/sound-nua/gvc-mixer-dialog.c:1680
+#, c-format
+msgid "Speaker Testing for %s"
+msgstr "%s kõlarite testimine"
+
+#: panels/sound/gvc-mixer-dialog.c:1640
+#: panels/sound-nua/gvc-mixer-dialog.c:2016
+msgid "_Output volume:"
+msgstr "_Väljundi valjus"
+
+#: panels/sound/gvc-mixer-dialog.c:1659
+msgid "C_hoose a device for sound output:"
+msgstr "_Vali heliväljundi seade:"
+
+#: panels/sound/gvc-mixer-dialog.c:1684
+msgid "Settings for the selected device:"
+msgstr "Valitud seadme sätted:"
+
+#: panels/sound/gvc-mixer-dialog.c:1702
+#: panels/sound-nua/gvc-mixer-dialog.c:1928
+msgid "_Input volume:"
+msgstr "_Sisendi valjus"
+
+#: panels/sound/gvc-mixer-dialog.c:1725
+#: panels/sound-nua/gvc-mixer-dialog.c:1961
+msgid "Input level:"
+msgstr "Sisendtase:"
+
+#: panels/sound/gvc-mixer-dialog.c:1753
+msgid "C_hoose a device for sound input:"
+msgstr "_Vali helisisendi seade:"
+
+#: panels/sound/gvc-mixer-dialog.c:1780
+#: panels/sound-nua/gvc-mixer-dialog.c:1982
+msgid "Sound Effects"
+msgstr "Heliefektid"
+
+#: panels/sound/gvc-mixer-dialog.c:1787
+#: panels/sound-nua/gvc-mixer-dialog.c:1989
+msgid "_Alert volume:"
+msgstr "_Hoiatuse valjus"
+
+#: panels/sound/gvc-mixer-dialog.c:1795
+#: panels/sound-nua/gvc-mixer-dialog.c:1997
+msgid "Applications"
+msgstr "Rakendused"
+
+#: panels/sound/gvc-mixer-dialog.c:1799
+#: panels/sound-nua/gvc-mixer-dialog.c:2001
+msgid "No application is currently playing or recording audio."
+msgstr "Mitte ükski rakendus ei esita ega lindista praegu heli."
+
+#: panels/sound/gvc-speaker-test.c:220
+msgid "Stop"
+msgstr "Peata"
+
+#: panels/sound/gvc-speaker-test.c:220 panels/sound/gvc-speaker-test.c:332
+msgid "Test"
+msgstr "Testi"
+
+#: panels/sound/gvc-speaker-test.c:228
+msgid "Subwoofer"
+msgstr "Bassikõlar"
+
+#: panels/sound/gvc-stream-status-icon.c:236
+#, c-format
+msgid "Failed to start Sound Preferences: %s"
+msgstr "Helieelistuste käivitamine nurjus: %s"
+
+#: panels/sound/gvc-stream-status-icon.c:262
+msgid "_Mute"
+msgstr "_Tumm"
+
+#: panels/sound/gvc-stream-status-icon.c:271
+msgid "_Sound Preferences"
+msgstr "_Helieelistused"
+
+#: panels/sound/gvc-stream-status-icon.c:416
+msgid "Muted"
+msgstr "Tumm"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:774
+#: panels/sound-nua/gvc-mixer-dialog.c:944
+#, c-format
+msgid "Settings for %s"
+msgstr "%s seaded"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:800
+#: panels/sound-nua/gvc-mixer-dialog.c:953
+msgid "Mode:"
+msgstr "Režiim:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1753
+msgid "Play sound through"
+msgstr "Heli esitamine"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1778
+#: panels/sound-nua/gvc-mixer-dialog.c:1910
+msgid "Settings for the selected device"
+msgstr "Valitud riistvara seaded"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1851
+msgid "Test:"
+msgstr "Proov:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1858
+msgid "Test Sound"
+msgstr "Testheli"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1885
+msgid "Record sound from"
+msgstr "Helisalvestamine"
+
+#: panels/universal-access/cc-ua-panel.c:289
+#: panels/universal-access/cc-ua-panel.c:295
+msgid "No shortcut set"
+msgstr "Ühtegi kiirklahvi pole määratud"
+
+#: shell/cc-shell-nav-bar.c:117
+msgid "_All Settings"
+msgstr "_Kõik sätted"
+
+#: shell/control-center.c:58
+msgid "Enable verbose mode"
+msgstr "Jutuka režiimi lubamine"
+
+#: shell/control-center.c:59
+msgid "Show the overview"
+msgstr "Ülevaate näitamine"
+
+#: shell/control-center.c:60 shell/control-center.c:61
+#: shell/control-center.c:62
+msgid "Show help options"
+msgstr "Abiteabe võtmete näitamine"
+
+#: shell/control-center.c:63
+msgid "Panel to display"
+msgstr "Kuvatav paneel"
+
+#: shell/control-center.c:85
+msgid "- System Settings"
+msgstr "- Süsteemi sätted"
+
+#: shell/control-center.c:93
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Kõigi saadaolevate käsureavõtmete vaatamiseks käivita '%s --help'.\n"
+
+#: shell/control-center.c:215
+msgid "Help"
+msgstr "Abi"
+
+#: shell/control-center.c:216
+msgid "Quit"
+msgstr "Lõpeta"
+
+#: panels/color/color.ui.h:3 generate_additional_files.py:83
+msgid "Color"
+msgstr "Värv"
+
+#: panels/color/color.ui.h:4
+msgid "Each device needs an up to date color profile to be color managed."
+msgstr "Värvihalduse kasutamiseks vajab iga seade värsket värviprofiili."
+
+#: panels/color/color.ui.h:5
+msgid "Learn more"
+msgstr "Rohkem teavet"
+
+#: panels/color/color.ui.h:6
+msgid "Learn more about color management"
+msgstr "Rohkem teavet värvihalduse kohta"
+
+#: panels/color/color.ui.h:7
+msgid "Add device"
+msgstr "Lisa seade"
+
+#: panels/color/color.ui.h:8
+msgid "Add a virtual device"
+msgstr "Virtuaalse seadme lisamine"
+
+#: panels/color/color.ui.h:9
+msgid "Delete device"
+msgstr "Kustuta seade"
+
+#: panels/color/color.ui.h:10
+msgid "Remove a device"
+msgstr "Eemalda seade"
+
+#: panels/color/color.ui.h:12
+msgid "Set this profile for all users on this computer"
+msgstr "Määrata see profiil kõigile selle arvuti kasutajatele"
+
+#: panels/color/color.ui.h:13
+msgid "Add profile"
+msgstr "Lisa profiil"
+
+#: panels/color/color.ui.h:14
+msgid "Calibrate…"
+msgstr "Kalibreerimine..."
+
+#: panels/color/color.ui.h:15
+msgid "Calibrate the device"
+msgstr "Seadme kalibreerimine"
+
+#: panels/color/color.ui.h:16
+msgid "Remove profile"
+msgstr "Eemalda profiil"
+
+#: panels/color/color.ui.h:17
+msgid "View details"
+msgstr "Vaata üksikasju"
+
+#: panels/color/color.ui.h:18
+msgid "Device type:"
+msgstr "Seadme tüüp:"
+
+#: panels/color/color.ui.h:19
+msgid "Manufacturer:"
+msgstr "Tootja:"
+
+#: panels/color/color.ui.h:20
+msgid "Model:"
+msgstr "Mudel:"
+
+#: panels/color/color.ui.h:21
+msgid ""
+"Image files can be dragged on this window to auto-complete the above fields."
+msgstr "Ülalolevate väljade täitmiseks saab siia aknasse pilte lohistada."
+
+#: panels/common/language-chooser.ui.h:1
+msgid "Select a language"
+msgstr "Vali keel"
+
+#: panels/common/language-chooser.ui.h:2
+msgid "_Cancel"
+msgstr "_Katkesta"
+
+#: panels/common/language-chooser.ui.h:3
+msgid "_Select"
+msgstr "_Vali"
+
+#: panels/display/display-capplet.ui.h:2
+msgid "Set as Primary"
+msgstr "Määra esmagrupiks"
+
+#: panels/display/display-capplet.ui.h:3
+msgid "_Resolution"
+msgstr "_Eraldusvõime"
+
+#: panels/display/display-capplet.ui.h:4
+msgid "R_otation"
+msgstr "_Pööramine"
+
+#: panels/display/display-capplet.ui.h:6
+msgid "_Mirror displays"
+msgstr "Kuvad on pee_geldatud"
+
+#: panels/display/display-capplet.ui.h:7
+msgid "Note: may limit resolution options"
+msgstr "Märkus: võib piirata eraldusvõime valikuid"
+
+#: panels/display/display-capplet.ui.h:8
+msgid "_Detect Displays"
+msgstr "_Tuvasta kuvad"
+
+#: panels/network/network-mobile.ui.h:1
+msgid "IMEI"
+msgstr "IMEI"
+
+#: panels/network/network-mobile.ui.h:2
+msgid "Provider"
+msgstr "Teenusepakkuja"
+
+#: panels/network/network-mobile.ui.h:5 panels/network/network-wifi.ui.h:15
+#: panels/network/network-wired.ui.h:4
+msgid "Default Route"
+msgstr "Vaikimisi marsruut"
+
+#: panels/network/network-mobile.ui.h:6 panels/network/network-wifi.ui.h:16
+#: panels/network/network-wired.ui.h:5
+msgid "DNS"
+msgstr "DNS"
+
+#: panels/network/network-mobile.ui.h:7 generate_additional_files.py:173
+msgid "Network"
+msgstr "Võrk"
+
+#: panels/network/network-mobile.ui.h:8 panels/network/network-wired.ui.h:6
+#: panels/region/cinnamon-region-panel.ui.h:26
+msgid "_Options..."
+msgstr "_Valikud..."
+
+#: panels/network/network-proxy.ui.h:4
+msgid "_Method"
+msgstr "_Meetod"
+
+#: panels/network/network-proxy.ui.h:5
+msgid "_Configuration URL"
+msgstr "_Seadistuste URL"
+
+#: panels/network/network-proxy.ui.h:6
+msgid "_HTTP Proxy"
+msgstr "_HTTP proksi"
+
+#: panels/network/network-proxy.ui.h:7
+msgid "H_TTPS Proxy"
+msgstr "H_TTPS proksi"
+
+#: panels/network/network-proxy.ui.h:8
+msgid "_FTP Proxy"
+msgstr "_FTP proksi"
+
+#: panels/network/network-proxy.ui.h:9
+msgid "_Socks Host"
+msgstr "_Socks host"
+
+#: panels/network/network.ui.h:1
+msgid "Select the interface to use for the new service"
+msgstr "Vali uue teenuse jaoks liides"
+
+#: panels/network/network.ui.h:2
+msgid "C_reate..."
+msgstr "_Loo..."
+
+#: panels/network/network.ui.h:3
+msgid "_Interface"
+msgstr "_Liides"
+
+#: panels/network/network.ui.h:4 panels/network/network-vpn.ui.h:1
+msgid "VPN"
+msgstr "VPN"
+
+#: panels/network/network.ui.h:8
+msgid "Add Device"
+msgstr "Lisa seade"
+
+#: panels/network/network.ui.h:9
+msgid "Remove Device"
+msgstr "Seadme eemaldamine"
+
+#: panels/network/network-vpn.ui.h:2
+msgid "VPN Type"
+msgstr "VPNi tüüp"
+
+#: panels/network/network-vpn.ui.h:3
+msgid "Gateway"
+msgstr "Lüüs"
+
+#: panels/network/network-vpn.ui.h:4
+msgid "Group Name"
+msgstr "Grupi nimi"
+
+#: panels/network/network-vpn.ui.h:5
+msgid "Group Password"
+msgstr "Grupi parool"
+
+#: panels/network/network-vpn.ui.h:6
+msgid "Username"
+msgstr "Kasutajanimi"
+
+#: panels/network/network-vpn.ui.h:7
+msgid "_Configure..."
+msgstr "_Seadistamine..."
+
+#: panels/network/network-wifi.ui.h:1
+msgid "Wireless Hotspot"
+msgstr "Traadita leviala"
+
+#: panels/network/network-wifi.ui.h:2
+msgid "_Turn On"
+msgstr "_Lülita sisse"
+
+#: panels/network/network-wifi.ui.h:4
+msgid "_Use as Hotspot..."
+msgstr "_Kasuta tugijaamana..."
+
+#: panels/network/network-wifi.ui.h:5
+msgid "Connect to a Hidden Network"
+msgstr "Varjatud võrguga ühendumine"
+
+#: panels/network/network-wifi.ui.h:6
+msgid "_Disconnect"
+msgstr "_Katkesta ühendus"
+
+#: panels/network/network-wifi.ui.h:7
+msgid "_Connect"
+msgstr "_Ühenda"
+
+#: panels/network/network-wifi.ui.h:8
+msgid "Last used"
+msgstr "Viimati kasutatud"
+
+#: panels/network/network-wifi.ui.h:9 panels/network/network-wired.ui.h:1
+msgid "Hardware Address"
+msgstr "Riistvara-aadress"
+
+#: panels/network/network-wifi.ui.h:10
+msgid "Security"
+msgstr "Turvalisus"
+
+#: panels/network/network-wifi.ui.h:11
+msgid "Strength"
+msgstr "Tugevus"
+
+#: panels/network/network-wifi.ui.h:12
+msgid "Link speed"
+msgstr "Ühenduse kiirus"
+
+#: panels/network/network-wifi.ui.h:17
+msgid "_Forget Network"
+msgstr "_Unusta võrk"
+
+#: panels/network/network-wifi.ui.h:18
+msgid "_Settings..."
+msgstr "_Sätted..."
+
+#: panels/network/network-wifi.ui.h:19
+msgid "Switch off to connect to a wireless network"
+msgstr "Juhtmeta võrguga ühendumiseks lülita välja"
+
+#: panels/network/network-wifi.ui.h:20
+msgid "Network Name"
+msgstr "Võrgu nimi"
+
+#: panels/network/network-wifi.ui.h:21
+msgid "Connected Devices"
+msgstr "Ühendatud seadmed"
+
+#: panels/network/network-wifi.ui.h:22
+msgid "Security type"
+msgstr "Turvaliik"
+
+#: panels/network/network-wifi.ui.h:23
+msgid "Security key"
+msgstr "Turvaklahv"
+
+#: panels/power/power.ui.h:1
+msgid "Hibernate"
+msgstr "Uinumine"
+
+#: panels/power/power.ui.h:2
+msgid "Power off"
+msgstr "Väljalülitamine"
+
+#: panels/power/power.ui.h:3 panels/screen/screen.ui.h:6
+msgid "5 minutes"
+msgstr "5 minutit"
+
+#: panels/power/power.ui.h:4 panels/screen/screen.ui.h:7
+msgid "10 minutes"
+msgstr "10 minutit"
+
+#: panels/power/power.ui.h:5 panels/screen/screen.ui.h:8
+msgid "30 minutes"
+msgstr "30 minutit"
+
+#: panels/power/power.ui.h:6 panels/screen/screen.ui.h:9
+msgid "1 hour"
+msgstr "1 tund"
+
+#: panels/power/power.ui.h:7
+msgid "Don't suspend"
+msgstr "Mitte seisata"
+
+#: panels/power/power.ui.h:8
+msgid "Suspend"
+msgstr "Seiska"
+
+#: panels/power/power.ui.h:9
+msgid "Do nothing"
+msgstr "Ära tee midagi"
+
+#: panels/power/power.ui.h:10
+msgid "Lock Screen"
+msgstr "Lukusta ekraan"
+
+#: panels/power/power.ui.h:11
+msgid "Shutdown Immediately"
+msgstr "Sulge koheselt"
+
+#: panels/power/power.ui.h:12
+msgid "Ask"
+msgstr "Küsi"
+
+#: panels/power/power.ui.h:13
+msgid "When battery is present"
+msgstr "Kui akut kasutatakse"
+
+#: panels/power/power.ui.h:14
+msgid "When battery is charging/in use"
+msgstr "Kui akut laetakse/on kasutuses"
+
+#: panels/power/power.ui.h:15 panels/screen/screen.ui.h:10
+msgid "Never"
+msgstr "Kunagi"
+
+#: panels/power/power.ui.h:16
+msgid "On battery power"
+msgstr "Akutoitel"
+
+#: panels/power/power.ui.h:17
+msgid "When plugged in"
+msgstr "Võrgutoitel"
+
+#: panels/power/power.ui.h:18
+msgid "Suspend when inactive for"
+msgstr "Seisata, kui aktiivsust pole"
+
+#: panels/power/power.ui.h:19
+msgid "When power is _critically low"
+msgstr "Kui voolu on _väga vähe"
+
+#: panels/power/power.ui.h:20
+msgid "When the lid is closed"
+msgstr "Kui sülearvuti kaas on suletud"
+
+#: panels/power/power.ui.h:21
+msgid "Show battery status in the _menu bar"
+msgstr "Aku oleku näitamine _menüüribal"
+
+#: panels/power/power.ui.h:22
+msgid "Power button action"
+msgstr "Toitenupu tegevus"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:1
+msgid "Choose a Layout"
+msgstr "Paigutuse valimine"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:2
+msgid "Preview"
+msgstr "Eelvaade"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:3
+msgid "Select an input source to add"
+msgstr "Vali sisendseade, mida lisada"
+
+#: panels/region/cinnamon-region-panel-options-dialog.ui.h:1
+msgid "Keyboard Layout Options"
+msgstr "Klahvistiku paigutuse valikud"
+
+#: panels/region/cinnamon-region-panel.ui.h:1
+msgid "Region and Language"
+msgstr "Piirkond ja keel"
+
+#: panels/region/cinnamon-region-panel.ui.h:2
+msgid ""
+"Select a display language (change will be applied next time you log in)"
+msgstr ""
+"Väljundkeele valimine (muutatus rakendub pärast järgmist sisselogimist)"
+
+#: panels/region/cinnamon-region-panel.ui.h:3
+msgid "Add Language"
+msgstr "Lisa keel"
+
+#: panels/region/cinnamon-region-panel.ui.h:4
+msgid "Remove Language"
+msgstr "Eemalda keel"
+
+#: panels/region/cinnamon-region-panel.ui.h:5
+msgid "button"
+msgstr "nupp"
+
+#: panels/region/cinnamon-region-panel.ui.h:6
+msgid "Language"
+msgstr "Keel"
+
+#: panels/region/cinnamon-region-panel.ui.h:7
+msgid "Select a region (change will be applied the next time you log in)"
+msgstr "Piirkonna valimine (muutatus rakendub pärast järgmist sisselogimist)"
+
+#: panels/region/cinnamon-region-panel.ui.h:8
+msgid "Add Region"
+msgstr "Lisa piirkond"
+
+#: panels/region/cinnamon-region-panel.ui.h:9
+msgid "Remove Region"
+msgstr "Eemalda piirkond"
+
+#: panels/region/cinnamon-region-panel.ui.h:10
+msgid "Dates"
+msgstr "Kuupäevad"
+
+#: panels/region/cinnamon-region-panel.ui.h:11
+msgid "Times"
+msgstr "Ajad"
+
+#: panels/region/cinnamon-region-panel.ui.h:12
+msgid "Numbers"
+msgstr "Numbrid"
+
+#: panels/region/cinnamon-region-panel.ui.h:13
+msgid "Currency"
+msgstr "Valuuta"
+
+#: panels/region/cinnamon-region-panel.ui.h:14
+msgid "Measurement"
+msgstr "Mõõtühikud"
+
+#: panels/region/cinnamon-region-panel.ui.h:15
+msgid "Examples"
+msgstr "Näited"
+
+#: panels/region/cinnamon-region-panel.ui.h:16
+msgid "Formats"
+msgstr "Vormingud"
+
+#: panels/region/cinnamon-region-panel.ui.h:17
+msgid "Add Layout"
+msgstr "Lisa paigutus"
+
+#: panels/region/cinnamon-region-panel.ui.h:18
+msgid "Remove Layout"
+msgstr "Eemalda paigutus"
+
+#: panels/region/cinnamon-region-panel.ui.h:19
+msgid "Move Up"
+msgstr "Liiguta üles"
+
+#: panels/region/cinnamon-region-panel.ui.h:20
+msgid "Move Down"
+msgstr "Liiguta alla"
+
+#: panels/region/cinnamon-region-panel.ui.h:21
+msgid "Preview Layout"
+msgstr "Paigutuse eelvaade"
+
+#: panels/region/cinnamon-region-panel.ui.h:22
+msgid "Use the same layout for all windows"
+msgstr "Sama paigutuse kasutamine kõigil akendel"
+
+#: panels/region/cinnamon-region-panel.ui.h:23
+msgid "Allow different layouts for individual windows"
+msgstr "Iga akna jaoks oma paigutuse lubamine"
+
+#: panels/region/cinnamon-region-panel.ui.h:24
+msgid "New windows use the default layout"
+msgstr "Uued aknad kasutavad vaikimisi kujundust"
+
+#: panels/region/cinnamon-region-panel.ui.h:25
+msgid "New windows use the previous window's layout"
+msgstr "Uued aknad kasutavad eelmise akna kujundust"
+
+#: panels/region/cinnamon-region-panel.ui.h:27
+msgid "View and edit keyboard layout options"
+msgstr "Klahvistiku paigutuse valikute kuvamine ja muutmine"
+
+#: panels/region/cinnamon-region-panel.ui.h:28
+msgid "Reset to De_faults"
+msgstr "Taasta _vaikeväärtused"
+
+#: panels/region/cinnamon-region-panel.ui.h:29
+msgid ""
+"Replace the current keyboard layout settings with the\n"
+"default settings"
+msgstr ""
+"Asenda praegused klaviatuurisätted\n"
+"vaikesätetega"
+
+#: panels/region/cinnamon-region-panel.ui.h:31
+msgid "Keyboard Layouts"
+msgstr "Klaviatuuri paigutus"
+
+#: panels/region/cinnamon-region-panel.ui.h:34
+msgid "Display language:"
+msgstr "Kasutajaliidese keel:"
+
+#: panels/region/cinnamon-region-panel.ui.h:35
+msgid "Input source:"
+msgstr "Sisendi allikas:"
+
+#: panels/region/cinnamon-region-panel.ui.h:36
+msgid "Format:"
+msgstr "Vorming:"
+
+#: panels/region/cinnamon-region-panel.ui.h:37
+msgid "Your settings"
+msgstr "Isiklikud seaded"
+
+#: panels/region/cinnamon-region-panel.ui.h:38
+msgid "System settings"
+msgstr "Süsteemi seaded"
+
+#: panels/region/cinnamon-region-panel.ui.h:40
+msgid "System"
+msgstr "Süsteem"
+
+#: panels/screen/screen.ui.h:1
+msgid "Screen turns off"
+msgstr "Ekraani väljalülitamist"
+
+#: panels/screen/screen.ui.h:2
+msgid "30 seconds"
+msgstr "30 sekundit"
+
+#: panels/screen/screen.ui.h:3
+msgid "1 minute"
+msgstr "1 minut"
+
+#: panels/screen/screen.ui.h:4
+msgid "2 minutes"
+msgstr "2 minutit"
+
+#: panels/screen/screen.ui.h:5
+msgid "3 minutes"
+msgstr "3 minutit"
+
+#: panels/screen/screen.ui.h:11
+msgid "_Dim screen to save power"
+msgstr "Ekraani _tumendamine aku säästmiseks"
+
+#: panels/screen/screen.ui.h:12
+msgid "Brightness"
+msgstr "Eredus"
+
+#: panels/screen/screen.ui.h:13
+msgid "_Turn screen off when inactive for:"
+msgstr "_Lülita ekraan välja, kui aktiivsust pole:"
+
+#: panels/screen/screen.ui.h:14
+msgid "_Lock screen after:"
+msgstr "Ekraan lukustatakse pärast:"
+
+#: panels/screen/screen.ui.h:15
+msgid "Require my password when waking from suspend"
+msgstr "Arvuti taastumisel uinakust kasuta parooli"
+
+#: panels/screen/screen.ui.h:16
+msgid "Lock"
+msgstr "Lukusta"
+
+#: panels/universal-access/uap.ui.h:5
+msgid "On screen keyboard"
+msgstr "Ekraaniklaviatuur"
+
+#: panels/universal-access/uap.ui.h:6
+msgid "GOK"
+msgstr "GOK"
+
+#: panels/universal-access/uap.ui.h:7
+msgid "OnBoard"
+msgstr "OnBoard"
+
+#: panels/universal-access/uap.ui.h:8
+msgid "None"
+msgstr "Puudub"
+
+#: panels/universal-access/uap.ui.h:10
+#, no-c-format
+msgid "75%"
+msgstr "75%"
+
+#: panels/universal-access/uap.ui.h:13
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#: panels/universal-access/uap.ui.h:16
+#, no-c-format
+msgid "125%"
+msgstr "125%"
+
+#: panels/universal-access/uap.ui.h:19
+#, no-c-format
+msgid "150%"
+msgstr "150%"
+
+#: panels/universal-access/uap.ui.h:21
+msgid "High Contrast"
+msgstr "Kõrgkontrastne"
+
+#: panels/universal-access/uap.ui.h:22
+msgid "Beep on Caps and Num Lock"
+msgstr "Piiksumine Caps Lock / Num Lock kasutamisel"
+
+#: panels/universal-access/uap.ui.h:23
+msgid "Options..."
+msgstr "Valikud..."
+
+#: panels/universal-access/uap.ui.h:24
+msgid "Screen Reader"
+msgstr "Ekraanilugeja"
+
+#: panels/universal-access/uap.ui.h:25
+msgid "Turn on or off:"
+msgstr "Lülita sisse või välja:"
+
+#: panels/universal-access/uap.ui.h:27
+msgid "Zoom in:"
+msgstr "Suurendamine:"
+
+#: panels/universal-access/uap.ui.h:28
+msgid "Zoom out:"
+msgstr "Vähendamine:"
+
+#: panels/universal-access/uap.ui.h:29
+msgid "Large Text"
+msgstr "Suur tekst"
+
+#: panels/universal-access/uap.ui.h:30
+msgid "Seeing"
+msgstr "Nägemine"
+
+#: panels/universal-access/uap.ui.h:31
+msgid "Visual Alerts"
+msgstr "Visuaalsed hoiatused"
+
+#: panels/universal-access/uap.ui.h:32
+msgid "Use a visual indication when an alert sound occurs"
+msgstr "Hoiatusheliga koos hoiatatakse ka visuaalselt"
+
+#: panels/universal-access/uap.ui.h:33
+msgid "Flash the window title"
+msgstr "Akna pealkirja vilgutamine"
+
+#: panels/universal-access/uap.ui.h:34
+msgid "Flash the entire screen"
+msgstr "Kogu ekraani vilgutamine"
+
+#: panels/universal-access/uap.ui.h:35
+msgid "Closed Captioning"
+msgstr "Subtiitrid"
+
+#: panels/universal-access/uap.ui.h:36
+msgid "Display a textual description of speech and sounds"
+msgstr "Kõne ja helide kirjeldust kuvatakse"
+
+#: panels/universal-access/uap.ui.h:37
+msgid "_Test flash"
+msgstr "Proovi _välku"
+
+#: panels/universal-access/uap.ui.h:38
+msgid "Hearing"
+msgstr "Kuulmine"
+
+#: panels/universal-access/uap.ui.h:39
+msgid "On Screen Keyboard"
+msgstr "Ekraaniklaviatuur"
+
+#: panels/universal-access/uap.ui.h:40
+msgid "Sticky Keys"
+msgstr "Kleepklahvid"
+
+#: panels/universal-access/uap.ui.h:41
+msgid "Treats a sequence of modifier keys as a key combination"
+msgstr "Tõlgendab muuteklahvide järjestust klahvikombinatsioonina"
+
+#: panels/universal-access/uap.ui.h:42
+msgid "_Disable if two keys are pressed together"
+msgstr "Kahe klahvi koosvajutamisel keelatakse"
+
+#: panels/universal-access/uap.ui.h:43
+msgid "Beep when a _modifer key is pressed"
+msgstr "_Muuteklahvi vajutamisel tehakse piiks"
+
+#: panels/universal-access/uap.ui.h:44
+msgid "Slow Keys"
+msgstr "Aeglased klahvid"
+
+#: panels/universal-access/uap.ui.h:45
+msgid "Puts a delay between when a key is pressed and when it is accepted"
+msgstr "Määrab viivituse klahvi vajutamise ja sellega nõustumise vahele"
+
+#: panels/universal-access/uap.ui.h:46
+msgid "A_cceptance delay:"
+msgstr "Nõustumise viivitus:"
+
+#: panels/universal-access/uap.ui.h:48
+msgid "Short"
+msgstr "Lühike"
+
+#: panels/universal-access/uap.ui.h:49
+msgid "Slow keys typing delay"
+msgstr "Aeglaste klahvide sisestusviivitus"
+
+#: panels/universal-access/uap.ui.h:51
+msgid "Long"
+msgstr "Pikk"
+
+#: panels/universal-access/uap.ui.h:53
+msgid "Beep when a key is"
+msgstr "Tehakse piiksu, kui klahv on"
+
+#: panels/universal-access/uap.ui.h:55
+msgid "pressed"
+msgstr "vajutatud"
+
+#: panels/universal-access/uap.ui.h:57
+msgid "accepted"
+msgstr "võeti vastu"
+
+#: panels/universal-access/uap.ui.h:59
+msgid "rejected"
+msgstr "lükati tagasi"
+
+#: panels/universal-access/uap.ui.h:60
+msgid "Bounce Keys"
+msgstr "Põrkeklahvid"
+
+#: panels/universal-access/uap.ui.h:61
+msgid "Ignores fast duplicate keypresses"
+msgstr "Klahvi kiire korduvvajutuse eiramine"
+
+#: panels/universal-access/uap.ui.h:62
+msgid "Acc_eptance delay:"
+msgstr "Nõustumise viivitus:"
+
+#: panels/universal-access/uap.ui.h:63
+msgid "Bounce keys typing delay"
+msgstr "Põrkeklahvide tuvastamise viivitus"
+
+#: panels/universal-access/uap.ui.h:64
+msgid "Beep when a key is _rejected"
+msgstr "Klahvist _loobumisel tehakse piiksu"
+
+#: panels/universal-access/uap.ui.h:65
+msgid "Enable by Keyboard"
+msgstr "Lülitatakse sisse klaviatuurilt"
+
+#: panels/universal-access/uap.ui.h:66
+msgid "Turn accessibility features on and off using the keyboard"
+msgstr "Hõlbustusvahendite sisse- ja väljalülitamine klaviatuuri abil"
+
+#: panels/universal-access/uap.ui.h:67
+msgid "Typing"
+msgstr "Tippimine"
+
+#: panels/universal-access/uap.ui.h:68
+msgid "Mouse Keys"
+msgstr "Hiireklahvid"
+
+#: panels/universal-access/uap.ui.h:69
+msgid "Control the pointer using the keypad"
+msgstr "Kursori juhtimine klaviatuuri abil"
+
+#: panels/universal-access/uap.ui.h:70
+msgid "Video Mouse"
+msgstr "Videohiir"
+
+#: panels/universal-access/uap.ui.h:71
+msgid "Control the pointer using the video camera."
+msgstr "Kursori juhtimine videokaamera abil."
+
+#: panels/universal-access/uap.ui.h:72
+msgid "Simulated Secondary Click"
+msgstr "Simuleeritud teine klõps"
+
+#: panels/universal-access/uap.ui.h:73
+msgid "Trigger a secondary click by holding down the primary button"
+msgstr "Peamise nupu allhoidmisel tehakse teisene klõps"
+
+#: panels/universal-access/uap.ui.h:74
+msgid "Secondary click delay"
+msgstr "Teisese klõpsu viivitus"
+
+#: panels/universal-access/uap.ui.h:75
+msgid "Hover Click"
+msgstr "Hiirega üleliikumisel klõps"
+
+#: panels/universal-access/uap.ui.h:76
+msgid "Trigger a click when the pointer hovers"
+msgstr "Kursori üleliikumisel tehakse hiireklõps"
+
+#: panels/universal-access/uap.ui.h:77
+msgid "D_elay:"
+msgstr "_Viivitus:"
+
+#: panels/universal-access/uap.ui.h:78
+msgid "Motion _threshold:"
+msgstr "_Liikumise lävi:"
+
+#: panels/universal-access/uap.ui.h:80
+msgid "Small"
+msgstr "Väike"
+
+#: panels/universal-access/uap.ui.h:82
+msgid "Large"
+msgstr "Suur"
+
+#: panels/universal-access/uap.ui.h:83
+msgid "Mouse Settings"
+msgstr "Hiireseaded"
+
+#: panels/universal-access/uap.ui.h:84
+msgid "Pointing and Clicking"
+msgstr "Osutamine ja klõpsamine"
+
+#: panels/universal-access/zoom-options.ui.h:1
+msgid "Full Screen"
+msgstr "Täisekraan"
+
+#: panels/universal-access/zoom-options.ui.h:2
+msgid "Top Half"
+msgstr "Ülemine osa"
+
+#: panels/universal-access/zoom-options.ui.h:3
+msgid "Bottom Half"
+msgstr "Alumine pool"
+
+#: panels/universal-access/zoom-options.ui.h:4
+msgid "Left Half"
+msgstr "Vasak pool"
+
+#: panels/universal-access/zoom-options.ui.h:5
+msgid "Right Half"
+msgstr "Parem pool"
+
+#: panels/universal-access/zoom-options.ui.h:6
+msgid "Zoom Options"
+msgstr "Suurenduse valikud"
+
+#: panels/universal-access/zoom-options.ui.h:7
+msgid "Zoom"
+msgstr "Suurendus"
+
+#: panels/universal-access/zoom-options.ui.h:8
+msgid "Magnification:"
+msgstr "Suurendus:"
+
+#: panels/universal-access/zoom-options.ui.h:9
+msgid "Follow mouse cursor"
+msgstr "Liigub koos hiirekursoriga"
+
+#: panels/universal-access/zoom-options.ui.h:10
+msgid "Screen part:"
+msgstr "Ekraani osa:"
+
+#: panels/universal-access/zoom-options.ui.h:11
+msgid "Magnifier extends outside of screen"
+msgstr "Luup liigub üle ekraani serva"
+
+#: panels/universal-access/zoom-options.ui.h:12
+msgid "Keep magnifier cursor centered"
+msgstr "Hiir asub luubi keskkohas"
+
+#: panels/universal-access/zoom-options.ui.h:13
+msgid "Magnifier cursor pushes contents around"
+msgstr "Luubi kursor liigutab sisu"
+
+#: panels/universal-access/zoom-options.ui.h:14
+msgid "Magnifier cursor moves with contents"
+msgstr "Luubi kursor liigub koos sisuga"
+
+#: panels/universal-access/zoom-options.ui.h:15
+msgid "Magnifier Position:"
+msgstr "Luubi asukoht:"
+
+#: panels/universal-access/zoom-options.ui.h:16
+msgid "Magnifier"
+msgstr "Luup"
+
+#: panels/universal-access/zoom-options.ui.h:17
+msgid "Thickness:"
+msgstr "Jämedus:"
+
+#: panels/universal-access/zoom-options.ui.h:19
+msgid "Thin"
+msgstr "Peenike"
+
+#: panels/universal-access/zoom-options.ui.h:21
+msgid "Thick"
+msgstr "Jäme"
+
+#: panels/universal-access/zoom-options.ui.h:22
+msgid "Length:"
+msgstr "Pikkus:"
+
+#: panels/universal-access/zoom-options.ui.h:23
+msgid "Color:"
+msgstr "Värv:"
+
+#: panels/universal-access/zoom-options.ui.h:24
+msgid "Crosshairs:"
+msgstr "Sihik:"
+
+#: panels/universal-access/zoom-options.ui.h:25
+msgid "Overlaps mouse cursor"
+msgstr "Asendab hiirekursorit"
+
+#: panels/universal-access/zoom-options.ui.h:26
+msgid "Crosshairs"
+msgstr "Sihik"
+
+#: panels/universal-access/zoom-options.ui.h:27
+msgid "White on black:"
+msgstr "Valge mustal:"
+
+#: panels/universal-access/zoom-options.ui.h:28
+msgid "Brightness:"
+msgstr "Heledus:"
+
+#: panels/universal-access/zoom-options.ui.h:29
+msgid "Contrast:"
+msgstr "Kontrast:"
+
+#: panels/universal-access/zoom-options.ui.h:34
+msgid "Low"
+msgstr "Madal"
+
+#: panels/universal-access/zoom-options.ui.h:36
+msgid "High"
+msgstr "Kõrge"
+
+#: panels/universal-access/zoom-options.ui.h:37
+msgid "Color Effects:"
+msgstr "Värviefektid:"
+
+#: panels/universal-access/zoom-options.ui.h:38
+msgid "Color Effects"
+msgstr "Värviefektid"
+
+#: generate_additional_files.py:53
+msgid "Brightness & Lock"
+msgstr "Heledus ja lukustamine"
+
+#: generate_additional_files.py:53
+msgid "Screen brightness and lock settings"
+msgstr "Ekraani heleduse ja lukustamise sätted"
+
+#: generate_additional_files.py:68 generate_additional_files.py:99
+msgid "Sound"
+msgstr "Heli"
+
+#: generate_additional_files.py:68 generate_additional_files.py:99
+msgid "Change sound volume and sound events"
+msgstr "Helivaljuse ja -sündmuste muutmine"
+
+#: generate_additional_files.py:83
+msgid "Color management settings"
+msgstr "Värvihalduse seaded"
+
+#: generate_additional_files.py:113
+msgid "Volume Control"
+msgstr "Helitugevuse juhtimine"
+
+#: generate_additional_files.py:113
+msgid "Show desktop volume control"
+msgstr "Töölaua helipuldi näitamine"
+
+#: generate_additional_files.py:128
+msgid "Power"
+msgstr "Vool"
+
+#: generate_additional_files.py:128
+msgid "Power management settings"
+msgstr "Vooluhalduse sätted"
+
+#: generate_additional_files.py:143
+msgid "Region & Language"
+msgstr "Piirkond ja keel"
+
+#: generate_additional_files.py:143
+msgid "Change your region and language settings"
+msgstr "Sinu asukoha- ja keelesätete muutmine"
+
+#: generate_additional_files.py:158
+msgid "Displays"
+msgstr "Kuvad"
+
+#: generate_additional_files.py:158
+msgid "Change resolution and position of monitors and projectors"
+msgstr "Kuvarite ja projektorite eraldusvõime ja asukoha muutmine"
+
+#: generate_additional_files.py:173
+msgid "Network settings"
+msgstr "Võrguseaded"
+
+#: generate_additional_files.py:188
+msgid "Universal Access"
+msgstr "Universaalne ligipääs"
+
+#: generate_additional_files.py:188
+msgid "Universal Access Preferences"
+msgstr "Universaalse ligipääsu eelistused"

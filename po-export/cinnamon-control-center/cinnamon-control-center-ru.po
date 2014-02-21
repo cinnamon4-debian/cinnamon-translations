@@ -1,0 +1,2149 @@
+# translation of cinnamon-control-center.master.ru.po to Russian
+# translation of cinnamon-control-center to Russian
+#
+#
+# Max Valianskiy <maxcom@vinchi.ru>, 1998-99.
+# Sergey Panov <sipan@mit.edu>, 1999.
+# Valek Filippov <frob@df.ru>, 2000-2002.
+# Dmitry G. Mastrukov <dmitry@taurussoft.org>, 2002-2004.
+# Andrew W. Nosenko <awn@bcs.zp.ua>, 2003.
+# Leonid Kanter <leon@asplinux.ru>, 2003, 2004, 2005, 2006, 2007, 2009, 2010.
+# Maxim Popov <ravemax@hotbox.ru>, 2006.
+# Yuri Kozlov <kozlov.y@gmail.com>, 2008.
+# Valery Inozemtsev <inozemtsev@gmail.com>, 2009.
+# Alexandre Prokoudine <alexandre.prokoudine@gmail.com>, 2009.
+# Yuri Kozlov <yuray@komyakino.ru>, 2010, 2012.
+# Stas Solovey <whats_up@tut.by>, 2012.
+# Yuri Myasoedov <omerta13@yandex.ru>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ru\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=cinnamon-control-"
+"center&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-08-30 17:55+0100\n"
+"PO-Revision-Date: 2013-09-28 17:42+0000\n"
+"Last-Translator: Глория Хрусталёва <Unknown>\n"
+"Language-Team: русский <cinnamon-cyr@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2013-11-26 11:42+0000\n"
+"X-Generator: Launchpad (build 16840)\n"
+"Language: ru\n"
+
+#: panels/color/cc-color-panel.c:106
+msgid "Other profile…"
+msgstr "Другой профиль…"
+
+#: panels/color/cc-color-panel.c:119
+msgid "Default: "
+msgstr "По умолчанию: "
+
+#: panels/color/cc-color-panel.c:126
+msgid "Colorspace: "
+msgstr "Цветовое пространство: "
+
+#: panels/color/cc-color-panel.c:132
+msgid "Test profile: "
+msgstr "Тестовый профиль: "
+
+#: panels/color/cc-color-panel.c:185 panels/color/color.ui.h:11
+msgid "Set for all users"
+msgstr "Установить для всех пользователей"
+
+#: panels/color/cc-color-panel.c:192
+msgid "Create virtual device"
+msgstr "Создать виртуальное устройство"
+
+#: panels/color/cc-color-panel.c:227
+msgid "Select ICC Profile File"
+msgstr "Выберите файл профиля ICC"
+
+#: panels/color/cc-color-panel.c:230
+msgid "_Import"
+msgstr "_Импортировать"
+
+#: panels/color/cc-color-panel.c:241
+msgid "Supported ICC profiles"
+msgstr "Поддерживаемые профили ICC"
+
+#: panels/color/cc-color-panel.c:248
+msgid "All files"
+msgstr "Все файлы"
+
+#: panels/color/cc-color-panel.c:638
+msgid "Available Profiles for Displays"
+msgstr "Доступные профили для мониторов"
+
+#: panels/color/cc-color-panel.c:642
+msgid "Available Profiles for Scanners"
+msgstr "Доступные профили для сканеров"
+
+#: panels/color/cc-color-panel.c:646
+msgid "Available Profiles for Printers"
+msgstr "Доступные профили для принтеров"
+
+#: panels/color/cc-color-panel.c:650
+msgid "Available Profiles for Cameras"
+msgstr "Доступные профили для камер"
+
+#: panels/color/cc-color-panel.c:654
+msgid "Available Profiles for Webcams"
+msgstr "Доступные профили для веб-камер"
+
+#: panels/color/cc-color-panel.c:659 panels/color/color.ui.h:2
+msgid "Available Profiles"
+msgstr "Доступные профили"
+
+#: panels/color/cc-color-panel.c:935 panels/sound/gvc-mixer-dialog.c:1523
+#: panels/sound-nua/gvc-mixer-dialog.c:1596
+msgid "Device"
+msgstr "Устройство"
+
+#: panels/color/cc-color-panel.c:970
+msgid "Calibration"
+msgstr "Калибровка"
+
+#: panels/color/cc-color-panel.c:1002
+msgid "Create a color profile for the selected device"
+msgstr "Создать цветовой профиль для выбранного устройства"
+
+#: panels/color/cc-color-panel.c:1016 panels/color/cc-color-panel.c:1040
+msgid ""
+"The measuring instrument is not detected. Please check it is turned on and "
+"correctly connected."
+msgstr ""
+"Измерительный инструмент не обнаружен. Проверьте, что он включён и правильно "
+"подключен."
+
+#: panels/color/cc-color-panel.c:1049
+msgid "The measuring instrument does not support printer profiling."
+msgstr "Измерительный инструмент не поддерживает профилирование принтеров."
+
+#: panels/color/cc-color-panel.c:1060
+msgid "The device type is not currently supported."
+msgstr "Этот тип устройств ещё не поддерживается."
+
+#: panels/color/cc-color-panel.c:1132
+msgid "Cannot remove automatically added profile"
+msgstr "Не удалось удалить автоматически добавленный профиль"
+
+#: panels/color/cc-color-panel.c:1463
+msgid "No profile"
+msgstr "Нет профиля"
+
+#: panels/color/cc-color-panel.c:1494
+#, c-format
+msgid "%i year"
+msgid_plural "%i years"
+msgstr[0] "%i год"
+msgstr[1] "%i года"
+msgstr[2] "%i лет"
+
+#: panels/color/cc-color-panel.c:1505
+#, c-format
+msgid "%i month"
+msgid_plural "%i months"
+msgstr[0] "%i месяц"
+msgstr[1] "%i месяца"
+msgstr[2] "%i месяцев"
+
+#: panels/color/cc-color-panel.c:1516
+#, c-format
+msgid "%i week"
+msgid_plural "%i weeks"
+msgstr[0] "%i неделя"
+msgstr[1] "%i недели"
+msgstr[2] "%i недель"
+
+#: panels/color/cc-color-panel.c:1523
+msgid "Less than 1 week"
+msgstr "Менее 1 недели"
+
+#: panels/color/cc-color-panel.c:1713 panels/color/cc-color-panel.c:1754
+#: panels/color/cc-color-panel.c:1765 panels/color/cc-color-panel.c:1776
+msgid "Uncalibrated"
+msgstr "Неоткалибровано"
+
+#: panels/color/cc-color-panel.c:1716
+msgid "This device is not color managed."
+msgstr "Это устройство не поддерживает управление цветом."
+
+#: panels/color/cc-color-panel.c:1757
+msgid "This device is using manufacturing calibrated data."
+msgstr "Это устройство использует данные, откалиброванные производителем."
+
+#: panels/color/cc-color-panel.c:1768
+msgid ""
+"This device does not have a profile suitable for whole-screen color "
+"correction."
+msgstr ""
+"У этого устройства нет подходящего профиля для цветокоррекции всего экрана."
+
+#: panels/color/cc-color-panel.c:1801
+msgid "This device has an old profile that may no longer be accurate."
+msgstr ""
+"Это устройство использует устаревший профиль, который может быть неточен."
+
+#: panels/color/cc-color-panel.c:1829
+msgid "Not specified"
+msgstr "Неопределённый"
+
+#: panels/color/cc-color-panel.c:2014
+msgid "No devices supporting color management detected"
+msgstr "Не найдено ни одного устройство с возможностью управления цветом."
+
+#: panels/common/cc-common-language.c:533
+msgid "English"
+msgstr "Английский"
+
+#: panels/common/cc-common-language.c:535
+msgid "British English"
+msgstr "Британский английский"
+
+#: panels/common/cc-common-language.c:538
+msgid "German"
+msgstr "Немецкий"
+
+#: panels/common/cc-common-language.c:541
+msgid "French"
+msgstr "Французский"
+
+#: panels/common/cc-common-language.c:544
+msgid "Spanish"
+msgstr "Испанский"
+
+#: panels/common/cc-common-language.c:546
+msgid "Chinese (simplified)"
+msgstr "Китайский (упрощённый)"
+
+#: panels/common/cc-common-language.c:549
+msgid "Russian"
+msgstr "Русский"
+
+#: panels/common/cc-common-language.c:552
+msgid "Arabic"
+msgstr "Арабский"
+
+#: panels/common/cc-common-language.c:581
+msgid "United States"
+msgstr "Соединённые Штаты"
+
+#: panels/common/cc-common-language.c:582
+msgid "Germany"
+msgstr "Германия"
+
+#: panels/common/cc-common-language.c:583
+msgid "France"
+msgstr "Франция"
+
+#: panels/common/cc-common-language.c:584
+msgid "Spain"
+msgstr "Испания"
+
+#: panels/common/cc-common-language.c:585
+msgid "China"
+msgstr "Китай"
+
+#: panels/common/cc-language-chooser.c:301
+msgid "Select a region"
+msgstr "Выберите регион"
+
+#: panels/common/gdm-languages.c:781
+msgid "Unspecified"
+msgstr "Неопределённый"
+
+#: panels/display/cc-display-panel.c:624 panels/display/cc-rr-labeler.c:449
+msgid "Mirrored Displays"
+msgstr "Дублируемые экраны"
+
+#: panels/display/cc-display-panel.c:648 panels/display/display-capplet.ui.h:1
+msgid "Monitor"
+msgstr "Монитор"
+
+#: panels/display/cc-display-panel.c:758
+#, c-format
+msgid "%d x %d (%s)"
+msgstr "%d x %d (%s)"
+
+#: panels/display/cc-display-panel.c:760
+#, c-format
+msgid "%d x %d"
+msgstr "%d x %d"
+
+#: panels/display/cc-display-panel.c:1669
+msgid ""
+"Select a monitor to change its properties; drag it to rearrange its "
+"placement."
+msgstr ""
+"Выберите монитор для изменения свойств; перетащите его для изменения его "
+"положения."
+
+#: panels/display/cc-display-panel.c:2185
+#: panels/display/cc-display-panel.c:2237
+#, c-format
+msgid "Failed to apply configuration: %s"
+msgstr "Не удалось применить конфигурацию: %s"
+
+#: panels/display/cc-display-panel.c:2265
+msgid "Could not save the monitor configuration"
+msgstr "Не удалось сохранить настройки монитора"
+
+#: panels/display/cc-display-panel.c:2325
+msgid "Could not detect displays"
+msgstr "Не удалось определить экраны"
+
+#: panels/display/cc-display-panel.c:2563
+msgid "Could not get screen information"
+msgstr "Не удалось получить информацию об экране"
+
+#: panels/network/cc-network-panel.c:661
+msgid "Network proxy"
+msgstr "Сетевая прокси-служба"
+
+#: panels/network/cc-network-panel.c:853 panels/network/net-vpn.c:278
+#, c-format
+msgid "%s VPN"
+msgstr "VPN %s"
+
+#: panels/network/cc-network-panel.c:920
+msgid "The system network services are not compatible with this version."
+msgstr "Системные сетевые службы несовместимы с этой версией."
+
+#: panels/network/cc-network-panel.c:1108
+msgid "Air_plane Mode"
+msgstr "Режим для _авиаперелётов"
+
+#: panels/network/net-device-mobile.c:222
+msgid "Add new connection"
+msgstr "Добавить новое подключение"
+
+#: panels/network/net-device-mobile.c:261 panels/network/net-device-wifi.c:725
+#: panels/network/net-device-wired.c:126
+#, c-format
+msgid "%d Mb/s"
+msgstr "%d Мб/с"
+
+#: panels/network/net-device-wifi.c:258 panels/network/net-device-wifi.c:437
+msgid "WEP"
+msgstr "WEP"
+
+#: panels/network/net-device-wifi.c:262 panels/network/net-device-wifi.c:441
+msgid "WPA"
+msgstr "WPA"
+
+#: panels/network/net-device-wifi.c:266
+msgid "WPA2"
+msgstr "WPA2"
+
+#: panels/network/net-device-wifi.c:271
+msgid "Enterprise"
+msgstr "Предприятие"
+
+#: panels/network/net-device-wifi.c:652
+msgid "never"
+msgstr "никогда"
+
+#: panels/network/net-device-wifi.c:662
+msgid "today"
+msgstr "сегодня"
+
+#: panels/network/net-device-wifi.c:664
+msgid "yesterday"
+msgstr "вчера"
+
+#: panels/network/net-device-wifi.c:666
+#, c-format
+msgid "%i day ago"
+msgid_plural "%i days ago"
+msgstr[0] "%i день назад"
+msgstr[1] "%i дня назад"
+msgstr[2] "%i дней назад"
+
+#: panels/network/net-device-wifi.c:735 panels/network/panel-common.c:277
+msgid "Not connected"
+msgstr "Не подключено"
+
+#: panels/network/net-device-wifi.c:737 panels/network/net-device-wifi.c:2100
+msgid "Out of range"
+msgstr "Вне зоны доступа"
+
+#: panels/network/net-device-wifi.c:960
+#, c-format
+msgid ""
+"Network details for %s including password and any custom configuration will "
+"be lost."
+msgstr ""
+"Сетевые данные для %s, включая пароль и любые пользовательские настройки, "
+"будут утеряны."
+
+#: panels/network/net-device-wifi.c:971
+msgid "Forget"
+msgstr "Забыть"
+
+#: panels/network/net-device-wifi.c:1554
+msgid ""
+"If you have a connection to the Internet other than wireless, you can use it "
+"to share your internet connection with others."
+msgstr ""
+"Если помимо беспроводного доступа в Интернет имеется ещё какое-либо "
+"подключение к Интернету, вы можете использовать это подключение для "
+"предоставления Интернет-канала другим пользователям."
+
+#: panels/network/net-device-wifi.c:1558
+#, c-format
+msgid "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+msgstr ""
+"Переключение на беспроводную точку доступа приведёт к отключению от "
+"<b>%s</b>."
+
+#: panels/network/net-device-wifi.c:1562
+msgid ""
+"It is not possible to access the internet through your wireless while the "
+"hotspot is active."
+msgstr ""
+"Доступ к Интернету по беспроводному каналу возможен только при отключённой "
+"точке доступа."
+
+#: panels/network/net-device-wifi.c:1628
+msgid "Stop hotspot and disconnect any users?"
+msgstr "Остановить точку доступа и отключить всех пользователей?"
+
+#: panels/network/net-device-wifi.c:1631
+msgid "_Stop Hotspot"
+msgstr "_Остановить точку доступа"
+
+#: panels/network/net-proxy.c:67
+msgid ""
+"Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+msgstr ""
+"Web Proxy Autodiscovery используется при отсутствии URL для автоматической "
+"настройки."
+
+#: panels/network/net-proxy.c:75
+msgid "This is not recommended for untrusted public networks."
+msgstr "Не рекомендуется для непроверенных общедоступных сетей."
+
+#: panels/network/net-proxy.c:368
+msgid "Proxy"
+msgstr "Прокси"
+
+#: panels/network/panel-common.c:82 panels/network/panel-common.c:162
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: panels/network/panel-common.c:86
+msgid "Wired"
+msgstr "Проводное"
+
+#: panels/network/panel-common.c:90 panels/network/network-wifi.ui.h:3
+msgid "Wireless"
+msgstr "Беспроводное"
+
+#: panels/network/panel-common.c:97
+msgid "Mobile broadband"
+msgstr "Мобильное широкополосное"
+
+#: panels/network/panel-common.c:102
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: panels/network/panel-common.c:106
+msgid "Mesh"
+msgstr "Сетевое"
+
+#: panels/network/panel-common.c:166
+msgid "Ad-hoc"
+msgstr "Ad-hoc"
+
+#: panels/network/panel-common.c:170
+msgid "Infrastructure"
+msgstr "Инфраструктура"
+
+#: panels/network/panel-common.c:194 panels/network/panel-common.c:255
+msgid "Status unknown"
+msgstr "Состояние неизвестно"
+
+#: panels/network/panel-common.c:198
+msgid "Unmanaged"
+msgstr "Неуправляемое"
+
+#: panels/network/panel-common.c:203
+msgid "Firmware missing"
+msgstr "Отсутствует прошивка"
+
+#: panels/network/panel-common.c:206
+msgid "Cable unplugged"
+msgstr "Кабель не подключён"
+
+#: panels/network/panel-common.c:208
+msgid "Unavailable"
+msgstr "Недоступно"
+
+#: panels/network/panel-common.c:212
+msgid "Disconnected"
+msgstr "Отключено"
+
+#: panels/network/panel-common.c:219 panels/network/panel-common.c:261
+msgid "Connecting"
+msgstr "Подключение"
+
+#: panels/network/panel-common.c:223 panels/network/panel-common.c:265
+msgid "Authentication required"
+msgstr "Требуется аутентификация"
+
+#: panels/network/panel-common.c:227 panels/network/panel-common.c:269
+msgid "Connected"
+msgstr "Подключено"
+
+#: panels/network/panel-common.c:231
+msgid "Disconnecting"
+msgstr "Отключение"
+
+#: panels/network/panel-common.c:235 panels/network/panel-common.c:273
+msgid "Connection failed"
+msgstr "Сбой подключения"
+
+#: panels/network/panel-common.c:239 panels/network/panel-common.c:281
+msgid "Status unknown (missing)"
+msgstr "Состояние неизвестно (отсутствует)"
+
+#: panels/network/panel-common.c:301
+msgid "Configuration failed"
+msgstr "Сбой настройки"
+
+#: panels/network/panel-common.c:305
+msgid "IP configuration failed"
+msgstr "Сбой настройки IP"
+
+#: panels/network/panel-common.c:309
+msgid "IP configuration expired"
+msgstr "Истёк срок настроек IP"
+
+#: panels/network/panel-common.c:313
+msgid "Secrets were required, but not provided"
+msgstr "Требуется пароль, но он не задан"
+
+#: panels/network/panel-common.c:317
+msgid "802.1x supplicant disconnected"
+msgstr "Клиент 802.1x отключён"
+
+#: panels/network/panel-common.c:321
+msgid "802.1x supplicant configuration failed"
+msgstr "Сбой настройки клиента 802.1x"
+
+#: panels/network/panel-common.c:325
+msgid "802.1x supplicant failed"
+msgstr "Сбой клиента 802.1x"
+
+#: panels/network/panel-common.c:329
+msgid "802.1x supplicant took too long to authenticate"
+msgstr "Клиент 802.1x слишком долго ожидал аутентификации"
+
+#: panels/network/panel-common.c:333
+msgid "PPP service failed to start"
+msgstr "Не удалось запустить службу PPP"
+
+#: panels/network/panel-common.c:337
+msgid "PPP service disconnected"
+msgstr "Служба PPP отключена"
+
+#: panels/network/panel-common.c:341
+msgid "PPP failed"
+msgstr "Сбой PPP"
+
+#: panels/network/panel-common.c:345
+msgid "DHCP client failed to start"
+msgstr "Не удалось запустить клиент DHCP"
+
+#: panels/network/panel-common.c:349
+msgid "DHCP client error"
+msgstr "Ошибка клиента DHCP"
+
+#: panels/network/panel-common.c:353
+msgid "DHCP client failed"
+msgstr "Сбой клиента DHCP"
+
+#: panels/network/panel-common.c:357
+msgid "Shared connection service failed to start"
+msgstr "Не удалось запустить службу общего подключения"
+
+#: panels/network/panel-common.c:361
+msgid "Shared connection service failed"
+msgstr "Сбой службы общего подключения"
+
+#: panels/network/panel-common.c:365
+msgid "AutoIP service failed to start"
+msgstr "Не удалось запустить службу AutoIP"
+
+#: panels/network/panel-common.c:369
+msgid "AutoIP service error"
+msgstr "Ошибка службы AutoIP"
+
+#: panels/network/panel-common.c:373
+msgid "AutoIP service failed"
+msgstr "Сбой службы AutoIP"
+
+#: panels/network/panel-common.c:377
+msgid "Line busy"
+msgstr "Линия занята"
+
+#: panels/network/panel-common.c:381
+msgid "No dial tone"
+msgstr "Нет гудка в линии"
+
+#: panels/network/panel-common.c:385
+msgid "No carrier could be established"
+msgstr "Невозможно установить несущую"
+
+#: panels/network/panel-common.c:389
+msgid "Dialing request timed out"
+msgstr "Время, отведённое на звонок, истекло"
+
+#: panels/network/panel-common.c:393
+msgid "Dialing attempt failed"
+msgstr "Не удалось дозвониться"
+
+#: panels/network/panel-common.c:397
+msgid "Modem initialization failed"
+msgstr "Не удалось инициализировать модем"
+
+#: panels/network/panel-common.c:401
+msgid "Failed to select the specified APN"
+msgstr "Не удалось выбрать указанный APN"
+
+#: panels/network/panel-common.c:405
+msgid "Not searching for networks"
+msgstr "Нет сетей для поиска"
+
+#: panels/network/panel-common.c:409
+msgid "Network registration denied"
+msgstr "Отказано в регистрации в сети"
+
+#: panels/network/panel-common.c:413
+msgid "Network registration timed out"
+msgstr "Время в регистрации сети истекло"
+
+#: panels/network/panel-common.c:417
+msgid "Failed to register with the requested network"
+msgstr "Не удалось зарегистрироваться в запрошенной сети"
+
+#: panels/network/panel-common.c:421
+msgid "PIN check failed"
+msgstr "Сбой проверки PIN"
+
+#: panels/network/panel-common.c:425
+msgid "Firmware for the device may be missing"
+msgstr "Возможно, отсутствует микропрограмма устройства"
+
+#: panels/network/panel-common.c:429
+msgid "Connection disappeared"
+msgstr "Подключение пропало"
+
+#: panels/network/panel-common.c:433
+msgid "Carrier/link changed"
+msgstr "Изменена несущая/связь"
+
+#: panels/network/panel-common.c:437
+msgid "Existing connection was assumed"
+msgstr "Предполагалось, что соединение существует"
+
+#: panels/network/panel-common.c:441
+msgid "Modem not found"
+msgstr "Модем не найден"
+
+#: panels/network/panel-common.c:445
+msgid "Bluetooth connection failed"
+msgstr "Сбой подключения по Bluetooth"
+
+#: panels/network/panel-common.c:449
+msgid "SIM Card not inserted"
+msgstr "Не вставлена SIM-карта"
+
+#: panels/network/panel-common.c:453
+msgid "SIM Pin required"
+msgstr "Требуется SIM Pin"
+
+#: panels/network/panel-common.c:457
+msgid "SIM Puk required"
+msgstr "Требуется SIM Puk"
+
+#: panels/network/panel-common.c:461
+msgid "SIM wrong"
+msgstr "Некорректный SIM"
+
+#: panels/network/panel-common.c:465
+msgid "InfiniBand device does not support connected mode"
+msgstr "Устройство InfiniBand не поддерживает режим подключения"
+
+#: panels/network/panel-common.c:469
+msgid "Connection dependency failed"
+msgstr "Сбой зависимости подключения"
+
+#: panels/network/panel-common.c:683 panels/network/network-wifi.ui.h:13
+#: panels/network/network-wired.ui.h:2
+msgid "IPv4 Address"
+msgstr "Адрес IPv4"
+
+#: panels/network/panel-common.c:684 panels/network/network-mobile.ui.h:4
+#: panels/network/network-wifi.ui.h:14 panels/network/network-wired.ui.h:3
+msgid "IPv6 Address"
+msgstr "Адрес IPv6"
+
+#: panels/network/panel-common.c:686 panels/network/panel-common.c:688
+#: panels/network/network-mobile.ui.h:3
+msgid "IP Address"
+msgstr "Адрес IP"
+
+#: panels/power/cc-power-panel.c:166
+msgid "Unknown time"
+msgstr "Время неизвестно"
+
+#: panels/power/cc-power-panel.c:172
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "%i минута"
+msgstr[1] "%i минуты"
+msgstr[2] "%i минут"
+
+#: panels/power/cc-power-panel.c:184
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] "%i час"
+msgstr[1] "%i часа"
+msgstr[2] "%i часов"
+
+#: panels/power/cc-power-panel.c:192
+#, c-format
+msgid "%i %s %i %s"
+msgstr "%i %s %i %s"
+
+#: panels/power/cc-power-panel.c:193
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "час"
+msgstr[1] "часа"
+msgstr[2] "часов"
+
+#: panels/power/cc-power-panel.c:194
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "минута"
+msgstr[1] "минуты"
+msgstr[2] "минут"
+
+#: panels/power/cc-power-panel.c:237
+#, c-format
+msgid "Charging - %s until fully charged"
+msgstr "Зарядка — %s до полного заряда"
+
+#: panels/power/cc-power-panel.c:245
+#, c-format
+msgid "Caution low battery, %s remaining"
+msgstr "Низкий заряд батареи, осталось %s"
+
+#: panels/power/cc-power-panel.c:253
+#, c-format
+msgid "Using battery power - %s remaining"
+msgstr "Работа от батареи — осталось %s"
+
+#: panels/power/cc-power-panel.c:270
+msgid "Charging"
+msgstr "Зарядка"
+
+#: panels/power/cc-power-panel.c:275
+msgid "Using battery power"
+msgstr "Работа от батареи"
+
+#: panels/power/cc-power-panel.c:279
+msgid "Charging - fully charged"
+msgstr "Зарядка — полностью заряжено"
+
+#: panels/power/cc-power-panel.c:283
+msgid "Empty"
+msgstr "Батарея разряжена"
+
+#: panels/power/cc-power-panel.c:351
+#, c-format
+msgid "Caution low UPS, %s remaining"
+msgstr "Низкий заряд ИБП, осталось %s"
+
+#: panels/power/cc-power-panel.c:357
+#, c-format
+msgid "Using UPS power - %s remaining"
+msgstr "Работа от ИБП — осталось %s"
+
+#: panels/power/cc-power-panel.c:375
+msgid "Caution low UPS"
+msgstr "Низкий заряд ИБП"
+
+#: panels/power/cc-power-panel.c:380
+msgid "Using UPS power"
+msgstr "Работа от ИБП"
+
+#: panels/power/cc-power-panel.c:432
+msgid "Your secondary battery is fully charged"
+msgstr "Дополнительная батарея полностью заряжена"
+
+#: panels/power/cc-power-panel.c:436
+msgid "Your secondary battery is empty"
+msgstr "Дополнительная батарея разряжена"
+
+#: panels/power/cc-power-panel.c:519
+msgid "Wireless mouse"
+msgstr "Беспроводная мышь"
+
+#: panels/power/cc-power-panel.c:523
+msgid "Wireless keyboard"
+msgstr "Беспроводная клавиатура"
+
+#: panels/power/cc-power-panel.c:527
+msgid "Uninterruptible power supply"
+msgstr "Источник бесперебойного питания"
+
+#: panels/power/cc-power-panel.c:531
+msgid "Personal digital assistant"
+msgstr "КПК"
+
+#: panels/power/cc-power-panel.c:535
+msgid "Cellphone"
+msgstr "Мобильный телефон"
+
+#: panels/power/cc-power-panel.c:539
+msgid "Media player"
+msgstr "Медиапроигрыватель"
+
+#: panels/power/cc-power-panel.c:543
+msgid "Tablet"
+msgstr "Планшет"
+
+#: panels/power/cc-power-panel.c:547
+msgid "Computer"
+msgstr "Компьютер"
+
+#: panels/power/cc-power-panel.c:551
+msgid "Battery"
+msgstr "Батарея"
+
+#: panels/region/cc-region-panel.c:178
+msgid "Get more languages..."
+msgstr "Другие языки..."
+
+#: panels/region/cinnamon-region-panel-formats.c:142
+msgid "Imperial"
+msgstr "Имперский"
+
+#: panels/region/cinnamon-region-panel-formats.c:144
+msgid "Metric"
+msgstr "Метрический"
+
+#: panels/region/cinnamon-region-panel-system.c:420
+msgid ""
+"The login screen, system accounts and new user accounts use the system-wide "
+"Region and Language settings."
+msgstr ""
+"Экран входа в систему, системные учётные записи и учётные записи новых "
+"пользователей используют общесистемные языковые и региональные настройки."
+
+#: panels/region/cinnamon-region-panel-system.c:425
+#: panels/region/cinnamon-region-panel.ui.h:32
+msgid ""
+"The login screen, system accounts and new user accounts use the system-wide "
+"Region and Language settings. You may change the system settings to match "
+"yours."
+msgstr ""
+"Экран входа в систему, системные учётные записи и учётные записи новых "
+"пользователей используют общесистемные языковые и региональные настройки. Вы "
+"можете изменить системные настройки."
+
+#: panels/region/cinnamon-region-panel-system.c:428
+msgid "Copy Settings"
+msgstr "Копировать настройки"
+
+#: panels/region/cinnamon-region-panel-system.c:431
+#: panels/region/cinnamon-region-panel.ui.h:39
+msgid "Copy Settings..."
+msgstr "Копировать настройки..."
+
+#: panels/region/cinnamon-region-panel-xkblt.c:210
+msgid "Layout"
+msgstr "Раскладка"
+
+#: panels/region/cinnamon-region-panel-xkbot.c:229
+msgid "Default"
+msgstr "По умолчанию"
+
+#: panels/sound/applet-main.c:49
+msgid "Enable debugging code"
+msgstr "Включить режим отладки"
+
+#: panels/sound/applet-main.c:50
+msgid "Version of this application"
+msgstr "Версия этого приложения"
+
+#: panels/sound/applet-main.c:62
+msgid " — Cinnamon Volume Control Applet"
+msgstr " — Апплет контроля звука в Cinnamon"
+
+#: panels/sound/gvc-applet.c:270 panels/sound/gvc-mixer-dialog.c:1654
+#: panels/sound-nua/gvc-mixer-dialog.c:1748
+msgid "Output"
+msgstr "Выход"
+
+#: panels/sound/gvc-applet.c:272
+msgid "Sound Output Volume"
+msgstr "Громкость звука на выходе"
+
+#: panels/sound/gvc-applet.c:276 panels/sound/gvc-mixer-dialog.c:1695
+#: panels/sound-nua/gvc-mixer-dialog.c:1881
+msgid "Input"
+msgstr "Вход"
+
+#: panels/sound/gvc-applet.c:278
+msgid "Microphone Volume"
+msgstr "Громкость микрофона"
+
+#: panels/sound/gvc-balance-bar.c:295 panels/sound-nua/gvc-balance-bar.c:295
+msgid "_Balance:"
+msgstr "_Баланс:"
+
+#: panels/sound/gvc-balance-bar.c:298 panels/sound-nua/gvc-balance-bar.c:298
+msgid "_Fade:"
+msgstr "_Затухание:"
+
+#: panels/sound/gvc-balance-bar.c:301 panels/sound-nua/gvc-balance-bar.c:301
+msgid "_Subwoofer:"
+msgstr "_Сабвуфер:"
+
+#: panels/sound/gvc-combo-box.c:167 panels/sound/gvc-mixer-dialog.c:258
+#: panels/sound/gvc-mixer-dialog.c:519
+msgid "_Profile:"
+msgstr "_Профиль:"
+
+#: panels/sound/gvc-mixer-control.c:1834
+msgid "Disabled"
+msgstr "Выключено"
+
+#: panels/sound/gvc-mixer-control.c:1841
+#, c-format
+msgid "%u Output"
+msgid_plural "%u Outputs"
+msgstr[0] "%u выход"
+msgstr[1] "%u выхода"
+msgstr[2] "%u выходов"
+
+#: panels/sound/gvc-mixer-control.c:1851
+#, c-format
+msgid "%u Input"
+msgid_plural "%u Inputs"
+msgstr[0] "%u вход"
+msgstr[1] "%u входа"
+msgstr[2] "%u входов"
+
+#: panels/sound/gvc-mixer-control.c:2375
+msgid "System Sounds"
+msgstr "Системные звуки"
+
+#: panels/sound/gvc-mixer-dialog.c:260
+msgid "_Test Speakers"
+msgstr "_Проверить динамики"
+
+#: panels/sound/gvc-mixer-dialog.c:424 panels/sound-nua/gvc-mixer-dialog.c:341
+msgid "Peak detect"
+msgstr "Пиковый детектор"
+
+#: panels/sound/gvc-mixer-dialog.c:1504
+#: panels/sound-nua/gvc-mixer-dialog.c:1578
+msgid "Name"
+msgstr "Название"
+
+#: panels/sound/gvc-mixer-dialog.c:1586
+#: panels/sound-nua/gvc-mixer-dialog.c:1680
+#, c-format
+msgid "Speaker Testing for %s"
+msgstr "Проверка динамиков для %s"
+
+#: panels/sound/gvc-mixer-dialog.c:1640
+#: panels/sound-nua/gvc-mixer-dialog.c:2016
+msgid "_Output volume:"
+msgstr "Громкость _воспроизведения:"
+
+#: panels/sound/gvc-mixer-dialog.c:1659
+msgid "C_hoose a device for sound output:"
+msgstr "_Выберите устройство для ввода звука:"
+
+#: panels/sound/gvc-mixer-dialog.c:1684
+msgid "Settings for the selected device:"
+msgstr "Настройки выбранного устройства:"
+
+#: panels/sound/gvc-mixer-dialog.c:1702
+#: panels/sound-nua/gvc-mixer-dialog.c:1928
+msgid "_Input volume:"
+msgstr "Громкость _записи:"
+
+#: panels/sound/gvc-mixer-dialog.c:1725
+#: panels/sound-nua/gvc-mixer-dialog.c:1961
+msgid "Input level:"
+msgstr "Уровень записи:"
+
+#: panels/sound/gvc-mixer-dialog.c:1753
+msgid "C_hoose a device for sound input:"
+msgstr "_Выберите устройство для вывода звука:"
+
+#: panels/sound/gvc-mixer-dialog.c:1780
+#: panels/sound-nua/gvc-mixer-dialog.c:1982
+msgid "Sound Effects"
+msgstr "Звуковые эффекты"
+
+#: panels/sound/gvc-mixer-dialog.c:1787
+#: panels/sound-nua/gvc-mixer-dialog.c:1989
+msgid "_Alert volume:"
+msgstr "Громкость _уведомлений:"
+
+#: panels/sound/gvc-mixer-dialog.c:1795
+#: panels/sound-nua/gvc-mixer-dialog.c:1997
+msgid "Applications"
+msgstr "Приложения"
+
+#: panels/sound/gvc-mixer-dialog.c:1799
+#: panels/sound-nua/gvc-mixer-dialog.c:2001
+msgid "No application is currently playing or recording audio."
+msgstr ""
+"В данный момент ни одно приложение не воспроизводит и не записывает звук."
+
+#: panels/sound/gvc-speaker-test.c:220
+msgid "Stop"
+msgstr "Остановить"
+
+#: panels/sound/gvc-speaker-test.c:220 panels/sound/gvc-speaker-test.c:332
+msgid "Test"
+msgstr "Проверить"
+
+#: panels/sound/gvc-speaker-test.c:228
+msgid "Subwoofer"
+msgstr "Сабвуфер"
+
+#: panels/sound/gvc-stream-status-icon.c:236
+#, c-format
+msgid "Failed to start Sound Preferences: %s"
+msgstr "Не удалось запустить параметры звука: %s"
+
+#: panels/sound/gvc-stream-status-icon.c:262
+msgid "_Mute"
+msgstr "_Приглушить"
+
+#: panels/sound/gvc-stream-status-icon.c:271
+msgid "_Sound Preferences"
+msgstr "_Параметры звука"
+
+#: panels/sound/gvc-stream-status-icon.c:416
+msgid "Muted"
+msgstr "Приглушено"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:774
+#: panels/sound-nua/gvc-mixer-dialog.c:944
+#, c-format
+msgid "Settings for %s"
+msgstr "Настройки для %s"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:800
+#: panels/sound-nua/gvc-mixer-dialog.c:953
+msgid "Mode:"
+msgstr "Режим:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1753
+msgid "Play sound through"
+msgstr "Воспроизведение звука через"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1778
+#: panels/sound-nua/gvc-mixer-dialog.c:1910
+msgid "Settings for the selected device"
+msgstr "Настройки для выбранного устройства"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1851
+msgid "Test:"
+msgstr "Проверка:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1858
+msgid "Test Sound"
+msgstr "Проверить звук"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1885
+msgid "Record sound from"
+msgstr "Запись звука с"
+
+#: panels/universal-access/cc-ua-panel.c:289
+#: panels/universal-access/cc-ua-panel.c:295
+msgid "No shortcut set"
+msgstr "Комбинация не установлена"
+
+#: shell/cc-shell-nav-bar.c:117
+msgid "_All Settings"
+msgstr "_Все настройки"
+
+#: shell/control-center.c:58
+msgid "Enable verbose mode"
+msgstr "Включить информативный режим"
+
+#: shell/control-center.c:59
+msgid "Show the overview"
+msgstr "Предварительный просмотр"
+
+#: shell/control-center.c:60 shell/control-center.c:61
+#: shell/control-center.c:62
+msgid "Show help options"
+msgstr "Показать параметры справки"
+
+#: shell/control-center.c:63
+msgid "Panel to display"
+msgstr "Область для отображения"
+
+#: shell/control-center.c:85
+msgid "- System Settings"
+msgstr "— Системные настройки"
+
+#: shell/control-center.c:93
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Выполните «%s --help», чтобы показать список всех доступных параметров "
+"командной строки.\n"
+
+#: shell/control-center.c:215
+msgid "Help"
+msgstr "Справка"
+
+#: shell/control-center.c:216
+msgid "Quit"
+msgstr "Выход"
+
+#: panels/color/color.ui.h:3 generate_additional_files.py:83
+msgid "Color"
+msgstr "Цвет"
+
+#: panels/color/color.ui.h:4
+msgid "Each device needs an up to date color profile to be color managed."
+msgstr ""
+"Каждому устройству необходим актуальный цветовой профиль управления цветом."
+
+#: panels/color/color.ui.h:5
+msgid "Learn more"
+msgstr "Подробнее..."
+
+#: panels/color/color.ui.h:6
+msgid "Learn more about color management"
+msgstr "Узнать больше об управлении цветом"
+
+#: panels/color/color.ui.h:7
+msgid "Add device"
+msgstr "Добавить устройство"
+
+#: panels/color/color.ui.h:8
+msgid "Add a virtual device"
+msgstr "Добавить виртуальное устройство"
+
+#: panels/color/color.ui.h:9
+msgid "Delete device"
+msgstr "Удалить устройство"
+
+#: panels/color/color.ui.h:10
+msgid "Remove a device"
+msgstr "Удалить устройство"
+
+#: panels/color/color.ui.h:12
+msgid "Set this profile for all users on this computer"
+msgstr "Установить этот профиль для всех пользователей этого компьютера"
+
+#: panels/color/color.ui.h:13
+msgid "Add profile"
+msgstr "Добавить профиль"
+
+#: panels/color/color.ui.h:14
+msgid "Calibrate…"
+msgstr "Калибровать…"
+
+#: panels/color/color.ui.h:15
+msgid "Calibrate the device"
+msgstr "Откалибровать устройство"
+
+#: panels/color/color.ui.h:16
+msgid "Remove profile"
+msgstr "Удалить профиль"
+
+#: panels/color/color.ui.h:17
+msgid "View details"
+msgstr "Подробности"
+
+#: panels/color/color.ui.h:18
+msgid "Device type:"
+msgstr "Тип устройства:"
+
+#: panels/color/color.ui.h:19
+msgid "Manufacturer:"
+msgstr "Производитель:"
+
+#: panels/color/color.ui.h:20
+msgid "Model:"
+msgstr "Модель:"
+
+#: panels/color/color.ui.h:21
+msgid ""
+"Image files can be dragged on this window to auto-complete the above fields."
+msgstr ""
+"Файлы с изображениями можно перетаскивать в это окно для автоматического "
+"заполнения полей."
+
+#: panels/common/language-chooser.ui.h:1
+msgid "Select a language"
+msgstr "Выберите язык"
+
+#: panels/common/language-chooser.ui.h:2
+msgid "_Cancel"
+msgstr "_Отмена"
+
+#: panels/common/language-chooser.ui.h:3
+msgid "_Select"
+msgstr "_Выбрать"
+
+#: panels/display/display-capplet.ui.h:2
+msgid "Set as Primary"
+msgstr ""
+
+#: panels/display/display-capplet.ui.h:3
+msgid "_Resolution"
+msgstr "_Разрешение"
+
+#: panels/display/display-capplet.ui.h:4
+msgid "R_otation"
+msgstr "Ор_иентация"
+
+#: panels/display/display-capplet.ui.h:6
+msgid "_Mirror displays"
+msgstr "_Зеркально отразить экраны"
+
+#: panels/display/display-capplet.ui.h:7
+msgid "Note: may limit resolution options"
+msgstr "Примечание: может ограничить параметры разрешения"
+
+#: panels/display/display-capplet.ui.h:8
+msgid "_Detect Displays"
+msgstr "_Определить экраны"
+
+#: panels/network/network-mobile.ui.h:1
+msgid "IMEI"
+msgstr "IMEI"
+
+#: panels/network/network-mobile.ui.h:2
+msgid "Provider"
+msgstr "Провайдер"
+
+#: panels/network/network-mobile.ui.h:5 panels/network/network-wifi.ui.h:15
+#: panels/network/network-wired.ui.h:4
+msgid "Default Route"
+msgstr "Маршрут по умолчанию"
+
+#: panels/network/network-mobile.ui.h:6 panels/network/network-wifi.ui.h:16
+#: panels/network/network-wired.ui.h:5
+msgid "DNS"
+msgstr "DNS"
+
+#: panels/network/network-mobile.ui.h:7 generate_additional_files.py:173
+msgid "Network"
+msgstr "Сеть"
+
+#: panels/network/network-mobile.ui.h:8 panels/network/network-wired.ui.h:6
+#: panels/region/cinnamon-region-panel.ui.h:26
+msgid "_Options..."
+msgstr "_Параметры…"
+
+#: panels/network/network-proxy.ui.h:4
+msgid "_Method"
+msgstr "_Режим"
+
+#: panels/network/network-proxy.ui.h:5
+msgid "_Configuration URL"
+msgstr "URL _автоматической настройки"
+
+#: panels/network/network-proxy.ui.h:6
+msgid "_HTTP Proxy"
+msgstr "Прокси для H_TTP"
+
+#: panels/network/network-proxy.ui.h:7
+msgid "H_TTPS Proxy"
+msgstr "Прокси для H_TTPS"
+
+#: panels/network/network-proxy.ui.h:8
+msgid "_FTP Proxy"
+msgstr "Прокси для _FTP"
+
+#: panels/network/network-proxy.ui.h:9
+msgid "_Socks Host"
+msgstr "Узел S_ocks"
+
+#: panels/network/network.ui.h:1
+msgid "Select the interface to use for the new service"
+msgstr "Выберите интерфейс для использования с новой службой"
+
+#: panels/network/network.ui.h:2
+msgid "C_reate..."
+msgstr "_Создать…"
+
+#: panels/network/network.ui.h:3
+msgid "_Interface"
+msgstr "_Интерфейс"
+
+#: panels/network/network.ui.h:4 panels/network/network-vpn.ui.h:1
+msgid "VPN"
+msgstr "VPN"
+
+#: panels/network/network.ui.h:8
+msgid "Add Device"
+msgstr "Добавить устройство"
+
+#: panels/network/network.ui.h:9
+msgid "Remove Device"
+msgstr "Удалить устройство"
+
+#: panels/network/network-vpn.ui.h:2
+msgid "VPN Type"
+msgstr "Тип VPN"
+
+#: panels/network/network-vpn.ui.h:3
+msgid "Gateway"
+msgstr "Шлюз"
+
+#: panels/network/network-vpn.ui.h:4
+msgid "Group Name"
+msgstr "Название группы"
+
+#: panels/network/network-vpn.ui.h:5
+msgid "Group Password"
+msgstr "Пароль группы"
+
+#: panels/network/network-vpn.ui.h:6
+msgid "Username"
+msgstr "Имя пользователя:"
+
+#: panels/network/network-vpn.ui.h:7
+msgid "_Configure..."
+msgstr "_Настроить…"
+
+#: panels/network/network-wifi.ui.h:1
+msgid "Wireless Hotspot"
+msgstr "Беспроводная точка доступа"
+
+#: panels/network/network-wifi.ui.h:2
+msgid "_Turn On"
+msgstr "_Включить"
+
+#: panels/network/network-wifi.ui.h:4
+msgid "_Use as Hotspot..."
+msgstr "_Использовать в качестве точки доступа…"
+
+#: panels/network/network-wifi.ui.h:5
+msgid "Connect to a Hidden Network"
+msgstr "Подключиться к скрытой сети"
+
+#: panels/network/network-wifi.ui.h:6
+msgid "_Disconnect"
+msgstr "_Отключиться"
+
+#: panels/network/network-wifi.ui.h:7
+msgid "_Connect"
+msgstr "_Подключиться"
+
+#: panels/network/network-wifi.ui.h:8
+msgid "Last used"
+msgstr "Последнее использование"
+
+#: panels/network/network-wifi.ui.h:9 panels/network/network-wired.ui.h:1
+msgid "Hardware Address"
+msgstr "Аппаратный адрес"
+
+#: panels/network/network-wifi.ui.h:10
+msgid "Security"
+msgstr "Безопасность"
+
+#: panels/network/network-wifi.ui.h:11
+msgid "Strength"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:12
+msgid "Link speed"
+msgstr "Скорость передачи данных"
+
+#: panels/network/network-wifi.ui.h:17
+msgid "_Forget Network"
+msgstr "_Забыть сеть"
+
+#: panels/network/network-wifi.ui.h:18
+msgid "_Settings..."
+msgstr "_Настройки..."
+
+#: panels/network/network-wifi.ui.h:19
+msgid "Switch off to connect to a wireless network"
+msgstr "Выключите, если хотите подключиться к беспроводной сети"
+
+#: panels/network/network-wifi.ui.h:20
+msgid "Network Name"
+msgstr "Название сети"
+
+#: panels/network/network-wifi.ui.h:21
+msgid "Connected Devices"
+msgstr "Подключённые устройства"
+
+#: panels/network/network-wifi.ui.h:22
+msgid "Security type"
+msgstr "Тип безопасности"
+
+#: panels/network/network-wifi.ui.h:23
+msgid "Security key"
+msgstr "Ключ безопасности"
+
+#: panels/power/power.ui.h:1
+msgid "Hibernate"
+msgstr "Спящий режим"
+
+#: panels/power/power.ui.h:2
+msgid "Power off"
+msgstr "Выключить"
+
+#: panels/power/power.ui.h:3 panels/screen/screen.ui.h:6
+msgid "5 minutes"
+msgstr "5 минут"
+
+#: panels/power/power.ui.h:4 panels/screen/screen.ui.h:7
+msgid "10 minutes"
+msgstr "10 минут"
+
+#: panels/power/power.ui.h:5 panels/screen/screen.ui.h:8
+msgid "30 minutes"
+msgstr "30 минут"
+
+#: panels/power/power.ui.h:6 panels/screen/screen.ui.h:9
+msgid "1 hour"
+msgstr "1 час"
+
+#: panels/power/power.ui.h:7
+msgid "Don't suspend"
+msgstr "Не переводить в ждущий режим"
+
+#: panels/power/power.ui.h:8
+msgid "Suspend"
+msgstr "Ждущий режим"
+
+#: panels/power/power.ui.h:9
+msgid "Do nothing"
+msgstr "Бездействовать"
+
+#: panels/power/power.ui.h:10
+msgid "Lock Screen"
+msgstr "Заблокировать экран"
+
+#: panels/power/power.ui.h:11
+msgid "Shutdown Immediately"
+msgstr "Выключить немедленно"
+
+#: panels/power/power.ui.h:12
+msgid "Ask"
+msgstr "Спрашивать"
+
+#: panels/power/power.ui.h:13
+msgid "When battery is present"
+msgstr "При подключённой батарее"
+
+#: panels/power/power.ui.h:14
+msgid "When battery is charging/in use"
+msgstr "Во время зарядки/использования батареи"
+
+#: panels/power/power.ui.h:15 panels/screen/screen.ui.h:10
+msgid "Never"
+msgstr "Никогда"
+
+#: panels/power/power.ui.h:16
+msgid "On battery power"
+msgstr "При работе от батареи"
+
+#: panels/power/power.ui.h:17
+msgid "When plugged in"
+msgstr ""
+
+#: panels/power/power.ui.h:18
+msgid "Suspend when inactive for"
+msgstr "Ждущий режим при простое в течение"
+
+#: panels/power/power.ui.h:19
+msgid "When power is _critically low"
+msgstr "При _критическом заряде батареи"
+
+#: panels/power/power.ui.h:20
+msgid "When the lid is closed"
+msgstr "При закрытой крышке"
+
+#: panels/power/power.ui.h:21
+msgid "Show battery status in the _menu bar"
+msgstr "Показывать состояние батареи в панели _меню"
+
+#: panels/power/power.ui.h:22
+msgid "Power button action"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:1
+msgid "Choose a Layout"
+msgstr "Выберите раскладку"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:2
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:3
+msgid "Select an input source to add"
+msgstr "Выберите источник ввода для добавления"
+
+#: panels/region/cinnamon-region-panel-options-dialog.ui.h:1
+msgid "Keyboard Layout Options"
+msgstr "Параметры раскладки клавиатуры"
+
+#: panels/region/cinnamon-region-panel.ui.h:1
+msgid "Region and Language"
+msgstr "Регион и язык"
+
+#: panels/region/cinnamon-region-panel.ui.h:2
+msgid ""
+"Select a display language (change will be applied next time you log in)"
+msgstr ""
+"Выберите язык (изменение вступит в силу при следующем входе в систему)"
+
+#: panels/region/cinnamon-region-panel.ui.h:3
+msgid "Add Language"
+msgstr "Добавить язык"
+
+#: panels/region/cinnamon-region-panel.ui.h:4
+msgid "Remove Language"
+msgstr "Удалить язык"
+
+#: panels/region/cinnamon-region-panel.ui.h:5
+msgid "button"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:6
+msgid "Language"
+msgstr "Язык"
+
+#: panels/region/cinnamon-region-panel.ui.h:7
+msgid "Select a region (change will be applied the next time you log in)"
+msgstr ""
+"Выберите регион (изменения вступят силу при следующем входе в систему)"
+
+#: panels/region/cinnamon-region-panel.ui.h:8
+msgid "Add Region"
+msgstr "Добавить регион"
+
+#: panels/region/cinnamon-region-panel.ui.h:9
+msgid "Remove Region"
+msgstr "Удалить регион"
+
+#: panels/region/cinnamon-region-panel.ui.h:10
+msgid "Dates"
+msgstr "Дата"
+
+#: panels/region/cinnamon-region-panel.ui.h:11
+msgid "Times"
+msgstr "Время"
+
+#: panels/region/cinnamon-region-panel.ui.h:12
+msgid "Numbers"
+msgstr "Числа"
+
+#: panels/region/cinnamon-region-panel.ui.h:13
+msgid "Currency"
+msgstr "Валюта"
+
+#: panels/region/cinnamon-region-panel.ui.h:14
+msgid "Measurement"
+msgstr "Система мер"
+
+#: panels/region/cinnamon-region-panel.ui.h:15
+msgid "Examples"
+msgstr "Примеры"
+
+#: panels/region/cinnamon-region-panel.ui.h:16
+msgid "Formats"
+msgstr "Форматы"
+
+#: panels/region/cinnamon-region-panel.ui.h:17
+msgid "Add Layout"
+msgstr "Добавить раскладку"
+
+#: panels/region/cinnamon-region-panel.ui.h:18
+msgid "Remove Layout"
+msgstr "Удалить раскладку"
+
+#: panels/region/cinnamon-region-panel.ui.h:19
+msgid "Move Up"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:20
+msgid "Move Down"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:21
+msgid "Preview Layout"
+msgstr "Предпросмотр раскладки"
+
+#: panels/region/cinnamon-region-panel.ui.h:22
+msgid "Use the same layout for all windows"
+msgstr "Использовать одинаковую раскладку во всех окнах"
+
+#: panels/region/cinnamon-region-panel.ui.h:23
+msgid "Allow different layouts for individual windows"
+msgstr "Разрешить отдельные раскладки для каждого окна"
+
+#: panels/region/cinnamon-region-panel.ui.h:24
+msgid "New windows use the default layout"
+msgstr "Использовать раскладку по умолчанию в новых окнах"
+
+#: panels/region/cinnamon-region-panel.ui.h:25
+msgid "New windows use the previous window's layout"
+msgstr "Использовать раскладку предыдущего окна в новых окнах"
+
+#: panels/region/cinnamon-region-panel.ui.h:27
+msgid "View and edit keyboard layout options"
+msgstr "Просмотр и изменение параметров раскладки"
+
+#: panels/region/cinnamon-region-panel.ui.h:28
+msgid "Reset to De_faults"
+msgstr "Восстановить параметры по _умолчанию"
+
+#: panels/region/cinnamon-region-panel.ui.h:29
+msgid ""
+"Replace the current keyboard layout settings with the\n"
+"default settings"
+msgstr ""
+"Заменить текущие настройки раскладки\n"
+"настройками по умолчанию"
+
+#: panels/region/cinnamon-region-panel.ui.h:31
+msgid "Keyboard Layouts"
+msgstr "Раскладки клавиатуры"
+
+#: panels/region/cinnamon-region-panel.ui.h:34
+msgid "Display language:"
+msgstr "Используемый язык:"
+
+#: panels/region/cinnamon-region-panel.ui.h:35
+msgid "Input source:"
+msgstr "Источник ввода:"
+
+#: panels/region/cinnamon-region-panel.ui.h:36
+msgid "Format:"
+msgstr "Формат:"
+
+#: panels/region/cinnamon-region-panel.ui.h:37
+msgid "Your settings"
+msgstr "Ваши настройки"
+
+#: panels/region/cinnamon-region-panel.ui.h:38
+msgid "System settings"
+msgstr "Системные настройки"
+
+#: panels/region/cinnamon-region-panel.ui.h:40
+msgid "System"
+msgstr "Система"
+
+#: panels/screen/screen.ui.h:1
+msgid "Screen turns off"
+msgstr "После выключения экрана"
+
+#: panels/screen/screen.ui.h:2
+msgid "30 seconds"
+msgstr "30 секунд"
+
+#: panels/screen/screen.ui.h:3
+msgid "1 minute"
+msgstr "1 минуту"
+
+#: panels/screen/screen.ui.h:4
+msgid "2 minutes"
+msgstr "2 минуты"
+
+#: panels/screen/screen.ui.h:5
+msgid "3 minutes"
+msgstr "3 минуты"
+
+#: panels/screen/screen.ui.h:11
+msgid "_Dim screen to save power"
+msgstr "_Снижать яркость экрана для экономии энергии"
+
+#: panels/screen/screen.ui.h:12
+msgid "Brightness"
+msgstr "Яркость"
+
+#: panels/screen/screen.ui.h:13
+msgid "_Turn screen off when inactive for:"
+msgstr "_Выключать экран при простое в течение:"
+
+#: panels/screen/screen.ui.h:14
+msgid "_Lock screen after:"
+msgstr "_Блокировать экран через:"
+
+#: panels/screen/screen.ui.h:15
+msgid "Require my password when waking from suspend"
+msgstr "Требовать пароль при выходе из спящего режима"
+
+#: panels/screen/screen.ui.h:16
+msgid "Lock"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:5
+msgid "On screen keyboard"
+msgstr "Экранная клавиатура"
+
+#: panels/universal-access/uap.ui.h:6
+msgid "GOK"
+msgstr "GOK"
+
+#: panels/universal-access/uap.ui.h:7
+msgid "OnBoard"
+msgstr "Встроенная"
+
+#: panels/universal-access/uap.ui.h:8
+msgid "None"
+msgstr "Нет"
+
+#: panels/universal-access/uap.ui.h:10
+#, no-c-format
+msgid "75%"
+msgstr "75%"
+
+#: panels/universal-access/uap.ui.h:13
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#: panels/universal-access/uap.ui.h:16
+#, no-c-format
+msgid "125%"
+msgstr "125%"
+
+#: panels/universal-access/uap.ui.h:19
+#, no-c-format
+msgid "150%"
+msgstr "150%"
+
+#: panels/universal-access/uap.ui.h:21
+msgid "High Contrast"
+msgstr "Высокая контрастность"
+
+#: panels/universal-access/uap.ui.h:22
+msgid "Beep on Caps and Num Lock"
+msgstr "Подавать сигнал при использовании Caps и Num Lock"
+
+#: panels/universal-access/uap.ui.h:23
+msgid "Options..."
+msgstr "Параметры…"
+
+#: panels/universal-access/uap.ui.h:24
+msgid "Screen Reader"
+msgstr "Программа чтения с экрана"
+
+#: panels/universal-access/uap.ui.h:25
+msgid "Turn on or off:"
+msgstr "Включить или выключить:"
+
+#: panels/universal-access/uap.ui.h:27
+msgid "Zoom in:"
+msgstr "Приблизить:"
+
+#: panels/universal-access/uap.ui.h:28
+msgid "Zoom out:"
+msgstr "Отдалить:"
+
+#: panels/universal-access/uap.ui.h:29
+msgid "Large Text"
+msgstr "Крупный текст"
+
+#: panels/universal-access/uap.ui.h:30
+msgid "Seeing"
+msgstr "Зрение"
+
+#: panels/universal-access/uap.ui.h:31
+msgid "Visual Alerts"
+msgstr "Визуальные уведомления"
+
+#: panels/universal-access/uap.ui.h:32
+msgid "Use a visual indication when an alert sound occurs"
+msgstr "Использовать визуальное представление для звуковых уведомлений"
+
+#: panels/universal-access/uap.ui.h:33
+msgid "Flash the window title"
+msgstr "Мерцание заголовка окна"
+
+#: panels/universal-access/uap.ui.h:34
+msgid "Flash the entire screen"
+msgstr "Мерцание экрана"
+
+#: panels/universal-access/uap.ui.h:35
+msgid "Closed Captioning"
+msgstr "Скрытые субтитры"
+
+#: panels/universal-access/uap.ui.h:36
+msgid "Display a textual description of speech and sounds"
+msgstr "Показывать текстовое описание речи и звуков"
+
+#: panels/universal-access/uap.ui.h:37
+msgid "_Test flash"
+msgstr "_Проверить мерцание"
+
+#: panels/universal-access/uap.ui.h:38
+msgid "Hearing"
+msgstr "Слух"
+
+#: panels/universal-access/uap.ui.h:39
+msgid "On Screen Keyboard"
+msgstr "Экранная клавиатура"
+
+#: panels/universal-access/uap.ui.h:40
+msgid "Sticky Keys"
+msgstr "«Залипающие» клавиши"
+
+#: panels/universal-access/uap.ui.h:41
+msgid "Treats a sequence of modifier keys as a key combination"
+msgstr "Обрабатывает последовательность модификаторов как комбинацию клавиш"
+
+#: panels/universal-access/uap.ui.h:42
+msgid "_Disable if two keys are pressed together"
+msgstr "_Отключать, если две клавиши нажаты вместе"
+
+#: panels/universal-access/uap.ui.h:43
+msgid "Beep when a _modifer key is pressed"
+msgstr "Подавать сигнал при нажатии _модификатора"
+
+#: panels/universal-access/uap.ui.h:44
+msgid "Slow Keys"
+msgstr "«Медленные» клавиши"
+
+#: panels/universal-access/uap.ui.h:45
+msgid "Puts a delay between when a key is pressed and when it is accepted"
+msgstr "Вставляет задержку между нажатием клавиши и его обработкой"
+
+#: panels/universal-access/uap.ui.h:46
+msgid "A_cceptance delay:"
+msgstr "За_держка принятия:"
+
+#: panels/universal-access/uap.ui.h:48
+msgid "Short"
+msgstr "Короткая"
+
+#: panels/universal-access/uap.ui.h:49
+msgid "Slow keys typing delay"
+msgstr "Задержка ввода «медленных» клавиш"
+
+#: panels/universal-access/uap.ui.h:51
+msgid "Long"
+msgstr "Длинная"
+
+#: panels/universal-access/uap.ui.h:53
+msgid "Beep when a key is"
+msgstr "Подавать сигнал, когда клавиша"
+
+#: panels/universal-access/uap.ui.h:55
+msgid "pressed"
+msgstr "нажата"
+
+#: panels/universal-access/uap.ui.h:57
+msgid "accepted"
+msgstr "обработана"
+
+#: panels/universal-access/uap.ui.h:59
+msgid "rejected"
+msgstr "проигнорирована"
+
+#: panels/universal-access/uap.ui.h:60
+msgid "Bounce Keys"
+msgstr "«Отскакивающие» клавиши"
+
+#: panels/universal-access/uap.ui.h:61
+msgid "Ignores fast duplicate keypresses"
+msgstr "Игнорирует быстрые нажатия клавиш"
+
+#: panels/universal-access/uap.ui.h:62
+msgid "Acc_eptance delay:"
+msgstr "Зад_ержка принятия:"
+
+#: panels/universal-access/uap.ui.h:63
+msgid "Bounce keys typing delay"
+msgstr "Задержка ввода «отскакивающих» клавиш"
+
+#: panels/universal-access/uap.ui.h:64
+msgid "Beep when a key is _rejected"
+msgstr "Подавать сигнал при _игнорировании клавиш"
+
+#: panels/universal-access/uap.ui.h:65
+msgid "Enable by Keyboard"
+msgstr "Управляется клавиатурой"
+
+#: panels/universal-access/uap.ui.h:66
+msgid "Turn accessibility features on and off using the keyboard"
+msgstr "Включать и выключать специальные возможности с помощью клавиатуры"
+
+#: panels/universal-access/uap.ui.h:67
+msgid "Typing"
+msgstr "Ввод"
+
+#: panels/universal-access/uap.ui.h:68
+msgid "Mouse Keys"
+msgstr "Кнопки мыши"
+
+#: panels/universal-access/uap.ui.h:69
+msgid "Control the pointer using the keypad"
+msgstr "Управлять указателем с помощью вспомогательного блока клавиш"
+
+#: panels/universal-access/uap.ui.h:70
+msgid "Video Mouse"
+msgstr "Видеомышь"
+
+#: panels/universal-access/uap.ui.h:71
+msgid "Control the pointer using the video camera."
+msgstr "Управление указателем с помощью видеокамеры."
+
+#: panels/universal-access/uap.ui.h:72
+msgid "Simulated Secondary Click"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:73
+msgid "Trigger a secondary click by holding down the primary button"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:74
+msgid "Secondary click delay"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:75
+msgid "Hover Click"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:76
+msgid "Trigger a click when the pointer hovers"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:77
+msgid "D_elay:"
+msgstr "За_держка:"
+
+#: panels/universal-access/uap.ui.h:78
+msgid "Motion _threshold:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:80
+msgid "Small"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:82
+msgid "Large"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:83
+msgid "Mouse Settings"
+msgstr "Настройки мыши"
+
+#: panels/universal-access/uap.ui.h:84
+msgid "Pointing and Clicking"
+msgstr "Наведение и нажатие"
+
+#: panels/universal-access/zoom-options.ui.h:1
+msgid "Full Screen"
+msgstr "На весь экран"
+
+#: panels/universal-access/zoom-options.ui.h:2
+msgid "Top Half"
+msgstr "Верхняя половина"
+
+#: panels/universal-access/zoom-options.ui.h:3
+msgid "Bottom Half"
+msgstr "Нижняя половина"
+
+#: panels/universal-access/zoom-options.ui.h:4
+msgid "Left Half"
+msgstr "Левая половина"
+
+#: panels/universal-access/zoom-options.ui.h:5
+msgid "Right Half"
+msgstr "Правая половина"
+
+#: panels/universal-access/zoom-options.ui.h:6
+msgid "Zoom Options"
+msgstr "Параметры масштабирования"
+
+#: panels/universal-access/zoom-options.ui.h:7
+msgid "Zoom"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:8
+msgid "Magnification:"
+msgstr "Увеличение:"
+
+#: panels/universal-access/zoom-options.ui.h:9
+msgid "Follow mouse cursor"
+msgstr "Следовать за курсором мыши"
+
+#: panels/universal-access/zoom-options.ui.h:10
+msgid "Screen part:"
+msgstr "Часть экрана:"
+
+#: panels/universal-access/zoom-options.ui.h:11
+msgid "Magnifier extends outside of screen"
+msgstr "Область увеличения выходит за пределы экрана"
+
+#: panels/universal-access/zoom-options.ui.h:12
+msgid "Keep magnifier cursor centered"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:13
+msgid "Magnifier cursor pushes contents around"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:14
+msgid "Magnifier cursor moves with contents"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:15
+msgid "Magnifier Position:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:16
+msgid "Magnifier"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:17
+msgid "Thickness:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:19
+msgid "Thin"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:21
+msgid "Thick"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:22
+msgid "Length:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:23
+msgid "Color:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:24
+msgid "Crosshairs:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:25
+msgid "Overlaps mouse cursor"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:26
+msgid "Crosshairs"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:27
+msgid "White on black:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:28
+msgid "Brightness:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:29
+msgid "Contrast:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:34
+msgid "Low"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:36
+msgid "High"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:37
+msgid "Color Effects:"
+msgstr "Цветовые эффекты:"
+
+#: panels/universal-access/zoom-options.ui.h:38
+msgid "Color Effects"
+msgstr "Цветовые эффекты"
+
+#: generate_additional_files.py:53
+msgid "Brightness & Lock"
+msgstr "Яркость и блокировка"
+
+#: generate_additional_files.py:53
+msgid "Screen brightness and lock settings"
+msgstr "Яркость экрана и параметры блокировки"
+
+#: generate_additional_files.py:68 generate_additional_files.py:99
+msgid "Sound"
+msgstr "Звук"
+
+#: generate_additional_files.py:68 generate_additional_files.py:99
+msgid "Change sound volume and sound events"
+msgstr "Изменить громкость звука и звук событий"
+
+#: generate_additional_files.py:83
+msgid "Color management settings"
+msgstr "Настройки управления цветом"
+
+#: generate_additional_files.py:113
+msgid "Volume Control"
+msgstr "Управление громкостью"
+
+#: generate_additional_files.py:113
+msgid "Show desktop volume control"
+msgstr ""
+
+#: generate_additional_files.py:128
+msgid "Power"
+msgstr "Питание"
+
+#: generate_additional_files.py:128
+msgid "Power management settings"
+msgstr "Настройки управления питанием"
+
+#: generate_additional_files.py:143
+msgid "Region & Language"
+msgstr "Регион и язык"
+
+#: generate_additional_files.py:143
+msgid "Change your region and language settings"
+msgstr "Изменить региональные и языковые настройки"
+
+#: generate_additional_files.py:158
+msgid "Displays"
+msgstr ""
+
+#: generate_additional_files.py:158
+msgid "Change resolution and position of monitors and projectors"
+msgstr ""
+
+#: generate_additional_files.py:173
+msgid "Network settings"
+msgstr "Настройки сети"
+
+#: generate_additional_files.py:188
+msgid "Universal Access"
+msgstr "Специальные возможности"
+
+#: generate_additional_files.py:188
+msgid "Universal Access Preferences"
+msgstr "Параметры специальных возможностей"

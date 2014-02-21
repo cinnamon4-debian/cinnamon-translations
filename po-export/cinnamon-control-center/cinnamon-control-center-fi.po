@@ -1,0 +1,2132 @@
+# cinnamon-control-center Finnish translation
+# Copyright (C) 2004-2009 Free Software Foundation, Inc.
+# Mikko Rauhala <mjr@iki.fi>, x-2000
+#
+# sticky key = pohjaan jäävä näppäin
+# bounce key = kimmonäppäin
+# mouse key = hiirinäppäin
+# toggle key = piippaava näppäin
+#
+# Gnome 2012-03 Finnish translation sprint participants:
+# Jiri Grönroos
+# Niklas Laxström
+# Timo Jyrinki
+# Pauli Virtanen <pauli.virtanen@hut.fi>, 2000-2004.
+# Ilkka Tuohela <hile@iki.fi>, 2005-2009.
+# Tommi Vainikainen <thv@iki.fi>, 2009-2010.
+# Timo Jyrinki <timo.jyrinki@iki.fi>, 2008-2011.
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: cinnamon-control-center\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=cinnamon-control-"
+"center&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-08-30 17:55+0100\n"
+"PO-Revision-Date: 2013-09-02 18:31+0000\n"
+"Last-Translator: Tommi Tauriainen <Unknown>\n"
+"Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2013-11-26 11:42+0000\n"
+"X-Generator: Launchpad (build 16840)\n"
+"Language: fi\n"
+"X-POT-Import-Date: 2012-03-07 10:37:43+0000\n"
+
+#: panels/color/cc-color-panel.c:106
+msgid "Other profile…"
+msgstr "Muu profiili..."
+
+#: panels/color/cc-color-panel.c:119
+msgid "Default: "
+msgstr "Oletus: "
+
+#: panels/color/cc-color-panel.c:126
+msgid "Colorspace: "
+msgstr "Väriavaruus: "
+
+#: panels/color/cc-color-panel.c:132
+msgid "Test profile: "
+msgstr "Testiprofiili: "
+
+#: panels/color/cc-color-panel.c:185 panels/color/color.ui.h:11
+msgid "Set for all users"
+msgstr "Aseta kaikille käyttäjille"
+
+#: panels/color/cc-color-panel.c:192
+msgid "Create virtual device"
+msgstr "Luo virtuaalilaite"
+
+#: panels/color/cc-color-panel.c:227
+msgid "Select ICC Profile File"
+msgstr "Valitse ICC-profiilitiedosto"
+
+#: panels/color/cc-color-panel.c:230
+msgid "_Import"
+msgstr "_Tuo"
+
+#: panels/color/cc-color-panel.c:241
+msgid "Supported ICC profiles"
+msgstr "Tuetut ICC-profiilit"
+
+#: panels/color/cc-color-panel.c:248
+msgid "All files"
+msgstr "Kaikki tiedostot"
+
+#: panels/color/cc-color-panel.c:638
+msgid "Available Profiles for Displays"
+msgstr "Näytöille käytettävissä olevat profiilit"
+
+#: panels/color/cc-color-panel.c:642
+msgid "Available Profiles for Scanners"
+msgstr "Kuvanlukijoille käytettävissä olevat profiilit"
+
+#: panels/color/cc-color-panel.c:646
+msgid "Available Profiles for Printers"
+msgstr "Tulostimille käytettävissä olevat profiilit"
+
+#: panels/color/cc-color-panel.c:650
+msgid "Available Profiles for Cameras"
+msgstr "Kameroille käytettävissä olevat profiilit"
+
+#: panels/color/cc-color-panel.c:654
+msgid "Available Profiles for Webcams"
+msgstr "Web-kameroille käytettävissä olevat profiilit"
+
+#: panels/color/cc-color-panel.c:659 panels/color/color.ui.h:2
+msgid "Available Profiles"
+msgstr "Käytettävissä olevat profiilit"
+
+#: panels/color/cc-color-panel.c:935 panels/sound/gvc-mixer-dialog.c:1523
+#: panels/sound-nua/gvc-mixer-dialog.c:1596
+msgid "Device"
+msgstr "Laite"
+
+#: panels/color/cc-color-panel.c:970
+msgid "Calibration"
+msgstr "Kalibrointi"
+
+#: panels/color/cc-color-panel.c:1002
+msgid "Create a color profile for the selected device"
+msgstr "Luo väriprofiili valitulle laitteelle"
+
+#: panels/color/cc-color-panel.c:1016 panels/color/cc-color-panel.c:1040
+msgid ""
+"The measuring instrument is not detected. Please check it is turned on and "
+"correctly connected."
+msgstr ""
+"Mittauslaitetta ei tunnistettu. Varmista, että se on päällä ja liitetty "
+"oikein."
+
+#: panels/color/cc-color-panel.c:1049
+msgid "The measuring instrument does not support printer profiling."
+msgstr "Mittauslaite ei tue tulostimen profilointia."
+
+#: panels/color/cc-color-panel.c:1060
+msgid "The device type is not currently supported."
+msgstr "Laitetyyppi ei ole tällä hetkellä tuettu."
+
+#: panels/color/cc-color-panel.c:1132
+msgid "Cannot remove automatically added profile"
+msgstr "Automaattisesti lisättyä profiilia ei voi poistaa"
+
+#: panels/color/cc-color-panel.c:1463
+msgid "No profile"
+msgstr "Ei profiilia"
+
+#: panels/color/cc-color-panel.c:1494
+#, c-format
+msgid "%i year"
+msgid_plural "%i years"
+msgstr[0] "%i vuosi"
+msgstr[1] "%i vuotta"
+
+#: panels/color/cc-color-panel.c:1505
+#, c-format
+msgid "%i month"
+msgid_plural "%i months"
+msgstr[0] "%i kuukausi"
+msgstr[1] "%i kuukautta"
+
+#: panels/color/cc-color-panel.c:1516
+#, c-format
+msgid "%i week"
+msgid_plural "%i weeks"
+msgstr[0] "%i tunti"
+msgstr[1] "%i tuntia"
+
+#: panels/color/cc-color-panel.c:1523
+msgid "Less than 1 week"
+msgstr "Alle yksi viikko"
+
+#: panels/color/cc-color-panel.c:1713 panels/color/cc-color-panel.c:1754
+#: panels/color/cc-color-panel.c:1765 panels/color/cc-color-panel.c:1776
+msgid "Uncalibrated"
+msgstr "Kalibroimaton"
+
+#: panels/color/cc-color-panel.c:1716
+msgid "This device is not color managed."
+msgstr "Tämä laite ei tue värihallintaa."
+
+#: panels/color/cc-color-panel.c:1757
+msgid "This device is using manufacturing calibrated data."
+msgstr "Tämä laite käyttää valmistajan kalibrointitietoa."
+
+#: panels/color/cc-color-panel.c:1768
+msgid ""
+"This device does not have a profile suitable for whole-screen color "
+"correction."
+msgstr ""
+"Tällä laitteella ei ole koko näytön värinkorjaukseen soveltuvaa profiilia."
+
+#: panels/color/cc-color-panel.c:1801
+msgid "This device has an old profile that may no longer be accurate."
+msgstr "Laitteella on vanha profiili, joka ei enää välttämättä ole tarkka."
+
+#: panels/color/cc-color-panel.c:1829
+msgid "Not specified"
+msgstr "Ei määritelty"
+
+#: panels/color/cc-color-panel.c:2014
+msgid "No devices supporting color management detected"
+msgstr "Värihallintaa tukevia laitteita ei havaittu"
+
+#: panels/common/cc-common-language.c:533
+msgid "English"
+msgstr "Englanti"
+
+#: panels/common/cc-common-language.c:535
+msgid "British English"
+msgstr "Brittienglanti"
+
+#: panels/common/cc-common-language.c:538
+msgid "German"
+msgstr "Saksa"
+
+#: panels/common/cc-common-language.c:541
+msgid "French"
+msgstr "Ranska"
+
+#: panels/common/cc-common-language.c:544
+msgid "Spanish"
+msgstr "Espanja"
+
+#: panels/common/cc-common-language.c:546
+msgid "Chinese (simplified)"
+msgstr "Kiina (yksinkertaistettu)"
+
+#: panels/common/cc-common-language.c:549
+msgid "Russian"
+msgstr "Venäjä"
+
+#: panels/common/cc-common-language.c:552
+msgid "Arabic"
+msgstr "Arabia"
+
+#: panels/common/cc-common-language.c:581
+msgid "United States"
+msgstr "Yhdysvallat"
+
+#: panels/common/cc-common-language.c:582
+msgid "Germany"
+msgstr "Saksa"
+
+#: panels/common/cc-common-language.c:583
+msgid "France"
+msgstr "Ranska"
+
+#: panels/common/cc-common-language.c:584
+msgid "Spain"
+msgstr "Espanja"
+
+#: panels/common/cc-common-language.c:585
+msgid "China"
+msgstr "Kiina"
+
+#: panels/common/cc-language-chooser.c:301
+msgid "Select a region"
+msgstr "Valitse alue"
+
+#: panels/common/gdm-languages.c:781
+msgid "Unspecified"
+msgstr "Ei määritetty"
+
+#: panels/display/cc-display-panel.c:624 panels/display/cc-rr-labeler.c:449
+msgid "Mirrored Displays"
+msgstr "Peilatut näytöt"
+
+#: panels/display/cc-display-panel.c:648 panels/display/display-capplet.ui.h:1
+msgid "Monitor"
+msgstr "Näyttö"
+
+#: panels/display/cc-display-panel.c:758
+#, c-format
+msgid "%d x %d (%s)"
+msgstr "%d x %d (%s)"
+
+#: panels/display/cc-display-panel.c:760
+#, c-format
+msgid "%d x %d"
+msgstr "%d × %d"
+
+#: panels/display/cc-display-panel.c:1669
+msgid ""
+"Select a monitor to change its properties; drag it to rearrange its "
+"placement."
+msgstr ""
+"Valitse näyttö sen ominaisuuksien muuttamiseksi; raahaa sitä hiirellä "
+"muuttaksesi sen sijaintia."
+
+#: panels/display/cc-display-panel.c:2185
+#: panels/display/cc-display-panel.c:2237
+#, c-format
+msgid "Failed to apply configuration: %s"
+msgstr "Asetusten käyttöönotto epäonnistui: %s"
+
+#: panels/display/cc-display-panel.c:2265
+msgid "Could not save the monitor configuration"
+msgstr "Näyttöasetuksia ei voitu tallentaa"
+
+#: panels/display/cc-display-panel.c:2325
+msgid "Could not detect displays"
+msgstr "Näyttöjä ei havaittu"
+
+#: panels/display/cc-display-panel.c:2563
+msgid "Could not get screen information"
+msgstr "Näytön tietoja ei saatu"
+
+#: panels/network/cc-network-panel.c:661
+msgid "Network proxy"
+msgstr "Verkon välityspalvelin"
+
+#: panels/network/cc-network-panel.c:853 panels/network/net-vpn.c:278
+#, c-format
+msgid "%s VPN"
+msgstr "%s - VPN"
+
+#: panels/network/cc-network-panel.c:920
+msgid "The system network services are not compatible with this version."
+msgstr ""
+"Järjestelmän verkkopalvelut eivät ole yhteensopivia tämän version kanssa."
+
+#: panels/network/cc-network-panel.c:1108
+msgid "Air_plane Mode"
+msgstr "Le_ntokonetila"
+
+#: panels/network/net-device-mobile.c:222
+msgid "Add new connection"
+msgstr "Lisää uusi yhteys"
+
+#: panels/network/net-device-mobile.c:261 panels/network/net-device-wifi.c:725
+#: panels/network/net-device-wired.c:126
+#, c-format
+msgid "%d Mb/s"
+msgstr "%d Mb/s"
+
+#: panels/network/net-device-wifi.c:258 panels/network/net-device-wifi.c:437
+msgid "WEP"
+msgstr "WEP"
+
+#: panels/network/net-device-wifi.c:262 panels/network/net-device-wifi.c:441
+msgid "WPA"
+msgstr "WPA"
+
+#: panels/network/net-device-wifi.c:266
+msgid "WPA2"
+msgstr "WPA2"
+
+#: panels/network/net-device-wifi.c:271
+msgid "Enterprise"
+msgstr "Yritys"
+
+#: panels/network/net-device-wifi.c:652
+msgid "never"
+msgstr "ei koskaan"
+
+#: panels/network/net-device-wifi.c:662
+msgid "today"
+msgstr "tänään"
+
+#: panels/network/net-device-wifi.c:664
+msgid "yesterday"
+msgstr "eilen"
+
+#: panels/network/net-device-wifi.c:666
+#, c-format
+msgid "%i day ago"
+msgid_plural "%i days ago"
+msgstr[0] "%i päivä sitten"
+msgstr[1] "%i päivää sitten"
+
+#: panels/network/net-device-wifi.c:735 panels/network/panel-common.c:277
+msgid "Not connected"
+msgstr "Ei yhteyttä"
+
+#: panels/network/net-device-wifi.c:737 panels/network/net-device-wifi.c:2100
+msgid "Out of range"
+msgstr "Kantoalueen ulkopuolella"
+
+#: panels/network/net-device-wifi.c:960
+#, c-format
+msgid ""
+"Network details for %s including password and any custom configuration will "
+"be lost."
+msgstr ""
+"Verkon %s tiedot hävitetään mukaan lukien salasana ja mukautetut asetukset."
+
+#: panels/network/net-device-wifi.c:971
+msgid "Forget"
+msgstr "Unohda"
+
+#: panels/network/net-device-wifi.c:1554
+msgid ""
+"If you have a connection to the Internet other than wireless, you can use it "
+"to share your internet connection with others."
+msgstr ""
+"Jos käytössäsi on muu kuin langaton internetyhteys, voit käyttää sitä "
+"kyseisen yhteyden jakamiseen muiden käyttäjien kanssa."
+
+#: panels/network/net-device-wifi.c:1558
+#, c-format
+msgid "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+msgstr ""
+"Yhteyspisteen käyttöönotto katkaisee yhteyden langattomaan verkkoon "
+"<b>%s</b>."
+
+#: panels/network/net-device-wifi.c:1562
+msgid ""
+"It is not possible to access the internet through your wireless while the "
+"hotspot is active."
+msgstr ""
+"Yhteyspisteen ollessa käytössä langattoman internetyhteyden käyttö ei ole "
+"mahdollista."
+
+#: panels/network/net-device-wifi.c:1628
+msgid "Stop hotspot and disconnect any users?"
+msgstr ""
+"Suljetaanko yhteyspiste ja katkaistaanko kaikkien käyttäjien yhteydet?"
+
+#: panels/network/net-device-wifi.c:1631
+msgid "_Stop Hotspot"
+msgstr "_Sulje yhteyspiste"
+
+#: panels/network/net-proxy.c:67
+msgid ""
+"Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+msgstr ""
+"WPAD-automaattietsintää käytetään, kun hallinta-URL ei ole määritelty."
+
+#: panels/network/net-proxy.c:75
+msgid "This is not recommended for untrusted public networks."
+msgstr "Tämä ei ole suositeltavaa julkisissa verkoissa."
+
+#: panels/network/net-proxy.c:368
+msgid "Proxy"
+msgstr "Välityspalvelin"
+
+#: panels/network/panel-common.c:82 panels/network/panel-common.c:162
+msgid "Unknown"
+msgstr "Tuntematon"
+
+#: panels/network/panel-common.c:86
+msgid "Wired"
+msgstr "Kiinteä"
+
+#: panels/network/panel-common.c:90 panels/network/network-wifi.ui.h:3
+msgid "Wireless"
+msgstr "Langaton"
+
+#: panels/network/panel-common.c:97
+msgid "Mobile broadband"
+msgstr "Mobiililaajakaista"
+
+#: panels/network/panel-common.c:102
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: panels/network/panel-common.c:106
+msgid "Mesh"
+msgstr "Mesh-verkko"
+
+#: panels/network/panel-common.c:166
+msgid "Ad-hoc"
+msgstr "Ad-hoc"
+
+#: panels/network/panel-common.c:170
+msgid "Infrastructure"
+msgstr "Infrastruktuuri"
+
+#: panels/network/panel-common.c:194 panels/network/panel-common.c:255
+msgid "Status unknown"
+msgstr "Tuntematon tila"
+
+#: panels/network/panel-common.c:198
+msgid "Unmanaged"
+msgstr "Hallitsematon"
+
+#: panels/network/panel-common.c:203
+msgid "Firmware missing"
+msgstr "Laiteohjelmisto puuttuu"
+
+#: panels/network/panel-common.c:206
+msgid "Cable unplugged"
+msgstr "Johto on irti"
+
+#: panels/network/panel-common.c:208
+msgid "Unavailable"
+msgstr "Ei saatavilla"
+
+#: panels/network/panel-common.c:212
+msgid "Disconnected"
+msgstr "Yhteys katkaistu"
+
+#: panels/network/panel-common.c:219 panels/network/panel-common.c:261
+msgid "Connecting"
+msgstr "Yhdistetään"
+
+#: panels/network/panel-common.c:223 panels/network/panel-common.c:265
+msgid "Authentication required"
+msgstr "Tunnistautuminen vaaditaan"
+
+#: panels/network/panel-common.c:227 panels/network/panel-common.c:269
+msgid "Connected"
+msgstr "Yhdistetty"
+
+#: panels/network/panel-common.c:231
+msgid "Disconnecting"
+msgstr "Katkaistaan yhteyttä"
+
+#: panels/network/panel-common.c:235 panels/network/panel-common.c:273
+msgid "Connection failed"
+msgstr "Yhteys epäonnistui"
+
+#: panels/network/panel-common.c:239 panels/network/panel-common.c:281
+msgid "Status unknown (missing)"
+msgstr "Tila tuntematon (puuttuu)"
+
+#: panels/network/panel-common.c:301
+msgid "Configuration failed"
+msgstr "Kokoonpanon käyttö epäonnistui"
+
+#: panels/network/panel-common.c:305
+msgid "IP configuration failed"
+msgstr "IP-asetukset epäonnistuivat"
+
+#: panels/network/panel-common.c:309
+msgid "IP configuration expired"
+msgstr "IP-asetukset vanhenivat"
+
+#: panels/network/panel-common.c:313
+msgid "Secrets were required, but not provided"
+msgstr ""
+
+#: panels/network/panel-common.c:317
+msgid "802.1x supplicant disconnected"
+msgstr ""
+
+#: panels/network/panel-common.c:321
+msgid "802.1x supplicant configuration failed"
+msgstr ""
+
+#: panels/network/panel-common.c:325
+msgid "802.1x supplicant failed"
+msgstr ""
+
+#: panels/network/panel-common.c:329
+msgid "802.1x supplicant took too long to authenticate"
+msgstr ""
+
+#: panels/network/panel-common.c:333
+msgid "PPP service failed to start"
+msgstr "PPP-palvelun käynnistys epäonnistui"
+
+#: panels/network/panel-common.c:337
+msgid "PPP service disconnected"
+msgstr "PPP-palvelun yhteys katkaistu"
+
+#: panels/network/panel-common.c:341
+msgid "PPP failed"
+msgstr "PPP epäonnistui"
+
+#: panels/network/panel-common.c:345
+msgid "DHCP client failed to start"
+msgstr "DHCP-asiakkaan käynnistys epäonnistui"
+
+#: panels/network/panel-common.c:349
+msgid "DHCP client error"
+msgstr "DHCP-asiakkaan virhe"
+
+#: panels/network/panel-common.c:353
+msgid "DHCP client failed"
+msgstr "DHCP-asiakas epäonnistui"
+
+#: panels/network/panel-common.c:357
+msgid "Shared connection service failed to start"
+msgstr "Jaetun yhteyden palvelun käynnistys epäonnistui"
+
+#: panels/network/panel-common.c:361
+msgid "Shared connection service failed"
+msgstr "Jaetun yhteyden palvelu epäonnistui"
+
+#: panels/network/panel-common.c:365
+msgid "AutoIP service failed to start"
+msgstr "AutoIP-palvelun käynnistys epäonnistui"
+
+#: panels/network/panel-common.c:369
+msgid "AutoIP service error"
+msgstr "AutoIP-palvelun virhe"
+
+#: panels/network/panel-common.c:373
+msgid "AutoIP service failed"
+msgstr "AutoIP-palvelu epäonnistui"
+
+#: panels/network/panel-common.c:377
+msgid "Line busy"
+msgstr "Linja on varattu"
+
+#: panels/network/panel-common.c:381
+msgid "No dial tone"
+msgstr "Ei valintaääntä"
+
+#: panels/network/panel-common.c:385
+msgid "No carrier could be established"
+msgstr ""
+
+#: panels/network/panel-common.c:389
+msgid "Dialing request timed out"
+msgstr "Soittopyyntö aikatkaistiin"
+
+#: panels/network/panel-common.c:393
+msgid "Dialing attempt failed"
+msgstr "Soittoyritys epäonnistui"
+
+#: panels/network/panel-common.c:397
+msgid "Modem initialization failed"
+msgstr "Modeemin alustus epäonnistui"
+
+#: panels/network/panel-common.c:401
+msgid "Failed to select the specified APN"
+msgstr ""
+
+#: panels/network/panel-common.c:405
+msgid "Not searching for networks"
+msgstr "Verkkoja ei etsitä"
+
+#: panels/network/panel-common.c:409
+msgid "Network registration denied"
+msgstr "Verkkoon rekisteröinti estettiin"
+
+#: panels/network/panel-common.c:413
+msgid "Network registration timed out"
+msgstr "Rekisteröinti verkkoon aikakatkaistiin"
+
+#: panels/network/panel-common.c:417
+msgid "Failed to register with the requested network"
+msgstr "Määritettyyn verkkoon rekisteröinti epäonnistui"
+
+#: panels/network/panel-common.c:421
+msgid "PIN check failed"
+msgstr "PIN-tarkistus epäonnistui"
+
+#: panels/network/panel-common.c:425
+msgid "Firmware for the device may be missing"
+msgstr "Laitteen laiteohjelmisto saattaa puuttua"
+
+#: panels/network/panel-common.c:429
+msgid "Connection disappeared"
+msgstr "Yhteys katosi"
+
+#: panels/network/panel-common.c:433
+msgid "Carrier/link changed"
+msgstr ""
+
+#: panels/network/panel-common.c:437
+msgid "Existing connection was assumed"
+msgstr ""
+
+#: panels/network/panel-common.c:441
+msgid "Modem not found"
+msgstr "Modeemia ei löytynyt"
+
+#: panels/network/panel-common.c:445
+msgid "Bluetooth connection failed"
+msgstr "Bluetooth-yhteys epäonnistui"
+
+#: panels/network/panel-common.c:449
+msgid "SIM Card not inserted"
+msgstr "SIM-korttia ei ole liitetty"
+
+#: panels/network/panel-common.c:453
+msgid "SIM Pin required"
+msgstr "SIM-kortin PIN vaaditaan"
+
+#: panels/network/panel-common.c:457
+msgid "SIM Puk required"
+msgstr "SIM-kortin PUK vaaditaan"
+
+#: panels/network/panel-common.c:461
+msgid "SIM wrong"
+msgstr "SIM väärin"
+
+#: panels/network/panel-common.c:465
+msgid "InfiniBand device does not support connected mode"
+msgstr "InfiniBand-laite ei tue yhdistettyä tilaa"
+
+#: panels/network/panel-common.c:469
+msgid "Connection dependency failed"
+msgstr "Yhteysriippuvuus epäonnistui"
+
+#: panels/network/panel-common.c:683 panels/network/network-wifi.ui.h:13
+#: panels/network/network-wired.ui.h:2
+msgid "IPv4 Address"
+msgstr "IPv4-osoite"
+
+#: panels/network/panel-common.c:684 panels/network/network-mobile.ui.h:4
+#: panels/network/network-wifi.ui.h:14 panels/network/network-wired.ui.h:3
+msgid "IPv6 Address"
+msgstr "IPv6-osoite"
+
+#: panels/network/panel-common.c:686 panels/network/panel-common.c:688
+#: panels/network/network-mobile.ui.h:3
+msgid "IP Address"
+msgstr "IP-osoite"
+
+#: panels/power/cc-power-panel.c:166
+msgid "Unknown time"
+msgstr "Tuntematon aika"
+
+#: panels/power/cc-power-panel.c:172
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "%i minuutti"
+msgstr[1] "%i minuuttia"
+
+#: panels/power/cc-power-panel.c:184
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] "%i tunti"
+msgstr[1] "%i tuntia"
+
+#: panels/power/cc-power-panel.c:192
+#, c-format
+msgid "%i %s %i %s"
+msgstr "%i %s %i %s"
+
+#: panels/power/cc-power-panel.c:193
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "tunti"
+msgstr[1] "tuntia"
+
+#: panels/power/cc-power-panel.c:194
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minuutti"
+msgstr[1] "minuuttia"
+
+#: panels/power/cc-power-panel.c:237
+#, c-format
+msgid "Charging - %s until fully charged"
+msgstr "Latautuu - %s täyteen lataukseen"
+
+#: panels/power/cc-power-panel.c:245
+#, c-format
+msgid "Caution low battery, %s remaining"
+msgstr "Varoitus: akku vähissä, %s jäljellä"
+
+#: panels/power/cc-power-panel.c:253
+#, c-format
+msgid "Using battery power - %s remaining"
+msgstr "Käytetään akkua - %s jäljellä"
+
+#: panels/power/cc-power-panel.c:270
+msgid "Charging"
+msgstr "Latautuu"
+
+#: panels/power/cc-power-panel.c:275
+msgid "Using battery power"
+msgstr "Käytetään akkua"
+
+#: panels/power/cc-power-panel.c:279
+msgid "Charging - fully charged"
+msgstr "Ladataan - ladattu täyteen"
+
+#: panels/power/cc-power-panel.c:283
+msgid "Empty"
+msgstr "Tyhjä"
+
+#: panels/power/cc-power-panel.c:351
+#, c-format
+msgid "Caution low UPS, %s remaining"
+msgstr "Varoitus - UPS-varavirta vähissä - %s jäljellä"
+
+#: panels/power/cc-power-panel.c:357
+#, c-format
+msgid "Using UPS power - %s remaining"
+msgstr "Käytetään UPS-varavirtaa - %s jäljellä"
+
+#: panels/power/cc-power-panel.c:375
+msgid "Caution low UPS"
+msgstr "Varoitus - UPS-varavirta vähissä"
+
+#: panels/power/cc-power-panel.c:380
+msgid "Using UPS power"
+msgstr "Käytetään UPS-varavirtaa"
+
+#: panels/power/cc-power-panel.c:432
+msgid "Your secondary battery is fully charged"
+msgstr "Vara-akku on ladattu täyteen"
+
+#: panels/power/cc-power-panel.c:436
+msgid "Your secondary battery is empty"
+msgstr "Vara-akku on tyhjä"
+
+#: panels/power/cc-power-panel.c:519
+msgid "Wireless mouse"
+msgstr "Langaton hiiri"
+
+#: panels/power/cc-power-panel.c:523
+msgid "Wireless keyboard"
+msgstr "Langaton näppäimistö"
+
+#: panels/power/cc-power-panel.c:527
+msgid "Uninterruptible power supply"
+msgstr "Keskeytymätön virransyöttö"
+
+#: panels/power/cc-power-panel.c:531
+msgid "Personal digital assistant"
+msgstr "Henkilökohtainen digitaalinen avustaja (PDA)"
+
+#: panels/power/cc-power-panel.c:535
+msgid "Cellphone"
+msgstr "Matkapuhelin"
+
+#: panels/power/cc-power-panel.c:539
+msgid "Media player"
+msgstr "Mediasoitin"
+
+#: panels/power/cc-power-panel.c:543
+msgid "Tablet"
+msgstr "Piirtopöytä"
+
+#: panels/power/cc-power-panel.c:547
+msgid "Computer"
+msgstr "Tietokone"
+
+#: panels/power/cc-power-panel.c:551
+msgid "Battery"
+msgstr "Akku"
+
+#: panels/region/cc-region-panel.c:178
+msgid "Get more languages..."
+msgstr ""
+
+#: panels/region/cinnamon-region-panel-formats.c:142
+msgid "Imperial"
+msgstr "Imperiaalinen"
+
+#: panels/region/cinnamon-region-panel-formats.c:144
+msgid "Metric"
+msgstr "Metrinen"
+
+#: panels/region/cinnamon-region-panel-system.c:420
+msgid ""
+"The login screen, system accounts and new user accounts use the system-wide "
+"Region and Language settings."
+msgstr ""
+"Kirjautumisruutu, järjestelmätilit ja uudet käyttäjätilit käyttävät "
+"järjestelmän alue- ja kieliasetuksia."
+
+#: panels/region/cinnamon-region-panel-system.c:425
+#: panels/region/cinnamon-region-panel.ui.h:32
+msgid ""
+"The login screen, system accounts and new user accounts use the system-wide "
+"Region and Language settings. You may change the system settings to match "
+"yours."
+msgstr ""
+"Kirjautumisruutu, järjestelmätilit ja uudet käyttäjätilit käyttävät "
+"järjestelmän alue- ja kieliasetuksia. Voit muuttaa järjestelmän asetukset "
+"vastaamaan omiasi."
+
+#: panels/region/cinnamon-region-panel-system.c:428
+msgid "Copy Settings"
+msgstr "Kopioi asetukset"
+
+#: panels/region/cinnamon-region-panel-system.c:431
+#: panels/region/cinnamon-region-panel.ui.h:39
+msgid "Copy Settings..."
+msgstr "Kopioi asetukset..."
+
+#: panels/region/cinnamon-region-panel-xkblt.c:210
+msgid "Layout"
+msgstr "Asettelu"
+
+#: panels/region/cinnamon-region-panel-xkbot.c:229
+msgid "Default"
+msgstr "Oletus"
+
+#: panels/sound/applet-main.c:49
+msgid "Enable debugging code"
+msgstr "Ota vianetsintäkoodi käyttöön"
+
+#: panels/sound/applet-main.c:50
+msgid "Version of this application"
+msgstr "Tämän sovelluksen versio"
+
+#: panels/sound/applet-main.c:62
+msgid " — Cinnamon Volume Control Applet"
+msgstr ""
+
+#: panels/sound/gvc-applet.c:270 panels/sound/gvc-mixer-dialog.c:1654
+#: panels/sound-nua/gvc-mixer-dialog.c:1748
+msgid "Output"
+msgstr "Ulostulo"
+
+#: panels/sound/gvc-applet.c:272
+msgid "Sound Output Volume"
+msgstr "Äänen toistovoimakkuus"
+
+#: panels/sound/gvc-applet.c:276 panels/sound/gvc-mixer-dialog.c:1695
+#: panels/sound-nua/gvc-mixer-dialog.c:1881
+msgid "Input"
+msgstr "Sisääntulo"
+
+#: panels/sound/gvc-applet.c:278
+msgid "Microphone Volume"
+msgstr "Mikrofonin äänenvoimakkuus"
+
+#: panels/sound/gvc-balance-bar.c:295 panels/sound-nua/gvc-balance-bar.c:295
+msgid "_Balance:"
+msgstr "_Tasapaino:"
+
+#: panels/sound/gvc-balance-bar.c:298 panels/sound-nua/gvc-balance-bar.c:298
+msgid "_Fade:"
+msgstr "_Häivytys:"
+
+#: panels/sound/gvc-balance-bar.c:301 panels/sound-nua/gvc-balance-bar.c:301
+msgid "_Subwoofer:"
+msgstr "_Subwoofer:"
+
+#: panels/sound/gvc-combo-box.c:167 panels/sound/gvc-mixer-dialog.c:258
+#: panels/sound/gvc-mixer-dialog.c:519
+msgid "_Profile:"
+msgstr "_Profiili:"
+
+#: panels/sound/gvc-mixer-control.c:1834
+msgid "Disabled"
+msgstr "Ei käytössä"
+
+#: panels/sound/gvc-mixer-control.c:1841
+#, c-format
+msgid "%u Output"
+msgid_plural "%u Outputs"
+msgstr[0] "%u ulostulo"
+msgstr[1] "%u ulostuloa"
+
+#: panels/sound/gvc-mixer-control.c:1851
+#, c-format
+msgid "%u Input"
+msgid_plural "%u Inputs"
+msgstr[0] "%u sisääntulo"
+msgstr[1] "%u sisääntuloa"
+
+#: panels/sound/gvc-mixer-control.c:2375
+msgid "System Sounds"
+msgstr "Järjestelmän äänet"
+
+#: panels/sound/gvc-mixer-dialog.c:260
+msgid "_Test Speakers"
+msgstr "_Testaa kaiuttimia"
+
+#: panels/sound/gvc-mixer-dialog.c:424 panels/sound-nua/gvc-mixer-dialog.c:341
+msgid "Peak detect"
+msgstr "Havaitse piikit"
+
+#: panels/sound/gvc-mixer-dialog.c:1504
+#: panels/sound-nua/gvc-mixer-dialog.c:1578
+msgid "Name"
+msgstr "Nimi"
+
+#: panels/sound/gvc-mixer-dialog.c:1586
+#: panels/sound-nua/gvc-mixer-dialog.c:1680
+#, c-format
+msgid "Speaker Testing for %s"
+msgstr "Kaiutintesti: %s"
+
+#: panels/sound/gvc-mixer-dialog.c:1640
+#: panels/sound-nua/gvc-mixer-dialog.c:2016
+msgid "_Output volume:"
+msgstr "_Toistovoimakkuus:"
+
+#: panels/sound/gvc-mixer-dialog.c:1659
+msgid "C_hoose a device for sound output:"
+msgstr "_Valitse laite äänen toistamiseksi:"
+
+#: panels/sound/gvc-mixer-dialog.c:1684
+msgid "Settings for the selected device:"
+msgstr "Valitun laitteen asetukset:"
+
+#: panels/sound/gvc-mixer-dialog.c:1702
+#: panels/sound-nua/gvc-mixer-dialog.c:1928
+msgid "_Input volume:"
+msgstr "_Äänitysvoimakkuus:"
+
+#: panels/sound/gvc-mixer-dialog.c:1725
+#: panels/sound-nua/gvc-mixer-dialog.c:1961
+msgid "Input level:"
+msgstr "Äänitystaso:"
+
+#: panels/sound/gvc-mixer-dialog.c:1753
+msgid "C_hoose a device for sound input:"
+msgstr "_Valitse laite äänen tallentamiseksi:"
+
+#: panels/sound/gvc-mixer-dialog.c:1780
+#: panels/sound-nua/gvc-mixer-dialog.c:1982
+msgid "Sound Effects"
+msgstr "Äänitehosteet"
+
+#: panels/sound/gvc-mixer-dialog.c:1787
+#: panels/sound-nua/gvc-mixer-dialog.c:1989
+msgid "_Alert volume:"
+msgstr "_Hälytysten voimakkuus:"
+
+#: panels/sound/gvc-mixer-dialog.c:1795
+#: panels/sound-nua/gvc-mixer-dialog.c:1997
+msgid "Applications"
+msgstr "Sovellukset"
+
+#: panels/sound/gvc-mixer-dialog.c:1799
+#: panels/sound-nua/gvc-mixer-dialog.c:2001
+msgid "No application is currently playing or recording audio."
+msgstr "Mikään sovellus ei nyt soita tai tallenna ääntä."
+
+#: panels/sound/gvc-speaker-test.c:220
+msgid "Stop"
+msgstr "Pysäytä"
+
+#: panels/sound/gvc-speaker-test.c:220 panels/sound/gvc-speaker-test.c:332
+msgid "Test"
+msgstr "Testaa"
+
+#: panels/sound/gvc-speaker-test.c:228
+msgid "Subwoofer"
+msgstr "Subwoofer"
+
+#: panels/sound/gvc-stream-status-icon.c:236
+#, c-format
+msgid "Failed to start Sound Preferences: %s"
+msgstr "Ääniasetuksia ei voitu käynnistää: %s"
+
+#: panels/sound/gvc-stream-status-icon.c:262
+msgid "_Mute"
+msgstr "_Vaimenna ääni"
+
+#: panels/sound/gvc-stream-status-icon.c:271
+msgid "_Sound Preferences"
+msgstr "Ää_niasetukset"
+
+#: panels/sound/gvc-stream-status-icon.c:416
+msgid "Muted"
+msgstr "Vaimennettu"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:774
+#: panels/sound-nua/gvc-mixer-dialog.c:944
+#, c-format
+msgid "Settings for %s"
+msgstr "%s - asetukset"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:800
+#: panels/sound-nua/gvc-mixer-dialog.c:953
+msgid "Mode:"
+msgstr "Tila:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1753
+msgid "Play sound through"
+msgstr "Toista ääntä laitteella"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1778
+#: panels/sound-nua/gvc-mixer-dialog.c:1910
+msgid "Settings for the selected device"
+msgstr "Valitun laitteen asetukset"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1851
+msgid "Test:"
+msgstr "Kokeile:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1858
+msgid "Test Sound"
+msgstr "Kokeile ääntä"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1885
+msgid "Record sound from"
+msgstr "Nauhoita ääntä laitteesta"
+
+#: panels/universal-access/cc-ua-panel.c:289
+#: panels/universal-access/cc-ua-panel.c:295
+msgid "No shortcut set"
+msgstr "Pikanäppäintä ei asetettu"
+
+#: shell/cc-shell-nav-bar.c:117
+msgid "_All Settings"
+msgstr "_Kaikki asetukset"
+
+#: shell/control-center.c:58
+msgid "Enable verbose mode"
+msgstr ""
+
+#: shell/control-center.c:59
+msgid "Show the overview"
+msgstr "Näytä yleiskuva"
+
+#: shell/control-center.c:60 shell/control-center.c:61
+#: shell/control-center.c:62
+msgid "Show help options"
+msgstr "Näytä ohjevalitsimet"
+
+#: shell/control-center.c:63
+msgid "Panel to display"
+msgstr "Näytettävä paneeli"
+
+#: shell/control-center.c:85
+msgid "- System Settings"
+msgstr "- Järjestelmäasetukset"
+
+#: shell/control-center.c:93
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Suorita ”%s --help” nähdäksesi täyden luettelon komentorivivalitsimista.\n"
+
+#: shell/control-center.c:215
+msgid "Help"
+msgstr "Ohje"
+
+#: shell/control-center.c:216
+msgid "Quit"
+msgstr "Lopeta"
+
+#: panels/color/color.ui.h:3 generate_additional_files.py:83
+msgid "Color"
+msgstr "Väri"
+
+#: panels/color/color.ui.h:4
+msgid "Each device needs an up to date color profile to be color managed."
+msgstr ""
+"Laitteet vaativat ajan tasalla olevan väriprofiilin, jotta niiden värejä on "
+"mahdollista hallita."
+
+#: panels/color/color.ui.h:5
+msgid "Learn more"
+msgstr ""
+
+#: panels/color/color.ui.h:6
+msgid "Learn more about color management"
+msgstr "Lisätietoja värinhallinnasta"
+
+#: panels/color/color.ui.h:7
+msgid "Add device"
+msgstr "Lisää laite"
+
+#: panels/color/color.ui.h:8
+msgid "Add a virtual device"
+msgstr "Lisää virtuaalilaite"
+
+#: panels/color/color.ui.h:9
+msgid "Delete device"
+msgstr "Poista laite"
+
+#: panels/color/color.ui.h:10
+msgid "Remove a device"
+msgstr "Poista laite"
+
+#: panels/color/color.ui.h:12
+msgid "Set this profile for all users on this computer"
+msgstr "Aseta tämä profiili kaikille tietokoneen käyttäjille"
+
+#: panels/color/color.ui.h:13
+msgid "Add profile"
+msgstr "Lisää profiili"
+
+#: panels/color/color.ui.h:14
+msgid "Calibrate…"
+msgstr "Kalibroi..."
+
+#: panels/color/color.ui.h:15
+msgid "Calibrate the device"
+msgstr "Kalibroi laite"
+
+#: panels/color/color.ui.h:16
+msgid "Remove profile"
+msgstr "Poista profiili"
+
+#: panels/color/color.ui.h:17
+msgid "View details"
+msgstr "Näytä tiedot"
+
+#: panels/color/color.ui.h:18
+msgid "Device type:"
+msgstr "Laitetyyppi:"
+
+#: panels/color/color.ui.h:19
+msgid "Manufacturer:"
+msgstr "Valmistaja:"
+
+#: panels/color/color.ui.h:20
+msgid "Model:"
+msgstr "Malli:"
+
+#: panels/color/color.ui.h:21
+msgid ""
+"Image files can be dragged on this window to auto-complete the above fields."
+msgstr ""
+"Kuvatiedostoja voidaan raahata tähän ikkunaan täyttämään yllä olevat kentät "
+"automaattisesti."
+
+#: panels/common/language-chooser.ui.h:1
+msgid "Select a language"
+msgstr "Valitse kieli"
+
+#: panels/common/language-chooser.ui.h:2
+msgid "_Cancel"
+msgstr "_Peruuta"
+
+#: panels/common/language-chooser.ui.h:3
+msgid "_Select"
+msgstr "_Valitse"
+
+#: panels/display/display-capplet.ui.h:2
+msgid "Set as Primary"
+msgstr ""
+
+#: panels/display/display-capplet.ui.h:3
+msgid "_Resolution"
+msgstr "Ta_rkkuus:"
+
+#: panels/display/display-capplet.ui.h:4
+msgid "R_otation"
+msgstr "_Kierto"
+
+#: panels/display/display-capplet.ui.h:6
+msgid "_Mirror displays"
+msgstr "_Peilaa näytöt"
+
+#: panels/display/display-capplet.ui.h:7
+msgid "Note: may limit resolution options"
+msgstr ""
+
+#: panels/display/display-capplet.ui.h:8
+msgid "_Detect Displays"
+msgstr "_Tunnista näytöt"
+
+#: panels/network/network-mobile.ui.h:1
+msgid "IMEI"
+msgstr "IMEI"
+
+#: panels/network/network-mobile.ui.h:2
+msgid "Provider"
+msgstr "Palveluntarjoaja"
+
+#: panels/network/network-mobile.ui.h:5 panels/network/network-wifi.ui.h:15
+#: panels/network/network-wired.ui.h:4
+msgid "Default Route"
+msgstr "Oletusreitti"
+
+#: panels/network/network-mobile.ui.h:6 panels/network/network-wifi.ui.h:16
+#: panels/network/network-wired.ui.h:5
+msgid "DNS"
+msgstr "DNS"
+
+#: panels/network/network-mobile.ui.h:7 generate_additional_files.py:173
+msgid "Network"
+msgstr "Verkko"
+
+#: panels/network/network-mobile.ui.h:8 panels/network/network-wired.ui.h:6
+#: panels/region/cinnamon-region-panel.ui.h:26
+msgid "_Options..."
+msgstr "_Valinnat..."
+
+#: panels/network/network-proxy.ui.h:4
+msgid "_Method"
+msgstr "_Tapa"
+
+#: panels/network/network-proxy.ui.h:5
+msgid "_Configuration URL"
+msgstr "_Määritys-URL"
+
+#: panels/network/network-proxy.ui.h:6
+msgid "_HTTP Proxy"
+msgstr "_HTTP-välityspalvelin"
+
+#: panels/network/network-proxy.ui.h:7
+msgid "H_TTPS Proxy"
+msgstr "H_TTPS-välityspalvelin"
+
+#: panels/network/network-proxy.ui.h:8
+msgid "_FTP Proxy"
+msgstr "_FTP-välityspalvelin"
+
+#: panels/network/network-proxy.ui.h:9
+msgid "_Socks Host"
+msgstr "_Socks-palvelin"
+
+#: panels/network/network.ui.h:1
+msgid "Select the interface to use for the new service"
+msgstr "Valitse uuden palvelun kanssa käytettävä liitäntä"
+
+#: panels/network/network.ui.h:2
+msgid "C_reate..."
+msgstr "_Luo..."
+
+#: panels/network/network.ui.h:3
+msgid "_Interface"
+msgstr "L_iitäntä"
+
+#: panels/network/network.ui.h:4 panels/network/network-vpn.ui.h:1
+msgid "VPN"
+msgstr "VPN"
+
+#: panels/network/network.ui.h:8
+msgid "Add Device"
+msgstr "Lisää laite"
+
+#: panels/network/network.ui.h:9
+msgid "Remove Device"
+msgstr "Poista laite"
+
+#: panels/network/network-vpn.ui.h:2
+msgid "VPN Type"
+msgstr "VPN-tyyppi"
+
+#: panels/network/network-vpn.ui.h:3
+msgid "Gateway"
+msgstr "Yhdyskäytävä"
+
+#: panels/network/network-vpn.ui.h:4
+msgid "Group Name"
+msgstr "Ryhmän nimi"
+
+#: panels/network/network-vpn.ui.h:5
+msgid "Group Password"
+msgstr "Ryhmäsalasana"
+
+#: panels/network/network-vpn.ui.h:6
+msgid "Username"
+msgstr "Käyttäjätunnus"
+
+#: panels/network/network-vpn.ui.h:7
+msgid "_Configure..."
+msgstr "_Määritykset..."
+
+#: panels/network/network-wifi.ui.h:1
+msgid "Wireless Hotspot"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:2
+msgid "_Turn On"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:4
+msgid "_Use as Hotspot..."
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:5
+msgid "Connect to a Hidden Network"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:6
+msgid "_Disconnect"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:7
+msgid "_Connect"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:8
+msgid "Last used"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:9 panels/network/network-wired.ui.h:1
+msgid "Hardware Address"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:10
+msgid "Security"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:11
+msgid "Strength"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:12
+msgid "Link speed"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:17
+msgid "_Forget Network"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:18
+msgid "_Settings..."
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:19
+msgid "Switch off to connect to a wireless network"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:20
+msgid "Network Name"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:21
+msgid "Connected Devices"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:22
+msgid "Security type"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:23
+msgid "Security key"
+msgstr ""
+
+#: panels/power/power.ui.h:1
+msgid "Hibernate"
+msgstr ""
+
+#: panels/power/power.ui.h:2
+msgid "Power off"
+msgstr ""
+
+#: panels/power/power.ui.h:3 panels/screen/screen.ui.h:6
+msgid "5 minutes"
+msgstr ""
+
+#: panels/power/power.ui.h:4 panels/screen/screen.ui.h:7
+msgid "10 minutes"
+msgstr ""
+
+#: panels/power/power.ui.h:5 panels/screen/screen.ui.h:8
+msgid "30 minutes"
+msgstr ""
+
+#: panels/power/power.ui.h:6 panels/screen/screen.ui.h:9
+msgid "1 hour"
+msgstr ""
+
+#: panels/power/power.ui.h:7
+msgid "Don't suspend"
+msgstr ""
+
+#: panels/power/power.ui.h:8
+msgid "Suspend"
+msgstr ""
+
+#: panels/power/power.ui.h:9
+msgid "Do nothing"
+msgstr ""
+
+#: panels/power/power.ui.h:10
+msgid "Lock Screen"
+msgstr ""
+
+#: panels/power/power.ui.h:11
+msgid "Shutdown Immediately"
+msgstr ""
+
+#: panels/power/power.ui.h:12
+msgid "Ask"
+msgstr ""
+
+#: panels/power/power.ui.h:13
+msgid "When battery is present"
+msgstr ""
+
+#: panels/power/power.ui.h:14
+msgid "When battery is charging/in use"
+msgstr ""
+
+#: panels/power/power.ui.h:15 panels/screen/screen.ui.h:10
+msgid "Never"
+msgstr ""
+
+#: panels/power/power.ui.h:16
+msgid "On battery power"
+msgstr ""
+
+#: panels/power/power.ui.h:17
+msgid "When plugged in"
+msgstr ""
+
+#: panels/power/power.ui.h:18
+msgid "Suspend when inactive for"
+msgstr ""
+
+#: panels/power/power.ui.h:19
+msgid "When power is _critically low"
+msgstr ""
+
+#: panels/power/power.ui.h:20
+msgid "When the lid is closed"
+msgstr ""
+
+#: panels/power/power.ui.h:21
+msgid "Show battery status in the _menu bar"
+msgstr ""
+
+#: panels/power/power.ui.h:22
+msgid "Power button action"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:1
+msgid "Choose a Layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:2
+msgid "Preview"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:3
+msgid "Select an input source to add"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel-options-dialog.ui.h:1
+msgid "Keyboard Layout Options"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:1
+msgid "Region and Language"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:2
+msgid ""
+"Select a display language (change will be applied next time you log in)"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:3
+msgid "Add Language"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:4
+msgid "Remove Language"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:5
+msgid "button"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:6
+msgid "Language"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:7
+msgid "Select a region (change will be applied the next time you log in)"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:8
+msgid "Add Region"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:9
+msgid "Remove Region"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:10
+msgid "Dates"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:11
+msgid "Times"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:12
+msgid "Numbers"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:13
+msgid "Currency"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:14
+msgid "Measurement"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:15
+msgid "Examples"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:16
+msgid "Formats"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:17
+msgid "Add Layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:18
+msgid "Remove Layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:19
+msgid "Move Up"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:20
+msgid "Move Down"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:21
+msgid "Preview Layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:22
+msgid "Use the same layout for all windows"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:23
+msgid "Allow different layouts for individual windows"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:24
+msgid "New windows use the default layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:25
+msgid "New windows use the previous window's layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:27
+msgid "View and edit keyboard layout options"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:28
+msgid "Reset to De_faults"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:29
+msgid ""
+"Replace the current keyboard layout settings with the\n"
+"default settings"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:31
+msgid "Keyboard Layouts"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:34
+msgid "Display language:"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:35
+msgid "Input source:"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:36
+msgid "Format:"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:37
+msgid "Your settings"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:38
+msgid "System settings"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:40
+msgid "System"
+msgstr ""
+
+#: panels/screen/screen.ui.h:1
+msgid "Screen turns off"
+msgstr ""
+
+#: panels/screen/screen.ui.h:2
+msgid "30 seconds"
+msgstr ""
+
+#: panels/screen/screen.ui.h:3
+msgid "1 minute"
+msgstr ""
+
+#: panels/screen/screen.ui.h:4
+msgid "2 minutes"
+msgstr ""
+
+#: panels/screen/screen.ui.h:5
+msgid "3 minutes"
+msgstr ""
+
+#: panels/screen/screen.ui.h:11
+msgid "_Dim screen to save power"
+msgstr ""
+
+#: panels/screen/screen.ui.h:12
+msgid "Brightness"
+msgstr ""
+
+#: panels/screen/screen.ui.h:13
+msgid "_Turn screen off when inactive for:"
+msgstr ""
+
+#: panels/screen/screen.ui.h:14
+msgid "_Lock screen after:"
+msgstr ""
+
+#: panels/screen/screen.ui.h:15
+msgid "Require my password when waking from suspend"
+msgstr ""
+
+#: panels/screen/screen.ui.h:16
+msgid "Lock"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:5
+msgid "On screen keyboard"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:6
+msgid "GOK"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:7
+msgid "OnBoard"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:8
+msgid "None"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:10
+#, no-c-format
+msgid "75%"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:13
+#, no-c-format
+msgid "100%"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:16
+#, no-c-format
+msgid "125%"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:19
+#, no-c-format
+msgid "150%"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:21
+msgid "High Contrast"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:22
+msgid "Beep on Caps and Num Lock"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:23
+msgid "Options..."
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:24
+msgid "Screen Reader"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:25
+msgid "Turn on or off:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:27
+msgid "Zoom in:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:28
+msgid "Zoom out:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:29
+msgid "Large Text"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:30
+msgid "Seeing"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:31
+msgid "Visual Alerts"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:32
+msgid "Use a visual indication when an alert sound occurs"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:33
+msgid "Flash the window title"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:34
+msgid "Flash the entire screen"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:35
+msgid "Closed Captioning"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:36
+msgid "Display a textual description of speech and sounds"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:37
+msgid "_Test flash"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:38
+msgid "Hearing"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:39
+msgid "On Screen Keyboard"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:40
+msgid "Sticky Keys"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:41
+msgid "Treats a sequence of modifier keys as a key combination"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:42
+msgid "_Disable if two keys are pressed together"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:43
+msgid "Beep when a _modifer key is pressed"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:44
+msgid "Slow Keys"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:45
+msgid "Puts a delay between when a key is pressed and when it is accepted"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:46
+msgid "A_cceptance delay:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:48
+msgid "Short"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:49
+msgid "Slow keys typing delay"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:51
+msgid "Long"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:53
+msgid "Beep when a key is"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:55
+msgid "pressed"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:57
+msgid "accepted"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:59
+msgid "rejected"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:60
+msgid "Bounce Keys"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:61
+msgid "Ignores fast duplicate keypresses"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:62
+msgid "Acc_eptance delay:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:63
+msgid "Bounce keys typing delay"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:64
+msgid "Beep when a key is _rejected"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:65
+msgid "Enable by Keyboard"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:66
+msgid "Turn accessibility features on and off using the keyboard"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:67
+msgid "Typing"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:68
+msgid "Mouse Keys"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:69
+msgid "Control the pointer using the keypad"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:70
+msgid "Video Mouse"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:71
+msgid "Control the pointer using the video camera."
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:72
+msgid "Simulated Secondary Click"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:73
+msgid "Trigger a secondary click by holding down the primary button"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:74
+msgid "Secondary click delay"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:75
+msgid "Hover Click"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:76
+msgid "Trigger a click when the pointer hovers"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:77
+msgid "D_elay:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:78
+msgid "Motion _threshold:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:80
+msgid "Small"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:82
+msgid "Large"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:83
+msgid "Mouse Settings"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:84
+msgid "Pointing and Clicking"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:1
+msgid "Full Screen"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:2
+msgid "Top Half"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:3
+msgid "Bottom Half"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:4
+msgid "Left Half"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:5
+msgid "Right Half"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:6
+msgid "Zoom Options"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:7
+msgid "Zoom"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:8
+msgid "Magnification:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:9
+msgid "Follow mouse cursor"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:10
+msgid "Screen part:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:11
+msgid "Magnifier extends outside of screen"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:12
+msgid "Keep magnifier cursor centered"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:13
+msgid "Magnifier cursor pushes contents around"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:14
+msgid "Magnifier cursor moves with contents"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:15
+msgid "Magnifier Position:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:16
+msgid "Magnifier"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:17
+msgid "Thickness:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:19
+msgid "Thin"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:21
+msgid "Thick"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:22
+msgid "Length:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:23
+msgid "Color:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:24
+msgid "Crosshairs:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:25
+msgid "Overlaps mouse cursor"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:26
+msgid "Crosshairs"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:27
+msgid "White on black:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:28
+msgid "Brightness:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:29
+msgid "Contrast:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:34
+msgid "Low"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:36
+msgid "High"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:37
+msgid "Color Effects:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:38
+msgid "Color Effects"
+msgstr ""
+
+#: generate_additional_files.py:53
+msgid "Brightness & Lock"
+msgstr ""
+
+#: generate_additional_files.py:53
+msgid "Screen brightness and lock settings"
+msgstr ""
+
+#: generate_additional_files.py:68 generate_additional_files.py:99
+msgid "Sound"
+msgstr ""
+
+#: generate_additional_files.py:68 generate_additional_files.py:99
+msgid "Change sound volume and sound events"
+msgstr ""
+
+#: generate_additional_files.py:83
+msgid "Color management settings"
+msgstr ""
+
+#: generate_additional_files.py:113
+msgid "Volume Control"
+msgstr ""
+
+#: generate_additional_files.py:113
+msgid "Show desktop volume control"
+msgstr ""
+
+#: generate_additional_files.py:128
+msgid "Power"
+msgstr ""
+
+#: generate_additional_files.py:128
+msgid "Power management settings"
+msgstr ""
+
+#: generate_additional_files.py:143
+msgid "Region & Language"
+msgstr ""
+
+#: generate_additional_files.py:143
+msgid "Change your region and language settings"
+msgstr ""
+
+#: generate_additional_files.py:158
+msgid "Displays"
+msgstr ""
+
+#: generate_additional_files.py:158
+msgid "Change resolution and position of monitors and projectors"
+msgstr ""
+
+#: generate_additional_files.py:173
+msgid "Network settings"
+msgstr ""
+
+#: generate_additional_files.py:188
+msgid "Universal Access"
+msgstr ""
+
+#: generate_additional_files.py:188
+msgid "Universal Access Preferences"
+msgstr ""

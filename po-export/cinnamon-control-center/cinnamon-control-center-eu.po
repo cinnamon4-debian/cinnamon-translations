@@ -1,0 +1,2118 @@
+# translation of eu.po to Basque
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Hizkuntza Politikarako Sailburuordetza <hizkpol@ej-gv.es>, 2004, 2005.
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012.
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: eu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-30 17:55+0100\n"
+"PO-Revision-Date: 2013-11-14 20:36+0000\n"
+"Last-Translator: Asier Sarasua Garmendia <Unknown>\n"
+"Language-Team: Basque <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2013-11-26 11:42+0000\n"
+"X-Generator: Launchpad (build 16840)\n"
+"Language: eu\n"
+
+#: panels/color/cc-color-panel.c:106
+msgid "Other profile…"
+msgstr "Beste profila..."
+
+#: panels/color/cc-color-panel.c:119
+msgid "Default: "
+msgstr "Lehenetsia: "
+
+#: panels/color/cc-color-panel.c:126
+msgid "Colorspace: "
+msgstr "Kolore-espazioa: "
+
+#: panels/color/cc-color-panel.c:132
+msgid "Test profile: "
+msgstr "Probako profila: "
+
+#: panels/color/cc-color-panel.c:185 panels/color/color.ui.h:11
+msgid "Set for all users"
+msgstr "Ezarri erabiltzaile guztientzako"
+
+#: panels/color/cc-color-panel.c:192
+msgid "Create virtual device"
+msgstr "Sortu gailu birtuala"
+
+#: panels/color/cc-color-panel.c:227
+msgid "Select ICC Profile File"
+msgstr "Hautatu ICC profilaren fitxategia"
+
+#: panels/color/cc-color-panel.c:230
+msgid "_Import"
+msgstr "_Inportatu"
+
+#: panels/color/cc-color-panel.c:241
+msgid "Supported ICC profiles"
+msgstr "Onartutako ICC profilak"
+
+#: panels/color/cc-color-panel.c:248
+msgid "All files"
+msgstr "Fitxategi guztiak"
+
+#: panels/color/cc-color-panel.c:638
+msgid "Available Profiles for Displays"
+msgstr "Pantailen profil erabilgarriak"
+
+#: panels/color/cc-color-panel.c:642
+msgid "Available Profiles for Scanners"
+msgstr "Eskanerren profil erabilgarriak"
+
+#: panels/color/cc-color-panel.c:646
+msgid "Available Profiles for Printers"
+msgstr "Inprimagailuen profil erabilgarriak"
+
+#: panels/color/cc-color-panel.c:650
+msgid "Available Profiles for Cameras"
+msgstr "Kameren profil erabilgarriak"
+
+#: panels/color/cc-color-panel.c:654
+msgid "Available Profiles for Webcams"
+msgstr "Web-kameren profil erabilgarriak"
+
+#: panels/color/cc-color-panel.c:659 panels/color/color.ui.h:2
+msgid "Available Profiles"
+msgstr "Profil erabilgarriak"
+
+#: panels/color/cc-color-panel.c:935 panels/sound/gvc-mixer-dialog.c:1523
+#: panels/sound-nua/gvc-mixer-dialog.c:1596
+msgid "Device"
+msgstr "Gailua"
+
+#: panels/color/cc-color-panel.c:970
+msgid "Calibration"
+msgstr "Kalibrazioa"
+
+#: panels/color/cc-color-panel.c:1002
+msgid "Create a color profile for the selected device"
+msgstr "Sortu kolore-profil bat hautatutako gailuarentzako"
+
+#: panels/color/cc-color-panel.c:1016 panels/color/cc-color-panel.c:1040
+msgid ""
+"The measuring instrument is not detected. Please check it is turned on and "
+"correctly connected."
+msgstr ""
+"Ez da neurgailurik detektatu. Ziurtatu zaitez piztuta eta ongi konektatuta "
+"dagoela."
+
+#: panels/color/cc-color-panel.c:1049
+msgid "The measuring instrument does not support printer profiling."
+msgstr "Neurgailuak ez du inprimagailuaren profilarik onartzen"
+
+#: panels/color/cc-color-panel.c:1060
+msgid "The device type is not currently supported."
+msgstr "Gailu mota ez dago oraingoz onartuta."
+
+#: panels/color/cc-color-panel.c:1132
+msgid "Cannot remove automatically added profile"
+msgstr "Ezin da automatikoki gehitutako profilik kendu"
+
+#: panels/color/cc-color-panel.c:1463
+msgid "No profile"
+msgstr "Profilik ez"
+
+#: panels/color/cc-color-panel.c:1494
+#, c-format
+msgid "%i year"
+msgid_plural "%i years"
+msgstr[0] "urte %i"
+msgstr[1] "%i urte"
+
+#: panels/color/cc-color-panel.c:1505
+#, c-format
+msgid "%i month"
+msgid_plural "%i months"
+msgstr[0] "hilabete %i"
+msgstr[1] "%i hilabete"
+
+#: panels/color/cc-color-panel.c:1516
+#, c-format
+msgid "%i week"
+msgid_plural "%i weeks"
+msgstr[0] "aste %i"
+msgstr[1] "%i aste"
+
+#: panels/color/cc-color-panel.c:1523
+msgid "Less than 1 week"
+msgstr "Aste 1 baino gutxiago"
+
+#: panels/color/cc-color-panel.c:1713 panels/color/cc-color-panel.c:1754
+#: panels/color/cc-color-panel.c:1765 panels/color/cc-color-panel.c:1776
+msgid "Uncalibrated"
+msgstr "Kalibratu gabea"
+
+#: panels/color/cc-color-panel.c:1716
+msgid "This device is not color managed."
+msgstr "Gailu honek ez dauka kolore-kudeaketarik."
+
+#: panels/color/cc-color-panel.c:1757
+msgid "This device is using manufacturing calibrated data."
+msgstr "Gailua fabrikako kalibrazioko datuak erabiltzen ari da."
+
+#: panels/color/cc-color-panel.c:1768
+msgid ""
+"This device does not have a profile suitable for whole-screen color "
+"correction."
+msgstr "Gailu ez du profil egokirik pantaila osoko koloreen zuzenketarako."
+
+#: panels/color/cc-color-panel.c:1801
+msgid "This device has an old profile that may no longer be accurate."
+msgstr "Gailuak doitu ezin daitekeen profil zaharra du."
+
+#: panels/color/cc-color-panel.c:1829
+msgid "Not specified"
+msgstr "Zehaztu gabea"
+
+#: panels/color/cc-color-panel.c:2014
+msgid "No devices supporting color management detected"
+msgstr "Ez da kolore-kudeaketarik onartzen duen gailurik detektatu"
+
+#: panels/common/cc-common-language.c:533
+msgid "English"
+msgstr "Ingelesa"
+
+#: panels/common/cc-common-language.c:535
+msgid "British English"
+msgstr "Ingelesa (Britainia Handia)"
+
+#: panels/common/cc-common-language.c:538
+msgid "German"
+msgstr "Alemana"
+
+#: panels/common/cc-common-language.c:541
+msgid "French"
+msgstr "Frantsesa"
+
+#: panels/common/cc-common-language.c:544
+msgid "Spanish"
+msgstr "Espainiera"
+
+#: panels/common/cc-common-language.c:546
+msgid "Chinese (simplified)"
+msgstr "Txinatar soildua"
+
+#: panels/common/cc-common-language.c:549
+msgid "Russian"
+msgstr "Errusiera"
+
+#: panels/common/cc-common-language.c:552
+msgid "Arabic"
+msgstr "Arabiera"
+
+#: panels/common/cc-common-language.c:581
+msgid "United States"
+msgstr "Estatu Batuak"
+
+#: panels/common/cc-common-language.c:582
+msgid "Germany"
+msgstr "Alemania"
+
+#: panels/common/cc-common-language.c:583
+msgid "France"
+msgstr "Frantzia"
+
+#: panels/common/cc-common-language.c:584
+msgid "Spain"
+msgstr "Espainia"
+
+#: panels/common/cc-common-language.c:585
+msgid "China"
+msgstr "Txina"
+
+#: panels/common/cc-language-chooser.c:301
+msgid "Select a region"
+msgstr "Hautatu eskualdea"
+
+#: panels/common/gdm-languages.c:781
+msgid "Unspecified"
+msgstr "Zehaztu gabea"
+
+#: panels/display/cc-display-panel.c:624 panels/display/cc-rr-labeler.c:449
+msgid "Mirrored Displays"
+msgstr "Pantaila ispilatuak"
+
+#: panels/display/cc-display-panel.c:648 panels/display/display-capplet.ui.h:1
+msgid "Monitor"
+msgstr "Pantaila"
+
+#: panels/display/cc-display-panel.c:758
+#, c-format
+msgid "%d x %d (%s)"
+msgstr "%d x %d (%s)"
+
+#: panels/display/cc-display-panel.c:760
+#, c-format
+msgid "%d x %d"
+msgstr "%d x %d"
+
+#: panels/display/cc-display-panel.c:1669
+msgid ""
+"Select a monitor to change its properties; drag it to rearrange its "
+"placement."
+msgstr ""
+"Hautatu pantaila bat bere propietateak aldatzeko, arrastatu ezazu bere "
+"kokalekua berrantolatzeko."
+
+#: panels/display/cc-display-panel.c:2185
+#: panels/display/cc-display-panel.c:2237
+#, c-format
+msgid "Failed to apply configuration: %s"
+msgstr "Huts egin du konfigurazioa aplikatzean: %s"
+
+#: panels/display/cc-display-panel.c:2265
+msgid "Could not save the monitor configuration"
+msgstr "Ezin izan da pantailaren konfigurazioa gorde"
+
+#: panels/display/cc-display-panel.c:2325
+msgid "Could not detect displays"
+msgstr "Ezin izan dira pantailak detektatu"
+
+#: panels/display/cc-display-panel.c:2563
+msgid "Could not get screen information"
+msgstr "Ezin izan da pantailaren informazioa eskuratu"
+
+#: panels/network/cc-network-panel.c:661
+msgid "Network proxy"
+msgstr "Sareko proxy-a"
+
+#: panels/network/cc-network-panel.c:853 panels/network/net-vpn.c:278
+#, c-format
+msgid "%s VPN"
+msgstr "%s VPNa"
+
+#: panels/network/cc-network-panel.c:920
+msgid "The system network services are not compatible with this version."
+msgstr "Sistemako sareko zerbitzuak ez dira bertsio honekin bateragarriak."
+
+#: panels/network/cc-network-panel.c:1108
+msgid "Air_plane Mode"
+msgstr "_Hegazkin modua"
+
+#: panels/network/net-device-mobile.c:222
+msgid "Add new connection"
+msgstr "Gehitu konexio berria"
+
+#: panels/network/net-device-mobile.c:261 panels/network/net-device-wifi.c:725
+#: panels/network/net-device-wired.c:126
+#, c-format
+msgid "%d Mb/s"
+msgstr "%d Mb/s"
+
+#: panels/network/net-device-wifi.c:258 panels/network/net-device-wifi.c:437
+msgid "WEP"
+msgstr "WEP"
+
+#: panels/network/net-device-wifi.c:262 panels/network/net-device-wifi.c:441
+msgid "WPA"
+msgstr "WPA"
+
+#: panels/network/net-device-wifi.c:266
+msgid "WPA2"
+msgstr "WPA2"
+
+#: panels/network/net-device-wifi.c:271
+msgid "Enterprise"
+msgstr "Enterprise"
+
+#: panels/network/net-device-wifi.c:652
+msgid "never"
+msgstr "inoiz ez"
+
+#: panels/network/net-device-wifi.c:662
+msgid "today"
+msgstr "gaur"
+
+#: panels/network/net-device-wifi.c:664
+msgid "yesterday"
+msgstr "atzo"
+
+#: panels/network/net-device-wifi.c:666
+#, c-format
+msgid "%i day ago"
+msgid_plural "%i days ago"
+msgstr[0] "duela egun %i"
+msgstr[1] "duela %i egun"
+
+#: panels/network/net-device-wifi.c:735 panels/network/panel-common.c:277
+msgid "Not connected"
+msgstr "Ez dago konektatuta"
+
+#: panels/network/net-device-wifi.c:737 panels/network/net-device-wifi.c:2100
+msgid "Out of range"
+msgstr "Barrutitik kanpo"
+
+#: panels/network/net-device-wifi.c:960
+#, c-format
+msgid ""
+"Network details for %s including password and any custom configuration will "
+"be lost."
+msgstr ""
+"%s(r)en sareko xehetasunak, pasahitza eta edozein konfigurazio "
+"pertsonalizatu barne, galdu egingo dira."
+
+#: panels/network/net-device-wifi.c:971
+msgid "Forget"
+msgstr "Ahaztu"
+
+#: panels/network/net-device-wifi.c:1554
+msgid ""
+"If you have a connection to the Internet other than wireless, you can use it "
+"to share your internet connection with others."
+msgstr ""
+"Haririk gabekoa ez den Interneterako konexiorik badaukazu, berau besteekin "
+"partekatzeko erabil dezakezu."
+
+#: panels/network/net-device-wifi.c:1558
+#, c-format
+msgid "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+msgstr ""
+"Haririk gabeko hotspot-a aktibatuz gero, <b>%s</b>(e)tik deskonektatuko zara."
+
+#: panels/network/net-device-wifi.c:1562
+msgid ""
+"It is not possible to access the internet through your wireless while the "
+"hotspot is active."
+msgstr ""
+"Ezinezkoa da haririk gabeko konexio bidez Internetera konektatzea hotspot-a "
+"aktibatuta dagoen bitartean."
+
+#: panels/network/net-device-wifi.c:1628
+msgid "Stop hotspot and disconnect any users?"
+msgstr "Gelditu wifigunea eta deskonektatu edozein erabiltzaile?"
+
+#: panels/network/net-device-wifi.c:1631
+msgid "_Stop Hotspot"
+msgstr "_Gelditu wifigunea"
+
+#: panels/network/net-proxy.c:67
+msgid ""
+"Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+msgstr ""
+"Webeko proxy-autoaurkitzailea erabiltzen da konfigurazioaren URLa ez denean "
+"ematen."
+
+#: panels/network/net-proxy.c:75
+msgid "This is not recommended for untrusted public networks."
+msgstr "Hau ez da gomendatzen sare publiko ez-fidagarrietan."
+
+#: panels/network/net-proxy.c:368
+msgid "Proxy"
+msgstr "Proxy-a"
+
+#: panels/network/panel-common.c:82 panels/network/panel-common.c:162
+msgid "Unknown"
+msgstr "Ezezaguna"
+
+#: panels/network/panel-common.c:86
+msgid "Wired"
+msgstr "Hariduna"
+
+#: panels/network/panel-common.c:90 panels/network/network-wifi.ui.h:3
+msgid "Wireless"
+msgstr "Haririk gabea"
+
+#: panels/network/panel-common.c:97
+msgid "Mobile broadband"
+msgstr "Banda zabalera mugikorra"
+
+#: panels/network/panel-common.c:102
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: panels/network/panel-common.c:106
+msgid "Mesh"
+msgstr "Maila"
+
+#: panels/network/panel-common.c:166
+msgid "Ad-hoc"
+msgstr "Ad-hoc"
+
+#: panels/network/panel-common.c:170
+msgid "Infrastructure"
+msgstr "Azpiegitura"
+
+#: panels/network/panel-common.c:194 panels/network/panel-common.c:255
+msgid "Status unknown"
+msgstr "Egoera ezezaguna"
+
+#: panels/network/panel-common.c:198
+msgid "Unmanaged"
+msgstr "Kudeatu gabea"
+
+#: panels/network/panel-common.c:203
+msgid "Firmware missing"
+msgstr "Firmwarea falta da"
+
+#: panels/network/panel-common.c:206
+msgid "Cable unplugged"
+msgstr "Kablea deskonektatuta"
+
+#: panels/network/panel-common.c:208
+msgid "Unavailable"
+msgstr "Ez dago erabilgarri"
+
+#: panels/network/panel-common.c:212
+msgid "Disconnected"
+msgstr "Deskonektatuta"
+
+#: panels/network/panel-common.c:219 panels/network/panel-common.c:261
+msgid "Connecting"
+msgstr "Konektatzen"
+
+#: panels/network/panel-common.c:223 panels/network/panel-common.c:265
+msgid "Authentication required"
+msgstr "Autentifikazioa behar da"
+
+#: panels/network/panel-common.c:227 panels/network/panel-common.c:269
+msgid "Connected"
+msgstr "Konektatuta"
+
+#: panels/network/panel-common.c:231
+msgid "Disconnecting"
+msgstr "Deskonektatzen"
+
+#: panels/network/panel-common.c:235 panels/network/panel-common.c:273
+msgid "Connection failed"
+msgstr "Konexioak huts egin du"
+
+#: panels/network/panel-common.c:239 panels/network/panel-common.c:281
+msgid "Status unknown (missing)"
+msgstr "Egoera ezezaguna (falta da)"
+
+#: panels/network/panel-common.c:301
+msgid "Configuration failed"
+msgstr "Konfigurazioak huts egin du"
+
+#: panels/network/panel-common.c:305
+msgid "IP configuration failed"
+msgstr "IP konfigurazioak huts egin du"
+
+#: panels/network/panel-common.c:309
+msgid "IP configuration expired"
+msgstr "IP konfigurazioa iraungi da"
+
+#: panels/network/panel-common.c:313
+msgid "Secrets were required, but not provided"
+msgstr "Sekretuak beharrezkoak dira, baina ez dira eman"
+
+#: panels/network/panel-common.c:317
+msgid "802.1x supplicant disconnected"
+msgstr "802.1x eskatzailea deskonektatuta"
+
+#: panels/network/panel-common.c:321
+msgid "802.1x supplicant configuration failed"
+msgstr "802.1x eskatzailearen konfigurazioak huts egin du"
+
+#: panels/network/panel-common.c:325
+msgid "802.1x supplicant failed"
+msgstr "802.1x eskatzaileak huts egin du"
+
+#: panels/network/panel-common.c:329
+msgid "802.1x supplicant took too long to authenticate"
+msgstr "802.1x eskatzaileak denbora gehiegi egin du autentifikatzeko"
+
+#: panels/network/panel-common.c:333
+msgid "PPP service failed to start"
+msgstr "PPP zerbitzuak huts egin du abiaraztean"
+
+#: panels/network/panel-common.c:337
+msgid "PPP service disconnected"
+msgstr "PPP zebitzua deskonektatuta"
+
+#: panels/network/panel-common.c:341
+msgid "PPP failed"
+msgstr "PPPak huts egin du"
+
+#: panels/network/panel-common.c:345
+msgid "DHCP client failed to start"
+msgstr "DHCP bezeroak huts egin du abiaraztean"
+
+#: panels/network/panel-common.c:349
+msgid "DHCP client error"
+msgstr "DHCP bezeroaren errorea"
+
+#: panels/network/panel-common.c:353
+msgid "DHCP client failed"
+msgstr "DHCP bezeroak huts egin du"
+
+#: panels/network/panel-common.c:357
+msgid "Shared connection service failed to start"
+msgstr "Konexio partekatuaren zerbitzuak huts egin du abiaraztean"
+
+#: panels/network/panel-common.c:361
+msgid "Shared connection service failed"
+msgstr "Konexio partekatuaren zerbitzuak huts egin du"
+
+#: panels/network/panel-common.c:365
+msgid "AutoIP service failed to start"
+msgstr "AutoIP zerbitzuak huts egin du abiaraztean"
+
+#: panels/network/panel-common.c:369
+msgid "AutoIP service error"
+msgstr "AutoIP zerbitzuaren errorea"
+
+#: panels/network/panel-common.c:373
+msgid "AutoIP service failed"
+msgstr "AutoIP zerbitzuak huts egin du"
+
+#: panels/network/panel-common.c:377
+msgid "Line busy"
+msgstr "Linea okupatuta"
+
+#: panels/network/panel-common.c:381
+msgid "No dial tone"
+msgstr "Ez dago markatze-tonurik"
+
+#: panels/network/panel-common.c:385
+msgid "No carrier could be established"
+msgstr "Ezin izan da eramailerik ezarri"
+
+#: panels/network/panel-common.c:389
+msgid "Dialing request timed out"
+msgstr "Markatze-eskaera denboraz kanpo geratu da"
+
+#: panels/network/panel-common.c:393
+msgid "Dialing attempt failed"
+msgstr "Markatze-saiakerak huts egin du"
+
+#: panels/network/panel-common.c:397
+msgid "Modem initialization failed"
+msgstr "Modema hasieratzeak huts egin du"
+
+#: panels/network/panel-common.c:401
+msgid "Failed to select the specified APN"
+msgstr "Huts egin du zehazturiko APNa hautatzean"
+
+#: panels/network/panel-common.c:405
+msgid "Not searching for networks"
+msgstr "Sareen bilaketarik ez"
+
+#: panels/network/panel-common.c:409
+msgid "Network registration denied"
+msgstr "Sarea erregistratzea ukatuta"
+
+#: panels/network/panel-common.c:413
+msgid "Network registration timed out"
+msgstr "Sarea erregistratzea denboraz kanpo geratu da"
+
+#: panels/network/panel-common.c:417
+msgid "Failed to register with the requested network"
+msgstr "Huts egin du eskatutako sarea erregistratzean"
+
+#: panels/network/panel-common.c:421
+msgid "PIN check failed"
+msgstr "PIN egiaztapenak huts egin du"
+
+#: panels/network/panel-common.c:425
+msgid "Firmware for the device may be missing"
+msgstr "Gailuarentzako firmwarea falta liteke"
+
+#: panels/network/panel-common.c:429
+msgid "Connection disappeared"
+msgstr "Konexioa desagertu da"
+
+#: panels/network/panel-common.c:433
+msgid "Carrier/link changed"
+msgstr "Eramailea/lotura aldatu da"
+
+#: panels/network/panel-common.c:437
+msgid "Existing connection was assumed"
+msgstr "Existitzen den konexioa hartu da"
+
+#: panels/network/panel-common.c:441
+msgid "Modem not found"
+msgstr "Modema ez da aurkitu"
+
+#: panels/network/panel-common.c:445
+msgid "Bluetooth connection failed"
+msgstr "Bluetooth konexioak huts egin du"
+
+#: panels/network/panel-common.c:449
+msgid "SIM Card not inserted"
+msgstr "SIM txartela ez da sartu"
+
+#: panels/network/panel-common.c:453
+msgid "SIM Pin required"
+msgstr "SIMaren Pin kodea beharrezkoa"
+
+#: panels/network/panel-common.c:457
+msgid "SIM Puk required"
+msgstr "SIMaren Puk kodea beharrezkoa"
+
+#: panels/network/panel-common.c:461
+msgid "SIM wrong"
+msgstr "SIM baliogabea"
+
+#: panels/network/panel-common.c:465
+msgid "InfiniBand device does not support connected mode"
+msgstr "InfiniBand gailuak ez du konektaturiko modua onartzen"
+
+#: panels/network/panel-common.c:469
+msgid "Connection dependency failed"
+msgstr "Konexioaren menpekotasunak huts egin du"
+
+#: panels/network/panel-common.c:683 panels/network/network-wifi.ui.h:13
+#: panels/network/network-wired.ui.h:2
+msgid "IPv4 Address"
+msgstr "IPv4 helbidea"
+
+#: panels/network/panel-common.c:684 panels/network/network-mobile.ui.h:4
+#: panels/network/network-wifi.ui.h:14 panels/network/network-wired.ui.h:3
+msgid "IPv6 Address"
+msgstr "IPv6 helbidea"
+
+#: panels/network/panel-common.c:686 panels/network/panel-common.c:688
+#: panels/network/network-mobile.ui.h:3
+msgid "IP Address"
+msgstr "IP helbidea"
+
+#: panels/power/cc-power-panel.c:166
+msgid "Unknown time"
+msgstr "Denbora ezezaguna"
+
+#: panels/power/cc-power-panel.c:172
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "minutu %i"
+msgstr[1] "%i minutu"
+
+#: panels/power/cc-power-panel.c:184
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] "Ordu %i"
+msgstr[1] "%i ordu"
+
+#: panels/power/cc-power-panel.c:192
+#, c-format
+msgid "%i %s %i %s"
+msgstr "%i %s %i %s"
+
+#: panels/power/cc-power-panel.c:193
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "ordu"
+msgstr[1] "ordu"
+
+#: panels/power/cc-power-panel.c:194
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minutu"
+msgstr[1] "minutu"
+
+#: panels/power/cc-power-panel.c:237
+#, c-format
+msgid "Charging - %s until fully charged"
+msgstr "Kargatzen - %s erabat kargatu arte"
+
+#: panels/power/cc-power-panel.c:245
+#, c-format
+msgid "Caution low battery, %s remaining"
+msgstr "Kontuz, bateria baxua. %s falta"
+
+#: panels/power/cc-power-panel.c:253
+#, c-format
+msgid "Using battery power - %s remaining"
+msgstr "Bateriaren energia erabiltzen - %s falta"
+
+#: panels/power/cc-power-panel.c:270
+msgid "Charging"
+msgstr "Kargatzen"
+
+#: panels/power/cc-power-panel.c:275
+msgid "Using battery power"
+msgstr "Bateriaren energia erabiltzen"
+
+#: panels/power/cc-power-panel.c:279
+msgid "Charging - fully charged"
+msgstr "Kargatzen - erabat kargatuta"
+
+#: panels/power/cc-power-panel.c:283
+msgid "Empty"
+msgstr "Hutsa"
+
+#: panels/power/cc-power-panel.c:351
+#, c-format
+msgid "Caution low UPS, %s remaining"
+msgstr "Kontuz, UPS baxua - %s falta"
+
+#: panels/power/cc-power-panel.c:357
+#, c-format
+msgid "Using UPS power - %s remaining"
+msgstr "UPSaren energia erabiltzen - %s falta"
+
+#: panels/power/cc-power-panel.c:375
+msgid "Caution low UPS"
+msgstr "Kontuz, UPS baxua"
+
+#: panels/power/cc-power-panel.c:380
+msgid "Using UPS power"
+msgstr "UPSaren energia erabiltzen"
+
+#: panels/power/cc-power-panel.c:432
+msgid "Your secondary battery is fully charged"
+msgstr "Bigarren bateria erabat kargatuta"
+
+#: panels/power/cc-power-panel.c:436
+msgid "Your secondary battery is empty"
+msgstr "Bigarren bateria hustuta"
+
+#: panels/power/cc-power-panel.c:519
+msgid "Wireless mouse"
+msgstr "Haririk gabeko sagua"
+
+#: panels/power/cc-power-panel.c:523
+msgid "Wireless keyboard"
+msgstr "Haririk gabeko teklatua"
+
+#: panels/power/cc-power-panel.c:527
+msgid "Uninterruptible power supply"
+msgstr "Etenik gabeko energia hornidura"
+
+#: panels/power/cc-power-panel.c:531
+msgid "Personal digital assistant"
+msgstr "Laguntzaile digital pertsonala"
+
+#: panels/power/cc-power-panel.c:535
+msgid "Cellphone"
+msgstr "Telefono mugikorra"
+
+#: panels/power/cc-power-panel.c:539
+msgid "Media player"
+msgstr "Multimedia-erreproduzitzailea"
+
+#: panels/power/cc-power-panel.c:543
+msgid "Tablet"
+msgstr "Taula"
+
+#: panels/power/cc-power-panel.c:547
+msgid "Computer"
+msgstr "Ordenagailua"
+
+#: panels/power/cc-power-panel.c:551
+msgid "Battery"
+msgstr "Bateria"
+
+#: panels/region/cc-region-panel.c:178
+msgid "Get more languages..."
+msgstr "Eskuratu hizkuntza gehiago..."
+
+#: panels/region/cinnamon-region-panel-formats.c:142
+msgid "Imperial"
+msgstr "Inperiala"
+
+#: panels/region/cinnamon-region-panel-formats.c:144
+msgid "Metric"
+msgstr "Metrika"
+
+#: panels/region/cinnamon-region-panel-system.c:420
+msgid ""
+"The login screen, system accounts and new user accounts use the system-wide "
+"Region and Language settings."
+msgstr ""
+"Saio-hasierako pantailak, sistemako kontuek eta erabiltzaile berrien kontuek "
+"sistema osoko Eskualdea eta Hizkuntzaren ezarpenak erabiltzen dituzte."
+
+#: panels/region/cinnamon-region-panel-system.c:425
+#: panels/region/cinnamon-region-panel.ui.h:32
+msgid ""
+"The login screen, system accounts and new user accounts use the system-wide "
+"Region and Language settings. You may change the system settings to match "
+"yours."
+msgstr ""
+"Saio-hasierako pantailak, sistemako kontuek eta erabiltzaile berrien kontuek "
+"sistema osoko Eskualdea eta Hizkuntzaren ezarpenak erabiltzen dituzte. Alda "
+"itzazu sistemaren ezarpenak zure beharretara egokitzeko."
+
+#: panels/region/cinnamon-region-panel-system.c:428
+msgid "Copy Settings"
+msgstr "Kopiatu ezarpenak"
+
+#: panels/region/cinnamon-region-panel-system.c:431
+#: panels/region/cinnamon-region-panel.ui.h:39
+msgid "Copy Settings..."
+msgstr "Kopiatu ezarpenak..."
+
+#: panels/region/cinnamon-region-panel-xkblt.c:210
+msgid "Layout"
+msgstr "Diseinua"
+
+#: panels/region/cinnamon-region-panel-xkbot.c:229
+msgid "Default"
+msgstr "Lehenetsia"
+
+#: panels/sound/applet-main.c:49
+msgid "Enable debugging code"
+msgstr "Gaitu kodea araztea"
+
+#: panels/sound/applet-main.c:50
+msgid "Version of this application"
+msgstr "Aplikazioaren bertsioa"
+
+#: panels/sound/applet-main.c:62
+msgid " — Cinnamon Volume Control Applet"
+msgstr ""
+
+#: panels/sound/gvc-applet.c:270 panels/sound/gvc-mixer-dialog.c:1654
+#: panels/sound-nua/gvc-mixer-dialog.c:1748
+msgid "Output"
+msgstr "Irteera"
+
+#: panels/sound/gvc-applet.c:272
+msgid "Sound Output Volume"
+msgstr "Soinuaren irteerako bolumena"
+
+#: panels/sound/gvc-applet.c:276 panels/sound/gvc-mixer-dialog.c:1695
+#: panels/sound-nua/gvc-mixer-dialog.c:1881
+msgid "Input"
+msgstr "Sarrera"
+
+#: panels/sound/gvc-applet.c:278
+msgid "Microphone Volume"
+msgstr "Mikrofonoaren bolumena"
+
+#: panels/sound/gvc-balance-bar.c:295 panels/sound-nua/gvc-balance-bar.c:295
+msgid "_Balance:"
+msgstr "_Balantzea:"
+
+#: panels/sound/gvc-balance-bar.c:298 panels/sound-nua/gvc-balance-bar.c:298
+msgid "_Fade:"
+msgstr "_Iraungipena:"
+
+#: panels/sound/gvc-balance-bar.c:301 panels/sound-nua/gvc-balance-bar.c:301
+msgid "_Subwoofer:"
+msgstr "_Subwoofer:"
+
+#: panels/sound/gvc-combo-box.c:167 panels/sound/gvc-mixer-dialog.c:258
+#: panels/sound/gvc-mixer-dialog.c:519
+msgid "_Profile:"
+msgstr "_Profila:"
+
+#: panels/sound/gvc-mixer-control.c:1834
+msgid "Disabled"
+msgstr "Desgaituta"
+
+#: panels/sound/gvc-mixer-control.c:1841
+#, c-format
+msgid "%u Output"
+msgid_plural "%u Outputs"
+msgstr[0] "Irteera %u"
+msgstr[1] "%u irteera"
+
+#: panels/sound/gvc-mixer-control.c:1851
+#, c-format
+msgid "%u Input"
+msgid_plural "%u Inputs"
+msgstr[0] "Sarrera %u"
+msgstr[1] "%u sarrera"
+
+#: panels/sound/gvc-mixer-control.c:2375
+msgid "System Sounds"
+msgstr "Sistemako soinuak"
+
+#: panels/sound/gvc-mixer-dialog.c:260
+msgid "_Test Speakers"
+msgstr "_Probatu bozgorailuak"
+
+#: panels/sound/gvc-mixer-dialog.c:424 panels/sound-nua/gvc-mixer-dialog.c:341
+msgid "Peak detect"
+msgstr "Gailur-detekzioa"
+
+#: panels/sound/gvc-mixer-dialog.c:1504
+#: panels/sound-nua/gvc-mixer-dialog.c:1578
+msgid "Name"
+msgstr "Izena"
+
+#: panels/sound/gvc-mixer-dialog.c:1586
+#: panels/sound-nua/gvc-mixer-dialog.c:1680
+#, c-format
+msgid "Speaker Testing for %s"
+msgstr "%s(r)en probako bozgorailua"
+
+#: panels/sound/gvc-mixer-dialog.c:1640
+#: panels/sound-nua/gvc-mixer-dialog.c:2016
+msgid "_Output volume:"
+msgstr "_Irteerako bolumena:"
+
+#: panels/sound/gvc-mixer-dialog.c:1659
+msgid "C_hoose a device for sound output:"
+msgstr "Aukeratu _irteerako soinuaren gailua:"
+
+#: panels/sound/gvc-mixer-dialog.c:1684
+msgid "Settings for the selected device:"
+msgstr "Hautatutako gailuaren ezarpenak:"
+
+#: panels/sound/gvc-mixer-dialog.c:1702
+#: panels/sound-nua/gvc-mixer-dialog.c:1928
+msgid "_Input volume:"
+msgstr "_Sarrerako bolumena:"
+
+#: panels/sound/gvc-mixer-dialog.c:1725
+#: panels/sound-nua/gvc-mixer-dialog.c:1961
+msgid "Input level:"
+msgstr "Sarrerako maila:"
+
+#: panels/sound/gvc-mixer-dialog.c:1753
+msgid "C_hoose a device for sound input:"
+msgstr "Aukeratu _sarrerako soinuaren gailua:"
+
+#: panels/sound/gvc-mixer-dialog.c:1780
+#: panels/sound-nua/gvc-mixer-dialog.c:1982
+msgid "Sound Effects"
+msgstr "Soinu-efektuak"
+
+#: panels/sound/gvc-mixer-dialog.c:1787
+#: panels/sound-nua/gvc-mixer-dialog.c:1989
+msgid "_Alert volume:"
+msgstr "_Abisuaren bolumena:"
+
+#: panels/sound/gvc-mixer-dialog.c:1795
+#: panels/sound-nua/gvc-mixer-dialog.c:1997
+msgid "Applications"
+msgstr "Aplikazioak"
+
+#: panels/sound/gvc-mixer-dialog.c:1799
+#: panels/sound-nua/gvc-mixer-dialog.c:2001
+msgid "No application is currently playing or recording audio."
+msgstr ""
+"Ez dago unean audioa erreproduzitzen edo grabatzen duen aplikaziorik."
+
+#: panels/sound/gvc-speaker-test.c:220
+msgid "Stop"
+msgstr "Gelditu"
+
+#: panels/sound/gvc-speaker-test.c:220 panels/sound/gvc-speaker-test.c:332
+msgid "Test"
+msgstr "Probatu"
+
+#: panels/sound/gvc-speaker-test.c:228
+msgid "Subwoofer"
+msgstr "Subwoofer"
+
+#: panels/sound/gvc-stream-status-icon.c:236
+#, c-format
+msgid "Failed to start Sound Preferences: %s"
+msgstr "Huts egin du soinuaren hobespenak abiaraztean: %s"
+
+#: panels/sound/gvc-stream-status-icon.c:262
+msgid "_Mute"
+msgstr "_Mututu"
+
+#: panels/sound/gvc-stream-status-icon.c:271
+msgid "_Sound Preferences"
+msgstr "_Soinuaren hobespenak"
+
+#: panels/sound/gvc-stream-status-icon.c:416
+msgid "Muted"
+msgstr "Mutututa"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:774
+#: panels/sound-nua/gvc-mixer-dialog.c:944
+#, c-format
+msgid "Settings for %s"
+msgstr "%s(r)en ezarpenak"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:800
+#: panels/sound-nua/gvc-mixer-dialog.c:953
+msgid "Mode:"
+msgstr "Modua:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1753
+msgid "Play sound through"
+msgstr "Erreproduzitu soinua hemendik"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1778
+#: panels/sound-nua/gvc-mixer-dialog.c:1910
+msgid "Settings for the selected device"
+msgstr "Hautaturiko gailuaren ezarpenak"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1851
+msgid "Test:"
+msgstr "Proba:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1858
+msgid "Test Sound"
+msgstr "Probatu soinua"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1885
+msgid "Record sound from"
+msgstr "Grabatu soinua hemendik"
+
+#: panels/universal-access/cc-ua-panel.c:289
+#: panels/universal-access/cc-ua-panel.c:295
+msgid "No shortcut set"
+msgstr "Ez da lasterbiderik ezarri"
+
+#: shell/cc-shell-nav-bar.c:117
+msgid "_All Settings"
+msgstr "Ezarpen _guztiak"
+
+#: shell/control-center.c:58
+msgid "Enable verbose mode"
+msgstr "Gaitu modu berritsua"
+
+#: shell/control-center.c:59
+msgid "Show the overview"
+msgstr "Erakutsi ikuspegi orokorra"
+
+#: shell/control-center.c:60 shell/control-center.c:61
+#: shell/control-center.c:62
+msgid "Show help options"
+msgstr "Erakutsi laguntzako aukerak"
+
+#: shell/control-center.c:63
+msgid "Panel to display"
+msgstr "Panela bistaratzeko"
+
+#: shell/control-center.c:85
+msgid "- System Settings"
+msgstr "- Sistemaren ezarpenak"
+
+#: shell/control-center.c:93
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Exekutatu '%s --help' aukeren zerrenda osoa ikusteko.\n"
+
+#: shell/control-center.c:215
+msgid "Help"
+msgstr "Laguntza"
+
+#: shell/control-center.c:216
+msgid "Quit"
+msgstr "Irten"
+
+#: panels/color/color.ui.h:3 generate_additional_files.py:83
+msgid "Color"
+msgstr "Kolorea"
+
+#: panels/color/color.ui.h:4
+msgid "Each device needs an up to date color profile to be color managed."
+msgstr ""
+"Gailu bakoitzak koloreen profilaren eguneraketa behar du koloreak kudeatzeko."
+
+#: panels/color/color.ui.h:5
+msgid "Learn more"
+msgstr "Ikasi gehiago"
+
+#: panels/color/color.ui.h:6
+msgid "Learn more about color management"
+msgstr "Ikasi kolore-kudeaketari buruz gehiago"
+
+#: panels/color/color.ui.h:7
+msgid "Add device"
+msgstr "Gehitu gailua"
+
+#: panels/color/color.ui.h:8
+msgid "Add a virtual device"
+msgstr "Gehitu gailu birtuala"
+
+#: panels/color/color.ui.h:9
+msgid "Delete device"
+msgstr "Ezabatu gailua"
+
+#: panels/color/color.ui.h:10
+msgid "Remove a device"
+msgstr "Kendu gailua"
+
+#: panels/color/color.ui.h:12
+msgid "Set this profile for all users on this computer"
+msgstr "Ezarri profil hau ordenagailu honetako erabiltzaile guztientzat"
+
+#: panels/color/color.ui.h:13
+msgid "Add profile"
+msgstr "Gehitu profila"
+
+#: panels/color/color.ui.h:14
+msgid "Calibrate…"
+msgstr "Kalibratu…"
+
+#: panels/color/color.ui.h:15
+msgid "Calibrate the device"
+msgstr "Kalibratu gailua"
+
+#: panels/color/color.ui.h:16
+msgid "Remove profile"
+msgstr "Kendu profila"
+
+#: panels/color/color.ui.h:17
+msgid "View details"
+msgstr "Ikusi xehetasunak"
+
+#: panels/color/color.ui.h:18
+msgid "Device type:"
+msgstr "Gailu mota:"
+
+#: panels/color/color.ui.h:19
+msgid "Manufacturer:"
+msgstr "Fabrikatzailea:"
+
+#: panels/color/color.ui.h:20
+msgid "Model:"
+msgstr "Modeloa:"
+
+#: panels/color/color.ui.h:21
+msgid ""
+"Image files can be dragged on this window to auto-complete the above fields."
+msgstr ""
+"Irudi-fitxategiak arrastatu daitezke leiho honetara goiko eremuak "
+"automatikoki osatzeko."
+
+#: panels/common/language-chooser.ui.h:1
+msgid "Select a language"
+msgstr "Hautatu hizkuntza bat"
+
+#: panels/common/language-chooser.ui.h:2
+msgid "_Cancel"
+msgstr "_Utzi"
+
+#: panels/common/language-chooser.ui.h:3
+msgid "_Select"
+msgstr "_Hautatu"
+
+#: panels/display/display-capplet.ui.h:2
+msgid "Set as Primary"
+msgstr ""
+
+#: panels/display/display-capplet.ui.h:3
+msgid "_Resolution"
+msgstr "_Bereizmena"
+
+#: panels/display/display-capplet.ui.h:4
+msgid "R_otation"
+msgstr "_Biraketa"
+
+#: panels/display/display-capplet.ui.h:6
+msgid "_Mirror displays"
+msgstr "_Ispilatu pantailak"
+
+#: panels/display/display-capplet.ui.h:7
+msgid "Note: may limit resolution options"
+msgstr ""
+
+#: panels/display/display-capplet.ui.h:8
+msgid "_Detect Displays"
+msgstr "_Detektatu pantailak"
+
+#: panels/network/network-mobile.ui.h:1
+msgid "IMEI"
+msgstr "IMEI"
+
+#: panels/network/network-mobile.ui.h:2
+msgid "Provider"
+msgstr "Hornitzailea"
+
+#: panels/network/network-mobile.ui.h:5 panels/network/network-wifi.ui.h:15
+#: panels/network/network-wired.ui.h:4
+msgid "Default Route"
+msgstr "Ibilbide lehenetsia"
+
+#: panels/network/network-mobile.ui.h:6 panels/network/network-wifi.ui.h:16
+#: panels/network/network-wired.ui.h:5
+msgid "DNS"
+msgstr "DNS"
+
+#: panels/network/network-mobile.ui.h:7 generate_additional_files.py:173
+msgid "Network"
+msgstr "Sarea"
+
+#: panels/network/network-mobile.ui.h:8 panels/network/network-wired.ui.h:6
+#: panels/region/cinnamon-region-panel.ui.h:26
+msgid "_Options..."
+msgstr "_Aukerak..."
+
+#: panels/network/network-proxy.ui.h:4
+msgid "_Method"
+msgstr "_Metodoa"
+
+#: panels/network/network-proxy.ui.h:5
+msgid "_Configuration URL"
+msgstr "_Konfigurazioaren URLa"
+
+#: panels/network/network-proxy.ui.h:6
+msgid "_HTTP Proxy"
+msgstr "_HTTP proxy-a"
+
+#: panels/network/network-proxy.ui.h:7
+msgid "H_TTPS Proxy"
+msgstr "H_TTPS proxy-a"
+
+#: panels/network/network-proxy.ui.h:8
+msgid "_FTP Proxy"
+msgstr "_FTP proxy-a"
+
+#: panels/network/network-proxy.ui.h:9
+msgid "_Socks Host"
+msgstr "_Sock-en ostalaria"
+
+#: panels/network/network.ui.h:1
+msgid "Select the interface to use for the new service"
+msgstr "Hautatu interfazea zerbitzu berrian erabiltzeko"
+
+#: panels/network/network.ui.h:2
+msgid "C_reate..."
+msgstr "_Sortu..."
+
+#: panels/network/network.ui.h:3
+msgid "_Interface"
+msgstr "_Interfazea"
+
+#: panels/network/network.ui.h:4 panels/network/network-vpn.ui.h:1
+msgid "VPN"
+msgstr "VPN"
+
+#: panels/network/network.ui.h:8
+msgid "Add Device"
+msgstr "Gehitu gailua"
+
+#: panels/network/network.ui.h:9
+msgid "Remove Device"
+msgstr "Kendu gailua"
+
+#: panels/network/network-vpn.ui.h:2
+msgid "VPN Type"
+msgstr "VPN mota"
+
+#: panels/network/network-vpn.ui.h:3
+msgid "Gateway"
+msgstr "Atebidea"
+
+#: panels/network/network-vpn.ui.h:4
+msgid "Group Name"
+msgstr "Taldearen izena"
+
+#: panels/network/network-vpn.ui.h:5
+msgid "Group Password"
+msgstr "Taldearen pasahitza"
+
+#: panels/network/network-vpn.ui.h:6
+msgid "Username"
+msgstr "Erabiltzaile-izena"
+
+#: panels/network/network-vpn.ui.h:7
+msgid "_Configure..."
+msgstr "_Konfiguratu..."
+
+#: panels/network/network-wifi.ui.h:1
+msgid "Wireless Hotspot"
+msgstr "Haririk gabeko wifigunea"
+
+#: panels/network/network-wifi.ui.h:2
+msgid "_Turn On"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:4
+msgid "_Use as Hotspot..."
+msgstr "_Erabili wifigune gisa..."
+
+#: panels/network/network-wifi.ui.h:5
+msgid "Connect to a Hidden Network"
+msgstr "Konektatu ezkutuko sare batera"
+
+#: panels/network/network-wifi.ui.h:6
+msgid "_Disconnect"
+msgstr "_Deskonektatu"
+
+#: panels/network/network-wifi.ui.h:7
+msgid "_Connect"
+msgstr "_Konektatu"
+
+#: panels/network/network-wifi.ui.h:8
+msgid "Last used"
+msgstr "Azkenekoz erabilia"
+
+#: panels/network/network-wifi.ui.h:9 panels/network/network-wired.ui.h:1
+msgid "Hardware Address"
+msgstr "Hardwarearen helbidea"
+
+#: panels/network/network-wifi.ui.h:10
+msgid "Security"
+msgstr "Segurtasuna"
+
+#: panels/network/network-wifi.ui.h:11
+msgid "Strength"
+msgstr "Indarra"
+
+#: panels/network/network-wifi.ui.h:12
+msgid "Link speed"
+msgstr "Lotura-abiadura"
+
+#: panels/network/network-wifi.ui.h:17
+msgid "_Forget Network"
+msgstr "Aha_ztu sarea"
+
+#: panels/network/network-wifi.ui.h:18
+msgid "_Settings..."
+msgstr "_Ezarpenak..."
+
+#: panels/network/network-wifi.ui.h:19
+msgid "Switch off to connect to a wireless network"
+msgstr "Desaktibatu, haririk gabeko sare batera konektatzeko"
+
+#: panels/network/network-wifi.ui.h:20
+msgid "Network Name"
+msgstr "Sarearen izena"
+
+#: panels/network/network-wifi.ui.h:21
+msgid "Connected Devices"
+msgstr "Konektaturiko gailuak"
+
+#: panels/network/network-wifi.ui.h:22
+msgid "Security type"
+msgstr "Segurtasun mota"
+
+#: panels/network/network-wifi.ui.h:23
+msgid "Security key"
+msgstr "Segurtasun-gakoa"
+
+#: panels/power/power.ui.h:1
+msgid "Hibernate"
+msgstr "Hibernatu"
+
+#: panels/power/power.ui.h:2
+msgid "Power off"
+msgstr "Itzali"
+
+#: panels/power/power.ui.h:3 panels/screen/screen.ui.h:6
+msgid "5 minutes"
+msgstr "5 minutu"
+
+#: panels/power/power.ui.h:4 panels/screen/screen.ui.h:7
+msgid "10 minutes"
+msgstr "10 minutu"
+
+#: panels/power/power.ui.h:5 panels/screen/screen.ui.h:8
+msgid "30 minutes"
+msgstr "30 minutu"
+
+#: panels/power/power.ui.h:6 panels/screen/screen.ui.h:9
+msgid "1 hour"
+msgstr "Ordu 1"
+
+#: panels/power/power.ui.h:7
+msgid "Don't suspend"
+msgstr "Ez eseki"
+
+#: panels/power/power.ui.h:8
+msgid "Suspend"
+msgstr "Eseki"
+
+#: panels/power/power.ui.h:9
+msgid "Do nothing"
+msgstr "Ez egin ezer"
+
+#: panels/power/power.ui.h:10
+msgid "Lock Screen"
+msgstr "Blokeatu pantaila"
+
+#: panels/power/power.ui.h:11
+msgid "Shutdown Immediately"
+msgstr ""
+
+#: panels/power/power.ui.h:12
+msgid "Ask"
+msgstr "Galdetu"
+
+#: panels/power/power.ui.h:13
+msgid "When battery is present"
+msgstr "Bateria jarrita dagoenean"
+
+#: panels/power/power.ui.h:14
+msgid "When battery is charging/in use"
+msgstr "Bateria kargatzen/erabiltzen ari denean"
+
+#: panels/power/power.ui.h:15 panels/screen/screen.ui.h:10
+msgid "Never"
+msgstr "Inoiz ez"
+
+#: panels/power/power.ui.h:16
+msgid "On battery power"
+msgstr "Bateriaren energiarekin"
+
+#: panels/power/power.ui.h:17
+msgid "When plugged in"
+msgstr "Entxufea konektatuta dagoenean"
+
+#: panels/power/power.ui.h:18
+msgid "Suspend when inactive for"
+msgstr "Eseki inaktibo dagoenean"
+
+#: panels/power/power.ui.h:19
+msgid "When power is _critically low"
+msgstr ""
+
+#: panels/power/power.ui.h:20
+msgid "When the lid is closed"
+msgstr ""
+
+#: panels/power/power.ui.h:21
+msgid "Show battery status in the _menu bar"
+msgstr ""
+
+#: panels/power/power.ui.h:22
+msgid "Power button action"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:1
+msgid "Choose a Layout"
+msgstr "Aukeratu diseinu bat"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:2
+msgid "Preview"
+msgstr "Aurrebista"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:3
+msgid "Select an input source to add"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel-options-dialog.ui.h:1
+msgid "Keyboard Layout Options"
+msgstr "Teklatu-diseinuaren aukerak"
+
+#: panels/region/cinnamon-region-panel.ui.h:1
+msgid "Region and Language"
+msgstr "Eskualdea eta hizkuntza"
+
+#: panels/region/cinnamon-region-panel.ui.h:2
+msgid ""
+"Select a display language (change will be applied next time you log in)"
+msgstr ""
+"Hautatu bistaratzeko hizkuntza (hurrengoan saioa hastean aplikatuko da "
+"aldaketa)"
+
+#: panels/region/cinnamon-region-panel.ui.h:3
+msgid "Add Language"
+msgstr "Gehitu hizkuntza"
+
+#: panels/region/cinnamon-region-panel.ui.h:4
+msgid "Remove Language"
+msgstr "Kendu hizkuntza"
+
+#: panels/region/cinnamon-region-panel.ui.h:5
+msgid "button"
+msgstr "botoia"
+
+#: panels/region/cinnamon-region-panel.ui.h:6
+msgid "Language"
+msgstr "Hizkuntza"
+
+#: panels/region/cinnamon-region-panel.ui.h:7
+msgid "Select a region (change will be applied the next time you log in)"
+msgstr "Hautatu eskualdea (hurrengoan saioa hastean aplikatuko da aldaketa)"
+
+#: panels/region/cinnamon-region-panel.ui.h:8
+msgid "Add Region"
+msgstr "Gehitu eskualdea"
+
+#: panels/region/cinnamon-region-panel.ui.h:9
+msgid "Remove Region"
+msgstr "Kendu eskualdea"
+
+#: panels/region/cinnamon-region-panel.ui.h:10
+msgid "Dates"
+msgstr "Datak"
+
+#: panels/region/cinnamon-region-panel.ui.h:11
+msgid "Times"
+msgstr "Orduak"
+
+#: panels/region/cinnamon-region-panel.ui.h:12
+msgid "Numbers"
+msgstr "Zenbakiak"
+
+#: panels/region/cinnamon-region-panel.ui.h:13
+msgid "Currency"
+msgstr "Moneta"
+
+#: panels/region/cinnamon-region-panel.ui.h:14
+msgid "Measurement"
+msgstr "Neurria"
+
+#: panels/region/cinnamon-region-panel.ui.h:15
+msgid "Examples"
+msgstr "Adibideak"
+
+#: panels/region/cinnamon-region-panel.ui.h:16
+msgid "Formats"
+msgstr "Formatuak"
+
+#: panels/region/cinnamon-region-panel.ui.h:17
+msgid "Add Layout"
+msgstr "Gehitu diseinua"
+
+#: panels/region/cinnamon-region-panel.ui.h:18
+msgid "Remove Layout"
+msgstr "Kendu diseinua"
+
+#: panels/region/cinnamon-region-panel.ui.h:19
+msgid "Move Up"
+msgstr "Eraman gora"
+
+#: panels/region/cinnamon-region-panel.ui.h:20
+msgid "Move Down"
+msgstr "Eraman behera"
+
+#: panels/region/cinnamon-region-panel.ui.h:21
+msgid "Preview Layout"
+msgstr "Aurreikusi diseinua"
+
+#: panels/region/cinnamon-region-panel.ui.h:22
+msgid "Use the same layout for all windows"
+msgstr "Erabili diseinu berdina leiho guztietan"
+
+#: panels/region/cinnamon-region-panel.ui.h:23
+msgid "Allow different layouts for individual windows"
+msgstr "Baimendu diseinu desberdina leiho bakoitzarentzako"
+
+#: panels/region/cinnamon-region-panel.ui.h:24
+msgid "New windows use the default layout"
+msgstr "Erabili diseinu lehenetsia leiho berrietan"
+
+#: panels/region/cinnamon-region-panel.ui.h:25
+msgid "New windows use the previous window's layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:27
+msgid "View and edit keyboard layout options"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:28
+msgid "Reset to De_faults"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:29
+msgid ""
+"Replace the current keyboard layout settings with the\n"
+"default settings"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:31
+msgid "Keyboard Layouts"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:34
+msgid "Display language:"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:35
+msgid "Input source:"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:36
+msgid "Format:"
+msgstr "Formatua:"
+
+#: panels/region/cinnamon-region-panel.ui.h:37
+msgid "Your settings"
+msgstr "Zure ezarpenak"
+
+#: panels/region/cinnamon-region-panel.ui.h:38
+msgid "System settings"
+msgstr "Sistemaren ezarpenak"
+
+#: panels/region/cinnamon-region-panel.ui.h:40
+msgid "System"
+msgstr "Sistema"
+
+#: panels/screen/screen.ui.h:1
+msgid "Screen turns off"
+msgstr ""
+
+#: panels/screen/screen.ui.h:2
+msgid "30 seconds"
+msgstr "30 segundo"
+
+#: panels/screen/screen.ui.h:3
+msgid "1 minute"
+msgstr "Minutu 1"
+
+#: panels/screen/screen.ui.h:4
+msgid "2 minutes"
+msgstr "2 minutu"
+
+#: panels/screen/screen.ui.h:5
+msgid "3 minutes"
+msgstr "3 minutu"
+
+#: panels/screen/screen.ui.h:11
+msgid "_Dim screen to save power"
+msgstr ""
+
+#: panels/screen/screen.ui.h:12
+msgid "Brightness"
+msgstr "Distira"
+
+#: panels/screen/screen.ui.h:13
+msgid "_Turn screen off when inactive for:"
+msgstr ""
+
+#: panels/screen/screen.ui.h:14
+msgid "_Lock screen after:"
+msgstr ""
+
+#: panels/screen/screen.ui.h:15
+msgid "Require my password when waking from suspend"
+msgstr ""
+
+#: panels/screen/screen.ui.h:16
+msgid "Lock"
+msgstr "Blokeatu"
+
+#: panels/universal-access/uap.ui.h:5
+msgid "On screen keyboard"
+msgstr "Pantailako teklatua"
+
+#: panels/universal-access/uap.ui.h:6
+msgid "GOK"
+msgstr "GOK"
+
+#: panels/universal-access/uap.ui.h:7
+msgid "OnBoard"
+msgstr "OnBoard"
+
+#: panels/universal-access/uap.ui.h:8
+msgid "None"
+msgstr "Bat ere ez"
+
+#: panels/universal-access/uap.ui.h:10
+#, no-c-format
+msgid "75%"
+msgstr "75%"
+
+#: panels/universal-access/uap.ui.h:13
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#: panels/universal-access/uap.ui.h:16
+#, no-c-format
+msgid "125%"
+msgstr "125%"
+
+#: panels/universal-access/uap.ui.h:19
+#, no-c-format
+msgid "150%"
+msgstr "150%"
+
+#: panels/universal-access/uap.ui.h:21
+msgid "High Contrast"
+msgstr "Kontraste altua"
+
+#: panels/universal-access/uap.ui.h:22
+msgid "Beep on Caps and Num Lock"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:23
+msgid "Options..."
+msgstr "Aukerak..."
+
+#: panels/universal-access/uap.ui.h:24
+msgid "Screen Reader"
+msgstr "Pantaila-irakurlea"
+
+#: panels/universal-access/uap.ui.h:25
+msgid "Turn on or off:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:27
+msgid "Zoom in:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:28
+msgid "Zoom out:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:29
+msgid "Large Text"
+msgstr "Testu handiak"
+
+#: panels/universal-access/uap.ui.h:30
+msgid "Seeing"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:31
+msgid "Visual Alerts"
+msgstr "Abisu bisualak"
+
+#: panels/universal-access/uap.ui.h:32
+msgid "Use a visual indication when an alert sound occurs"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:33
+msgid "Flash the window title"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:34
+msgid "Flash the entire screen"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:35
+msgid "Closed Captioning"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:36
+msgid "Display a textual description of speech and sounds"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:37
+msgid "_Test flash"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:38
+msgid "Hearing"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:39
+msgid "On Screen Keyboard"
+msgstr "Pantailako teklatua"
+
+#: panels/universal-access/uap.ui.h:40
+msgid "Sticky Keys"
+msgstr "Tekla itsaskorrak"
+
+#: panels/universal-access/uap.ui.h:41
+msgid "Treats a sequence of modifier keys as a key combination"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:42
+msgid "_Disable if two keys are pressed together"
+msgstr "_Desgaitu bi tekla batera sakatzen badira"
+
+#: panels/universal-access/uap.ui.h:43
+msgid "Beep when a _modifer key is pressed"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:44
+msgid "Slow Keys"
+msgstr "Tekla geldoak"
+
+#: panels/universal-access/uap.ui.h:45
+msgid "Puts a delay between when a key is pressed and when it is accepted"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:46
+msgid "A_cceptance delay:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:48
+msgid "Short"
+msgstr "Laburra"
+
+#: panels/universal-access/uap.ui.h:49
+msgid "Slow keys typing delay"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:51
+msgid "Long"
+msgstr "Luzea"
+
+#: panels/universal-access/uap.ui.h:53
+msgid "Beep when a key is"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:55
+msgid "pressed"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:57
+msgid "accepted"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:59
+msgid "rejected"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:60
+msgid "Bounce Keys"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:61
+msgid "Ignores fast duplicate keypresses"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:62
+msgid "Acc_eptance delay:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:63
+msgid "Bounce keys typing delay"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:64
+msgid "Beep when a key is _rejected"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:65
+msgid "Enable by Keyboard"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:66
+msgid "Turn accessibility features on and off using the keyboard"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:67
+msgid "Typing"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:68
+msgid "Mouse Keys"
+msgstr "Saguaren teklak"
+
+#: panels/universal-access/uap.ui.h:69
+msgid "Control the pointer using the keypad"
+msgstr "Kontrolatu erakuslea teklatu numerikoarekin"
+
+#: panels/universal-access/uap.ui.h:70
+msgid "Video Mouse"
+msgstr "Bideo-sagua"
+
+#: panels/universal-access/uap.ui.h:71
+msgid "Control the pointer using the video camera."
+msgstr "Kontrolatu erakuslea bideo-kamera erabiliz."
+
+#: panels/universal-access/uap.ui.h:72
+msgid "Simulated Secondary Click"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:73
+msgid "Trigger a secondary click by holding down the primary button"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:74
+msgid "Secondary click delay"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:75
+msgid "Hover Click"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:76
+msgid "Trigger a click when the pointer hovers"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:77
+msgid "D_elay:"
+msgstr "_Atzerapena:"
+
+#: panels/universal-access/uap.ui.h:78
+msgid "Motion _threshold:"
+msgstr "_Mugimenduaren atalasea:"
+
+#: panels/universal-access/uap.ui.h:80
+msgid "Small"
+msgstr "Txikia"
+
+#: panels/universal-access/uap.ui.h:82
+msgid "Large"
+msgstr "Handia"
+
+#: panels/universal-access/uap.ui.h:83
+msgid "Mouse Settings"
+msgstr "Saguaren ezarpenak"
+
+#: panels/universal-access/uap.ui.h:84
+msgid "Pointing and Clicking"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:1
+msgid "Full Screen"
+msgstr "Pantaila osoa"
+
+#: panels/universal-access/zoom-options.ui.h:2
+msgid "Top Half"
+msgstr "Goiko erdia"
+
+#: panels/universal-access/zoom-options.ui.h:3
+msgid "Bottom Half"
+msgstr "Beheko erdia"
+
+#: panels/universal-access/zoom-options.ui.h:4
+msgid "Left Half"
+msgstr "Ezkerreko erdia"
+
+#: panels/universal-access/zoom-options.ui.h:5
+msgid "Right Half"
+msgstr "Eskuineko erdia"
+
+#: panels/universal-access/zoom-options.ui.h:6
+msgid "Zoom Options"
+msgstr "Zoomaren aukerak"
+
+#: panels/universal-access/zoom-options.ui.h:7
+msgid "Zoom"
+msgstr "Zooma"
+
+#: panels/universal-access/zoom-options.ui.h:8
+msgid "Magnification:"
+msgstr "Handitzea:"
+
+#: panels/universal-access/zoom-options.ui.h:9
+msgid "Follow mouse cursor"
+msgstr "Jarraitu saguaren kurtsoreari"
+
+#: panels/universal-access/zoom-options.ui.h:10
+msgid "Screen part:"
+msgstr "Pantaila-zatia:"
+
+#: panels/universal-access/zoom-options.ui.h:11
+msgid "Magnifier extends outside of screen"
+msgstr "Lupa pantailatik kanpo zabaltzen da"
+
+#: panels/universal-access/zoom-options.ui.h:12
+msgid "Keep magnifier cursor centered"
+msgstr "Mantendu luparen kurtsorea zentratuta"
+
+#: panels/universal-access/zoom-options.ui.h:13
+msgid "Magnifier cursor pushes contents around"
+msgstr "Luparen kurtsoreak edukia inguruan bultzatzen du"
+
+#: panels/universal-access/zoom-options.ui.h:14
+msgid "Magnifier cursor moves with contents"
+msgstr "Luparen kurtsorea edukiarekin mugitzen da"
+
+#: panels/universal-access/zoom-options.ui.h:15
+msgid "Magnifier Position:"
+msgstr "Luparen posizioa:"
+
+#: panels/universal-access/zoom-options.ui.h:16
+msgid "Magnifier"
+msgstr "Lupa"
+
+#: panels/universal-access/zoom-options.ui.h:17
+msgid "Thickness:"
+msgstr "Lodiera:"
+
+#: panels/universal-access/zoom-options.ui.h:19
+msgid "Thin"
+msgstr "Mehea"
+
+#: panels/universal-access/zoom-options.ui.h:21
+msgid "Thick"
+msgstr "Lodia"
+
+#: panels/universal-access/zoom-options.ui.h:22
+msgid "Length:"
+msgstr "Luzera:"
+
+#: panels/universal-access/zoom-options.ui.h:23
+msgid "Color:"
+msgstr "Kolorea:"
+
+#: panels/universal-access/zoom-options.ui.h:24
+msgid "Crosshairs:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:25
+msgid "Overlaps mouse cursor"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:26
+msgid "Crosshairs"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:27
+msgid "White on black:"
+msgstr "Zuria beltzean:"
+
+#: panels/universal-access/zoom-options.ui.h:28
+msgid "Brightness:"
+msgstr "Distira:"
+
+#: panels/universal-access/zoom-options.ui.h:29
+msgid "Contrast:"
+msgstr "Kontrastea:"
+
+#: panels/universal-access/zoom-options.ui.h:34
+msgid "Low"
+msgstr "Baxua"
+
+#: panels/universal-access/zoom-options.ui.h:36
+msgid "High"
+msgstr "Altua"
+
+#: panels/universal-access/zoom-options.ui.h:37
+msgid "Color Effects:"
+msgstr "Kolore-efektuak:"
+
+#: panels/universal-access/zoom-options.ui.h:38
+msgid "Color Effects"
+msgstr "Kolore-efektuak"
+
+#: generate_additional_files.py:53
+msgid "Brightness & Lock"
+msgstr "Distira eta blokeoa"
+
+#: generate_additional_files.py:53
+msgid "Screen brightness and lock settings"
+msgstr "Pantailaren distira eta blokeoaren ezarpenak"
+
+#: generate_additional_files.py:68 generate_additional_files.py:99
+msgid "Sound"
+msgstr "Soinua"
+
+#: generate_additional_files.py:68 generate_additional_files.py:99
+msgid "Change sound volume and sound events"
+msgstr "Aldatu soinuaren bolumena eta soinuaren gertaerak"
+
+#: generate_additional_files.py:83
+msgid "Color management settings"
+msgstr "Kolore-kudeaketaren ezarpenak"
+
+#: generate_additional_files.py:113
+msgid "Volume Control"
+msgstr "Bolumen-kontrola"
+
+#: generate_additional_files.py:113
+msgid "Show desktop volume control"
+msgstr "Erakutsi mahaigaineko bolumen-kontrola"
+
+#: generate_additional_files.py:128
+msgid "Power"
+msgstr "Energia"
+
+#: generate_additional_files.py:128
+msgid "Power management settings"
+msgstr "Energia kudeatzailearen ezarpenak"
+
+#: generate_additional_files.py:143
+msgid "Region & Language"
+msgstr "Eskualdea eta hizkuntza"
+
+#: generate_additional_files.py:143
+msgid "Change your region and language settings"
+msgstr "Aldatu zure eskualde eta hizkuntzaren ezarpenak"
+
+#: generate_additional_files.py:158
+msgid "Displays"
+msgstr "Pantailak"
+
+#: generate_additional_files.py:158
+msgid "Change resolution and position of monitors and projectors"
+msgstr "Aldatu pantaila eta proiektagailuen bereizmena eta posizioa"
+
+#: generate_additional_files.py:173
+msgid "Network settings"
+msgstr "Sareko ezarpenak"
+
+#: generate_additional_files.py:188
+msgid "Universal Access"
+msgstr "Sarbide unibertsala"
+
+#: generate_additional_files.py:188
+msgid "Universal Access Preferences"
+msgstr "Sarbide unibertsalaren hobespenak"

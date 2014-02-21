@@ -1,0 +1,2147 @@
+# Romanian translation for cinnamon-control-center
+# This file is distributed under the same license as the cinnamon-control-center package.
+# Mugurel Tudor <mugurelu@gnome.ro>, 2002, 2003.
+# Mișu Moldovan <dumol@gnome.ro> 2003, 2004.
+# Sebastian Ivan <sebastian.ivan@ubuntu.ro>, 2005.
+# Dan Damian <dand@gnome.ro>, 2005-2006.
+# Adi Roiban https://launchpad.net/~adiroiban, 2008, 2009
+# Lucian Adrian Grijincu https://launchpad.net/~lucian.grijincu, 2009
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2010, 2011.
+# Cătălin Bălan <laserbeam333@gmail.com>, 2010.
+# Lupescu Mircea <mircea.crazy@yahoo.com>, 2011.
+# Lupescu Mircea <mircea.crazy@gmail.com>, 2011.
+# Daniel Șerbănescu <cyber19rider@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: cinnamon-control-center\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=cinnamon-control-"
+"center&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-08-30 17:55+0100\n"
+"PO-Revision-Date: 2013-11-01 16:04+0000\n"
+"Last-Translator: Flaviu <flaviu@gmx.com>\n"
+"Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1 ? 0: (((n % 100 > 19) || ((n % 100 "
+"== 0) && (n != 0))) ? 2: 1));\n"
+"X-Launchpad-Export-Date: 2013-11-26 11:42+0000\n"
+"X-Generator: Launchpad (build 16840)\n"
+"Language: ro\n"
+
+#: panels/color/cc-color-panel.c:106
+msgid "Other profile…"
+msgstr "Alt profil..."
+
+#: panels/color/cc-color-panel.c:119
+msgid "Default: "
+msgstr "Implicit: "
+
+#: panels/color/cc-color-panel.c:126
+msgid "Colorspace: "
+msgstr "Spațiu de culoare: "
+
+#: panels/color/cc-color-panel.c:132
+msgid "Test profile: "
+msgstr "Profil de test: "
+
+#: panels/color/cc-color-panel.c:185 panels/color/color.ui.h:11
+msgid "Set for all users"
+msgstr "Configurare pentru toți utilizatorii"
+
+#: panels/color/cc-color-panel.c:192
+msgid "Create virtual device"
+msgstr "Creează dispozitiv virtual"
+
+#: panels/color/cc-color-panel.c:227
+msgid "Select ICC Profile File"
+msgstr "Alegeți un fișier profil ICC"
+
+#: panels/color/cc-color-panel.c:230
+msgid "_Import"
+msgstr "_Importă"
+
+#: panels/color/cc-color-panel.c:241
+msgid "Supported ICC profiles"
+msgstr "Profile ICC recunoscute"
+
+#: panels/color/cc-color-panel.c:248
+msgid "All files"
+msgstr "Toate fișierele"
+
+#: panels/color/cc-color-panel.c:638
+msgid "Available Profiles for Displays"
+msgstr "Profile disponibile pentru ecran"
+
+#: panels/color/cc-color-panel.c:642
+msgid "Available Profiles for Scanners"
+msgstr "Profile disponibile pentru scannere"
+
+#: panels/color/cc-color-panel.c:646
+msgid "Available Profiles for Printers"
+msgstr "Profile disponibile pentru imprimante"
+
+#: panels/color/cc-color-panel.c:650
+msgid "Available Profiles for Cameras"
+msgstr "Profile disponibile pentru camere video"
+
+#: panels/color/cc-color-panel.c:654
+msgid "Available Profiles for Webcams"
+msgstr "Profile disponibile pentru camere web"
+
+#: panels/color/cc-color-panel.c:659 panels/color/color.ui.h:2
+msgid "Available Profiles"
+msgstr "Profile disponibile"
+
+#: panels/color/cc-color-panel.c:935 panels/sound/gvc-mixer-dialog.c:1523
+#: panels/sound-nua/gvc-mixer-dialog.c:1596
+msgid "Device"
+msgstr "Dispozitiv"
+
+#: panels/color/cc-color-panel.c:970
+msgid "Calibration"
+msgstr "Calibrare"
+
+#: panels/color/cc-color-panel.c:1002
+msgid "Create a color profile for the selected device"
+msgstr "Creează un profil de culoare pentru dispozitivul ales"
+
+#: panels/color/cc-color-panel.c:1016 panels/color/cc-color-panel.c:1040
+msgid ""
+"The measuring instrument is not detected. Please check it is turned on and "
+"correctly connected."
+msgstr ""
+"Instrumentul de măsură nu este detectat. Verificați conexiunea și dacă este "
+"sau nu pornit."
+
+#: panels/color/cc-color-panel.c:1049
+msgid "The measuring instrument does not support printer profiling."
+msgstr "Instrumentul de măsură nu recunoaște profilurile pentru imprimantă."
+
+#: panels/color/cc-color-panel.c:1060
+msgid "The device type is not currently supported."
+msgstr "Tipul de dispozitiv nu este recunoscut."
+
+#: panels/color/cc-color-panel.c:1132
+msgid "Cannot remove automatically added profile"
+msgstr "Profilele adăugate automat nu pot fi șterse"
+
+#: panels/color/cc-color-panel.c:1463
+msgid "No profile"
+msgstr "Niciun profil"
+
+#: panels/color/cc-color-panel.c:1494
+#, c-format
+msgid "%i year"
+msgid_plural "%i years"
+msgstr[0] "%i an"
+msgstr[1] "%i ani"
+msgstr[2] "%i de ani"
+
+#: panels/color/cc-color-panel.c:1505
+#, c-format
+msgid "%i month"
+msgid_plural "%i months"
+msgstr[0] "%i lună"
+msgstr[1] "%i luni"
+msgstr[2] "%i de luni"
+
+#: panels/color/cc-color-panel.c:1516
+#, c-format
+msgid "%i week"
+msgid_plural "%i weeks"
+msgstr[0] "%i săptămână"
+msgstr[1] "%i săptămâni"
+msgstr[2] "%i de săptămâni"
+
+#: panels/color/cc-color-panel.c:1523
+msgid "Less than 1 week"
+msgstr "Mai puțin de o săptămână"
+
+#: panels/color/cc-color-panel.c:1713 panels/color/cc-color-panel.c:1754
+#: panels/color/cc-color-panel.c:1765 panels/color/cc-color-panel.c:1776
+msgid "Uncalibrated"
+msgstr "Necalibrat"
+
+#: panels/color/cc-color-panel.c:1716
+msgid "This device is not color managed."
+msgstr "Dispozitivul este fără gestiunea culorii."
+
+#: panels/color/cc-color-panel.c:1757
+msgid "This device is using manufacturing calibrated data."
+msgstr "Acest dispozitiv folosește date calibrate de producător."
+
+#: panels/color/cc-color-panel.c:1768
+msgid ""
+"This device does not have a profile suitable for whole-screen color "
+"correction."
+msgstr ""
+"Acest dispozitiv nu are un profil potrivit pentru corecția de culoare în "
+"modul pe tot ecranul."
+
+#: panels/color/cc-color-panel.c:1801
+msgid "This device has an old profile that may no longer be accurate."
+msgstr "Acest dispozitiv are un profil învechit, posibil imprecis."
+
+#: panels/color/cc-color-panel.c:1829
+msgid "Not specified"
+msgstr "Nespecificat(ă)"
+
+#: panels/color/cc-color-panel.c:2014
+msgid "No devices supporting color management detected"
+msgstr ""
+"Nu a fost detectat niciun dispozitiv care să recunoască administrarea "
+"profilurilor de culoare"
+
+#: panels/common/cc-common-language.c:533
+msgid "English"
+msgstr "Engleză"
+
+#: panels/common/cc-common-language.c:535
+msgid "British English"
+msgstr "Engleză Britanică"
+
+#: panels/common/cc-common-language.c:538
+msgid "German"
+msgstr "Germană"
+
+#: panels/common/cc-common-language.c:541
+msgid "French"
+msgstr "Franceză"
+
+#: panels/common/cc-common-language.c:544
+msgid "Spanish"
+msgstr "Spaniolă"
+
+#: panels/common/cc-common-language.c:546
+msgid "Chinese (simplified)"
+msgstr "Chineză (simplificată)"
+
+#: panels/common/cc-common-language.c:549
+msgid "Russian"
+msgstr "Rusă"
+
+#: panels/common/cc-common-language.c:552
+msgid "Arabic"
+msgstr "Arabă"
+
+#: panels/common/cc-common-language.c:581
+msgid "United States"
+msgstr "Statele Unite"
+
+#: panels/common/cc-common-language.c:582
+msgid "Germany"
+msgstr "Germania"
+
+#: panels/common/cc-common-language.c:583
+msgid "France"
+msgstr "Franța"
+
+#: panels/common/cc-common-language.c:584
+msgid "Spain"
+msgstr "Spania"
+
+#: panels/common/cc-common-language.c:585
+msgid "China"
+msgstr "China"
+
+#: panels/common/cc-language-chooser.c:301
+msgid "Select a region"
+msgstr "Alegeți o regiune"
+
+#: panels/common/gdm-languages.c:781
+msgid "Unspecified"
+msgstr "Nespecificat"
+
+#: panels/display/cc-display-panel.c:624 panels/display/cc-rr-labeler.c:449
+msgid "Mirrored Displays"
+msgstr "Afișaje oglindite"
+
+#: panels/display/cc-display-panel.c:648 panels/display/display-capplet.ui.h:1
+msgid "Monitor"
+msgstr "Monitor"
+
+#: panels/display/cc-display-panel.c:758
+#, c-format
+msgid "%d x %d (%s)"
+msgstr "%d x %d (%s)"
+
+#: panels/display/cc-display-panel.c:760
+#, c-format
+msgid "%d x %d"
+msgstr "%d x %d"
+
+#: panels/display/cc-display-panel.c:1669
+msgid ""
+"Select a monitor to change its properties; drag it to rearrange its "
+"placement."
+msgstr ""
+"Alegeți un monitor pentru a-i schimba proprietățile; trageți-l pentru a-l "
+"rearanja."
+
+#: panels/display/cc-display-panel.c:2185
+#: panels/display/cc-display-panel.c:2237
+#, c-format
+msgid "Failed to apply configuration: %s"
+msgstr "Eșec la aplicarea configurației: %s"
+
+#: panels/display/cc-display-panel.c:2265
+msgid "Could not save the monitor configuration"
+msgstr "Nu s-a putut salva configurația monitorului"
+
+#: panels/display/cc-display-panel.c:2325
+msgid "Could not detect displays"
+msgstr "Nu s-au putut detecta monitoarele"
+
+#: panels/display/cc-display-panel.c:2563
+msgid "Could not get screen information"
+msgstr "Nu s-au putut obține informații despre ecran"
+
+#: panels/network/cc-network-panel.c:661
+msgid "Network proxy"
+msgstr "Proxy rețea"
+
+#: panels/network/cc-network-panel.c:853 panels/network/net-vpn.c:278
+#, c-format
+msgid "%s VPN"
+msgstr "%s VPN"
+
+#: panels/network/cc-network-panel.c:920
+msgid "The system network services are not compatible with this version."
+msgstr ""
+"Serviciile de rețea ale sistemului nu sunt compatibile cu această versiune."
+
+#: panels/network/cc-network-panel.c:1108
+msgid "Air_plane Mode"
+msgstr "Modul a_vion"
+
+#: panels/network/net-device-mobile.c:222
+msgid "Add new connection"
+msgstr "Adaugă o nouă conexiune"
+
+#: panels/network/net-device-mobile.c:261 panels/network/net-device-wifi.c:725
+#: panels/network/net-device-wired.c:126
+#, c-format
+msgid "%d Mb/s"
+msgstr "%d Mb/s"
+
+#: panels/network/net-device-wifi.c:258 panels/network/net-device-wifi.c:437
+msgid "WEP"
+msgstr "WEP"
+
+#: panels/network/net-device-wifi.c:262 panels/network/net-device-wifi.c:441
+msgid "WPA"
+msgstr "WPA"
+
+#: panels/network/net-device-wifi.c:266
+msgid "WPA2"
+msgstr "WPA2"
+
+#: panels/network/net-device-wifi.c:271
+msgid "Enterprise"
+msgstr "Enterprise"
+
+#: panels/network/net-device-wifi.c:652
+msgid "never"
+msgstr "niciodată"
+
+#: panels/network/net-device-wifi.c:662
+msgid "today"
+msgstr "azi"
+
+#: panels/network/net-device-wifi.c:664
+msgid "yesterday"
+msgstr "ieri"
+
+#: panels/network/net-device-wifi.c:666
+#, c-format
+msgid "%i day ago"
+msgid_plural "%i days ago"
+msgstr[0] "acum %i zi"
+msgstr[1] "acum %i zile"
+msgstr[2] "acum %i de zile"
+
+#: panels/network/net-device-wifi.c:735 panels/network/panel-common.c:277
+msgid "Not connected"
+msgstr "Neconectat"
+
+#: panels/network/net-device-wifi.c:737 panels/network/net-device-wifi.c:2100
+msgid "Out of range"
+msgstr "În afara valorilor admise"
+
+#: panels/network/net-device-wifi.c:960
+#, c-format
+msgid ""
+"Network details for %s including password and any custom configuration will "
+"be lost."
+msgstr ""
+"Detaliile de rețea pentru %s incluzând parola și orice configurație "
+"personalizată vor fi pierdute."
+
+#: panels/network/net-device-wifi.c:971
+msgid "Forget"
+msgstr "Uită"
+
+#: panels/network/net-device-wifi.c:1554
+msgid ""
+"If you have a connection to the Internet other than wireless, you can use it "
+"to share your internet connection with others."
+msgstr ""
+"Dacă ai o conexiune la Internet alta decât wireless, o poți folosi pentru "
+"partajarea conexiunii la internet cu alții."
+
+#: panels/network/net-device-wifi.c:1558
+#, c-format
+msgid "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+msgstr "Pornind hotspot-ul wireless te va deconecta de la <b>%s</b>."
+
+#: panels/network/net-device-wifi.c:1562
+msgid ""
+"It is not possible to access the internet through your wireless while the "
+"hotspot is active."
+msgstr ""
+"Nu este posibilă accesarea internetului wireless în timp ce hotspot-ul este "
+"activ."
+
+#: panels/network/net-device-wifi.c:1628
+msgid "Stop hotspot and disconnect any users?"
+msgstr "Oprești hotspot-ul și deconectezi utilizatorii?"
+
+#: panels/network/net-device-wifi.c:1631
+msgid "_Stop Hotspot"
+msgstr "Oprire hot_spot"
+
+#: panels/network/net-proxy.c:67
+msgid ""
+"Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+msgstr ""
+"Autodescoperirea proxy-ului web este utilizată când nu a fost furnizat un "
+"URL de configurare."
+
+#: panels/network/net-proxy.c:75
+msgid "This is not recommended for untrusted public networks."
+msgstr "Această opțiune nu este recomandată pentru rețelele publice."
+
+#: panels/network/net-proxy.c:368
+msgid "Proxy"
+msgstr "Proxy"
+
+#: panels/network/panel-common.c:82 panels/network/panel-common.c:162
+msgid "Unknown"
+msgstr "Necunoscut"
+
+#: panels/network/panel-common.c:86
+msgid "Wired"
+msgstr "Cu fir"
+
+#: panels/network/panel-common.c:90 panels/network/network-wifi.ui.h:3
+msgid "Wireless"
+msgstr "Fără fir"
+
+#: panels/network/panel-common.c:97
+msgid "Mobile broadband"
+msgstr "Internet mobil de bandă largă"
+
+#: panels/network/panel-common.c:102
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: panels/network/panel-common.c:106
+msgid "Mesh"
+msgstr "Mesh"
+
+#: panels/network/panel-common.c:166
+msgid "Ad-hoc"
+msgstr "Ad-hoc"
+
+#: panels/network/panel-common.c:170
+msgid "Infrastructure"
+msgstr "Infrastructură"
+
+#: panels/network/panel-common.c:194 panels/network/panel-common.c:255
+msgid "Status unknown"
+msgstr "Stare necunoscută"
+
+#: panels/network/panel-common.c:198
+msgid "Unmanaged"
+msgstr "Negestionat"
+
+#: panels/network/panel-common.c:203
+msgid "Firmware missing"
+msgstr "Lipsă firmware"
+
+#: panels/network/panel-common.c:206
+msgid "Cable unplugged"
+msgstr "Cablul este deconectat"
+
+#: panels/network/panel-common.c:208
+msgid "Unavailable"
+msgstr "Indisponibil"
+
+#: panels/network/panel-common.c:212
+msgid "Disconnected"
+msgstr "Deconectat"
+
+#: panels/network/panel-common.c:219 panels/network/panel-common.c:261
+msgid "Connecting"
+msgstr "Se conectează"
+
+#: panels/network/panel-common.c:223 panels/network/panel-common.c:265
+msgid "Authentication required"
+msgstr "Autentificare necesară"
+
+#: panels/network/panel-common.c:227 panels/network/panel-common.c:269
+msgid "Connected"
+msgstr "Conectat"
+
+#: panels/network/panel-common.c:231
+msgid "Disconnecting"
+msgstr "Se deconectează"
+
+#: panels/network/panel-common.c:235 panels/network/panel-common.c:273
+msgid "Connection failed"
+msgstr "Conexiunea a eșuat"
+
+#: panels/network/panel-common.c:239 panels/network/panel-common.c:281
+msgid "Status unknown (missing)"
+msgstr "Stare necunoscută (lipsește)"
+
+#: panels/network/panel-common.c:301
+msgid "Configuration failed"
+msgstr "Configurație eșuată"
+
+#: panels/network/panel-common.c:305
+msgid "IP configuration failed"
+msgstr "Configurație IP eșuată"
+
+#: panels/network/panel-common.c:309
+msgid "IP configuration expired"
+msgstr "Configurație IP expired"
+
+#: panels/network/panel-common.c:313
+msgid "Secrets were required, but not provided"
+msgstr "Au fost solicitate elemente de secretizare dar nu au fost furnizate"
+
+#: panels/network/panel-common.c:317
+msgid "802.1x supplicant disconnected"
+msgstr "Solicitant 802.1x deconectat"
+
+#: panels/network/panel-common.c:321
+msgid "802.1x supplicant configuration failed"
+msgstr "Configurație de solicitant 802.1x eșuată"
+
+#: panels/network/panel-common.c:325
+msgid "802.1x supplicant failed"
+msgstr "Solicitant 802.1x eșuat"
+
+#: panels/network/panel-common.c:329
+msgid "802.1x supplicant took too long to authenticate"
+msgstr "Solicitantul 802.1x a luat prea mult timp pentru autentificare"
+
+#: panels/network/panel-common.c:333
+msgid "PPP service failed to start"
+msgstr "Pornirea serviciului PPP a eșuat"
+
+#: panels/network/panel-common.c:337
+msgid "PPP service disconnected"
+msgstr "Serviciul PPP este deconectat"
+
+#: panels/network/panel-common.c:341
+msgid "PPP failed"
+msgstr "PPP a eșuat"
+
+#: panels/network/panel-common.c:345
+msgid "DHCP client failed to start"
+msgstr "A eșuat pornirea clientului DHCP"
+
+#: panels/network/panel-common.c:349
+msgid "DHCP client error"
+msgstr "Eroare client DHCP"
+
+#: panels/network/panel-common.c:353
+msgid "DHCP client failed"
+msgstr "Clientul DHCP a eșuat"
+
+#: panels/network/panel-common.c:357
+msgid "Shared connection service failed to start"
+msgstr "Pornirea serviciului de conexiune partajată a eșuat"
+
+#: panels/network/panel-common.c:361
+msgid "Shared connection service failed"
+msgstr "Serviciul de conexiune partajată a eșuat"
+
+#: panels/network/panel-common.c:365
+msgid "AutoIP service failed to start"
+msgstr "A eșuat pornirea serviciului AutoIP"
+
+#: panels/network/panel-common.c:369
+msgid "AutoIP service error"
+msgstr "Eroare serviciu AutoIP"
+
+#: panels/network/panel-common.c:373
+msgid "AutoIP service failed"
+msgstr "Serviciul AutoIP a eșuat"
+
+#: panels/network/panel-common.c:377
+msgid "Line busy"
+msgstr "Linie ocupată"
+
+#: panels/network/panel-common.c:381
+msgid "No dial tone"
+msgstr "Fără ton"
+
+#: panels/network/panel-common.c:385
+msgid "No carrier could be established"
+msgstr "Nu poate fi stabilit niciun serviciu purtător"
+
+#: panels/network/panel-common.c:389
+msgid "Dialing request timed out"
+msgstr "Timp de apel expirat"
+
+#: panels/network/panel-common.c:393
+msgid "Dialing attempt failed"
+msgstr "Încercare de apel eșuată"
+
+#: panels/network/panel-common.c:397
+msgid "Modem initialization failed"
+msgstr "Inițializarea modemului a eșuat"
+
+#: panels/network/panel-common.c:401
+msgid "Failed to select the specified APN"
+msgstr "Eșec la selectarea APN-ului solicitat"
+
+#: panels/network/panel-common.c:405
+msgid "Not searching for networks"
+msgstr "Nu se caută rețele"
+
+#: panels/network/panel-common.c:409
+msgid "Network registration denied"
+msgstr "Înregistrarea în rețea a fost refuzată"
+
+#: panels/network/panel-common.c:413
+msgid "Network registration timed out"
+msgstr "Înregistrarea în rețea a expirat"
+
+#: panels/network/panel-common.c:417
+msgid "Failed to register with the requested network"
+msgstr "Eșec la înregistrarea în rețeaua solicitată"
+
+#: panels/network/panel-common.c:421
+msgid "PIN check failed"
+msgstr "Verificarea PIN-ului a eșuat"
+
+#: panels/network/panel-common.c:425
+msgid "Firmware for the device may be missing"
+msgstr "Firmware-ul pentru acest dispozitiv s-ar putea să lipsească"
+
+#: panels/network/panel-common.c:429
+msgid "Connection disappeared"
+msgstr "Conexiune dispărută"
+
+#: panels/network/panel-common.c:433
+msgid "Carrier/link changed"
+msgstr "Legătura/purtătorul s-a modificat"
+
+#: panels/network/panel-common.c:437
+msgid "Existing connection was assumed"
+msgstr "S-a preluat conexiunea existentă"
+
+#: panels/network/panel-common.c:441
+msgid "Modem not found"
+msgstr "Modem negăsit"
+
+#: panels/network/panel-common.c:445
+msgid "Bluetooth connection failed"
+msgstr "Conexiune Bluetooth eșuată"
+
+#: panels/network/panel-common.c:449
+msgid "SIM Card not inserted"
+msgstr "Cartela SIM neinserată"
+
+#: panels/network/panel-common.c:453
+msgid "SIM Pin required"
+msgstr "Pin SIM necesar"
+
+#: panels/network/panel-common.c:457
+msgid "SIM Puk required"
+msgstr "Puk SIM necesar"
+
+#: panels/network/panel-common.c:461
+msgid "SIM wrong"
+msgstr "SIM greșit"
+
+#: panels/network/panel-common.c:465
+msgid "InfiniBand device does not support connected mode"
+msgstr "Dispozitivul InfiniBand nu suportă modul conectat"
+
+#: panels/network/panel-common.c:469
+msgid "Connection dependency failed"
+msgstr "Dependeță de conectare eșuată"
+
+#: panels/network/panel-common.c:683 panels/network/network-wifi.ui.h:13
+#: panels/network/network-wired.ui.h:2
+msgid "IPv4 Address"
+msgstr "Adresă IPv4"
+
+#: panels/network/panel-common.c:684 panels/network/network-mobile.ui.h:4
+#: panels/network/network-wifi.ui.h:14 panels/network/network-wired.ui.h:3
+msgid "IPv6 Address"
+msgstr "Adresă IPv6"
+
+#: panels/network/panel-common.c:686 panels/network/panel-common.c:688
+#: panels/network/network-mobile.ui.h:3
+msgid "IP Address"
+msgstr "Adresă IP"
+
+#: panels/power/cc-power-panel.c:166
+msgid "Unknown time"
+msgstr "Timp necunoscut"
+
+#: panels/power/cc-power-panel.c:172
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "un minut"
+msgstr[1] "%i minute"
+msgstr[2] "%i de minute"
+
+#: panels/power/cc-power-panel.c:184
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] "o oră"
+msgstr[1] "%i ore"
+msgstr[2] "%i de ore"
+
+#: panels/power/cc-power-panel.c:192
+#, c-format
+msgid "%i %s %i %s"
+msgstr "%i %s %i %s"
+
+#: panels/power/cc-power-panel.c:193
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "oră"
+msgstr[1] "ore"
+msgstr[2] "de ore"
+
+#: panels/power/cc-power-panel.c:194
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minut"
+msgstr[1] "minute"
+msgstr[2] "de minute"
+
+#: panels/power/cc-power-panel.c:237
+#, c-format
+msgid "Charging - %s until fully charged"
+msgstr "Se încarcă - %s până la încărcarea completă"
+
+#: panels/power/cc-power-panel.c:245
+#, c-format
+msgid "Caution low battery, %s remaining"
+msgstr "Atenție baterie consumată, disponibil %s"
+
+#: panels/power/cc-power-panel.c:253
+#, c-format
+msgid "Using battery power - %s remaining"
+msgstr "Se folosește bateria - disponibil %s"
+
+#: panels/power/cc-power-panel.c:270
+msgid "Charging"
+msgstr "Se încarcă"
+
+#: panels/power/cc-power-panel.c:275
+msgid "Using battery power"
+msgstr "Se utilizeză bateria"
+
+#: panels/power/cc-power-panel.c:279
+msgid "Charging - fully charged"
+msgstr "Se încarcă - încărcare completă"
+
+#: panels/power/cc-power-panel.c:283
+msgid "Empty"
+msgstr "Gol"
+
+#: panels/power/cc-power-panel.c:351
+#, c-format
+msgid "Caution low UPS, %s remaining"
+msgstr "Atenție UPS descărcat, disponibil %s"
+
+#: panels/power/cc-power-panel.c:357
+#, c-format
+msgid "Using UPS power - %s remaining"
+msgstr "Se utilizează UPS - disponibil %s"
+
+#: panels/power/cc-power-panel.c:375
+msgid "Caution low UPS"
+msgstr "Atenție UPS descărcat"
+
+#: panels/power/cc-power-panel.c:380
+msgid "Using UPS power"
+msgstr "Se utilizează UPS"
+
+#: panels/power/cc-power-panel.c:432
+msgid "Your secondary battery is fully charged"
+msgstr "Bateria secundară este încărcată complet"
+
+#: panels/power/cc-power-panel.c:436
+msgid "Your secondary battery is empty"
+msgstr "Bateria secundară este descărcată complet"
+
+#: panels/power/cc-power-panel.c:519
+msgid "Wireless mouse"
+msgstr "Maus wireless"
+
+#: panels/power/cc-power-panel.c:523
+msgid "Wireless keyboard"
+msgstr "Tastatură wireless"
+
+#: panels/power/cc-power-panel.c:527
+msgid "Uninterruptible power supply"
+msgstr "Sursă de curent neîntreruptibilă"
+
+#: panels/power/cc-power-panel.c:531
+msgid "Personal digital assistant"
+msgstr "Asistent personal digital"
+
+#: panels/power/cc-power-panel.c:535
+msgid "Cellphone"
+msgstr "Telefon mobil"
+
+#: panels/power/cc-power-panel.c:539
+msgid "Media player"
+msgstr "Player media"
+
+#: panels/power/cc-power-panel.c:543
+msgid "Tablet"
+msgstr "Tabletă"
+
+#: panels/power/cc-power-panel.c:547
+msgid "Computer"
+msgstr "Calculator"
+
+#: panels/power/cc-power-panel.c:551
+msgid "Battery"
+msgstr "Baterie"
+
+#: panels/region/cc-region-panel.c:178
+msgid "Get more languages..."
+msgstr "Obține mai multe limbi..."
+
+#: panels/region/cinnamon-region-panel-formats.c:142
+msgid "Imperial"
+msgstr "Imperial"
+
+#: panels/region/cinnamon-region-panel-formats.c:144
+msgid "Metric"
+msgstr "Metric"
+
+#: panels/region/cinnamon-region-panel-system.c:420
+msgid ""
+"The login screen, system accounts and new user accounts use the system-wide "
+"Region and Language settings."
+msgstr ""
+"Ecranul de autentificare, conturile de sistem și conturile de utilizator noi "
+"folosesc configurările pentru regiune și limbă ale sistemului."
+
+#: panels/region/cinnamon-region-panel-system.c:425
+#: panels/region/cinnamon-region-panel.ui.h:32
+msgid ""
+"The login screen, system accounts and new user accounts use the system-wide "
+"Region and Language settings. You may change the system settings to match "
+"yours."
+msgstr ""
+"Ecranul de autentificare, conturile de sistem și conturile de utilizator noi "
+"folosesc configurările pentru regiune și limbă ale sistemului. Puteți "
+"schimba configurările de sistem pentru a se potrivi cu ale dumneavoastră."
+
+#: panels/region/cinnamon-region-panel-system.c:428
+msgid "Copy Settings"
+msgstr "Copiază configurări"
+
+#: panels/region/cinnamon-region-panel-system.c:431
+#: panels/region/cinnamon-region-panel.ui.h:39
+msgid "Copy Settings..."
+msgstr "Copiază configurări..."
+
+#: panels/region/cinnamon-region-panel-xkblt.c:210
+msgid "Layout"
+msgstr "Aranjament"
+
+#: panels/region/cinnamon-region-panel-xkbot.c:229
+msgid "Default"
+msgstr "Implicit"
+
+#: panels/sound/applet-main.c:49
+msgid "Enable debugging code"
+msgstr "Activează codul pentru depanare"
+
+#: panels/sound/applet-main.c:50
+msgid "Version of this application"
+msgstr "Versiunea acestei aplicații"
+
+#: panels/sound/applet-main.c:62
+msgid " — Cinnamon Volume Control Applet"
+msgstr " — Applet de control a volumului Cinnamon"
+
+#: panels/sound/gvc-applet.c:270 panels/sound/gvc-mixer-dialog.c:1654
+#: panels/sound-nua/gvc-mixer-dialog.c:1748
+msgid "Output"
+msgstr "Ieșire"
+
+#: panels/sound/gvc-applet.c:272
+msgid "Sound Output Volume"
+msgstr "Volum ieșire"
+
+#: panels/sound/gvc-applet.c:276 panels/sound/gvc-mixer-dialog.c:1695
+#: panels/sound-nua/gvc-mixer-dialog.c:1881
+msgid "Input"
+msgstr "Intrare"
+
+#: panels/sound/gvc-applet.c:278
+msgid "Microphone Volume"
+msgstr "Volum microfon"
+
+#: panels/sound/gvc-balance-bar.c:295 panels/sound-nua/gvc-balance-bar.c:295
+msgid "_Balance:"
+msgstr "_Balans:"
+
+#: panels/sound/gvc-balance-bar.c:298 panels/sound-nua/gvc-balance-bar.c:298
+msgid "_Fade:"
+msgstr "Es_tompare:"
+
+#: panels/sound/gvc-balance-bar.c:301 panels/sound-nua/gvc-balance-bar.c:301
+msgid "_Subwoofer:"
+msgstr "_Subwoofer:"
+
+#: panels/sound/gvc-combo-box.c:167 panels/sound/gvc-mixer-dialog.c:258
+#: panels/sound/gvc-mixer-dialog.c:519
+msgid "_Profile:"
+msgstr "_Profil:"
+
+#: panels/sound/gvc-mixer-control.c:1834
+msgid "Disabled"
+msgstr "Dezactivat"
+
+#: panels/sound/gvc-mixer-control.c:1841
+#, c-format
+msgid "%u Output"
+msgid_plural "%u Outputs"
+msgstr[0] "o ieșire"
+msgstr[1] "%u ieșiri"
+msgstr[2] "%u de ieșiri"
+
+#: panels/sound/gvc-mixer-control.c:1851
+#, c-format
+msgid "%u Input"
+msgid_plural "%u Inputs"
+msgstr[0] "o intrare"
+msgstr[1] "%u intrări"
+msgstr[2] "%u de intrări"
+
+#: panels/sound/gvc-mixer-control.c:2375
+msgid "System Sounds"
+msgstr "Sunete de sistem"
+
+#: panels/sound/gvc-mixer-dialog.c:260
+msgid "_Test Speakers"
+msgstr "_Testare boxe"
+
+#: panels/sound/gvc-mixer-dialog.c:424 panels/sound-nua/gvc-mixer-dialog.c:341
+msgid "Peak detect"
+msgstr "Detecție vârf"
+
+#: panels/sound/gvc-mixer-dialog.c:1504
+#: panels/sound-nua/gvc-mixer-dialog.c:1578
+msgid "Name"
+msgstr "Nume"
+
+#: panels/sound/gvc-mixer-dialog.c:1586
+#: panels/sound-nua/gvc-mixer-dialog.c:1680
+#, c-format
+msgid "Speaker Testing for %s"
+msgstr "Test de difuzor pentru %s"
+
+#: panels/sound/gvc-mixer-dialog.c:1640
+#: panels/sound-nua/gvc-mixer-dialog.c:2016
+msgid "_Output volume:"
+msgstr "V_olum ieșire:"
+
+#: panels/sound/gvc-mixer-dialog.c:1659
+msgid "C_hoose a device for sound output:"
+msgstr "Ale_geți un dispozitiv pentru ieșire sunet:"
+
+#: panels/sound/gvc-mixer-dialog.c:1684
+msgid "Settings for the selected device:"
+msgstr "Configurări pentru dispozitivul selectat:"
+
+#: panels/sound/gvc-mixer-dialog.c:1702
+#: panels/sound-nua/gvc-mixer-dialog.c:1928
+msgid "_Input volume:"
+msgstr "Volum _intrare:"
+
+#: panels/sound/gvc-mixer-dialog.c:1725
+#: panels/sound-nua/gvc-mixer-dialog.c:1961
+msgid "Input level:"
+msgstr "Nivel intrare:"
+
+#: panels/sound/gvc-mixer-dialog.c:1753
+msgid "C_hoose a device for sound input:"
+msgstr "Ale_geți un dispozitiv pentru intrare sunet:"
+
+#: panels/sound/gvc-mixer-dialog.c:1780
+#: panels/sound-nua/gvc-mixer-dialog.c:1982
+msgid "Sound Effects"
+msgstr "Efecte sonore"
+
+#: panels/sound/gvc-mixer-dialog.c:1787
+#: panels/sound-nua/gvc-mixer-dialog.c:1989
+msgid "_Alert volume:"
+msgstr "Volum _alerte:"
+
+#: panels/sound/gvc-mixer-dialog.c:1795
+#: panels/sound-nua/gvc-mixer-dialog.c:1997
+msgid "Applications"
+msgstr "Aplicații"
+
+#: panels/sound/gvc-mixer-dialog.c:1799
+#: panels/sound-nua/gvc-mixer-dialog.c:2001
+msgid "No application is currently playing or recording audio."
+msgstr "Nicio aplicație nu redă sau înregistrează sunete acest moment."
+
+#: panels/sound/gvc-speaker-test.c:220
+msgid "Stop"
+msgstr "Stop"
+
+#: panels/sound/gvc-speaker-test.c:220 panels/sound/gvc-speaker-test.c:332
+msgid "Test"
+msgstr "Test"
+
+#: panels/sound/gvc-speaker-test.c:228
+msgid "Subwoofer"
+msgstr "Subwoofer"
+
+#: panels/sound/gvc-stream-status-icon.c:236
+#, c-format
+msgid "Failed to start Sound Preferences: %s"
+msgstr "Pornirea Preferințelor sunet a eșuat: %s"
+
+#: panels/sound/gvc-stream-status-icon.c:262
+msgid "_Mute"
+msgstr "_Mut"
+
+#: panels/sound/gvc-stream-status-icon.c:271
+msgid "_Sound Preferences"
+msgstr "Preferințe _sunet"
+
+#: panels/sound/gvc-stream-status-icon.c:416
+msgid "Muted"
+msgstr "Muțit"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:774
+#: panels/sound-nua/gvc-mixer-dialog.c:944
+#, c-format
+msgid "Settings for %s"
+msgstr "Configurări pentru %s"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:800
+#: panels/sound-nua/gvc-mixer-dialog.c:953
+msgid "Mode:"
+msgstr "Mod:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1753
+msgid "Play sound through"
+msgstr "Redare sunet prin"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1778
+#: panels/sound-nua/gvc-mixer-dialog.c:1910
+msgid "Settings for the selected device"
+msgstr "Configurări pentru dispozitivul selectat"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1851
+msgid "Test:"
+msgstr "Test:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1858
+msgid "Test Sound"
+msgstr "Testează sunet"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1885
+msgid "Record sound from"
+msgstr "Înregistrează sunet de la"
+
+#: panels/universal-access/cc-ua-panel.c:289
+#: panels/universal-access/cc-ua-panel.c:295
+msgid "No shortcut set"
+msgstr "Nicio scurtătură definită"
+
+#: shell/cc-shell-nav-bar.c:117
+msgid "_All Settings"
+msgstr "To_ate configurările"
+
+#: shell/control-center.c:58
+msgid "Enable verbose mode"
+msgstr "Activează modul volubil"
+
+#: shell/control-center.c:59
+msgid "Show the overview"
+msgstr "Afișează prezentarea generală"
+
+#: shell/control-center.c:60 shell/control-center.c:61
+#: shell/control-center.c:62
+msgid "Show help options"
+msgstr "Arată opțiunile de ajutor"
+
+#: shell/control-center.c:63
+msgid "Panel to display"
+msgstr "Panou de afișat"
+
+#: shell/control-center.c:85
+msgid "- System Settings"
+msgstr "- Configurări de sistem"
+
+#: shell/control-center.c:93
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Executați „%s --help” pentru a vedea întreaga listă a comenzilor "
+"disponibile.\n"
+
+#: shell/control-center.c:215
+msgid "Help"
+msgstr "Ajutor"
+
+#: shell/control-center.c:216
+msgid "Quit"
+msgstr "Ieşi"
+
+#: panels/color/color.ui.h:3 generate_additional_files.py:83
+msgid "Color"
+msgstr "Culoare"
+
+#: panels/color/color.ui.h:4
+msgid "Each device needs an up to date color profile to be color managed."
+msgstr ""
+"Pentru a fi administrat, fiecare dispozitiv are nevoie de actualizarea "
+"profilului de culoare ."
+
+#: panels/color/color.ui.h:5
+msgid "Learn more"
+msgstr "Află mai multe"
+
+#: panels/color/color.ui.h:6
+msgid "Learn more about color management"
+msgstr "Află mai multe despre administrarea profilurilor de culoare"
+
+#: panels/color/color.ui.h:7
+msgid "Add device"
+msgstr "Adaugă dispozitiv"
+
+#: panels/color/color.ui.h:8
+msgid "Add a virtual device"
+msgstr "Adaugă un dispozitiv virtual"
+
+#: panels/color/color.ui.h:9
+msgid "Delete device"
+msgstr "Șterge dispozitiv"
+
+#: panels/color/color.ui.h:10
+msgid "Remove a device"
+msgstr "Elimină un dispozitiv"
+
+#: panels/color/color.ui.h:12
+msgid "Set this profile for all users on this computer"
+msgstr "Setează acest profil pentru toți utilizatorii de pe acest calculator"
+
+#: panels/color/color.ui.h:13
+msgid "Add profile"
+msgstr "Adăugă profil"
+
+#: panels/color/color.ui.h:14
+msgid "Calibrate…"
+msgstr "Se calibrează..."
+
+#: panels/color/color.ui.h:15
+msgid "Calibrate the device"
+msgstr "Calibrează dispozitivul"
+
+#: panels/color/color.ui.h:16
+msgid "Remove profile"
+msgstr "Eliminare profil"
+
+#: panels/color/color.ui.h:17
+msgid "View details"
+msgstr "Vezi detaliile"
+
+#: panels/color/color.ui.h:18
+msgid "Device type:"
+msgstr "Tip de dispozitiv:"
+
+#: panels/color/color.ui.h:19
+msgid "Manufacturer:"
+msgstr "Producător:"
+
+#: panels/color/color.ui.h:20
+msgid "Model:"
+msgstr "Model:"
+
+#: panels/color/color.ui.h:21
+msgid ""
+"Image files can be dragged on this window to auto-complete the above fields."
+msgstr ""
+"Poți adăuga fișiere imagine în această fereastră pentru auto-completarea "
+"câmpurilor de mai sus."
+
+#: panels/common/language-chooser.ui.h:1
+msgid "Select a language"
+msgstr "Selectează o limbă"
+
+#: panels/common/language-chooser.ui.h:2
+msgid "_Cancel"
+msgstr "Anulează"
+
+#: panels/common/language-chooser.ui.h:3
+msgid "_Select"
+msgstr "_Selectează"
+
+#: panels/display/display-capplet.ui.h:2
+msgid "Set as Primary"
+msgstr "Stabilește ca principal"
+
+#: panels/display/display-capplet.ui.h:3
+msgid "_Resolution"
+msgstr "_Rezoluție"
+
+#: panels/display/display-capplet.ui.h:4
+msgid "R_otation"
+msgstr "R_otație"
+
+#: panels/display/display-capplet.ui.h:6
+msgid "_Mirror displays"
+msgstr "Oglindește _monitoarele"
+
+#: panels/display/display-capplet.ui.h:7
+msgid "Note: may limit resolution options"
+msgstr "Notă: poate limita opțiunile de rezoluție"
+
+#: panels/display/display-capplet.ui.h:8
+msgid "_Detect Displays"
+msgstr "_Detectează monitoarele"
+
+#: panels/network/network-mobile.ui.h:1
+msgid "IMEI"
+msgstr "IMEI"
+
+#: panels/network/network-mobile.ui.h:2
+msgid "Provider"
+msgstr "Furnizor"
+
+#: panels/network/network-mobile.ui.h:5 panels/network/network-wifi.ui.h:15
+#: panels/network/network-wired.ui.h:4
+msgid "Default Route"
+msgstr "Rută implicită"
+
+#: panels/network/network-mobile.ui.h:6 panels/network/network-wifi.ui.h:16
+#: panels/network/network-wired.ui.h:5
+msgid "DNS"
+msgstr "DNS"
+
+#: panels/network/network-mobile.ui.h:7 generate_additional_files.py:173
+msgid "Network"
+msgstr "Rețea"
+
+#: panels/network/network-mobile.ui.h:8 panels/network/network-wired.ui.h:6
+#: panels/region/cinnamon-region-panel.ui.h:26
+msgid "_Options..."
+msgstr "_Opțiuni..."
+
+#: panels/network/network-proxy.ui.h:4
+msgid "_Method"
+msgstr "_Metodă"
+
+#: panels/network/network-proxy.ui.h:5
+msgid "_Configuration URL"
+msgstr "_URL de configurație"
+
+#: panels/network/network-proxy.ui.h:6
+msgid "_HTTP Proxy"
+msgstr "Proxy _HTTP"
+
+#: panels/network/network-proxy.ui.h:7
+msgid "H_TTPS Proxy"
+msgstr "Proxy H_TTPS"
+
+#: panels/network/network-proxy.ui.h:8
+msgid "_FTP Proxy"
+msgstr "Proxy _FTP"
+
+#: panels/network/network-proxy.ui.h:9
+msgid "_Socks Host"
+msgstr "Gazdă _socks"
+
+#: panels/network/network.ui.h:1
+msgid "Select the interface to use for the new service"
+msgstr "Alege interfața de utilizat pentru noul serviciu"
+
+#: panels/network/network.ui.h:2
+msgid "C_reate..."
+msgstr "C_reează"
+
+#: panels/network/network.ui.h:3
+msgid "_Interface"
+msgstr "_Interfață"
+
+#: panels/network/network.ui.h:4 panels/network/network-vpn.ui.h:1
+msgid "VPN"
+msgstr "VPN"
+
+#: panels/network/network.ui.h:8
+msgid "Add Device"
+msgstr "Adaugă dispozitiv"
+
+#: panels/network/network.ui.h:9
+msgid "Remove Device"
+msgstr "Elimină dispozitiv"
+
+#: panels/network/network-vpn.ui.h:2
+msgid "VPN Type"
+msgstr "Tip de VPN"
+
+#: panels/network/network-vpn.ui.h:3
+msgid "Gateway"
+msgstr "Poartă de acces"
+
+#: panels/network/network-vpn.ui.h:4
+msgid "Group Name"
+msgstr "Nume de grup"
+
+#: panels/network/network-vpn.ui.h:5
+msgid "Group Password"
+msgstr "Parolă de grup"
+
+#: panels/network/network-vpn.ui.h:6
+msgid "Username"
+msgstr "Nume de utilizator"
+
+#: panels/network/network-vpn.ui.h:7
+msgid "_Configure..."
+msgstr "_Configurează..."
+
+#: panels/network/network-wifi.ui.h:1
+msgid "Wireless Hotspot"
+msgstr "Hotspot wireless"
+
+#: panels/network/network-wifi.ui.h:2
+msgid "_Turn On"
+msgstr "_Pornește"
+
+#: panels/network/network-wifi.ui.h:4
+msgid "_Use as Hotspot..."
+msgstr "_Utilizează ca Hotspot..."
+
+#: panels/network/network-wifi.ui.h:5
+msgid "Connect to a Hidden Network"
+msgstr "Conectează la o rețea ascunsă"
+
+#: panels/network/network-wifi.ui.h:6
+msgid "_Disconnect"
+msgstr "_Deconectează"
+
+#: panels/network/network-wifi.ui.h:7
+msgid "_Connect"
+msgstr "_Conectează"
+
+#: panels/network/network-wifi.ui.h:8
+msgid "Last used"
+msgstr "Ultima utilizare"
+
+#: panels/network/network-wifi.ui.h:9 panels/network/network-wired.ui.h:1
+msgid "Hardware Address"
+msgstr "Adresă hardware"
+
+#: panels/network/network-wifi.ui.h:10
+msgid "Security"
+msgstr "Securitate"
+
+#: panels/network/network-wifi.ui.h:11
+msgid "Strength"
+msgstr "Putere"
+
+#: panels/network/network-wifi.ui.h:12
+msgid "Link speed"
+msgstr "Viteză de legătură"
+
+#: panels/network/network-wifi.ui.h:17
+msgid "_Forget Network"
+msgstr "_Uită rețeaua"
+
+#: panels/network/network-wifi.ui.h:18
+msgid "_Settings..."
+msgstr "Config_urări..."
+
+#: panels/network/network-wifi.ui.h:19
+msgid "Switch off to connect to a wireless network"
+msgstr "Oprește pentru conectarea la o rețea wireless"
+
+#: panels/network/network-wifi.ui.h:20
+msgid "Network Name"
+msgstr "Nume de rețea"
+
+#: panels/network/network-wifi.ui.h:21
+msgid "Connected Devices"
+msgstr "Dispozitive conectate"
+
+#: panels/network/network-wifi.ui.h:22
+msgid "Security type"
+msgstr "Tip de securitate"
+
+#: panels/network/network-wifi.ui.h:23
+msgid "Security key"
+msgstr "Chei de securitate"
+
+#: panels/power/power.ui.h:1
+msgid "Hibernate"
+msgstr "Hibernează"
+
+#: panels/power/power.ui.h:2
+msgid "Power off"
+msgstr "Opreşte"
+
+#: panels/power/power.ui.h:3 panels/screen/screen.ui.h:6
+msgid "5 minutes"
+msgstr "5 minute"
+
+#: panels/power/power.ui.h:4 panels/screen/screen.ui.h:7
+msgid "10 minutes"
+msgstr "10 minute"
+
+#: panels/power/power.ui.h:5 panels/screen/screen.ui.h:8
+msgid "30 minutes"
+msgstr "30 de minute"
+
+#: panels/power/power.ui.h:6 panels/screen/screen.ui.h:9
+msgid "1 hour"
+msgstr "o oră"
+
+#: panels/power/power.ui.h:7
+msgid "Don't suspend"
+msgstr "Nu se suspendă"
+
+#: panels/power/power.ui.h:8
+msgid "Suspend"
+msgstr "Suspendă"
+
+#: panels/power/power.ui.h:9
+msgid "Do nothing"
+msgstr "Nu fă nimic"
+
+#: panels/power/power.ui.h:10
+msgid "Lock Screen"
+msgstr "Încuiere ecran"
+
+#: panels/power/power.ui.h:11
+msgid "Shutdown Immediately"
+msgstr "Oprire imediată"
+
+#: panels/power/power.ui.h:12
+msgid "Ask"
+msgstr "Întreabă"
+
+#: panels/power/power.ui.h:13
+msgid "When battery is present"
+msgstr "Când bateria este prezentă"
+
+#: panels/power/power.ui.h:14
+msgid "When battery is charging/in use"
+msgstr "Când bateria se încarcă/este utilizată"
+
+#: panels/power/power.ui.h:15 panels/screen/screen.ui.h:10
+msgid "Never"
+msgstr "Niciodată"
+
+#: panels/power/power.ui.h:16
+msgid "On battery power"
+msgstr "Alimentat de la baterie"
+
+#: panels/power/power.ui.h:17
+msgid "When plugged in"
+msgstr "Când se alimentează de la rețea"
+
+#: panels/power/power.ui.h:18
+msgid "Suspend when inactive for"
+msgstr "Suspendă dacă este inactiv pentru"
+
+#: panels/power/power.ui.h:19
+msgid "When power is _critically low"
+msgstr "Când bateria este descărcată _critic"
+
+#: panels/power/power.ui.h:20
+msgid "When the lid is closed"
+msgstr "Când capacul este închis"
+
+#: panels/power/power.ui.h:21
+msgid "Show battery status in the _menu bar"
+msgstr "Arată starea bateriei în bara de _meniu"
+
+#: panels/power/power.ui.h:22
+msgid "Power button action"
+msgstr "Acțiune buton de pornire"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:1
+msgid "Choose a Layout"
+msgstr "Alege un aranjament"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:2
+msgid "Preview"
+msgstr "Previzualizează"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:3
+msgid "Select an input source to add"
+msgstr "Alege o sursă de intrare prentu adăugare"
+
+#: panels/region/cinnamon-region-panel-options-dialog.ui.h:1
+msgid "Keyboard Layout Options"
+msgstr "Opțiuni aranjament de tastatură"
+
+#: panels/region/cinnamon-region-panel.ui.h:1
+msgid "Region and Language"
+msgstr "Regiune și limbă"
+
+#: panels/region/cinnamon-region-panel.ui.h:2
+msgid ""
+"Select a display language (change will be applied next time you log in)"
+msgstr ""
+"Selectați limba de afișare (modificarea va fi aplicată la următoarea "
+"autentificare)"
+
+#: panels/region/cinnamon-region-panel.ui.h:3
+msgid "Add Language"
+msgstr "Adaugă limbă"
+
+#: panels/region/cinnamon-region-panel.ui.h:4
+msgid "Remove Language"
+msgstr "Elimină limbă"
+
+#: panels/region/cinnamon-region-panel.ui.h:5
+msgid "button"
+msgstr "buton"
+
+#: panels/region/cinnamon-region-panel.ui.h:6
+msgid "Language"
+msgstr "Limbă"
+
+#: panels/region/cinnamon-region-panel.ui.h:7
+msgid "Select a region (change will be applied the next time you log in)"
+msgstr "Alege o regiune (modificarea va apărea la următoarea autentificare)"
+
+#: panels/region/cinnamon-region-panel.ui.h:8
+msgid "Add Region"
+msgstr "Adăugare regiune"
+
+#: panels/region/cinnamon-region-panel.ui.h:9
+msgid "Remove Region"
+msgstr "Elimină regiune"
+
+#: panels/region/cinnamon-region-panel.ui.h:10
+msgid "Dates"
+msgstr "Întâlniri"
+
+#: panels/region/cinnamon-region-panel.ui.h:11
+msgid "Times"
+msgstr "De cîte ori"
+
+#: panels/region/cinnamon-region-panel.ui.h:12
+msgid "Numbers"
+msgstr "Numere"
+
+#: panels/region/cinnamon-region-panel.ui.h:13
+msgid "Currency"
+msgstr "Monedă"
+
+#: panels/region/cinnamon-region-panel.ui.h:14
+msgid "Measurement"
+msgstr "Măsurare"
+
+#: panels/region/cinnamon-region-panel.ui.h:15
+msgid "Examples"
+msgstr "Exemple"
+
+#: panels/region/cinnamon-region-panel.ui.h:16
+msgid "Formats"
+msgstr "Formate"
+
+#: panels/region/cinnamon-region-panel.ui.h:17
+msgid "Add Layout"
+msgstr "Adaugă aranjament"
+
+#: panels/region/cinnamon-region-panel.ui.h:18
+msgid "Remove Layout"
+msgstr "Elimină aranjament"
+
+#: panels/region/cinnamon-region-panel.ui.h:19
+msgid "Move Up"
+msgstr "Mută sus"
+
+#: panels/region/cinnamon-region-panel.ui.h:20
+msgid "Move Down"
+msgstr "Mută jos"
+
+#: panels/region/cinnamon-region-panel.ui.h:21
+msgid "Preview Layout"
+msgstr "Previzualizează aranjament"
+
+#: panels/region/cinnamon-region-panel.ui.h:22
+msgid "Use the same layout for all windows"
+msgstr "Folosește același aranjament pentru toate ferestrele"
+
+#: panels/region/cinnamon-region-panel.ui.h:23
+msgid "Allow different layouts for individual windows"
+msgstr "Permite aranjamente diferite pentru fiecare fereastră"
+
+#: panels/region/cinnamon-region-panel.ui.h:24
+msgid "New windows use the default layout"
+msgstr "Ferestrele noi folosesc aranjamentul implicit"
+
+#: panels/region/cinnamon-region-panel.ui.h:25
+msgid "New windows use the previous window's layout"
+msgstr "Ferestrele noi folosesc aranjamentul ferestrei anterior active"
+
+#: panels/region/cinnamon-region-panel.ui.h:27
+msgid "View and edit keyboard layout options"
+msgstr "Vizualizează și editează opțiunile schemei de tastatură"
+
+#: panels/region/cinnamon-region-panel.ui.h:28
+msgid "Reset to De_faults"
+msgstr "Restaurează la _valorile Implicite"
+
+#: panels/region/cinnamon-region-panel.ui.h:29
+msgid ""
+"Replace the current keyboard layout settings with the\n"
+"default settings"
+msgstr ""
+"Înlocuiește configurările aranjamentului de tastatură\n"
+"ales cu configurările implicite"
+
+#: panels/region/cinnamon-region-panel.ui.h:31
+msgid "Keyboard Layouts"
+msgstr "Scheme de tastatură"
+
+#: panels/region/cinnamon-region-panel.ui.h:34
+msgid "Display language:"
+msgstr "Limbă"
+
+#: panels/region/cinnamon-region-panel.ui.h:35
+msgid "Input source:"
+msgstr "Sursă intrare:"
+
+#: panels/region/cinnamon-region-panel.ui.h:36
+msgid "Format:"
+msgstr "Format:"
+
+#: panels/region/cinnamon-region-panel.ui.h:37
+msgid "Your settings"
+msgstr "Configurările tale"
+
+#: panels/region/cinnamon-region-panel.ui.h:38
+msgid "System settings"
+msgstr "Configurări de sistem"
+
+#: panels/region/cinnamon-region-panel.ui.h:40
+msgid "System"
+msgstr "Sistem"
+
+#: panels/screen/screen.ui.h:1
+msgid "Screen turns off"
+msgstr "Ecranul se stinge"
+
+#: panels/screen/screen.ui.h:2
+msgid "30 seconds"
+msgstr "30 de secunde"
+
+#: panels/screen/screen.ui.h:3
+msgid "1 minute"
+msgstr "1 minut"
+
+#: panels/screen/screen.ui.h:4
+msgid "2 minutes"
+msgstr "2 minute"
+
+#: panels/screen/screen.ui.h:5
+msgid "3 minutes"
+msgstr "3 minute"
+
+#: panels/screen/screen.ui.h:11
+msgid "_Dim screen to save power"
+msgstr "Re_du iluminarea ecranului pentru economisire baterie"
+
+#: panels/screen/screen.ui.h:12
+msgid "Brightness"
+msgstr "Luminozitate"
+
+#: panels/screen/screen.ui.h:13
+msgid "_Turn screen off when inactive for:"
+msgstr "Oprește ecran_ul dacă este inactiv de:"
+
+#: panels/screen/screen.ui.h:14
+msgid "_Lock screen after:"
+msgstr "Încuie ecranu_l după:"
+
+#: panels/screen/screen.ui.h:15
+msgid "Require my password when waking from suspend"
+msgstr "Cere parola la revenirea din suspendare"
+
+#: panels/screen/screen.ui.h:16
+msgid "Lock"
+msgstr "Încuiere"
+
+#: panels/universal-access/uap.ui.h:5
+msgid "On screen keyboard"
+msgstr "Tastatură pe ecran"
+
+#: panels/universal-access/uap.ui.h:6
+msgid "GOK"
+msgstr "GOK"
+
+#: panels/universal-access/uap.ui.h:7
+msgid "OnBoard"
+msgstr "OnBoard"
+
+#: panels/universal-access/uap.ui.h:8
+msgid "None"
+msgstr "Niciun(a)"
+
+#: panels/universal-access/uap.ui.h:10
+#, no-c-format
+msgid "75%"
+msgstr "75%"
+
+#: panels/universal-access/uap.ui.h:13
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#: panels/universal-access/uap.ui.h:16
+#, no-c-format
+msgid "125%"
+msgstr "125%"
+
+#: panels/universal-access/uap.ui.h:19
+#, no-c-format
+msgid "150%"
+msgstr "150%"
+
+#: panels/universal-access/uap.ui.h:21
+msgid "High Contrast"
+msgstr "Contrast mare"
+
+#: panels/universal-access/uap.ui.h:22
+msgid "Beep on Caps and Num Lock"
+msgstr "Bip la Caps și Num Lock"
+
+#: panels/universal-access/uap.ui.h:23
+msgid "Options..."
+msgstr "Opțiuni…"
+
+#: panels/universal-access/uap.ui.h:24
+msgid "Screen Reader"
+msgstr "Cititor de ecran"
+
+#: panels/universal-access/uap.ui.h:25
+msgid "Turn on or off:"
+msgstr "Activează sau dezactivează:"
+
+#: panels/universal-access/uap.ui.h:27
+msgid "Zoom in:"
+msgstr "Mărește"
+
+#: panels/universal-access/uap.ui.h:28
+msgid "Zoom out:"
+msgstr "Micșorează"
+
+#: panels/universal-access/uap.ui.h:29
+msgid "Large Text"
+msgstr "Text mărit"
+
+#: panels/universal-access/uap.ui.h:30
+msgid "Seeing"
+msgstr "Văz"
+
+#: panels/universal-access/uap.ui.h:31
+msgid "Visual Alerts"
+msgstr "Alerte vizuale"
+
+#: panels/universal-access/uap.ui.h:32
+msgid "Use a visual indication when an alert sound occurs"
+msgstr "Utilizează un indicator vizual când apare un sunet de alertă"
+
+#: panels/universal-access/uap.ui.h:33
+msgid "Flash the window title"
+msgstr "Licărește titlul ferestrei"
+
+#: panels/universal-access/uap.ui.h:34
+msgid "Flash the entire screen"
+msgstr "Licărește tot ecranul"
+
+#: panels/universal-access/uap.ui.h:35
+msgid "Closed Captioning"
+msgstr "Subtitrări pentru persoane cu dizabilități"
+
+#: panels/universal-access/uap.ui.h:36
+msgid "Display a textual description of speech and sounds"
+msgstr "Afișează o descriere textuală a vorbirii și a sunetelor"
+
+#: panels/universal-access/uap.ui.h:37
+msgid "_Test flash"
+msgstr "_Testează bliț"
+
+#: panels/universal-access/uap.ui.h:38
+msgid "Hearing"
+msgstr "Auz"
+
+#: panels/universal-access/uap.ui.h:39
+msgid "On Screen Keyboard"
+msgstr "Tastatură pe ecran"
+
+#: panels/universal-access/uap.ui.h:40
+msgid "Sticky Keys"
+msgstr "Taste fixe"
+
+#: panels/universal-access/uap.ui.h:41
+msgid "Treats a sequence of modifier keys as a key combination"
+msgstr "Tratează o secvență de taste modificatoare ca o combinație de taste"
+
+#: panels/universal-access/uap.ui.h:42
+msgid "_Disable if two keys are pressed together"
+msgstr "_Dezactivează dacă două taste sunt apăsate concomitent"
+
+#: panels/universal-access/uap.ui.h:43
+msgid "Beep when a _modifer key is pressed"
+msgstr "Bip la apăsarea unei taste _modificatoare"
+
+#: panels/universal-access/uap.ui.h:44
+msgid "Slow Keys"
+msgstr "Taste încete"
+
+#: panels/universal-access/uap.ui.h:45
+msgid "Puts a delay between when a key is pressed and when it is accepted"
+msgstr ""
+"Introduce o întârziere între momentul în care o tastă este apăsată și cel în "
+"care este acceptată."
+
+#: panels/universal-access/uap.ui.h:46
+msgid "A_cceptance delay:"
+msgstr "Întârziere de a_cceptare:"
+
+#: panels/universal-access/uap.ui.h:48
+msgid "Short"
+msgstr "Scurt(ă)"
+
+#: panels/universal-access/uap.ui.h:49
+msgid "Slow keys typing delay"
+msgstr "Întârziere pentru taste încete"
+
+#: panels/universal-access/uap.ui.h:51
+msgid "Long"
+msgstr "Lung(ă)"
+
+#: panels/universal-access/uap.ui.h:53
+msgid "Beep when a key is"
+msgstr "Bip când o tastă este"
+
+#: panels/universal-access/uap.ui.h:55
+msgid "pressed"
+msgstr "apăsată"
+
+#: panels/universal-access/uap.ui.h:57
+msgid "accepted"
+msgstr "acceptată"
+
+#: panels/universal-access/uap.ui.h:59
+msgid "rejected"
+msgstr "respinsă"
+
+#: panels/universal-access/uap.ui.h:60
+msgid "Bounce Keys"
+msgstr "Taste fără repetiție"
+
+#: panels/universal-access/uap.ui.h:61
+msgid "Ignores fast duplicate keypresses"
+msgstr "Ignoră apăsările repetate și rapide de taste"
+
+#: panels/universal-access/uap.ui.h:62
+msgid "Acc_eptance delay:"
+msgstr "Întârziere acc_eptare:"
+
+#: panels/universal-access/uap.ui.h:63
+msgid "Bounce keys typing delay"
+msgstr "Întârziere pentru taste săritoare"
+
+#: panels/universal-access/uap.ui.h:64
+msgid "Beep when a key is _rejected"
+msgstr "Bip dacă o tastă este _respinsă"
+
+#: panels/universal-access/uap.ui.h:65
+msgid "Enable by Keyboard"
+msgstr "Activează cu tastatura"
+
+#: panels/universal-access/uap.ui.h:66
+msgid "Turn accessibility features on and off using the keyboard"
+msgstr ""
+"Activează și dezactivează  de opțiunile de accesibilitate folosind tastatura"
+
+#: panels/universal-access/uap.ui.h:67
+msgid "Typing"
+msgstr "Tastare"
+
+#: panels/universal-access/uap.ui.h:68
+msgid "Mouse Keys"
+msgstr "Taste de maus"
+
+#: panels/universal-access/uap.ui.h:69
+msgid "Control the pointer using the keypad"
+msgstr "Controlează cursorul folosind tastele numerice"
+
+#: panels/universal-access/uap.ui.h:70
+msgid "Video Mouse"
+msgstr "Maus video"
+
+#: panels/universal-access/uap.ui.h:71
+msgid "Control the pointer using the video camera."
+msgstr "Controlează cursorul folosind camera video."
+
+#: panels/universal-access/uap.ui.h:72
+msgid "Simulated Secondary Click"
+msgstr "Clic secundar simulat"
+
+#: panels/universal-access/uap.ui.h:73
+msgid "Trigger a secondary click by holding down the primary button"
+msgstr "Declanșează un clic secundar în timp ce este menținut butonul primar"
+
+#: panels/universal-access/uap.ui.h:74
+msgid "Secondary click delay"
+msgstr "Întârziere pentru clic secundar"
+
+#: panels/universal-access/uap.ui.h:75
+msgid "Hover Click"
+msgstr "Clic plutitor"
+
+#: panels/universal-access/uap.ui.h:76
+msgid "Trigger a click when the pointer hovers"
+msgstr "Declanșează un clic când se oprește mișcarea cursorului"
+
+#: panels/universal-access/uap.ui.h:77
+msgid "D_elay:"
+msgstr "Întârzi_ere:"
+
+#: panels/universal-access/uap.ui.h:78
+msgid "Motion _threshold:"
+msgstr "_Prag de mișcare:"
+
+#: panels/universal-access/uap.ui.h:80
+msgid "Small"
+msgstr "Mic"
+
+#: panels/universal-access/uap.ui.h:82
+msgid "Large"
+msgstr "Larg"
+
+#: panels/universal-access/uap.ui.h:83
+msgid "Mouse Settings"
+msgstr "Configurări maus"
+
+#: panels/universal-access/uap.ui.h:84
+msgid "Pointing and Clicking"
+msgstr "Indicare și clic cu mausul"
+
+#: panels/universal-access/zoom-options.ui.h:1
+msgid "Full Screen"
+msgstr "Întreg ecranul"
+
+#: panels/universal-access/zoom-options.ui.h:2
+msgid "Top Half"
+msgstr "Jumătatea superioară"
+
+#: panels/universal-access/zoom-options.ui.h:3
+msgid "Bottom Half"
+msgstr "Jumătatea inferioară"
+
+#: panels/universal-access/zoom-options.ui.h:4
+msgid "Left Half"
+msgstr "Jumătatea stângă"
+
+#: panels/universal-access/zoom-options.ui.h:5
+msgid "Right Half"
+msgstr "Jumătatea dreaptă"
+
+#: panels/universal-access/zoom-options.ui.h:6
+msgid "Zoom Options"
+msgstr "Opțiuni zoom"
+
+#: panels/universal-access/zoom-options.ui.h:7
+msgid "Zoom"
+msgstr "Mărește"
+
+#: panels/universal-access/zoom-options.ui.h:8
+msgid "Magnification:"
+msgstr "Mărire:"
+
+#: panels/universal-access/zoom-options.ui.h:9
+msgid "Follow mouse cursor"
+msgstr "Urmărește cursorul de maus"
+
+#: panels/universal-access/zoom-options.ui.h:10
+msgid "Screen part:"
+msgstr "Parte ecran:"
+
+#: panels/universal-access/zoom-options.ui.h:11
+msgid "Magnifier extends outside of screen"
+msgstr "Lupă extinsă peste marginile ecranului"
+
+#: panels/universal-access/zoom-options.ui.h:12
+msgid "Keep magnifier cursor centered"
+msgstr "Păstrează centrat cursorul lupei"
+
+#: panels/universal-access/zoom-options.ui.h:13
+msgid "Magnifier cursor pushes contents around"
+msgstr "Cursorul lupei împinge conținutul"
+
+#: panels/universal-access/zoom-options.ui.h:14
+msgid "Magnifier cursor moves with contents"
+msgstr "Cursorul lupei se mișcă odată cu conținutul"
+
+#: panels/universal-access/zoom-options.ui.h:15
+msgid "Magnifier Position:"
+msgstr "Poziție lupă:"
+
+#: panels/universal-access/zoom-options.ui.h:16
+msgid "Magnifier"
+msgstr "Lupă"
+
+#: panels/universal-access/zoom-options.ui.h:17
+msgid "Thickness:"
+msgstr "Grosime:"
+
+#: panels/universal-access/zoom-options.ui.h:19
+msgid "Thin"
+msgstr "Subțire"
+
+#: panels/universal-access/zoom-options.ui.h:21
+msgid "Thick"
+msgstr "Gros"
+
+#: panels/universal-access/zoom-options.ui.h:22
+msgid "Length:"
+msgstr "Lungime:"
+
+#: panels/universal-access/zoom-options.ui.h:23
+msgid "Color:"
+msgstr "Culoare:"
+
+#: panels/universal-access/zoom-options.ui.h:24
+msgid "Crosshairs:"
+msgstr "Țintă:"
+
+#: panels/universal-access/zoom-options.ui.h:25
+msgid "Overlaps mouse cursor"
+msgstr "Suprapune peste cursorul de maus"
+
+#: panels/universal-access/zoom-options.ui.h:26
+msgid "Crosshairs"
+msgstr "Încrucișări"
+
+#: panels/universal-access/zoom-options.ui.h:27
+msgid "White on black:"
+msgstr "Alb pe negru"
+
+#: panels/universal-access/zoom-options.ui.h:28
+msgid "Brightness:"
+msgstr "Luminozitate:"
+
+#: panels/universal-access/zoom-options.ui.h:29
+msgid "Contrast:"
+msgstr "Contrast:"
+
+#: panels/universal-access/zoom-options.ui.h:34
+msgid "Low"
+msgstr "Scăzut(ă)"
+
+#: panels/universal-access/zoom-options.ui.h:36
+msgid "High"
+msgstr "Ridicat(ă)"
+
+#: panels/universal-access/zoom-options.ui.h:37
+msgid "Color Effects:"
+msgstr "Efecte de culoare:"
+
+#: panels/universal-access/zoom-options.ui.h:38
+msgid "Color Effects"
+msgstr "Efecte de culoare"
+
+#: generate_additional_files.py:53
+msgid "Brightness & Lock"
+msgstr "Luminozitate și Încuiere"
+
+#: generate_additional_files.py:53
+msgid "Screen brightness and lock settings"
+msgstr "Configurări de luminozitate și încuiere a ecranului"
+
+#: generate_additional_files.py:68 generate_additional_files.py:99
+msgid "Sound"
+msgstr "Sunet"
+
+#: generate_additional_files.py:68 generate_additional_files.py:99
+msgid "Change sound volume and sound events"
+msgstr "Modifică volumul și evenimentele sonore"
+
+#: generate_additional_files.py:83
+msgid "Color management settings"
+msgstr "Configurări pentru gestiunea culorilor"
+
+#: generate_additional_files.py:113
+msgid "Volume Control"
+msgstr "Control volum"
+
+#: generate_additional_files.py:113
+msgid "Show desktop volume control"
+msgstr "Arată controlul volumului pe desktop"
+
+#: generate_additional_files.py:128
+msgid "Power"
+msgstr "Alimentare"
+
+#: generate_additional_files.py:128
+msgid "Power management settings"
+msgstr "Configurări pentru gestiune consum"
+
+#: generate_additional_files.py:143
+msgid "Region & Language"
+msgstr "Regiune și limbă"
+
+#: generate_additional_files.py:143
+msgid "Change your region and language settings"
+msgstr "Schimbă configurările de regiune și limbă"
+
+#: generate_additional_files.py:158
+msgid "Displays"
+msgstr "Afișaje"
+
+#: generate_additional_files.py:158
+msgid "Change resolution and position of monitors and projectors"
+msgstr "Schimbă rezoluția și poziția monitoarelor și a proiectoarelor"
+
+#: generate_additional_files.py:173
+msgid "Network settings"
+msgstr "Configurări de rețea"
+
+#: generate_additional_files.py:188
+msgid "Universal Access"
+msgstr "Acces universal"
+
+#: generate_additional_files.py:188
+msgid "Universal Access Preferences"
+msgstr "Preferințe de acces universal"

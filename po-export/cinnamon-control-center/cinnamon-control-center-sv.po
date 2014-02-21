@@ -1,0 +1,2126 @@
+# Swedish messages for cinnamon-control-center.
+# Copyright (C) 1998-2012 Free Software Foundation, Inc.
+# This file is distributed under the same license as the cinnamon-control-center package.
+#
+# FIXME: "Cursor" and "Pointer" are used inconsistently throughout the
+# application! Needs to be bug reported.
+#
+# Martin Wahlen <mva@sbbs.se>, 1998, 1999.
+# Christian Rose <menthos@menthos.com>, 2000, 2001, 2002, 2003, 2004, 2005.
+# Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010, 2011, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cinnamon-control-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-30 17:55+0100\n"
+"PO-Revision-Date: 2013-09-28 17:15+0000\n"
+"Last-Translator: Gustaf Haglund <forumgh@live.com>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2013-11-26 11:42+0000\n"
+"X-Generator: Launchpad (build 16840)\n"
+"Language: sv\n"
+
+#: panels/color/cc-color-panel.c:106
+msgid "Other profile…"
+msgstr "Annan profil..."
+
+#: panels/color/cc-color-panel.c:119
+msgid "Default: "
+msgstr "Standard: "
+
+#: panels/color/cc-color-panel.c:126
+msgid "Colorspace: "
+msgstr "Färgrymd: "
+
+#: panels/color/cc-color-panel.c:132
+msgid "Test profile: "
+msgstr "Testprofil: "
+
+#: panels/color/cc-color-panel.c:185 panels/color/color.ui.h:11
+msgid "Set for all users"
+msgstr "Ställ in för alla användare"
+
+#: panels/color/cc-color-panel.c:192
+msgid "Create virtual device"
+msgstr "Skapa virtuell enhet"
+
+#: panels/color/cc-color-panel.c:227
+msgid "Select ICC Profile File"
+msgstr "Välj ICC-profilfil"
+
+#: panels/color/cc-color-panel.c:230
+msgid "_Import"
+msgstr "_Importera"
+
+#: panels/color/cc-color-panel.c:241
+msgid "Supported ICC profiles"
+msgstr "ICC-profiler som stöds"
+
+#: panels/color/cc-color-panel.c:248
+msgid "All files"
+msgstr "Alla filer"
+
+#: panels/color/cc-color-panel.c:638
+msgid "Available Profiles for Displays"
+msgstr "Tillgängliga profiler för skärmar"
+
+#: panels/color/cc-color-panel.c:642
+msgid "Available Profiles for Scanners"
+msgstr "Tillgängliga profiler för bildläsare"
+
+#: panels/color/cc-color-panel.c:646
+msgid "Available Profiles for Printers"
+msgstr "Tillgängliga profiler för skrivare"
+
+#: panels/color/cc-color-panel.c:650
+msgid "Available Profiles for Cameras"
+msgstr "Tillgängliga profiler för kameror"
+
+#: panels/color/cc-color-panel.c:654
+msgid "Available Profiles for Webcams"
+msgstr "Tillgängliga profiler för webbkameror"
+
+#: panels/color/cc-color-panel.c:659 panels/color/color.ui.h:2
+msgid "Available Profiles"
+msgstr "Tillgängliga profiler"
+
+#: panels/color/cc-color-panel.c:935 panels/sound/gvc-mixer-dialog.c:1523
+#: panels/sound-nua/gvc-mixer-dialog.c:1596
+msgid "Device"
+msgstr "Enhet"
+
+#: panels/color/cc-color-panel.c:970
+msgid "Calibration"
+msgstr "Kalibrering"
+
+#: panels/color/cc-color-panel.c:1002
+msgid "Create a color profile for the selected device"
+msgstr "Skapa en färgprofil för den valda enheten"
+
+#: panels/color/cc-color-panel.c:1016 panels/color/cc-color-panel.c:1040
+msgid ""
+"The measuring instrument is not detected. Please check it is turned on and "
+"correctly connected."
+msgstr ""
+"Mätinstrumentet har inte identifierats. Kontrollera att det är aktiverat och "
+"korrekt anslutet."
+
+#: panels/color/cc-color-panel.c:1049
+msgid "The measuring instrument does not support printer profiling."
+msgstr "Mätinstrumentet saknar stöd för skrivarprofilering."
+
+#: panels/color/cc-color-panel.c:1060
+msgid "The device type is not currently supported."
+msgstr "Enhetstypen stöds för närvarande inte."
+
+#: panels/color/cc-color-panel.c:1132
+msgid "Cannot remove automatically added profile"
+msgstr "Kan inte ta bort automatiskt tillagd profil"
+
+#: panels/color/cc-color-panel.c:1463
+msgid "No profile"
+msgstr "Ingen profil"
+
+#: panels/color/cc-color-panel.c:1494
+#, c-format
+msgid "%i year"
+msgid_plural "%i years"
+msgstr[0] "%i år"
+msgstr[1] "%i år"
+
+#: panels/color/cc-color-panel.c:1505
+#, c-format
+msgid "%i month"
+msgid_plural "%i months"
+msgstr[0] "%i månad"
+msgstr[1] "%i månader"
+
+#: panels/color/cc-color-panel.c:1516
+#, c-format
+msgid "%i week"
+msgid_plural "%i weeks"
+msgstr[0] "%i vecka"
+msgstr[1] "%i veckor"
+
+#: panels/color/cc-color-panel.c:1523
+msgid "Less than 1 week"
+msgstr "Mindre än en vecka"
+
+#: panels/color/cc-color-panel.c:1713 panels/color/cc-color-panel.c:1754
+#: panels/color/cc-color-panel.c:1765 panels/color/cc-color-panel.c:1776
+msgid "Uncalibrated"
+msgstr "Inte kalibrerad"
+
+#: panels/color/cc-color-panel.c:1716
+msgid "This device is not color managed."
+msgstr "Denna enhet är inte färghanterad."
+
+#: panels/color/cc-color-panel.c:1757
+msgid "This device is using manufacturing calibrated data."
+msgstr "Denna enhet använder fabriksinställd kalibreringsdata."
+
+#: panels/color/cc-color-panel.c:1768
+msgid ""
+"This device does not have a profile suitable for whole-screen color "
+"correction."
+msgstr ""
+"Denna enhet har inte en profil lämplig för färgkorrigering i helskärmsläge."
+
+#: panels/color/cc-color-panel.c:1801
+msgid "This device has an old profile that may no longer be accurate."
+msgstr "Denna enhet har en gammal profil som kanske inte längre är bra nog."
+
+#: panels/color/cc-color-panel.c:1829
+msgid "Not specified"
+msgstr "Inte angivet"
+
+#: panels/color/cc-color-panel.c:2014
+msgid "No devices supporting color management detected"
+msgstr "Inga enheter hittades som har stöd för färghantering"
+
+#: panels/common/cc-common-language.c:533
+msgid "English"
+msgstr "Engelska"
+
+#: panels/common/cc-common-language.c:535
+msgid "British English"
+msgstr "Brittisk engelska"
+
+#: panels/common/cc-common-language.c:538
+msgid "German"
+msgstr "Tyska"
+
+#: panels/common/cc-common-language.c:541
+msgid "French"
+msgstr "Franska"
+
+#: panels/common/cc-common-language.c:544
+msgid "Spanish"
+msgstr "Spanska"
+
+#: panels/common/cc-common-language.c:546
+msgid "Chinese (simplified)"
+msgstr "Kinesiska (förenklad)"
+
+#: panels/common/cc-common-language.c:549
+msgid "Russian"
+msgstr "Ryska"
+
+#: panels/common/cc-common-language.c:552
+msgid "Arabic"
+msgstr "Arabiska"
+
+#: panels/common/cc-common-language.c:581
+msgid "United States"
+msgstr "Förenta Staterna"
+
+#: panels/common/cc-common-language.c:582
+msgid "Germany"
+msgstr "Tyskland"
+
+#: panels/common/cc-common-language.c:583
+msgid "France"
+msgstr "Frankrike"
+
+#: panels/common/cc-common-language.c:584
+msgid "Spain"
+msgstr "Spanien"
+
+#: panels/common/cc-common-language.c:585
+msgid "China"
+msgstr "Kina"
+
+#: panels/common/cc-language-chooser.c:301
+msgid "Select a region"
+msgstr "Välj en region"
+
+#: panels/common/gdm-languages.c:781
+msgid "Unspecified"
+msgstr "Ej angivet"
+
+#: panels/display/cc-display-panel.c:624 panels/display/cc-rr-labeler.c:449
+msgid "Mirrored Displays"
+msgstr "Speglade skärmar"
+
+#: panels/display/cc-display-panel.c:648 panels/display/display-capplet.ui.h:1
+msgid "Monitor"
+msgstr "Skärm"
+
+#: panels/display/cc-display-panel.c:758
+#, c-format
+msgid "%d x %d (%s)"
+msgstr "%d x %d (%s)"
+
+#: panels/display/cc-display-panel.c:760
+#, c-format
+msgid "%d x %d"
+msgstr "%d x %d"
+
+#: panels/display/cc-display-panel.c:1669
+msgid ""
+"Select a monitor to change its properties; drag it to rearrange its "
+"placement."
+msgstr ""
+"Välj en skärm för att ändra dess egenskaper; dra den för att ändra dess "
+"placering."
+
+#: panels/display/cc-display-panel.c:2185
+#: panels/display/cc-display-panel.c:2237
+#, c-format
+msgid "Failed to apply configuration: %s"
+msgstr "Misslyckades med att verkställa konfiguration: %s"
+
+#: panels/display/cc-display-panel.c:2265
+msgid "Could not save the monitor configuration"
+msgstr "Kunde inte spara skärmkonfigurationen"
+
+#: panels/display/cc-display-panel.c:2325
+msgid "Could not detect displays"
+msgstr "Kunde inte detektera display"
+
+#: panels/display/cc-display-panel.c:2563
+msgid "Could not get screen information"
+msgstr "Kunde inte få tag på skärminformation"
+
+#: panels/network/cc-network-panel.c:661
+msgid "Network proxy"
+msgstr "Nätverksproxyserver"
+
+#: panels/network/cc-network-panel.c:853 panels/network/net-vpn.c:278
+#, c-format
+msgid "%s VPN"
+msgstr "%s VPN"
+
+#: panels/network/cc-network-panel.c:920
+msgid "The system network services are not compatible with this version."
+msgstr "Systemets nätverkstjänster är inte kompatibla med denna version."
+
+#: panels/network/cc-network-panel.c:1108
+msgid "Air_plane Mode"
+msgstr "Fly_gplansläge"
+
+#: panels/network/net-device-mobile.c:222
+msgid "Add new connection"
+msgstr "Lägg till ny anslutning"
+
+#: panels/network/net-device-mobile.c:261 panels/network/net-device-wifi.c:725
+#: panels/network/net-device-wired.c:126
+#, c-format
+msgid "%d Mb/s"
+msgstr "%d Mb/s"
+
+#: panels/network/net-device-wifi.c:258 panels/network/net-device-wifi.c:437
+msgid "WEP"
+msgstr "WEP"
+
+#: panels/network/net-device-wifi.c:262 panels/network/net-device-wifi.c:441
+msgid "WPA"
+msgstr "WPA"
+
+#: panels/network/net-device-wifi.c:266
+msgid "WPA2"
+msgstr "WPA2"
+
+#: panels/network/net-device-wifi.c:271
+msgid "Enterprise"
+msgstr "Enterprise"
+
+#: panels/network/net-device-wifi.c:652
+msgid "never"
+msgstr "aldrig"
+
+#: panels/network/net-device-wifi.c:662
+msgid "today"
+msgstr "idag"
+
+#: panels/network/net-device-wifi.c:664
+msgid "yesterday"
+msgstr "igår"
+
+#: panels/network/net-device-wifi.c:666
+#, c-format
+msgid "%i day ago"
+msgid_plural "%i days ago"
+msgstr[0] "%i dag sedan"
+msgstr[1] "%i dagar sedan"
+
+#: panels/network/net-device-wifi.c:735 panels/network/panel-common.c:277
+msgid "Not connected"
+msgstr "Inte ansluten"
+
+#: panels/network/net-device-wifi.c:737 panels/network/net-device-wifi.c:2100
+msgid "Out of range"
+msgstr "Utanför intervallet"
+
+#: panels/network/net-device-wifi.c:960
+#, c-format
+msgid ""
+"Network details for %s including password and any custom configuration will "
+"be lost."
+msgstr ""
+"Nätverksdetaljer för %s inkluderande lösenord och anpassade konfigurationer "
+"kommer att förloras."
+
+#: panels/network/net-device-wifi.c:971
+msgid "Forget"
+msgstr "Glöm"
+
+#: panels/network/net-device-wifi.c:1554
+msgid ""
+"If you have a connection to the Internet other than wireless, you can use it "
+"to share your internet connection with others."
+msgstr ""
+"Om du har en annan anslutning till internet än via trådlöst, kan du dela din "
+"anslutning med andra användare."
+
+#: panels/network/net-device-wifi.c:1558
+#, c-format
+msgid "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+msgstr ""
+"Om du använder din dator som trådlös accesspunkt kommer du att kopplas bort "
+"från <b>%s</b>."
+
+#: panels/network/net-device-wifi.c:1562
+msgid ""
+"It is not possible to access the internet through your wireless while the "
+"hotspot is active."
+msgstr ""
+"Det är inte möjligt att ansluta trådlöst till internet så länge du använder "
+"din dator som hotspot."
+
+#: panels/network/net-device-wifi.c:1628
+msgid "Stop hotspot and disconnect any users?"
+msgstr "Stoppa accesspunkten och koppla från eventuella användare?"
+
+#: panels/network/net-device-wifi.c:1631
+msgid "_Stop Hotspot"
+msgstr "_Stoppa accesspunkt"
+
+#: panels/network/net-proxy.c:67
+msgid ""
+"Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+msgstr ""
+"Web Proxy Autodiscovery (WPAD) används när en URL för konfiguration inte "
+"tillhandahålls."
+
+#: panels/network/net-proxy.c:75
+msgid "This is not recommended for untrusted public networks."
+msgstr "Detta rekommenderas inte för opålitliga och publika nätverk."
+
+#: panels/network/net-proxy.c:368
+msgid "Proxy"
+msgstr "Proxyserver"
+
+#: panels/network/panel-common.c:82 panels/network/panel-common.c:162
+msgid "Unknown"
+msgstr "Okänd"
+
+#: panels/network/panel-common.c:86
+msgid "Wired"
+msgstr "Trådbundet"
+
+#: panels/network/panel-common.c:90 panels/network/network-wifi.ui.h:3
+msgid "Wireless"
+msgstr "Trådlöst"
+
+#: panels/network/panel-common.c:97
+msgid "Mobile broadband"
+msgstr "Mobilt bredband"
+
+#: panels/network/panel-common.c:102
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: panels/network/panel-common.c:106
+msgid "Mesh"
+msgstr "Mesh"
+
+#: panels/network/panel-common.c:166
+msgid "Ad-hoc"
+msgstr "Ad-hoc"
+
+#: panels/network/panel-common.c:170
+msgid "Infrastructure"
+msgstr "Infrastruktur"
+
+#: panels/network/panel-common.c:194 panels/network/panel-common.c:255
+msgid "Status unknown"
+msgstr "Okänd status"
+
+#: panels/network/panel-common.c:198
+msgid "Unmanaged"
+msgstr "Ohanterat"
+
+#: panels/network/panel-common.c:203
+msgid "Firmware missing"
+msgstr "fast programvara saknas"
+
+#: panels/network/panel-common.c:206
+msgid "Cable unplugged"
+msgstr "Kabeln är frånkopplad"
+
+#: panels/network/panel-common.c:208
+msgid "Unavailable"
+msgstr "Otillgängligt"
+
+#: panels/network/panel-common.c:212
+msgid "Disconnected"
+msgstr "Frånkopplad"
+
+#: panels/network/panel-common.c:219 panels/network/panel-common.c:261
+msgid "Connecting"
+msgstr "Ansluter"
+
+#: panels/network/panel-common.c:223 panels/network/panel-common.c:265
+msgid "Authentication required"
+msgstr "Autentisering krävs"
+
+#: panels/network/panel-common.c:227 panels/network/panel-common.c:269
+msgid "Connected"
+msgstr "Ansluten"
+
+#: panels/network/panel-common.c:231
+msgid "Disconnecting"
+msgstr "Kopplar från"
+
+#: panels/network/panel-common.c:235 panels/network/panel-common.c:273
+msgid "Connection failed"
+msgstr "Anslutningen misslyckades"
+
+#: panels/network/panel-common.c:239 panels/network/panel-common.c:281
+msgid "Status unknown (missing)"
+msgstr "Okänd status (saknas)"
+
+#: panels/network/panel-common.c:301
+msgid "Configuration failed"
+msgstr "Konfigurationen misslyckades"
+
+#: panels/network/panel-common.c:305
+msgid "IP configuration failed"
+msgstr "IP-konfigurationen misslyckades"
+
+#: panels/network/panel-common.c:309
+msgid "IP configuration expired"
+msgstr "IP-konfigurationen har löpt ut"
+
+#: panels/network/panel-common.c:313
+msgid "Secrets were required, but not provided"
+msgstr "Hemligheter krävdes, men tillhandahölls inte"
+
+#: panels/network/panel-common.c:317
+msgid "802.1x supplicant disconnected"
+msgstr "802.1x-anroparen kopplade ner"
+
+#: panels/network/panel-common.c:321
+msgid "802.1x supplicant configuration failed"
+msgstr "802.1x-anropskonfigurationen misslyckades"
+
+#: panels/network/panel-common.c:325
+msgid "802.1x supplicant failed"
+msgstr "802.1x-anropet misslyckades"
+
+#: panels/network/panel-common.c:329
+msgid "802.1x supplicant took too long to authenticate"
+msgstr "802.1x-anropet tog för lång tid att autentisera"
+
+#: panels/network/panel-common.c:333
+msgid "PPP service failed to start"
+msgstr "PPP-tjänsten misslyckades med att starta"
+
+#: panels/network/panel-common.c:337
+msgid "PPP service disconnected"
+msgstr "PPP-tjänsten kopplades ifrån"
+
+#: panels/network/panel-common.c:341
+msgid "PPP failed"
+msgstr "PPP misslyckades"
+
+#: panels/network/panel-common.c:345
+msgid "DHCP client failed to start"
+msgstr "DHCP-klienten misslyckades med att starta"
+
+#: panels/network/panel-common.c:349
+msgid "DHCP client error"
+msgstr "Fel i DHCP-klient"
+
+#: panels/network/panel-common.c:353
+msgid "DHCP client failed"
+msgstr "DHCP-klienten misslyckades"
+
+#: panels/network/panel-common.c:357
+msgid "Shared connection service failed to start"
+msgstr "Tjänst för delad anslutning misslyckades med att starta"
+
+#: panels/network/panel-common.c:361
+msgid "Shared connection service failed"
+msgstr "Tjänst för delad anslutning misslyckades"
+
+#: panels/network/panel-common.c:365
+msgid "AutoIP service failed to start"
+msgstr "Kunde inte starta AutoIP-tjänsten"
+
+#: panels/network/panel-common.c:369
+msgid "AutoIP service error"
+msgstr "Fel i AutoIP-tjänsten"
+
+#: panels/network/panel-common.c:373
+msgid "AutoIP service failed"
+msgstr "AutoIP-tjänsten misslyckades"
+
+#: panels/network/panel-common.c:377
+msgid "Line busy"
+msgstr "Linjen är upptagen"
+
+#: panels/network/panel-common.c:381
+msgid "No dial tone"
+msgstr "Ingen rington"
+
+#: panels/network/panel-common.c:385
+msgid "No carrier could be established"
+msgstr "Ingen bärare kunde etableras"
+
+#: panels/network/panel-common.c:389
+msgid "Dialing request timed out"
+msgstr "Uppringningen tog för lång tid"
+
+#: panels/network/panel-common.c:393
+msgid "Dialing attempt failed"
+msgstr "Uppringningen misslyckades"
+
+#: panels/network/panel-common.c:397
+msgid "Modem initialization failed"
+msgstr "Initiering av modem misslyckades"
+
+#: panels/network/panel-common.c:401
+msgid "Failed to select the specified APN"
+msgstr "Misslyckades med att välja angiven APN"
+
+#: panels/network/panel-common.c:405
+msgid "Not searching for networks"
+msgstr "Söker inte efter nätverk"
+
+#: panels/network/panel-common.c:409
+msgid "Network registration denied"
+msgstr "Nätverksregistrering nekades"
+
+#: panels/network/panel-common.c:413
+msgid "Network registration timed out"
+msgstr "Tidsgränsen för nätverksregistrering överstegs"
+
+#: panels/network/panel-common.c:417
+msgid "Failed to register with the requested network"
+msgstr "Misslyckades med att registrera med begärt nätverk"
+
+#: panels/network/panel-common.c:421
+msgid "PIN check failed"
+msgstr "Kontroll av pin-kod misslyckades"
+
+#: panels/network/panel-common.c:425
+msgid "Firmware for the device may be missing"
+msgstr "Enheten kan sakna firmware"
+
+#: panels/network/panel-common.c:429
+msgid "Connection disappeared"
+msgstr "Anslutningen försvann"
+
+#: panels/network/panel-common.c:433
+msgid "Carrier/link changed"
+msgstr "Bärare/länk ändrades"
+
+#: panels/network/panel-common.c:437
+msgid "Existing connection was assumed"
+msgstr "Det antogs att en existerande anslutning redan fanns"
+
+#: panels/network/panel-common.c:441
+msgid "Modem not found"
+msgstr "Modemet kunde inte hittas"
+
+#: panels/network/panel-common.c:445
+msgid "Bluetooth connection failed"
+msgstr "Bluetooth-anslutningen misslyckades"
+
+#: panels/network/panel-common.c:449
+msgid "SIM Card not inserted"
+msgstr "SIM-kortet är inte isatt"
+
+#: panels/network/panel-common.c:453
+msgid "SIM Pin required"
+msgstr "Sim-kortet kräver en pin-kod"
+
+#: panels/network/panel-common.c:457
+msgid "SIM Puk required"
+msgstr "SIM-kortet kräver en puk-kod"
+
+#: panels/network/panel-common.c:461
+msgid "SIM wrong"
+msgstr "Fel på SIM-kortet"
+
+#: panels/network/panel-common.c:465
+msgid "InfiniBand device does not support connected mode"
+msgstr "InfiniBand-enheten saknar stöd för anslutet läge"
+
+#: panels/network/panel-common.c:469
+msgid "Connection dependency failed"
+msgstr "Misslyckades med ett anslutningsberoende"
+
+#: panels/network/panel-common.c:683 panels/network/network-wifi.ui.h:13
+#: panels/network/network-wired.ui.h:2
+msgid "IPv4 Address"
+msgstr "IPv4-adress"
+
+#: panels/network/panel-common.c:684 panels/network/network-mobile.ui.h:4
+#: panels/network/network-wifi.ui.h:14 panels/network/network-wired.ui.h:3
+msgid "IPv6 Address"
+msgstr "IPv6-adress"
+
+#: panels/network/panel-common.c:686 panels/network/panel-common.c:688
+#: panels/network/network-mobile.ui.h:3
+msgid "IP Address"
+msgstr "IP-adress"
+
+#: panels/power/cc-power-panel.c:166
+msgid "Unknown time"
+msgstr "Okänd tid"
+
+#: panels/power/cc-power-panel.c:172
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "%i minut"
+msgstr[1] "%i minuter"
+
+#: panels/power/cc-power-panel.c:184
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] "%i timme"
+msgstr[1] "%i timmar"
+
+#: panels/power/cc-power-panel.c:192
+#, c-format
+msgid "%i %s %i %s"
+msgstr "%i %s %i %s"
+
+#: panels/power/cc-power-panel.c:193
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "timme"
+msgstr[1] "timmar"
+
+#: panels/power/cc-power-panel.c:194
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minut"
+msgstr[1] "minuter"
+
+#: panels/power/cc-power-panel.c:237
+#, c-format
+msgid "Charging - %s until fully charged"
+msgstr "Laddar upp - %s tills helt uppladdat"
+
+#: panels/power/cc-power-panel.c:245
+#, c-format
+msgid "Caution low battery, %s remaining"
+msgstr "Varning: låg batterinivå, %s återstår"
+
+#: panels/power/cc-power-panel.c:253
+#, c-format
+msgid "Using battery power - %s remaining"
+msgstr "Använder batteriström - %s återstår"
+
+#: panels/power/cc-power-panel.c:270
+msgid "Charging"
+msgstr "Laddar upp"
+
+#: panels/power/cc-power-panel.c:275
+msgid "Using battery power"
+msgstr "Använder batteriström"
+
+#: panels/power/cc-power-panel.c:279
+msgid "Charging - fully charged"
+msgstr "Laddar upp - helt uppladdat"
+
+#: panels/power/cc-power-panel.c:283
+msgid "Empty"
+msgstr "Tom"
+
+#: panels/power/cc-power-panel.c:351
+#, c-format
+msgid "Caution low UPS, %s remaining"
+msgstr "Varning: låg UPS-strömnivå, %s återstår"
+
+#: panels/power/cc-power-panel.c:357
+#, c-format
+msgid "Using UPS power - %s remaining"
+msgstr "Använder UPS-reservström - %s återstår"
+
+#: panels/power/cc-power-panel.c:375
+msgid "Caution low UPS"
+msgstr "Varning, låg UPS-ström"
+
+#: panels/power/cc-power-panel.c:380
+msgid "Using UPS power"
+msgstr "På UPS-reservström"
+
+#: panels/power/cc-power-panel.c:432
+msgid "Your secondary battery is fully charged"
+msgstr "Ditt sekundära batteri är helt uppladdat"
+
+#: panels/power/cc-power-panel.c:436
+msgid "Your secondary battery is empty"
+msgstr "Ditt sekundära batteri är tomt"
+
+#: panels/power/cc-power-panel.c:519
+msgid "Wireless mouse"
+msgstr "Trådlös mus"
+
+#: panels/power/cc-power-panel.c:523
+msgid "Wireless keyboard"
+msgstr "Trådlöst tangentbord"
+
+#: panels/power/cc-power-panel.c:527
+msgid "Uninterruptible power supply"
+msgstr "UPS-reservström"
+
+#: panels/power/cc-power-panel.c:531
+msgid "Personal digital assistant"
+msgstr "Handdator"
+
+#: panels/power/cc-power-panel.c:535
+msgid "Cellphone"
+msgstr "Mobiltelefon"
+
+#: panels/power/cc-power-panel.c:539
+msgid "Media player"
+msgstr "Mediaspelare"
+
+#: panels/power/cc-power-panel.c:543
+msgid "Tablet"
+msgstr "Ritplatta"
+
+#: panels/power/cc-power-panel.c:547
+msgid "Computer"
+msgstr "Dator"
+
+#: panels/power/cc-power-panel.c:551
+msgid "Battery"
+msgstr "Batteri"
+
+#: panels/region/cc-region-panel.c:178
+msgid "Get more languages..."
+msgstr "Få ut mera språk..."
+
+#: panels/region/cinnamon-region-panel-formats.c:142
+msgid "Imperial"
+msgstr "Imperial"
+
+#: panels/region/cinnamon-region-panel-formats.c:144
+msgid "Metric"
+msgstr "Metrisk"
+
+#: panels/region/cinnamon-region-panel-system.c:420
+msgid ""
+"The login screen, system accounts and new user accounts use the system-wide "
+"Region and Language settings."
+msgstr ""
+"Inloggningsskärmen, systemkonton och nya användarkonton använder "
+"systeminställningarna i Region och Språk."
+
+#: panels/region/cinnamon-region-panel-system.c:425
+#: panels/region/cinnamon-region-panel.ui.h:32
+msgid ""
+"The login screen, system accounts and new user accounts use the system-wide "
+"Region and Language settings. You may change the system settings to match "
+"yours."
+msgstr ""
+"Inloggningsskärmen, systemkonton och nya användarkonton använder "
+"systeminställningarna i Region och Språk. Du kan ändra systeminställningarna "
+"för att passa dina behov."
+
+#: panels/region/cinnamon-region-panel-system.c:428
+msgid "Copy Settings"
+msgstr "Kopiera inställningar"
+
+#: panels/region/cinnamon-region-panel-system.c:431
+#: panels/region/cinnamon-region-panel.ui.h:39
+msgid "Copy Settings..."
+msgstr "Kopiera inställningar..."
+
+#: panels/region/cinnamon-region-panel-xkblt.c:210
+msgid "Layout"
+msgstr "Layout"
+
+#: panels/region/cinnamon-region-panel-xkbot.c:229
+msgid "Default"
+msgstr "Standard"
+
+#: panels/sound/applet-main.c:49
+msgid "Enable debugging code"
+msgstr "Aktivera felsökningskod"
+
+#: panels/sound/applet-main.c:50
+msgid "Version of this application"
+msgstr "Version för detta program"
+
+#: panels/sound/applet-main.c:62
+msgid " — Cinnamon Volume Control Applet"
+msgstr " — Cinnamon Volymkontroll Applet"
+
+#: panels/sound/gvc-applet.c:270 panels/sound/gvc-mixer-dialog.c:1654
+#: panels/sound-nua/gvc-mixer-dialog.c:1748
+msgid "Output"
+msgstr "Utgång"
+
+#: panels/sound/gvc-applet.c:272
+msgid "Sound Output Volume"
+msgstr "Volym för ljudutgång"
+
+#: panels/sound/gvc-applet.c:276 panels/sound/gvc-mixer-dialog.c:1695
+#: panels/sound-nua/gvc-mixer-dialog.c:1881
+msgid "Input"
+msgstr "Ingång"
+
+#: panels/sound/gvc-applet.c:278
+msgid "Microphone Volume"
+msgstr "Mikrofonvolym"
+
+#: panels/sound/gvc-balance-bar.c:295 panels/sound-nua/gvc-balance-bar.c:295
+msgid "_Balance:"
+msgstr "_Balans:"
+
+#: panels/sound/gvc-balance-bar.c:298 panels/sound-nua/gvc-balance-bar.c:298
+msgid "_Fade:"
+msgstr "_Tona:"
+
+#: panels/sound/gvc-balance-bar.c:301 panels/sound-nua/gvc-balance-bar.c:301
+msgid "_Subwoofer:"
+msgstr "_Subwoofer:"
+
+#: panels/sound/gvc-combo-box.c:167 panels/sound/gvc-mixer-dialog.c:258
+#: panels/sound/gvc-mixer-dialog.c:519
+msgid "_Profile:"
+msgstr "_Profil:"
+
+#: panels/sound/gvc-mixer-control.c:1834
+msgid "Disabled"
+msgstr "Inaktiverad"
+
+#: panels/sound/gvc-mixer-control.c:1841
+#, c-format
+msgid "%u Output"
+msgid_plural "%u Outputs"
+msgstr[0] "%u utgång"
+msgstr[1] "%u utgångar"
+
+#: panels/sound/gvc-mixer-control.c:1851
+#, c-format
+msgid "%u Input"
+msgid_plural "%u Inputs"
+msgstr[0] "%u ingång"
+msgstr[1] "%u ingångar"
+
+#: panels/sound/gvc-mixer-control.c:2375
+msgid "System Sounds"
+msgstr "Systemljud"
+
+#: panels/sound/gvc-mixer-dialog.c:260
+msgid "_Test Speakers"
+msgstr "Testa _högtalare"
+
+#: panels/sound/gvc-mixer-dialog.c:424 panels/sound-nua/gvc-mixer-dialog.c:341
+msgid "Peak detect"
+msgstr "Upptäck toppar"
+
+#: panels/sound/gvc-mixer-dialog.c:1504
+#: panels/sound-nua/gvc-mixer-dialog.c:1578
+msgid "Name"
+msgstr "Namn"
+
+#: panels/sound/gvc-mixer-dialog.c:1586
+#: panels/sound-nua/gvc-mixer-dialog.c:1680
+#, c-format
+msgid "Speaker Testing for %s"
+msgstr "Högtalartest för %s"
+
+#: panels/sound/gvc-mixer-dialog.c:1640
+#: panels/sound-nua/gvc-mixer-dialog.c:2016
+msgid "_Output volume:"
+msgstr "_Utgångsvolym:"
+
+#: panels/sound/gvc-mixer-dialog.c:1659
+msgid "C_hoose a device for sound output:"
+msgstr "Välj _en enhet som ljudutgång:"
+
+#: panels/sound/gvc-mixer-dialog.c:1684
+msgid "Settings for the selected device:"
+msgstr "Inställningar för den valda enheten:"
+
+#: panels/sound/gvc-mixer-dialog.c:1702
+#: panels/sound-nua/gvc-mixer-dialog.c:1928
+msgid "_Input volume:"
+msgstr "_Ingångsvolym:"
+
+#: panels/sound/gvc-mixer-dialog.c:1725
+#: panels/sound-nua/gvc-mixer-dialog.c:1961
+msgid "Input level:"
+msgstr "Ingångsnivå:"
+
+#: panels/sound/gvc-mixer-dialog.c:1753
+msgid "C_hoose a device for sound input:"
+msgstr "Välj _en enhet som ljudingång:"
+
+#: panels/sound/gvc-mixer-dialog.c:1780
+#: panels/sound-nua/gvc-mixer-dialog.c:1982
+msgid "Sound Effects"
+msgstr "Ljudeffekter"
+
+#: panels/sound/gvc-mixer-dialog.c:1787
+#: panels/sound-nua/gvc-mixer-dialog.c:1989
+msgid "_Alert volume:"
+msgstr "La_rmvolym:"
+
+#: panels/sound/gvc-mixer-dialog.c:1795
+#: panels/sound-nua/gvc-mixer-dialog.c:1997
+msgid "Applications"
+msgstr "Program"
+
+#: panels/sound/gvc-mixer-dialog.c:1799
+#: panels/sound-nua/gvc-mixer-dialog.c:2001
+msgid "No application is currently playing or recording audio."
+msgstr "Inget program spelar in eller upp ljud för närvarande."
+
+#: panels/sound/gvc-speaker-test.c:220
+msgid "Stop"
+msgstr "Stoppa"
+
+#: panels/sound/gvc-speaker-test.c:220 panels/sound/gvc-speaker-test.c:332
+msgid "Test"
+msgstr "Testa"
+
+#: panels/sound/gvc-speaker-test.c:228
+msgid "Subwoofer"
+msgstr "Subwoofer"
+
+#: panels/sound/gvc-stream-status-icon.c:236
+#, c-format
+msgid "Failed to start Sound Preferences: %s"
+msgstr "Misslyckades med att starta Ljudinställningar: %s"
+
+#: panels/sound/gvc-stream-status-icon.c:262
+msgid "_Mute"
+msgstr "_Tyst"
+
+#: panels/sound/gvc-stream-status-icon.c:271
+msgid "_Sound Preferences"
+msgstr "_Ljudinställningar"
+
+#: panels/sound/gvc-stream-status-icon.c:416
+msgid "Muted"
+msgstr "Tyst"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:774
+#: panels/sound-nua/gvc-mixer-dialog.c:944
+#, c-format
+msgid "Settings for %s"
+msgstr "Inställningar för %s"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:800
+#: panels/sound-nua/gvc-mixer-dialog.c:953
+msgid "Mode:"
+msgstr "Läge:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1753
+msgid "Play sound through"
+msgstr "Spela ljud genom"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1778
+#: panels/sound-nua/gvc-mixer-dialog.c:1910
+msgid "Settings for the selected device"
+msgstr "Inställningar för den valda enheten"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1851
+msgid "Test:"
+msgstr "Test:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1858
+msgid "Test Sound"
+msgstr "Testa ljud"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1885
+msgid "Record sound from"
+msgstr "Spela in ljud från"
+
+#: panels/universal-access/cc-ua-panel.c:289
+#: panels/universal-access/cc-ua-panel.c:295
+msgid "No shortcut set"
+msgstr "Ingen genväg inställd"
+
+#: shell/cc-shell-nav-bar.c:117
+msgid "_All Settings"
+msgstr "_Alla inställningar"
+
+#: shell/control-center.c:58
+msgid "Enable verbose mode"
+msgstr "Aktivera informativt läge"
+
+#: shell/control-center.c:59
+msgid "Show the overview"
+msgstr "Visa översikten"
+
+#: shell/control-center.c:60 shell/control-center.c:61
+#: shell/control-center.c:62
+msgid "Show help options"
+msgstr "Visa hjälpflaggor"
+
+#: shell/control-center.c:63
+msgid "Panel to display"
+msgstr "Panel att visa"
+
+#: shell/control-center.c:85
+msgid "- System Settings"
+msgstr "- Systeminställningar"
+
+#: shell/control-center.c:93
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Kör \"%s --help\" för att se en komplett lista över tillgängliga "
+"kommandoradsflaggor.\n"
+
+#: shell/control-center.c:215
+msgid "Help"
+msgstr "Hjälp"
+
+#: shell/control-center.c:216
+msgid "Quit"
+msgstr "Avsluta"
+
+#: panels/color/color.ui.h:3 generate_additional_files.py:83
+msgid "Color"
+msgstr "Färg"
+
+#: panels/color/color.ui.h:4
+msgid "Each device needs an up to date color profile to be color managed."
+msgstr ""
+"Varje enhet behöver en uppdaterad färgprofil för att bli färghanterad."
+
+#: panels/color/color.ui.h:5
+msgid "Learn more"
+msgstr "Läs mer"
+
+#: panels/color/color.ui.h:6
+msgid "Learn more about color management"
+msgstr "Läs mer om färghantering"
+
+#: panels/color/color.ui.h:7
+msgid "Add device"
+msgstr "Lägg till enhet"
+
+#: panels/color/color.ui.h:8
+msgid "Add a virtual device"
+msgstr "Lägg till en virtuell enhet"
+
+#: panels/color/color.ui.h:9
+msgid "Delete device"
+msgstr "Ta bort enhet"
+
+#: panels/color/color.ui.h:10
+msgid "Remove a device"
+msgstr "Ta bort en enhet"
+
+#: panels/color/color.ui.h:12
+msgid "Set this profile for all users on this computer"
+msgstr "Använd profilen för alla användare på datorn"
+
+#: panels/color/color.ui.h:13
+msgid "Add profile"
+msgstr "Lägg till profil"
+
+#: panels/color/color.ui.h:14
+msgid "Calibrate…"
+msgstr "Kalibrera…"
+
+#: panels/color/color.ui.h:15
+msgid "Calibrate the device"
+msgstr "Kalibrera enheten"
+
+#: panels/color/color.ui.h:16
+msgid "Remove profile"
+msgstr "Ta bort profil"
+
+#: panels/color/color.ui.h:17
+msgid "View details"
+msgstr "Visa detaljer"
+
+#: panels/color/color.ui.h:18
+msgid "Device type:"
+msgstr "Enhetstyp:"
+
+#: panels/color/color.ui.h:19
+msgid "Manufacturer:"
+msgstr "Tillverkare:"
+
+#: panels/color/color.ui.h:20
+msgid "Model:"
+msgstr "Modell:"
+
+#: panels/color/color.ui.h:21
+msgid ""
+"Image files can be dragged on this window to auto-complete the above fields."
+msgstr ""
+"Bildfiler kan dras till detta fönster för att automatiskt komplettera "
+"ovanstående fält."
+
+#: panels/common/language-chooser.ui.h:1
+msgid "Select a language"
+msgstr "Välj ett språk"
+
+#: panels/common/language-chooser.ui.h:2
+msgid "_Cancel"
+msgstr "_Avbryt"
+
+#: panels/common/language-chooser.ui.h:3
+msgid "_Select"
+msgstr "_Välj"
+
+#: panels/display/display-capplet.ui.h:2
+msgid "Set as Primary"
+msgstr "Ange som primär"
+
+#: panels/display/display-capplet.ui.h:3
+msgid "_Resolution"
+msgstr "_Upplösning"
+
+#: panels/display/display-capplet.ui.h:4
+msgid "R_otation"
+msgstr "R_otation"
+
+#: panels/display/display-capplet.ui.h:6
+msgid "_Mirror displays"
+msgstr "_Spegla skärmar"
+
+#: panels/display/display-capplet.ui.h:7
+msgid "Note: may limit resolution options"
+msgstr "Observera: kan begränsa upplösningsalternativen"
+
+#: panels/display/display-capplet.ui.h:8
+msgid "_Detect Displays"
+msgstr "_Identifiera skärmar"
+
+#: panels/network/network-mobile.ui.h:1
+msgid "IMEI"
+msgstr "IMEI"
+
+#: panels/network/network-mobile.ui.h:2
+msgid "Provider"
+msgstr "Leverantör"
+
+#: panels/network/network-mobile.ui.h:5 panels/network/network-wifi.ui.h:15
+#: panels/network/network-wired.ui.h:4
+msgid "Default Route"
+msgstr "Standardrutt"
+
+#: panels/network/network-mobile.ui.h:6 panels/network/network-wifi.ui.h:16
+#: panels/network/network-wired.ui.h:5
+msgid "DNS"
+msgstr "DNS"
+
+#: panels/network/network-mobile.ui.h:7 generate_additional_files.py:173
+msgid "Network"
+msgstr "Nätverk"
+
+#: panels/network/network-mobile.ui.h:8 panels/network/network-wired.ui.h:6
+#: panels/region/cinnamon-region-panel.ui.h:26
+msgid "_Options..."
+msgstr "_Alternativ..."
+
+#: panels/network/network-proxy.ui.h:4
+msgid "_Method"
+msgstr "_Metod"
+
+#: panels/network/network-proxy.ui.h:5
+msgid "_Configuration URL"
+msgstr "_Konfigurationslänk"
+
+#: panels/network/network-proxy.ui.h:6
+msgid "_HTTP Proxy"
+msgstr "_HTTP-proxyserver"
+
+#: panels/network/network-proxy.ui.h:7
+msgid "H_TTPS Proxy"
+msgstr "H_TTPS Proxy-server"
+
+#: panels/network/network-proxy.ui.h:8
+msgid "_FTP Proxy"
+msgstr "_FTP-proxyserver"
+
+#: panels/network/network-proxy.ui.h:9
+msgid "_Socks Host"
+msgstr "_Socks-värd"
+
+#: panels/network/network.ui.h:1
+msgid "Select the interface to use for the new service"
+msgstr "Välj det gränssnitt att använda för den nya tjänsten"
+
+#: panels/network/network.ui.h:2
+msgid "C_reate..."
+msgstr "S_kapa..."
+
+#: panels/network/network.ui.h:3
+msgid "_Interface"
+msgstr "_Gränssnitt"
+
+#: panels/network/network.ui.h:4 panels/network/network-vpn.ui.h:1
+msgid "VPN"
+msgstr "VPN"
+
+#: panels/network/network.ui.h:8
+msgid "Add Device"
+msgstr "Lägg till enhet"
+
+#: panels/network/network.ui.h:9
+msgid "Remove Device"
+msgstr "Ta bort enhet"
+
+#: panels/network/network-vpn.ui.h:2
+msgid "VPN Type"
+msgstr "VPN-typ"
+
+#: panels/network/network-vpn.ui.h:3
+msgid "Gateway"
+msgstr "Gateway"
+
+#: panels/network/network-vpn.ui.h:4
+msgid "Group Name"
+msgstr "Gruppnamn"
+
+#: panels/network/network-vpn.ui.h:5
+msgid "Group Password"
+msgstr "Grupplösenord"
+
+#: panels/network/network-vpn.ui.h:6
+msgid "Username"
+msgstr "Användarnamn"
+
+#: panels/network/network-vpn.ui.h:7
+msgid "_Configure..."
+msgstr "_Konfigurera..."
+
+#: panels/network/network-wifi.ui.h:1
+msgid "Wireless Hotspot"
+msgstr "Trådlös accesspunkt"
+
+#: panels/network/network-wifi.ui.h:2
+msgid "_Turn On"
+msgstr "_Slå På"
+
+#: panels/network/network-wifi.ui.h:4
+msgid "_Use as Hotspot..."
+msgstr "_Använd som Hotspot..."
+
+#: panels/network/network-wifi.ui.h:5
+msgid "Connect to a Hidden Network"
+msgstr "Anslut till ett dolt nätverk"
+
+#: panels/network/network-wifi.ui.h:6
+msgid "_Disconnect"
+msgstr "_Koppla ifrån"
+
+#: panels/network/network-wifi.ui.h:7
+msgid "_Connect"
+msgstr "_Anslut"
+
+#: panels/network/network-wifi.ui.h:8
+msgid "Last used"
+msgstr "Senast använda"
+
+#: panels/network/network-wifi.ui.h:9 panels/network/network-wired.ui.h:1
+msgid "Hardware Address"
+msgstr "Hårdvaruadress"
+
+#: panels/network/network-wifi.ui.h:10
+msgid "Security"
+msgstr "Säkerhet"
+
+#: panels/network/network-wifi.ui.h:11
+msgid "Strength"
+msgstr "Styrka"
+
+#: panels/network/network-wifi.ui.h:12
+msgid "Link speed"
+msgstr "Länkhastighet"
+
+#: panels/network/network-wifi.ui.h:17
+msgid "_Forget Network"
+msgstr "_Glöm Nätverk"
+
+#: panels/network/network-wifi.ui.h:18
+msgid "_Settings..."
+msgstr "_Inställningar..."
+
+#: panels/network/network-wifi.ui.h:19
+msgid "Switch off to connect to a wireless network"
+msgstr "Stäng av för att ansluta till ett trådlöst nätverk"
+
+#: panels/network/network-wifi.ui.h:20
+msgid "Network Name"
+msgstr "Nätverksnamn"
+
+#: panels/network/network-wifi.ui.h:21
+msgid "Connected Devices"
+msgstr "Anslutna Enheter"
+
+#: panels/network/network-wifi.ui.h:22
+msgid "Security type"
+msgstr "Säkerhetstyp"
+
+#: panels/network/network-wifi.ui.h:23
+msgid "Security key"
+msgstr "Säkerhetsnyckel"
+
+#: panels/power/power.ui.h:1
+msgid "Hibernate"
+msgstr "Försätt i vänteläge"
+
+#: panels/power/power.ui.h:2
+msgid "Power off"
+msgstr "Stäng av"
+
+#: panels/power/power.ui.h:3 panels/screen/screen.ui.h:6
+msgid "5 minutes"
+msgstr "5 minuter"
+
+#: panels/power/power.ui.h:4 panels/screen/screen.ui.h:7
+msgid "10 minutes"
+msgstr "10 minuter"
+
+#: panels/power/power.ui.h:5 panels/screen/screen.ui.h:8
+msgid "30 minutes"
+msgstr "30 minuter"
+
+#: panels/power/power.ui.h:6 panels/screen/screen.ui.h:9
+msgid "1 hour"
+msgstr "1 timme"
+
+#: panels/power/power.ui.h:7
+msgid "Don't suspend"
+msgstr "Försätt inte i vänteläge"
+
+#: panels/power/power.ui.h:8
+msgid "Suspend"
+msgstr "Viloläge"
+
+#: panels/power/power.ui.h:9
+msgid "Do nothing"
+msgstr "Gör ingenting"
+
+#: panels/power/power.ui.h:10
+msgid "Lock Screen"
+msgstr "Lås skärm"
+
+#: panels/power/power.ui.h:11
+msgid "Shutdown Immediately"
+msgstr "Stäng av omedelbart"
+
+#: panels/power/power.ui.h:12
+msgid "Ask"
+msgstr "Fråga"
+
+#: panels/power/power.ui.h:13
+msgid "When battery is present"
+msgstr "När ett batteri finns tillgängligt"
+
+#: panels/power/power.ui.h:14
+msgid "When battery is charging/in use"
+msgstr "När batteriet laddas upp eller används"
+
+#: panels/power/power.ui.h:15 panels/screen/screen.ui.h:10
+msgid "Never"
+msgstr "Aldrig"
+
+#: panels/power/power.ui.h:16
+msgid "On battery power"
+msgstr "På batteriström"
+
+#: panels/power/power.ui.h:17
+msgid "When plugged in"
+msgstr "När ansluten till elnätet"
+
+#: panels/power/power.ui.h:18
+msgid "Suspend when inactive for"
+msgstr "Försätt i viloläge när inaktiv i"
+
+#: panels/power/power.ui.h:19
+msgid "When power is _critically low"
+msgstr "När strömnivån är _kritiskt låg"
+
+#: panels/power/power.ui.h:20
+msgid "When the lid is closed"
+msgstr "När locket är stängt"
+
+#: panels/power/power.ui.h:21
+msgid "Show battery status in the _menu bar"
+msgstr "Visa batteristatus i menyra_den"
+
+#: panels/power/power.ui.h:22
+msgid "Power button action"
+msgstr "Åtgärd för strömknapp"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:1
+msgid "Choose a Layout"
+msgstr "Välj en layout"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:2
+msgid "Preview"
+msgstr "Förhandsgranskning"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:3
+msgid "Select an input source to add"
+msgstr "Välj en inmatningskälla att lägga till"
+
+#: panels/region/cinnamon-region-panel-options-dialog.ui.h:1
+msgid "Keyboard Layout Options"
+msgstr "Alternativ för tangentbordslayout"
+
+#: panels/region/cinnamon-region-panel.ui.h:1
+msgid "Region and Language"
+msgstr "Region och språk"
+
+#: panels/region/cinnamon-region-panel.ui.h:2
+msgid ""
+"Select a display language (change will be applied next time you log in)"
+msgstr "Välj ett språk (aktiveras nästa gång du loggar in)"
+
+#: panels/region/cinnamon-region-panel.ui.h:3
+msgid "Add Language"
+msgstr "Lägg till språk"
+
+#: panels/region/cinnamon-region-panel.ui.h:4
+msgid "Remove Language"
+msgstr "Ta bort språk"
+
+#: panels/region/cinnamon-region-panel.ui.h:5
+msgid "button"
+msgstr "knapp"
+
+#: panels/region/cinnamon-region-panel.ui.h:6
+msgid "Language"
+msgstr "Språk"
+
+#: panels/region/cinnamon-region-panel.ui.h:7
+msgid "Select a region (change will be applied the next time you log in)"
+msgstr "Välj en region (aktiveras nästa gång du loggar in)"
+
+#: panels/region/cinnamon-region-panel.ui.h:8
+msgid "Add Region"
+msgstr "Lägg till region"
+
+#: panels/region/cinnamon-region-panel.ui.h:9
+msgid "Remove Region"
+msgstr "Ta bort region"
+
+#: panels/region/cinnamon-region-panel.ui.h:10
+msgid "Dates"
+msgstr "Datum"
+
+#: panels/region/cinnamon-region-panel.ui.h:11
+msgid "Times"
+msgstr "Tider"
+
+#: panels/region/cinnamon-region-panel.ui.h:12
+msgid "Numbers"
+msgstr "Nummer"
+
+#: panels/region/cinnamon-region-panel.ui.h:13
+msgid "Currency"
+msgstr "Valuta"
+
+#: panels/region/cinnamon-region-panel.ui.h:14
+msgid "Measurement"
+msgstr "Mätning"
+
+#: panels/region/cinnamon-region-panel.ui.h:15
+msgid "Examples"
+msgstr "Exempel"
+
+#: panels/region/cinnamon-region-panel.ui.h:16
+msgid "Formats"
+msgstr "Format"
+
+#: panels/region/cinnamon-region-panel.ui.h:17
+msgid "Add Layout"
+msgstr "Lägg till layout"
+
+#: panels/region/cinnamon-region-panel.ui.h:18
+msgid "Remove Layout"
+msgstr "Ta bort layout"
+
+#: panels/region/cinnamon-region-panel.ui.h:19
+msgid "Move Up"
+msgstr "Flytta uppåt"
+
+#: panels/region/cinnamon-region-panel.ui.h:20
+msgid "Move Down"
+msgstr "Flytta nedåt"
+
+#: panels/region/cinnamon-region-panel.ui.h:21
+msgid "Preview Layout"
+msgstr "Förhandsgranska layout"
+
+#: panels/region/cinnamon-region-panel.ui.h:22
+msgid "Use the same layout for all windows"
+msgstr "Använd samma layout för alla fönster"
+
+#: panels/region/cinnamon-region-panel.ui.h:23
+msgid "Allow different layouts for individual windows"
+msgstr "Tillåt olika layouter för individuella fönster"
+
+#: panels/region/cinnamon-region-panel.ui.h:24
+msgid "New windows use the default layout"
+msgstr "Nya fönster använder standardlayouten"
+
+#: panels/region/cinnamon-region-panel.ui.h:25
+msgid "New windows use the previous window's layout"
+msgstr "Nya fönster använder föregående fönsters layout"
+
+#: panels/region/cinnamon-region-panel.ui.h:27
+msgid "View and edit keyboard layout options"
+msgstr "Visa och redigera alternativ för tangentbordslayout"
+
+#: panels/region/cinnamon-region-panel.ui.h:28
+msgid "Reset to De_faults"
+msgstr "Återställ till st_andardvärden"
+
+#: panels/region/cinnamon-region-panel.ui.h:29
+msgid ""
+"Replace the current keyboard layout settings with the\n"
+"default settings"
+msgstr ""
+"Ersätt aktuella inställningar för tangentbordslayout\n"
+"med standardinställningar"
+
+#: panels/region/cinnamon-region-panel.ui.h:31
+msgid "Keyboard Layouts"
+msgstr "Tangentbordslayouter"
+
+#: panels/region/cinnamon-region-panel.ui.h:34
+msgid "Display language:"
+msgstr "Visningsspråk:"
+
+#: panels/region/cinnamon-region-panel.ui.h:35
+msgid "Input source:"
+msgstr "Ingångskälla:"
+
+#: panels/region/cinnamon-region-panel.ui.h:36
+msgid "Format:"
+msgstr "Format:"
+
+#: panels/region/cinnamon-region-panel.ui.h:37
+msgid "Your settings"
+msgstr "Dina inställningar"
+
+#: panels/region/cinnamon-region-panel.ui.h:38
+msgid "System settings"
+msgstr "Systeminställningar"
+
+#: panels/region/cinnamon-region-panel.ui.h:40
+msgid "System"
+msgstr "System"
+
+#: panels/screen/screen.ui.h:1
+msgid "Screen turns off"
+msgstr "Skärmen stängs av"
+
+#: panels/screen/screen.ui.h:2
+msgid "30 seconds"
+msgstr "30 sekunder"
+
+#: panels/screen/screen.ui.h:3
+msgid "1 minute"
+msgstr "1 minut"
+
+#: panels/screen/screen.ui.h:4
+msgid "2 minutes"
+msgstr "2 minuter"
+
+#: panels/screen/screen.ui.h:5
+msgid "3 minutes"
+msgstr "3 minuter"
+
+#: panels/screen/screen.ui.h:11
+msgid "_Dim screen to save power"
+msgstr "_Dämpa skärmens ljusstyrka för att spara ström"
+
+#: panels/screen/screen.ui.h:12
+msgid "Brightness"
+msgstr "Ljusstyrka"
+
+#: panels/screen/screen.ui.h:13
+msgid "_Turn screen off when inactive for:"
+msgstr "_Stäng av skärmen när den är inaktiv i:"
+
+#: panels/screen/screen.ui.h:14
+msgid "_Lock screen after:"
+msgstr "_Lås skärm efter:"
+
+#: panels/screen/screen.ui.h:15
+msgid "Require my password when waking from suspend"
+msgstr "Kräv mitt lösenord vid uppvaknande från vänteläge"
+
+#: panels/screen/screen.ui.h:16
+msgid "Lock"
+msgstr "Lås"
+
+#: panels/universal-access/uap.ui.h:5
+msgid "On screen keyboard"
+msgstr "Skärmtangentbord"
+
+#: panels/universal-access/uap.ui.h:6
+msgid "GOK"
+msgstr "GOK"
+
+#: panels/universal-access/uap.ui.h:7
+msgid "OnBoard"
+msgstr "OnBoard"
+
+#: panels/universal-access/uap.ui.h:8
+msgid "None"
+msgstr "Ingen"
+
+#: panels/universal-access/uap.ui.h:10
+#, no-c-format
+msgid "75%"
+msgstr "75%"
+
+#: panels/universal-access/uap.ui.h:13
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#: panels/universal-access/uap.ui.h:16
+#, no-c-format
+msgid "125%"
+msgstr "125%"
+
+#: panels/universal-access/uap.ui.h:19
+#, no-c-format
+msgid "150%"
+msgstr "150%"
+
+#: panels/universal-access/uap.ui.h:21
+msgid "High Contrast"
+msgstr "Hög Kontrast"
+
+#: panels/universal-access/uap.ui.h:22
+msgid "Beep on Caps and Num Lock"
+msgstr "Spela upp ett ljud när Caps lock- och Num lock-tangenterna används"
+
+#: panels/universal-access/uap.ui.h:23
+msgid "Options..."
+msgstr "Alternativ..."
+
+#: panels/universal-access/uap.ui.h:24
+msgid "Screen Reader"
+msgstr "Skärmuppläsning"
+
+#: panels/universal-access/uap.ui.h:25
+msgid "Turn on or off:"
+msgstr "Sätt på av eller på:"
+
+#: panels/universal-access/uap.ui.h:27
+msgid "Zoom in:"
+msgstr "Zooma in:"
+
+#: panels/universal-access/uap.ui.h:28
+msgid "Zoom out:"
+msgstr "Zooma ut:"
+
+#: panels/universal-access/uap.ui.h:29
+msgid "Large Text"
+msgstr "Stor text"
+
+#: panels/universal-access/uap.ui.h:30
+msgid "Seeing"
+msgstr "Ser"
+
+#: panels/universal-access/uap.ui.h:31
+msgid "Visual Alerts"
+msgstr "Visuella varningar"
+
+#: panels/universal-access/uap.ui.h:32
+msgid "Use a visual indication when an alert sound occurs"
+msgstr "Använd en visuell indikation när ett larmljud inträffar"
+
+#: panels/universal-access/uap.ui.h:33
+msgid "Flash the window title"
+msgstr "Blinka fönstrets titellist"
+
+#: panels/universal-access/uap.ui.h:34
+msgid "Flash the entire screen"
+msgstr "Blinka hela skärmen"
+
+#: panels/universal-access/uap.ui.h:35
+msgid "Closed Captioning"
+msgstr "Undertexter"
+
+#: panels/universal-access/uap.ui.h:36
+msgid "Display a textual description of speech and sounds"
+msgstr "Visa en textbeskrivning av tal och ljud"
+
+#: panels/universal-access/uap.ui.h:37
+msgid "_Test flash"
+msgstr "_Testa flash"
+
+#: panels/universal-access/uap.ui.h:38
+msgid "Hearing"
+msgstr "Höra"
+
+#: panels/universal-access/uap.ui.h:39
+msgid "On Screen Keyboard"
+msgstr "Skärmtangentbord"
+
+#: panels/universal-access/uap.ui.h:40
+msgid "Sticky Keys"
+msgstr "Tröga Tangenter"
+
+#: panels/universal-access/uap.ui.h:41
+msgid "Treats a sequence of modifier keys as a key combination"
+msgstr ""
+"Behandlar en sekvens av modifierartangenter som en tangentkombination"
+
+#: panels/universal-access/uap.ui.h:42
+msgid "_Disable if two keys are pressed together"
+msgstr "_Inaktivera om två tangenter trycks samtidigt"
+
+#: panels/universal-access/uap.ui.h:43
+msgid "Beep when a _modifer key is pressed"
+msgstr "Pip när en _modifierartangent trycks ned"
+
+#: panels/universal-access/uap.ui.h:44
+msgid "Slow Keys"
+msgstr "Långsamma tangenter"
+
+#: panels/universal-access/uap.ui.h:45
+msgid "Puts a delay between when a key is pressed and when it is accepted"
+msgstr ""
+"Lägger till en fördröjning mellan en tangenttryckning tills den accepteras"
+
+#: panels/universal-access/uap.ui.h:46
+msgid "A_cceptance delay:"
+msgstr "Acc_eptansfördröjning:"
+
+#: panels/universal-access/uap.ui.h:48
+msgid "Short"
+msgstr "Kort"
+
+#: panels/universal-access/uap.ui.h:49
+msgid "Slow keys typing delay"
+msgstr "Skrivfördröjning för tröga tangenter"
+
+#: panels/universal-access/uap.ui.h:51
+msgid "Long"
+msgstr "Lång"
+
+#: panels/universal-access/uap.ui.h:53
+msgid "Beep when a key is"
+msgstr "Pip när en tangent är"
+
+#: panels/universal-access/uap.ui.h:55
+msgid "pressed"
+msgstr "nedtryckt"
+
+#: panels/universal-access/uap.ui.h:57
+msgid "accepted"
+msgstr "accepterad"
+
+#: panels/universal-access/uap.ui.h:59
+msgid "rejected"
+msgstr "avvisad"
+
+#: panels/universal-access/uap.ui.h:60
+msgid "Bounce Keys"
+msgstr "Studsa tangenter"
+
+#: panels/universal-access/uap.ui.h:61
+msgid "Ignores fast duplicate keypresses"
+msgstr "Ignorera snabba dubbla tangenttryckningar"
+
+#: panels/universal-access/uap.ui.h:62
+msgid "Acc_eptance delay:"
+msgstr "A_cceptansfördröjning:"
+
+#: panels/universal-access/uap.ui.h:63
+msgid "Bounce keys typing delay"
+msgstr "Skrivfördröjning för studsande tangenter"
+
+#: panels/universal-access/uap.ui.h:64
+msgid "Beep when a key is _rejected"
+msgstr "Pip när en tangenttryckning avvisas"
+
+#: panels/universal-access/uap.ui.h:65
+msgid "Enable by Keyboard"
+msgstr "Aktivera med Tangentbordet"
+
+#: panels/universal-access/uap.ui.h:66
+msgid "Turn accessibility features on and off using the keyboard"
+msgstr "Slå av och på hjälpmedlen med tangentbordet"
+
+#: panels/universal-access/uap.ui.h:67
+msgid "Typing"
+msgstr "Skriva"
+
+#: panels/universal-access/uap.ui.h:68
+msgid "Mouse Keys"
+msgstr "Mustangenter"
+
+#: panels/universal-access/uap.ui.h:69
+msgid "Control the pointer using the keypad"
+msgstr "Styr muspekaren med numeriska tangentbordet"
+
+#: panels/universal-access/uap.ui.h:70
+msgid "Video Mouse"
+msgstr "Grafisk mus"
+
+#: panels/universal-access/uap.ui.h:71
+msgid "Control the pointer using the video camera."
+msgstr "Styr muspekaren med en videokamera."
+
+#: panels/universal-access/uap.ui.h:72
+msgid "Simulated Secondary Click"
+msgstr "Simulerat sekundärklick"
+
+#: panels/universal-access/uap.ui.h:73
+msgid "Trigger a secondary click by holding down the primary button"
+msgstr "Initiera ett sekundärklick genom att hålla ned primärknappen"
+
+#: panels/universal-access/uap.ui.h:74
+msgid "Secondary click delay"
+msgstr "Tidsgräns för sekundärklick"
+
+#: panels/universal-access/uap.ui.h:75
+msgid "Hover Click"
+msgstr "Uppehållsklick"
+
+#: panels/universal-access/uap.ui.h:76
+msgid "Trigger a click when the pointer hovers"
+msgstr "Initiera ett klick när muspekaren svävar"
+
+#: panels/universal-access/uap.ui.h:77
+msgid "D_elay:"
+msgstr "F_ördröjning:"
+
+#: panels/universal-access/uap.ui.h:78
+msgid "Motion _threshold:"
+msgstr "Rörelse _tröskel:"
+
+#: panels/universal-access/uap.ui.h:80
+msgid "Small"
+msgstr "Liten"
+
+#: panels/universal-access/uap.ui.h:82
+msgid "Large"
+msgstr "Stor"
+
+#: panels/universal-access/uap.ui.h:83
+msgid "Mouse Settings"
+msgstr "Musinställningar"
+
+#: panels/universal-access/uap.ui.h:84
+msgid "Pointing and Clicking"
+msgstr "Peka och Klicka"
+
+#: panels/universal-access/zoom-options.ui.h:1
+msgid "Full Screen"
+msgstr "Fullskärm"
+
+#: panels/universal-access/zoom-options.ui.h:2
+msgid "Top Half"
+msgstr "Övre halva"
+
+#: panels/universal-access/zoom-options.ui.h:3
+msgid "Bottom Half"
+msgstr "Nedre halva"
+
+#: panels/universal-access/zoom-options.ui.h:4
+msgid "Left Half"
+msgstr "Vänster halva"
+
+#: panels/universal-access/zoom-options.ui.h:5
+msgid "Right Half"
+msgstr "Höger halva"
+
+#: panels/universal-access/zoom-options.ui.h:6
+msgid "Zoom Options"
+msgstr "Alternativ för zoom"
+
+#: panels/universal-access/zoom-options.ui.h:7
+msgid "Zoom"
+msgstr "Zoom"
+
+#: panels/universal-access/zoom-options.ui.h:8
+msgid "Magnification:"
+msgstr "Förstoring:"
+
+#: panels/universal-access/zoom-options.ui.h:9
+msgid "Follow mouse cursor"
+msgstr "Följ muspekare"
+
+#: panels/universal-access/zoom-options.ui.h:10
+msgid "Screen part:"
+msgstr "Del av skärmen:"
+
+#: panels/universal-access/zoom-options.ui.h:11
+msgid "Magnifier extends outside of screen"
+msgstr "Förstoraren sträcker sig utanför skärmen"
+
+#: panels/universal-access/zoom-options.ui.h:12
+msgid "Keep magnifier cursor centered"
+msgstr "Håll förstorarens markör centrerad"
+
+#: panels/universal-access/zoom-options.ui.h:13
+msgid "Magnifier cursor pushes contents around"
+msgstr "Förstorarens markör flyttar på innehåll"
+
+#: panels/universal-access/zoom-options.ui.h:14
+msgid "Magnifier cursor moves with contents"
+msgstr "Förstorarens markör flyttas med innehållet"
+
+#: panels/universal-access/zoom-options.ui.h:15
+msgid "Magnifier Position:"
+msgstr "Förstorarens position:"
+
+#: panels/universal-access/zoom-options.ui.h:16
+msgid "Magnifier"
+msgstr "Förstorare"
+
+#: panels/universal-access/zoom-options.ui.h:17
+msgid "Thickness:"
+msgstr "Tjockhet:"
+
+#: panels/universal-access/zoom-options.ui.h:19
+msgid "Thin"
+msgstr "Tunn"
+
+#: panels/universal-access/zoom-options.ui.h:21
+msgid "Thick"
+msgstr "Tjock"
+
+#: panels/universal-access/zoom-options.ui.h:22
+msgid "Length:"
+msgstr "Längd:"
+
+#: panels/universal-access/zoom-options.ui.h:23
+msgid "Color:"
+msgstr "Färg:"
+
+#: panels/universal-access/zoom-options.ui.h:24
+msgid "Crosshairs:"
+msgstr "Korshår:"
+
+#: panels/universal-access/zoom-options.ui.h:25
+msgid "Overlaps mouse cursor"
+msgstr "Överlappar muspekare"
+
+#: panels/universal-access/zoom-options.ui.h:26
+msgid "Crosshairs"
+msgstr "Korshår"
+
+#: panels/universal-access/zoom-options.ui.h:27
+msgid "White on black:"
+msgstr "Vitt på svart:"
+
+#: panels/universal-access/zoom-options.ui.h:28
+msgid "Brightness:"
+msgstr "Ljusstyrka:"
+
+#: panels/universal-access/zoom-options.ui.h:29
+msgid "Contrast:"
+msgstr "Kontrast:"
+
+#: panels/universal-access/zoom-options.ui.h:34
+msgid "Low"
+msgstr "Låg"
+
+#: panels/universal-access/zoom-options.ui.h:36
+msgid "High"
+msgstr "Hög"
+
+#: panels/universal-access/zoom-options.ui.h:37
+msgid "Color Effects:"
+msgstr "Färgeffekter:"
+
+#: panels/universal-access/zoom-options.ui.h:38
+msgid "Color Effects"
+msgstr "Färgeffekter"
+
+#: generate_additional_files.py:53
+msgid "Brightness & Lock"
+msgstr "Ljusstyrka och skärmlås"
+
+#: generate_additional_files.py:53
+msgid "Screen brightness and lock settings"
+msgstr "Ljusstyrka för skärm och låsinställningar"
+
+#: generate_additional_files.py:68 generate_additional_files.py:99
+msgid "Sound"
+msgstr "Ljud"
+
+#: generate_additional_files.py:68 generate_additional_files.py:99
+msgid "Change sound volume and sound events"
+msgstr "Ändra ljudvolym och ljudhändelser"
+
+#: generate_additional_files.py:83
+msgid "Color management settings"
+msgstr "Inställningar för färghantering"
+
+#: generate_additional_files.py:113
+msgid "Volume Control"
+msgstr "Volymkontroll"
+
+#: generate_additional_files.py:113
+msgid "Show desktop volume control"
+msgstr "Visa skrivbordets volymkontroll"
+
+#: generate_additional_files.py:128
+msgid "Power"
+msgstr "Ström"
+
+#: generate_additional_files.py:128
+msgid "Power management settings"
+msgstr "Inställning för strömhantering"
+
+#: generate_additional_files.py:143
+msgid "Region & Language"
+msgstr "Område och språk"
+
+#: generate_additional_files.py:143
+msgid "Change your region and language settings"
+msgstr "Ändra inställningar för din region och ditt språk"
+
+#: generate_additional_files.py:158
+msgid "Displays"
+msgstr "Bildskärmar"
+
+#: generate_additional_files.py:158
+msgid "Change resolution and position of monitors and projectors"
+msgstr "Ändra upplösning och position för skärmar och projektorer"
+
+#: generate_additional_files.py:173
+msgid "Network settings"
+msgstr "Nätverksinställningar"
+
+#: generate_additional_files.py:188
+msgid "Universal Access"
+msgstr "Hjälpmedel"
+
+#: generate_additional_files.py:188
+msgid "Universal Access Preferences"
+msgstr "Inställningar för hjälpmedel"

@@ -1,0 +1,2133 @@
+# Translation of cinnamon-control-center.HEAD.lt.po to Lithuanian
+# Lithuanian translation of cinnamon-control-center
+# Copyright (C) 2000-2009 Free Software Foundation, Inc.
+# Gediminas Paulauskas <menesis@chatsubo.lt>, 2000-2002.
+# Vaidotas Zemlys <mpiktas@delfi.lt>, 2003.
+# Justina Klingaitė <justina.klingaite@gmail.com>, 2005.
+# Žygimantas Beručka <zygis@gnome.org>, 2003-2007, 2009, 2010, 2012.
+# Gintautas Miliauskas <gintas@akl.lt>, 2006, 2007.
+# Vytautas Liuolia <vytautas.liuolia@gmail.com>, 2008.
+# Aurimas Černius <aurisc4@gmail.com>, 2010.
+# Mantas Kriaučiūnas <mantas@akl.lt>, 2011.
+# Algimantas Margevičius <margevicius.algimantas@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: cinnamon-control-center master\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=cinnamon-control-"
+"center&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-08-30 17:55+0100\n"
+"PO-Revision-Date: 2013-08-26 10:56+0000\n"
+"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"Language-Team: Lithuanian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"(n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2013-11-26 11:42+0000\n"
+"X-Generator: Launchpad (build 16840)\n"
+"X-Poedit-Country: LITHUANIA\n"
+"Language: lt\n"
+"X-Poedit-Language: Lithuanian\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Project-Style: gnome\n"
+
+#: panels/color/cc-color-panel.c:106
+msgid "Other profile…"
+msgstr "Kitas profilis..."
+
+#: panels/color/cc-color-panel.c:119
+msgid "Default: "
+msgstr "Numatytasis: "
+
+#: panels/color/cc-color-panel.c:126
+msgid "Colorspace: "
+msgstr "Spalvų erdvė: "
+
+#: panels/color/cc-color-panel.c:132
+msgid "Test profile: "
+msgstr "Bandomasis profilis: "
+
+#: panels/color/cc-color-panel.c:185 panels/color/color.ui.h:11
+msgid "Set for all users"
+msgstr "Nustatyti visiems naudotojams"
+
+#: panels/color/cc-color-panel.c:192
+msgid "Create virtual device"
+msgstr "Sukurti virtualų įrenginį"
+
+#: panels/color/cc-color-panel.c:227
+msgid "Select ICC Profile File"
+msgstr "Pasirinkite ICC profilio failą"
+
+#: panels/color/cc-color-panel.c:230
+msgid "_Import"
+msgstr "_Importuoti"
+
+#: panels/color/cc-color-panel.c:241
+msgid "Supported ICC profiles"
+msgstr "Palaikomi ICC profiliai"
+
+#: panels/color/cc-color-panel.c:248
+msgid "All files"
+msgstr "Visi failai"
+
+#: panels/color/cc-color-panel.c:638
+msgid "Available Profiles for Displays"
+msgstr "Esami profiliai ekranui"
+
+#: panels/color/cc-color-panel.c:642
+msgid "Available Profiles for Scanners"
+msgstr "Esami profiliai skaneriam"
+
+#: panels/color/cc-color-panel.c:646
+msgid "Available Profiles for Printers"
+msgstr "Esami profiliai spausdintuvams"
+
+#: panels/color/cc-color-panel.c:650
+msgid "Available Profiles for Cameras"
+msgstr "Esami profiliai kameroms"
+
+#: panels/color/cc-color-panel.c:654
+msgid "Available Profiles for Webcams"
+msgstr "Esami profiliai internetinėms kameroms"
+
+#: panels/color/cc-color-panel.c:659 panels/color/color.ui.h:2
+msgid "Available Profiles"
+msgstr "Esami profiliai"
+
+#: panels/color/cc-color-panel.c:935 panels/sound/gvc-mixer-dialog.c:1523
+#: panels/sound-nua/gvc-mixer-dialog.c:1596
+msgid "Device"
+msgstr "Įrenginys"
+
+#: panels/color/cc-color-panel.c:970
+msgid "Calibration"
+msgstr "Kalibravimas"
+
+#: panels/color/cc-color-panel.c:1002
+msgid "Create a color profile for the selected device"
+msgstr "Sukurti spalvų profilį pasirinktam įrenginiui"
+
+#: panels/color/cc-color-panel.c:1016 panels/color/cc-color-panel.c:1040
+msgid ""
+"The measuring instrument is not detected. Please check it is turned on and "
+"correctly connected."
+msgstr ""
+"Matavimo prietaisas neaptiktas. Patikrinkite, ar jis įjungtas ir teisingai "
+"prijungtas."
+
+#: panels/color/cc-color-panel.c:1049
+msgid "The measuring instrument does not support printer profiling."
+msgstr "Matavimo prietaisas nepalaiko spausdintuvo profiliavimo."
+
+#: panels/color/cc-color-panel.c:1060
+msgid "The device type is not currently supported."
+msgstr "Įrenginio tipas šiuo metu nepalaikomas."
+
+#: panels/color/cc-color-panel.c:1132
+msgid "Cannot remove automatically added profile"
+msgstr "Nepavyksta pašalinti automatiškai pridėto profilio"
+
+#: panels/color/cc-color-panel.c:1463
+msgid "No profile"
+msgstr "Nėra profilio"
+
+#: panels/color/cc-color-panel.c:1494
+#, c-format
+msgid "%i year"
+msgid_plural "%i years"
+msgstr[0] "%i metai"
+msgstr[1] "%i metai"
+msgstr[2] "%i metų"
+
+#: panels/color/cc-color-panel.c:1505
+#, c-format
+msgid "%i month"
+msgid_plural "%i months"
+msgstr[0] "%i mėnuo"
+msgstr[1] "%i mėnesiai"
+msgstr[2] "%i mėnesių"
+
+#: panels/color/cc-color-panel.c:1516
+#, c-format
+msgid "%i week"
+msgid_plural "%i weeks"
+msgstr[0] "%i savaitė"
+msgstr[1] "%i savaitės"
+msgstr[2] "%i savaičių"
+
+#: panels/color/cc-color-panel.c:1523
+msgid "Less than 1 week"
+msgstr "Mažiau nei 1 savaitė"
+
+#: panels/color/cc-color-panel.c:1713 panels/color/cc-color-panel.c:1754
+#: panels/color/cc-color-panel.c:1765 panels/color/cc-color-panel.c:1776
+msgid "Uncalibrated"
+msgstr "Nekalibruotas"
+
+#: panels/color/cc-color-panel.c:1716
+msgid "This device is not color managed."
+msgstr "Šis įrenginys nepalaiko spalvų derinimo."
+
+#: panels/color/cc-color-panel.c:1757
+msgid "This device is using manufacturing calibrated data."
+msgstr "Įrenginys naudoja gamykliškai kalibruotus duomenis."
+
+#: panels/color/cc-color-panel.c:1768
+msgid ""
+"This device does not have a profile suitable for whole-screen color "
+"correction."
+msgstr "Įrenginys neturi profilio, tinkamo viso ekrano spalvų korekcijai."
+
+#: panels/color/cc-color-panel.c:1801
+msgid "This device has an old profile that may no longer be accurate."
+msgstr "Įrenginys turi seną profilį, kuris gali nebebūti tikslus."
+
+#: panels/color/cc-color-panel.c:1829
+msgid "Not specified"
+msgstr "Nenurodyta"
+
+#: panels/color/cc-color-panel.c:2014
+msgid "No devices supporting color management detected"
+msgstr "Neaptikta jokių įrenginių, palaikančių spalvų derinimą"
+
+#: panels/common/cc-common-language.c:533
+msgid "English"
+msgstr "Anglų"
+
+#: panels/common/cc-common-language.c:535
+msgid "British English"
+msgstr "Anglų (Didž. Britanija)"
+
+#: panels/common/cc-common-language.c:538
+msgid "German"
+msgstr "Vokiečių"
+
+#: panels/common/cc-common-language.c:541
+msgid "French"
+msgstr "Prancūzų"
+
+#: panels/common/cc-common-language.c:544
+msgid "Spanish"
+msgstr "Ispanų"
+
+#: panels/common/cc-common-language.c:546
+msgid "Chinese (simplified)"
+msgstr "Kinų (supaprastinta)"
+
+#: panels/common/cc-common-language.c:549
+msgid "Russian"
+msgstr "Rusų"
+
+#: panels/common/cc-common-language.c:552
+msgid "Arabic"
+msgstr "Arabų"
+
+#: panels/common/cc-common-language.c:581
+msgid "United States"
+msgstr "Jungtinės Amerikos Valstijos"
+
+#: panels/common/cc-common-language.c:582
+msgid "Germany"
+msgstr "Vokietija"
+
+#: panels/common/cc-common-language.c:583
+msgid "France"
+msgstr "Prancūzija"
+
+#: panels/common/cc-common-language.c:584
+msgid "Spain"
+msgstr "Ispanija"
+
+#: panels/common/cc-common-language.c:585
+msgid "China"
+msgstr "Kinija"
+
+#: panels/common/cc-language-chooser.c:301
+msgid "Select a region"
+msgstr "Pasirinkite regioną"
+
+#: panels/common/gdm-languages.c:781
+msgid "Unspecified"
+msgstr "Nenurodyta"
+
+#: panels/display/cc-display-panel.c:624 panels/display/cc-rr-labeler.c:449
+msgid "Mirrored Displays"
+msgstr "Dubliuoti ekranai"
+
+#: panels/display/cc-display-panel.c:648 panels/display/display-capplet.ui.h:1
+msgid "Monitor"
+msgstr "Vaizduoklis"
+
+#: panels/display/cc-display-panel.c:758
+#, c-format
+msgid "%d x %d (%s)"
+msgstr "%d x %d (%s)"
+
+#: panels/display/cc-display-panel.c:760
+#, c-format
+msgid "%d x %d"
+msgstr "%d x %d"
+
+#: panels/display/cc-display-panel.c:1669
+msgid ""
+"Select a monitor to change its properties; drag it to rearrange its "
+"placement."
+msgstr ""
+"Norėdami pakeisti vaizduoklio savybes, pasirinkite jį, vilkite norėdami "
+"pertvarkyti jo poziciją."
+
+#: panels/display/cc-display-panel.c:2185
+#: panels/display/cc-display-panel.c:2237
+#, c-format
+msgid "Failed to apply configuration: %s"
+msgstr "Nepavyko pritaikyti konfigūracijos: %s"
+
+#: panels/display/cc-display-panel.c:2265
+msgid "Could not save the monitor configuration"
+msgstr "Nepavyko įrašyti vaizduoklio konfigūracijos"
+
+#: panels/display/cc-display-panel.c:2325
+msgid "Could not detect displays"
+msgstr "Nepavyko aptikti ekranų"
+
+#: panels/display/cc-display-panel.c:2563
+msgid "Could not get screen information"
+msgstr "Nepavyko gauti ekrano informacijos"
+
+#: panels/network/cc-network-panel.c:661
+msgid "Network proxy"
+msgstr "Tarpinis tinklo serveris"
+
+#: panels/network/cc-network-panel.c:853 panels/network/net-vpn.c:278
+#, c-format
+msgid "%s VPN"
+msgstr "%s VPN"
+
+#: panels/network/cc-network-panel.c:920
+msgid "The system network services are not compatible with this version."
+msgstr "Sistemos tinklo tarnybos nesuderinamos su šia versija."
+
+#: panels/network/cc-network-panel.c:1108
+msgid "Air_plane Mode"
+msgstr "_Skrydžio veiksena"
+
+#: panels/network/net-device-mobile.c:222
+msgid "Add new connection"
+msgstr "Pridėti naują ryšį"
+
+#: panels/network/net-device-mobile.c:261 panels/network/net-device-wifi.c:725
+#: panels/network/net-device-wired.c:126
+#, c-format
+msgid "%d Mb/s"
+msgstr "%d Mb/s"
+
+#: panels/network/net-device-wifi.c:258 panels/network/net-device-wifi.c:437
+msgid "WEP"
+msgstr "WEP"
+
+#: panels/network/net-device-wifi.c:262 panels/network/net-device-wifi.c:441
+msgid "WPA"
+msgstr "WPA"
+
+#: panels/network/net-device-wifi.c:266
+msgid "WPA2"
+msgstr "WPA2"
+
+#: panels/network/net-device-wifi.c:271
+msgid "Enterprise"
+msgstr "Enterprise"
+
+#: panels/network/net-device-wifi.c:652
+msgid "never"
+msgstr "niekada"
+
+#: panels/network/net-device-wifi.c:662
+msgid "today"
+msgstr "šiandien"
+
+#: panels/network/net-device-wifi.c:664
+msgid "yesterday"
+msgstr "vakar"
+
+#: panels/network/net-device-wifi.c:666
+#, c-format
+msgid "%i day ago"
+msgid_plural "%i days ago"
+msgstr[0] "Prieš %i dieną"
+msgstr[1] "Prieš %i dienas"
+msgstr[2] "Prieš %i dienų"
+
+#: panels/network/net-device-wifi.c:735 panels/network/panel-common.c:277
+msgid "Not connected"
+msgstr "Neprisijungta"
+
+#: panels/network/net-device-wifi.c:737 panels/network/net-device-wifi.c:2100
+msgid "Out of range"
+msgstr "Už ribų"
+
+#: panels/network/net-device-wifi.c:960
+#, c-format
+msgid ""
+"Network details for %s including password and any custom configuration will "
+"be lost."
+msgstr ""
+"%s tinklo nustatymai įskaitant slaptažodį ir bet kokius asmeninius "
+"nustatymus bus prarasti."
+
+#: panels/network/net-device-wifi.c:971
+msgid "Forget"
+msgstr "Pamiršti"
+
+#: panels/network/net-device-wifi.c:1554
+msgid ""
+"If you have a connection to the Internet other than wireless, you can use it "
+"to share your internet connection with others."
+msgstr ""
+"Jei turite kitokį interneto ryšį nei belaidis, galite jį naudoti dalinimuisi "
+"interneto ryšiu su kitais."
+
+#: panels/network/net-device-wifi.c:1558
+#, c-format
+msgid "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+msgstr ""
+"Persijungimas prie belaidžio prieigos taško atjungs jus nuo <b>%s</b>."
+
+#: panels/network/net-device-wifi.c:1562
+msgid ""
+"It is not possible to access the internet through your wireless while the "
+"hotspot is active."
+msgstr ""
+"Neįmanoma prieiti prie jūsų belaidžio kol prieigos taškas yra aktyvus."
+
+#: panels/network/net-device-wifi.c:1628
+msgid "Stop hotspot and disconnect any users?"
+msgstr "Stabdyti prieigos tašką ir atjungti visus naudotojus?"
+
+#: panels/network/net-device-wifi.c:1631
+msgid "_Stop Hotspot"
+msgstr "_Stabdyti prieigos tašką"
+
+#: panels/network/net-proxy.c:67
+msgid ""
+"Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+msgstr ""
+"Žiniatinklio proxy automatinis aptikimas yra naudojamai, kai konfigūracijos "
+"URL nepateiktas."
+
+#: panels/network/net-proxy.c:75
+msgid "This is not recommended for untrusted public networks."
+msgstr "Tai nerekomenduojama nepatikimiems viešiesiems tinklams."
+
+#: panels/network/net-proxy.c:368
+msgid "Proxy"
+msgstr "Tarpinis serveris"
+
+#: panels/network/panel-common.c:82 panels/network/panel-common.c:162
+msgid "Unknown"
+msgstr "Nežinomas"
+
+#: panels/network/panel-common.c:86
+msgid "Wired"
+msgstr "Laidinis"
+
+#: panels/network/panel-common.c:90 panels/network/network-wifi.ui.h:3
+msgid "Wireless"
+msgstr "Belaidis"
+
+#: panels/network/panel-common.c:97
+msgid "Mobile broadband"
+msgstr "Mobilus plačiajuostis"
+
+#: panels/network/panel-common.c:102
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: panels/network/panel-common.c:106
+msgid "Mesh"
+msgstr "Tankiojo (Mesh) tinklo"
+
+#: panels/network/panel-common.c:166
+msgid "Ad-hoc"
+msgstr "Ad-hoc"
+
+#: panels/network/panel-common.c:170
+msgid "Infrastructure"
+msgstr "Infrastruktūra"
+
+#: panels/network/panel-common.c:194 panels/network/panel-common.c:255
+msgid "Status unknown"
+msgstr "Būsena nežinoma"
+
+#: panels/network/panel-common.c:198
+msgid "Unmanaged"
+msgstr "Nevaldomas"
+
+#: panels/network/panel-common.c:203
+msgid "Firmware missing"
+msgstr "Trūksta aparatinės programinės įrangos"
+
+#: panels/network/panel-common.c:206
+msgid "Cable unplugged"
+msgstr "Kabelis neįjungtas"
+
+#: panels/network/panel-common.c:208
+msgid "Unavailable"
+msgstr "Nepasiekiamas"
+
+#: panels/network/panel-common.c:212
+msgid "Disconnected"
+msgstr "Atsijungta"
+
+#: panels/network/panel-common.c:219 panels/network/panel-common.c:261
+msgid "Connecting"
+msgstr "Jungiamasi"
+
+#: panels/network/panel-common.c:223 panels/network/panel-common.c:265
+msgid "Authentication required"
+msgstr "Reikia patvirtinti tapatybę"
+
+#: panels/network/panel-common.c:227 panels/network/panel-common.c:269
+msgid "Connected"
+msgstr "Prisijungta"
+
+#: panels/network/panel-common.c:231
+msgid "Disconnecting"
+msgstr "Atsijungiama"
+
+#: panels/network/panel-common.c:235 panels/network/panel-common.c:273
+msgid "Connection failed"
+msgstr "Prisijungti nepavyko"
+
+#: panels/network/panel-common.c:239 panels/network/panel-common.c:281
+msgid "Status unknown (missing)"
+msgstr "Būsena nežinoma (trūkstama)"
+
+#: panels/network/panel-common.c:301
+msgid "Configuration failed"
+msgstr "Konfigūracija nepavyko"
+
+#: panels/network/panel-common.c:305
+msgid "IP configuration failed"
+msgstr "IP konfigūracija nepavyko"
+
+#: panels/network/panel-common.c:309
+msgid "IP configuration expired"
+msgstr "IP konfigūracijos laikas baigėsi"
+
+#: panels/network/panel-common.c:313
+msgid "Secrets were required, but not provided"
+msgstr "Buvo reikalingos paslaptys, bet nepateiktos"
+
+#: panels/network/panel-common.c:317
+msgid "802.1x supplicant disconnected"
+msgstr "802.1x tiekėjas atjungtas"
+
+#: panels/network/panel-common.c:321
+msgid "802.1x supplicant configuration failed"
+msgstr "802.1x tiekėjo konfigūracija nepavyko"
+
+#: panels/network/panel-common.c:325
+msgid "802.1x supplicant failed"
+msgstr "802.1x tiekėjo klaida"
+
+#: panels/network/panel-common.c:329
+msgid "802.1x supplicant took too long to authenticate"
+msgstr "802.1x per ilgai užtruko patvirtindamas tapatybę"
+
+#: panels/network/panel-common.c:333
+msgid "PPP service failed to start"
+msgstr "Nepavyko paleisti PPP tarnybos"
+
+#: panels/network/panel-common.c:337
+msgid "PPP service disconnected"
+msgstr "PPP tarnyba atsijungė"
+
+#: panels/network/panel-common.c:341
+msgid "PPP failed"
+msgstr "PPP nepavyko"
+
+#: panels/network/panel-common.c:345
+msgid "DHCP client failed to start"
+msgstr "Nepavyko paleisti DHCP kliento"
+
+#: panels/network/panel-common.c:349
+msgid "DHCP client error"
+msgstr "DHCP kliento klaida"
+
+#: panels/network/panel-common.c:353
+msgid "DHCP client failed"
+msgstr "DHCP klientas nebeveikia"
+
+#: panels/network/panel-common.c:357
+msgid "Shared connection service failed to start"
+msgstr "Nepavyko paleisti bendrų ryšių tarnybos"
+
+#: panels/network/panel-common.c:361
+msgid "Shared connection service failed"
+msgstr "Bendrų ryšių tarnyba nebeveikia"
+
+#: panels/network/panel-common.c:365
+msgid "AutoIP service failed to start"
+msgstr "Nepavyko paleisti AutoIP tarnybos"
+
+#: panels/network/panel-common.c:369
+msgid "AutoIP service error"
+msgstr "AutoIP tarnybos klaida"
+
+#: panels/network/panel-common.c:373
+msgid "AutoIP service failed"
+msgstr "AutoIP tarnyba nebeveikia"
+
+#: panels/network/panel-common.c:377
+msgid "Line busy"
+msgstr "Linija užimta"
+
+#: panels/network/panel-common.c:381
+msgid "No dial tone"
+msgstr "Nėra skambinimo tono"
+
+#: panels/network/panel-common.c:385
+msgid "No carrier could be established"
+msgstr "Nepavyko nustatyti pernešėjo"
+
+#: panels/network/panel-common.c:389
+msgid "Dialing request timed out"
+msgstr "Baigėsi skambinimo užklausos laikas"
+
+#: panels/network/panel-common.c:393
+msgid "Dialing attempt failed"
+msgstr "Nepavyko prisiskambinti"
+
+#: panels/network/panel-common.c:397
+msgid "Modem initialization failed"
+msgstr "Modemo iniciavimas nepavyko"
+
+#: panels/network/panel-common.c:401
+msgid "Failed to select the specified APN"
+msgstr "Nepavyko pasirinkti nurodytų APN"
+
+#: panels/network/panel-common.c:405
+msgid "Not searching for networks"
+msgstr "Neieškoma tinklų"
+
+#: panels/network/panel-common.c:409
+msgid "Network registration denied"
+msgstr "Neleista registruoti tinklo"
+
+#: panels/network/panel-common.c:413
+msgid "Network registration timed out"
+msgstr "Baigėsi tinklo registravimo laikas"
+
+#: panels/network/panel-common.c:417
+msgid "Failed to register with the requested network"
+msgstr "Nepavyko registruoti prašomo tinklo"
+
+#: panels/network/panel-common.c:421
+msgid "PIN check failed"
+msgstr "Nepavyko patikrinti PIN"
+
+#: panels/network/panel-common.c:425
+msgid "Firmware for the device may be missing"
+msgstr "Gali būti, kad įrenginiui trūksta aparatinės programinės įrangos"
+
+#: panels/network/panel-common.c:429
+msgid "Connection disappeared"
+msgstr "Ryšys dingo"
+
+#: panels/network/panel-common.c:433
+msgid "Carrier/link changed"
+msgstr "Pernešėjas/saitas pasikeitė"
+
+#: panels/network/panel-common.c:437
+msgid "Existing connection was assumed"
+msgstr "Buvo panaudotas esamas ryšys"
+
+#: panels/network/panel-common.c:441
+msgid "Modem not found"
+msgstr "Modemas nerastas"
+
+#: panels/network/panel-common.c:445
+msgid "Bluetooth connection failed"
+msgstr "Bluetooth ryšys nepavyko"
+
+#: panels/network/panel-common.c:449
+msgid "SIM Card not inserted"
+msgstr "SIM kortelė neįdėta"
+
+#: panels/network/panel-common.c:453
+msgid "SIM Pin required"
+msgstr "Reikalingas SIM Pin"
+
+#: panels/network/panel-common.c:457
+msgid "SIM Puk required"
+msgstr "Reikalingas SIM Puk"
+
+#: panels/network/panel-common.c:461
+msgid "SIM wrong"
+msgstr "Neteisinga SIM"
+
+#: panels/network/panel-common.c:465
+msgid "InfiniBand device does not support connected mode"
+msgstr "InfiniBand įrenginys nepalaiko ryšio veiksenos"
+
+#: panels/network/panel-common.c:469
+msgid "Connection dependency failed"
+msgstr "Nepavyko ryšio priklausomybė"
+
+#: panels/network/panel-common.c:683 panels/network/network-wifi.ui.h:13
+#: panels/network/network-wired.ui.h:2
+msgid "IPv4 Address"
+msgstr "IPv4 adresas"
+
+#: panels/network/panel-common.c:684 panels/network/network-mobile.ui.h:4
+#: panels/network/network-wifi.ui.h:14 panels/network/network-wired.ui.h:3
+msgid "IPv6 Address"
+msgstr "IPv6 adresas"
+
+#: panels/network/panel-common.c:686 panels/network/panel-common.c:688
+#: panels/network/network-mobile.ui.h:3
+msgid "IP Address"
+msgstr "IP adresas"
+
+#: panels/power/cc-power-panel.c:166
+msgid "Unknown time"
+msgstr "Nežinomas laikas"
+
+#: panels/power/cc-power-panel.c:172
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "%i minutė"
+msgstr[1] "%i minutės"
+msgstr[2] "%i minučių"
+
+#: panels/power/cc-power-panel.c:184
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] "%i valanda"
+msgstr[1] "%i valandos"
+msgstr[2] "%i valandų"
+
+#: panels/power/cc-power-panel.c:192
+#, c-format
+msgid "%i %s %i %s"
+msgstr "%i %s %i %s"
+
+#: panels/power/cc-power-panel.c:193
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "valanda"
+msgstr[1] "valandos"
+msgstr[2] "valandų"
+
+#: panels/power/cc-power-panel.c:194
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minutė"
+msgstr[1] "minutės"
+msgstr[2] "minučių"
+
+#: panels/power/cc-power-panel.c:237
+#, c-format
+msgid "Charging - %s until fully charged"
+msgstr "Įkraunama – %s iki įkrovimo"
+
+#: panels/power/cc-power-panel.c:245
+#, c-format
+msgid "Caution low battery, %s remaining"
+msgstr "Įspėjame apie senkantį akumuliatorių, liko %s"
+
+#: panels/power/cc-power-panel.c:253
+#, c-format
+msgid "Using battery power - %s remaining"
+msgstr "Naudojama akumuliatoriaus energija – liko %s"
+
+#: panels/power/cc-power-panel.c:270
+msgid "Charging"
+msgstr "Įkraunama"
+
+#: panels/power/cc-power-panel.c:275
+msgid "Using battery power"
+msgstr "Naudojama akumuliatoriaus energija"
+
+#: panels/power/cc-power-panel.c:279
+msgid "Charging - fully charged"
+msgstr "Įkraunama – įkrauta"
+
+#: panels/power/cc-power-panel.c:283
+msgid "Empty"
+msgstr "Tuščia"
+
+#: panels/power/cc-power-panel.c:351
+#, c-format
+msgid "Caution low UPS, %s remaining"
+msgstr "Įspėjame apie senkantį NSŠ, liko %s"
+
+#: panels/power/cc-power-panel.c:357
+#, c-format
+msgid "Using UPS power - %s remaining"
+msgstr "Naudojama NSŠ energija – liko %s"
+
+#: panels/power/cc-power-panel.c:375
+msgid "Caution low UPS"
+msgstr "Įspėjame apie senkantį NSŠ"
+
+#: panels/power/cc-power-panel.c:380
+msgid "Using UPS power"
+msgstr "Naudojama NSŠ energija"
+
+#: panels/power/cc-power-panel.c:432
+msgid "Your secondary battery is fully charged"
+msgstr "Jūsų antrinis akumuliatorius yra įkrautas"
+
+#: panels/power/cc-power-panel.c:436
+msgid "Your secondary battery is empty"
+msgstr "Jūsų antrinis akumuliatorius yra iškrautas"
+
+#: panels/power/cc-power-panel.c:519
+msgid "Wireless mouse"
+msgstr "Belaidė pelė"
+
+#: panels/power/cc-power-panel.c:523
+msgid "Wireless keyboard"
+msgstr "Belaidė klaviatūra"
+
+#: panels/power/cc-power-panel.c:527
+msgid "Uninterruptible power supply"
+msgstr "Nenutrūkstamos srovės šaltinis"
+
+#: panels/power/cc-power-panel.c:531
+msgid "Personal digital assistant"
+msgstr "Asmeninis skaitmeninis pagalbininkas"
+
+#: panels/power/cc-power-panel.c:535
+msgid "Cellphone"
+msgstr "Mobilusis telefonas"
+
+#: panels/power/cc-power-panel.c:539
+msgid "Media player"
+msgstr "Daugialypės terpės grotuvas"
+
+#: panels/power/cc-power-panel.c:543
+msgid "Tablet"
+msgstr "Planšetė"
+
+#: panels/power/cc-power-panel.c:547
+msgid "Computer"
+msgstr "Kompiuteris"
+
+#: panels/power/cc-power-panel.c:551
+msgid "Battery"
+msgstr "Akumuliatorius"
+
+#: panels/region/cc-region-panel.c:178
+msgid "Get more languages..."
+msgstr ""
+
+#: panels/region/cinnamon-region-panel-formats.c:142
+msgid "Imperial"
+msgstr "Imperinė"
+
+#: panels/region/cinnamon-region-panel-formats.c:144
+msgid "Metric"
+msgstr "Metrinė"
+
+#: panels/region/cinnamon-region-panel-system.c:420
+msgid ""
+"The login screen, system accounts and new user accounts use the system-wide "
+"Region and Language settings."
+msgstr ""
+"Prisijungimo ekranas, sistemos paskyros ir naujos naudotojų paskyros naudoja "
+"sistemos regiono ir kalbos nustatymus."
+
+#: panels/region/cinnamon-region-panel-system.c:425
+#: panels/region/cinnamon-region-panel.ui.h:32
+msgid ""
+"The login screen, system accounts and new user accounts use the system-wide "
+"Region and Language settings. You may change the system settings to match "
+"yours."
+msgstr ""
+"Prisijungimo ekranas, sistemos paskyros ir naujos naudotojų paskyros naudoja "
+"sistemos regiono ir kalbos nustatymus. Galite pakeisti sistemos nustatymus, "
+"kad jie sutaptų su jūsiškiais."
+
+#: panels/region/cinnamon-region-panel-system.c:428
+msgid "Copy Settings"
+msgstr "Kopijuoti nustatymus"
+
+#: panels/region/cinnamon-region-panel-system.c:431
+#: panels/region/cinnamon-region-panel.ui.h:39
+msgid "Copy Settings..."
+msgstr "Kopijuoti nustatymus..."
+
+#: panels/region/cinnamon-region-panel-xkblt.c:210
+msgid "Layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel-xkbot.c:229
+msgid "Default"
+msgstr "Numatytasis"
+
+#: panels/sound/applet-main.c:49
+msgid "Enable debugging code"
+msgstr "Įjungti derinimo kodą"
+
+#: panels/sound/applet-main.c:50
+msgid "Version of this application"
+msgstr "Šios programos versija"
+
+#: panels/sound/applet-main.c:62
+msgid " — Cinnamon Volume Control Applet"
+msgstr ""
+
+#: panels/sound/gvc-applet.c:270 panels/sound/gvc-mixer-dialog.c:1654
+#: panels/sound-nua/gvc-mixer-dialog.c:1748
+msgid "Output"
+msgstr "Išvestis"
+
+#: panels/sound/gvc-applet.c:272
+msgid "Sound Output Volume"
+msgstr "Garso išvesties garsumas"
+
+#: panels/sound/gvc-applet.c:276 panels/sound/gvc-mixer-dialog.c:1695
+#: panels/sound-nua/gvc-mixer-dialog.c:1881
+msgid "Input"
+msgstr "Įvestis"
+
+#: panels/sound/gvc-applet.c:278
+msgid "Microphone Volume"
+msgstr "Mikrofono garsumas"
+
+#: panels/sound/gvc-balance-bar.c:295 panels/sound-nua/gvc-balance-bar.c:295
+msgid "_Balance:"
+msgstr "_Balansas:"
+
+#: panels/sound/gvc-balance-bar.c:298 panels/sound-nua/gvc-balance-bar.c:298
+msgid "_Fade:"
+msgstr "_Išnykti:"
+
+#: panels/sound/gvc-balance-bar.c:301 panels/sound-nua/gvc-balance-bar.c:301
+msgid "_Subwoofer:"
+msgstr "Žemų garsų _stiprintuvas:"
+
+#: panels/sound/gvc-combo-box.c:167 panels/sound/gvc-mixer-dialog.c:258
+#: panels/sound/gvc-mixer-dialog.c:519
+msgid "_Profile:"
+msgstr "_Profilis:"
+
+#: panels/sound/gvc-mixer-control.c:1834
+msgid "Disabled"
+msgstr "Išjungta"
+
+#: panels/sound/gvc-mixer-control.c:1841
+#, c-format
+msgid "%u Output"
+msgid_plural "%u Outputs"
+msgstr[0] "%u išvestis"
+msgstr[1] "%u išvestys"
+msgstr[2] "%u išvesčių"
+
+#: panels/sound/gvc-mixer-control.c:1851
+#, c-format
+msgid "%u Input"
+msgid_plural "%u Inputs"
+msgstr[0] "%u įvestis"
+msgstr[1] "%u įvestys"
+msgstr[2] "%u įvesčių"
+
+#: panels/sound/gvc-mixer-control.c:2375
+msgid "System Sounds"
+msgstr "Sistemos garsai"
+
+#: panels/sound/gvc-mixer-dialog.c:260
+msgid "_Test Speakers"
+msgstr "_Tikrinti garsiakalbius"
+
+#: panels/sound/gvc-mixer-dialog.c:424 panels/sound-nua/gvc-mixer-dialog.c:341
+msgid "Peak detect"
+msgstr "Viršūnių aptikimas"
+
+#: panels/sound/gvc-mixer-dialog.c:1504
+#: panels/sound-nua/gvc-mixer-dialog.c:1578
+msgid "Name"
+msgstr "Pavadinimas"
+
+#: panels/sound/gvc-mixer-dialog.c:1586
+#: panels/sound-nua/gvc-mixer-dialog.c:1680
+#, c-format
+msgid "Speaker Testing for %s"
+msgstr "%s garsiakalbių testavimas"
+
+#: panels/sound/gvc-mixer-dialog.c:1640
+#: panels/sound-nua/gvc-mixer-dialog.c:2016
+msgid "_Output volume:"
+msgstr "_Išvesties garsumas:"
+
+#: panels/sound/gvc-mixer-dialog.c:1659
+msgid "C_hoose a device for sound output:"
+msgstr "_Pasirinkite garso išvesties įrenginį:"
+
+#: panels/sound/gvc-mixer-dialog.c:1684
+msgid "Settings for the selected device:"
+msgstr "Pasirinkto įrenginio nustatymai:"
+
+#: panels/sound/gvc-mixer-dialog.c:1702
+#: panels/sound-nua/gvc-mixer-dialog.c:1928
+msgid "_Input volume:"
+msgstr "Į_vesties garsumas:"
+
+#: panels/sound/gvc-mixer-dialog.c:1725
+#: panels/sound-nua/gvc-mixer-dialog.c:1961
+msgid "Input level:"
+msgstr "Įvesties lygmuo:"
+
+#: panels/sound/gvc-mixer-dialog.c:1753
+msgid "C_hoose a device for sound input:"
+msgstr "_Pasirinkite garso įvesties įrenginį:"
+
+#: panels/sound/gvc-mixer-dialog.c:1780
+#: panels/sound-nua/gvc-mixer-dialog.c:1982
+msgid "Sound Effects"
+msgstr "Garso efektai"
+
+#: panels/sound/gvc-mixer-dialog.c:1787
+#: panels/sound-nua/gvc-mixer-dialog.c:1989
+msgid "_Alert volume:"
+msgstr "_Įspėjimų garsumas:"
+
+#: panels/sound/gvc-mixer-dialog.c:1795
+#: panels/sound-nua/gvc-mixer-dialog.c:1997
+msgid "Applications"
+msgstr "Programos"
+
+#: panels/sound/gvc-mixer-dialog.c:1799
+#: panels/sound-nua/gvc-mixer-dialog.c:2001
+msgid "No application is currently playing or recording audio."
+msgstr "Jokia programa šiuo metu negroja ir neįrašinėja garso."
+
+#: panels/sound/gvc-speaker-test.c:220
+msgid "Stop"
+msgstr "Stabdyti"
+
+#: panels/sound/gvc-speaker-test.c:220 panels/sound/gvc-speaker-test.c:332
+msgid "Test"
+msgstr "Testas"
+
+#: panels/sound/gvc-speaker-test.c:228
+msgid "Subwoofer"
+msgstr "Žemų garsų stiprintuvas"
+
+#: panels/sound/gvc-stream-status-icon.c:236
+#, c-format
+msgid "Failed to start Sound Preferences: %s"
+msgstr "Nepavyko paleisti garso nustatymų: %s"
+
+#: panels/sound/gvc-stream-status-icon.c:262
+msgid "_Mute"
+msgstr "_Nutilti"
+
+#: panels/sound/gvc-stream-status-icon.c:271
+msgid "_Sound Preferences"
+msgstr "_Garso nustatymai"
+
+#: panels/sound/gvc-stream-status-icon.c:416
+msgid "Muted"
+msgstr "Nutildytas"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:774
+#: panels/sound-nua/gvc-mixer-dialog.c:944
+#, c-format
+msgid "Settings for %s"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:800
+#: panels/sound-nua/gvc-mixer-dialog.c:953
+msgid "Mode:"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1753
+msgid "Play sound through"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1778
+#: panels/sound-nua/gvc-mixer-dialog.c:1910
+msgid "Settings for the selected device"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1851
+msgid "Test:"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1858
+msgid "Test Sound"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1885
+msgid "Record sound from"
+msgstr ""
+
+#: panels/universal-access/cc-ua-panel.c:289
+#: panels/universal-access/cc-ua-panel.c:295
+msgid "No shortcut set"
+msgstr "Spartusis klavišas nenurodytas"
+
+#: shell/cc-shell-nav-bar.c:117
+msgid "_All Settings"
+msgstr ""
+
+#: shell/control-center.c:58
+msgid "Enable verbose mode"
+msgstr "Įjungti derinimo veikseną"
+
+#: shell/control-center.c:59
+msgid "Show the overview"
+msgstr "Rodyti apžvalgą"
+
+#: shell/control-center.c:60 shell/control-center.c:61
+#: shell/control-center.c:62
+msgid "Show help options"
+msgstr "Rodyti pagalbos parinktis"
+
+#: shell/control-center.c:63
+msgid "Panel to display"
+msgstr "Rodomas skydelis"
+
+#: shell/control-center.c:85
+msgid "- System Settings"
+msgstr "– Sistemos nustatymai"
+
+#: shell/control-center.c:93
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Paleiskite „%s --help“ visam komandų eilutės parinkčių sąrašui gauti.\n"
+
+#: shell/control-center.c:215
+msgid "Help"
+msgstr "Žinynas"
+
+#: shell/control-center.c:216
+msgid "Quit"
+msgstr "Išeiti"
+
+#: panels/color/color.ui.h:3 generate_additional_files.py:83
+msgid "Color"
+msgstr ""
+
+#: panels/color/color.ui.h:4
+msgid "Each device needs an up to date color profile to be color managed."
+msgstr ""
+
+#: panels/color/color.ui.h:5
+msgid "Learn more"
+msgstr ""
+
+#: panels/color/color.ui.h:6
+msgid "Learn more about color management"
+msgstr ""
+
+#: panels/color/color.ui.h:7
+msgid "Add device"
+msgstr ""
+
+#: panels/color/color.ui.h:8
+msgid "Add a virtual device"
+msgstr ""
+
+#: panels/color/color.ui.h:9
+msgid "Delete device"
+msgstr ""
+
+#: panels/color/color.ui.h:10
+msgid "Remove a device"
+msgstr ""
+
+#: panels/color/color.ui.h:12
+msgid "Set this profile for all users on this computer"
+msgstr ""
+
+#: panels/color/color.ui.h:13
+msgid "Add profile"
+msgstr ""
+
+#: panels/color/color.ui.h:14
+msgid "Calibrate…"
+msgstr ""
+
+#: panels/color/color.ui.h:15
+msgid "Calibrate the device"
+msgstr ""
+
+#: panels/color/color.ui.h:16
+msgid "Remove profile"
+msgstr ""
+
+#: panels/color/color.ui.h:17
+msgid "View details"
+msgstr ""
+
+#: panels/color/color.ui.h:18
+msgid "Device type:"
+msgstr ""
+
+#: panels/color/color.ui.h:19
+msgid "Manufacturer:"
+msgstr ""
+
+#: panels/color/color.ui.h:20
+msgid "Model:"
+msgstr ""
+
+#: panels/color/color.ui.h:21
+msgid ""
+"Image files can be dragged on this window to auto-complete the above fields."
+msgstr ""
+
+#: panels/common/language-chooser.ui.h:1
+msgid "Select a language"
+msgstr ""
+
+#: panels/common/language-chooser.ui.h:2
+msgid "_Cancel"
+msgstr ""
+
+#: panels/common/language-chooser.ui.h:3
+msgid "_Select"
+msgstr ""
+
+#: panels/display/display-capplet.ui.h:2
+msgid "Set as Primary"
+msgstr ""
+
+#: panels/display/display-capplet.ui.h:3
+msgid "_Resolution"
+msgstr ""
+
+#: panels/display/display-capplet.ui.h:4
+msgid "R_otation"
+msgstr ""
+
+#: panels/display/display-capplet.ui.h:6
+msgid "_Mirror displays"
+msgstr ""
+
+#: panels/display/display-capplet.ui.h:7
+msgid "Note: may limit resolution options"
+msgstr ""
+
+#: panels/display/display-capplet.ui.h:8
+msgid "_Detect Displays"
+msgstr ""
+
+#: panels/network/network-mobile.ui.h:1
+msgid "IMEI"
+msgstr ""
+
+#: panels/network/network-mobile.ui.h:2
+msgid "Provider"
+msgstr ""
+
+#: panels/network/network-mobile.ui.h:5 panels/network/network-wifi.ui.h:15
+#: panels/network/network-wired.ui.h:4
+msgid "Default Route"
+msgstr ""
+
+#: panels/network/network-mobile.ui.h:6 panels/network/network-wifi.ui.h:16
+#: panels/network/network-wired.ui.h:5
+msgid "DNS"
+msgstr ""
+
+#: panels/network/network-mobile.ui.h:7 generate_additional_files.py:173
+msgid "Network"
+msgstr ""
+
+#: panels/network/network-mobile.ui.h:8 panels/network/network-wired.ui.h:6
+#: panels/region/cinnamon-region-panel.ui.h:26
+msgid "_Options..."
+msgstr ""
+
+#: panels/network/network-proxy.ui.h:4
+msgid "_Method"
+msgstr ""
+
+#: panels/network/network-proxy.ui.h:5
+msgid "_Configuration URL"
+msgstr ""
+
+#: panels/network/network-proxy.ui.h:6
+msgid "_HTTP Proxy"
+msgstr ""
+
+#: panels/network/network-proxy.ui.h:7
+msgid "H_TTPS Proxy"
+msgstr ""
+
+#: panels/network/network-proxy.ui.h:8
+msgid "_FTP Proxy"
+msgstr ""
+
+#: panels/network/network-proxy.ui.h:9
+msgid "_Socks Host"
+msgstr ""
+
+#: panels/network/network.ui.h:1
+msgid "Select the interface to use for the new service"
+msgstr ""
+
+#: panels/network/network.ui.h:2
+msgid "C_reate..."
+msgstr ""
+
+#: panels/network/network.ui.h:3
+msgid "_Interface"
+msgstr ""
+
+#: panels/network/network.ui.h:4 panels/network/network-vpn.ui.h:1
+msgid "VPN"
+msgstr ""
+
+#: panels/network/network.ui.h:8
+msgid "Add Device"
+msgstr ""
+
+#: panels/network/network.ui.h:9
+msgid "Remove Device"
+msgstr "Pašalinti įrenginį"
+
+#: panels/network/network-vpn.ui.h:2
+msgid "VPN Type"
+msgstr ""
+
+#: panels/network/network-vpn.ui.h:3
+msgid "Gateway"
+msgstr ""
+
+#: panels/network/network-vpn.ui.h:4
+msgid "Group Name"
+msgstr ""
+
+#: panels/network/network-vpn.ui.h:5
+msgid "Group Password"
+msgstr ""
+
+#: panels/network/network-vpn.ui.h:6
+msgid "Username"
+msgstr ""
+
+#: panels/network/network-vpn.ui.h:7
+msgid "_Configure..."
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:1
+msgid "Wireless Hotspot"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:2
+msgid "_Turn On"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:4
+msgid "_Use as Hotspot..."
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:5
+msgid "Connect to a Hidden Network"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:6
+msgid "_Disconnect"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:7
+msgid "_Connect"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:8
+msgid "Last used"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:9 panels/network/network-wired.ui.h:1
+msgid "Hardware Address"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:10
+msgid "Security"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:11
+msgid "Strength"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:12
+msgid "Link speed"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:17
+msgid "_Forget Network"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:18
+msgid "_Settings..."
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:19
+msgid "Switch off to connect to a wireless network"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:20
+msgid "Network Name"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:21
+msgid "Connected Devices"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:22
+msgid "Security type"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:23
+msgid "Security key"
+msgstr ""
+
+#: panels/power/power.ui.h:1
+msgid "Hibernate"
+msgstr ""
+
+#: panels/power/power.ui.h:2
+msgid "Power off"
+msgstr ""
+
+#: panels/power/power.ui.h:3 panels/screen/screen.ui.h:6
+msgid "5 minutes"
+msgstr ""
+
+#: panels/power/power.ui.h:4 panels/screen/screen.ui.h:7
+msgid "10 minutes"
+msgstr ""
+
+#: panels/power/power.ui.h:5 panels/screen/screen.ui.h:8
+msgid "30 minutes"
+msgstr ""
+
+#: panels/power/power.ui.h:6 panels/screen/screen.ui.h:9
+msgid "1 hour"
+msgstr ""
+
+#: panels/power/power.ui.h:7
+msgid "Don't suspend"
+msgstr ""
+
+#: panels/power/power.ui.h:8
+msgid "Suspend"
+msgstr ""
+
+#: panels/power/power.ui.h:9
+msgid "Do nothing"
+msgstr ""
+
+#: panels/power/power.ui.h:10
+msgid "Lock Screen"
+msgstr ""
+
+#: panels/power/power.ui.h:11
+msgid "Shutdown Immediately"
+msgstr ""
+
+#: panels/power/power.ui.h:12
+msgid "Ask"
+msgstr ""
+
+#: panels/power/power.ui.h:13
+msgid "When battery is present"
+msgstr ""
+
+#: panels/power/power.ui.h:14
+msgid "When battery is charging/in use"
+msgstr ""
+
+#: panels/power/power.ui.h:15 panels/screen/screen.ui.h:10
+msgid "Never"
+msgstr ""
+
+#: panels/power/power.ui.h:16
+msgid "On battery power"
+msgstr ""
+
+#: panels/power/power.ui.h:17
+msgid "When plugged in"
+msgstr ""
+
+#: panels/power/power.ui.h:18
+msgid "Suspend when inactive for"
+msgstr ""
+
+#: panels/power/power.ui.h:19
+msgid "When power is _critically low"
+msgstr ""
+
+#: panels/power/power.ui.h:20
+msgid "When the lid is closed"
+msgstr ""
+
+#: panels/power/power.ui.h:21
+msgid "Show battery status in the _menu bar"
+msgstr ""
+
+#: panels/power/power.ui.h:22
+msgid "Power button action"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:1
+msgid "Choose a Layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:2
+msgid "Preview"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:3
+msgid "Select an input source to add"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel-options-dialog.ui.h:1
+msgid "Keyboard Layout Options"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:1
+msgid "Region and Language"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:2
+msgid ""
+"Select a display language (change will be applied next time you log in)"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:3
+msgid "Add Language"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:4
+msgid "Remove Language"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:5
+msgid "button"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:6
+msgid "Language"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:7
+msgid "Select a region (change will be applied the next time you log in)"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:8
+msgid "Add Region"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:9
+msgid "Remove Region"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:10
+msgid "Dates"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:11
+msgid "Times"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:12
+msgid "Numbers"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:13
+msgid "Currency"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:14
+msgid "Measurement"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:15
+msgid "Examples"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:16
+msgid "Formats"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:17
+msgid "Add Layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:18
+msgid "Remove Layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:19
+msgid "Move Up"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:20
+msgid "Move Down"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:21
+msgid "Preview Layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:22
+msgid "Use the same layout for all windows"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:23
+msgid "Allow different layouts for individual windows"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:24
+msgid "New windows use the default layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:25
+msgid "New windows use the previous window's layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:27
+msgid "View and edit keyboard layout options"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:28
+msgid "Reset to De_faults"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:29
+msgid ""
+"Replace the current keyboard layout settings with the\n"
+"default settings"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:31
+msgid "Keyboard Layouts"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:34
+msgid "Display language:"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:35
+msgid "Input source:"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:36
+msgid "Format:"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:37
+msgid "Your settings"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:38
+msgid "System settings"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:40
+msgid "System"
+msgstr ""
+
+#: panels/screen/screen.ui.h:1
+msgid "Screen turns off"
+msgstr ""
+
+#: panels/screen/screen.ui.h:2
+msgid "30 seconds"
+msgstr ""
+
+#: panels/screen/screen.ui.h:3
+msgid "1 minute"
+msgstr ""
+
+#: panels/screen/screen.ui.h:4
+msgid "2 minutes"
+msgstr ""
+
+#: panels/screen/screen.ui.h:5
+msgid "3 minutes"
+msgstr ""
+
+#: panels/screen/screen.ui.h:11
+msgid "_Dim screen to save power"
+msgstr ""
+
+#: panels/screen/screen.ui.h:12
+msgid "Brightness"
+msgstr ""
+
+#: panels/screen/screen.ui.h:13
+msgid "_Turn screen off when inactive for:"
+msgstr ""
+
+#: panels/screen/screen.ui.h:14
+msgid "_Lock screen after:"
+msgstr ""
+
+#: panels/screen/screen.ui.h:15
+msgid "Require my password when waking from suspend"
+msgstr ""
+
+#: panels/screen/screen.ui.h:16
+msgid "Lock"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:5
+msgid "On screen keyboard"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:6
+msgid "GOK"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:7
+msgid "OnBoard"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:8
+msgid "None"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:10
+#, no-c-format
+msgid "75%"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:13
+#, no-c-format
+msgid "100%"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:16
+#, no-c-format
+msgid "125%"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:19
+#, no-c-format
+msgid "150%"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:21
+msgid "High Contrast"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:22
+msgid "Beep on Caps and Num Lock"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:23
+msgid "Options..."
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:24
+msgid "Screen Reader"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:25
+msgid "Turn on or off:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:27
+msgid "Zoom in:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:28
+msgid "Zoom out:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:29
+msgid "Large Text"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:30
+msgid "Seeing"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:31
+msgid "Visual Alerts"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:32
+msgid "Use a visual indication when an alert sound occurs"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:33
+msgid "Flash the window title"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:34
+msgid "Flash the entire screen"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:35
+msgid "Closed Captioning"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:36
+msgid "Display a textual description of speech and sounds"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:37
+msgid "_Test flash"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:38
+msgid "Hearing"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:39
+msgid "On Screen Keyboard"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:40
+msgid "Sticky Keys"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:41
+msgid "Treats a sequence of modifier keys as a key combination"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:42
+msgid "_Disable if two keys are pressed together"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:43
+msgid "Beep when a _modifer key is pressed"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:44
+msgid "Slow Keys"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:45
+msgid "Puts a delay between when a key is pressed and when it is accepted"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:46
+msgid "A_cceptance delay:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:48
+msgid "Short"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:49
+msgid "Slow keys typing delay"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:51
+msgid "Long"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:53
+msgid "Beep when a key is"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:55
+msgid "pressed"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:57
+msgid "accepted"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:59
+msgid "rejected"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:60
+msgid "Bounce Keys"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:61
+msgid "Ignores fast duplicate keypresses"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:62
+msgid "Acc_eptance delay:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:63
+msgid "Bounce keys typing delay"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:64
+msgid "Beep when a key is _rejected"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:65
+msgid "Enable by Keyboard"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:66
+msgid "Turn accessibility features on and off using the keyboard"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:67
+msgid "Typing"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:68
+msgid "Mouse Keys"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:69
+msgid "Control the pointer using the keypad"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:70
+msgid "Video Mouse"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:71
+msgid "Control the pointer using the video camera."
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:72
+msgid "Simulated Secondary Click"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:73
+msgid "Trigger a secondary click by holding down the primary button"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:74
+msgid "Secondary click delay"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:75
+msgid "Hover Click"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:76
+msgid "Trigger a click when the pointer hovers"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:77
+msgid "D_elay:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:78
+msgid "Motion _threshold:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:80
+msgid "Small"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:82
+msgid "Large"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:83
+msgid "Mouse Settings"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:84
+msgid "Pointing and Clicking"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:1
+msgid "Full Screen"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:2
+msgid "Top Half"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:3
+msgid "Bottom Half"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:4
+msgid "Left Half"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:5
+msgid "Right Half"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:6
+msgid "Zoom Options"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:7
+msgid "Zoom"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:8
+msgid "Magnification:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:9
+msgid "Follow mouse cursor"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:10
+msgid "Screen part:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:11
+msgid "Magnifier extends outside of screen"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:12
+msgid "Keep magnifier cursor centered"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:13
+msgid "Magnifier cursor pushes contents around"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:14
+msgid "Magnifier cursor moves with contents"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:15
+msgid "Magnifier Position:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:16
+msgid "Magnifier"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:17
+msgid "Thickness:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:19
+msgid "Thin"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:21
+msgid "Thick"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:22
+msgid "Length:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:23
+msgid "Color:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:24
+msgid "Crosshairs:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:25
+msgid "Overlaps mouse cursor"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:26
+msgid "Crosshairs"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:27
+msgid "White on black:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:28
+msgid "Brightness:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:29
+msgid "Contrast:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:34
+msgid "Low"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:36
+msgid "High"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:37
+msgid "Color Effects:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:38
+msgid "Color Effects"
+msgstr ""
+
+#: generate_additional_files.py:53
+msgid "Brightness & Lock"
+msgstr ""
+
+#: generate_additional_files.py:53
+msgid "Screen brightness and lock settings"
+msgstr ""
+
+#: generate_additional_files.py:68 generate_additional_files.py:99
+msgid "Sound"
+msgstr ""
+
+#: generate_additional_files.py:68 generate_additional_files.py:99
+msgid "Change sound volume and sound events"
+msgstr ""
+
+#: generate_additional_files.py:83
+msgid "Color management settings"
+msgstr ""
+
+#: generate_additional_files.py:113
+msgid "Volume Control"
+msgstr ""
+
+#: generate_additional_files.py:113
+msgid "Show desktop volume control"
+msgstr ""
+
+#: generate_additional_files.py:128
+msgid "Power"
+msgstr ""
+
+#: generate_additional_files.py:128
+msgid "Power management settings"
+msgstr ""
+
+#: generate_additional_files.py:143
+msgid "Region & Language"
+msgstr ""
+
+#: generate_additional_files.py:143
+msgid "Change your region and language settings"
+msgstr ""
+
+#: generate_additional_files.py:158
+msgid "Displays"
+msgstr ""
+
+#: generate_additional_files.py:158
+msgid "Change resolution and position of monitors and projectors"
+msgstr ""
+
+#: generate_additional_files.py:173
+msgid "Network settings"
+msgstr ""
+
+#: generate_additional_files.py:188
+msgid "Universal Access"
+msgstr ""
+
+#: generate_additional_files.py:188
+msgid "Universal Access Preferences"
+msgstr ""
