@@ -1,5 +1,5 @@
-cinnamon-translations (2.0.3-1) UNRELEASED; urgency=medium
+cinnamon-translations (2.0.3-1~) UNRELEASED; urgency=medium
 
   * Initial release.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 21 Feb 2014 10:52:41 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 21 Feb 2014 11:06:25 +0100
