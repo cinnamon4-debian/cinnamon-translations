@@ -1,0 +1,4532 @@
+# Vietnamese translation for linuxmint
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-05-20 11:26+0100\n"
+"PO-Revision-Date: 2014-05-18 01:07+0000\n"
+"Last-Translator: Tada Saki <a4e484b@hotmail.com>\n"
+"Language-Team: Vietnamese <vi@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2014-05-25 11:50+0000\n"
+"X-Generator: Launchpad (build 17017)\n"
+
+#: generate_additional_files.py:24
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:85
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:37
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:231
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:488
+msgid "System Settings"
+msgstr "Thiết lập Hệ thống"
+
+#: generate_additional_files.py:24
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:38
+msgid "Control Center"
+msgstr "Trung tâm Điều khiển"
+
+#: generate_additional_files.py:37
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:77
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:372
+msgid "Users and Groups"
+msgstr "Người dùng và Nhóm"
+
+#: generate_additional_files.py:37
+msgid "Add or remove users and groups"
+msgstr "Thêm hay loại bỏ người dùng và nhóm"
+
+#: src/cinnamon-app.c:367 src/cinnamon-app.c:375
+#: js/ui/notificationDaemon.js:458
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:118
+msgid "Unknown"
+msgstr "Chưa xác định"
+
+#: src/cinnamon-app.c:601
+#, c-format
+msgid "Failed to launch '%s'"
+msgstr "Khởi chạy '%s' thất bại"
+
+#: src/cinnamon-util.c:89
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:40
+msgid "Home"
+msgstr "Nhà"
+
+#: src/cinnamon-util.c:98
+msgid "File System"
+msgstr "Hệ thống tập tin"
+
+#: src/cinnamon-util.c:244
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:132
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: src/cinnamon-util.c:294
+#, c-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: src/gvc/gvc-mixer-control.c:1082
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:95
+msgid "Disabled"
+msgstr "Tắt"
+
+#: src/gvc/gvc-mixer-control.c:1089
+#, c-format
+msgid "%u Output"
+msgid_plural "%u Outputs"
+msgstr[0] "%u đầu ra"
+
+#: src/gvc/gvc-mixer-control.c:1099
+#, c-format
+msgid "%u Input"
+msgid_plural "%u Inputs"
+msgstr[0] "%u đầu vào"
+
+#: src/gvc/gvc-mixer-control.c:1397
+msgid "System Sounds"
+msgstr "Âm hệ thống"
+
+#: js/misc/docInfo.js:76
+msgid "Problem opening file"
+msgstr "Trục trặc khi mở tập tin"
+
+#: js/misc/docInfo.js:77
+msgid "There was a problem opening the selected file."
+msgstr "Có trục trặc khi mở tập tin được chọn."
+
+#: js/misc/docInfo.js:78
+msgid ""
+"  Please check to see if you have the proper permissions to access this "
+"resource,"
+msgstr ""
+"  Vui lòng kiểm tra xem bạn có phân quyền đúng để truy cập tài nguyên này "
+"không."
+
+#: js/misc/docInfo.js:79
+msgid ""
+" or try manually mounting the file's enclosing volume.\n"
+"\n"
+msgstr ""
+" hoặc thử gắn kết thủ công phân vùng đóng của tập tin.\n"
+"\n"
+
+#: js/misc/docInfo.js:80
+msgid "The file uri is: "
+msgstr "Uri tập tin là: "
+
+#: js/misc/util.js:98
+msgid "Command not found"
+msgstr "Không tìm thấy lệnh"
+
+#: js/misc/util.js:126
+msgid "Could not parse command:"
+msgstr "Không thể phân tích lệnh:"
+
+#: js/misc/util.js:134
+#, c-format
+msgid "Execution of '%s' failed:"
+msgstr "Thực thi '%s' thất bại:"
+
+#: js/ui/applet.js:419
+msgid "Remove this applet"
+msgstr "Bỏ tiểu trình này"
+
+#: js/ui/applet.js:432 js/ui/desklet.js:226
+msgid "Configure..."
+msgstr "Cấu hình..."
+
+#: js/ui/cinnamonEntry.js:30
+msgid "Copy"
+msgstr "Chép"
+
+#: js/ui/cinnamonEntry.js:35
+msgid "Paste"
+msgstr "Dán"
+
+#: js/ui/cinnamonEntry.js:81
+msgid "Show Text"
+msgstr "Hiện văn bản"
+
+#: js/ui/cinnamonEntry.js:83
+msgid "Hide Text"
+msgstr "Ẩn văn bản"
+
+#: js/ui/cinnamonMountOperation.js:285
+msgid "Wrong password, please try again"
+msgstr "Sai mật khẩu, hãy thử lại"
+
+#: js/ui/desklet.js:233
+msgid "Remove this desklet"
+msgstr "Loại bỏ tiểu trình màn hình này"
+
+#: js/ui/expoThumbnail.js:313 js/ui/panel.js:384
+msgid "Yes"
+msgstr "Đồng ý"
+
+#: js/ui/expoThumbnail.js:321 js/ui/panel.js:391
+msgid "No"
+msgstr "Không"
+
+#: js/ui/expoThumbnail.js:936
+#, c-format
+msgid ""
+"Are you sure you want to remove workspace \"%s\"?\n"
+"\n"
+msgstr ""
+"Bạn có chắc chắn muốn loại bỏ vùng làm việc \"%s\" không ?\n"
+"\n"
+
+#: js/ui/extension.js:367
+msgid "Initializing"
+msgstr "Đang khởi tạo"
+
+#: js/ui/extension.js:369
+msgid "Loaded"
+msgstr "Đã nạp"
+
+#: js/ui/extension.js:371
+msgid "Error"
+msgstr "Lỗi"
+
+#: js/ui/extension.js:373
+msgid "Out of date"
+msgstr "Đã cũ"
+
+#: js/ui/hotCorner.js:41
+msgid "Invalid overview options: Incorrect number of corners"
+msgstr "Tùy chọn khái quát không hợp lệ: không đúng số góc"
+
+#: js/ui/keyboard.js:324
+msgid "tray"
+msgstr "khay hệ thống"
+
+#: js/ui/keyboard.js:555
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:106
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:162
+msgid "Keyboard"
+msgstr "Bàn phím"
+
+#: js/ui/lookingGlass.js:716
+msgid "No extensions installed"
+msgstr "Chưa cài phần mở rộng nào"
+
+#: js/ui/lookingGlass.js:808
+msgid "View Source"
+msgstr "Xem nguồn"
+
+#: js/ui/lookingGlass.js:817
+msgid "Web Page"
+msgstr "Trang web"
+
+#: js/ui/lookingGlass.js:826
+msgid "Reload Code"
+msgstr "Nạp lại Mã"
+
+#: js/ui/main.js:414
+msgid "Running in software rendering mode"
+msgstr "Chạy với chế độ kết xuất bằng phần mềm"
+
+#: js/ui/main.js:415
+msgid ""
+"Cinnamon is currently running without video hardware acceleration and, as a "
+"result, you may observe much higher than normal CPU usage.\n"
+"\n"
+msgstr ""
+"Cinnamon hiện đang chạy không có gia tốc phần cứng video, kết quả là bạn có "
+"thể thấy lượng CPU sử dụng nhiều hơn hẳn bình thường.\n"
+"\n"
+
+#: js/ui/main.js:416
+msgid ""
+"There could be a problem with your drivers or some other issue.  For the "
+"best experience, it is recommended that you only use this mode for"
+msgstr ""
+"Có thể có vấn đề với trình điều khiển với bạn hoặc vấn đề khác. Để có trải "
+"nghiệm tốt nhất, đề nghị bạn chỉ dùng mô hình này cho"
+
+#: js/ui/main.js:417
+msgid " troubleshooting purposes."
+msgstr " mục đích giải quyết sự cố."
+
+#: js/ui/main.js:472
+msgid "WORKSPACE"
+msgstr "CHỖ LÀM VIỆC"
+
+#: js/ui/messageTray.js:448
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:213
+msgid "%l:%M %p"
+msgstr "%l:%M %p"
+
+#: js/ui/messageTray.js:1249
+msgid "Open"
+msgstr "Mở"
+
+#: js/ui/messageTray.js:1256
+#: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:58
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:69
+msgid "Remove"
+msgstr "Loại bỏ"
+
+#: js/ui/messageTray.js:1812
+msgid "System Information"
+msgstr "Thông tin hệ thống"
+
+#: js/ui/panel.js:439
+msgid "Troubleshoot ..."
+msgstr "Giải quyết vấn đề ..."
+
+#: js/ui/panel.js:440
+msgid "Restart Cinnamon"
+msgstr "Khởi động lại Cinnamon"
+
+#: js/ui/panel.js:444
+msgid "Looking Glass"
+msgstr "Kính Xuyên thấu"
+
+#: js/ui/panel.js:448
+msgid "Restore all settings to default"
+msgstr "Đặt tất cả thiết lập về mặc định"
+
+#: js/ui/panel.js:460
+msgid "Panel Edit mode"
+msgstr "Chế độ sửa bảng"
+
+#: js/ui/panel.js:482
+msgid "Add applets to the panel"
+msgstr "Thêm tiểu trình vào bảng"
+
+#: js/ui/panel.js:485
+msgid "Panel settings"
+msgstr "Thiết lập bảng"
+
+#: js/ui/panel.js:488 files/usr/lib/cinnamon-settings/modules/cs_themes.py:17
+msgid "Themes"
+msgstr "Giao diện"
+
+#: js/ui/panel.js:491
+msgid "All settings"
+msgstr "Mọi thiết lập"
+
+#: js/ui/placesManager.js:120
+#, c-format
+msgid "Failed to unmount '%s'"
+msgstr "Tháo gắn kết thất bại '%s'"
+
+#: js/ui/placesManager.js:127
+msgid "Retry"
+msgstr "Thử lại"
+
+#: js/ui/placesManager.js:170
+msgid "Connect to..."
+msgstr "Kết nối đến..."
+
+#: js/ui/runDialog.js:215
+msgid "Please enter a command:"
+msgstr "Hãy nhập lệnh:"
+
+#: js/ui/windowManager.js:975
+msgid "Hold <Super> to enter snap mode"
+msgstr "Giữ <Super> để vào chế độ bám dính"
+
+#: js/ui/windowManager.js:977
+msgid "Hold <Alt> to enter snap mode"
+msgstr "Giữ <Alt> để vào chế độ bám dính"
+
+#: js/ui/windowManager.js:979
+msgid "Hold <Ctrl> to enter snap mode"
+msgstr "Giữ <Ctrl> để vào chế độ bám dính"
+
+#: js/ui/windowManager.js:981
+msgid "Hold <Shift> to enter snap mode"
+msgstr "Giữ <Shift> để vào chế độ bám dính"
+
+#: js/ui/windowManager.js:983
+msgid "Use the arrow keys to shift workspaces"
+msgstr "Dùng phím mũi tên để chuyển đổi vùng làm việc"
+
+#: js/ui/workspace.js:1492
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:80
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:209
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:172
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:109
+msgid "Close"
+msgstr "Đóng"
+
+#: js/ui/workspace.js:1496
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:89
+msgid "Restore"
+msgstr "Phục hồi"
+
+#: js/ui/workspace.js:1498
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:89
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:40
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:173
+msgid "Minimize"
+msgstr "Thu nhỏ"
+
+#: js/ui/workspace.js:1501 js/ui/workspace.js:1574
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:92
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:174
+msgid "Maximize"
+msgstr "Phóng to"
+
+#: js/ui/workspace.js:1504
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:95
+msgid "Move to left workspace"
+msgstr "Di chuyển đến vùng làm việc bên trái"
+
+#: js/ui/workspace.js:1507
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:98
+msgid "Move to right workspace"
+msgstr "Di chuyển đến vùng làm việc bên phải"
+
+#: js/ui/workspace.js:1510 js/ui/workspace.js:1559
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:101
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:116
+msgid "Visible on all workspaces"
+msgstr "Hiển thị trên mọi vùng làm việc"
+
+#: js/ui/workspace.js:1513
+msgid "Move to a new workspace"
+msgstr "Chuyển sang vùng làm việc mới"
+
+#: js/ui/workspace.js:1523
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:133
+#, c-format
+msgid "Move to monitor %d"
+msgstr "Chuyển sang màn màn hình %d"
+
+#: js/ui/workspace.js:1557
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:112
+msgid "Only on this workspace"
+msgstr "Chỉ trên vùng làm việc này"
+
+#: js/ui/workspace.js:1572
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:92
+msgid "Unmaximize"
+msgstr "Hoàn tác cực đại"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:48
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:62
+msgid "Accessibility"
+msgstr "Hỗ trợ Truy nhập"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:60
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:34
+msgid "Zoom"
+msgstr "Thu phóng"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:71
+msgid "Screen Keyboard"
+msgstr "Bàn phím ảo"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:75
+msgid "Visual Alerts"
+msgstr "Cảnh báo Trực quan"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:78
+msgid "Sticky Keys"
+msgstr "Phím Dính"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:81
+msgid "Slow Keys"
+msgstr "Phím Chậm"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:84
+msgid "Bounce Keys"
+msgstr "Phím Dội"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:87
+msgid "Mouse Keys"
+msgstr "Phím Chuột"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:91
+msgid "Universal Access Settings"
+msgstr "Thiết lập Truy cập Toàn cục"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:146
+msgid "High Contrast"
+msgstr "Độ tương phản cao"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:183
+msgid "Large Text"
+msgstr "Chữ to"
+
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:112
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:143
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:225
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:228
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:230
+msgid "Brightness"
+msgstr "Độ sáng"
+
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:117
+msgid "Dimming settings"
+msgstr "Thiết lập làm tối"
+
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:119
+msgid "Dim screen on AC power"
+msgstr "Làm tối màn hình khi dùng điện AC"
+
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:121
+msgid "Dim screen on battery"
+msgstr "Làm tối màn hình khi dùng pin"
+
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:144
+msgid "Brightness not available"
+msgstr "Không có độ sáng"
+
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:148
+#: files/usr/share/cinnamon/applets/settings@cinnamon.org/applet.js:28
+msgid "Settings"
+msgstr "Thiết lập"
+
+#: files/usr/share/cinnamon/applets/calendar@cinnamon.org/applet.js:77
+#: files/usr/share/cinnamon/desklets/clock@cinnamon.org/desklet.js:33
+msgid "Date and Time Settings"
+msgstr "Thiết lập Ngày và Giờ"
+
+#: files/usr/share/cinnamon/applets/calendar@cinnamon.org/applet.js:90
+msgid "%A %B %e, %Y"
+msgstr "%A %B %e, %Y"
+
+#: files/usr/share/cinnamon/applets/expo@cinnamon.org/applet.js:20
+msgid "Expo"
+msgstr "Expo"
+
+#: files/usr/share/cinnamon/applets/keyboard@cinnamon.org/applet.js:77
+msgid "Show Keyboard Layout"
+msgstr "Hiện Bố trí Bàn phím"
+
+#: files/usr/share/cinnamon/applets/keyboard@cinnamon.org/applet.js:81
+msgid "Show Character Table"
+msgstr "Hiện bảng kí tự"
+
+#: files/usr/share/cinnamon/applets/keyboard@cinnamon.org/applet.js:85
+msgid "Keyboard Settings"
+msgstr "Thiết lập Bàn phím"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:172
+msgid "Please provide your password to uninstall this application"
+msgstr "Vui lòng cho biết mật khẩu để gỡ cài đặt ứng dụng này"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:245
+msgid "Add to panel"
+msgstr "Thêm vào bảng"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:248
+msgid "Add to desktop"
+msgstr "Thêm vào màn hình làm việc"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:252
+msgid "Remove from favorites"
+msgstr "Loại khỏi ưa thích"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:255
+msgid "Add to favorites"
+msgstr "Thêm vào ưa thích"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:259
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:508
+msgid "Uninstall"
+msgstr "Gỡ cài đặt"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:508
+#: files/usr/share/cinnamon/applets/recent@cinnamon.org/applet.js:70
+msgid "Clear list"
+msgstr "Xóa danh sách"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:546
+msgid "All Applications"
+msgstr "Tất cả ứng dụng"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:573
+msgid "Places"
+msgstr "Vị trí"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:593
+msgid "Recent Files"
+msgstr "Tập tin gần đây"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:840
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:40
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:171
+msgid "Menu"
+msgstr "Trình đơn"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1668
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:123
+msgid "Lock screen"
+msgstr "Khoá màn hình"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1669
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:9
+msgid "Lock the screen"
+msgstr "Khoá màn hình"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1698
+msgid "Logout"
+msgstr "Đăng xuất"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1699
+msgid "Leave the session"
+msgstr "Thoát phiên làm việc"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1715
+msgid "Quit"
+msgstr "Thoát"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1716
+msgid "Shutdown the computer"
+msgstr "Tắt máy"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1841
+msgid "Type to search..."
+msgstr "Nhập để tìm..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:95
+msgid "<unknown>"
+msgstr "<không rõ>"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:305
+msgid "disabled"
+msgstr "đã tắt"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:505
+msgid "unmanaged"
+msgstr "không quản lý"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:507
+msgid "disconnecting..."
+msgstr "đang ngắt kết nối..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:513
+msgid "connecting..."
+msgstr "đang kết nối..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:516
+msgid "authentication required"
+msgstr "cần xác thực"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:526
+msgid "firmware missing"
+msgstr "thiếu firmware"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:533
+msgid "cable unplugged"
+msgstr "chưa cắm cáp"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:538
+msgid "unavailable"
+msgstr "chưa sẵn sàng"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:540
+msgid "connection failed"
+msgstr "kết nối thất bại"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:596
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1569
+msgid "More..."
+msgstr "Thêm..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:632
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1504
+msgid "Connected (private)"
+msgstr "Đã nối (riêng tư)"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:710
+msgid "Auto Ethernet"
+msgstr "Kết nối ethernet Tự động"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:790
+msgid "Auto broadband"
+msgstr "Kết nối băng rộng tự động"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:793
+msgid "Auto dial-up"
+msgstr "Kết nối quay số tự động"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:915
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1516
+#, c-format
+msgid "Auto %s"
+msgstr "Tự động %s"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:917
+msgid "Auto bluetooth"
+msgstr "Kết nối bluetooth tự động"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1518
+msgid "Auto wireless"
+msgstr "Kết nối không dây tự động"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1606
+msgid "Network Manager"
+msgstr "Trình quản lý mạng"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1642
+msgid "Enable networking"
+msgstr "Bật kết nối mạng"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1654
+msgid "Wired"
+msgstr "Có dây"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1665
+msgid "Wireless"
+msgstr "Không dây"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1675
+msgid "Mobile broadband"
+msgstr "Mạng băng rộng"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1685
+msgid "VPN Connections"
+msgstr "Kết nối VPN"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1696
+msgid "Network Settings"
+msgstr "Thiết lập mạng"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1697
+msgid "Network Connections"
+msgstr "Kết nối Mạng"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1850
+msgid "Connection failed"
+msgstr "Kết nối thất bại"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1851
+msgid "Activation of network connection failed"
+msgstr "Kích hoạt kết nối mạng thất bại"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2108
+msgid "Networking is disabled"
+msgstr "Đã tắt kết nối mạng"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2127
+msgid "No connection"
+msgstr "Không kết nối"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2133
+msgid "Connecting to the cellular network..."
+msgstr "Đang kết nối đến mạng di động..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2137
+msgid "Connecting to the wireless network..."
+msgstr "Đang kết nối vào mạng không dây..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2141
+msgid "Connecting to the wired network..."
+msgstr "Đang kết nối vào mạng có dây..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2145
+msgid "Connecting to the VPN..."
+msgstr "Đang kết nối đến VPN..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2151
+msgid "Connecting to the network..."
+msgstr "Đang kết nối vào mạng..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2167
+msgid "Connected to the wireless network"
+msgstr "Đã kết nối mạng không dây"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2170
+msgid "Wireless connection"
+msgstr "Kết nối không dây"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2180
+msgid "Connected to the wired network"
+msgstr "Đã kết nối mạng có dây"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2191
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2196
+msgid "Connected to the cellular network"
+msgstr "Đã kết nối đến mạng di động..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2201
+msgid "Connected to the VPN"
+msgstr "Đã kết nối đến VPN"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2207
+msgid "Connected to the network"
+msgstr "Đã nối mạng"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:39
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:67
+msgid "Notifications"
+msgstr "Thông báo"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:49
+msgid "Clear notifications"
+msgstr "Xóa sạch thông báo"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:246
+msgid "No notifications"
+msgstr "Không thông báo"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:249
+msgid " notification"
+msgstr " thông báo"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:252
+msgid " notifications"
+msgstr " thông báo"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:266
+msgid " (Just now)"
+msgstr " (Vừa mới)"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:269
+#, c-format
+msgid " (%s seconds ago)"
+msgstr " (%s giây trước)"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:272
+#, c-format
+msgid " (%s minute ago)"
+msgstr " (%s phút trước)"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:275
+#, c-format
+msgid " (%s minutes ago)"
+msgstr " (%s phút trước)"
+
+#: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:46
+msgid "Launch"
+msgstr "Khởi chạy"
+
+#: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:50
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:81
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:717
+msgid "Add"
+msgstr "Thêm"
+
+#: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:54
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:96
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:249
+msgid "AC adapter"
+msgstr "Bộ sạc AC"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:98
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:252
+msgid "Laptop battery"
+msgstr "Pin máy tính xách tay"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:100
+msgid "UPS"
+msgstr "UPS"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:102
+msgid "Monitor"
+msgstr "Màn hình"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:104
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:32
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:78
+msgid "Mouse"
+msgstr "Chuột"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:108
+msgid "PDA"
+msgstr "PDA"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:110
+msgid "Cell phone"
+msgstr "Điện thoại di động"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:112
+msgid "Media player"
+msgstr "Máy nghe nhạc"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:114
+msgid "Tablet"
+msgstr "Máy tính bảng"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:116
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:38
+msgid "Computer"
+msgstr "Máy tính"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:176
+msgid "Power Settings"
+msgstr "Thiết lập nguồn điện"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:205
+msgid "Estimating..."
+msgstr "Đang ước lượng..."
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:212
+#, c-format
+msgid "%d hour remaining"
+msgid_plural "%d hours remaining"
+msgstr[0] "Còn %d giờ"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:215
+#, c-format
+msgid "%d %s %d %s remaining"
+msgstr "Còn %d %s %d %s"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:217
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "giờ"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:217
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "phút"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:220
+#, c-format
+msgid "%d minute remaining"
+msgid_plural "%d minutes remaining"
+msgstr[0] "Còn %d phút"
+
+#: files/usr/share/cinnamon/applets/recent@cinnamon.org/applet.js:41
+msgid "Recent documents"
+msgstr "Tài liệu gần đây"
+
+#: files/usr/share/cinnamon/applets/recent@cinnamon.org/applet.js:74
+msgid "No recent documents"
+msgstr "Không có tập tin gần đây"
+
+#: files/usr/share/cinnamon/applets/removable-drives@cinnamon.org/applet.js:53
+msgid "Removable drives"
+msgstr "Ổ đĩa di động"
+
+#: files/usr/share/cinnamon/applets/removable-drives@cinnamon.org/applet.js:65
+msgid "Open file manager"
+msgstr "Mở trình quản lý tập tin"
+
+#: files/usr/share/cinnamon/applets/scale@cinnamon.org/applet.js:20
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:66
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:70
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:74
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:78
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:82
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:86
+msgid "Scale"
+msgstr "Tỷ lệ"
+
+#: files/usr/share/cinnamon/applets/settings-example@cinnamon.org/applet.js:96
+msgid "Hi there!"
+msgstr "Chào !"
+
+#: files/usr/share/cinnamon/applets/settings-example@cinnamon.org/applet.js:129
+msgid "YOU PRESSED THE BUTTON!!!"
+msgstr "BẠN ĐÃ NHẤN NÚT !!!"
+
+#: files/usr/share/cinnamon/applets/settings-example@cinnamon.org/applet.js:137
+msgid "YOU USED THE HOTKEY!!!"
+msgstr "BẠN ĐÃ DÙNG PHÍM NÓNG !!!"
+
+#: files/usr/share/cinnamon/applets/show-desktop@cinnamon.org/applet.js:15
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:58
+msgid "Show desktop"
+msgstr "Hiện màn hình làm việc"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:116
+msgid "Playing"
+msgstr "Đang phát"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:117
+msgid "Paused"
+msgstr "Tạm dừng"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:118
+msgid "Stopped"
+msgstr "Đã dừng"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:396
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:574
+msgid "Unknown Artist"
+msgstr "Không biết nghệ sĩ"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:397
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:578
+msgid "Unknown Album"
+msgstr "Không biết album"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:398
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:582
+msgid "Unknown Title"
+msgstr "Không biết tựa đề"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:409
+msgid "Previous"
+msgstr "Trước"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:412
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:139
+msgid "Play"
+msgstr "Phát"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:415
+msgid "Stop"
+msgstr "Dừng"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:418
+msgid "Next"
+msgstr "Kế"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:454
+msgid "Open Player"
+msgstr "Mở Trình phát"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:464
+msgid "Quit Player"
+msgstr "Thoát Trình phát"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:862
+msgid "Mute output"
+msgstr "Làm câm đầu ra"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:863
+msgid "Mute input"
+msgstr "Làm câm đầu vào"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1095
+msgid "Launch player..."
+msgstr "Khởi chạy trình chơi nhạc..."
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1108
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1170
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1171
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1176
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1177
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1196
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1197
+msgid "Volume"
+msgstr "Âm lượng"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1115
+msgid "Microphone"
+msgstr "Micrô"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1122
+msgid "Sound Settings"
+msgstr "Thiết lập âm thanh"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1124
+msgid "Output device..."
+msgstr "Thiết bị xuất..."
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:21
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:42
+msgid "Trash"
+msgstr "Sọt rác"
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:39
+msgid "Empty Trash"
+msgstr "Đổ sọt rác"
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:42
+msgid "Open Trash"
+msgstr "Mở sọt rác"
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:86
+msgid "Are you sure you want to delete all items from the trash?"
+msgstr "Bạn có chắc muốn xóa tất cả các mục trong sọt rác?"
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:86
+msgid "This operation cannot be undone."
+msgstr "Thao tác này không thể phục hồi lại được."
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:107
+msgid "Empty Trash?"
+msgstr "Đổ rác?"
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:118
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:722
+msgid "Cancel"
+msgstr "Hủy"
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:125
+msgid "Empty"
+msgstr "Trống"
+
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:81
+msgid "Account Details"
+msgstr "Chi tiết Tài khoản"
+
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:91
+msgid "Lock Screen"
+msgstr "Khoá Màn hình"
+
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:109
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:121
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:127
+msgid "Switch User"
+msgstr "Chuyển Người dùng"
+
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:114
+msgid "Guest Session"
+msgstr "Phiên Khách"
+
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:133
+msgid "Log Out..."
+msgstr "Đăng xuất..."
+
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:139
+msgid "Power Off..."
+msgstr "Tắt Nguồn..."
+
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:83
+msgid "Close all"
+msgstr "Đóng tất cả"
+
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:86
+msgid "Close others"
+msgstr "Đóng những cái khác"
+
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:104
+msgid "Restore to full opacity"
+msgstr "Phục hồi mờ đục hoàn toàn"
+
+#: files/usr/share/cinnamon/applets/windows-quick-list@cinnamon.org/applet.js:24
+msgid "All windows"
+msgstr "Mọi cửa sổ"
+
+#: files/usr/share/cinnamon/applets/windows-quick-list@cinnamon.org/applet.js:108
+msgid "No open windows"
+msgstr "Không có cửa sổ đang mở"
+
+#: files/usr/share/cinnamon/applets/workspace-switcher@cinnamon.org/applet.js:18
+msgid "Switch workspace"
+msgstr "Chuyển đổi vùng làm việc"
+
+#. #-#-#-#-#  uniq-cinnamon-json.pot  #-#-#-#-#
+#. power@cinnamon.org->settings-schema.json->labelinfo->description
+#: files/usr/share/cinnamon/applets/xrandr@cinnamon.org/applet.js:45
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:60
+msgid "Display"
+msgstr "Hiển thị"
+
+#: files/usr/share/cinnamon/applets/xrandr@cinnamon.org/applet.js:88
+msgid "Configure display settings..."
+msgstr "Cấu hình thiết lập hiển thị..."
+
+#: files/usr/share/cinnamon/desklets/clock@cinnamon.org/desklet.js:21
+msgid "Clock"
+msgstr "Đồng hồ"
+
+#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/desklet.js:31
+msgid "Add new launcher"
+msgstr "Thêm bộ khởi chạy mới"
+
+#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/desklet.js:34
+msgid "Edit launcher"
+msgstr "Chỉnh sửa bộ khởi chạy"
+
+#: files/usr/share/cinnamon/desklets/photoframe@cinnamon.org/desklet.js:85
+msgid "Photo Frame"
+msgstr "Khung Hình"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:51
+msgid "Appearance"
+msgstr "Diện mạo"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:52
+msgid "Preferences"
+msgstr "Tuỳ thích"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:53
+msgid "Hardware"
+msgstr "Phần cứng"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:54
+msgid "Administration"
+msgstr "Quản trị"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:59
+msgid "Networking"
+msgstr "Kết nối mạng"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:59
+msgid "network, wireless, wifi, ethernet, broadband, internet"
+msgstr "mạng, không dây, wifi, ethernet, băng rộng, internet"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:60
+msgid "display, screen, monitor, layout, resolution, dual, lcd"
+msgstr "hiển thị, màn hình, màn hình, bố trí, độ phân giải, đôi, lcd"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:61
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:61
+msgid "bluetooth, dongle, transfer, mobile"
+msgstr "bluetooth, dongle, chuyển, di động"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:62
+msgid "magnifier, talk, access, zoom, keys, contrast"
+msgstr "kính phóng đại, nói chuyện, truy cập, thu phóng, phím, tương phản"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:63
+msgid "Sound"
+msgstr "Âm thanh"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:63
+msgid "sound, speakers, headphones, test"
+msgstr "âm thanh, loa, tai nghe, thử"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:64
+msgid "Color"
+msgstr "Màu sắc"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:64
+msgid "color, profile, display, printer, output"
+msgstr "màu, hồ sơ, hiển thị, máy in, đầu ra"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:65
+msgid "Graphics Tablet"
+msgstr "Bàn vẽ Đồ hoạ"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:65
+msgid "wacom, digitize, tablet, graphics, calibrate, stylus"
+msgstr "wacom, số hoá, bàn vẽ, đồ hoạ, canh chỉnh, bút cảm ứng"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:70
+msgid "Printers"
+msgstr "Máy in"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:70
+msgid "printers, laser, inkjet"
+msgstr "máy in, laser, phun màu"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:71
+msgid "Firewall"
+msgstr "Tường lửa"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:71
+msgid "firewall, block, filter, programs"
+msgstr "tường lửa, chặn, lọc, chương trình"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:72
+msgid "Languages"
+msgstr "Ngôn ngữ"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:72
+msgid "language, install, foreign"
+msgstr "ngôn ngữ, cài đặt, ngoại ngữ"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:73
+msgid "Login Screen"
+msgstr "Màn hình Đăng nhập"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:73
+msgid "login, mdm, gdm, manager, user, password, startup, switch"
+msgstr ""
+"đăng nhập, mdm, gdm, trình quản lý, người dùng, mật khẩu, khởi động, chuyển"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:74
+msgid "Startup Programs"
+msgstr "Chương trình Khởi động"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:74
+msgid "startup, programs, boot, init, session"
+msgstr "khởi động, chương trình, khởi động, khởi tạo, phiên"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:75
+msgid "Device Drivers"
+msgstr "Trình Điều khiển Thiết bị"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:75
+msgid ""
+"video, driver, wifi, card, hardware, proprietary, nvidia, radeon, nouveau, "
+"fglrx"
+msgstr ""
+"video, trình điều khiển, wifi, bo mạch, phần cứng, độc quyền, nvidia, "
+"radeon, nouveau, fglrx"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:76
+msgid "Software Sources"
+msgstr "Nguồn Phần mềm"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:76
+msgid "ppa, repository, package, source, download"
+msgstr "ppa, kho phần mềm, gói, nguồn, tải xuống"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:77
+msgid "user, users, account, accounts, group, groups, password"
+msgstr "người dùng, người dùng, tài khoản, tài khoản, nhóm, nhóm, mật khẩu"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:149
+msgid "All Settings"
+msgstr "Tất cả thiết lập"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:50
+msgid "The group name cannot contain space characters"
+msgstr "Tên nhóm không được chứa ký tự cách"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:159
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:332
+msgid "New password"
+msgstr "Mật khẩu mới"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:159
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:336
+msgid "Confirm password"
+msgstr "Xác nhận mật khẩu"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:163
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:347
+msgid "Generate a password"
+msgstr "Phát sinh mật khẩu"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:169
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:175
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:353
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:359
+msgid "Your new password needs to be at least 8 characters long"
+msgstr "Mật khẩu mới của bạn cần phải dài ít nhất 8 ký tự"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:183
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:367
+msgid "Show password"
+msgstr "Hiện mật khẩu"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:189
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:373
+msgid "An error occured. Your password was not changed."
+msgstr "Có lỗi xảy ra. Mật khẩu của bạn chưa được thay đổi."
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:200
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:384
+msgid "Change"
+msgstr "Thay đổi"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:247
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:465
+msgid "Passwords do not match"
+msgstr "Mật khẩu không khớp"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:251
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:469
+msgid "Too short"
+msgstr "Quá ngắn"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:254
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:472
+msgid "OK"
+msgstr "OK"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:279
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:460
+msgid "Standard"
+msgstr "Chuẩn"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:280
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:461
+msgid "Administrator"
+msgstr "Quản trị viên"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:290
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:490
+msgid "Account Type"
+msgstr "Kiểu Tài khoản"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:290
+msgid "Full Name"
+msgstr "Họ Tên"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:290
+msgid "Username"
+msgstr "Tên người dùng"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:311
+msgid "The username cannot contain space characters"
+msgstr "Tên người dùng không được chứa ký tự cách"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:373
+msgid "Users"
+msgstr "Người dùng"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:374
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:490
+msgid "Groups"
+msgstr "Nhóm"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:425
+msgid "Click to change the picture"
+msgstr "Nhấp để đổi hình ảnh"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:430
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:101
+msgid "Browse for more pictures..."
+msgstr "Duyệt thêm ảnh..."
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:466
+msgid "Click to change the name"
+msgstr "Nhấp để đổi tên"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:473
+msgid "Click to change the password"
+msgstr "Nhấp để đổi mật khẩu"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:483
+msgid "Click to change the groups"
+msgstr "Nhấp để đổi nhóm"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:490
+msgid "Picture"
+msgstr "Hình ảnh"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:490
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:247
+msgid "Name"
+msgstr "Tên"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:490
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:557
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:235
+msgid "Images"
+msgstr "Hình ảnh"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:672
+msgid "No password set"
+msgstr "Chưa đặt mật khẩu"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:674
+msgid "Set at login"
+msgstr "Đặt lúc đăng nhập"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:697
+msgid "This user is currently logged in"
+msgstr "Người dùng này hiện đang đăng nhập"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:710
+#, c-format
+msgid ""
+"Are you sure you want to permanently delete %s and all the files associated "
+"with this user?"
+msgstr ""
+"Bạn có chắc chắn muốn xoá vĩnh viễn %s và mọi tập tin liên quan với người "
+"dùng này không ?"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:768
+#, c-format
+msgid "This group is set as %s's primary group"
+msgstr "Nhóm này được đặt là nhóm chính của %s"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:780
+#, c-format
+msgid "Are you sure you want to permanently delete %s?"
+msgstr "Bạn có chắc chắn muốn xoá vĩnh viễn %s không ?"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:795
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:806
+msgid "Group Name"
+msgstr "Tên Nhóm"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_applets.py:7
+#: files/usr/lib/cinnamon-settings/modules/cs_applets.py:10
+msgid "applet"
+msgstr "tiểu trình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_applets.py:11
+msgid "applets"
+msgstr "tiểu trình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_applets.py:12
+msgid "panel"
+msgstr "bảng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_applets.py:13
+msgid "Manage Cinnamon applets"
+msgstr "Quản lý tiểu dụng Cinnamon"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_applets.py:14
+msgid "Applets"
+msgstr "Tiểu trình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_applets.py:29
+msgid ""
+"You can remove specific instances in panel edit mode via the context menu."
+msgstr ""
+"Bạn có thể loại bỏ những thể hiện cụ thể với chế độ sửa bảng qua trình đơn "
+"ngữ cảnh."
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:17
+msgid "Wallpaper"
+msgstr "Màn hình nền"
+
+#. #-#-#-#-#  uniq-cinnamon-json.pot  #-#-#-#-#
+#. photoframe@cinnamon.org->settings-schema.json->effect->options
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:23
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:66
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:70
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:74
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:78
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:82
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:86
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:34
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:35
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:40
+msgid "None"
+msgstr "Không"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:24
+msgid "Horizontal"
+msgstr "Ngang"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:25
+msgid "Vertical"
+msgstr "Dọc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:29
+msgid "No picture"
+msgstr "Không hình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:30
+msgid "Mosaic"
+msgstr "Khảm"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:31
+msgid "Centered"
+msgstr "Canh giữa"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:32
+msgid "Scaled"
+msgstr "Phóng tỷ lệ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:33
+msgid "Stretched"
+msgstr "Kéo giãn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:35
+msgid "Spanned"
+msgstr "Trải"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:43
+msgid "background, picture, screenshot, slideshow"
+msgstr "hình nền, hình ảnh, ảnh chụp màn hình, trình chiếu"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:44
+msgid "Backgrounds"
+msgstr "Hình nền"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:47
+msgid "Change your desktop's background"
+msgstr "Đổi nền màn hình làm việc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:77
+msgid "Remove wallpaper"
+msgstr "Bỏ hình nền"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:88
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:472
+msgid "Add wallpapers"
+msgstr "Thêm hình nền"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:112
+msgid "Picture aspect"
+msgstr "Tỉ lệ hình ảnh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:118
+msgid "Gradient"
+msgstr "Chuyển màu"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:125
+msgid "Colors"
+msgstr "Màu sắc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:513
+msgid "Folder"
+msgstr "Thư mục"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:521
+msgid "Recursive listing"
+msgstr "Liệt kê đệ quy"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:526
+msgid "Delay"
+msgstr "Độ trễ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:8
+msgid "time, date, calendar, format, network, sync"
+msgstr "thời gian, ngày tháng, lịch, định dạng, mạng, đồng bộ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:9
+msgid "Date & Time"
+msgstr "Ngày giờ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:12
+msgid "Manage date and time settings"
+msgstr "Quản lý thiết đặt ngày tháng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:25
+msgid "Date Settings"
+msgstr "Thiết đặt Ngày tháng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:33
+msgid "Date Format"
+msgstr "Định dạng Ngày tháng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:34
+msgid "Use 24h clock"
+msgstr "Dùng đồng hồ 24 giờ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:35
+msgid "Display the date"
+msgstr "HIển thị ngày"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:36
+msgid "Display seconds"
+msgstr "Hiển thị giây"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:28
+msgid "_Web"
+msgstr "_Web"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:29
+msgid "_Mail"
+msgstr "_Thư"
+
+#. #-#-#-#-#  uniq-cinnamon-json.pot  #-#-#-#-#
+#. menu@cinnamon.org->settings-schema.json->menu-label->description
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:30
+msgid "Text"
+msgstr "Văn bản"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:34
+msgid "M_usic"
+msgstr "_Nhạc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:35
+msgid "_Video"
+msgstr "_Phim"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:36
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:44
+msgid "_Photos"
+msgstr "_Ảnh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:41
+msgid "CD _audio"
+msgstr "CD _nhạc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:41
+msgid "Select an application for audio CDs"
+msgstr "Chọn ứng dụng cho CD nhạc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:42
+msgid "_DVD video"
+msgstr "_DVD phim"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:42
+msgid "Select an application for video DVDs"
+msgstr "Chọn ứng dụng cho DVD phim"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:43
+msgid "_Music player"
+msgstr "_Trình phát nhạc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:43
+msgid "Select an application to run when a music player is connected"
+msgstr "Chọn ứng dụng cần chạy khi gắn thiết bị phát nhạc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:44
+msgid "Select an application to run when a camera is connected"
+msgstr "Chọn ứng dụng cần chạy khi gắn máy ảnh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:45
+msgid "_Software"
+msgstr "_Phần mềm"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:45
+msgid "Select an application for software CDs"
+msgstr "Chọn ứng dụng cho CD phần mềm"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:53
+msgid "audio DVD"
+msgstr "DVD nhạc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:54
+msgid "blank Blu-ray disc"
+msgstr "đĩa Blu-ray trắng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:55
+msgid "blank CD disc"
+msgstr "đĩa CD trắng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:56
+msgid "blank DVD disc"
+msgstr "đĩa DVD trắng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:57
+msgid "blank HD DVD disc"
+msgstr "đĩa HD DVD trắng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:58
+msgid "Blu-ray video disc"
+msgstr "đĩa phim Blu-ray"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:59
+msgid "e-book reader"
+msgstr "Thiết bị đọc sách điện tử"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:60
+msgid "HD DVD video disc"
+msgstr "đĩa phim HD DVD"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:61
+msgid "Picture CD"
+msgstr "CD Ảnh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:62
+msgid "Super Video CD"
+msgstr "SVCD"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:63
+msgid "Video CD"
+msgstr "VCD"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:64
+msgid "Windows software"
+msgstr "Phần mềm Windows"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:65
+msgid "Software"
+msgstr "Phần mềm"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:144
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:13
+msgid "Ask what to do"
+msgstr "Hỏi cần làm gì"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:146
+msgid "Open folder"
+msgstr "Mở thư mục"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:148
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:14
+msgid "Do nothing"
+msgstr "Không làm gì cả"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:206
+msgid "Other Media"
+msgstr "Phương tiện Khác"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:232
+msgid "_Type:"
+msgstr "_Kiểu:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:235
+msgid "Select how other media should be handled"
+msgstr "Chọn cách xử lý các phương tiện khác"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:307
+msgid "_Action:"
+msgstr "_Hành động:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:311
+msgid ""
+"media, defaults, applications, programs, removable, browser, email, "
+"calendar, music, videos, photos, images, cd, autostart, autoplay"
+msgstr ""
+"phương tiện, mặc định, ứng dụng, chương trình, tháo lắp, trình duyệt, điện "
+"thư, lịch, nhạc, phim, ảnh, hình, cd, tự chạy, tự phát"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:312
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:316
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:333
+msgid "Preferred Applications"
+msgstr "Ứng dụng Ưa thích"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:334
+msgid "Removable Media"
+msgstr "Phương tiện Tháo lắp"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:352
+msgid "Select preferred applications for file types"
+msgstr "Chọn ứng dụng ưa thích cho kiểu tập tin"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:373
+msgid "_Other Media..."
+msgstr "_Phương tiện Khác..."
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:377
+msgid "_Never prompt or start programs on media insertion"
+msgstr "_Đừng bao giờ hỏi hoặc chạy chương trình khi gắn phương tiện"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:382
+msgid "Select how media should be handled"
+msgstr "Chọn cách xử lý phương tiện"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:9
+msgid "desklet, desktop, slideshow"
+msgstr "tiểu trình màn hình làm việc, màn hình làm việc, trình chiếu"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:11
+msgid "Manage your Cinnamon desklets"
+msgstr "Quản lý tiểu dụng màn hình Cinnamon"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:13
+msgid "desklet"
+msgstr "tiểu trình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:14
+msgid "desklets"
+msgstr "tiểu trình màn hình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:15
+msgid "desktop"
+msgstr "màn hình làm việc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:16
+msgid "Desklets"
+msgstr "Tiểu trình màn hình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:32
+msgid ""
+"You can remove specific instances from the desktop via that desklet's "
+"context menu"
+msgstr ""
+"Bạn có thể loại bỏ những thể hiện cụ thể trên màn hình làm việc qua trình "
+"đơn ngữ cảnh của tiểu trình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:44
+msgid "General Desklets Settings"
+msgstr "Thiết đặt Tiểu trình màn hình Tổng quát"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:49
+msgid "No decoration"
+msgstr "Không trang trí"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:49
+msgid "Border only"
+msgstr "Chỉ khung viền"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:49
+msgid "Border and header"
+msgstr "Khung viền và tiêu đề"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:50
+msgid "Decoration of desklets"
+msgstr "Trang trí tiểu trình màn hình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:53
+msgid "Note: Some desklets require the border/header to be always present"
+msgstr "Lưu ý: Vài tiểu trình màn hình yêu cầu luôn phải có biên/đầu đề"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:53
+msgid "Such requirements override the settings selected here"
+msgstr "Những yêu cầu đó được ưu tiên hơn các thiết đặt chọn ở đây"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:57
+msgid "Snap desklets to grid"
+msgstr "Bắt dính tiểu trình vào lưới"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:58
+msgid "Width of desklet snap grid"
+msgstr "Chiều rộng lưới dính tiểu trình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:8
+msgid "desktop, home, button, trash"
+msgstr "màn hình làm việc, nhà, nút, thùng rác"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:9
+msgid "Desktop"
+msgstr "Màn hình làm việc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:13
+msgid "Manage your desktop icons"
+msgstr "Quản lý biểu tượng màn hình của bạn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:32
+msgid "Desktop Icons"
+msgstr "Biểu tượng Màn hình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:34
+msgid "Select the items you want to see on the desktop:"
+msgstr "Chọn các mục muốn hiển thị trên màn hình làm việc:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:44
+msgid "Mounted volumes"
+msgstr "Phân vùng đã gắn kết"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:46
+msgid "Network"
+msgstr "Mạng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:8
+msgid "effects, fancy, window"
+msgstr "hiệu ứng, đẹp đẽ, cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:9
+msgid "Effects"
+msgstr "Hiệu ứng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:13
+msgid "Control Cinnamon visual effects."
+msgstr "Điều khiển hiệu ứng trực quan Cinnamon."
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:56
+msgid "Enable Effects"
+msgstr "Cho phép Hiệu ứng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:57
+msgid "Enable desktop effects"
+msgstr "Bật hiệu ứng màn hình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:58
+msgid "Enable desktop effects on dialog boxes"
+msgstr "Bật hiệu ứng màn hình trên hộp thoại"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:59
+msgid ""
+"Enable fade effect on Cinnamon scrollboxes (like the Menu application list)"
+msgstr ""
+"Bật hiệu ứng mờ dần trên hộp cuộn Cinnamon (như danh sách ứng dụng Trình đơn)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:64
+msgid "Customize Effects"
+msgstr "Tuỳ biến Hiệu ứng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:66
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:70
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:74
+msgid "Fade"
+msgstr "Mờ dần"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:67
+msgid "Closing windows:"
+msgstr "Đóng cửa sổ:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:71
+msgid "Mapping windows:"
+msgstr "Ánh xạ cửa sổ:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:74
+msgid "Traditional"
+msgstr "Truyền thống"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:75
+msgid "Minimizing windows:"
+msgstr "Thu nhỏ cửa sổ:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:79
+msgid "Maximizing windows:"
+msgstr "Phóng to cửa sổ:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:83
+msgid "Unmaximizing windows:"
+msgstr "Bỏ phóng to cửa sổ:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:87
+msgid "Tiling and snapping windows:"
+msgstr "Xếp gạch và bám dính cửa sổ:"
+
+#. #-#-#-#-#  uniq-cinnamon-json.pot  #-#-#-#-#
+#. menu@cinnamon.org->settings-schema.json->hover-delay->units
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:109
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:40
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:41
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:44
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:45
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:47
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:48
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:27
+msgid "milliseconds"
+msgstr "mili giây"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_extensions.py:7
+msgid "extension, addon"
+msgstr "phần mở rộng, gắn thêm"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_extensions.py:9
+msgid "Manage your Cinnamon extensions"
+msgstr "Quản lý phần mở rộng Cinnamon"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_extensions.py:11
+msgid "extension"
+msgstr "phần mở rộng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_extensions.py:12
+msgid "extensions"
+msgstr "phần mở rộng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_extensions.py:15
+msgid "Extensions"
+msgstr "Phần mở rộng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:9
+msgid "font, size, small, large"
+msgstr "phông, cỡ, nhỏ, to"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:10
+msgid "Fonts"
+msgstr "Phông chữ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:14
+msgid "Configure system fonts"
+msgstr "Cấu hình kiểu chữ hệ thống"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:24
+msgid "Font Selection"
+msgstr "Chọn Kiểu chữ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:25
+msgid "Default font"
+msgstr "Phông Mặc định"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:26
+msgid "Document font"
+msgstr "Phông tài liệu"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:27
+msgid "Monospace font"
+msgstr "Phông giãn cách đơn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:28
+msgid "Window title font"
+msgstr "Phông tiêu đề cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:33
+msgid "Font Settings"
+msgstr "Thiết đặt Kiểu chữ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:34
+msgid "Grayscale"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:34
+msgid "Rgba"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:35
+msgid "Slight"
+msgstr ""
+
+#. #-#-#-#-#  uniq-cinnamon-json.pot  #-#-#-#-#
+#. photoframe@cinnamon.org->settings-schema.json->quality->options
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:35
+msgid "Medium"
+msgstr "Trung bình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:35
+msgid "Full"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:36
+msgid "Text scaling factor"
+msgstr "Hệ số phóng to chữ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:37
+msgid "Antialiasing"
+msgstr "Khử răng cưa"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:38
+msgid "Hinting"
+msgstr "Làm mịn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:55
+msgid "Antialiasing makes on screen text smoother and easier to read"
+msgstr "Khử răng cưa làm văn bản trên màn hình mượt và dễ đọc hơn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:58
+msgid "Hinting allows for producing clear, legible text on screen."
+msgstr "Hinting giúp tạo văn bản rõ ràng, dễ đọc trên màn hình."
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:7
+msgid "logging, click, notifications"
+msgstr "ghi nhật ký, nhấp, thông báo"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:8
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:40
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:86
+msgid "General"
+msgstr "Tổng quát"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:11
+msgid "Miscellaneous Cinnamon preferences"
+msgstr "Tuỳ thích Cinnamon linh tinh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:22
+msgid "Desktop Scaling"
+msgstr "Co dãn Màn hình nền"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:23
+msgid "Auto"
+msgstr "Tự động"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:23
+msgid "Normal"
+msgstr "Bình thường"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:23
+msgid "Double (Hi-DPI)"
+msgstr "Đôi (DPI-Cao)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:24
+msgid "User interface scaling:"
+msgstr "Co dãn giao diện người dùng:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:30
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:34
+msgid "Miscellaneous Options"
+msgstr "Tuỳ chọn Linh tinh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:31
+msgid ""
+"Log LookingGlass output to ~/.cinnamon/glass.log (Requires Cinnamon restart)"
+msgstr ""
+"Ghi nhật ký đầu ra LookingGlass vào ~/.cinnamon/glass.log (yêu cầu khởi chạy "
+"lại Cinnamon)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:32
+msgid "Display notifications"
+msgstr "Hiện thông báo"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:15
+msgid "hotcorner, overview, scale, expo"
+msgstr "góc nóng, toàn cảnh, định tỷ lệ, expo"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:16
+msgid "Hot Corners"
+msgstr "Góc nóng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:18
+msgid "Manage hotcorner settings"
+msgstr "Quản lý thiết đặt góc nóng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:205
+msgid "Show all workspaces"
+msgstr "Hiện mọi vùng làm việc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:206
+msgid "Show all windows"
+msgstr "Hiện mọi cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:207
+msgid "Show the desktop"
+msgstr "Hiện màn hình làm việc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:208
+msgid "Run a command"
+msgstr "Chạy lệnh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:222
+msgid "Icon visible"
+msgstr "Hiển thị biểu tượng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:224
+msgid "Hover enabled"
+msgstr "Cho phép lượn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:83
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:85
+msgid "Operating System"
+msgstr "Hệ điều hành"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:87
+msgid "Cinnamon Version"
+msgstr "Phiên bản Cinnamon"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:88
+msgid "Linux Kernel"
+msgstr "Nhân Linux"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:89
+msgid "Processor"
+msgstr "Bộ xử lý"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:91
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:93
+msgid "Memory"
+msgstr "Bộ nhớ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:91
+msgid "GiB"
+msgstr "GiB"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:94
+msgid "Hard Drive"
+msgstr "Đĩa cứng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:94
+msgid "GB"
+msgstr "GB"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:98
+msgid "Graphics Card"
+msgstr "Card Đồ hoạ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:104
+msgid "system, information, details, graphic, sound, kernel, version"
+msgstr "hệ thống, thông tin, chi tiết, đồ hoạ, âm thanh, nhân, phiên bản"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:105
+msgid "System Info"
+msgstr "Thông tin Hệ thống"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:109
+msgid "Display system information"
+msgstr "Hiển thị thông tin hệ thống"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:46
+msgid "Toggle Scale"
+msgstr "Bật tắt Scale"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:47
+msgid "Toggle Expo"
+msgstr "Bật tắt Expo"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:48
+msgid "Cycle through open windows"
+msgstr "Luân phiên các cửa sổ đang mở"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:49
+msgid "Cycle backwards though open windows"
+msgstr "Luân phiên chiều ngược lại các cửa sổ đang mở"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:50
+msgid "Run dialog"
+msgstr "Cửa sổ chạy"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:51
+msgid "Menu button (must restart Cinnamon)"
+msgstr "Nút trình đơn (phải khởi chạy lại Cinnamon)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:54
+msgid "Maximize window"
+msgstr "Phóng to cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:55
+msgid "Unmaximize window"
+msgstr "Bỏ phóng to cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:56
+msgid "Minimize window"
+msgstr "Thu nhỏ cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:57
+msgid "Close window"
+msgstr "Đóng cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:59
+msgid "Activate window menu"
+msgstr "Kích hoạt trình đơn cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:60
+msgid "Toggle maximization state"
+msgstr "Bật tắt trạng thái phóng to"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:61
+msgid "Toggle fullscreen state"
+msgstr "Bật tắt trạng thái toàn màn hình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:62
+msgid "Toggle shaded state"
+msgstr "Bật tắt trạng thái đổ bóng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:63
+msgid "Increase opacity"
+msgstr "Tăng độ mờ đục"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:64
+msgid "Decrease opacity"
+msgstr "Giảm độ mờ đục"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:65
+msgid "Maximize vertically"
+msgstr "Phóng to chiều dọc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:66
+msgid "Maximize horizontally"
+msgstr "Phóng to chiều ngang"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:67
+msgid "Resize window"
+msgstr "Chỉnh kích thước cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:68
+msgid "Move window"
+msgstr "Di chuyển cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:69
+msgid "Center window in screen"
+msgstr "Canh cửa sổ giữa màn hình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:70
+msgid "Move window to upper-right"
+msgstr "Chuyển cửa sổ đến góc trên phải"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:71
+msgid "Move window to upper-left"
+msgstr "Chuyển cửa sổ đến góc trên trái"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:72
+msgid "Move window to lower-right"
+msgstr "Chuyển cửa sổ đến góc dưới phải"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:73
+msgid "Move window to lower-left"
+msgstr "Chuyển cửa sổ đến góc dưới trái"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:74
+msgid "Move window to right edge"
+msgstr "Chuyển cửa sổ đến cạnh phải"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:75
+msgid "Move window to top edge"
+msgstr "Chuyển cửa sổ đến cạnh trên"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:76
+msgid "Move window to bottom edge"
+msgstr "Chuyển cửa sổ đến cạnh đáy"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:77
+msgid "Move window to left edge"
+msgstr "Chuyển cửa sổ đến cạnh trái"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:80
+msgid "Push tile left"
+msgstr "Đẩy ô sang trái"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:81
+msgid "Push tile right"
+msgstr "Đẩy ô sang phải"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:82
+msgid "Push tile up"
+msgstr "Đẩy ô lên"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:83
+msgid "Push tile down"
+msgstr "Đẩy ô xuống"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:84
+msgid "Push snap left"
+msgstr "Đẩy bám dính sang trái"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:85
+msgid "Push snap right"
+msgstr "Đẩy bám dính sang phải"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:86
+msgid "Push snap up"
+msgstr "Đẩy bám dính lên"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:87
+msgid "Push snap down"
+msgstr "Đẩy bám dính xuống"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:90
+msgid "Toggle showing window on all workspaces"
+msgstr "Bật tắt hiện cửa sổ trên mọi vùng làm việc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:91
+msgid "Switch to left workspace"
+msgstr "Chuyển sang vùng làm việc trái"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:92
+msgid "Switch to right workspace"
+msgstr "Chuyển sang vùng làm việc phải"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:93
+msgid "Switch to workspace 1"
+msgstr "Chuyển sang vùng làm việc 1"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:94
+msgid "Switch to workspace 2"
+msgstr "Chuyển sang vùng làm việc 2"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:95
+msgid "Switch to workspace 3"
+msgstr "Chuyển sang vùng làm việc 3"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:96
+msgid "Switch to workspace 4"
+msgstr "Chuyển sang vùng làm việc 4"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:97
+msgid "Switch to workspace 5"
+msgstr "Chuyển sang vùng làm việc 5"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:98
+msgid "Switch to workspace 6"
+msgstr "Chuyển sang vùng làm việc 6"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:99
+msgid "Switch to workspace 7"
+msgstr "Chuyển sang vùng làm việc 7"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:100
+msgid "Switch to workspace 8"
+msgstr "Chuyển sang vùng làm việc 8"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:101
+msgid "Switch to workspace 9"
+msgstr "Chuyển sang vùng làm việc 9"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:102
+msgid "Switch to workspace 10"
+msgstr "Chuyển sang vùng làm việc 10"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:103
+msgid "Switch to workspace 11"
+msgstr "Chuyển sang vùng làm việc 11"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:104
+msgid "Switch to workspace 12"
+msgstr "Chuyển sang vùng làm việc 12"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:105
+msgid "Move window to left workspace"
+msgstr "Chuyển cửa sổ đến vùng làm việc trái"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:106
+msgid "Move window to right workspace"
+msgstr "Chuyển cửa sổ đến vùng làm việc phải"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:107
+msgid "Move window to workspace 1"
+msgstr "Chuyển cửa sổ đến vùng làm việc 1"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:108
+msgid "Move window to workspace 2"
+msgstr "Chuyển cửa sổ đến vùng làm việc 2"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:109
+msgid "Move window to workspace 3"
+msgstr "Chuyển cửa sổ đến vùng làm việc 3"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:110
+msgid "Move window to workspace 4"
+msgstr "Chuyển cửa sổ đến vùng làm việc 4"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:111
+msgid "Move window to workspace 5"
+msgstr "Chuyển cửa sổ đến vùng làm việc 5"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:112
+msgid "Move window to workspace 6"
+msgstr "Chuyển cửa sổ đến vùng làm việc 6"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:113
+msgid "Move window to workspace 7"
+msgstr "Chuyển cửa sổ đến vùng làm việc 7"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:114
+msgid "Move window to workspace 8"
+msgstr "Chuyển cửa sổ đến vùng làm việc 8"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:115
+msgid "Move window to workspace 9"
+msgstr "Chuyển cửa sổ đến vùng làm việc 9"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:116
+msgid "Move window to workspace 10"
+msgstr "Chuyển cửa sổ đến vùng làm việc 10"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:117
+msgid "Move window to workspace 11"
+msgstr "Chuyển cửa sổ đến vùng làm việc 11"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:118
+msgid "Move window to workspace 12"
+msgstr "Chuyển cửa sổ đến vùng làm việc 12"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:121
+msgid "Log out"
+msgstr "Đăng xuất"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:122
+msgid "Shut down"
+msgstr "Tắt máy"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:124
+msgid "Toggle recording desktop (must restart Cinnamon)"
+msgstr "Bật tắt quay phim màn hình (phải khởi chạy lại Cinnamon)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:127
+msgid "Launch help browser"
+msgstr "Chạy trình duyệt trợ giúp"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:128
+msgid "Launch calculator"
+msgstr "Chạy máy tính"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:129
+msgid "Launch email client"
+msgstr "Chạy trình máy khách thư"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:130
+msgid "Launch web browser"
+msgstr "Chạy trình duyệt web"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:131
+msgid "Home folder"
+msgstr "Thư mục nhà"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:135
+msgid "Volume mute"
+msgstr "Tắt âm lượng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:136
+msgid "Volume down"
+msgstr "Giảm âm lượng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:137
+msgid "Volume up"
+msgstr "Tăng âm lượng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:138
+msgid "Launch media player"
+msgstr "Chạy trình chơi phương tiện"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:140
+msgid "Pause playback"
+msgstr "Tạm dừng chơi"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:141
+msgid "Stop playback"
+msgstr "Ngưng chơi"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:142
+msgid "Previous track"
+msgstr "Bài trước"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:143
+msgid "Next track"
+msgstr "Bài kế"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:144
+msgid "Eject"
+msgstr "Đẩy ra"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:147
+msgid "Zoom in"
+msgstr "Phóng to"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:148
+msgid "Zoom out"
+msgstr "Thu nhỏ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:149
+msgid "Turn screen reader on or off"
+msgstr "Bật tắt trình đọc màn hình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:150
+msgid "Turn on-screen keyboard on or off"
+msgstr "Bật tắt bàn phím màn hình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:151
+msgid "Increase text size"
+msgstr "Tăng cỡ chữ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:152
+msgid "Decrease text size"
+msgstr "Giảm cỡ chữ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:153
+msgid "High contrast on or off"
+msgstr "Bật tắt tương phản cao"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:157
+msgid "Launch terminal"
+msgstr "Chạy trình dòng lệnh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:161
+msgid "keyboard, shortcut, hotkey"
+msgstr "bàn phím, phím tắt, phím nóng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:164
+msgid "Manage keyboard settings and shortcuts"
+msgstr "Quản lý thiết đặt bàn phím và phím tắt"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:175
+msgid "Typing"
+msgstr "Nhập liệu"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:176
+msgid "Enable key repeat"
+msgstr "Bật lặp phím"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:178
+msgid "Repeat delay:"
+msgstr "Độ trễ lặp:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:178
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:67
+msgid "Short"
+msgstr "Ngắn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:178
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:67
+msgid "Long"
+msgstr "Dài"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:183
+msgid "Repeat speed:"
+msgstr "Tốc độ lặp:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:183
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:191
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:60
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:105
+msgid "Slow"
+msgstr "Chậm"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:183
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:191
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:60
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:105
+msgid "Fast"
+msgstr "Nhanh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:189
+msgid "Text cursor blinks"
+msgstr "Nhấp nháy con nháy văn bản"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:191
+msgid "Blink speed:"
+msgstr "Tốc độ nháy:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:196
+msgid "Test Box"
+msgstr "Hộp Thử nghiệm"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:200
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:277
+msgid "Keyboard shortcuts"
+msgstr "Phím tắt"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:205
+msgid ""
+"To edit a keyboard binding, click it and press the new keys, or press "
+"backspace to clear it."
+msgstr ""
+"Để chỉnh sửa tổ hợp phím, nhấp vào nó rồi nhấn phím mới, hoặc nhấn backspace "
+"để xoá."
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:241
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:718
+msgid "Add custom shortcut"
+msgstr "Thêm phím tắt tuỳ biến"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:243
+msgid "Remove custom shortcut"
+msgstr "Bỏ phím tắt tuỳ biến"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:268
+msgid "Categories"
+msgstr "Phân loại"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:288
+msgid "Keyboard bindings"
+msgstr "Tổ hợp phím"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:292
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:1034
+msgid "Click to set a new accelerator key."
+msgstr "Nhấp để đặt phím gia tốc mới"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:292
+msgid "Press Escape or click again to cancel the operation."
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:292
+msgid "Press Backspace to clear the existing keybinding."
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:298
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:11
+msgid "Windows"
+msgstr "Cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:299
+msgid "Window Tiling"
+msgstr "Lát Cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:300
+msgid "Workspace Management"
+msgstr "Quản lý Vùng làm việc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:301
+msgid "System"
+msgstr "Hệ thống"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:302
+msgid "Launchers"
+msgstr "Trình khởi chạy"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:303
+msgid "Sound and Media"
+msgstr "Âm thanh và Phương tiện"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:304
+msgid "Universal Access"
+msgstr "Truy cập Phổ quát"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:305
+msgid "Custom Shortcuts"
+msgstr "Phím tắt Tuỳ chọn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:324
+msgid "Keyboard layouts"
+msgstr "Bố trí bàn phím"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:423
+#, c-format
+msgid ""
+"\n"
+"This key combination, '<b>%s</b>' cannot be used because it would become "
+"impossible to type using this key.\n"
+"\n"
+msgstr ""
+"\n"
+"Tổ hợp phím này, '<b>%s</b>' không dùng được vì sau đó bạn sẽ không thể nhập "
+"liệu được với phím này.\n"
+"\n"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:424
+msgid ""
+"Please try again with a modifier key such as Control, Alt or Super (Windows "
+"key) at the same time.\n"
+msgstr ""
+"Vui lòng thử lại với một phím chức năng như Ctrl, Alt hay Super (Windows) "
+"cùng lúc.\n"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:448
+#, c-format
+msgid ""
+"This key combination, '<b>%s</b>' is currently in use by '<b>%s</b>'.  "
+msgstr ""
+"Tổ hợp phím này, '<b>%s</b>' hiện đang được dùng trong '<b>%s</b>'.  "
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:449
+#, c-format
+msgid ""
+"If you continue, the combination will be reassigned to '<b>%s</b>.'\n"
+"\n"
+msgstr ""
+"Nếu tiếp tục, tổ hợp này sẽ được gán lại thành '<b>%s</b>.'\n"
+"\n"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:450
+msgid "Do you want to continue with this operation?"
+msgstr "Bạn có muốn tiếp tục với thao tác này không ?"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:599
+msgid "Reset to default"
+msgstr "Đặt lại mặc định"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:704
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:803
+msgid "unassigned"
+msgstr "chưa gán"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:705
+msgid "Super-"
+msgstr "Super-"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:706
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:709
+msgid "Ctrl-"
+msgstr "Ctrl-"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:707
+msgid "Shift-"
+msgstr "Shift-"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:708
+msgid "Alt-"
+msgstr "Alt-"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:715
+msgid "Update"
+msgstr "Cập nhật"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:726
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:148
+msgid "Name:"
+msgstr "Tên:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:727
+msgid "Command:"
+msgstr "Lệnh:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:735
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:825
+msgid "Select a file"
+msgstr "Chọn tập tin"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:823
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:1057
+msgid "Pick an accelerator"
+msgstr "Chọn phím gia tốc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:9
+msgid "mouse, touchpad, synaptic, double-click"
+msgstr "chuột, bàn chạm chuột, synaptic, nhấp đúp"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:10
+msgid "Mouse and Touchpad"
+msgstr "Chuột và Bàn chạm chuột"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:12
+msgid "Control mouse and touchpad settings"
+msgstr "Điều khiển thiết đặt chuột và bàn chạm"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:33
+msgid "Touchpad"
+msgstr "Bàn chạm chuột"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:41
+msgid "Left handed (mouse buttons inverted)"
+msgstr "Thuận tay trái (đảo nút chuột)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:42
+msgid "Show position of pointer when the Control key is pressed"
+msgstr "Hiện vị trí con trỏ khi nhấn Ctrl"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:43
+msgid "Emulate middle click by clicking both left and right buttons"
+msgstr "Giả lập nhấp nút giữa khi nhấp cả nút trái phải"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:48
+msgid "Pointer Size"
+msgstr "Kích thước Con trỏ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:50
+msgid "Note: All sizes may not be available on certain icon themes"
+msgstr ""
+"Lưu ý: Có thể không có sẵn mọi kích thước ở vài chủ đề biểu tượng nhất định"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:52
+msgid "Size:"
+msgstr "Kích thước:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:52
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:56
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:59
+msgid "Smaller"
+msgstr "Nhỏ hơn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:52
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:56
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:59
+msgid "Larger"
+msgstr "Lớn hơn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:59
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:104
+msgid "Pointer Speed"
+msgstr "Tốc độ Con trỏ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:60
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:105
+msgid "Acceleration:"
+msgstr "Tăng tốc:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:61
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:106
+msgid "Sensitivity:"
+msgstr "Độ nhạy:"
+
+#. #-#-#-#-#  uniq-cinnamon-json.pot  #-#-#-#-#
+#. photoframe@cinnamon.org->settings-schema.json->quality->options
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:61
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:106
+msgid "Low"
+msgstr "Thấp"
+
+#. #-#-#-#-#  uniq-cinnamon-json.pot  #-#-#-#-#
+#. photoframe@cinnamon.org->settings-schema.json->quality->options
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:61
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:106
+msgid "High"
+msgstr "Cao"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:66
+msgid "Double-Click Timeout"
+msgstr "Thời hạn Nhấp Đúp"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:67
+msgid "Timeout:"
+msgstr "Thời hạn:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:68
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:120
+msgid "Double-click test"
+msgstr "Thử nhấp đúp"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:75
+msgid "Drag and drop"
+msgstr "Kéo và thả"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:76
+msgid "Cinnamon drag threshold"
+msgstr "Ngưỡng kéo Cinnamon"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:76
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:77
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:25
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:90
+msgid "Pixels"
+msgstr "Điểm ảnh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:77
+msgid "GTK drag threshold"
+msgstr "Ngưỡng kéo GTK"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:87
+msgid "Enable touchpad"
+msgstr "Bật bàn chạm chuột"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:88
+msgid "Disable touchpad while typing"
+msgstr "Tắt bàn chạm chuột khi đang gõ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:89
+msgid "Enable mouseclicks with touchpad"
+msgstr "Bật nhấp chuột bằng bàn chạm"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:94
+msgid "Scrolling"
+msgstr "Cuộn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:95
+msgid "Edge Scrolling"
+msgstr "Cuộn Cạnh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:95
+msgid "Two-finger scrolling"
+msgstr "Cuộn hai ngón"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:96
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:25
+msgid "Panel layout"
+msgstr "Bố trí bảng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:98
+msgid "Enable natural scrolling"
+msgstr "Cho phép cuộn tự nhiên"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:99
+msgid "Enable horizontal scrolling"
+msgstr "Bật cuộn ngang"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:115
+msgid "Success!"
+msgstr "Thành công !"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:7
+msgid "panel, height, bottom, top, autohide, size, traditional, layout"
+msgstr "bảng, cao, đáy, trên, tự động ẩn, kích cỡ, truyền thống, bố trí"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:8
+msgid "Panel"
+msgstr "Bảng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:12
+msgid "Manage Cinnamon panel settings"
+msgstr "Quản lý thiết đặt bảng Cinnamon"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:23
+msgid "Layout Options"
+msgstr "Tùy chọn Bố trí"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:24
+msgid "Traditional (panel at the bottom)"
+msgstr "Truyền thống (bảng nằm dưới đáy)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:24
+msgid "Flipped (panel at the top)"
+msgstr "Lật (bảng nằm trên cùng)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:24
+msgid "Classic (panels at the top and at the bottom)"
+msgstr "Cổ điển (một bảng nằm trên và một bảng dưới đáy)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:28
+msgid ""
+"Note: If you change the layout you will need to restart Cinnamon and "
+"Cinnamon Settings."
+msgstr ""
+"Lưu ý: nếu thay đổi bố trí, bạn cần phải khởi chạy Cinnamon và Thiết đặt "
+"Cinnamon"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:35
+msgid "Auto Hide Options"
+msgstr "Tự động Ẩn Tuỳ chọn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:39
+msgid "Auto-hide panel"
+msgstr "Tự động ẩn bảng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:40
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:44
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:47
+msgid "Show delay"
+msgstr "Độ trễ hiển thị"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:41
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:45
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:48
+msgid "Hide delay"
+msgstr "Độ trễ ẩn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:43
+msgid "Auto-hide top panel"
+msgstr "Tự động ẩn bảng trên"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:46
+msgid "Auto-hide bottom panel"
+msgstr "Tự động ẩn bảng đáy"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:53
+msgid "Size Options"
+msgstr "Tuỳ chọn Kích thước"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:54
+msgid "Use customized panel size (otherwise it's defined by the theme)"
+msgstr "Dùng kích cỡ bảng tuỳ biến (nếu không nó sẽ được đặt theo chủ đề)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:55
+msgid ""
+"Allow Cinnamon to scale panel text and icons according to the panel heights"
+msgstr "Cho phép Cinnamon định kích cỡ chữ và biểu tượng bảng theo chiều cao"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:56
+msgid "Top panel height:"
+msgstr "Chiều cao bảng đỉnh:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:59
+msgid "Bottom panel height:"
+msgstr "Chiều cao bảng đáy:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:68
+msgid "Panel edit mode"
+msgstr "Chế độ sửa bảng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:10
+msgid "Suspend"
+msgstr "Ngưng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:11
+msgid "Shutdown immediately"
+msgstr "Tắt máy ngay"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:12
+msgid "Hibernate"
+msgstr "Ngủ đông"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:18
+msgid "5%"
+msgstr "5%"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:19
+msgid "10%"
+msgstr "10%"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:20
+msgid "30%"
+msgstr "30%"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:21
+msgid "50%"
+msgstr "50%"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:22
+msgid "75%"
+msgstr "75%"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:26
+msgid "30 seconds"
+msgstr "30 giây"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:27
+msgid "60 seconds"
+msgstr "60 giây"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:28
+msgid "90 seconds"
+msgstr "90 giây"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:29
+msgid "2 minutes"
+msgstr "2 phút"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:30
+msgid "5 minutes"
+msgstr "5 phút"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:31
+msgid "10 minutes"
+msgstr "10 phút"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:36
+msgid "power, suspend, hibernate, laptop, desktop, brightness, screensaver"
+msgstr ""
+"năng lượng, ngưng, ngủ đông, máy tính xách tay, máy bàn, độ sáng, bảo vệ màn "
+"hình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:37
+msgid "Power Management"
+msgstr "Quản lý Điện năng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:42
+msgid "Manage power settings"
+msgstr "Quản lý thiết đặt năng lượng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:75
+msgid "Screen Brightness"
+msgstr "Độ sáng Màn hình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:94
+msgid "Sets the brightness level of the screen"
+msgstr "Đặt độ sáng màn hình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:101
+msgid "On battery, dim screen to"
+msgstr "Khi dùng pin, làm mờ màn hình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:102
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:106
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:110
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:114
+msgid ""
+"Save battery power by reducing the brightness of the screen when inactive"
+msgstr ""
+"Tiết kiệm điện pin bằng cách giảm độ sáng màn hình khi không hoạt động"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:109
+msgid "after"
+msgstr "sau"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:7
+msgid "Immediately"
+msgstr "Ngay"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:8
+msgid "After 15 seconds"
+msgstr "Sau 15 giây"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:9
+msgid "After 30 seconds"
+msgstr "Sau 30 giây"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:10
+msgid "After 1 minute"
+msgstr "Sau 1 phút"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:11
+msgid "After 2 minutes"
+msgstr "Sau 2 phút"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:12
+msgid "After 3 minutes"
+msgstr "Sau 3 phút"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:13
+msgid "After 5 minutes"
+msgstr "Sau 5 phút"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:14
+msgid "After 10 minutes"
+msgstr "Sau 10 phút"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:15
+msgid "After 30 minutes"
+msgstr "Sau 30 phút"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:16
+msgid "After 1 hour"
+msgstr "Sau 1 giờ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:21
+msgid "screensaver, lock, password, away, message"
+msgstr "bảo vệ màn hình, khoá, mật khẩu, vắng, lời nhắn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:22
+#: files/usr/lib/cinnamon-screensaver-lock-dialog/cinnamon-screensaver-lock-dialog.py:36
+msgid "Screen Locker"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:26
+msgid "Manage screen lock settings"
+msgstr "QUản lý thiết đặt khoá màn hình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:36
+msgid "Lock Settings"
+msgstr "Thiết đặt Khoá"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:37
+msgid "Lock the computer when put to sleep"
+msgstr "Khoá máy khi ngủ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:38
+msgid ""
+"Enable this option to require a password when the computer wakes up from "
+"suspend"
+msgstr "Bật tuỳ chọn này để yêu cầu mật khẩu mỗi khi máy thức sau khi ngưng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:40
+msgid "Lock the computer when the screen turns off"
+msgstr "Khoá máy khi màn hình tắt"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:41
+msgid ""
+"Enable this option to require a password when the screen turns itself off, "
+"or when the screensaver activates after a period of inactivity"
+msgstr ""
+"Bật tuỳ chọn này để yêu cầu mật khẩu mỗi khi màn hình tự tắt, hoặc khi trình "
+"bảo vệ màn hình kích hoạt sau một khoảng thời gian không hoạt động"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:46
+msgid ""
+"This option defines the amount of time to wait before locking the screen, "
+"after showing the screensaver or after turning off the screen"
+msgstr ""
+"Tuỳ chọn này định nghĩa thời gian chờ trước khi khoá màn hình, sau khi hiện "
+"trình bảo vệ màn hình hoặc sau khi tắt màn hình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:53
+msgid "Away Message"
+msgstr "Lời nhắn khi vắng mặt"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:54
+msgid "Show this message when the screen is locked: "
+msgstr "Hiện lời nhắn này thì màn hình bị khoá: "
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:55
+msgid "This is the default message displayed on your lock screen"
+msgstr "Đây là lời nhắn mặc định hiện trên màn hình khoá"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:57
+msgid "Ask for a custom message when locking the screen from the menu"
+msgstr "Yêu cầu lời nhắn tuỳ biến khi khoá màn hình từ trình đơn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:58
+msgid ""
+"This option allows you to type a message each time you lock the screen from "
+"the menu"
+msgstr ""
+"Tuỳ chọn này giúp bạn nhập lời nhắn mỗi khi khoá màn hình từ trình đơn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:9
+msgid "themes, style"
+msgstr "chủ đề, kiểu dáng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:10
+msgid "Manage themes to change how your desktop looks"
+msgstr "Quản lý chủ đề để thay đổi dáng vẻ màn hình làm việc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:13
+msgid "theme"
+msgstr "chủ đề"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:14
+msgid "themes"
+msgstr "chủ đề"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:61
+msgid "Other settings"
+msgstr "Thiết đặt khác"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:68
+msgid "Controls"
+msgstr "Điều khiển"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:69
+msgid "Icons"
+msgstr "Biểu tượng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:70
+msgid "Window borders"
+msgstr "Viền cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:71
+msgid "Mouse Pointer"
+msgstr "Con trỏ Chuột"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:72
+msgid "Keybindings"
+msgstr "Tổ hợp phím"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:74
+msgid "Show icons in menus"
+msgstr "Hiện biểu tượng trong trình đơn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:77
+msgid "Show icons on buttons"
+msgstr "Hiện biểu tượng trên nút nhấn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:8
+msgid "window, tile, flip, tiling, snap, snapping"
+msgstr "cửa sổ, ô, lật, lát, bám, bám dính"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:9
+msgid "Window Tiling and Edge Flip"
+msgstr "Lát và Lật Cạnh Cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:12
+msgid "Manage window tiling preferences"
+msgstr "Quản lý tuỳ thích lát cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:23
+msgid "Tiling and Snapping Settings"
+msgstr "Thiết đặt Lát và Bám dính"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:24
+msgid "Enable Window Tiling and Snapping"
+msgstr "Cho phép Lát và Bám dính Cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:25
+msgid "Tiling HUD visibility threshold"
+msgstr "Ngưỡng hiển thị HUD lát"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:26
+msgid "Super (Windows)"
+msgstr "Super (Windows)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:26
+msgid "Alt"
+msgstr "Alt"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:26
+msgid "Shift"
+msgstr "Shift"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:26
+msgid "Control"
+msgstr "Ctrl"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:27
+msgid "Modifier to use for toggling between tile and snap mode"
+msgstr "Phiếm bổ trợ dùng để bật tắt giữa chế độ ô và bám"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:28
+msgid "Maximize, instead of tile, when dragging a window to the top edge"
+msgstr "Cực đại hoá, thay vì ô, khi kéo cửa sổ đến cạnh trên"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:29
+msgid "Prevent the snap on-screen-display from showing"
+msgstr "Ngăn hiển thị trên màn hình bám dính hiện"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:34
+msgid "Edge Flip Settings"
+msgstr "Thiết đặt Lật Cạnh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:35
+msgid "Enable Edge Flip"
+msgstr "Bật Lật Cạnh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:36
+msgid "Edge Flip delay"
+msgstr "Độ trễ Lật Cạnh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:36
+msgid "ms"
+msgstr "ms"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:41
+msgid "Miscellaneous Settings"
+msgstr "Thiết đặt Linh tinh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:42
+msgid ""
+"Invert the left and right arrow key directions used to shift workspaces "
+"during a window drag"
+msgstr ""
+"Đảo hướng phím mũi tên trái phải dùng để chuyển vùng làm việc khi kéo cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:43
+msgid "Enable legacy window snapping (hold <Shift> while dragging a window)"
+msgstr "Cho phép bám dính cửa sổ kiểu cũ (giữ <Shift> khi kéo cửa sổ)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:77
+msgid "user, account, information, details"
+msgstr "người dùng, tài khoản, thông tin, chi tiết"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:78
+msgid "Account details"
+msgstr "Chi tiết tài khoản"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:82
+msgid "Change your user preferences and password"
+msgstr "Thay đổi tuỳ thích và mật khẩu người dùng của bạn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:93
+msgid "Click to change your picture"
+msgstr "Nhấp để đổi hình ảnh của bạn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:97
+msgid "Take a photo..."
+msgstr "Chụp ảnh..."
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:127
+msgid "Click to change your name"
+msgstr "Nhấp để đổi tên của bạn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:134
+msgid "Picture:"
+msgstr "Hình ảnh:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:144
+msgid "Click to change your password"
+msgstr "Nhấp để đổi mật khẩu của bạn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:153
+msgid "Password:"
+msgstr "Mật khẩu:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:328
+msgid "Current password"
+msgstr "Mật khẩu hiện tại"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:450
+msgid "Wrong password"
+msgstr "Mật khẩu sai"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:10
+msgid "windows, titlebar, edge, switcher, window list, attention, focus"
+msgstr ""
+"cửa sổ, thanh tiêu đề, cạnh, bộ chuyển, danh sách cửa sổ, chú ý, tiêu điểm"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:15
+msgid "Manage window preferences"
+msgstr "Quản lý tuỳ thích cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:25
+msgid "Alt-Tab"
+msgstr "Alt-Tab"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:26
+msgid "Icons only"
+msgstr "Chỉ biểu tượng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:26
+msgid "Thumbnails only"
+msgstr "Chỉ hình xem nhỏ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:26
+msgid "Icons and thumbnails"
+msgstr "Biểu tượng và hình nhỏ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:26
+msgid "Icons and window preview"
+msgstr "Biểu tượng và xem trước cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:26
+msgid "Window preview (no icons)"
+msgstr "Xem trước cửa sổ (không biểu tượng)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:26
+msgid "Coverflow (3D)"
+msgstr "Luồng che (3D)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:26
+msgid "Timeline (3D)"
+msgstr "Dòng thời gian (3D)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:27
+msgid "Alt-Tab switcher style"
+msgstr "kiểu bộ chuyển Alt-Tab"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:29
+msgid ""
+"Display the alt-tab switcher on the primary monitor instead of the active one"
+msgstr ""
+"Hiện bộ chuyển alt-tab trên màn hình chính thay vì màn hình hoạt động"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:34
+msgid "Titlebar"
+msgstr "Thanh tiêu đề"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:38
+msgid "Toggle Shade"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:38
+msgid "Toggle Maximize"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:39
+msgid "Toggle Maximize Horizontally"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:39
+msgid "Toggle Maximize Vertically"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:40
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:176
+msgid "Shade"
+msgstr "Bóng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:40
+msgid "Lower"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:42
+msgid "Action on title bar double-click"
+msgstr "Hành động khi nhấp đúp chuột lên thanh tiêu đề"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:45
+msgid "Action on title bar middle-click"
+msgstr "Hành động khi nhấp giữa chuột lên thanh tiêu đề"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:48
+msgid "Action on title bar right-click"
+msgstr "Hành động khi nhấp phải chuột lên thanh tiêu đề"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:52
+msgid "Nothing"
+msgstr "Không gì"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:52
+msgid "Shade and unshade"
+msgstr "Bóng và không bóng"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:52
+msgid "Adjust opacity"
+msgstr "Chỉnh độ mờ đục"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:54
+msgid "Action on title bar with mouse scroll"
+msgstr "Hành động trên thanh tiêu đề khi cuộn chuột"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:57
+msgid "Minimum opacity:"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:57
+msgid "%"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:70
+msgid "Window List"
+msgstr "Danh sách Cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:71
+msgid ""
+"Show an alert in the window list when a window from another workspace "
+"requires attention"
+msgstr ""
+"Hiện báo động trong danh sách cửa sổ khi có cửa sổ ở vùng làm việc khác cần "
+"chú ý"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:72
+msgid "Enable mouse-wheel scrolling in the window list"
+msgstr "Bật cuộn bánh xe chuột trong danh sách cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:77
+msgid "Window Focus"
+msgstr "Tiêu điểm Cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:78
+msgid "Click"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:78
+msgid "Sloppy"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:79
+msgid "Window focus mode"
+msgstr "Chế độ tiêu điểm cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:80
+msgid "Automatically raise focused windows"
+msgstr "Tự động đề bạt cửa sổ có tiêu điểm"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:81
+msgid "Bring windows which require attention to the current workspace"
+msgstr "Đem cửa sổ cần chú ý đến vùng làm việc hiện hành"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:82
+msgid "Prevent focus stealing"
+msgstr "Ngăn chặn trộm tiêu điểm"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:83
+msgid "Attach dialog windows to their parent window's titlebar"
+msgstr "Gắn cửa sổ hộp thoại với thanh tiêu đề cửa sổ cấp trên"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:88
+msgid "Moving and Resizing Windows"
+msgstr "Di chuyển và Định cỡ Cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:89
+msgid "Special key to move windows"
+msgstr "Phím đặt biệt để di chuyển cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:90
+msgid "Window drag/resize threshold"
+msgstr "Ngưỡng kéo/định cỡ cửa sổ"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:151
+msgid "Left side title bar buttons"
+msgstr "Nút thanh tiêu đề bên trái"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:157
+msgid "Right side title bar buttons"
+msgstr "Nút thanh tiêu đề bên phải"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:175
+msgid "Sticky"
+msgstr "Bám dính"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:7
+msgid "workspace, osd, expo, monitor"
+msgstr "vùng làm việc, osd, expo, màn hình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:8
+msgid "Workspaces"
+msgstr "Vùng làm việc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:12
+msgid "Manage workspace preferences"
+msgstr "Quản lý tuỳ thích vùng làm việc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:25
+msgid "On-Screen Display (OSD)"
+msgstr "Hiển thị Trên Màn hình (OSD)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:26
+msgid "Enable workspace OSD"
+msgstr "Bật OSD vùng làm việc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:27
+msgid "Workspace OSD duration"
+msgstr "Thời lượng OSD vùng làm việc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:28
+msgid "Workspace OSD horizontal position"
+msgstr "Vị trí ngang OSD vùng làm việc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:28
+msgid "percent of the monitor's width"
+msgstr "phần trăm chiều rộng màn hình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:29
+msgid "Workspace OSD vertical position"
+msgstr "Vị trí dọc OSD vùng làm việc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:29
+msgid "percent of the monitor's height"
+msgstr "phần trăm chiều cao màn hình"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:35
+msgid "Allow cycling through workspaces"
+msgstr "Cho phép luân phiên các vùng làm việc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:36
+msgid "Only use workspaces on primary monitor (requires Cinnamon restart)"
+msgstr ""
+"Chỉ dùng vùng làm việc trên màn hình chính (yêu cầu khởi chạy lại Cinnamon)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:37
+msgid "Display Expo view as a grid"
+msgstr "Hiện khung xem Expo dạng lưới"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:68
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:269
+#, c-format
+msgid "Search %s"
+msgstr "Tìm %s"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:71
+msgid "Installed"
+msgstr "Đã cài đặt"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:147
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:496
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:501
+#, c-format
+msgid "Add to %s"
+msgstr "Thêm vào %s"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:149
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:503
+msgid "Apply theme"
+msgstr "Áp dụng chủ đề"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:152
+#, c-format
+msgid ""
+"Some %s can be added multiple times.\n"
+" Use this to add another instance. Use panel edit mode to remove a single "
+"instance."
+msgstr ""
+"Vài %s có thể được thêm vài lần.\n"
+" Dùng chức năng này để thêm một thể hiện khác. Dùng chế độ chỉnh sửa bảng để "
+"loại bỏ một thể hiện."
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:154
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:974
+#, c-format
+msgid "Click to enable this %s"
+msgstr "Nhấp để bật %s"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:156
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:976
+#, c-format
+msgid "Click to apply this %s"
+msgstr "Nhấp để áp dụng %s này"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:159
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:163
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:474
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:481
+msgid "Configure"
+msgstr "Cấu hình"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:161
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:165
+#, c-format
+msgid "Configure this %s"
+msgstr "Cấu hình %s này"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:168
+msgid "Restore to default"
+msgstr "Khôi phục về mặc định"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:170
+msgid "Restore default theme"
+msgstr "Khôi phục chủ đề mặc định"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:178
+#, c-format
+msgid "All %s"
+msgstr "Mọi %s"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:179
+#, c-format
+msgid "Active %s"
+msgstr "%s đang hoạt động"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:180
+#, c-format
+msgid "Inactive %s"
+msgstr "%s không hoạt động"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:189
+msgid "Show"
+msgstr "Hiện"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:239
+msgid "Get more online"
+msgstr "Lấy thêm trực tuyến"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:248
+msgid "Most popular"
+msgstr "Thông dụng nhất"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:249
+msgid "Latest"
+msgstr "Mới nhất"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:260
+msgid "Sort by"
+msgstr "Sắp xếp theo"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:344
+msgid "Install or update selected"
+msgstr "Cài đặt hoặc cập nhật phần chọn"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:346
+msgid "Select updated"
+msgstr "Chọn phần cập nhật"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:348
+msgid "Refresh list"
+msgstr "Làm mới danh sách"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:410
+#, c-format
+msgid "This %s is read-only, and cannot be uninstalled"
+msgstr "%s này chỉ-đọc, và không thể gỡ bỏ được."
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:418
+#, c-format
+msgid "This %s is currently active."
+msgstr "%s này hiện đang hoạt động."
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:420
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Instance count: %d"
+msgstr ""
+"\n"
+"\n"
+"Số thể hiện: %d"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:436
+#, c-format
+msgid "An update is available for this %s"
+msgstr "Có cập nhật cho %s này"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:438
+#, c-format
+msgid "This %s is installed and up-to-date"
+msgstr "%s này đã cài và được cập nhật"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:489
+#, c-format
+msgid "Remove from %s"
+msgstr "Gỡ bỏ khỏi %s"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:594
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:604
+msgid "Action"
+msgstr "Hành động"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:632
+msgid "Unmark"
+msgstr "Bỏ đánh dấu"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:638
+msgid "Mark for upgrade"
+msgstr "Đánh dấu nâng cấp"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:640
+msgid "Mark for installation"
+msgstr "Đánh dấu cài đặt"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:644
+msgid "More info"
+msgstr "Thông tin thêm"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:776
+#, c-format
+msgid ""
+"One or more active %s may have been updated.  You probably need to restart "
+"Cinnamon for the changes to take effect"
+msgstr ""
+"Một hoặc nhiều hơn %s đang hoạt động đã được cập nhật. Chắc bạn cần phải "
+"khởi chạy lại Cinnamon để các thay đổi có hiệu lực."
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:843
+#, c-format
+msgid ""
+"There are multiple instances of this %s, do you want to remove them all?\n"
+"\n"
+msgstr ""
+"Có nhiều thể hiện của %s này, bạn có muốn gỡ bỏ hết không ?\n"
+"\n"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:864
+#, c-format
+msgid "Are you sure you want to completely remove %s?"
+msgstr "Bạn có chắc chắn muốn gỡ bỏ hoàn toàn %s không ?"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:938
+#, c-format
+msgid ""
+"This operation will update %d installed %s.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"Thao tác này sẽ cập nhật %d %s đã cài đặt.\n"
+"\n"
+"Bạn có muốn tiếp tục không ?"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:953
+#, c-format
+msgid "%d updates available!"
+msgstr "Có %d cập nhật !"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:955
+#, c-format
+msgid "%d update available!"
+msgstr "Có %d cập nhật !"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:972
+#, c-format
+msgid ""
+"Some %s can be added multiple times.\n"
+"Use this to add another instance. Use panel edit mode to remove a single "
+"instance."
+msgstr ""
+"Một vài %s có thể thêm nhiều lần.\n"
+"Dùng chức năng này để thêm một thể hiện khác. Dùng chế độ sửa bảng để loại "
+"bỏ một thể hiện."
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:983
+#, c-format
+msgid ""
+"\n"
+"This %s does not support multiple instances."
+msgstr ""
+"\n"
+"%s này không hỗ trợ nhiều thể hiện."
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:985
+#, c-format
+msgid ""
+"\n"
+"This %s supports max %d instances."
+msgstr ""
+"\n"
+"%s này hỗ trợ tối đa %d thể hiện."
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:1027
+#, c-format
+msgid ""
+"This will restore the default set of enabled %s.  Are you sure you want to "
+"do this?"
+msgstr ""
+"Thao tác này sẽ phục hồi bộ mặc định của %s đã cho phép. Bạn có chắc chắn "
+"muốn thực hiện không ?"
+
+#: files/usr/lib/cinnamon-settings/bin/eyedropper.py:13
+msgid ""
+"Click the eyedropper, then click a color anywhere on your screen to select "
+"that color"
+msgstr ""
+"Nhấp vào cái nhỏ mắt, rồi nhấp vào một màu bất kỳ trên màn hình để chọn"
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:103
+msgid "Applet info"
+msgstr "Thông tin tiểu trình"
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:107
+msgid "Select and Close"
+msgstr "Chọn rồi Đóng"
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:183
+msgid "Downloading screenshot"
+msgstr "Tải xuống ảnh chụp màn hình"
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:246
+#, c-format
+msgid "Refreshing %s index..."
+msgstr "Làm mới chỉ mục %s..."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:277
+msgid ""
+"Something went wrong with the spices download.  Please try refreshing the "
+"list again."
+msgstr ""
+"Có trục trặc gì đó với tải xuống spices. Vui lòng thử làm mới danh sách lần "
+"nữa."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:280
+#, c-format
+msgid "Refreshing %s cache..."
+msgstr "Làm mới vùng đệm %s..."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:385
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:411
+#, c-format
+msgid "Installing %s..."
+msgstr "Đang cài đặt %s..."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:407
+#, c-format
+msgid "Installing translations for %s..."
+msgstr "Đang cài đặt bản dịch cho %s..."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:413
+#, c-format
+msgid ""
+"Please enter your password to install the required settings schema for %s"
+msgstr "Vui lòng nhập mật khẩu để cài đặt lược đồ thiết đặt yêu cầu cho %s"
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:421
+#, c-format
+msgid ""
+"Could not install the settings schema for %s.  You will have to perform this "
+"step yourself."
+msgstr ""
+"Không cài đặt lược đồ thiết đặt cho %s được. Bạn sẽ phải tự thực hiện bước "
+"này."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:447
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:496
+#, c-format
+msgid ""
+"An error occurred during installation or updating.  You may wish to report "
+"this incident to the developer of %s.\n"
+"\n"
+"If this was an update, the previous installation is unchanged"
+msgstr ""
+"Có lỗi xảy ra khi cài đặt hay cập nhật. Chắc bạn muốn báo cáo sự việc này "
+"với nhà phát triển của %s.\n"
+"\n"
+"Nếu là cập nhật thì bản cài đặt cũ không bị thay đổi"
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:504
+#, c-format
+msgid "Uninstalling %s..."
+msgstr "Đang gỡ cài đặt %s..."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:511
+#, c-format
+msgid "Please enter your password to remove the settings schema for %s"
+msgstr "Vui lòng nhập mật khẩu để loại bỏ lược đồ thiết đặt cho %s"
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:518
+#, c-format
+msgid ""
+"Could not remove the settings schema for %s.  You will have to perform this "
+"step yourself.  This is not a critical error."
+msgstr ""
+"Không loại bỏ lượt đồ thiết đặt cho %s được. Bạn sẽ phải tự thực hiện bước "
+"này. Đây không phải lỗi nghiêm trọng."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:537
+#, c-format
+msgid "Problem uninstalling %s.  You may need to manually remove it."
+msgstr "Có vấn đề khi gỡ cài đặt %s. Có lẽ bạn cần phải gỡ bỏ thủ công."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:592
+msgid ""
+"An error occurred while trying to access the server.  Please try again in a "
+"little while."
+msgstr "Có lỗi xảy ra khi truy cập máy chủ. Vui lòng thử lại sau một lúc."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:593
+msgid "Download aborted."
+msgstr "Tải xuống bị huỷ."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:688
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Details:  %s"
+msgstr ""
+"\n"
+"\n"
+"Chi tiết: %s"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:46
+msgid "Back to list"
+msgstr "Quay lại danh sách"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:47
+msgid "More actions..."
+msgstr "Thêm hành động..."
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:48
+#, c-format
+msgid "Remove the current instance of this %s"
+msgstr "Gỡ bỏ thể hiện %s hiện tại"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:49
+#, c-format
+msgid "Momentarily highlight the %s on your desktop"
+msgstr "Tạm thời làm nổi %s trên màn hình làm việc"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:178
+#, c-format
+msgid "Instance %d"
+msgstr "Thể hiện %d"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:243
+msgid "Reset to defaults"
+msgstr "Đặt lại về mặc định"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:248
+msgid "Import from a file"
+msgstr "Nhập từ tập tin"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:253
+msgid "Export to a file"
+msgstr "Xuất vào tập tin"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:264
+msgid "Select a JSON file to import"
+msgstr "Chọn tập tin JSON để nhập"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:271
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:291
+msgid "JSON files"
+msgstr "Tập tin JSON"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:283
+msgid "Select or enter file to export to"
+msgstr "Chọn hay nhập tập tin để xuất ra"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:92
+msgid "Error saving file"
+msgstr "Lỗi lưu tập tin"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:93
+msgid "There was a problem exporting the file to the selected location."
+msgstr "Có vấn đề khi xuất tập tin ra vị trí đã chọn."
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:105
+msgid "Error importing file"
+msgstr "Lỗi nhập tập tin"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:106
+msgid ""
+"There was a problem importing the configuration file.\n"
+"Please check that it is a valid JSON file, and is appropriate for this "
+"applet/desklet/extension.\n"
+"The original configuration file is unchanged."
+msgstr ""
+"Có trục trặc khi nạp tập tin cấu hình.\n"
+"Vui lòng kiểm tra rằng nó đúng là một tập tin JSON hợp lệ và phù hợp với "
+"tiểu trình/tiểu trình màn hình/phần mở rộng này.\n"
+"Tập tin cấu hình ban đầu vẫn được giữ nguyên."
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:205
+msgid "Possible incompatible versions"
+msgstr "Có khả năng phiên bản không tương thích"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:209
+msgid ""
+"The MD5 tags for the file you are trying to import and the existing file do "
+"not match.\n"
+"This means the two files were generated by different versions of this "
+"applet, desklet or extension,\n"
+"or possibly from a different one entirely.  Continuing with this procedure "
+"could yield unpredictable results.\n"
+"\n"
+"Are you sure you want to proceed?"
+msgstr ""
+"Thẻ MD5 của tập tin bạn đang muốn nhập vào và tập tin hiện hữu không khớp.\n"
+"Điều này có nghĩa là hai tập tin phát sinh bởi những phiê n bản khác nhau "
+"của tiểu trình, tiểu trình màn hình hay phần mở rộng này,\n"
+"hoặc có khả năng của một cái khác hẳn. Tiếp tục thao tác này có thể đem lại "
+"những kết quả không đoán trước được.\n"
+"\n"
+"Bạn có chắc chắn muốn tiến hành không ?"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:822
+msgid "Select a directory to use"
+msgstr "Chọn thư mục cần dùng"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:833
+msgid "Directories"
+msgstr "Thư mục"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:906
+msgid "Choose an Icon"
+msgstr "Chọn Biểu tượng"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:913
+msgid "Image files"
+msgstr "Tập tin ảnh"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:1035
+msgid "  Press Escape or click again to cancel the operation."
+msgstr "  Nhấn Escape hay nhấp lại để huỷ thao tác."
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:1099
+msgid "<not set>"
+msgstr "<chưa đặt>"
+
+#: files/usr/lib/cinnamon-screensaver-lock-dialog/cinnamon-screensaver-lock-dialog.py:39
+msgid "Please type an away message for the lock screen"
+msgstr "Xin vui lòng nhập thông báo vắng mặt cho màn hình khóa"
+
+#: files/usr/bin/cinnamon-launcher:15
+msgid "Do you want to restart Cinnamon?"
+msgstr "Bạn có muốn khởi chạy lại Cinnamon không ?"
+
+#: files/usr/bin/cinnamon-launcher:15
+msgid "Cinnamon just crashed. You are currently running in Fallback Mode."
+msgstr "Cinnamon vừa hỏng. Bạn hiện đang chạy Chế độ Dự phòng"
+
+#. photoframe@cinnamon.org->settings-schema.json->shuffle->description
+msgid "Shuffle"
+msgstr "Xáo trộn"
+
+#. photoframe@cinnamon.org->settings-schema.json->fade-delay->description
+msgid "Fade delay:"
+msgstr "Độ trễ mờ:"
+
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. photoframe@cinnamon.org->settings-schema.json->fade-delay->units
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. photoframe@cinnamon.org->settings-schema.json->delay->units
+msgid "seconds"
+msgstr "giây"
+
+#. photoframe@cinnamon.org->settings-schema.json->effect->description
+msgid "Special effect:"
+msgstr "Hiệu ứng đặc biệt:"
+
+#. photoframe@cinnamon.org->settings-schema.json->effect->options
+msgid "Sepia"
+msgstr "Sepia"
+
+#. photoframe@cinnamon.org->settings-schema.json->effect->options
+msgid "Black and White"
+msgstr "Đen Trắng"
+
+#. photoframe@cinnamon.org->settings-schema.json->height->description
+msgid "Height:"
+msgstr "Cao:"
+
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. photoframe@cinnamon.org->settings-schema.json->height->units
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. photoframe@cinnamon.org->settings-schema.json->width->units
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. settings-example@cinnamon.org->settings-schema.json->spinner-number->units
+msgid "pixels"
+msgstr "điểm ảnh"
+
+#. photoframe@cinnamon.org->settings-schema.json->delay->description
+msgid "Delay:"
+msgstr "Độ trễ:"
+
+#. photoframe@cinnamon.org->settings-schema.json->width->description
+msgid "Width:"
+msgstr "Rộng:"
+
+#. photoframe@cinnamon.org->settings-schema.json->directory->description
+msgid "Folder:"
+msgstr "Thư mục:"
+
+#. photoframe@cinnamon.org->settings-schema.json->quality->description
+msgid "Image quality:"
+msgstr "Chất lượng ảnh:"
+
+#. clock@cinnamon.org->settings-schema.json->font-size->description
+msgid "Font size:"
+msgstr "Cỡ chữ:"
+
+#. clock@cinnamon.org->settings-schema.json->font-size->units
+msgid " "
+msgstr " "
+
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. clock@cinnamon.org->settings-schema.json->use-custom-format->description
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. calendar@cinnamon.org->settings-schema.json->use-custom-format->description
+msgid "Use a custom date format"
+msgstr "Dùng định dạng ngày tháng tuỳ biến"
+
+#. clock@cinnamon.org->settings-schema.json->use-custom-format->tooltip
+msgid ""
+"Check this to define a custom format for the time in the clock desklet."
+msgstr ""
+"Kiểm ở đây để định nghĩa định dạng thời gian tuỳ biến cho tiểu dụng màn hình "
+"đồng hồ."
+
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. clock@cinnamon.org->settings-schema.json->date-format->description
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. calendar@cinnamon.org->settings-schema.json->custom-format->description
+msgid "Date format:"
+msgstr "Dạng thức ngày tháng:"
+
+#. calendar@cinnamon.org->settings-schema.json->use-custom-format->tooltip
+msgid ""
+"Check this to define a custom format for the date in the calendar applet."
+msgstr ""
+"Đánh dấu kiểm ở đây để định nghĩa định dạng tuỳ biến cho ngày tháng trong "
+"tiểu trình lịch."
+
+#. calendar@cinnamon.org->settings-schema.json->format-button->description
+msgid "Show information on date format syntax"
+msgstr "Hiện thông tin theo cú pháp định dạng ngày tháng"
+
+#. calendar@cinnamon.org->settings-schema.json->format-button->tooltip
+msgid "Click this button to know more about the syntax for date formats."
+msgstr "Nhấp nút này để biết thêm về cú pháp định dạng ngày tháng."
+
+#. calendar@cinnamon.org->settings-schema.json->show-week-numbers->description
+msgid "Show week numbers in calendar"
+msgstr "Hiện số tuần trên lịch"
+
+#. calendar@cinnamon.org->settings-schema.json->show-week-numbers->tooltip
+msgid "Check this to show week numbers in the calendar."
+msgstr "Kiểm vào đây để hiện số tuần trên lịch."
+
+#. calendar@cinnamon.org->settings-schema.json->custom-format->tooltip
+msgid "Set your custom format here."
+msgstr "Đặt định dạng tuỳ biến của bạn ở đây."
+
+#. power@cinnamon.org->settings-schema.json->labelinfo->options
+msgid "Hide label"
+msgstr "Ẩn nhãn"
+
+#. power@cinnamon.org->settings-schema.json->labelinfo->options
+msgid "Show time remaining"
+msgstr "Hiện thời gian còn lại"
+
+#. power@cinnamon.org->settings-schema.json->labelinfo->options
+msgid "Show percentage and time remaining"
+msgstr "Hiện phần trăm và thời gian còn lại"
+
+#. power@cinnamon.org->settings-schema.json->labelinfo->options
+msgid "Show percentage"
+msgstr "Hiện phần trăm"
+
+#. sound@cinnamon.org->settings-schema.json->hideSystray->description
+msgid "Hide system tray icons for compatible players"
+msgstr "Ẩn biểu tượng khay hệ thống cho các trình phát tương thích"
+
+#. sound@cinnamon.org->settings-schema.json->showtrack->description
+msgid "Show song information on the panel"
+msgstr "Hiển thị thông tin bài hát trên bảng"
+
+#. sound@cinnamon.org->settings-schema.json->showalbum->description
+msgid "Show album art as icon"
+msgstr "Hiển thị bìa an-bum làm biểu tượng"
+
+#. sound@cinnamon.org->settings-schema.json->truncatetext->description
+msgid "Limit song information to"
+msgstr "Giớ hạn thông tin bài hát với"
+
+#. sound@cinnamon.org->settings-schema.json->truncatetext->units
+msgid "characters"
+msgstr "ký tự"
+
+#. user@cinnamon.org->settings-schema.json->display-name->description
+msgid "Display user name on panel"
+msgstr "Hiển thị tên người dùng trên bảng"
+
+#. menu@cinnamon.org->settings-schema.json->menu-editor-button->description
+msgid "Open the menu editor"
+msgstr "Mở bộ chỉnh sửa trình đơn"
+
+#. menu@cinnamon.org->settings-schema.json->menu-editor-button->tooltip
+msgid "Press this button to customize your menu entries."
+msgstr "Nhấp nút này để tuỳ thích mục trình đơn"
+
+#. menu@cinnamon.org->settings-schema.json->menu-icon-custom->description
+msgid "Use a custom icon"
+msgstr "Dùng biểu tượng tuỳ biến"
+
+#. menu@cinnamon.org->settings-schema.json->menu-icon-custom->tooltip
+msgid "Unchecking this allows the theme to set the icon"
+msgstr "Bỏ kiểm mục này để cho phép chủ đề đặt biểu tượng"
+
+#. menu@cinnamon.org->settings-schema.json->show-recent->description
+msgid "Show recent files"
+msgstr "Hiện tập tin gần đây"
+
+#. menu@cinnamon.org->settings-schema.json->show-recent->tooltip
+msgid "Choose whether or not to show a recent file list in the menu."
+msgstr "Chọn có hiển thị danh sách tập tin gần đây trên trình đơn hay không"
+
+#. menu@cinnamon.org->settings-schema.json->hover-delay->description
+msgid "Menu hover delay:"
+msgstr "Độ trễ lượn trình đơn:"
+
+#. menu@cinnamon.org->settings-schema.json->hover-delay->tooltip
+msgid "Delay between switching categories"
+msgstr "Độ trễ khi chuyển qua lại thể loại"
+
+#. menu@cinnamon.org->settings-schema.json->search-filesystem->description
+msgid "Enable filesystem path entry in search box"
+msgstr "Bật mục nhập đường dẫn hệ thống tập tin trong hộp tìm kiếm"
+
+#. menu@cinnamon.org->settings-schema.json->search-filesystem->tooltip
+msgid "Allows path entry in the menu search box."
+msgstr "Cho phép nhập đường dẫn trong hộp tìm kiếm trình đơn"
+
+#. menu@cinnamon.org->settings-schema.json->menu-icon->description
+msgid "Icon"
+msgstr "Biểu tượng"
+
+#. menu@cinnamon.org->settings-schema.json->menu-icon->tooltip
+msgid "Select an icon to show in the panel."
+msgstr "Chọn biểu tượng để hiện trên bảng"
+
+#. menu@cinnamon.org->settings-schema.json->menu-label->tooltip
+msgid "Enter custom text to show in the panel."
+msgstr "Nhập văn bản tuỳ biến để hiện trên bảng"
+
+#. menu@cinnamon.org->settings-schema.json->activate-on-hover->description
+msgid "Open the menu when I move my mouse over it"
+msgstr "Mở trình đơn khi di chuột lên"
+
+#. menu@cinnamon.org->settings-schema.json->activate-on-hover->tooltip
+msgid "Enable opening the menu when the mouse enters the applet"
+msgstr "Cho phép mở trình đơn khi chuột vào tiểu dụng"
+
+#. menu@cinnamon.org->settings-schema.json->enable-autoscroll->description
+msgid "Enable autoscrolling in application list"
+msgstr "Cho phép tự động cuộn trong danh sách ứng dụng"
+
+#. menu@cinnamon.org->settings-schema.json->enable-autoscroll->tooltip
+msgid ""
+"Choose whether or not to enable smooth autoscrolling in the application list."
+msgstr "Chọn cho phép tự động cuộn trong danh sách ứng dụng hay không"
+
+#. menu@cinnamon.org->settings-schema.json->show-places->description
+msgid "Show bookmarks and places"
+msgstr "Hiện ưa thích và vị trí"
+
+#. menu@cinnamon.org->settings-schema.json->show-places->tooltip
+msgid "Choose whether or not to show bookmarks and places in the menu."
+msgstr "Chọn có hiển thị mục đánh dấu và địa điểm trong trình đơn hay không."
+
+#. settings-example@cinnamon.org->settings-schema.json->head->description
+msgid "First Section"
+msgstr "Vùng Đầu tiên"
+
+#. settings-example@cinnamon.org->settings-schema.json->custom-
+#. label->description
+msgid "Custom Applet Label:"
+msgstr "Nhãn Tiểu trình Tuỳ biến:"
+
+#. settings-example@cinnamon.org->settings-schema.json->custom-label->tooltip
+msgid ""
+"Set your custom label here.  This field is unavailable unless the checkbox "
+"above is enabled"
+msgstr ""
+"Đặt nhãn tuỳ biến của bạn ở đây. Trường này không có sẵn cho đến khi hộp "
+"kiểm ở trên được đánh dấu"
+
+#. settings-example@cinnamon.org->settings-schema.json->head1->description
+msgid "Here's a new section"
+msgstr "Đây là vùng mới"
+
+#. settings-example@cinnamon.org->settings-schema.json->color->description
+msgid "The background color for the applet:"
+msgstr "Màu nền của tiểu trình:"
+
+#. settings-example@cinnamon.org->settings-schema.json->color->tooltip
+msgid "Click the button to select a new background color for this applet"
+msgstr "Nhấp nút để chọn màu nền mới cho tiểu trình này"
+
+#. settings-example@cinnamon.org->settings-schema.json->icon-name->description
+msgid "The icon to use in the panel:"
+msgstr "Biểu tượng dùng trong bảng:"
+
+#. settings-example@cinnamon.org->settings-schema.json->icon-name->tooltip
+msgid "Select an icon file, or you can type an icon name into the entry box"
+msgstr "Chọn tập tin biểu tượng, hoặc gõ tên biểu tượng vào ô nhập"
+
+#. settings-example@cinnamon.org->settings-schema.json->combo-
+#. selection->description
+msgid "Please pick an option:"
+msgstr "Vui lòng chọn một lựa chọn:"
+
+#. settings-example@cinnamon.org->settings-schema.json->combo-
+#. selection->tooltip
+msgid ""
+"A combo selection can select between int, boolean, float, and string values"
+msgstr ""
+"Một lựa chọn kết hợp có thể chọn giữa giá trị nguyên, luận lý, chấm nổi và "
+"chuỗi."
+
+#. settings-example@cinnamon.org->settings-schema.json->combo-
+#. selection->options
+msgid "Second Choice"
+msgstr "Lựa chọn Thứ hai"
+
+#. settings-example@cinnamon.org->settings-schema.json->combo-
+#. selection->options
+msgid "Fourth Choice"
+msgstr "Lựa chọn Thứ tư"
+
+#. settings-example@cinnamon.org->settings-schema.json->combo-
+#. selection->options
+msgid "Third Choice"
+msgstr "Lựa chọn Thứ ba"
+
+#. settings-example@cinnamon.org->settings-schema.json->combo-
+#. selection->options
+msgid "First Choice"
+msgstr "Lựa chọn Đầu tiên"
+
+#. settings-example@cinnamon.org->settings-schema.json->keybinding-
+#. test->description
+msgid "Set the keybinding here to activate an action: "
+msgstr "Đặt tổ hợp phím ở đây để kích hoạt lựa chọn: "
+
+#. settings-example@cinnamon.org->settings-schema.json->scale-
+#. demo->description
+msgid "Here is a demonstration of bidirectional control:"
+msgstr "Đây là minh hoạ về điều hiển hai chiều:"
+
+#. settings-example@cinnamon.org->settings-schema.json->scale-demo->tooltip
+msgid ""
+"If you adjust this scale, it updates in the applet.  If you adjust the scale "
+"in the applet, it updates here"
+msgstr ""
+"Nếu bạn điều chỉnh thang đo này, nó sẽ cập nhật trong tiểu trình. Nếu bạn "
+"điều chỉnh thang đo trong tiểu trình, nó sẽ cập nhật ở đây"
+
+#. settings-example@cinnamon.org->settings-schema.json->demo-
+#. button->description
+msgid "Don't Press This Button!!!"
+msgstr "Đừng Nhấn Nút Này!!!"
+
+#. settings-example@cinnamon.org->settings-schema.json->demo-button->tooltip
+msgid ""
+"Pressing this button activates a callback method in the applet - go ahead, "
+"press it."
+msgstr ""
+"Nhấn nút này kích hoạt phương thức gọi lại trong tiểu trình - tiếp tục, nhấn "
+"đi."
+
+#. settings-example@cinnamon.org->settings-schema.json->signal-
+#. test->description
+msgid "This is a test widget for individual key signal firing"
+msgstr "Đây là tiểu trình thử nghiệm để kích hoạt tín hiệu phím riêng biệt"
+
+#. settings-example@cinnamon.org->settings-schema.json->use-custom-
+#. label->description
+msgid "Check this to use a custom label:"
+msgstr "Kiểm vào đây để dùng nhãn tuỳ biến:"
+
+#. settings-example@cinnamon.org->settings-schema.json->use-custom-
+#. label->tooltip
+msgid ""
+"Checking this box allows you to set a custom label in the field below - this "
+"demonstrates setting dependencies"
+msgstr ""
+"Kiểm vào ô này cho phép bạn đặt nhãn tuỳ biến cho trường bên dưới - minh hoạ "
+"tính độc lập thiết đặt"
+
+#. settings-example@cinnamon.org->settings-schema.json->spinner-
+#. number->description
+msgid "Applet width in the panel:"
+msgstr "Độ rộng tiểu trình trong bảng:"
+
+#. settings-example@cinnamon.org->settings-schema.json->spinner-
+#. number->tooltip
+msgid ""
+"Increase or decrease this spinner value to make the applet wider or narrower "
+"in the panel"
+msgstr ""
+"Tăng hay giảm giá trị quay số này để làm tiểu trình rộng hay hẹp hơn trong "
+"bảng"
+
+#. notifications@cinnamon.org->settings-
+#. schema.json->ignoreTransientNotifications->description
+msgid "Ignore transient notifications"
+msgstr "Bỏ qua thông báo thoáng qua"
+
+#. spacer@cinnamon.org->settings-schema.json->width->description
+msgid "Amount of space in pixels"
+msgstr "Lượng không gian theo điểm ảnh"
+
+#. spacer@cinnamon.org->settings-schema.json->width->tooltip
+msgid "Adjust this to increase or decrease the width of this spacer"
+msgstr "Chỉnh cái này để tăng hay giảm độ rộng của bộ phân cách này"
+
+#. scale@cinnamon.org->settings-schema.json->activate-on-hover->description
+msgid "Activate scale on hover"
+msgstr "Kích hoạt định cỡ khi lượn"
+
+#. keyboard@cinnamon.org->settings-schema.json->use-flags->description
+msgid "Use flags to display keyboard layouts"
+msgstr "Dùng cờ để hiển thị bố trí bàn phím"
+
+#. expo@cinnamon.org->settings-schema.json->activate-on-hover->description
+msgid "Activate expo on hover"
+msgstr "Kích hoạt expo khi lượn"

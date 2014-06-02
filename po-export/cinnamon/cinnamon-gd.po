@@ -1,0 +1,4577 @@
+# Gaelic; Scottish translation for linuxmint
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+# alasdair caimbeul <alexd@garrit.freeserve.co.uk>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-05-20 11:26+0100\n"
+"PO-Revision-Date: 2013-09-07 22:17+0000\n"
+"Last-Translator: alasdair caimbeul <Unknown>\n"
+"Language-Team: Sgioba na gàidhlig\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
+"(n > 2 && n < 20) ? 2 : 3;\n"
+"X-Launchpad-Export-Date: 2014-05-25 11:51+0000\n"
+"X-Generator: Launchpad (build 17017)\n"
+"Language: gd\n"
+
+#: generate_additional_files.py:24
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:85
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:37
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:231
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:488
+msgid "System Settings"
+msgstr "Suidheachaidhean an t-siostaim"
+
+#: generate_additional_files.py:24
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:38
+msgid "Control Center"
+msgstr "Ionad smachd"
+
+#: generate_additional_files.py:37
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:77
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:372
+msgid "Users and Groups"
+msgstr "Cleachdaichean agus buidhnean"
+
+#: generate_additional_files.py:37
+msgid "Add or remove users and groups"
+msgstr "Cuir ris no thoir às cleachdaichean agus buidhnean"
+
+#: src/cinnamon-app.c:367 src/cinnamon-app.c:375
+#: js/ui/notificationDaemon.js:458
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:118
+msgid "Unknown"
+msgstr "Neo-aithnichte"
+
+#: src/cinnamon-app.c:601
+#, c-format
+msgid "Failed to launch '%s'"
+msgstr "Dh' fhàillig a chur air bhog '%s'"
+
+#: src/cinnamon-util.c:89
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:40
+msgid "Home"
+msgstr "Dachaigh"
+
+#: src/cinnamon-util.c:98
+msgid "File System"
+msgstr "Siostam faidhle"
+
+#: src/cinnamon-util.c:244
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:132
+msgid "Search"
+msgstr "Sir"
+
+#: src/cinnamon-util.c:294
+#, c-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: src/gvc/gvc-mixer-control.c:1082
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:95
+msgid "Disabled"
+msgstr "A chur à comas"
+
+#: src/gvc/gvc-mixer-control.c:1089
+#, c-format
+msgid "%u Output"
+msgid_plural "%u Outputs"
+msgstr[0] "%u Às-chur"
+msgstr[1] "%u Às-chur"
+msgstr[2] "%u Às-churan"
+msgstr[3] "%u Às-churan"
+
+#: src/gvc/gvc-mixer-control.c:1099
+#, c-format
+msgid "%u Input"
+msgid_plural "%u Inputs"
+msgstr[0] "%u Ion-chur"
+msgstr[1] "%u Ion-chur"
+msgstr[2] "%u Ion-churan"
+msgstr[3] "%u Ion-churan"
+
+#: src/gvc/gvc-mixer-control.c:1397
+msgid "System Sounds"
+msgstr "Fuaimean an t-siostaim"
+
+#: js/misc/docInfo.js:76
+msgid "Problem opening file"
+msgstr ""
+
+#: js/misc/docInfo.js:77
+msgid "There was a problem opening the selected file."
+msgstr ""
+
+#: js/misc/docInfo.js:78
+msgid ""
+"  Please check to see if you have the proper permissions to access this "
+"resource,"
+msgstr ""
+
+#: js/misc/docInfo.js:79
+msgid ""
+" or try manually mounting the file's enclosing volume.\n"
+"\n"
+msgstr ""
+
+#: js/misc/docInfo.js:80
+msgid "The file uri is: "
+msgstr ""
+
+#: js/misc/util.js:98
+msgid "Command not found"
+msgstr "Cha do lorg an àithne"
+
+#: js/misc/util.js:126
+msgid "Could not parse command:"
+msgstr "Cha b' urrainn parsadh na h-àithne:"
+
+#: js/misc/util.js:134
+#, c-format
+msgid "Execution of '%s' failed:"
+msgstr "Dh'fhàillig a chur '%s' an gnìomh:"
+
+#: js/ui/applet.js:419
+msgid "Remove this applet"
+msgstr "Thoir às an aplaid seo"
+
+#: js/ui/applet.js:432 js/ui/desklet.js:226
+msgid "Configure..."
+msgstr "Rèitich..."
+
+#: js/ui/cinnamonEntry.js:30
+msgid "Copy"
+msgstr "Lethbhreac"
+
+#: js/ui/cinnamonEntry.js:35
+msgid "Paste"
+msgstr "Glaodh"
+
+#: js/ui/cinnamonEntry.js:81
+msgid "Show Text"
+msgstr "Foillsich teacsa"
+
+#: js/ui/cinnamonEntry.js:83
+msgid "Hide Text"
+msgstr "Falaich teacsa"
+
+#: js/ui/cinnamonMountOperation.js:285
+msgid "Wrong password, please try again"
+msgstr "Facal-faire ceàrr, feuchaibh a-rithist"
+
+#: js/ui/desklet.js:233
+msgid "Remove this desklet"
+msgstr "Thoir às an aplaid-dheasc seo"
+
+#: js/ui/expoThumbnail.js:313 js/ui/panel.js:384
+msgid "Yes"
+msgstr "Tha"
+
+#: js/ui/expoThumbnail.js:321 js/ui/panel.js:391
+msgid "No"
+msgstr "Chan eil"
+
+#: js/ui/expoThumbnail.js:936
+#, c-format
+msgid ""
+"Are you sure you want to remove workspace \"%s\"?\n"
+"\n"
+msgstr ""
+"Cinnteach gu bheil thu ag iarraidh a thoirt às an rum-obrach \"%s\"?\n"
+"\n"
+
+#: js/ui/extension.js:367
+msgid "Initializing"
+msgstr "Ath-shuidheachaidh"
+
+#: js/ui/extension.js:369
+msgid "Loaded"
+msgstr "Luchdaichte"
+
+#: js/ui/extension.js:371
+msgid "Error"
+msgstr "Mearachd"
+
+#: js/ui/extension.js:373
+msgid "Out of date"
+msgstr "Sean - fad' air ais"
+
+#: js/ui/hotCorner.js:41
+msgid "Invalid overview options: Incorrect number of corners"
+msgstr ""
+"Mì-dhligheach roghainnean foir-shealladh: Àireamh oiseanan neo-cheart"
+
+#: js/ui/keyboard.js:324
+msgid "tray"
+msgstr "treidhe"
+
+#: js/ui/keyboard.js:555
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:106
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:162
+msgid "Keyboard"
+msgstr "Meur-chlàr"
+
+#: js/ui/lookingGlass.js:716
+msgid "No extensions installed"
+msgstr "Chan eil leudachan stàlaichte"
+
+#: js/ui/lookingGlass.js:808
+msgid "View Source"
+msgstr "Seall ris a' bhun-tùs"
+
+#: js/ui/lookingGlass.js:817
+msgid "Web Page"
+msgstr "Duilleag lìn"
+
+#: js/ui/lookingGlass.js:826
+msgid "Reload Code"
+msgstr "Còd ath-luchdaich"
+
+#: js/ui/main.js:414
+msgid "Running in software rendering mode"
+msgstr "A' ruith bathar-bog ann am modh reandaradh"
+
+#: js/ui/main.js:415
+msgid ""
+"Cinnamon is currently running without video hardware acceleration and, as a "
+"result, you may observe much higher than normal CPU usage.\n"
+"\n"
+msgstr ""
+"Tha Cinnamon an-dràsta a' ruith às aonais  a' luathachadh bathar-cruaidh "
+"bhidio agus, mar toradh dh'fhaodadh tu fhaicinn cleachd CPU nas àirde na 's "
+"àbhaist.\n"
+"\n"
+
+#: js/ui/main.js:416
+msgid ""
+"There could be a problem with your drivers or some other issue.  For the "
+"best experience, it is recommended that you only use this mode for"
+msgstr ""
+"Dh'fhaodadh gu bheil trioblaid ann le do dhràibhearan no rudeigin eile. "
+"Airson an t-eòlas 's fheàrr, thathar a' moladh dhut cleachdadh am modh seo a-"
+"mhàin airson"
+
+#: js/ui/main.js:417
+msgid " troubleshooting purposes."
+msgstr " adhbharan rèiteachadh-trioblaid."
+
+#: js/ui/main.js:472
+msgid "WORKSPACE"
+msgstr "Rum-obrach"
+
+#: js/ui/messageTray.js:448
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:213
+msgid "%l:%M %p"
+msgstr ""
+
+#: js/ui/messageTray.js:1249
+msgid "Open"
+msgstr "Fosgail"
+
+#: js/ui/messageTray.js:1256
+#: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:58
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:69
+msgid "Remove"
+msgstr "Thoir às"
+
+#: js/ui/messageTray.js:1812
+msgid "System Information"
+msgstr "Fiosrachadh an t-siostaim"
+
+#: js/ui/panel.js:439
+msgid "Troubleshoot ..."
+msgstr ""
+
+#: js/ui/panel.js:440
+msgid "Restart Cinnamon"
+msgstr "Ath-thòisich Cinnamon"
+
+#: js/ui/panel.js:444
+msgid "Looking Glass"
+msgstr "Gloine-sheallaidh"
+
+#: js/ui/panel.js:448
+msgid "Restore all settings to default"
+msgstr "Thoir air ais na h-uile suidheachaidhean gu bunait"
+
+#: js/ui/panel.js:460
+msgid "Panel Edit mode"
+msgstr "Modh deasachaidh a' phannail"
+
+#: js/ui/panel.js:482
+msgid "Add applets to the panel"
+msgstr "Cuir aplaidean ris a' phannal"
+
+#: js/ui/panel.js:485
+msgid "Panel settings"
+msgstr "Suidheachaidhean a' phannail"
+
+#: js/ui/panel.js:488 files/usr/lib/cinnamon-settings/modules/cs_themes.py:17
+msgid "Themes"
+msgstr "Tèamaichean"
+
+#: js/ui/panel.js:491
+msgid "All settings"
+msgstr "Na h-uile suidheachaidhean"
+
+#: js/ui/placesManager.js:120
+#, c-format
+msgid "Failed to unmount '%s'"
+msgstr "Dh'fhàillig a dh'ìslich (unmount) '%s'"
+
+#: js/ui/placesManager.js:127
+msgid "Retry"
+msgstr "Feuch a-rithist"
+
+#: js/ui/placesManager.js:170
+msgid "Connect to..."
+msgstr "Ceangal gu..."
+
+#: js/ui/runDialog.js:215
+msgid "Please enter a command:"
+msgstr "Cuiribh a-steach àithne:"
+
+#: js/ui/windowManager.js:975
+msgid "Hold <Super> to enter snap mode"
+msgstr "Cum <Super> a dhol a steach a’ mhodh greimich"
+
+#: js/ui/windowManager.js:977
+msgid "Hold <Alt> to enter snap mode"
+msgstr "Cum <Alt> a dhol a steach  a’ mhodh greimich"
+
+#: js/ui/windowManager.js:979
+msgid "Hold <Ctrl> to enter snap mode"
+msgstr "Cum <Ctrl> a dhol a steach  a’ mhodh greimich"
+
+#: js/ui/windowManager.js:981
+msgid "Hold <Shift> to enter snap mode"
+msgstr "Cum <Shift> a dhol a steach  a’ mhodh greimich"
+
+#: js/ui/windowManager.js:983
+msgid "Use the arrow keys to shift workspaces"
+msgstr ""
+"Cleachd na iuchraichean na saighde gus na rumannan-obrach a shioftadh"
+
+#: js/ui/workspace.js:1492
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:80
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:209
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:172
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:109
+msgid "Close"
+msgstr "Dùin"
+
+#: js/ui/workspace.js:1496
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:89
+msgid "Restore"
+msgstr "Aisig"
+
+#: js/ui/workspace.js:1498
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:89
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:40
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:173
+msgid "Minimize"
+msgstr "Lùghdaich"
+
+#: js/ui/workspace.js:1501 js/ui/workspace.js:1574
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:92
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:174
+msgid "Maximize"
+msgstr "Meudaich"
+
+#: js/ui/workspace.js:1504
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:95
+msgid "Move to left workspace"
+msgstr "Gluais gu rum-obrach clì"
+
+#: js/ui/workspace.js:1507
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:98
+msgid "Move to right workspace"
+msgstr "Gluais gu rum-obrach deas"
+
+#: js/ui/workspace.js:1510 js/ui/workspace.js:1559
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:101
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:116
+msgid "Visible on all workspaces"
+msgstr "Lèirsinneach air na h-uile rumannan-obrach"
+
+#: js/ui/workspace.js:1513
+msgid "Move to a new workspace"
+msgstr "Gluais gu rum-obrach ùr"
+
+#: js/ui/workspace.js:1523
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:133
+#, c-format
+msgid "Move to monitor %d"
+msgstr "Gluais gu sealladair %d"
+
+#: js/ui/workspace.js:1557
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:112
+msgid "Only on this workspace"
+msgstr "A-mhàin air an rum-obrach seo"
+
+#: js/ui/workspace.js:1572
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:92
+msgid "Unmaximize"
+msgstr "Neo-làn-mheudaich"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:48
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:62
+msgid "Accessibility"
+msgstr "Ruigsinneachd"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:60
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:34
+msgid "Zoom"
+msgstr "Sùm"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:71
+msgid "Screen Keyboard"
+msgstr "Meur-chlàr an sgrìn"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:75
+msgid "Visual Alerts"
+msgstr "Rabhadh leirsinneach"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:78
+msgid "Sticky Keys"
+msgstr "Iuchraichean sticeach"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:81
+msgid "Slow Keys"
+msgstr "Iuchraichean slaodach"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:84
+msgid "Bounce Keys"
+msgstr "Iuchraichean bocadh"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:87
+msgid "Mouse Keys"
+msgstr "Iuchraichean luch"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:91
+msgid "Universal Access Settings"
+msgstr "Suidheachaidhean cothrom uileach"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:146
+msgid "High Contrast"
+msgstr "Àrd-iomsgaradh"
+
+#: files/usr/share/cinnamon/applets/a11y@cinnamon.org/applet.js:183
+msgid "Large Text"
+msgstr "Teacsa mhòr"
+
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:112
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:143
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:225
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:228
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:230
+msgid "Brightness"
+msgstr "Soilleireachd"
+
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:117
+msgid "Dimming settings"
+msgstr "Suidheachaidhean doilleirichidh"
+
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:119
+msgid "Dim screen on AC power"
+msgstr "Doilleirich an sgrìn air cumhachd AC"
+
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:121
+msgid "Dim screen on battery"
+msgstr "Doilleirich an sgrìn air bataraidh"
+
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:144
+msgid "Brightness not available"
+msgstr "Chan eil soilleireachd ri fhaighinn"
+
+#: files/usr/share/cinnamon/applets/brightness@cinnamon.org/applet.js:148
+#: files/usr/share/cinnamon/applets/settings@cinnamon.org/applet.js:28
+msgid "Settings"
+msgstr "Suidheachaidhean"
+
+#: files/usr/share/cinnamon/applets/calendar@cinnamon.org/applet.js:77
+#: files/usr/share/cinnamon/desklets/clock@cinnamon.org/desklet.js:33
+msgid "Date and Time Settings"
+msgstr "Suidheachaidhean ceann-latha agus àm"
+
+#: files/usr/share/cinnamon/applets/calendar@cinnamon.org/applet.js:90
+msgid "%A %B %e, %Y"
+msgstr ""
+
+#: files/usr/share/cinnamon/applets/expo@cinnamon.org/applet.js:20
+msgid "Expo"
+msgstr "Expo"
+
+#: files/usr/share/cinnamon/applets/keyboard@cinnamon.org/applet.js:77
+msgid "Show Keyboard Layout"
+msgstr "Foillsich co-dhleabhachd a' mheur-chlàr"
+
+#: files/usr/share/cinnamon/applets/keyboard@cinnamon.org/applet.js:81
+msgid "Show Character Table"
+msgstr "Foillsich an clàr"
+
+#: files/usr/share/cinnamon/applets/keyboard@cinnamon.org/applet.js:85
+msgid "Keyboard Settings"
+msgstr ""
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:172
+msgid "Please provide your password to uninstall this application"
+msgstr ""
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:245
+msgid "Add to panel"
+msgstr "Cuir ris a' phannal"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:248
+msgid "Add to desktop"
+msgstr "Cuir ris a' bhàrr-deasc"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:252
+msgid "Remove from favorites"
+msgstr "Thoir air falbh on h-annasachdan"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:255
+msgid "Add to favorites"
+msgstr "Cuir ris na h-annasachdan"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:259
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:508
+msgid "Uninstall"
+msgstr "Dì-stàlaich"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:508
+#: files/usr/share/cinnamon/applets/recent@cinnamon.org/applet.js:70
+msgid "Clear list"
+msgstr "Glan an liosta"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:546
+msgid "All Applications"
+msgstr "Na h-apalacaidean uile"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:573
+msgid "Places"
+msgstr "Àitichean"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:593
+msgid "Recent Files"
+msgstr "Faidhlichean o chionn ghoirid"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:840
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:40
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:171
+msgid "Menu"
+msgstr "Clàr-iùil"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1668
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:123
+msgid "Lock screen"
+msgstr "Glais sgrìn"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1669
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:9
+msgid "Lock the screen"
+msgstr "Glais an sgrìn"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1698
+msgid "Logout"
+msgstr "Log a-mach"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1699
+msgid "Leave the session"
+msgstr "Fàg an t-seisean"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1715
+msgid "Quit"
+msgstr "Fàg an-seo"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1716
+msgid "Shutdown the computer"
+msgstr "Dùin sìos an coimpiutair"
+
+#: files/usr/share/cinnamon/applets/menu@cinnamon.org/applet.js:1841
+msgid "Type to search..."
+msgstr "Clò-sgrìobh a shireadh..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:95
+msgid "<unknown>"
+msgstr "<neo-aithnichte>"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:305
+msgid "disabled"
+msgstr "A chur à comas"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:505
+msgid "unmanaged"
+msgstr "gun stiùireadh"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:507
+msgid "disconnecting..."
+msgstr "a' gearradh ceangal..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:513
+msgid "connecting..."
+msgstr "A' ceangal..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:516
+msgid "authentication required"
+msgstr "dearbhachadh riatanach"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:526
+msgid "firmware missing"
+msgstr "bathar-an-sàs a dhith"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:533
+msgid "cable unplugged"
+msgstr "càball neo-phlugaichte"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:538
+msgid "unavailable"
+msgstr "chan eil e ri fhaighinn"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:540
+msgid "connection failed"
+msgstr "dh'fhàillig ceangal"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:596
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1569
+msgid "More..."
+msgstr "Barrachd..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:632
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1504
+msgid "Connected (private)"
+msgstr "Ceangailte prìobhaideach"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:710
+msgid "Auto Ethernet"
+msgstr "Ethernet fèin-obrachail"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:790
+msgid "Auto broadband"
+msgstr "Bann-leathann fèin-obrachail"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:793
+msgid "Auto dial-up"
+msgstr "Daitheal-suas fèin-obrachail"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:915
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1516
+#, c-format
+msgid "Auto %s"
+msgstr "%s fèin-obrachail"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:917
+msgid "Auto bluetooth"
+msgstr "Bluetooth fèin-obrachail"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1518
+msgid "Auto wireless"
+msgstr "Uèirleas fèin-obrachail"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1606
+msgid "Network Manager"
+msgstr "Manaidsear lìonra"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1642
+msgid "Enable networking"
+msgstr "Cuir an comas lìonrachadh"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1654
+msgid "Wired"
+msgstr "Le uèir"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1665
+msgid "Wireless"
+msgstr "Uèirleas"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1675
+msgid "Mobile broadband"
+msgstr "Bann-leathann siubhail"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1685
+msgid "VPN Connections"
+msgstr "Ceanglaichean VPN"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1696
+msgid "Network Settings"
+msgstr "Suidheachaidhean lìonra"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1697
+msgid "Network Connections"
+msgstr ""
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1850
+msgid "Connection failed"
+msgstr "Dh'fhàillig ceangal"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:1851
+msgid "Activation of network connection failed"
+msgstr "Dh'fhàillig a' ghnìomhachaidh an ceangal lìonra"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2108
+msgid "Networking is disabled"
+msgstr "Tha lìonrachadh a chur à comas"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2127
+msgid "No connection"
+msgstr "Gun cheangail"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2133
+msgid "Connecting to the cellular network..."
+msgstr "A' ceangal ris an lìonra cheallach..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2137
+msgid "Connecting to the wireless network..."
+msgstr "A' ceangal ris an lìonra uèirleas..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2141
+msgid "Connecting to the wired network..."
+msgstr "A' ceangal ris an lìonra le uèir..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2145
+msgid "Connecting to the VPN..."
+msgstr "A' ceangal ris an VPN..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2151
+msgid "Connecting to the network..."
+msgstr "A' ceangal ris an lìonra..."
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2167
+msgid "Connected to the wireless network"
+msgstr "Ceangailte ris an lìonra uèirleas"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2170
+msgid "Wireless connection"
+msgstr "Ceangal uèirleas"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2180
+msgid "Connected to the wired network"
+msgstr "Ceangailte ris an lìonra le uèir"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2191
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2196
+msgid "Connected to the cellular network"
+msgstr "Ceangailte ris an lìonra cheallach"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2201
+msgid "Connected to the VPN"
+msgstr "Ceangailte ris an VPN"
+
+#: files/usr/share/cinnamon/applets/network@cinnamon.org/applet.js:2207
+msgid "Connected to the network"
+msgstr "Ceangailte ris an lìonra"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:39
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:67
+msgid "Notifications"
+msgstr "Fiosan"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:49
+msgid "Clear notifications"
+msgstr "Glan fiosan"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:246
+msgid "No notifications"
+msgstr "Gun fhiosan"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:249
+msgid " notification"
+msgstr " fios"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:252
+msgid " notifications"
+msgstr " fiosan"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:266
+msgid " (Just now)"
+msgstr " (an-dràsta)"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:269
+#, c-format
+msgid " (%s seconds ago)"
+msgstr " (%s dìogan air ais)"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:272
+#, c-format
+msgid " (%s minute ago)"
+msgstr " (%s mionaid air ais)"
+
+#: files/usr/share/cinnamon/applets/notifications@cinnamon.org/applet.js:275
+#, c-format
+msgid " (%s minutes ago)"
+msgstr " (%s mionaidean air ais)"
+
+#: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:46
+msgid "Launch"
+msgstr "Cuir air bhog"
+
+#: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:50
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:81
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:717
+msgid "Add"
+msgstr "Cuir ris"
+
+#: files/usr/share/cinnamon/applets/panel-launchers@cinnamon.org/applet.js:54
+msgid "Edit"
+msgstr "Deasaich"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:96
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:249
+msgid "AC adapter"
+msgstr "Freagarraichear AC"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:98
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:252
+msgid "Laptop battery"
+msgstr "Bataraidh coimpiutair-uchd"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:100
+msgid "UPS"
+msgstr "UPS (solar cumhachd gun chasg)"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:102
+msgid "Monitor"
+msgstr "Cùm sùil air"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:104
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:32
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:78
+msgid "Mouse"
+msgstr "Luch"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:108
+msgid "PDA"
+msgstr "PDA (chuidiche  digiteach pearsanta)"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:110
+msgid "Cell phone"
+msgstr "Fòn-làimhe"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:112
+msgid "Media player"
+msgstr "Cluicheadair meadhanan"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:114
+msgid "Tablet"
+msgstr "Tablaid"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:116
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:38
+msgid "Computer"
+msgstr "Coimpiutair"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:176
+msgid "Power Settings"
+msgstr "Suidheachaidhean cumhachd"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:205
+msgid "Estimating..."
+msgstr "A' prìseachadh..."
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:212
+#, c-format
+msgid "%d hour remaining"
+msgid_plural "%d hours remaining"
+msgstr[0] "%d uair air fhàgail"
+msgstr[1] "%d uair air fhàgail"
+msgstr[2] "%d uairean air fhàgail"
+msgstr[3] "%d uairean air fhàgail"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:215
+#, c-format
+msgid "%d %s %d %s remaining"
+msgstr "%d %s %d %s air fhàgail"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:217
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "uair"
+msgstr[1] "uair"
+msgstr[2] "uairean"
+msgstr[3] "uairean"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:217
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "mhionaid"
+msgstr[1] "mhionaid"
+msgstr[2] "mionaidean"
+msgstr[3] "mionaidean"
+
+#: files/usr/share/cinnamon/applets/power@cinnamon.org/applet.js:220
+#, c-format
+msgid "%d minute remaining"
+msgid_plural "%d minutes remaining"
+msgstr[0] "%d mhionaid air fhàgail"
+msgstr[1] "%d mhionaid air fhàgail"
+msgstr[2] "%d mionaidean air fhàgail"
+msgstr[3] "%d mionaidean air fhàgail"
+
+#: files/usr/share/cinnamon/applets/recent@cinnamon.org/applet.js:41
+msgid "Recent documents"
+msgstr "Sgrìobhainn o chionn ghoirid"
+
+#: files/usr/share/cinnamon/applets/recent@cinnamon.org/applet.js:74
+msgid "No recent documents"
+msgstr "Gun sgrìobhainn o chionn ghoirid"
+
+#: files/usr/share/cinnamon/applets/removable-drives@cinnamon.org/applet.js:53
+msgid "Removable drives"
+msgstr "Dràibhean so-ghluasad"
+
+#: files/usr/share/cinnamon/applets/removable-drives@cinnamon.org/applet.js:65
+msgid "Open file manager"
+msgstr "Fosgail manaidsear faidhle"
+
+#: files/usr/share/cinnamon/applets/scale@cinnamon.org/applet.js:20
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:66
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:70
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:74
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:78
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:82
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:86
+msgid "Scale"
+msgstr "Sgèile"
+
+#: files/usr/share/cinnamon/applets/settings-example@cinnamon.org/applet.js:96
+msgid "Hi there!"
+msgstr "Hàlo!"
+
+#: files/usr/share/cinnamon/applets/settings-example@cinnamon.org/applet.js:129
+msgid "YOU PRESSED THE BUTTON!!!"
+msgstr "BHRÙTH THU AM PUTAN!!!"
+
+#: files/usr/share/cinnamon/applets/settings-example@cinnamon.org/applet.js:137
+msgid "YOU USED THE HOTKEY!!!"
+msgstr "CLEACHD THU AM IUCHAIR-TETH!!!"
+
+#: files/usr/share/cinnamon/applets/show-desktop@cinnamon.org/applet.js:15
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:58
+msgid "Show desktop"
+msgstr "Foillsich bàrr-deasc"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:116
+msgid "Playing"
+msgstr "A' cluich"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:117
+msgid "Paused"
+msgstr "Air Stad"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:118
+msgid "Stopped"
+msgstr "Air sguir"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:396
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:574
+msgid "Unknown Artist"
+msgstr "Ealantair neo-aithnichte"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:397
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:578
+msgid "Unknown Album"
+msgstr "Albam neo-aithnichte"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:398
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:582
+msgid "Unknown Title"
+msgstr "Tiotal neo-aithnichte"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:409
+msgid "Previous"
+msgstr "Roimh làimh"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:412
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:139
+msgid "Play"
+msgstr "Cluich"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:415
+msgid "Stop"
+msgstr "Sguir"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:418
+msgid "Next"
+msgstr "An ath"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:454
+msgid "Open Player"
+msgstr "Fosgail cluicheadair"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:464
+msgid "Quit Player"
+msgstr "Fàg cluicheadair"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:862
+msgid "Mute output"
+msgstr "Mùch às-chur"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:863
+msgid "Mute input"
+msgstr "Mùch ion-chur"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1095
+msgid "Launch player..."
+msgstr "Cuir cluicheadair an bhog..."
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1108
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1170
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1171
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1176
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1177
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1196
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1197
+msgid "Volume"
+msgstr "Bholam"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1115
+msgid "Microphone"
+msgstr "Micreofon"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1122
+msgid "Sound Settings"
+msgstr "Suidheachaidhean fuaime"
+
+#: files/usr/share/cinnamon/applets/sound@cinnamon.org/applet.js:1124
+msgid "Output device..."
+msgstr "Innleachd às-chur..."
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:21
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:42
+msgid "Trash"
+msgstr "Sgudal"
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:39
+msgid "Empty Trash"
+msgstr "Falamhaich sgudal"
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:42
+msgid "Open Trash"
+msgstr "Fosgail sgudal"
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:86
+msgid "Are you sure you want to delete all items from the trash?"
+msgstr ""
+"Cinnteach gu bheil thu ag iarraidh a dhubhadh às nithean dhan sgudal?"
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:86
+msgid "This operation cannot be undone."
+msgstr "Chan urrainn an gnìomh seo a neo-dhèanamh."
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:107
+msgid "Empty Trash?"
+msgstr "Falamhaich sgudal?"
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:118
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:722
+msgid "Cancel"
+msgstr "Cuir dheth"
+
+#: files/usr/share/cinnamon/applets/trash@cinnamon.org/applet.js:125
+msgid "Empty"
+msgstr "Falamhaich"
+
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:81
+msgid "Account Details"
+msgstr "Mion-chuntasan a' chleachdaiche"
+
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:91
+msgid "Lock Screen"
+msgstr "Glais an sgrìn"
+
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:109
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:121
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:127
+msgid "Switch User"
+msgstr "Sioft a' chleachdaiche"
+
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:114
+msgid "Guest Session"
+msgstr ""
+
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:133
+msgid "Log Out..."
+msgstr "Log a-mach..."
+
+#: files/usr/share/cinnamon/applets/user@cinnamon.org/applet.js:139
+msgid "Power Off..."
+msgstr "Cumhachd dheth..."
+
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:83
+msgid "Close all"
+msgstr "Dùin uile"
+
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:86
+msgid "Close others"
+msgstr "Dùin càch"
+
+#: files/usr/share/cinnamon/applets/window-list@cinnamon.org/applet.js:104
+msgid "Restore to full opacity"
+msgstr ""
+
+#: files/usr/share/cinnamon/applets/windows-quick-list@cinnamon.org/applet.js:24
+msgid "All windows"
+msgstr "Na h-uinneagan uile"
+
+#: files/usr/share/cinnamon/applets/windows-quick-list@cinnamon.org/applet.js:108
+msgid "No open windows"
+msgstr "Gun uinneagan fosgailte"
+
+#: files/usr/share/cinnamon/applets/workspace-switcher@cinnamon.org/applet.js:18
+msgid "Switch workspace"
+msgstr "Suidse rum-obrach"
+
+#. #-#-#-#-#  uniq-cinnamon-json.pot  #-#-#-#-#
+#. power@cinnamon.org->settings-schema.json->labelinfo->description
+#: files/usr/share/cinnamon/applets/xrandr@cinnamon.org/applet.js:45
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:60
+msgid "Display"
+msgstr "Foillsich"
+
+#: files/usr/share/cinnamon/applets/xrandr@cinnamon.org/applet.js:88
+msgid "Configure display settings..."
+msgstr "Rèitich suidheachaidhean foillsich.."
+
+#: files/usr/share/cinnamon/desklets/clock@cinnamon.org/desklet.js:21
+msgid "Clock"
+msgstr "Cleoc"
+
+#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/desklet.js:31
+msgid "Add new launcher"
+msgstr "Cuir lòinsear ùr ris"
+
+#: files/usr/share/cinnamon/desklets/launcher@cinnamon.org/desklet.js:34
+msgid "Edit launcher"
+msgstr "Deasaich lòinsear"
+
+#: files/usr/share/cinnamon/desklets/photoframe@cinnamon.org/desklet.js:85
+msgid "Photo Frame"
+msgstr "Frèam foto"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:51
+msgid "Appearance"
+msgstr "Dreach"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:52
+msgid "Preferences"
+msgstr "Roghainnean"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:53
+msgid "Hardware"
+msgstr "Bathar-cruaidh"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:54
+msgid "Administration"
+msgstr "Rianachd"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:59
+msgid "Networking"
+msgstr "Lìonrachadh"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:59
+msgid "network, wireless, wifi, ethernet, broadband, internet"
+msgstr "lìonra, uèirleas, wifi, ethernet, bann-leathann, eadar-lìon"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:60
+msgid "display, screen, monitor, layout, resolution, dual, lcd"
+msgstr ""
+"taisbean, sgrìn, sealladair, co-dhleabhachd, dùmhlachd-bhreacaidh, dùbailte, "
+"lcd"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:61
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:61
+msgid "bluetooth, dongle, transfer, mobile"
+msgstr "bluetooth, dongle, tar-aiseag, siubhail"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:62
+msgid "magnifier, talk, access, zoom, keys, contrast"
+msgstr "meudaichear, còmhradh, corthom, sùm, iuchraichean, iomsgaradh"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:63
+msgid "Sound"
+msgstr "Fuaim"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:63
+msgid "sound, speakers, headphones, test"
+msgstr "fuaim, glaodhairean, cluais-fhònaichean, deuchainn"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:64
+msgid "Color"
+msgstr "Dath"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:64
+msgid "color, profile, display, printer, output"
+msgstr "dath, pròifil, taisbean, clò-bhualadair"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:65
+msgid "Graphics Tablet"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:65
+msgid "wacom, digitize, tablet, graphics, calibrate, stylus"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:70
+msgid "Printers"
+msgstr "Clò-bhualadairean"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:70
+msgid "printers, laser, inkjet"
+msgstr "clò-bhualadairean, leusair, steall-inc"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:71
+msgid "Firewall"
+msgstr "Cachaileith-theine"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:71
+msgid "firewall, block, filter, programs"
+msgstr "cachaileith-theine, bloc, criathrag, prògraman"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:72
+msgid "Languages"
+msgstr "Cànanan"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:72
+msgid "language, install, foreign"
+msgstr "cànan, stàlaich, cèin"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:73
+msgid "Login Screen"
+msgstr "Sgrìn log a-steach"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:73
+msgid "login, mdm, gdm, manager, user, password, startup, switch"
+msgstr ""
+"log a-steach, mdm, gdm, manaidsear, cleachdaiche, facal-faire, tòiseachadh, "
+"suidse"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:74
+msgid "Startup Programs"
+msgstr "Prògraman tòiseachaidh"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:74
+msgid "startup, programs, boot, init, session"
+msgstr "tòiseachadh, prògraman, bùtadh, init, seisean"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:75
+msgid "Device Drivers"
+msgstr "Dràibhean na h-innleachd"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:75
+msgid ""
+"video, driver, wifi, card, hardware, proprietary, nvidia, radeon, nouveau, "
+"fglrx"
+msgstr ""
+"bhidio, dràibhear, wifi, cairt, bathar-cruaidh,freagarrachd, nvidia, radeon, "
+"nouveau, fglrx"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:76
+msgid "Software Sources"
+msgstr "Bunan tùs a' bhathar-bog"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:76
+msgid "ppa, repository, package, source, download"
+msgstr "ppa, onad-tasgaidh, pacaid, bun tùs, luchdaich a-nuas"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:77
+msgid "user, users, account, accounts, group, groups, password"
+msgstr ""
+"cleachdaiche, cleachdaichean, cunntas, cunntasan, buidheann, buidhnean, "
+"facal-faire"
+
+#: files/usr/lib/cinnamon-settings/cinnamon-settings.py:149
+msgid "All Settings"
+msgstr "Na h-uile suidheachaidhean"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:50
+msgid "The group name cannot contain space characters"
+msgstr "Chan urrainn an t-ainm buidheann seo glèidheadh caractaran spàis"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:159
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:332
+msgid "New password"
+msgstr "Facal-faire ùr"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:159
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:336
+msgid "Confirm password"
+msgstr "Dearbh am facal-faire"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:163
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:347
+msgid "Generate a password"
+msgstr "Gin facal-faire"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:169
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:175
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:353
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:359
+msgid "Your new password needs to be at least 8 characters long"
+msgstr "Feumaidh do fhacal-faire  a bhith co-dhiù 8 caractaran de dh'fhaid"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:183
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:367
+msgid "Show password"
+msgstr "Seall facal-faire"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:189
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:373
+msgid "An error occured. Your password was not changed."
+msgstr "Thachair mearachd. Cha deach d' fhacal-faire a dh’atharrachadh."
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:200
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:384
+msgid "Change"
+msgstr "Atharraich"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:247
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:465
+msgid "Passwords do not match"
+msgstr "Chan eil na facalan-faire co-ionnan"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:251
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:469
+msgid "Too short"
+msgstr "Ro ghoirid"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:254
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:472
+msgid "OK"
+msgstr "Ceart ma-thà"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:279
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:460
+msgid "Standard"
+msgstr "Bun-tomhasach"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:280
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:461
+msgid "Administrator"
+msgstr "Riaghailtear"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:290
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:490
+msgid "Account Type"
+msgstr "Seòrsa cunntas"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:290
+msgid "Full Name"
+msgstr "Ainm slàn"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:290
+msgid "Username"
+msgstr "Ainm-cleachdaiche"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:311
+msgid "The username cannot contain space characters"
+msgstr "Chan urrainn an t-ainm-cleachdaiche seo glèidheadh caractaran spàis"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:373
+msgid "Users"
+msgstr "Cleachdaichean"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:374
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:490
+msgid "Groups"
+msgstr "Buidhnean"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:425
+msgid "Click to change the picture"
+msgstr "Briog gus am pioctair a dh'atharrachadh"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:430
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:101
+msgid "Browse for more pictures..."
+msgstr "Brabhsaich airson barrachd pioctairean..."
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:466
+msgid "Click to change the name"
+msgstr "Briog a dh'atharrachadh an t-ainm"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:473
+msgid "Click to change the password"
+msgstr "Briog gus am facal-faire a dh'atharrachadh"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:483
+msgid "Click to change the groups"
+msgstr "Briog gus na buidhnean a dh'atharrachadh"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:490
+msgid "Picture"
+msgstr "Pioctair"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:490
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:247
+msgid "Name"
+msgstr "Ainm"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:490
+msgid "Password"
+msgstr "Facal-faire"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:557
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:235
+msgid "Images"
+msgstr "Ìomhaighean"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:672
+msgid "No password set"
+msgstr "Chan eil facal-faire stèidhichte"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:674
+msgid "Set at login"
+msgstr "Stèidhichte aig log a-steach"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:697
+msgid "This user is currently logged in"
+msgstr "Tha an cleachdaiche air a logadh a-staigh an-dràsda"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:710
+#, c-format
+msgid ""
+"Are you sure you want to permanently delete %s and all the files associated "
+"with this user?"
+msgstr ""
+"A bheil thu cinnteach gu bheil thu ag iarraidh dubhadh às %s agus na h-uile "
+"faidhlichean an cois ris a’ chleachdaiche?"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:768
+#, c-format
+msgid "This group is set as %s's primary group"
+msgstr "Tha am buidheann seo stèidhichte mar am prìomh bhuidhean aig %s’s"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:780
+#, c-format
+msgid "Are you sure you want to permanently delete %s?"
+msgstr ""
+"A bheil thu cinnteach gu bheil thu ag iarraidh dubhadh às %s gu buan?"
+
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:795
+#: files/usr/lib/cinnamon-settings-users/cinnamon-settings-users.py:806
+msgid "Group Name"
+msgstr "Ainm na buidhne"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_applets.py:7
+#: files/usr/lib/cinnamon-settings/modules/cs_applets.py:10
+msgid "applet"
+msgstr "aplaid"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_applets.py:11
+msgid "applets"
+msgstr "aplaidean"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_applets.py:12
+msgid "panel"
+msgstr "pannal"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_applets.py:13
+msgid "Manage Cinnamon applets"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_applets.py:14
+msgid "Applets"
+msgstr "Aplaidean"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_applets.py:29
+msgid ""
+"You can remove specific instances in panel edit mode via the context menu."
+msgstr ""
+"Faodaidh tu toirt às eisimlpeirean sònraichte sa mhodh deasachaidh a' "
+"phannail tron chlàr-iùil a' cho-theacsa."
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:17
+msgid "Wallpaper"
+msgstr "Pàipear-balla"
+
+#. #-#-#-#-#  uniq-cinnamon-json.pot  #-#-#-#-#
+#. photoframe@cinnamon.org->settings-schema.json->effect->options
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:23
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:66
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:70
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:74
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:78
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:82
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:86
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:34
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:35
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:40
+msgid "None"
+msgstr "Noeni"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:24
+msgid "Horizontal"
+msgstr "Còmhnard"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:25
+msgid "Vertical"
+msgstr "Inghearach"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:29
+msgid "No picture"
+msgstr "Gun pioctair"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:30
+msgid "Mosaic"
+msgstr "Mosàig"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:31
+msgid "Centered"
+msgstr "Meadhanaichte"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:32
+msgid "Scaled"
+msgstr "Sgèilichte"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:33
+msgid "Stretched"
+msgstr "Sìnte"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:35
+msgid "Spanned"
+msgstr "Spangaichte"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:43
+msgid "background, picture, screenshot, slideshow"
+msgstr "cùl-ionad, pioctair, glacadh-sgrìn,thaisbeanadh-slaighd"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:44
+msgid "Backgrounds"
+msgstr "Cùl-ionadan"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:47
+msgid "Change your desktop's background"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:77
+msgid "Remove wallpaper"
+msgstr "Thoir às am pàipear-balla"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:88
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:472
+msgid "Add wallpapers"
+msgstr "Cuir pàipearan-balla ris"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:112
+msgid "Picture aspect"
+msgstr "Co-mheas a' phioctair"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:118
+msgid "Gradient"
+msgstr "Caisead"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:125
+msgid "Colors"
+msgstr "Dathan"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:513
+msgid "Folder"
+msgstr "Pasgan"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:521
+msgid "Recursive listing"
+msgstr "Liostadh ath-chùrsach"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_backgrounds.py:526
+msgid "Delay"
+msgstr "Dàil"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:8
+msgid "time, date, calendar, format, network, sync"
+msgstr "tìm, ceann-latha, mìosachan, fòrmat, lìonra, sionc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:9
+msgid "Date & Time"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:12
+msgid "Manage date and time settings"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:25
+msgid "Date Settings"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:33
+msgid "Date Format"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:34
+msgid "Use 24h clock"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:35
+msgid "Display the date"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_calendar.py:36
+msgid "Display seconds"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:28
+msgid "_Web"
+msgstr "_Lìon"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:29
+msgid "_Mail"
+msgstr "_Post"
+
+#. #-#-#-#-#  uniq-cinnamon-json.pot  #-#-#-#-#
+#. menu@cinnamon.org->settings-schema.json->menu-label->description
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:30
+msgid "Text"
+msgstr "Teacsa"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:34
+msgid "M_usic"
+msgstr "C_eòl"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:35
+msgid "_Video"
+msgstr "_Bhidio"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:36
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:44
+msgid "_Photos"
+msgstr "_Foto"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:41
+msgid "CD _audio"
+msgstr "_Claisneach CD (mc)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:41
+msgid "Select an application for audio CDs"
+msgstr "Tagh apalacaid airson CDs (mc) claisneach"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:42
+msgid "_DVD video"
+msgstr "Bhidio _DBhD"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:42
+msgid "Select an application for video DVDs"
+msgstr "Tagh apalacaid airson DBhD bhidio"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:43
+msgid "_Music player"
+msgstr "Cluicheadair _ceòl"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:43
+msgid "Select an application to run when a music player is connected"
+msgstr "Tagh apalacaid a ruith nuair a tha cluicheadair ciùil ceangailte"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:44
+msgid "Select an application to run when a camera is connected"
+msgstr "Tagh apalacaid a ruith nuair a tha camara ceangailte"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:45
+msgid "_Software"
+msgstr "_Bathar-bog"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:45
+msgid "Select an application for software CDs"
+msgstr "Tagh apalacaid airson CDs (mc) bathar-bog"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:53
+msgid "audio DVD"
+msgstr "DBhD claisneach"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:54
+msgid "blank Blu-ray disc"
+msgstr "dìosg Blu-ray bàn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:55
+msgid "blank CD disc"
+msgstr "dìosg CD (mc) bàn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:56
+msgid "blank DVD disc"
+msgstr "dìosg DBhD bàn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:57
+msgid "blank HD DVD disc"
+msgstr "dìosg DBhD HD bàn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:58
+msgid "Blu-ray video disc"
+msgstr "dìosg bhidio Blu-ray"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:59
+msgid "e-book reader"
+msgstr "leughadair leabhar-d"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:60
+msgid "HD DVD video disc"
+msgstr "dìosg bhidio DBhD HD"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:61
+msgid "Picture CD"
+msgstr "CD (mc) Pioctair"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:62
+msgid "Super Video CD"
+msgstr "MC Sàr Bhidio (SVCD)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:63
+msgid "Video CD"
+msgstr "MC Bhidio (VCD)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:64
+msgid "Windows software"
+msgstr "Bathar-bog Windows"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:65
+msgid "Software"
+msgstr "Bathar-bog"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:144
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:13
+msgid "Ask what to do"
+msgstr "Faighnich dè a dhèanamh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:146
+msgid "Open folder"
+msgstr "Fosgail pasgan"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:148
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:14
+msgid "Do nothing"
+msgstr "Na dèan càil"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:206
+msgid "Other Media"
+msgstr "Meadhanan eile"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:232
+msgid "_Type:"
+msgstr "_Seòrsa:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:235
+msgid "Select how other media should be handled"
+msgstr "Tagh ciamar am bu chòir a làimhseachadh meadhann eile"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:307
+msgid "_Action:"
+msgstr "_Gnìomh:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:311
+msgid ""
+"media, defaults, applications, programs, removable, browser, email, "
+"calendar, music, videos, photos, images, cd, autostart, autoplay"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:312
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:316
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:333
+msgid "Preferred Applications"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:334
+msgid "Removable Media"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:352
+msgid "Select preferred applications for file types"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:373
+msgid "_Other Media..."
+msgstr "_Meadhanan eile..."
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:377
+msgid "_Never prompt or start programs on media insertion"
+msgstr "_Na put no tòisich prògraman air cuir a-steach meadhanan"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_default.py:382
+msgid "Select how media should be handled"
+msgstr "Tagh ciamar am bu chòir a làimhseachadh meadhann"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:9
+msgid "desklet, desktop, slideshow"
+msgstr "aplaid-deasc, bàrr-deasc, slaighd-thaisbeanadh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:11
+msgid "Manage your Cinnamon desklets"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:13
+msgid "desklet"
+msgstr "aplaid-dheasc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:14
+msgid "desklets"
+msgstr "aplaidean-deasc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:15
+msgid "desktop"
+msgstr "bàrr-deasc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:16
+msgid "Desklets"
+msgstr "Aplaidean-dheasc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:32
+msgid ""
+"You can remove specific instances from the desktop via that desklet's "
+"context menu"
+msgstr ""
+"Faodaidh tu toirt às eisimlpeirean sònraichte on bhàrr-deasc tron chlàr-iùil "
+"cho-theacsa na h-aplaid-dheasc sin"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:44
+msgid "General Desklets Settings"
+msgstr "Suidheachaidhean aplaid-dheasc choitcheann"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:49
+msgid "No decoration"
+msgstr "Gun sgeadachaidh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:49
+msgid "Border only"
+msgstr "Iomall a-mhàin"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:49
+msgid "Border and header"
+msgstr "Iomall agus bann-cinn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:50
+msgid "Decoration of desklets"
+msgstr "Sgeadachaidh na h-aplaidean-dheasc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:53
+msgid "Note: Some desklets require the border/header to be always present"
+msgstr ""
+"Nòta: Tha cuid aplaidean a’ bhàrr-deasc ag iarraidh iomall/bann-cinn a bhith "
+"an làthair an còmhnaidh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:53
+msgid "Such requirements override the settings selected here"
+msgstr ""
+"Tha leithid iarrtasan a' cur fo smachd na suidheachaidhean taghte an-seo"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:57
+msgid "Snap desklets to grid"
+msgstr "Greimich aplaidean-dheasc ri griod"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desklets.py:58
+msgid "Width of desklet snap grid"
+msgstr "Leud a' ghrioda na h-aplaid-dheasc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:8
+msgid "desktop, home, button, trash"
+msgstr "bàrr-deasc, dachaigh, putan, sgudal"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:9
+msgid "Desktop"
+msgstr "Bàrr-deasc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:13
+msgid "Manage your desktop icons"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:32
+msgid "Desktop Icons"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:34
+msgid "Select the items you want to see on the desktop:"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:44
+msgid "Mounted volumes"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_desktop.py:46
+msgid "Network"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:8
+msgid "effects, fancy, window"
+msgstr "buaidhean, leòmach, uinneag"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:9
+msgid "Effects"
+msgstr "Buaidhean"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:13
+msgid "Control Cinnamon visual effects."
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:56
+msgid "Enable Effects"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:57
+msgid "Enable desktop effects"
+msgstr "Cuir an comas buaidhean a' bhàrr-deasc"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:58
+msgid "Enable desktop effects on dialog boxes"
+msgstr "Cuir an comas buaidhean a' bhàrr-deasc air bogsaichean co-labhairt"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:59
+msgid ""
+"Enable fade effect on Cinnamon scrollboxes (like the Menu application list)"
+msgstr ""
+"Cuir an comas a' bhuaidh chrìon air bogsaichean-sgrolaidh Cinnamon ( mar "
+"liosta clàr-iùil na h-apalacaidean)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:64
+msgid "Customize Effects"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:66
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:70
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:74
+msgid "Fade"
+msgstr "Crìon"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:67
+msgid "Closing windows:"
+msgstr "A' dùnadh uinneagan:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:71
+msgid "Mapping windows:"
+msgstr "A' mapadh uinneagan:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:74
+msgid "Traditional"
+msgstr "Traidiseanta"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:75
+msgid "Minimizing windows:"
+msgstr "A' fìor-lùghdachadh uinneagan:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:79
+msgid "Maximizing windows:"
+msgstr "A' làn-mheudachadh uinneagan:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:83
+msgid "Unmaximizing windows:"
+msgstr "A' neo-làn-mheudachadh uinneagan:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:87
+msgid "Tiling and snapping windows:"
+msgstr "A' leacadh agus a' greimeachadh uinneagan:"
+
+#. #-#-#-#-#  uniq-cinnamon-json.pot  #-#-#-#-#
+#. menu@cinnamon.org->settings-schema.json->hover-delay->units
+#: files/usr/lib/cinnamon-settings/modules/cs_effects.py:109
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:40
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:41
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:44
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:45
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:47
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:48
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:27
+msgid "milliseconds"
+msgstr "mille-dhiogan"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_extensions.py:7
+msgid "extension, addon"
+msgstr "leudachan, tuilleadain"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_extensions.py:9
+msgid "Manage your Cinnamon extensions"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_extensions.py:11
+msgid "extension"
+msgstr "leudachan"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_extensions.py:12
+msgid "extensions"
+msgstr "leudachain"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_extensions.py:15
+msgid "Extensions"
+msgstr "Leudachain"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:9
+msgid "font, size, small, large"
+msgstr "cruth-clò, meud, beag, mòr"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:10
+msgid "Fonts"
+msgstr "Cruth-clò"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:14
+msgid "Configure system fonts"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:24
+msgid "Font Selection"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:25
+msgid "Default font"
+msgstr "Cruth-clò bunaiteach"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:26
+msgid "Document font"
+msgstr "Cruth-clò na sgrìobhainn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:27
+msgid "Monospace font"
+msgstr "Cruth-clò Monospace"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:28
+msgid "Window title font"
+msgstr "Cruth-clò tiotal na h-uinneige"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:33
+msgid "Font Settings"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:34
+msgid "Grayscale"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:34
+msgid "Rgba"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:35
+msgid "Slight"
+msgstr ""
+
+#. #-#-#-#-#  uniq-cinnamon-json.pot  #-#-#-#-#
+#. photoframe@cinnamon.org->settings-schema.json->quality->options
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:35
+msgid "Medium"
+msgstr "Meadhanach"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:35
+msgid "Full"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:36
+msgid "Text scaling factor"
+msgstr "Factar sgèilidh na teacsa"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:37
+msgid "Antialiasing"
+msgstr "Liosraigeadh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:38
+msgid "Hinting"
+msgstr "A' toirt sanas"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:55
+msgid "Antialiasing makes on screen text smoother and easier to read"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_fonts.py:58
+msgid "Hinting allows for producing clear, legible text on screen."
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:7
+msgid "logging, click, notifications"
+msgstr "a' logadh, briog, fiosan"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:8
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:40
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:86
+msgid "General"
+msgstr "Coitcheann"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:11
+msgid "Miscellaneous Cinnamon preferences"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:22
+msgid "Desktop Scaling"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:23
+msgid "Auto"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:23
+msgid "Normal"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:23
+msgid "Double (Hi-DPI)"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:24
+msgid "User interface scaling:"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:30
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:34
+msgid "Miscellaneous Options"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:31
+msgid ""
+"Log LookingGlass output to ~/.cinnamon/glass.log (Requires Cinnamon restart)"
+msgstr ""
+"Log às-chur LookingGlass gu  ~/.cinnamon/glass.log (Ag iarraidh ath-"
+"thòiseachadh Cinnamon)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_general.py:32
+msgid "Display notifications"
+msgstr "Foillsich fiosan"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:15
+msgid "hotcorner, overview, scale, expo"
+msgstr "oisean-teth, foir-shealladh, sgèile, expo"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:16
+msgid "Hot Corners"
+msgstr "Oiseanan teth"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:18
+msgid "Manage hotcorner settings"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:205
+msgid "Show all workspaces"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:206
+msgid "Show all windows"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:207
+msgid "Show the desktop"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:208
+msgid "Run a command"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:222
+msgid "Icon visible"
+msgstr "ìomhaigheag neo-fhaicsinneach"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_hotcorner.py:224
+msgid "Hover enabled"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:83
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:85
+msgid "Operating System"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:87
+msgid "Cinnamon Version"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:88
+msgid "Linux Kernel"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:89
+msgid "Processor"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:91
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:93
+msgid "Memory"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:91
+msgid "GiB"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:94
+msgid "Hard Drive"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:94
+msgid "GB"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:98
+msgid "Graphics Card"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:104
+msgid "system, information, details, graphic, sound, kernel, version"
+msgstr ""
+"siostam, fios, mion-chunntasan, grafigeach, fuaim, eitean (kernel), tionndadh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:105
+msgid "System Info"
+msgstr "Fios an t-siostaim"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_info.py:109
+msgid "Display system information"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:46
+msgid "Toggle Scale"
+msgstr "Toglaich sgèile"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:47
+msgid "Toggle Expo"
+msgstr "Toglaich Expo"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:48
+msgid "Cycle through open windows"
+msgstr "Cuairt tro uinneagan fosgailte"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:49
+msgid "Cycle backwards though open windows"
+msgstr "Cuairt air ais tro uinneagan fosgailte"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:50
+msgid "Run dialog"
+msgstr "Ruith a' cho-labhairt"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:51
+msgid "Menu button (must restart Cinnamon)"
+msgstr "Putan a' chlàir-iùil (feumaidh ath-thòisich Cinnamon)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:54
+msgid "Maximize window"
+msgstr "Làn-mheudaich uinneag"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:55
+msgid "Unmaximize window"
+msgstr "Neo-làn-mheudaich uinneag"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:56
+msgid "Minimize window"
+msgstr "Fìor-lùghdaich uinneag"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:57
+msgid "Close window"
+msgstr "Dùin uinneag"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:59
+msgid "Activate window menu"
+msgstr "Gnìomhaich clàr-iùil na h-uinneige"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:60
+msgid "Toggle maximization state"
+msgstr "Toglaich staid làn-mheudachaidh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:61
+msgid "Toggle fullscreen state"
+msgstr "Toglaich staid làn-sgrìn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:62
+msgid "Toggle shaded state"
+msgstr "Toglaich staid duibhrichte"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:63
+msgid "Increase opacity"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:64
+msgid "Decrease opacity"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:65
+msgid "Maximize vertically"
+msgstr "Làn-mheudaich gu inghearach"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:66
+msgid "Maximize horizontally"
+msgstr "Làn-mheudaich gu chòmhnard"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:67
+msgid "Resize window"
+msgstr "Ath-mheudaich uinneag"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:68
+msgid "Move window"
+msgstr "Gluais uinneag"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:69
+msgid "Center window in screen"
+msgstr "Meadhanaich an uinneag san sgrìn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:70
+msgid "Move window to upper-right"
+msgstr "Gluais an uinneag gu deas uachdair"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:71
+msgid "Move window to upper-left"
+msgstr "Gluais an uinneag gu clì uachdair"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:72
+msgid "Move window to lower-right"
+msgstr "Gluais an uinneag gu deas ìochdair"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:73
+msgid "Move window to lower-left"
+msgstr "Gluais an uinneag gu clì an ìochdair"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:74
+msgid "Move window to right edge"
+msgstr "Gluais an uinneag gu oir dheas"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:75
+msgid "Move window to top edge"
+msgstr "Gluais an uinneag gu oir uachair"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:76
+msgid "Move window to bottom edge"
+msgstr "Gluais an uinneag gu oir ìochdair"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:77
+msgid "Move window to left edge"
+msgstr "Gluais an uinneag gu oir chlì"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:80
+msgid "Push tile left"
+msgstr "Brùth an leac gu clì"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:81
+msgid "Push tile right"
+msgstr "Brùth an leac gu deas"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:82
+msgid "Push tile up"
+msgstr "Brùth an leac suas"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:83
+msgid "Push tile down"
+msgstr "Brùth an leac sìos"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:84
+msgid "Push snap left"
+msgstr "Brùth greimich! gu clì"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:85
+msgid "Push snap right"
+msgstr "Brùth greimich! gu deas"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:86
+msgid "Push snap up"
+msgstr "Brùth greimich! suas"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:87
+msgid "Push snap down"
+msgstr "Brùth greimich! sìos"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:90
+msgid "Toggle showing window on all workspaces"
+msgstr "Toglaich a' foillsicheadh an uinneag air na rumannan-obrach uile"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:91
+msgid "Switch to left workspace"
+msgstr "Suidse gu rum-obrach clì"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:92
+msgid "Switch to right workspace"
+msgstr "Suidse gu rum-obrach deas"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:93
+msgid "Switch to workspace 1"
+msgstr "Suidse gu rum-obrach 1"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:94
+msgid "Switch to workspace 2"
+msgstr "Suidse gu rum-obrach 2"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:95
+msgid "Switch to workspace 3"
+msgstr "Suidse gu rum-obrach 3"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:96
+msgid "Switch to workspace 4"
+msgstr "Suidse gu rum-obrach 4"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:97
+msgid "Switch to workspace 5"
+msgstr "Suidse gu rum-obrach 5"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:98
+msgid "Switch to workspace 6"
+msgstr "Suidse gu rum-obrach 6"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:99
+msgid "Switch to workspace 7"
+msgstr "Suidse gu rum-obrach 7"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:100
+msgid "Switch to workspace 8"
+msgstr "Suidse gu rum-obrach 8"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:101
+msgid "Switch to workspace 9"
+msgstr "Suidse gu rum-obrach 9"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:102
+msgid "Switch to workspace 10"
+msgstr "Suidse gu rum-obrach 10"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:103
+msgid "Switch to workspace 11"
+msgstr "Suidse gu rum-obrach 11"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:104
+msgid "Switch to workspace 12"
+msgstr "Suidse gu rum-obrach 12"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:105
+msgid "Move window to left workspace"
+msgstr "Gluais uinneag gu rum-obrach clì"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:106
+msgid "Move window to right workspace"
+msgstr "Gluais uinneag gu rum-obrach deas"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:107
+msgid "Move window to workspace 1"
+msgstr "Gluais uinneag gu rum-obrach 1"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:108
+msgid "Move window to workspace 2"
+msgstr "Gluais uinneag gu rum-obrach 2"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:109
+msgid "Move window to workspace 3"
+msgstr "Gluais uinneag gu rum-obrach 3"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:110
+msgid "Move window to workspace 4"
+msgstr "Gluais uinneag gu rum-obrach 4"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:111
+msgid "Move window to workspace 5"
+msgstr "Gluais uinneag gu rum-obrach 5"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:112
+msgid "Move window to workspace 6"
+msgstr "Gluais uinneag gu rum-obrach 6"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:113
+msgid "Move window to workspace 7"
+msgstr "Gluais uinneag gu rum-obrach 7"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:114
+msgid "Move window to workspace 8"
+msgstr "Gluais uinneag gu rum-obrach 8"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:115
+msgid "Move window to workspace 9"
+msgstr "Gluais uinneag gu rum-obrach 9"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:116
+msgid "Move window to workspace 10"
+msgstr "Gluais uinneag gu rum-obrach 10"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:117
+msgid "Move window to workspace 11"
+msgstr "Gluais uinneag gu rum-obrach 11"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:118
+msgid "Move window to workspace 12"
+msgstr "Gluais uinneag gu rum-obrach 12"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:121
+msgid "Log out"
+msgstr "Log a-mach"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:122
+msgid "Shut down"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:124
+msgid "Toggle recording desktop (must restart Cinnamon)"
+msgstr "Toglaich a' clàradh a' bhàrr-deasc (feumaidh ath-thòisich Cinnamon)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:127
+msgid "Launch help browser"
+msgstr "Cuir air bhog am brabhsair cobhair"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:128
+msgid "Launch calculator"
+msgstr "Cuir àireamhair air bhog"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:129
+msgid "Launch email client"
+msgstr "Cuir cliant post-d air bhog"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:130
+msgid "Launch web browser"
+msgstr "Cuir brabhsair lìn air bhog"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:131
+msgid "Home folder"
+msgstr "Pasgan dachaigh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:135
+msgid "Volume mute"
+msgstr "Mùch bholam"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:136
+msgid "Volume down"
+msgstr "Bholam sìos"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:137
+msgid "Volume up"
+msgstr "Bholam suas"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:138
+msgid "Launch media player"
+msgstr "Cuir cluicheadair mheadhanan air bhog"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:140
+msgid "Pause playback"
+msgstr "Stad cluich air ais"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:141
+msgid "Stop playback"
+msgstr "Sguir cluich air ais"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:142
+msgid "Previous track"
+msgstr "An traca roimhe"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:143
+msgid "Next track"
+msgstr "An ath traca"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:144
+msgid "Eject"
+msgstr "Tilg-a-mach"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:147
+msgid "Zoom in"
+msgstr "Sùm a-steach"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:148
+msgid "Zoom out"
+msgstr "Sùm a-mach"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:149
+msgid "Turn screen reader on or off"
+msgstr "Tionndaidh leughadair sgrìn air no dheth"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:150
+msgid "Turn on-screen keyboard on or off"
+msgstr "Tionndaidh leughadair air-sgrìn air no dheth"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:151
+msgid "Increase text size"
+msgstr "Iomadaich meud teacsa"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:152
+msgid "Decrease text size"
+msgstr "Lùghdaich meud teacsa"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:153
+msgid "High contrast on or off"
+msgstr "Àrd-iomsgaradh air no dheth"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:157
+msgid "Launch terminal"
+msgstr "Cuir tèirmineal air bhog"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:161
+msgid "keyboard, shortcut, hotkey"
+msgstr "meur-chlàr. ath-ghoirid, iuchair-teth"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:164
+msgid "Manage keyboard settings and shortcuts"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:175
+msgid "Typing"
+msgstr "Clò-srìobhadh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:176
+msgid "Enable key repeat"
+msgstr "Cuir buille iuchair a-rithist an comas"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:178
+msgid "Repeat delay:"
+msgstr "Dàil buille a-rithist:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:178
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:67
+msgid "Short"
+msgstr "Goirid"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:178
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:67
+msgid "Long"
+msgstr "Fada"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:183
+msgid "Repeat speed:"
+msgstr "Astar a' bhuille a-rithist:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:183
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:191
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:60
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:105
+msgid "Slow"
+msgstr "Slaodach"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:183
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:191
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:60
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:105
+msgid "Fast"
+msgstr "Luath"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:189
+msgid "Text cursor blinks"
+msgstr "Cùrsair teacsa a' priobadh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:191
+msgid "Blink speed:"
+msgstr "Astar a' phriobaidh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:196
+msgid "Test Box"
+msgstr "Bogsa deuchainn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:200
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:277
+msgid "Keyboard shortcuts"
+msgstr "Ath-ghoiridean a' mheur-chlair"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:205
+msgid ""
+"To edit a keyboard binding, click it and press the new keys, or press "
+"backspace to clear it."
+msgstr ""
+"A dheasachadh nasgaidh a' mheur-chlàir, briog air, agus brùth na "
+"iuchraichean ùra, no brùth cùl-spàs (backspace) a ghlanadh."
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:241
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:718
+msgid "Add custom shortcut"
+msgstr "Cuir ath-ghoirid gnàths ris"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:243
+msgid "Remove custom shortcut"
+msgstr "Thoir às an ath-ghoirid gnàths"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:268
+msgid "Categories"
+msgstr "Roinnean-seòrsa"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:288
+msgid "Keyboard bindings"
+msgstr "Nasgaidhean a' mheur-chlàir"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:292
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:1034
+msgid "Click to set a new accelerator key."
+msgstr "Briog a stèidheachadh iuchair luathaichear ùr."
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:292
+msgid "Press Escape or click again to cancel the operation."
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:292
+msgid "Press Backspace to clear the existing keybinding."
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:298
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:11
+msgid "Windows"
+msgstr "Uinneagan"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:299
+msgid "Window Tiling"
+msgstr "A' leacadh na h-uinneige"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:300
+msgid "Workspace Management"
+msgstr "Stiùireadh rum-obrach"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:301
+msgid "System"
+msgstr "Siostam"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:302
+msgid "Launchers"
+msgstr "Lòinsearan"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:303
+msgid "Sound and Media"
+msgstr "Fuaim agus Meadhanan"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:304
+msgid "Universal Access"
+msgstr "Cothrom Uileach"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:305
+msgid "Custom Shortcuts"
+msgstr "Ath-ghoiridean gnàths"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:324
+msgid "Keyboard layouts"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:423
+#, c-format
+msgid ""
+"\n"
+"This key combination, '<b>%s</b>' cannot be used because it would become "
+"impossible to type using this key.\n"
+"\n"
+msgstr ""
+"\n"
+"Chan urrainn a' cho-iuchraichean '<b>%s</b>' seo, a chleachdadh sgàth "
+"thigeadh e gu bhith do-dhèanta a chlò-sgrìobh cleachdadh an iuchair seo.\n"
+"\n"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:424
+msgid ""
+"Please try again with a modifier key such as Control, Alt or Super (Windows "
+"key) at the same time.\n"
+msgstr ""
+"Feuch sibh a-rithist le iuchair atharraichear mar Ctrl, Alt no Super "
+"(iuchair Windows) aig an aon àm.\n"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:448
+#, c-format
+msgid ""
+"This key combination, '<b>%s</b>' is currently in use by '<b>%s</b>'.  "
+msgstr ""
+"Tha a' cho-iuchraichean '<b>%s</b>' seo ga chleachdadh an-dràsta le "
+"'<b>%s</b>'.  "
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:449
+#, c-format
+msgid ""
+"If you continue, the combination will be reassigned to '<b>%s</b>.'\n"
+"\n"
+msgstr ""
+"Ma leanas tu, bithidh a' cho-iuchraichean seo ath-òrdaichte gu '<b>%s</b>.'\n"
+"\n"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:450
+msgid "Do you want to continue with this operation?"
+msgstr "Bheil thu ag iarraidh leantail leis an obrachaidh seo?"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:599
+msgid "Reset to default"
+msgstr "Ath-shuidhich gu bunait"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:704
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:803
+msgid "unassigned"
+msgstr "neo-òrdaichte"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:705
+msgid "Super-"
+msgstr "Super-"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:706
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:709
+msgid "Ctrl-"
+msgstr "Ctrl-"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:707
+msgid "Shift-"
+msgstr "Shift-"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:708
+msgid "Alt-"
+msgstr "Alt-"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:715
+msgid "Update"
+msgstr "Ùraich"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:726
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:148
+msgid "Name:"
+msgstr "Ainm:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:727
+msgid "Command:"
+msgstr "Àithne:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:735
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:825
+msgid "Select a file"
+msgstr "Tagh faidhle"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_keyboard.py:823
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:1057
+msgid "Pick an accelerator"
+msgstr "Tagh luathaichear"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:9
+msgid "mouse, touchpad, synaptic, double-click"
+msgstr "luch, pada-suathaidh, synaptic, briogadh dùbailte"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:10
+msgid "Mouse and Touchpad"
+msgstr "Luch agus Pada-suathaidh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:12
+msgid "Control mouse and touchpad settings"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:33
+msgid "Touchpad"
+msgstr "Pada-suathaidh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:41
+msgid "Left handed (mouse buttons inverted)"
+msgstr "Clì-làmhach (putanan luch ais-thionndaichte)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:42
+msgid "Show position of pointer when the Control key is pressed"
+msgstr ""
+"Foillsich suidheachaidh an tomhaire nuair thathar a' brùthadh an iuchair Ctrl"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:43
+msgid "Emulate middle click by clicking both left and right buttons"
+msgstr ""
+"Dèan coltach ri briog meadhan le a' briogadh an dà chuid putanan clì agus "
+"deas"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:48
+msgid "Pointer Size"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:50
+msgid "Note: All sizes may not be available on certain icon themes"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:52
+msgid "Size:"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:52
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:56
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:59
+msgid "Smaller"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:52
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:56
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:59
+msgid "Larger"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:59
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:104
+msgid "Pointer Speed"
+msgstr "Astar tomhaire"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:60
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:105
+msgid "Acceleration:"
+msgstr "Luathachadh:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:61
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:106
+msgid "Sensitivity:"
+msgstr "Mothalachd:"
+
+#. #-#-#-#-#  uniq-cinnamon-json.pot  #-#-#-#-#
+#. photoframe@cinnamon.org->settings-schema.json->quality->options
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:61
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:106
+msgid "Low"
+msgstr "Ìseal"
+
+#. #-#-#-#-#  uniq-cinnamon-json.pot  #-#-#-#-#
+#. photoframe@cinnamon.org->settings-schema.json->quality->options
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:61
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:106
+msgid "High"
+msgstr "Àrd"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:66
+msgid "Double-Click Timeout"
+msgstr "Crìoch-ùine briogadh-dùbailte"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:67
+msgid "Timeout:"
+msgstr "Crìoch-ùine:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:68
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:120
+msgid "Double-click test"
+msgstr "Deuchainn briogadh dùbailte"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:75
+msgid "Drag and drop"
+msgstr "Slaod is leig às"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:76
+msgid "Cinnamon drag threshold"
+msgstr "Stairsneach slaodaidh Cinnamon"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:76
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:77
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:25
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:90
+msgid "Pixels"
+msgstr "Piogsailean"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:77
+msgid "GTK drag threshold"
+msgstr "Stairsneach slaodaidh GTK"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:87
+msgid "Enable touchpad"
+msgstr "Cuir am pada-suathaidh an comas"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:88
+msgid "Disable touchpad while typing"
+msgstr "Cuir à comas am pada-suathaidh am fad a clò-sgròbhadh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:89
+msgid "Enable mouseclicks with touchpad"
+msgstr "Cuir an comas briogaidhean-luch le pada-suathaidh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:94
+msgid "Scrolling"
+msgstr "Sgroladh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:95
+msgid "Edge Scrolling"
+msgstr "Sgroladh oir"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:95
+msgid "Two-finger scrolling"
+msgstr "Sgroladh dà-chorrag"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:96
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:25
+msgid "Panel layout"
+msgstr "Co-dhealbhachd a' phannail"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:98
+msgid "Enable natural scrolling"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:99
+msgid "Enable horizontal scrolling"
+msgstr "Cuir sgroladh gu còmhnard an comas"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_mouse.py:115
+msgid "Success!"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:7
+msgid "panel, height, bottom, top, autohide, size, traditional, layout"
+msgstr ""
+"pannal, àirde, bonn, bàrr, fèin-fhalaich, meud, traidiseanta, co-dhleabhachd"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:8
+msgid "Panel"
+msgstr "Pannal"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:12
+msgid "Manage Cinnamon panel settings"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:23
+msgid "Layout Options"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:24
+msgid "Traditional (panel at the bottom)"
+msgstr "Traidiseanta (pannal aig a' bhonn)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:24
+msgid "Flipped (panel at the top)"
+msgstr "Chur car (pannal aig a' bhàrr)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:24
+msgid "Classic (panels at the top and at the bottom)"
+msgstr "Clasaigeach (pannalan aig a' bhàrr agus aig a' bhonn)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:28
+msgid ""
+"Note: If you change the layout you will need to restart Cinnamon and "
+"Cinnamon Settings."
+msgstr ""
+"Nòta: Ma dh'atharraicheas tu a' cho-dhealbhachd feumaidh tu a dh'ath-"
+"thòiseachadh Cinnamon agus Suidheachaidhean Cinnamon."
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:35
+msgid "Auto Hide Options"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:39
+msgid "Auto-hide panel"
+msgstr "Fèin-fhalaich am pannal"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:40
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:44
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:47
+msgid "Show delay"
+msgstr "Foillsich dàil"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:41
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:45
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:48
+msgid "Hide delay"
+msgstr "Falaich dàil"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:43
+msgid "Auto-hide top panel"
+msgstr "Fèin-fhalaich am pannal bàrr"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:46
+msgid "Auto-hide bottom panel"
+msgstr "Fèin-fhalaich am pannal bonn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:53
+msgid "Size Options"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:54
+msgid "Use customized panel size (otherwise it's defined by the theme)"
+msgstr ""
+"Cleachd meud pannal gnàthach (air neo tha e sònraichte leis an tèama)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:55
+msgid ""
+"Allow Cinnamon to scale panel text and icons according to the panel heights"
+msgstr ""
+"Ceadaich Cinnamon gu sgèile teacsa a' phannail agus ìomhaigheagan a-rèir "
+"àirdean a' phannail"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:56
+msgid "Top panel height:"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:59
+msgid "Bottom panel height:"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_panel.py:68
+msgid "Panel edit mode"
+msgstr "Modh deasachaidh a' phannail"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:10
+msgid "Suspend"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:11
+msgid "Shutdown immediately"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:12
+msgid "Hibernate"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:18
+msgid "5%"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:19
+msgid "10%"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:20
+msgid "30%"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:21
+msgid "50%"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:22
+msgid "75%"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:26
+msgid "30 seconds"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:27
+msgid "60 seconds"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:28
+msgid "90 seconds"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:29
+msgid "2 minutes"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:30
+msgid "5 minutes"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:31
+msgid "10 minutes"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:36
+msgid "power, suspend, hibernate, laptop, desktop, brightness, screensaver"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:37
+msgid "Power Management"
+msgstr "Stiùireadh cumhachd"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:42
+msgid "Manage power settings"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:75
+msgid "Screen Brightness"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:94
+msgid "Sets the brightness level of the screen"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:101
+msgid "On battery, dim screen to"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:102
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:106
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:110
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:114
+msgid ""
+"Save battery power by reducing the brightness of the screen when inactive"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_power.py:109
+msgid "after"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:7
+msgid "Immediately"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:8
+msgid "After 15 seconds"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:9
+msgid "After 30 seconds"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:10
+msgid "After 1 minute"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:11
+msgid "After 2 minutes"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:12
+msgid "After 3 minutes"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:13
+msgid "After 5 minutes"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:14
+msgid "After 10 minutes"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:15
+msgid "After 30 minutes"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:16
+msgid "After 1 hour"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:21
+msgid "screensaver, lock, password, away, message"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:22
+#: files/usr/lib/cinnamon-screensaver-lock-dialog/cinnamon-screensaver-lock-dialog.py:36
+msgid "Screen Locker"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:26
+msgid "Manage screen lock settings"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:36
+msgid "Lock Settings"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:37
+msgid "Lock the computer when put to sleep"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:38
+msgid ""
+"Enable this option to require a password when the computer wakes up from "
+"suspend"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:40
+msgid "Lock the computer when the screen turns off"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:41
+msgid ""
+"Enable this option to require a password when the screen turns itself off, "
+"or when the screensaver activates after a period of inactivity"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:46
+msgid ""
+"This option defines the amount of time to wait before locking the screen, "
+"after showing the screensaver or after turning off the screen"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:53
+msgid "Away Message"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:54
+msgid "Show this message when the screen is locked: "
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:55
+msgid "This is the default message displayed on your lock screen"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:57
+msgid "Ask for a custom message when locking the screen from the menu"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_screensaver.py:58
+msgid ""
+"This option allows you to type a message each time you lock the screen from "
+"the menu"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:9
+msgid "themes, style"
+msgstr "tèamaichean, stoidhle"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:10
+msgid "Manage themes to change how your desktop looks"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:13
+msgid "theme"
+msgstr "tèama"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:14
+msgid "themes"
+msgstr "tèamaichean"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:61
+msgid "Other settings"
+msgstr "Suidheachaidhean eile"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:68
+msgid "Controls"
+msgstr "Uidheaman-smachd"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:69
+msgid "Icons"
+msgstr "Ìomhaigheagan"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:70
+msgid "Window borders"
+msgstr "Iomlanan uinneig"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:71
+msgid "Mouse Pointer"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:72
+msgid "Keybindings"
+msgstr "Nasgaidhean-iuchair"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:74
+msgid "Show icons in menus"
+msgstr "Foillsich ìomhaigheagan ann a' chlàran-iùil"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_themes.py:77
+msgid "Show icons on buttons"
+msgstr "Foillsich ìomhaigheagan air putanan"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:8
+msgid "window, tile, flip, tiling, snap, snapping"
+msgstr "uinneag, leac, flip, a' leacadh, greimich, a' greimeachadh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:9
+msgid "Window Tiling and Edge Flip"
+msgstr "A' leacadh uinneige agus flipeadh oir"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:12
+msgid "Manage window tiling preferences"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:23
+msgid "Tiling and Snapping Settings"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:24
+msgid "Enable Window Tiling and Snapping"
+msgstr "Cuir an comas a' leacadh uinneige agus a' greimeachadh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:25
+msgid "Tiling HUD visibility threshold"
+msgstr "A' leacadh stairsnich lèireas an HUD"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:26
+msgid "Super (Windows)"
+msgstr "Sàr (Uinneagan)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:26
+msgid "Alt"
+msgstr "Alt"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:26
+msgid "Shift"
+msgstr "Sibht"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:26
+msgid "Control"
+msgstr "Ctrl"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:27
+msgid "Modifier to use for toggling between tile and snap mode"
+msgstr ""
+"An atharraichear a chleachdadh airson toglaich eadar modh leac agus modh "
+"greimich"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:28
+msgid "Maximize, instead of tile, when dragging a window to the top edge"
+msgstr ""
+"Làn-mheudaich, an àite leac, nuair a’ slaodadh uinneige dhan oir uachdar"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:29
+msgid "Prevent the snap on-screen-display from showing"
+msgstr "Cuir bacadh air taisbean greimich air an sgrìn bho shealltainn"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:34
+msgid "Edge Flip Settings"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:35
+msgid "Enable Edge Flip"
+msgstr "Cuir an comas, a chur oir car"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:36
+msgid "Edge Flip delay"
+msgstr "Dàil flipeadh an oir"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:36
+msgid "ms"
+msgstr "ms"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:41
+msgid "Miscellaneous Settings"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:42
+msgid ""
+"Invert the left and right arrow key directions used to shift workspaces "
+"during a window drag"
+msgstr ""
+"Ais-thionndaidh na saighdean chlì 's deas cleachdte a ghluasad rumannan-"
+"obrach am fad a’ slaodadh uinneige"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_tiling.py:43
+msgid "Enable legacy window snapping (hold <Shift> while dragging a window)"
+msgstr ""
+"Cuir an comas an dìleab greimeachadh uinneige (Cum <shift> am fad a' "
+"slaodadh uinneige)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:77
+msgid "user, account, information, details"
+msgstr "cleachdaiche, cunntas, fiosrachaidh, mion-chunntasan"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:78
+msgid "Account details"
+msgstr "Mion-chunntasan a' chunntais"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:82
+msgid "Change your user preferences and password"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:93
+msgid "Click to change your picture"
+msgstr "Briog gus am piocair a dh'atharrachadh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:97
+msgid "Take a photo..."
+msgstr "Gabh dealbh-camara..."
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:127
+msgid "Click to change your name"
+msgstr "Briog gus d' ainm a dh'atharrachadh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:134
+msgid "Picture:"
+msgstr "Pioctair:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:144
+msgid "Click to change your password"
+msgstr "Briog gus d' fhacal-faire a dh'atharrachadh"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:153
+msgid "Password:"
+msgstr "Facal-faire:"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:328
+msgid "Current password"
+msgstr "Facal-faire cuartach"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_user.py:450
+msgid "Wrong password"
+msgstr "Facal-faire ceàrr"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:10
+msgid "windows, titlebar, edge, switcher, window list, attention, focus"
+msgstr "uinneagan. bar-tiotal, oir, suidsear,liosta uinneag, aire, fòcas"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:15
+msgid "Manage window preferences"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:25
+msgid "Alt-Tab"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:26
+msgid "Icons only"
+msgstr "Ìomhaigheagan a-mhàin"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:26
+msgid "Thumbnails only"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:26
+msgid "Icons and thumbnails"
+msgstr "Ìomhaigheagan agus dealbhagan"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:26
+msgid "Icons and window preview"
+msgstr "Ro-shealladh ìomhaigheagan agus uinneag"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:26
+msgid "Window preview (no icons)"
+msgstr "Ro-shealladh uinneag (gun ìomhaigheagan)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:26
+msgid "Coverflow (3D)"
+msgstr "Coverflow (3D)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:26
+msgid "Timeline (3D)"
+msgstr "Timeline (3D)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:27
+msgid "Alt-Tab switcher style"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:29
+msgid ""
+"Display the alt-tab switcher on the primary monitor instead of the active one"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:34
+msgid "Titlebar"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:38
+msgid "Toggle Shade"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:38
+msgid "Toggle Maximize"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:39
+msgid "Toggle Maximize Horizontally"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:39
+msgid "Toggle Maximize Vertically"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:40
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:176
+msgid "Shade"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:40
+msgid "Lower"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:42
+msgid "Action on title bar double-click"
+msgstr "Gnìomhaich air briogadh-dùbhailte a' bhar-tiotal"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:45
+msgid "Action on title bar middle-click"
+msgstr "Gnìomhaich air briogadh-meadhan a' bhar-tiotal"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:48
+msgid "Action on title bar right-click"
+msgstr "Gnìomhaich air briogadh-deas a' bhar-tiotal"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:52
+msgid "Nothing"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:52
+msgid "Shade and unshade"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:52
+msgid "Adjust opacity"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:54
+msgid "Action on title bar with mouse scroll"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:57
+msgid "Minimum opacity:"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:57
+msgid "%"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:70
+msgid "Window List"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:71
+msgid ""
+"Show an alert in the window list when a window from another workspace "
+"requires attention"
+msgstr ""
+"Foillsich rabhadh anns an liosta na h uinneige nuair a tha uinneag bho rum-"
+"obrach eile ag iarraidh aire"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:72
+msgid "Enable mouse-wheel scrolling in the window list"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:77
+msgid "Window Focus"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:78
+msgid "Click"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:78
+msgid "Sloppy"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:79
+msgid "Window focus mode"
+msgstr "Modh fòcas na h-uinneige"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:80
+msgid "Automatically raise focused windows"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:81
+msgid "Bring windows which require attention to the current workspace"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:82
+msgid "Prevent focus stealing"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:83
+msgid "Attach dialog windows to their parent window's titlebar"
+msgstr "Ceangail uinneagan co-labhairt dham bhar-tiotal uinneag am pàrant"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:88
+msgid "Moving and Resizing Windows"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:89
+msgid "Special key to move windows"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:90
+msgid "Window drag/resize threshold"
+msgstr "Stairsneach slaod/ath-mheudaich na h-uinneige"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:151
+msgid "Left side title bar buttons"
+msgstr "Putanan taobh clì a' bhar-tiotal"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:157
+msgid "Right side title bar buttons"
+msgstr "Putanan taobh deas a' bhar-tiotal"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_windows.py:175
+msgid "Sticky"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:7
+msgid "workspace, osd, expo, monitor"
+msgstr "rum-obrach, osd, expo, sealladair"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:8
+msgid "Workspaces"
+msgstr "Rumannan-obrach"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:12
+msgid "Manage workspace preferences"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:25
+msgid "On-Screen Display (OSD)"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:26
+msgid "Enable workspace OSD"
+msgstr "Cuir rum-obrach OSD an comas"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:27
+msgid "Workspace OSD duration"
+msgstr "Ùine OSD an rum-obrach"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:28
+msgid "Workspace OSD horizontal position"
+msgstr "Suidheachaidh còmhnard OSD an rum-obrach"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:28
+msgid "percent of the monitor's width"
+msgstr "Ceudad den leud an t-sealladair"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:29
+msgid "Workspace OSD vertical position"
+msgstr "Suidheachaidh inghearach OSD an rum-obrach"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:29
+msgid "percent of the monitor's height"
+msgstr "Ceudad den àirde an t-sealladair"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:35
+msgid "Allow cycling through workspaces"
+msgstr "Ceadaich cuairteachadh tro rumannan-obrach"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:36
+msgid "Only use workspaces on primary monitor (requires Cinnamon restart)"
+msgstr ""
+"Cleachd rumannan-obrach air am prìomh sealladair a-mhàin (Ag iarraidh ath-"
+"thòiseachadh Cinnamon)"
+
+#: files/usr/lib/cinnamon-settings/modules/cs_workspaces.py:37
+msgid "Display Expo view as a grid"
+msgstr "Foillsich sealladh Expo mar griod"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:68
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:269
+#, c-format
+msgid "Search %s"
+msgstr "Sir %s"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:71
+msgid "Installed"
+msgstr "Stàlaichte"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:147
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:496
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:501
+#, c-format
+msgid "Add to %s"
+msgstr "Cuir ri %s"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:149
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:503
+msgid "Apply theme"
+msgstr "Cuir tèama an gnìomh"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:152
+#, c-format
+msgid ""
+"Some %s can be added multiple times.\n"
+" Use this to add another instance. Use panel edit mode to remove a single "
+"instance."
+msgstr ""
+"Faodar cuid %s a chur ris iomadach turas.\n"
+" Cleachd seo airson eisimpleir eile. Cleachd am modh deasaich a’ phannail a "
+"thoirt air falbh eisimpleir singilte."
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:154
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:974
+#, c-format
+msgid "Click to enable this %s"
+msgstr "Briog a chur an %s seo an comas"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:156
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:976
+#, c-format
+msgid "Click to apply this %s"
+msgstr "Briog a chur an %s seo an gnìomh"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:159
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:163
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:474
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:481
+msgid "Configure"
+msgstr "Rèitich"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:161
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:165
+#, c-format
+msgid "Configure this %s"
+msgstr "Rèitich an %s seo"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:168
+msgid "Restore to default"
+msgstr "Aisig gu bunait"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:170
+msgid "Restore default theme"
+msgstr "Aisig an tèama bunait"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:178
+#, c-format
+msgid "All %s"
+msgstr "Uile %s"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:179
+#, c-format
+msgid "Active %s"
+msgstr "Gnìomhach %s"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:180
+#, c-format
+msgid "Inactive %s"
+msgstr "Neo-ghnìomhach %s"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:189
+msgid "Show"
+msgstr "Foillsich"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:239
+msgid "Get more online"
+msgstr "Faigh barrachd air-loidhne"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:248
+msgid "Most popular"
+msgstr "Mòr-chòrdte"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:249
+msgid "Latest"
+msgstr "Ùr-nodha"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:260
+msgid "Sort by"
+msgstr "Seòrsaich a-rèir"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:344
+msgid "Install or update selected"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:346
+msgid "Select updated"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:348
+msgid "Refresh list"
+msgstr "Ath-nuadhaich an liosta"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:410
+#, c-format
+msgid "This %s is read-only, and cannot be uninstalled"
+msgstr "Tha an %s seo leugh a-mhàin, agus cha ghabh a dì-stàladh"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:418
+#, c-format
+msgid "This %s is currently active."
+msgstr "Tha an %s seo an-dràsta an gnìomh."
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:420
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Instance count: %d"
+msgstr ""
+"\n"
+"\n"
+"Cunnt eisimpleir: %d"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:436
+#, c-format
+msgid "An update is available for this %s"
+msgstr "Tha ùrachadh ri fhaighinn airson an %s seo"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:438
+#, c-format
+msgid "This %s is installed and up-to-date"
+msgstr "Tha an %s seo stàlaichte agus a dh'ionnsaigh an latha"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:489
+#, c-format
+msgid "Remove from %s"
+msgstr "Thoir às on %s"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:594
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:604
+msgid "Action"
+msgstr "Gnìomh"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:632
+msgid "Unmark"
+msgstr "Neo-chomharraich"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:638
+msgid "Mark for upgrade"
+msgstr "Comharraich airson ùrachadh"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:640
+msgid "Mark for installation"
+msgstr "Comharraich airson stàlachadh"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:644
+msgid "More info"
+msgstr "Barrachd fiosrachaidh"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:776
+#, c-format
+msgid ""
+"One or more active %s may have been updated.  You probably need to restart "
+"Cinnamon for the changes to take effect"
+msgstr ""
+"Dh'fhaodadh gun deach aon no barrachd %s gnìomhaiche ag ùrachadh. 'S dòcha "
+"gum feum thu a dh'ath-thòiseachadh Cinnamon airson toirt na atharraichean gu "
+"buil"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:843
+#, c-format
+msgid ""
+"There are multiple instances of this %s, do you want to remove them all?\n"
+"\n"
+msgstr ""
+"Tha iomadach eisimpleirean den %s seo ann, Bheil thu ag iarraidh toirt iad "
+"às uile?\n"
+"\n"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:864
+#, c-format
+msgid "Are you sure you want to completely remove %s?"
+msgstr "Cinnteach gu bheil thu ag iarraidh dubhadh às \"%s\" gu lèir?"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:938
+#, c-format
+msgid ""
+"This operation will update %d installed %s.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"Ùraichidh an obrachaidh seo %d stàlaichte %s.\n"
+"\n"
+"Bheil thu ag iarraidh leantail?"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:953
+#, c-format
+msgid "%d updates available!"
+msgstr "%d ùrachaidhean ri fhaighinn!"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:955
+#, c-format
+msgid "%d update available!"
+msgstr "%d ùrachadh ri fhaighinn!"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:972
+#, c-format
+msgid ""
+"Some %s can be added multiple times.\n"
+"Use this to add another instance. Use panel edit mode to remove a single "
+"instance."
+msgstr ""
+"Gabhaidh cuid %s a chur ris iomadach turas.\n"
+"Cleachd seo a chur eisimpleir eile ris. Cleachd modh deasachaidh a' phannail "
+"a thoirt às aon eisimpleir"
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:983
+#, c-format
+msgid ""
+"\n"
+"This %s does not support multiple instances."
+msgstr ""
+"\n"
+"Chan eil an %s seo a' toirt taic do iomadach eisimpleirean."
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:985
+#, c-format
+msgid ""
+"\n"
+"This %s supports max %d instances."
+msgstr ""
+"\n"
+"Tha an %s seo a' toirt taic ri %d eisimpleirean aig an ìre as àirde."
+
+#: files/usr/lib/cinnamon-settings/bin/ExtensionCore.py:1027
+#, c-format
+msgid ""
+"This will restore the default set of enabled %s.  Are you sure you want to "
+"do this?"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/bin/eyedropper.py:13
+msgid ""
+"Click the eyedropper, then click a color anywhere on your screen to select "
+"that color"
+msgstr ""
+"Briog air pìobaid (eyedropper), nuairsin briog air dath an àite sam bith air "
+"do sgrìnn gus an dath sin a' taghadh"
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:103
+msgid "Applet info"
+msgstr "Fios aplaid"
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:107
+msgid "Select and Close"
+msgstr "Tagh agus Dùin"
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:183
+msgid "Downloading screenshot"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:246
+#, c-format
+msgid "Refreshing %s index..."
+msgstr "Ath-ùrachadh clar-amais %s..."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:277
+msgid ""
+"Something went wrong with the spices download.  Please try refreshing the "
+"list again."
+msgstr ""
+"Chaidh rudeigin ceàrr le luchdadh a-nuas Spice. Feuchaibh ath-ùrachadh an "
+"liosta a-rithist."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:280
+#, c-format
+msgid "Refreshing %s cache..."
+msgstr "Ath-ùrachadh tasgadan %s..."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:385
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:411
+#, c-format
+msgid "Installing %s..."
+msgstr "A' stàladh %s..."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:407
+#, c-format
+msgid "Installing translations for %s..."
+msgstr "A' stàladh eadar-theangaidhean airson %s..."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:413
+#, c-format
+msgid ""
+"Please enter your password to install the required settings schema for %s"
+msgstr ""
+"Cuiribh ur facal-faire a-steach a stàladh an sgeama suidheachaidhean "
+"riatanach airson %s"
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:421
+#, c-format
+msgid ""
+"Could not install the settings schema for %s.  You will have to perform this "
+"step yourself."
+msgstr ""
+"Cha b' urrainn stàladh an sgeama suidheachaidhean airson %s. Feumaidh tu "
+"dèanamh an ceum seo thu fèin."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:447
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:496
+#, c-format
+msgid ""
+"An error occurred during installation or updating.  You may wish to report "
+"this incident to the developer of %s.\n"
+"\n"
+"If this was an update, the previous installation is unchanged"
+msgstr ""
+"Thachair mearachd am fad stàlachadh no ùrachadh. 'S mathaid gu bheil am "
+"miann agad dèanamh iomradh air an tachartas don leasaichear de %s.\n"
+"\n"
+"Ma 's e ùrachaidh tha seo, tha an stàlachadh roimhe neo-atharraichte"
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:504
+#, c-format
+msgid "Uninstalling %s..."
+msgstr "A' dì-stàladh %s..."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:511
+#, c-format
+msgid "Please enter your password to remove the settings schema for %s"
+msgstr ""
+"Cuiribh ur facal-faire a-steach a thoirt an sgeama suidheachaidhean às "
+"airson %s"
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:518
+#, c-format
+msgid ""
+"Could not remove the settings schema for %s.  You will have to perform this "
+"step yourself.  This is not a critical error."
+msgstr ""
+"Cha b' urrainn toirt às an sgeama suidheachaidhean airson %s.  Feumaidh tu "
+"dèanamh an ceum seo thu fèin. Chan e mearachd èiginneach a tha seo."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:537
+#, c-format
+msgid "Problem uninstalling %s.  You may need to manually remove it."
+msgstr ""
+"Trioblaid dì-stàladh %s.  'S mathaid gum feum thu a thoirt às de làimh."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:592
+msgid ""
+"An error occurred while trying to access the server.  Please try again in a "
+"little while."
+msgstr ""
+"Thachair mearachd nuair a' feuchainn faighinn cothrom air an frithealaiche. "
+"Feuchaibh a-rithist ann am beagan ùine."
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:593
+msgid "Download aborted."
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/bin/Spices.py:688
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Details:  %s"
+msgstr ""
+"\n"
+"\n"
+"Mion-chunntas:  %s"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:46
+msgid "Back to list"
+msgstr "Air ais don liosta"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:47
+msgid "More actions..."
+msgstr "Barrachd gnìomhan..."
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:48
+#, c-format
+msgid "Remove the current instance of this %s"
+msgstr "Thoir às an eisimpleir cuartach den %s seo"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:49
+#, c-format
+msgid "Momentarily highlight the %s on your desktop"
+msgstr "Soillsich gu grad-ùineach an %s air do bhàrr-deasc"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:178
+#, c-format
+msgid "Instance %d"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:243
+msgid "Reset to defaults"
+msgstr "Ath-shuidhich gu bunaitean"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:248
+msgid "Import from a file"
+msgstr "Ion-phortaich bho faidhle"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:253
+msgid "Export to a file"
+msgstr "Às-phortaich gu faidhle"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:264
+msgid "Select a JSON file to import"
+msgstr "Tagh faidhle JSON a dh'ion-phortadh"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:271
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:291
+msgid "JSON files"
+msgstr "Faidhlichean JSON"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettings.py:283
+msgid "Select or enter file to export to"
+msgstr "Tagh no cuir faidhle a-steach a dh'às-phortadh"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:92
+msgid "Error saving file"
+msgstr "Mearachd a' sàbhaladh faidhle"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:93
+msgid "There was a problem exporting the file to the selected location."
+msgstr "Bha trioblaid ann às-phortadh am faidhle gu suidheachaidhean taghte."
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:105
+msgid "Error importing file"
+msgstr "Mearachd ion-phortadh faidhle."
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:106
+msgid ""
+"There was a problem importing the configuration file.\n"
+"Please check that it is a valid JSON file, and is appropriate for this "
+"applet/desklet/extension.\n"
+"The original configuration file is unchanged."
+msgstr ""
+"Bha trioblaid ann às-phortadh am faidhle rèiteachaidh.\n"
+"Sgrùd sibh am bheil faidhle JSON dligheach, agus am bheil e freagarrach "
+"airson an aplaid/aplaid-dheasc/leudachan.\n"
+"Tha am faidhle rèiteachaidh tùsail neo-atharraichte."
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:205
+msgid "Possible incompatible versions"
+msgstr "Tionndaidhean neo-fhreagarrach 's dòcha"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:209
+msgid ""
+"The MD5 tags for the file you are trying to import and the existing file do "
+"not match.\n"
+"This means the two files were generated by different versions of this "
+"applet, desklet or extension,\n"
+"or possibly from a different one entirely.  Continuing with this procedure "
+"could yield unpredictable results.\n"
+"\n"
+"Are you sure you want to proceed?"
+msgstr ""
+"Chan eil na tagaichean MD5 airson am faidhle a tha thu a' faighinn a dh'ion-"
+"phortadh agus am faidhle maireannach a' co-fhreagairt.\n"
+"Tha seo a' ciallachadh gu robh dà fhaidhle cruthaichte le tionndaidhean "
+"diofaraichte den h-aplaid, aplaid-dheasc no leudachan seo,\n"
+"no 's dòcha bhon fear gu tùr diofaraichte.  A leantail leis an dòigh seo 's "
+"mathaid gu buainear toraidhean caochlaideach.\n"
+"\n"
+"Cinnteach am bheil thu ag iarraidh leantail?"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:822
+msgid "Select a directory to use"
+msgstr "Tagh an t-eòlaire a chleachdadh"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:833
+msgid "Directories"
+msgstr "Eòlairean"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:906
+msgid "Choose an Icon"
+msgstr ""
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:913
+msgid "Image files"
+msgstr "Faidhlichean ìomhaighe"
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:1035
+msgid "  Press Escape or click again to cancel the operation."
+msgstr "  Brùth Esc. no briog a-rithist a chur dheth an obrachaidh."
+
+#: files/usr/lib/cinnamon-settings/bin/XletSettingsWidgets.py:1099
+msgid "<not set>"
+msgstr "<gun a stèidheachadh>"
+
+#: files/usr/lib/cinnamon-screensaver-lock-dialog/cinnamon-screensaver-lock-dialog.py:39
+msgid "Please type an away message for the lock screen"
+msgstr "Clò-sgrìobh sibh teachdaireachd fàlbh airson glasadh an sgrìn"
+
+#: files/usr/bin/cinnamon-launcher:15
+msgid "Do you want to restart Cinnamon?"
+msgstr "Bheil thu ag iarraidh Cinnamon a dh'ath-thòiseachadh?"
+
+#: files/usr/bin/cinnamon-launcher:15
+msgid "Cinnamon just crashed. You are currently running in Fallback Mode."
+msgstr ""
+"Thuislich Cinnamon an ceartair. Tha thu an dràsta a' ruith ann am modh cùl-"
+"taic."
+
+#. photoframe@cinnamon.org->settings-schema.json->shuffle->description
+msgid "Shuffle"
+msgstr "Measgaich"
+
+#. photoframe@cinnamon.org->settings-schema.json->fade-delay->description
+msgid "Fade delay:"
+msgstr "Dàil air crìonadh:"
+
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. photoframe@cinnamon.org->settings-schema.json->fade-delay->units
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. photoframe@cinnamon.org->settings-schema.json->delay->units
+msgid "seconds"
+msgstr "diogan"
+
+#. photoframe@cinnamon.org->settings-schema.json->effect->description
+msgid "Special effect:"
+msgstr "Buaidh àraid:"
+
+#. photoframe@cinnamon.org->settings-schema.json->effect->options
+msgid "Sepia"
+msgstr "Sepia"
+
+#. photoframe@cinnamon.org->settings-schema.json->effect->options
+msgid "Black and White"
+msgstr "Dubh agus geal"
+
+#. photoframe@cinnamon.org->settings-schema.json->height->description
+msgid "Height:"
+msgstr "Àirde:"
+
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. photoframe@cinnamon.org->settings-schema.json->height->units
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. photoframe@cinnamon.org->settings-schema.json->width->units
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. settings-example@cinnamon.org->settings-schema.json->spinner-number->units
+msgid "pixels"
+msgstr "piogsailean"
+
+#. photoframe@cinnamon.org->settings-schema.json->delay->description
+msgid "Delay:"
+msgstr "Dàil:"
+
+#. photoframe@cinnamon.org->settings-schema.json->width->description
+msgid "Width:"
+msgstr "Leud:"
+
+#. photoframe@cinnamon.org->settings-schema.json->directory->description
+msgid "Folder:"
+msgstr "Pasgan:"
+
+#. photoframe@cinnamon.org->settings-schema.json->quality->description
+msgid "Image quality:"
+msgstr "Càileachd na h-ìomhaighe"
+
+#. clock@cinnamon.org->settings-schema.json->font-size->description
+msgid "Font size:"
+msgstr "Meud a' chruth-chlò:"
+
+#. clock@cinnamon.org->settings-schema.json->font-size->units
+msgid " "
+msgstr ""
+
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. clock@cinnamon.org->settings-schema.json->use-custom-format->description
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. calendar@cinnamon.org->settings-schema.json->use-custom-format->description
+msgid "Use a custom date format"
+msgstr ""
+
+#. clock@cinnamon.org->settings-schema.json->use-custom-format->tooltip
+msgid ""
+"Check this to define a custom format for the time in the clock desklet."
+msgstr ""
+
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. clock@cinnamon.org->settings-schema.json->date-format->description
+#. #-#-#-#-#  cinnamon-json.pot  #-#-#-#-#
+#. calendar@cinnamon.org->settings-schema.json->custom-format->description
+msgid "Date format:"
+msgstr "Fòrmat an ceann-latha:"
+
+#. calendar@cinnamon.org->settings-schema.json->use-custom-format->tooltip
+msgid ""
+"Check this to define a custom format for the date in the calendar applet."
+msgstr ""
+
+#. calendar@cinnamon.org->settings-schema.json->format-button->description
+msgid "Show information on date format syntax"
+msgstr ""
+
+#. calendar@cinnamon.org->settings-schema.json->format-button->tooltip
+msgid "Click this button to know more about the syntax for date formats."
+msgstr ""
+
+#. calendar@cinnamon.org->settings-schema.json->show-week-numbers->description
+msgid "Show week numbers in calendar"
+msgstr "Foillsich àireamhan seachdainn sa mhìosachan"
+
+#. calendar@cinnamon.org->settings-schema.json->show-week-numbers->tooltip
+msgid "Check this to show week numbers in the calendar."
+msgstr ""
+
+#. calendar@cinnamon.org->settings-schema.json->custom-format->tooltip
+msgid "Set your custom format here."
+msgstr ""
+
+#. power@cinnamon.org->settings-schema.json->labelinfo->options
+msgid "Hide label"
+msgstr ""
+
+#. power@cinnamon.org->settings-schema.json->labelinfo->options
+msgid "Show time remaining"
+msgstr ""
+
+#. power@cinnamon.org->settings-schema.json->labelinfo->options
+msgid "Show percentage and time remaining"
+msgstr ""
+
+#. power@cinnamon.org->settings-schema.json->labelinfo->options
+msgid "Show percentage"
+msgstr ""
+
+#. sound@cinnamon.org->settings-schema.json->hideSystray->description
+msgid "Hide system tray icons for compatible players"
+msgstr ""
+
+#. sound@cinnamon.org->settings-schema.json->showtrack->description
+msgid "Show song information on the panel"
+msgstr ""
+
+#. sound@cinnamon.org->settings-schema.json->showalbum->description
+msgid "Show album art as icon"
+msgstr ""
+
+#. sound@cinnamon.org->settings-schema.json->truncatetext->description
+msgid "Limit song information to"
+msgstr ""
+
+#. sound@cinnamon.org->settings-schema.json->truncatetext->units
+msgid "characters"
+msgstr ""
+
+#. user@cinnamon.org->settings-schema.json->display-name->description
+msgid "Display user name on panel"
+msgstr ""
+
+#. menu@cinnamon.org->settings-schema.json->menu-editor-button->description
+msgid "Open the menu editor"
+msgstr ""
+
+#. menu@cinnamon.org->settings-schema.json->menu-editor-button->tooltip
+msgid "Press this button to customize your menu entries."
+msgstr ""
+
+#. menu@cinnamon.org->settings-schema.json->menu-icon-custom->description
+msgid "Use a custom icon"
+msgstr ""
+
+#. menu@cinnamon.org->settings-schema.json->menu-icon-custom->tooltip
+msgid "Unchecking this allows the theme to set the icon"
+msgstr ""
+
+#. menu@cinnamon.org->settings-schema.json->show-recent->description
+msgid "Show recent files"
+msgstr "Foillsich faidhlichean o chionn ghoirid"
+
+#. menu@cinnamon.org->settings-schema.json->show-recent->tooltip
+msgid "Choose whether or not to show a recent file list in the menu."
+msgstr ""
+
+#. menu@cinnamon.org->settings-schema.json->hover-delay->description
+msgid "Menu hover delay:"
+msgstr ""
+
+#. menu@cinnamon.org->settings-schema.json->hover-delay->tooltip
+msgid "Delay between switching categories"
+msgstr ""
+
+#. menu@cinnamon.org->settings-schema.json->search-filesystem->description
+msgid "Enable filesystem path entry in search box"
+msgstr ""
+"Cuir an comas an t-slighe innteart an t-siostaim-faidhle sa bhogsa siridh"
+
+#. menu@cinnamon.org->settings-schema.json->search-filesystem->tooltip
+msgid "Allows path entry in the menu search box."
+msgstr ""
+
+#. menu@cinnamon.org->settings-schema.json->menu-icon->description
+msgid "Icon"
+msgstr "Ìomhaigheag"
+
+#. menu@cinnamon.org->settings-schema.json->menu-icon->tooltip
+msgid "Select an icon to show in the panel."
+msgstr ""
+
+#. menu@cinnamon.org->settings-schema.json->menu-label->tooltip
+msgid "Enter custom text to show in the panel."
+msgstr ""
+
+#. menu@cinnamon.org->settings-schema.json->activate-on-hover->description
+msgid "Open the menu when I move my mouse over it"
+msgstr ""
+
+#. menu@cinnamon.org->settings-schema.json->activate-on-hover->tooltip
+msgid "Enable opening the menu when the mouse enters the applet"
+msgstr ""
+
+#. menu@cinnamon.org->settings-schema.json->enable-autoscroll->description
+msgid "Enable autoscrolling in application list"
+msgstr ""
+
+#. menu@cinnamon.org->settings-schema.json->enable-autoscroll->tooltip
+msgid ""
+"Choose whether or not to enable smooth autoscrolling in the application list."
+msgstr ""
+
+#. menu@cinnamon.org->settings-schema.json->show-places->description
+msgid "Show bookmarks and places"
+msgstr "Foillsich comharran-lìn agus àitichean"
+
+#. menu@cinnamon.org->settings-schema.json->show-places->tooltip
+msgid "Choose whether or not to show bookmarks and places in the menu."
+msgstr ""
+
+#. settings-example@cinnamon.org->settings-schema.json->head->description
+msgid "First Section"
+msgstr "A' chiad earrainn"
+
+#. settings-example@cinnamon.org->settings-schema.json->custom-
+#. label->description
+msgid "Custom Applet Label:"
+msgstr "Bileag aplaide gnàiths:"
+
+#. settings-example@cinnamon.org->settings-schema.json->custom-label->tooltip
+msgid ""
+"Set your custom label here.  This field is unavailable unless the checkbox "
+"above is enabled"
+msgstr ""
+"Stèidhich do bhileag gnàtha an-seo. Tha an raon seo neo-tharbhach mur eil am "
+"bogsa-cromaige a chur an comas"
+
+#. settings-example@cinnamon.org->settings-schema.json->head1->description
+msgid "Here's a new section"
+msgstr "Seo earrann ùr"
+
+#. settings-example@cinnamon.org->settings-schema.json->color->description
+msgid "The background color for the applet:"
+msgstr "Dath a' chùl-ionad airson an aplaid:"
+
+#. settings-example@cinnamon.org->settings-schema.json->color->tooltip
+msgid "Click the button to select a new background color for this applet"
+msgstr "Briog am putan a thaghadh dath a' chùl-ionad ùr airson an aplaid seo"
+
+#. settings-example@cinnamon.org->settings-schema.json->icon-name->description
+msgid "The icon to use in the panel:"
+msgstr "An ìomhaigh a chleachdadh sa phannal:"
+
+#. settings-example@cinnamon.org->settings-schema.json->icon-name->tooltip
+msgid "Select an icon file, or you can type an icon name into the entry box"
+msgstr ""
+"Tagh faidhle ìomhaighe, no faodaidh tu clò-sgrìobhadh ainm ìomhaighe a-"
+"steach dhan bhogsa eintridh"
+
+#. settings-example@cinnamon.org->settings-schema.json->combo-
+#. selection->description
+msgid "Please pick an option:"
+msgstr "Tagh sibh roghainn:"
+
+#. settings-example@cinnamon.org->settings-schema.json->combo-
+#. selection->tooltip
+msgid ""
+"A combo selection can select between int, boolean, float, and string values"
+msgstr ""
+"Faodaidh roghainn co-chòmhlan taghadh eadar luachan int, boolean, flod / "
+"float, agus sreang / string"
+
+#. settings-example@cinnamon.org->settings-schema.json->combo-
+#. selection->options
+msgid "Second Choice"
+msgstr "An dàrna roghainn"
+
+#. settings-example@cinnamon.org->settings-schema.json->combo-
+#. selection->options
+msgid "Fourth Choice"
+msgstr "An ceathramh roghainn"
+
+#. settings-example@cinnamon.org->settings-schema.json->combo-
+#. selection->options
+msgid "Third Choice"
+msgstr "An treas roghainn"
+
+#. settings-example@cinnamon.org->settings-schema.json->combo-
+#. selection->options
+msgid "First Choice"
+msgstr "A' chiad roghainn"
+
+#. settings-example@cinnamon.org->settings-schema.json->keybinding-
+#. test->description
+msgid "Set the keybinding here to activate an action: "
+msgstr "Stèidhich nasgadh-iuchair an-seo a chur an comas an gnìomh: "
+
+#. settings-example@cinnamon.org->settings-schema.json->scale-
+#. demo->description
+msgid "Here is a demonstration of bidirectional control:"
+msgstr "Seo taisbeanadh de smachd dà-chomhaireach:"
+
+#. settings-example@cinnamon.org->settings-schema.json->scale-demo->tooltip
+msgid ""
+"If you adjust this scale, it updates in the applet.  If you adjust the scale "
+"in the applet, it updates here"
+msgstr ""
+"Ma rèiticheas tu an sgèile seo, tha e ag ùrachadh san aplaide. Ma rèiticheas "
+"tu an sgèile san aplaid, ùraichidh an-seo."
+
+#. settings-example@cinnamon.org->settings-schema.json->demo-
+#. button->description
+msgid "Don't Press This Button!!!"
+msgstr "Na brùth am putan seo!!!"
+
+#. settings-example@cinnamon.org->settings-schema.json->demo-button->tooltip
+msgid ""
+"Pressing this button activates a callback method in the applet - go ahead, "
+"press it."
+msgstr ""
+"Cuiridh a’ brùthadh am putan seo an gnìomh an dòigh freagair air ais "
+"(callback) san aplaide - lean ort, brùth e."
+
+#. settings-example@cinnamon.org->settings-schema.json->signal-
+#. test->description
+msgid "This is a test widget for individual key signal firing"
+msgstr ""
+"‘S e widget dearbhadh a tha an-seo airson a’ losgadh comharra iuchair fa leth"
+
+#. settings-example@cinnamon.org->settings-schema.json->use-custom-
+#. label->description
+msgid "Check this to use a custom label:"
+msgstr "Comharraich seo gus bileag gnàiths a chleachd:"
+
+#. settings-example@cinnamon.org->settings-schema.json->use-custom-
+#. label->tooltip
+msgid ""
+"Checking this box allows you to set a custom label in the field below - this "
+"demonstrates setting dependencies"
+msgstr ""
+"Tha a’ cur cromaige sa bhogsa seo gad cheadachadh a stèidhich bileag gnàtha "
+"san raon gu ìseal - tha seo a taisbean a’ stèidheachadh eisimeileachdan"
+
+#. settings-example@cinnamon.org->settings-schema.json->spinner-
+#. number->description
+msgid "Applet width in the panel:"
+msgstr "Leud aplaide sa phannal:"
+
+#. settings-example@cinnamon.org->settings-schema.json->spinner-
+#. number->tooltip
+msgid ""
+"Increase or decrease this spinner value to make the applet wider or narrower "
+"in the panel"
+msgstr ""
+"Meudaich no lùghdaich luach an snìomhair seo a dhèanamh an aplaid nas "
+"fharsaing no nas coile sa phannal"
+
+#. notifications@cinnamon.org->settings-
+#. schema.json->ignoreTransientNotifications->description
+msgid "Ignore transient notifications"
+msgstr ""
+
+#. spacer@cinnamon.org->settings-schema.json->width->description
+msgid "Amount of space in pixels"
+msgstr "An uimhir spàs an am piogsailean"
+
+#. spacer@cinnamon.org->settings-schema.json->width->tooltip
+msgid "Adjust this to increase or decrease the width of this spacer"
+msgstr "Rèitich seo gus leud an sgaradair seo a mheudachadh no a lùghdachadh"
+
+#. scale@cinnamon.org->settings-schema.json->activate-on-hover->description
+msgid "Activate scale on hover"
+msgstr "Air fan os cionn cuir an comas sgèile"
+
+#. keyboard@cinnamon.org->settings-schema.json->use-flags->description
+msgid "Use flags to display keyboard layouts"
+msgstr "Cleachd brataichean a thaisbeanadh co-dhealbhachd a' mheur-chlàir"
+
+#. expo@cinnamon.org->settings-schema.json->activate-on-hover->description
+msgid "Activate expo on hover"
+msgstr "Air fan os cionn cuir an comas expo"

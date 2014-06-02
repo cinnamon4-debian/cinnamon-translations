@@ -1,0 +1,2362 @@
+# Ukrainian translation of control-center.
+# Copyright (C) 1999 Free Software Foundation, Inc.
+# Yuri Syrota <rasta@renome.rovno.ua>, 1999.
+# Maxim Dzumanenko <dziumanenko@gmail.com>, 2002-2009
+# Wanderlust <wanderlust@ukr.net>, 2009.
+# Korostil Daniel <ted.korostiled@gmail.com>, 2011, 2012.
+# Re. <ted.korostiled@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: cinnamon-control-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-29 10:54+0000\n"
+"PO-Revision-Date: 2014-05-10 10:31+0000\n"
+"Last-Translator: Kondrashyn Artem <judgedredad@meta.ua>\n"
+"Language-Team: linux.org.ua\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2014-05-25 11:54+0000\n"
+"X-Generator: Launchpad (build 17017)\n"
+"X-Project-Style: gnome\n"
+"Language: uk\n"
+
+#: panels/color/cc-color-panel.c:106
+msgid "Other profile…"
+msgstr "Інший профіль…"
+
+#: panels/color/cc-color-panel.c:119
+msgid "Default: "
+msgstr "Типовий: "
+
+#: panels/color/cc-color-panel.c:126
+msgid "Colorspace: "
+msgstr "Простір кольорів: "
+
+#: panels/color/cc-color-panel.c:132
+msgid "Test profile: "
+msgstr "Тестовий профіль "
+
+#: panels/color/cc-color-panel.c:185 panels/color/color.ui.h:11
+msgid "Set for all users"
+msgstr "Вказати для всіх користувачів"
+
+#: panels/color/cc-color-panel.c:192
+msgid "Create virtual device"
+msgstr "Створити віртуальний пристрій"
+
+#: panels/color/cc-color-panel.c:227
+msgid "Select ICC Profile File"
+msgstr "Виберіть файл профілю ICC"
+
+#: panels/color/cc-color-panel.c:230
+msgid "_Import"
+msgstr "_Імпортувати"
+
+#: panels/color/cc-color-panel.c:241
+msgid "Supported ICC profiles"
+msgstr "Підтримувані профілі ICC"
+
+#: panels/color/cc-color-panel.c:248
+msgid "All files"
+msgstr "Усі файли"
+
+#: panels/color/cc-color-panel.c:638
+msgid "Available Profiles for Displays"
+msgstr "Доступні профілі для екранів"
+
+#: panels/color/cc-color-panel.c:642
+msgid "Available Profiles for Scanners"
+msgstr "Доступні профілі для сканерів"
+
+#: panels/color/cc-color-panel.c:646
+msgid "Available Profiles for Printers"
+msgstr "Доступні профілі для принтерів"
+
+#: panels/color/cc-color-panel.c:650
+msgid "Available Profiles for Cameras"
+msgstr "Доступні профілі для камер"
+
+#: panels/color/cc-color-panel.c:654
+msgid "Available Profiles for Webcams"
+msgstr "Доступні профілі для веб-камер"
+
+#: panels/color/cc-color-panel.c:659 panels/color/color.ui.h:2
+msgid "Available Profiles"
+msgstr "Доступні профілі"
+
+#: panels/color/cc-color-panel.c:935 panels/sound/gvc-mixer-dialog.c:1523
+#: panels/sound-nua/gvc-mixer-dialog.c:1600
+msgid "Device"
+msgstr "Пристрій"
+
+#: panels/color/cc-color-panel.c:970
+msgid "Calibration"
+msgstr "Калібрування"
+
+#: panels/color/cc-color-panel.c:1002
+msgid "Create a color profile for the selected device"
+msgstr "Створити профіль кольорів для вибраного пристрою"
+
+#: panels/color/cc-color-panel.c:1016 panels/color/cc-color-panel.c:1040
+msgid ""
+"The measuring instrument is not detected. Please check it is turned on and "
+"correctly connected."
+msgstr ""
+"Інструмент міри не виявлено. Будь ласка, перевірте, чи це ввімкнено й "
+"правильно з'єднано."
+
+#: panels/color/cc-color-panel.c:1049
+msgid "The measuring instrument does not support printer profiling."
+msgstr "Інструмент міри не підтримує профілювання принтерів."
+
+#: panels/color/cc-color-panel.c:1060
+msgid "The device type is not currently supported."
+msgstr "Цей тип пристрою не підтримується."
+
+#: panels/color/cc-color-panel.c:1132
+msgid "Cannot remove automatically added profile"
+msgstr "Неможливо вилучити автоматично доданий профіль"
+
+#: panels/color/cc-color-panel.c:1463
+msgid "No profile"
+msgstr "Немає профілю"
+
+#: panels/color/cc-color-panel.c:1494
+#, c-format
+msgid "%i year"
+msgid_plural "%i years"
+msgstr[0] "%i рік"
+msgstr[1] "%i роки"
+msgstr[2] "%i років"
+
+#: panels/color/cc-color-panel.c:1505
+#, c-format
+msgid "%i month"
+msgid_plural "%i months"
+msgstr[0] "%i місяць"
+msgstr[1] "%i місяці"
+msgstr[2] "%i місяців"
+
+#: panels/color/cc-color-panel.c:1516
+#, c-format
+msgid "%i week"
+msgid_plural "%i weeks"
+msgstr[0] "%i тиждень"
+msgstr[1] "%i тижні"
+msgstr[2] "%i тижнів"
+
+#: panels/color/cc-color-panel.c:1523
+msgid "Less than 1 week"
+msgstr "Менше за тиждень"
+
+#: panels/color/cc-color-panel.c:1713 panels/color/cc-color-panel.c:1754
+#: panels/color/cc-color-panel.c:1765 panels/color/cc-color-panel.c:1776
+msgid "Uncalibrated"
+msgstr "Некалібрований"
+
+#: panels/color/cc-color-panel.c:1716
+msgid "This device is not color managed."
+msgstr "Цей пристрій не керується кольорами."
+
+#: panels/color/cc-color-panel.c:1757
+msgid "This device is using manufacturing calibrated data."
+msgstr "Цей пристрій використовує вироблення каліброваних даних."
+
+#: panels/color/cc-color-panel.c:1768
+msgid ""
+"This device does not have a profile suitable for whole-screen color "
+"correction."
+msgstr ""
+"Цей пристрій не має профілю зручного для повноекранної кольорокорекції."
+
+#: panels/color/cc-color-panel.c:1801
+msgid "This device has an old profile that may no longer be accurate."
+msgstr "Цей пристрій має старий профіль, який більше не є точним."
+
+#: panels/color/cc-color-panel.c:1829
+msgid "Not specified"
+msgstr "Не вказано"
+
+#: panels/color/cc-color-panel.c:2014
+msgid "No devices supporting color management detected"
+msgstr "Не виявлено пристрою, який би підтримував керування кольорами"
+
+#: panels/common/cc-common-language.c:533
+msgid "English"
+msgstr "Англійська"
+
+#: panels/common/cc-common-language.c:535
+msgid "British English"
+msgstr "Англійська (Великобританія)"
+
+#: panels/common/cc-common-language.c:538
+msgid "German"
+msgstr "Німецька"
+
+#: panels/common/cc-common-language.c:541
+msgid "French"
+msgstr "Французька"
+
+#: panels/common/cc-common-language.c:544
+msgid "Spanish"
+msgstr "Іспанська"
+
+#: panels/common/cc-common-language.c:546
+msgid "Chinese (simplified)"
+msgstr "Китайська (спрощена)"
+
+#: panels/common/cc-common-language.c:549
+msgid "Russian"
+msgstr "Російська"
+
+#: panels/common/cc-common-language.c:552
+msgid "Arabic"
+msgstr "Арабська"
+
+#: panels/common/cc-common-language.c:580
+msgid "United States"
+msgstr "Сполучені Штати"
+
+#: panels/common/cc-common-language.c:581
+msgid "Germany"
+msgstr "Німеччина"
+
+#: panels/common/cc-common-language.c:582
+msgid "France"
+msgstr "Франція"
+
+#: panels/common/cc-common-language.c:583
+msgid "Spain"
+msgstr "Іспанія"
+
+#: panels/common/cc-common-language.c:584
+msgid "China"
+msgstr "Китай"
+
+#: panels/common/cc-language-chooser.c:304
+msgid "Select a region"
+msgstr "Вибрати регіон"
+
+#: panels/common/gdm-languages.c:781
+msgid "Unspecified"
+msgstr "Не вказано"
+
+#: panels/display/cc-display-panel.c:624 panels/display/cc-rr-labeler.c:449
+msgid "Mirrored Displays"
+msgstr "Дзеркальні екрани"
+
+#: panels/display/cc-display-panel.c:648 panels/display/display-capplet.ui.h:1
+msgid "Monitor"
+msgstr "Монітор"
+
+#: panels/display/cc-display-panel.c:752
+#, c-format
+msgid "%d x %d (%s)"
+msgstr "%d x %d (%s)"
+
+#: panels/display/cc-display-panel.c:754
+#, c-format
+msgid "%d x %d"
+msgstr "%d x %d"
+
+#: panels/display/cc-display-panel.c:1666
+msgid ""
+"Select a monitor to change its properties; drag it to rearrange its "
+"placement."
+msgstr ""
+"Виберіть монітор для зміни його параметрів; перетягніть його для зміни його "
+"розташування."
+
+#: panels/display/cc-display-panel.c:2185
+#: panels/display/cc-display-panel.c:2237
+#, c-format
+msgid "Failed to apply configuration: %s"
+msgstr "Не вдалося застосувати налаштування: %s"
+
+#: panels/display/cc-display-panel.c:2265
+msgid "Could not save the monitor configuration"
+msgstr "Не вдалось зберегти налаштування монітора"
+
+#: panels/display/cc-display-panel.c:2325
+msgid "Could not detect displays"
+msgstr "Не вдалось визначити екрани"
+
+#: panels/display/cc-display-panel.c:2533
+msgid "Could not get screen information"
+msgstr "Не вдалось отримати інформацію про екран"
+
+#: panels/network/cc-network-panel.c:661
+msgid "Network proxy"
+msgstr "Мережева проксі"
+
+#: panels/network/cc-network-panel.c:853 panels/network/net-vpn.c:278
+#, c-format
+msgid "%s VPN"
+msgstr "%s VPN"
+
+#: panels/network/cc-network-panel.c:920
+msgid "The system network services are not compatible with this version."
+msgstr "Служби системної мережі несумісні з цією версією."
+
+#: panels/network/cc-network-panel.c:1108
+msgid "Air_plane Mode"
+msgstr "Режим у _літаку"
+
+#: panels/network/net-device-mobile.c:222
+msgid "Add new connection"
+msgstr "Додати нове з'єднання"
+
+#: panels/network/net-device-mobile.c:261 panels/network/net-device-wifi.c:725
+#: panels/network/net-device-wired.c:126
+#, c-format
+msgid "%d Mb/s"
+msgstr "%d Мб/с"
+
+#: panels/network/net-device-wifi.c:258 panels/network/net-device-wifi.c:437
+msgid "WEP"
+msgstr "WEP"
+
+#: panels/network/net-device-wifi.c:262 panels/network/net-device-wifi.c:441
+msgid "WPA"
+msgstr "WPA"
+
+#: panels/network/net-device-wifi.c:266
+msgid "WPA2"
+msgstr "WPA2"
+
+#: panels/network/net-device-wifi.c:271
+msgid "Enterprise"
+msgstr "Enterprise"
+
+#: panels/network/net-device-wifi.c:652
+msgid "never"
+msgstr "ніколи"
+
+#: panels/network/net-device-wifi.c:662
+msgid "today"
+msgstr "сьогодні"
+
+#: panels/network/net-device-wifi.c:664
+msgid "yesterday"
+msgstr "вчора"
+
+#: panels/network/net-device-wifi.c:666
+#, c-format
+msgid "%i day ago"
+msgid_plural "%i days ago"
+msgstr[0] "%i день тому"
+msgstr[1] "%i дні тому"
+msgstr[2] "%i днів тому"
+
+#: panels/network/net-device-wifi.c:735 panels/network/panel-common.c:277
+msgid "Not connected"
+msgstr "Не з'єднано"
+
+#: panels/network/net-device-wifi.c:737 panels/network/net-device-wifi.c:2108
+msgid "Out of range"
+msgstr "Поза діапазоном"
+
+#: panels/network/net-device-wifi.c:960
+#, c-format
+msgid ""
+"Network details for %s including password and any custom configuration will "
+"be lost."
+msgstr ""
+"Подробиці мережі для %s, зокрема пароль і власні налаштування буде втрачено"
+
+#: panels/network/net-device-wifi.c:971
+msgid "Forget"
+msgstr "Забути"
+
+#: panels/network/net-device-wifi.c:1554
+msgid ""
+"If you have a connection to the Internet other than wireless, you can use it "
+"to share your internet connection with others."
+msgstr ""
+"Якщо у вас є з'єднання з інтернетом відмінне від бездротового, можете "
+"скористатись цим, щоб поділитись вашим з'єднанням з іншими."
+
+#: panels/network/net-device-wifi.c:1558
+#, c-format
+msgid "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+msgstr "Перемикання на бездротову гарячу точку роз'єднає вас з <b>%s</b>."
+
+#: panels/network/net-device-wifi.c:1562
+msgid ""
+"It is not possible to access the internet through your wireless while the "
+"hotspot is active."
+msgstr ""
+"Неможливо доступитись до інтернету через бездротову мережу, коли гарячу "
+"точку ввімкнено."
+
+#: panels/network/net-device-wifi.c:1636
+msgid "Stop hotspot and disconnect any users?"
+msgstr "Зупинити гарячу точку й від'єднати користувачів?"
+
+#: panels/network/net-device-wifi.c:1639
+msgid "_Stop Hotspot"
+msgstr "_Зупинити гарячу точку"
+
+#: panels/network/net-proxy.c:67
+msgid ""
+"Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+msgstr ""
+"Коли URL налаштувань не надається, використовується автоматичне виявлення "
+"проксі."
+
+#: panels/network/net-proxy.c:75
+msgid "This is not recommended for untrusted public networks."
+msgstr "Це не рекомендовано для ненадійних прилюдних мереж."
+
+#: panels/network/net-proxy.c:368
+msgid "Proxy"
+msgstr "Проксі"
+
+#: panels/network/panel-common.c:82 panels/network/panel-common.c:162
+msgid "Unknown"
+msgstr "Невідома"
+
+#: panels/network/panel-common.c:86
+msgid "Wired"
+msgstr "Дротовий"
+
+#: panels/network/panel-common.c:90 panels/network/network-wifi.ui.h:3
+msgid "Wireless"
+msgstr "Бездротовий"
+
+#: panels/network/panel-common.c:97
+msgid "Mobile broadband"
+msgstr "Мобільна радіомережа"
+
+#: panels/network/panel-common.c:102
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: panels/network/panel-common.c:106
+msgid "Mesh"
+msgstr "Сітка"
+
+#: panels/network/panel-common.c:166
+msgid "Ad-hoc"
+msgstr "Спеціальне"
+
+#: panels/network/panel-common.c:170
+msgid "Infrastructure"
+msgstr "Інфраструктура"
+
+#: panels/network/panel-common.c:194 panels/network/panel-common.c:255
+msgid "Status unknown"
+msgstr "Стан невідомий"
+
+#: panels/network/panel-common.c:198
+msgid "Unmanaged"
+msgstr "Некерований"
+
+#: panels/network/panel-common.c:203
+msgid "Firmware missing"
+msgstr "Бракує мікропрограми"
+
+#: panels/network/panel-common.c:206
+msgid "Cable unplugged"
+msgstr "Кабель від'єднано"
+
+#: panels/network/panel-common.c:208
+msgid "Unavailable"
+msgstr "Недоступний"
+
+#: panels/network/panel-common.c:212
+msgid "Disconnected"
+msgstr "Від'єднаний"
+
+#: panels/network/panel-common.c:219 panels/network/panel-common.c:261
+msgid "Connecting"
+msgstr "З'єднання"
+
+#: panels/network/panel-common.c:223 panels/network/panel-common.c:265
+msgid "Authentication required"
+msgstr "Потрібна автентифікація"
+
+#: panels/network/panel-common.c:227 panels/network/panel-common.c:269
+msgid "Connected"
+msgstr "З'єднано"
+
+#: panels/network/panel-common.c:231
+msgid "Disconnecting"
+msgstr "Від'єднання"
+
+#: panels/network/panel-common.c:235 panels/network/panel-common.c:273
+msgid "Connection failed"
+msgstr "Не вдалось з'єднатись"
+
+#: panels/network/panel-common.c:239 panels/network/panel-common.c:281
+msgid "Status unknown (missing)"
+msgstr "Стан невідомий (немає)"
+
+#: panels/network/panel-common.c:301
+msgid "Configuration failed"
+msgstr "Не вдалося налаштувати"
+
+#: panels/network/panel-common.c:305
+msgid "IP configuration failed"
+msgstr "Не вдалося налаштувати IP"
+
+#: panels/network/panel-common.c:309
+msgid "IP configuration expired"
+msgstr "Налаштування IP застаріли"
+
+#: panels/network/panel-common.c:313
+msgid "Secrets were required, but not provided"
+msgstr "Таємниці є обов'язковими, проте їх не надано"
+
+#: panels/network/panel-common.c:317
+msgid "802.1x supplicant disconnected"
+msgstr "Шукача 802.1x від'єднано"
+
+#: panels/network/panel-common.c:321
+msgid "802.1x supplicant configuration failed"
+msgstr "Не вдалося налаштувати шукач 802.1x"
+
+#: panels/network/panel-common.c:325
+msgid "802.1x supplicant failed"
+msgstr "Помилка шукача 802.1x"
+
+#: panels/network/panel-common.c:329
+msgid "802.1x supplicant took too long to authenticate"
+msgstr "Шукач 802.1x забрав надто багато часу для автентифікації"
+
+#: panels/network/panel-common.c:333
+msgid "PPP service failed to start"
+msgstr "Не вдалося запустити службу PPP"
+
+#: panels/network/panel-common.c:337
+msgid "PPP service disconnected"
+msgstr "Службу PPP від'єднано"
+
+#: panels/network/panel-common.c:341
+msgid "PPP failed"
+msgstr "Помилка PPP"
+
+#: panels/network/panel-common.c:345
+msgid "DHCP client failed to start"
+msgstr "Не вдалося запустити клієнт DHCP"
+
+#: panels/network/panel-common.c:349
+msgid "DHCP client error"
+msgstr "Помилка клієнта DHCP"
+
+#: panels/network/panel-common.c:353
+msgid "DHCP client failed"
+msgstr "Помилка роботи клієнта DHCP"
+
+#: panels/network/panel-common.c:357
+msgid "Shared connection service failed to start"
+msgstr "Не вдалося запустити службу спільного з'єднання"
+
+#: panels/network/panel-common.c:361
+msgid "Shared connection service failed"
+msgstr "Помилка роботи служби спільного з'єднання"
+
+#: panels/network/panel-common.c:365
+msgid "AutoIP service failed to start"
+msgstr "Не вдалося запустити службу AutoIP"
+
+#: panels/network/panel-common.c:369
+msgid "AutoIP service error"
+msgstr "Помилка служби AutoIP"
+
+#: panels/network/panel-common.c:373
+msgid "AutoIP service failed"
+msgstr "Помилка роботи служби AutoIP"
+
+#: panels/network/panel-common.c:377
+msgid "Line busy"
+msgstr "Лінію зайнято"
+
+#: panels/network/panel-common.c:381
+msgid "No dial tone"
+msgstr "Немає гудка"
+
+#: panels/network/panel-common.c:385
+msgid "No carrier could be established"
+msgstr "Неможливо встановити жодного носія"
+
+#: panels/network/panel-common.c:389
+msgid "Dialing request timed out"
+msgstr "Час очікування набирання збіг"
+
+#: panels/network/panel-common.c:393
+msgid "Dialing attempt failed"
+msgstr "Не вдала спроба набирання номеру"
+
+#: panels/network/panel-common.c:397
+msgid "Modem initialization failed"
+msgstr "Не вдалося запустити модем"
+
+#: panels/network/panel-common.c:401
+msgid "Failed to select the specified APN"
+msgstr "Не вдалось вибрати вказаний APN"
+
+#: panels/network/panel-common.c:405
+msgid "Not searching for networks"
+msgstr "Немає пошуку мереж"
+
+#: panels/network/panel-common.c:409
+msgid "Network registration denied"
+msgstr "Реєстрацію мережі заборонено"
+
+#: panels/network/panel-common.c:413
+msgid "Network registration timed out"
+msgstr "Час реєстрації мережі вичерпано"
+
+#: panels/network/panel-common.c:417
+msgid "Failed to register with the requested network"
+msgstr "Не вдалось зареєструватись з мережею"
+
+#: panels/network/panel-common.c:421
+msgid "PIN check failed"
+msgstr "Не вдалось перевірити PIN"
+
+#: panels/network/panel-common.c:425
+msgid "Firmware for the device may be missing"
+msgstr "Може бракувати мікропрограми для пристрою"
+
+#: panels/network/panel-common.c:429
+msgid "Connection disappeared"
+msgstr "З'єднання зникло"
+
+#: panels/network/panel-common.c:433
+msgid "Carrier/link changed"
+msgstr "Носій/сполучення змінено"
+
+#: panels/network/panel-common.c:437
+msgid "Existing connection was assumed"
+msgstr "Наявне з'єднання вигадано"
+
+#: panels/network/panel-common.c:441
+msgid "Modem not found"
+msgstr "Не знайдено модему"
+
+#: panels/network/panel-common.c:445
+msgid "Bluetooth connection failed"
+msgstr "Не вдалось з'єднатись з Bluetooth"
+
+#: panels/network/panel-common.c:449
+msgid "SIM Card not inserted"
+msgstr "Не вставлено картки SIM"
+
+#: panels/network/panel-common.c:453
+msgid "SIM Pin required"
+msgstr "Потрібно SIM Pin"
+
+#: panels/network/panel-common.c:457
+msgid "SIM Puk required"
+msgstr "Потрібно SIM Puk"
+
+#: panels/network/panel-common.c:461
+msgid "SIM wrong"
+msgstr "Неправильний SIM"
+
+#: panels/network/panel-common.c:465
+msgid "InfiniBand device does not support connected mode"
+msgstr "Пристрій InfiniBand не підтримує з'єднаний режим"
+
+#: panels/network/panel-common.c:469
+msgid "Connection dependency failed"
+msgstr "Помилка роботи залежності з'єднання"
+
+#: panels/network/panel-common.c:683 panels/network/network-wifi.ui.h:13
+#: panels/network/network-wired.ui.h:2
+msgid "IPv4 Address"
+msgstr "Адреса IPv4"
+
+#: panels/network/panel-common.c:684 panels/network/network-mobile.ui.h:4
+#: panels/network/network-wifi.ui.h:14 panels/network/network-wired.ui.h:3
+msgid "IPv6 Address"
+msgstr "Адреса IPv6"
+
+#: panels/network/panel-common.c:686 panels/network/panel-common.c:688
+#: panels/network/network-mobile.ui.h:3
+msgid "IP Address"
+msgstr "Адреса IP"
+
+#: panels/power/cc-power-panel.c:160
+msgid "Unknown time"
+msgstr "Час невідомий"
+
+#: panels/power/cc-power-panel.c:166
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "%i хвилина"
+msgstr[1] "%i хвилини"
+msgstr[2] "%i хвилин"
+
+#: panels/power/cc-power-panel.c:178
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] "%i година"
+msgstr[1] "%i години"
+msgstr[2] "%i годин"
+
+#: panels/power/cc-power-panel.c:186
+#, c-format
+msgid "%i %s %i %s"
+msgstr "%i %s %i %s"
+
+#: panels/power/cc-power-panel.c:187
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "година"
+msgstr[1] "години"
+msgstr[2] "годин"
+
+#: panels/power/cc-power-panel.c:188
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "хвилина"
+msgstr[1] "хвилини"
+msgstr[2] "хвилин"
+
+#: panels/power/cc-power-panel.c:230
+#, c-format
+msgid "Charging - %s until fully charged"
+msgstr "Заряджання — %s до повного зарядження"
+
+#: panels/power/cc-power-panel.c:238
+#, c-format
+msgid "Caution low battery, %s remaining"
+msgstr "Низький заряд батареї, залишилось %s"
+
+#: panels/power/cc-power-panel.c:246
+#, c-format
+msgid "Using battery power - %s remaining"
+msgstr "Використання батареї — залишилось %s"
+
+#: panels/power/cc-power-panel.c:263
+msgid "Charging"
+msgstr "Заряджання"
+
+#: panels/power/cc-power-panel.c:268
+msgid "Using battery power"
+msgstr "Використання батареї"
+
+#: panels/power/cc-power-panel.c:272
+msgid "Charging - fully charged"
+msgstr "Заряджання — повністю заряджено"
+
+#: panels/power/cc-power-panel.c:276
+msgid "Empty"
+msgstr "Вичерпано"
+
+#: panels/power/cc-power-panel.c:340
+#, c-format
+msgid "Caution low UPS, %s remaining"
+msgstr "Низький заряд UPS, залишилось %s"
+
+#: panels/power/cc-power-panel.c:346
+#, c-format
+msgid "Using UPS power - %s remaining"
+msgstr "Використання живлення з UPS — залишилось %s"
+
+#: panels/power/cc-power-panel.c:364
+msgid "Caution low UPS"
+msgstr "Низький заряд UPS"
+
+#: panels/power/cc-power-panel.c:369
+msgid "Using UPS power"
+msgstr "Використання живлення з UPS"
+
+#: panels/power/cc-power-panel.c:418
+msgid "Your secondary battery is fully charged"
+msgstr "Другу батарею повністю заряджено"
+
+#: panels/power/cc-power-panel.c:422
+msgid "Your secondary battery is empty"
+msgstr "Другу батарею вичерпано"
+
+#: panels/power/cc-power-panel.c:503
+msgid "Wireless mouse"
+msgstr "Бездротова миша"
+
+#: panels/power/cc-power-panel.c:507
+msgid "Wireless keyboard"
+msgstr "Бездротова клавіатура"
+
+#: panels/power/cc-power-panel.c:511
+msgid "Uninterruptible power supply"
+msgstr "Постачання безперебійного живлення"
+
+#: panels/power/cc-power-panel.c:515
+msgid "Personal digital assistant"
+msgstr "Особистий цифровий помічник"
+
+#: panels/power/cc-power-panel.c:519
+msgid "Cellphone"
+msgstr "Мобільний телефон"
+
+#: panels/power/cc-power-panel.c:523
+msgid "Media player"
+msgstr "Програвач"
+
+#: panels/power/cc-power-panel.c:527
+msgid "Tablet"
+msgstr "Планшет"
+
+#: panels/power/cc-power-panel.c:531
+msgid "Computer"
+msgstr "Комп'ютер"
+
+#: panels/power/cc-power-panel.c:535
+msgid "Battery"
+msgstr "Батарея"
+
+#: panels/region/cinnamon-region-panel-xkblt.c:210
+msgid "Layout"
+msgstr "Розкладка"
+
+#: panels/region/cinnamon-region-panel-xkbot.c:229
+msgid "Default"
+msgstr "Типовий"
+
+#: panels/sound/applet-main.c:49
+msgid "Enable debugging code"
+msgstr "Увімкнути код зневадження"
+
+#: panels/sound/applet-main.c:50
+msgid "Version of this application"
+msgstr "Версія цієї програми"
+
+#: panels/sound/applet-main.c:62
+msgid " — Cinnamon Volume Control Applet"
+msgstr " — Аплет контролю звуку у Cinnamon"
+
+#: panels/sound/gvc-applet.c:270 panels/sound/gvc-mixer-dialog.c:1654
+#: panels/sound-nua/gvc-mixer-dialog.c:1811
+msgid "Output"
+msgstr "Вивід"
+
+#: panels/sound/gvc-applet.c:272
+msgid "Sound Output Volume"
+msgstr "Гучність виводу звуку"
+
+#: panels/sound/gvc-applet.c:276 panels/sound/gvc-mixer-dialog.c:1695
+#: panels/sound-nua/gvc-mixer-dialog.c:1944
+msgid "Input"
+msgstr "Вхід"
+
+#: panels/sound/gvc-applet.c:278
+msgid "Microphone Volume"
+msgstr "Гучність мікрофону"
+
+#: panels/sound/gvc-balance-bar.c:295 panels/sound-nua/gvc-balance-bar.c:295
+msgid "_Balance:"
+msgstr "_Баланс:"
+
+#: panels/sound/gvc-balance-bar.c:298 panels/sound-nua/gvc-balance-bar.c:298
+msgid "_Fade:"
+msgstr "_Згасання:"
+
+#: panels/sound/gvc-balance-bar.c:301 panels/sound-nua/gvc-balance-bar.c:301
+msgid "_Subwoofer:"
+msgstr "_Низькочастотний динамік:"
+
+#: panels/sound/gvc-combo-box.c:167 panels/sound/gvc-mixer-dialog.c:258
+#: panels/sound/gvc-mixer-dialog.c:519
+msgid "_Profile:"
+msgstr "_Профіль:"
+
+#: panels/sound/gvc-mixer-control.c:1834
+msgid "Disabled"
+msgstr "Вимкнено"
+
+#: panels/sound/gvc-mixer-control.c:1841
+#, c-format
+msgid "%u Output"
+msgid_plural "%u Outputs"
+msgstr[0] "%u вивід"
+msgstr[1] "%u виводи"
+msgstr[2] "%u виводів"
+
+#: panels/sound/gvc-mixer-control.c:1851
+#, c-format
+msgid "%u Input"
+msgid_plural "%u Inputs"
+msgstr[0] "%u вхід"
+msgstr[1] "%u входи"
+msgstr[2] "%u входів"
+
+#: panels/sound/gvc-mixer-control.c:2375
+msgid "System Sounds"
+msgstr "Системі звуки"
+
+#: panels/sound/gvc-mixer-dialog.c:260
+msgid "_Test Speakers"
+msgstr "Ви_пробувати динаміки"
+
+#: panels/sound/gvc-mixer-dialog.c:424 panels/sound-nua/gvc-mixer-dialog.c:345
+msgid "Peak detect"
+msgstr "Виявлення піків"
+
+#: panels/sound/gvc-mixer-dialog.c:1504
+#: panels/sound-nua/gvc-mixer-dialog.c:1582
+msgid "Name"
+msgstr "Назва"
+
+#: panels/sound/gvc-mixer-dialog.c:1586
+#: panels/sound-nua/gvc-mixer-dialog.c:1684
+#, c-format
+msgid "Speaker Testing for %s"
+msgstr "Випробовування динаміків для %s"
+
+#: panels/sound/gvc-mixer-dialog.c:1640
+#: panels/sound-nua/gvc-mixer-dialog.c:2106
+msgid "_Output volume:"
+msgstr "В_ихідна гучність:"
+
+#: panels/sound/gvc-mixer-dialog.c:1659
+msgid "C_hoose a device for sound output:"
+msgstr "_Виберіть пристрій для виведення звуку:"
+
+#: panels/sound/gvc-mixer-dialog.c:1684
+msgid "Settings for the selected device:"
+msgstr "Налаштування вибраного пристрою:"
+
+#: panels/sound/gvc-mixer-dialog.c:1702
+#: panels/sound-nua/gvc-mixer-dialog.c:1991
+msgid "_Input volume:"
+msgstr "В_хідна гучність:"
+
+#: panels/sound/gvc-mixer-dialog.c:1725
+#: panels/sound-nua/gvc-mixer-dialog.c:2024
+msgid "Input level:"
+msgstr "Рівень входу:"
+
+#: panels/sound/gvc-mixer-dialog.c:1753
+msgid "C_hoose a device for sound input:"
+msgstr "в_иберіть пристрій для прийому звуку:"
+
+#: panels/sound/gvc-mixer-dialog.c:1780
+#: panels/sound-nua/gvc-mixer-dialog.c:2050
+msgid "Sound Effects"
+msgstr "Звукові ефекти"
+
+#: panels/sound/gvc-mixer-dialog.c:1787
+#: panels/sound-nua/gvc-mixer-dialog.c:2057
+msgid "_Alert volume:"
+msgstr "Гучність _попередження:"
+
+#: panels/sound/gvc-mixer-dialog.c:1795
+#: panels/sound-nua/gvc-mixer-dialog.c:2087
+msgid "Applications"
+msgstr "Програми"
+
+#: panels/sound/gvc-mixer-dialog.c:1799
+#: panels/sound-nua/gvc-mixer-dialog.c:2091
+msgid "No application is currently playing or recording audio."
+msgstr "Немає програм, котрі зараз відтворюють або записують звук."
+
+#: panels/sound/gvc-speaker-test.c:220
+msgid "Stop"
+msgstr "Зупинити"
+
+#: panels/sound/gvc-speaker-test.c:220 panels/sound/gvc-speaker-test.c:332
+msgid "Test"
+msgstr "Випробувати"
+
+#: panels/sound/gvc-speaker-test.c:228
+msgid "Subwoofer"
+msgstr "Низькочастотний динамік"
+
+#: panels/sound/gvc-stream-status-icon.c:236
+#, c-format
+msgid "Failed to start Sound Preferences: %s"
+msgstr "Помилка під час запуску вікна налаштувань звуку: %s"
+
+#: panels/sound/gvc-stream-status-icon.c:262
+msgid "_Mute"
+msgstr "_приглушити"
+
+#: panels/sound/gvc-stream-status-icon.c:271
+msgid "_Sound Preferences"
+msgstr "Н_алаштування звуку"
+
+#: panels/sound/gvc-stream-status-icon.c:416
+msgid "Muted"
+msgstr "Приглушено"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:778
+#: panels/sound-nua/gvc-mixer-dialog.c:948
+#, c-format
+msgid "Settings for %s"
+msgstr "Налаштування для %s"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:804
+#: panels/sound-nua/gvc-mixer-dialog.c:957
+msgid "Mode:"
+msgstr "Режим:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1736
+msgid "Choose an audio file"
+msgstr "Оберіть звуковий файл"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1816
+msgid "Play sound through"
+msgstr "Відтворення звуку через"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1841
+#: panels/sound-nua/gvc-mixer-dialog.c:1973
+msgid "Settings for the selected device"
+msgstr "Налаштування вибраного пристрою"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1914
+msgid "Test:"
+msgstr "Тест:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1921
+msgid "Test Sound"
+msgstr "Перевірити звук"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1948
+msgid "Record sound from"
+msgstr "Запис звуку з"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2069
+msgid "Starting Cinnamon:"
+msgstr "Запуск Cinnamon:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2070
+msgid "Switching workspace:"
+msgstr "Перемкнути робочий простір:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2071
+msgid "Mapping windows:"
+msgstr "Показування вікон:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2072
+msgid "Closing windows:"
+msgstr "Закриття вікон"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2073
+msgid "Minimizing windows:"
+msgstr "Згортання вікон:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2074
+msgid "Maximizing windows:"
+msgstr "Розгортання вікон:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2075
+msgid "Unmaximizing windows:"
+msgstr "Повернення звичайного розміру вікон:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2076
+msgid "Tiling and snapping windows:"
+msgstr "Фреймінг та прив’язка вікон:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2077
+msgid "Inserting a device:"
+msgstr "Додати пристрій:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2078
+msgid "Removing a device:"
+msgstr "Вилучити пристрій:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2079
+msgid "Changing the sound volume:"
+msgstr "Змінити гучність звуку:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2080
+msgid "Leaving Cinnamon:"
+msgstr "Залишаючи Cinnamon:"
+
+#: panels/universal-access/cc-ua-panel.c:289
+#: panels/universal-access/cc-ua-panel.c:295
+msgid "No shortcut set"
+msgstr "Не вказано жодного скорочення"
+
+#: panels/wacom/cc-wacom-mapping-panel.c:275
+msgid "Output:"
+msgstr "Вивід:"
+
+#: panels/wacom/cc-wacom-mapping-panel.c:287
+msgid "Keep aspect ratio (letterbox):"
+msgstr "Зберегти відношення (поштова скринька):"
+
+#: panels/wacom/cc-wacom-mapping-panel.c:298
+msgid "Map to single monitor"
+msgstr "Прив’язати до одного монітора"
+
+#: panels/wacom/cc-wacom-nav-button.c:89
+#, c-format
+msgid "%d of %d"
+msgstr "%d з %d"
+
+#: panels/wacom/cc-wacom-page.c:663
+msgid "Switch Modes"
+msgstr "Режими перемикання"
+
+#: panels/wacom/cc-wacom-page.c:753 panels/wacom/cc-wacom-stylus-page.c:373
+msgid "Button"
+msgstr "Кнопка"
+
+#: panels/wacom/cc-wacom-page.c:790
+msgid "Type"
+msgstr "Тип"
+
+#: panels/wacom/cc-wacom-page.c:811
+msgid "Action"
+msgstr "Дія"
+
+#: panels/wacom/cc-wacom-page.c:921
+msgid "Display Mapping"
+msgstr "Відбиття екрана"
+
+#: panels/wacom/csd-wacom-device.c:1076
+msgid "Left Ring"
+msgstr "Ліве сенсорне кільце"
+
+#: panels/wacom/csd-wacom-device.c:1086
+#, c-format
+msgid "Left Ring Mode #%d"
+msgstr "Режим лівого кільця #%d"
+
+#: panels/wacom/csd-wacom-device.c:1105
+msgid "Right Ring"
+msgstr "Праве сенсорне кільце"
+
+#: panels/wacom/csd-wacom-device.c:1115
+#, c-format
+msgid "Right Ring Mode #%d"
+msgstr "Режим правого кільця #%d"
+
+#: panels/wacom/csd-wacom-device.c:1156
+msgid "Left Touchstrip"
+msgstr "Ліва сенсорна смуга"
+
+#: panels/wacom/csd-wacom-device.c:1166
+#, c-format
+msgid "Left Touchstrip Mode #%d"
+msgstr "Режим лівої сенсорної смуги #%d"
+
+#: panels/wacom/csd-wacom-device.c:1185
+msgid "Right Touchstrip"
+msgstr "Права сенсорна смуга"
+
+#: panels/wacom/csd-wacom-device.c:1195
+#, c-format
+msgid "Right Touchstrip Mode #%d"
+msgstr "Режим правої сенсорної смуги #%d"
+
+#: panels/wacom/csd-wacom-device.c:1220
+msgid "Left Touchring Mode Switch"
+msgstr "Перемикач режиму лівої сенсорної смуги"
+
+#: panels/wacom/csd-wacom-device.c:1222
+msgid "Right Touchring Mode Switch"
+msgstr "Перемикач режиму правої сенсорної смуги"
+
+#: panels/wacom/csd-wacom-device.c:1225
+msgid "Left Touchstrip Mode Switch"
+msgstr "Перемикач режиму лівої сенсорної смуги"
+
+#: panels/wacom/csd-wacom-device.c:1227
+msgid "Right Touchstrip Mode Switch"
+msgstr "Перемикач режиму правої сенсорної смуги"
+
+#: panels/wacom/csd-wacom-device.c:1232
+#, c-format
+msgid "Mode Switch #%d"
+msgstr "Перемикач режиму #%d"
+
+#: panels/wacom/csd-wacom-device.c:1336
+#, c-format
+msgid "Left Button #%d"
+msgstr "Ліва кнопка #%d"
+
+#: panels/wacom/csd-wacom-device.c:1339
+#, c-format
+msgid "Right Button #%d"
+msgstr "Права кнопка #%d"
+
+#: panels/wacom/csd-wacom-device.c:1342
+#, c-format
+msgid "Top Button #%d"
+msgstr "Горішня кнопка #%d"
+
+#: panels/wacom/csd-wacom-device.c:1345
+#, c-format
+msgid "Bottom Button #%d"
+msgstr "Долішня кнопка  #%d"
+
+#: shell/cc-shell-nav-bar.c:117
+msgid "_All Settings"
+msgstr "_Усі налаштування"
+
+#: shell/control-center.c:58
+msgid "Enable verbose mode"
+msgstr "Увімкнути докладний режим"
+
+#: shell/control-center.c:59
+msgid "Show the overview"
+msgstr "Показати огляд"
+
+#: shell/control-center.c:60 shell/control-center.c:61
+#: shell/control-center.c:62
+msgid "Show help options"
+msgstr "Показати параметри довідки"
+
+#: shell/control-center.c:63
+msgid "Panel to display"
+msgstr "Панель для показу"
+
+#: shell/control-center.c:85
+msgid "- System Settings"
+msgstr "- Системні налаштування"
+
+#: shell/control-center.c:93
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Під час запуску з ключем «%s --help» виводиться список доступних параметрів "
+"команди.\n"
+
+#: shell/control-center.c:215
+msgid "Help"
+msgstr "Довідка"
+
+#: shell/control-center.c:216
+msgid "Quit"
+msgstr "Вийти"
+
+#: panels/color/color.ui.h:3 generate_additional_files.py:85
+msgid "Color"
+msgstr "Колір"
+
+#: panels/color/color.ui.h:4
+msgid "Each device needs an up to date color profile to be color managed."
+msgstr ""
+"Кожен пристрій потребує оновлення профілю кольорів для керування кольорами."
+
+#: panels/color/color.ui.h:5
+msgid "Learn more"
+msgstr "Дізнайтеся більше"
+
+#: panels/color/color.ui.h:6
+msgid "Learn more about color management"
+msgstr "Детальніше про управління кольорами"
+
+#: panels/color/color.ui.h:7
+msgid "Add device"
+msgstr "Додати пристрій"
+
+#: panels/color/color.ui.h:8
+msgid "Add a virtual device"
+msgstr "Додати віртуальний пристрій"
+
+#: panels/color/color.ui.h:9
+msgid "Delete device"
+msgstr "Вилучити пристрій"
+
+#: panels/color/color.ui.h:10
+msgid "Remove a device"
+msgstr "Вилучити пристрій"
+
+#: panels/color/color.ui.h:12
+msgid "Set this profile for all users on this computer"
+msgstr "Встановити цей профіль для усіх користувачів цього комп'ютера"
+
+#: panels/color/color.ui.h:13
+msgid "Add profile"
+msgstr "Додати профіль"
+
+#: panels/color/color.ui.h:14 panels/wacom/cinnamon-wacom-properties.ui.h:10
+msgid "Calibrate…"
+msgstr "Калібрувати…"
+
+#: panels/color/color.ui.h:15
+msgid "Calibrate the device"
+msgstr "Калібрувати пристрій"
+
+#: panels/color/color.ui.h:16
+msgid "Remove profile"
+msgstr "Вилучити профіль"
+
+#: panels/color/color.ui.h:17
+msgid "View details"
+msgstr "Переглянути деталі"
+
+#: panels/color/color.ui.h:18
+msgid "Device type:"
+msgstr "Тип пристрою:"
+
+#: panels/color/color.ui.h:19
+msgid "Manufacturer:"
+msgstr "Виробник:"
+
+#: panels/color/color.ui.h:20
+msgid "Model:"
+msgstr "Модель:"
+
+#: panels/color/color.ui.h:21
+msgid ""
+"Image files can be dragged on this window to auto-complete the above fields."
+msgstr ""
+"Графічні файли можна перетягувати на це вікно, щоб автоматично заповнити "
+"поля вище."
+
+#: panels/common/language-chooser.ui.h:1
+msgid "Select a language"
+msgstr "Виберіть мову"
+
+#: panels/common/language-chooser.ui.h:2
+msgid "_Cancel"
+msgstr "_Скасувати"
+
+#: panels/common/language-chooser.ui.h:3
+msgid "_Select"
+msgstr "_Вибрати"
+
+#: panels/datetime/datetime.ui.h:1
+msgid "_Region:"
+msgstr "_Регіон"
+
+#: panels/datetime/datetime.ui.h:2
+msgid "_City:"
+msgstr "_Місто"
+
+#: panels/datetime/datetime.ui.h:3
+msgid "_Network Time"
+msgstr "_Час мережі"
+
+#: panels/datetime/datetime.ui.h:5
+msgid ":"
+msgstr ":"
+
+#: panels/datetime/datetime.ui.h:6
+msgid "Set the time one hour ahead."
+msgstr "Перевести час на годину вперед."
+
+#: panels/datetime/datetime.ui.h:7
+msgid "Set the time one hour back."
+msgstr "Перевести час на годину назад."
+
+#: panels/datetime/datetime.ui.h:8
+msgid "Set the time one minute ahead."
+msgstr "Перевести час на хвилину вперед."
+
+#: panels/datetime/datetime.ui.h:9
+msgid "Set the time one minute back."
+msgstr "Перевести час на хвилину назад."
+
+#: panels/datetime/datetime.ui.h:10
+msgid "Month"
+msgstr "Місяць"
+
+#: panels/datetime/datetime.ui.h:11
+msgid "Day"
+msgstr "День"
+
+#: panels/datetime/datetime.ui.h:12
+msgid "Year"
+msgstr "Рік"
+
+#: panels/datetime/datetime.ui.h:13
+msgid "January"
+msgstr "Січень"
+
+#: panels/datetime/datetime.ui.h:14
+msgid "February"
+msgstr "Лютий"
+
+#: panels/datetime/datetime.ui.h:15
+msgid "March"
+msgstr "Березень"
+
+#: panels/datetime/datetime.ui.h:16
+msgid "April"
+msgstr "Квітень"
+
+#: panels/datetime/datetime.ui.h:17
+msgid "May"
+msgstr "Травень"
+
+#: panels/datetime/datetime.ui.h:18
+msgid "June"
+msgstr "Червень"
+
+#: panels/datetime/datetime.ui.h:19
+msgid "July"
+msgstr "Липень"
+
+#: panels/datetime/datetime.ui.h:20
+msgid "August"
+msgstr "Серпень"
+
+#: panels/datetime/datetime.ui.h:21
+msgid "September"
+msgstr "Вересень"
+
+#: panels/datetime/datetime.ui.h:22
+msgid "October"
+msgstr "Жовтень"
+
+#: panels/datetime/datetime.ui.h:23
+msgid "November"
+msgstr "Листопад"
+
+#: panels/datetime/datetime.ui.h:24
+msgid "December"
+msgstr "Грудень"
+
+#: panels/display/display-capplet.ui.h:2
+msgid "Set as Primary"
+msgstr "Зробити первинним"
+
+#: panels/display/display-capplet.ui.h:3
+msgid "_Resolution"
+msgstr "_Роздільна здатність"
+
+#: panels/display/display-capplet.ui.h:4
+msgid "R_otation"
+msgstr "О_бертання"
+
+#: panels/display/display-capplet.ui.h:6
+msgid "_Mirror displays"
+msgstr "_Дзеркальний показ"
+
+#: panels/display/display-capplet.ui.h:7
+msgid "Note: may limit resolution options"
+msgstr "Примітка: можна обмежити параметри роздільної здатності"
+
+#: panels/display/display-capplet.ui.h:8
+msgid "_Detect Displays"
+msgstr "_Виявити екрани"
+
+#: panels/network/network-mobile.ui.h:1
+msgid "IMEI"
+msgstr "IMEI"
+
+#: panels/network/network-mobile.ui.h:2
+msgid "Provider"
+msgstr "Постачальник"
+
+#: panels/network/network-mobile.ui.h:5 panels/network/network-wifi.ui.h:15
+#: panels/network/network-wired.ui.h:4
+msgid "Default Route"
+msgstr "Типовий маршрут"
+
+#: panels/network/network-mobile.ui.h:6 panels/network/network-wifi.ui.h:16
+#: panels/network/network-wired.ui.h:5
+msgid "DNS"
+msgstr "DNS"
+
+#: panels/network/network-mobile.ui.h:7 generate_additional_files.py:175
+msgid "Network"
+msgstr "Мережа"
+
+#: panels/network/network-mobile.ui.h:8 panels/network/network-wired.ui.h:6
+#: panels/region/cinnamon-region-panel.ui.h:11
+msgid "_Options..."
+msgstr "_Параметри…"
+
+#: panels/network/network-proxy.ui.h:4
+msgid "_Method"
+msgstr "_Метод"
+
+#: panels/network/network-proxy.ui.h:5
+msgid "_Configuration URL"
+msgstr "_Налаштування URL"
+
+#: panels/network/network-proxy.ui.h:6
+msgid "_HTTP Proxy"
+msgstr "П_роксі HTTP"
+
+#: panels/network/network-proxy.ui.h:7
+msgid "H_TTPS Proxy"
+msgstr "П_роксі HTTPS"
+
+#: panels/network/network-proxy.ui.h:8
+msgid "_FTP Proxy"
+msgstr "Пр_оксі FTP"
+
+#: panels/network/network-proxy.ui.h:9
+msgid "_Socks Host"
+msgstr "_Вузол Socks:"
+
+#: panels/network/network.ui.h:1
+msgid "Select the interface to use for the new service"
+msgstr "Виберіть інтерфейс для нових служб"
+
+#: panels/network/network.ui.h:2
+msgid "C_reate..."
+msgstr "С_творити…"
+
+#: panels/network/network.ui.h:3
+msgid "_Interface"
+msgstr "_Інтерфейс"
+
+#: panels/network/network.ui.h:4 panels/network/network-vpn.ui.h:1
+msgid "VPN"
+msgstr "VPN"
+
+#: panels/network/network.ui.h:8
+msgid "Add Device"
+msgstr "Додати пристрій"
+
+#: panels/network/network.ui.h:9
+msgid "Remove Device"
+msgstr "Вилучити носій"
+
+#: panels/network/network-vpn.ui.h:2
+msgid "VPN Type"
+msgstr "Тип VPN"
+
+#: panels/network/network-vpn.ui.h:3
+msgid "Gateway"
+msgstr "Шлюз"
+
+#: panels/network/network-vpn.ui.h:4
+msgid "Group Name"
+msgstr "Назва групи"
+
+#: panels/network/network-vpn.ui.h:5
+msgid "Group Password"
+msgstr "Пароль групи"
+
+#: panels/network/network-vpn.ui.h:6
+msgid "Username"
+msgstr "Ім'я користувача"
+
+#: panels/network/network-vpn.ui.h:7
+msgid "_Configure..."
+msgstr "Н_алаштувати…"
+
+#: panels/network/network-wifi.ui.h:1
+msgid "Wireless Hotspot"
+msgstr "Точка бездротового доступу"
+
+#: panels/network/network-wifi.ui.h:2
+msgid "_Turn On"
+msgstr "_Увімкнути"
+
+#: panels/network/network-wifi.ui.h:4
+msgid "_Use as Hotspot..."
+msgstr "_Використати як гарячу точку…"
+
+#: panels/network/network-wifi.ui.h:5
+msgid "Connect to a Hidden Network"
+msgstr "З'єднатися з прихованою мережею"
+
+#: panels/network/network-wifi.ui.h:6
+msgid "_Disconnect"
+msgstr "_Від’єднатися"
+
+#: panels/network/network-wifi.ui.h:7
+msgid "_Connect"
+msgstr "_З'єднатися"
+
+#: panels/network/network-wifi.ui.h:8
+msgid "Last used"
+msgstr "Востаннє використано"
+
+#: panels/network/network-wifi.ui.h:9 panels/network/network-wired.ui.h:1
+msgid "Hardware Address"
+msgstr "Апаратна адреса"
+
+#: panels/network/network-wifi.ui.h:10
+msgid "Security"
+msgstr "Безпека"
+
+#: panels/network/network-wifi.ui.h:11
+msgid "Strength"
+msgstr "Міцність"
+
+#: panels/network/network-wifi.ui.h:12
+msgid "Link speed"
+msgstr "Швидкість передачі даних"
+
+#: panels/network/network-wifi.ui.h:17
+msgid "_Forget Network"
+msgstr "_Забути мережу"
+
+#: panels/network/network-wifi.ui.h:18
+msgid "_Settings..."
+msgstr "_Налаштування..."
+
+#: panels/network/network-wifi.ui.h:19
+msgid "Switch off to connect to a wireless network"
+msgstr "Вимкнути з'єднання з бездротовою мережею"
+
+#: panels/network/network-wifi.ui.h:20
+msgid "Network Name"
+msgstr "Назва мережі"
+
+#: panels/network/network-wifi.ui.h:21
+msgid "Connected Devices"
+msgstr "З'єднані пристрої"
+
+#: panels/network/network-wifi.ui.h:22
+msgid "Security type"
+msgstr "Тип безпеки"
+
+#: panels/network/network-wifi.ui.h:23
+msgid "Security key"
+msgstr "Ключ безпеки"
+
+#: panels/power/power.ui.h:1
+msgid "Hibernate"
+msgstr "Режим сну"
+
+#: panels/power/power.ui.h:2
+msgid "Power off"
+msgstr "Вимкнути"
+
+#: panels/power/power.ui.h:3
+msgid "5 minutes"
+msgstr "5 хвилин"
+
+#: panels/power/power.ui.h:4
+msgid "10 minutes"
+msgstr "10 хвилин"
+
+#: panels/power/power.ui.h:5
+msgid "30 minutes"
+msgstr "30 хвилин"
+
+#: panels/power/power.ui.h:6
+msgid "1 hour"
+msgstr "1 година"
+
+#: panels/power/power.ui.h:7
+msgid "Never"
+msgstr "Ніколи"
+
+#: panels/power/power.ui.h:8
+msgid "When battery is present"
+msgstr "За наявності батареї"
+
+#: panels/power/power.ui.h:9
+msgid "When battery is charging/in use"
+msgstr "Коли батарея заряджається/працює"
+
+#: panels/power/power.ui.h:10
+msgid "Suspend"
+msgstr "Призупинити"
+
+#: panels/power/power.ui.h:11
+msgid "Do nothing"
+msgstr "Не робити нічого"
+
+#: panels/power/power.ui.h:12
+msgid "Lock Screen"
+msgstr "Заблокувати екран"
+
+#: panels/power/power.ui.h:13
+msgid "Shutdown Immediately"
+msgstr "Завершити роботу негайно"
+
+#: panels/power/power.ui.h:14
+msgid "Ask"
+msgstr "Запитати"
+
+#: panels/power/power.ui.h:15
+msgid "On battery power"
+msgstr "Живлення від батареї"
+
+#: panels/power/power.ui.h:16
+msgid "On A/C power"
+msgstr "Від мережі"
+
+#: panels/power/power.ui.h:17
+msgid "When the lid is closed"
+msgstr "Коли кришка закрита"
+
+#: panels/power/power.ui.h:18
+msgid "When the power button is pressed"
+msgstr "При натисненні кнопки живлення"
+
+#: panels/power/power.ui.h:19
+msgid "When battery power is critically low"
+msgstr "При розряджанні акумулятора до критично низького рівню"
+
+#: panels/power/power.ui.h:20
+msgid "Suspend when inactive for"
+msgstr "Призупиняти в разі бездіяльності протягом"
+
+#: panels/power/power.ui.h:21
+msgid "Turn off the screen when inactive for"
+msgstr "Вимкнути екран, коли неактивний на протязі"
+
+#: panels/power/power.ui.h:22
+msgid "Start the screensaver when inactive for"
+msgstr "Запустити зберігач екрану, коли неактивний на протязі"
+
+#: panels/power/power.ui.h:23
+msgid "<b>Power Options</b>"
+msgstr "<b>Параметри живлення</b>"
+
+#: panels/power/power.ui.h:24
+msgid "<b>Battery Status</b>"
+msgstr "<b>Стан акумулятора</b>"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:1
+msgid "Choose a Layout"
+msgstr "Виберіть розкладку"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:2
+msgid "Preview"
+msgstr "Попередній  перегляд"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:3
+msgid "Select an input source to add"
+msgstr "Вибрати джерело, щоб додати"
+
+#: panels/region/cinnamon-region-panel-options-dialog.ui.h:1
+msgid "Keyboard Layout Options"
+msgstr "Параметри розкладки клавіатури"
+
+#: panels/region/cinnamon-region-panel.ui.h:1
+msgid "Region and Language"
+msgstr "Регіон та мова"
+
+#: panels/region/cinnamon-region-panel.ui.h:2
+msgid "Add Layout"
+msgstr "Додати розкладку"
+
+#: panels/region/cinnamon-region-panel.ui.h:3
+msgid "Remove Layout"
+msgstr "Вилучити розкладку"
+
+#: panels/region/cinnamon-region-panel.ui.h:4
+msgid "Move Up"
+msgstr "Пересунути вгору"
+
+#: panels/region/cinnamon-region-panel.ui.h:5
+msgid "Move Down"
+msgstr "Пересунути вниз"
+
+#: panels/region/cinnamon-region-panel.ui.h:6
+msgid "Preview Layout"
+msgstr "Переглянути розкладки"
+
+#: panels/region/cinnamon-region-panel.ui.h:7
+msgid "Use the same layout for all windows"
+msgstr "Використовувати однакові розкладки для усіх вікон"
+
+#: panels/region/cinnamon-region-panel.ui.h:8
+msgid "Allow different layouts for individual windows"
+msgstr "Дозволити різні розкладки для кожного вікна"
+
+#: panels/region/cinnamon-region-panel.ui.h:9
+msgid "New windows use the default layout"
+msgstr "Нові вікна використовують типову розкладку"
+
+#: panels/region/cinnamon-region-panel.ui.h:10
+msgid "New windows use the previous window's layout"
+msgstr "Нові вікна використовують розкладку попереднього вікна"
+
+#: panels/region/cinnamon-region-panel.ui.h:12
+msgid "View and edit keyboard layout options"
+msgstr "Перегляд та зміна параметрів розкладки клавіатури"
+
+#: panels/region/cinnamon-region-panel.ui.h:13
+msgid "Reset to De_faults"
+msgstr "_Типові значення"
+
+#: panels/region/cinnamon-region-panel.ui.h:14
+msgid ""
+"Replace the current keyboard layout settings with the\n"
+"default settings"
+msgstr ""
+"Замінити налаштування поточної розкладки клавіатури\n"
+"типовими"
+
+#: panels/universal-access/uap.ui.h:5
+msgid "On screen keyboard"
+msgstr "Екранна клавіатура"
+
+#: panels/universal-access/uap.ui.h:6
+msgid "GOK"
+msgstr "GOK"
+
+#: panels/universal-access/uap.ui.h:7
+msgid "OnBoard"
+msgstr "Бортова"
+
+#: panels/universal-access/uap.ui.h:8
+msgid "None"
+msgstr "Жоден"
+
+#: panels/universal-access/uap.ui.h:10
+#, no-c-format
+msgid "75%"
+msgstr "75%"
+
+#: panels/universal-access/uap.ui.h:13
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#: panels/universal-access/uap.ui.h:16
+#, no-c-format
+msgid "125%"
+msgstr "125%"
+
+#: panels/universal-access/uap.ui.h:19
+#, no-c-format
+msgid "150%"
+msgstr "150%"
+
+#: panels/universal-access/uap.ui.h:21
+msgid "High Contrast"
+msgstr "Висока контрастність"
+
+#: panels/universal-access/uap.ui.h:22
+msgid "Beep on Caps and Num Lock"
+msgstr "Подавати сигнал, коли натискаєш на CapsLock та NumLock"
+
+#: panels/universal-access/uap.ui.h:23
+msgid "Options..."
+msgstr "Параметри…"
+
+#: panels/universal-access/uap.ui.h:24
+msgid "Screen Reader"
+msgstr "Екранний читач"
+
+#: panels/universal-access/uap.ui.h:25
+msgid "Turn on or off:"
+msgstr "Увімкнути або вимкнути:"
+
+#: panels/universal-access/uap.ui.h:27
+msgid "Zoom in:"
+msgstr "Наблизити:"
+
+#: panels/universal-access/uap.ui.h:28
+msgid "Zoom out:"
+msgstr "Віддалити:"
+
+#: panels/universal-access/uap.ui.h:29
+msgid "Large Text"
+msgstr "Великий шрифт"
+
+#: panels/universal-access/uap.ui.h:30
+msgid "Seeing"
+msgstr "Переглянути"
+
+#: panels/universal-access/uap.ui.h:31
+msgid "Visual Alerts"
+msgstr "Візуальне попередження"
+
+#: panels/universal-access/uap.ui.h:32
+msgid "Use a visual indication when an alert sound occurs"
+msgstr "Використовувати візуальний індикатор, коли виникає звук попередження"
+
+#: panels/universal-access/uap.ui.h:33
+msgid "Flash the window title"
+msgstr "Блимання заголовку вікна"
+
+#: panels/universal-access/uap.ui.h:34
+msgid "Flash the entire screen"
+msgstr "Блимання всього екрану"
+
+#: panels/universal-access/uap.ui.h:35
+msgid "Closed Captioning"
+msgstr "Субтитри"
+
+#: panels/universal-access/uap.ui.h:36
+msgid "Display a textual description of speech and sounds"
+msgstr "Показати текстовий опис мовлення та звуків"
+
+#: panels/universal-access/uap.ui.h:37
+msgid "_Test flash"
+msgstr "Ви_пробувати спалах"
+
+#: panels/universal-access/uap.ui.h:38
+msgid "Hearing"
+msgstr "Слухання"
+
+#: panels/universal-access/uap.ui.h:39
+msgid "On Screen Keyboard"
+msgstr "На екранній клавіатурі"
+
+#: panels/universal-access/uap.ui.h:40
+msgid "Sticky Keys"
+msgstr "Липкі клавіші"
+
+#: panels/universal-access/uap.ui.h:41
+msgid "Treats a sequence of modifier keys as a key combination"
+msgstr "Обробляє послідовність клавіш-модифікаторів як комбінації"
+
+#: panels/universal-access/uap.ui.h:42
+msgid "_Disable if two keys are pressed together"
+msgstr "_Вимкнено, якщо дві клавіші натиснуто одночасно"
+
+#: panels/universal-access/uap.ui.h:43
+msgid "Beep when a _modifer key is pressed"
+msgstr "Подавати сигнал, коли _модифікатор натиснуто"
+
+#: panels/universal-access/uap.ui.h:44
+msgid "Slow Keys"
+msgstr "\"Повільні\" клавіші"
+
+#: panels/universal-access/uap.ui.h:45
+msgid "Puts a delay between when a key is pressed and when it is accepted"
+msgstr "Вказує затримку між натиском і прийняттям клавіші"
+
+#: panels/universal-access/uap.ui.h:46
+msgid "A_cceptance delay:"
+msgstr "_Допустима затримка:"
+
+#: panels/universal-access/uap.ui.h:48
+msgid "Short"
+msgstr "Короткий"
+
+#: panels/universal-access/uap.ui.h:49
+msgid "Slow keys typing delay"
+msgstr "Показувати затримку натискання клавіш"
+
+#: panels/universal-access/uap.ui.h:51
+msgid "Long"
+msgstr "Довгий"
+
+#: panels/universal-access/uap.ui.h:53
+msgid "Beep when a key is"
+msgstr "Звуковий сигнал при натисканні"
+
+#: panels/universal-access/uap.ui.h:55
+msgid "pressed"
+msgstr "натиснуто"
+
+#: panels/universal-access/uap.ui.h:57
+msgid "accepted"
+msgstr "прийнято"
+
+#: panels/universal-access/uap.ui.h:59
+msgid "rejected"
+msgstr "відхилено"
+
+#: panels/universal-access/uap.ui.h:60
+msgid "Bounce Keys"
+msgstr "Пружні клавіші"
+
+#: panels/universal-access/uap.ui.h:61
+msgid "Ignores fast duplicate keypresses"
+msgstr "Ігнорувати швидкі повторні натискання клавіш"
+
+#: panels/universal-access/uap.ui.h:62
+msgid "Acc_eptance delay:"
+msgstr "Доп_устима затримка:"
+
+#: panels/universal-access/uap.ui.h:63
+msgid "Bounce keys typing delay"
+msgstr "Затримка натиснення пружних клавіш"
+
+#: panels/universal-access/uap.ui.h:64
+msgid "Beep when a key is _rejected"
+msgstr "Подавати сигнал, коли клавішу в_ідпущено"
+
+#: panels/universal-access/uap.ui.h:65
+msgid "Enable by Keyboard"
+msgstr "Увімкнено клавіатурою"
+
+#: panels/universal-access/uap.ui.h:66
+msgid "Turn accessibility features on and off using the keyboard"
+msgstr "Увімкнути спеціальні можливості або вимкнути за допомогою клавіатури"
+
+#: panels/universal-access/uap.ui.h:67
+msgid "Typing"
+msgstr "Ввід"
+
+#: panels/universal-access/uap.ui.h:68
+msgid "Mouse Keys"
+msgstr "Кнопки миші"
+
+#: panels/universal-access/uap.ui.h:69
+msgid "Control the pointer using the keypad"
+msgstr "Керування вказівником миші з клавіатури"
+
+#: panels/universal-access/uap.ui.h:70
+msgid "Video Mouse"
+msgstr "Відео миші"
+
+#: panels/universal-access/uap.ui.h:71
+msgid "Control the pointer using the video camera."
+msgstr "Керування вказівником з використанням відеокамери."
+
+#: panels/universal-access/uap.ui.h:72
+msgid "Simulated Secondary Click"
+msgstr "Симуляція подвійного клацання"
+
+#: panels/universal-access/uap.ui.h:73
+msgid "Trigger a secondary click by holding down the primary button"
+msgstr "Увімкнути подвійне клацання при утриманні натисненою основної кнопки"
+
+#: panels/universal-access/uap.ui.h:74
+msgid "Secondary click delay"
+msgstr "Затримка подвійного клацання"
+
+#: panels/universal-access/uap.ui.h:75
+msgid "Hover Click"
+msgstr "Натискання при наведенні"
+
+#: panels/universal-access/uap.ui.h:76
+msgid "Trigger a click when the pointer hovers"
+msgstr "Увімкнути клацання при зупинці вказівника миші"
+
+#: panels/universal-access/uap.ui.h:77
+msgid "D_elay:"
+msgstr "За_тримка:"
+
+#: panels/universal-access/uap.ui.h:78
+msgid "Motion _threshold:"
+msgstr "_Поріг руху:"
+
+#: panels/universal-access/uap.ui.h:80
+msgid "Small"
+msgstr "Малий"
+
+#: panels/universal-access/uap.ui.h:82
+msgid "Large"
+msgstr "Великий"
+
+#: panels/universal-access/uap.ui.h:83
+msgid "Mouse Settings"
+msgstr "Налаштування миші"
+
+#: panels/universal-access/uap.ui.h:84
+msgid "Pointing and Clicking"
+msgstr "Вказівник і натискання"
+
+#: panels/universal-access/zoom-options.ui.h:1
+msgid "Full Screen"
+msgstr "На увесь екран"
+
+#: panels/universal-access/zoom-options.ui.h:2
+msgid "Top Half"
+msgstr "Верхня половина"
+
+#: panels/universal-access/zoom-options.ui.h:3
+msgid "Bottom Half"
+msgstr "Нижня половина"
+
+#: panels/universal-access/zoom-options.ui.h:4
+msgid "Left Half"
+msgstr "Ліва половина"
+
+#: panels/universal-access/zoom-options.ui.h:5
+msgid "Right Half"
+msgstr "Права половина"
+
+#: panels/universal-access/zoom-options.ui.h:6
+msgid "Zoom Options"
+msgstr "Параметри масштабу"
+
+#: panels/universal-access/zoom-options.ui.h:7
+msgid "Zoom"
+msgstr "Збільшити"
+
+#: panels/universal-access/zoom-options.ui.h:8
+msgid "Magnification:"
+msgstr "Збільшення:"
+
+#: panels/universal-access/zoom-options.ui.h:9
+msgid "Follow mouse cursor"
+msgstr "Слідкувати за курсором миші"
+
+#: panels/universal-access/zoom-options.ui.h:10
+msgid "Screen part:"
+msgstr "Частина екрану:"
+
+#: panels/universal-access/zoom-options.ui.h:11
+msgid "Magnifier extends outside of screen"
+msgstr "Лупа розтягує за межі екрану"
+
+#: panels/universal-access/zoom-options.ui.h:12
+msgid "Keep magnifier cursor centered"
+msgstr "Утримувати курсор лупи у центрі"
+
+#: panels/universal-access/zoom-options.ui.h:13
+msgid "Magnifier cursor pushes contents around"
+msgstr "Курсор лупи відштовхує вміст довкола"
+
+#: panels/universal-access/zoom-options.ui.h:14
+msgid "Magnifier cursor moves with contents"
+msgstr "Курсор лупи рухається зі вмістом"
+
+#: panels/universal-access/zoom-options.ui.h:15
+msgid "Magnifier Position:"
+msgstr "Позиція лупи:"
+
+#: panels/universal-access/zoom-options.ui.h:16
+msgid "Magnifier"
+msgstr "Лупа"
+
+#: panels/universal-access/zoom-options.ui.h:17
+msgid "Thickness:"
+msgstr "Товщина:"
+
+#: panels/universal-access/zoom-options.ui.h:19
+msgid "Thin"
+msgstr "Тонка"
+
+#: panels/universal-access/zoom-options.ui.h:21
+msgid "Thick"
+msgstr "Товста"
+
+#: panels/universal-access/zoom-options.ui.h:22
+msgid "Length:"
+msgstr "Довжина:"
+
+#: panels/universal-access/zoom-options.ui.h:23
+msgid "Color:"
+msgstr "Колір:"
+
+#: panels/universal-access/zoom-options.ui.h:24
+msgid "Crosshairs:"
+msgstr "Перехрестя:"
+
+#: panels/universal-access/zoom-options.ui.h:25
+msgid "Overlaps mouse cursor"
+msgstr "Перекриває курсор миші"
+
+#: panels/universal-access/zoom-options.ui.h:26
+msgid "Crosshairs"
+msgstr "Перехрестя"
+
+#: panels/universal-access/zoom-options.ui.h:27
+msgid "White on black:"
+msgstr "Білий по чорному:"
+
+#: panels/universal-access/zoom-options.ui.h:28
+msgid "Brightness:"
+msgstr "Яскравість:"
+
+#: panels/universal-access/zoom-options.ui.h:29
+msgid "Contrast:"
+msgstr "Контрастність:"
+
+#: panels/universal-access/zoom-options.ui.h:34
+msgid "Low"
+msgstr "Низько"
+
+#: panels/universal-access/zoom-options.ui.h:36
+msgid "High"
+msgstr "Високо"
+
+#: panels/universal-access/zoom-options.ui.h:37
+msgid "Color Effects:"
+msgstr "Ефекти кольорів:"
+
+#: panels/universal-access/zoom-options.ui.h:38
+msgid "Color Effects"
+msgstr "Ефекти кольорів"
+
+#: panels/wacom/button-mapping.ui.h:1
+msgid "Map Buttons"
+msgstr "Кнопка відбиття"
+
+#: panels/wacom/button-mapping.ui.h:2
+msgid "Map buttons to functions"
+msgstr "Кнопка відбиття для функцій"
+
+#: panels/wacom/button-mapping.ui.h:3
+msgid ""
+"To edit a shortcut, click the row and hold down the new keys or press "
+"Backspace to clear."
+msgstr ""
+"Щоб змінити комбінацію клавіш, клацніть у відповідному рядку та введіть нові "
+"клавіші, або натисніть Backspace для очищення."
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:1
+msgid "Tablet (absolute)"
+msgstr "Планшет (абсолютно)"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:2
+msgid "Touchpad (relative)"
+msgstr "Сенсорний пристрій (відносний)"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:3
+msgid "Tablet Preferences"
+msgstr "Параметри планшета"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:4
+msgid "No tablet detected"
+msgstr "Не виявлено планшета"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:5
+msgid "Please plug in or turn on your graphics tablet"
+msgstr "Будь ласка увімкніть або вимкніть графічний планшет"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:6
+msgid "Bluetooth Settings"
+msgstr "Налаштування Bluetooth"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:7
+msgid "Graphics Tablet"
+msgstr "Графічний планшет"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:8
+msgid "Map to Monitor…"
+msgstr "Пов’язати з монітором…"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:9
+msgid "Map Buttons…"
+msgstr "Пов’язати кнопки…"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:11
+msgid "Adjust display resolution"
+msgstr "Відрегулювати роздільну здатність екрану"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:12
+msgid "Tracking Mode"
+msgstr "Режим стеження"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:13
+msgid "Left-Handed Orientation"
+msgstr "Орієнтація на лівшів"
+
+#: panels/wacom/wacom-stylus-page.ui.h:1
+msgid "No Action"
+msgstr "Без дій"
+
+#: panels/wacom/wacom-stylus-page.ui.h:2
+msgid "Left Mouse Button Click"
+msgstr "Натиск лівою кнопкою миші"
+
+#: panels/wacom/wacom-stylus-page.ui.h:3
+msgid "Middle Mouse Button Click"
+msgstr "Натиск середньою кнопкою миші"
+
+#: panels/wacom/wacom-stylus-page.ui.h:4
+msgid "Right Mouse Button Click"
+msgstr "Натиск правою кнопкою миші"
+
+#: panels/wacom/wacom-stylus-page.ui.h:5
+msgid "Scroll Up"
+msgstr "Прокрутити догори"
+
+#: panels/wacom/wacom-stylus-page.ui.h:6
+msgid "Scroll Down"
+msgstr "Прокрутити донизу"
+
+#: panels/wacom/wacom-stylus-page.ui.h:7
+msgid "Scroll Left"
+msgstr "Прокрутити ліворуч"
+
+#: panels/wacom/wacom-stylus-page.ui.h:8
+msgid "Scroll Right"
+msgstr "Прокрутити праворуч"
+
+#: panels/wacom/wacom-stylus-page.ui.h:9
+msgid "Back"
+msgstr "Назад"
+
+#: panels/wacom/wacom-stylus-page.ui.h:10
+msgid "Forward"
+msgstr "Вперед"
+
+#: panels/wacom/wacom-stylus-page.ui.h:11
+msgid "Stylus"
+msgstr "Стилус"
+
+#: panels/wacom/wacom-stylus-page.ui.h:12
+msgid "Eraser Pressure Feel"
+msgstr "Чутливість гумки"
+
+#: panels/wacom/wacom-stylus-page.ui.h:13
+msgid "Soft"
+msgstr "М'яка"
+
+#: panels/wacom/wacom-stylus-page.ui.h:14
+msgid "Firm"
+msgstr "Тверда"
+
+#: panels/wacom/wacom-stylus-page.ui.h:15
+msgid "Top Button"
+msgstr "Горішня кнопка"
+
+#: panels/wacom/wacom-stylus-page.ui.h:16
+msgid "Lower Button"
+msgstr "Долішня кнопка"
+
+#: panels/wacom/wacom-stylus-page.ui.h:17
+msgid "Tip Pressure Feel"
+msgstr "Чутливість дотику"
+
+#: generate_additional_files.py:55
+msgid "Brightness & Lock"
+msgstr "Яскравість і блокування"
+
+#: generate_additional_files.py:55
+msgid "Screen brightness and lock settings"
+msgstr "Налаштування яскравості та блокування екрану"
+
+#: generate_additional_files.py:70 generate_additional_files.py:101
+msgid "Sound"
+msgstr "Звук"
+
+#: generate_additional_files.py:70 generate_additional_files.py:101
+msgid "Change sound volume and sound events"
+msgstr "Змінити гучність звуку та звукових подій"
+
+#: generate_additional_files.py:85
+msgid "Color management settings"
+msgstr "Налаштування керування кольором"
+
+#: generate_additional_files.py:115
+msgid "Volume Control"
+msgstr "Регулятор гучності"
+
+#: generate_additional_files.py:115
+msgid "Show desktop volume control"
+msgstr "Показати регулятор гучності"
+
+#: generate_additional_files.py:130
+msgid "Power"
+msgstr "Живлення"
+
+#: generate_additional_files.py:130
+msgid "Power management settings"
+msgstr "Налаштувати керування живленням"
+
+#: generate_additional_files.py:145
+msgid "Region & Language"
+msgstr "Регіон та мова"
+
+#: generate_additional_files.py:145
+msgid "Change your region and language settings"
+msgstr "Зміна налаштування Вашого регіону та мови"
+
+#: generate_additional_files.py:160
+msgid "Displays"
+msgstr "Дисплеї"
+
+#: generate_additional_files.py:160
+msgid "Change resolution and position of monitors and projectors"
+msgstr "Зміна роздільної здатності та розташування моніторів та проекторів"
+
+#: generate_additional_files.py:175
+msgid "Network settings"
+msgstr "Налаштування мережі"
+
+#: generate_additional_files.py:190
+msgid "Universal Access"
+msgstr "Універсальний доступ"
+
+#: generate_additional_files.py:190
+msgid "Universal Access Preferences"
+msgstr "Параметри універсального доступу"
+
+#: generate_additional_files.py:205
+msgid "Date & Time"
+msgstr "Дата та час"
+
+#: generate_additional_files.py:205
+msgid "Date and Time preferences"
+msgstr "Налаштування дати та часу"
