@@ -1,0 +1,2355 @@
+# translation of cinnamon-control-center.master.gu.po to Gujarati
+# Ankit Patel <ankit644@yahoo.com>, 2005, 2006.
+# Ankit Patel <ankit@redhat.com>, 2006, 2007, 2009.
+# Sweta Kothari <swkothar@redhat.com>, 2008, 2009, 2010, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: cinnamon-control-center.master.gu\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=cinnamon-control-"
+"center&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-03-29 10:54+0000\n"
+"PO-Revision-Date: 2013-08-26 10:56+0000\n"
+"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"Language-Team: gu_IN <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2014-05-25 11:55+0000\n"
+"X-Generator: Launchpad (build 17017)\n"
+"Language: \n"
+
+#: panels/color/cc-color-panel.c:106
+msgid "Other profile…"
+msgstr "બીજી રૂપરેખા"
+
+#: panels/color/cc-color-panel.c:119
+msgid "Default: "
+msgstr "મૂળભૂત: "
+
+#: panels/color/cc-color-panel.c:126
+msgid "Colorspace: "
+msgstr "રંગસ્થાન: "
+
+# libgnomeprintui/gpaui/add-printer-dialog.c:83
+# libgnomeprintui/gpaui/config-dialog.c:83
+#: panels/color/cc-color-panel.c:132
+msgid "Test profile: "
+msgstr "રૂપરેખા ચકાસો: "
+
+# #-#-#-#-#  libgnomeui.cinnamon-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-# libgnomeui/cinnamon-app-helper.c:166
+#: panels/color/cc-color-panel.c:185 panels/color/color.ui.h:11
+msgid "Set for all users"
+msgstr "બધા વપરાશકર્તાઓ માટે સુયોજિત કરો"
+
+#: panels/color/cc-color-panel.c:192
+msgid "Create virtual device"
+msgstr "વર્ચ્યુઅલ ઉપકરણને બનાવો"
+
+#: panels/color/cc-color-panel.c:227
+msgid "Select ICC Profile File"
+msgstr "ICC રૂપરેખા ફાઇલ પસંદ કરો"
+
+#: panels/color/cc-color-panel.c:230
+msgid "_Import"
+msgstr "આયાત કરો (_I)"
+
+#: panels/color/cc-color-panel.c:241
+msgid "Supported ICC profiles"
+msgstr "આધારભૂત ICC રૂપરેખાઓ"
+
+#: panels/color/cc-color-panel.c:248
+msgid "All files"
+msgstr "બધી ફાઇલો"
+
+#: panels/color/cc-color-panel.c:638
+msgid "Available Profiles for Displays"
+msgstr "દર્શાવો માટે ઉપલબ્ધ રૂપરેખાઓ"
+
+#: panels/color/cc-color-panel.c:642
+msgid "Available Profiles for Scanners"
+msgstr "સ્કેનર માટે ઉપલબ્ધ રૂપરેખાઓ"
+
+#: panels/color/cc-color-panel.c:646
+msgid "Available Profiles for Printers"
+msgstr "પ્રિન્ટર માટે ઉપલબ્ધ રૂપરેખાઓ"
+
+#: panels/color/cc-color-panel.c:650
+msgid "Available Profiles for Cameras"
+msgstr "કૅમેરા માટે ઉપલબ્ધ રૂપરેખાઓ"
+
+#: panels/color/cc-color-panel.c:654
+msgid "Available Profiles for Webcams"
+msgstr "વેબકેમ માટે ઉપલબ્ધ રૂપરેખાઓ"
+
+#: panels/color/cc-color-panel.c:659 panels/color/color.ui.h:2
+msgid "Available Profiles"
+msgstr "ઉપલબ્ધ રૂપરેખાઓ"
+
+#: panels/color/cc-color-panel.c:935 panels/sound/gvc-mixer-dialog.c:1523
+#: panels/sound-nua/gvc-mixer-dialog.c:1600
+msgid "Device"
+msgstr "ઉપકરણ"
+
+#: panels/color/cc-color-panel.c:970
+msgid "Calibration"
+msgstr "માપાંકન"
+
+#: panels/color/cc-color-panel.c:1002
+msgid "Create a color profile for the selected device"
+msgstr "પસંદ થયેલ ઉપકરણ માટે રંગ રૂપરેખા બનાવો:"
+
+#: panels/color/cc-color-panel.c:1016 panels/color/cc-color-panel.c:1040
+msgid ""
+"The measuring instrument is not detected. Please check it is turned on and "
+"correctly connected."
+msgstr ""
+"માપન સાધન મળતુ નથી. મહેરબાની કરીને ચકાસો કે તે ચાલુ છે કે નહિં અને યોગ્ય "
+"રીતે જોડાયેલ છે."
+
+#: panels/color/cc-color-panel.c:1049
+msgid "The measuring instrument does not support printer profiling."
+msgstr "માપન સાધન પ્રિન્ટર રૂપરેખાને આધાર આપતુ નથી."
+
+#: panels/color/cc-color-panel.c:1060
+msgid "The device type is not currently supported."
+msgstr "ઉપકરણ પ્રકાર હાલમાં આધારભૂત નથી."
+
+#: panels/color/cc-color-panel.c:1132
+msgid "Cannot remove automatically added profile"
+msgstr "આપમેળે ઉમેરાયેલ રૂપરેખાને દૂર કરી શકાતુ નથી"
+
+# libgnomeprintui/gpaui/add-printer-dialog.c:83
+# libgnomeprintui/gpaui/config-dialog.c:83
+#: panels/color/cc-color-panel.c:1463
+msgid "No profile"
+msgstr "રૂપરેખા નથી"
+
+#: panels/color/cc-color-panel.c:1494
+#, c-format
+msgid "%i year"
+msgid_plural "%i years"
+msgstr[0] "%i વર્ષ"
+msgstr[1] "%i વર્ષો"
+
+#: panels/color/cc-color-panel.c:1505
+#, c-format
+msgid "%i month"
+msgid_plural "%i months"
+msgstr[0] "%i મહિનો"
+msgstr[1] "%i મહિના"
+
+#: panels/color/cc-color-panel.c:1516
+#, c-format
+msgid "%i week"
+msgid_plural "%i weeks"
+msgstr[0] "%i અઠવાડિયુ"
+msgstr[1] "%i અઠવાડિયા"
+
+#: panels/color/cc-color-panel.c:1523
+msgid "Less than 1 week"
+msgstr "1 અઠવાડિયા કરતા ઓછુ"
+
+#: panels/color/cc-color-panel.c:1713 panels/color/cc-color-panel.c:1754
+#: panels/color/cc-color-panel.c:1765 panels/color/cc-color-panel.c:1776
+msgid "Uncalibrated"
+msgstr "માપદંડ થયેલ નથી"
+
+#: panels/color/cc-color-panel.c:1716
+msgid "This device is not color managed."
+msgstr "આ ઉપકરણ રંગ સંચાલિત થયેલ નથી."
+
+#: panels/color/cc-color-panel.c:1757
+msgid "This device is using manufacturing calibrated data."
+msgstr "આ ઉપકરણ ઉત્પાદન માપદંડ થયેલ માહિતીને વાપરી રહ્યુ છે."
+
+#: panels/color/cc-color-panel.c:1768
+msgid ""
+"This device does not have a profile suitable for whole-screen color "
+"correction."
+msgstr "આ ઉપકરણ પાસે આખી-સ્ક્રીનની રંગ ચકાસણી માટે સુસંગત રૂપરેખા નથી."
+
+#: panels/color/cc-color-panel.c:1801
+msgid "This device has an old profile that may no longer be accurate."
+msgstr ""
+"આ ઉપકરણ પાસે જૂની રૂપરેખા છે કે જે લાંબા સમય સુધી ચોક્કસ રહી શકતી નથી."
+
+#: panels/color/cc-color-panel.c:1829
+msgid "Not specified"
+msgstr "સ્પષ્ટ થયેલ નથી"
+
+#: panels/color/cc-color-panel.c:2014
+msgid "No devices supporting color management detected"
+msgstr "ઉપકરણો શોધાયેલ રંગ સંચાલનને આધાર આપી રહ્યુ નથી"
+
+#: panels/common/cc-common-language.c:533
+msgid "English"
+msgstr "અંગ્રેજી"
+
+#: panels/common/cc-common-language.c:535
+msgid "British English"
+msgstr "બ્રિટીશ અંગ્રેજી"
+
+#: panels/common/cc-common-language.c:538
+msgid "German"
+msgstr "જર્મન"
+
+#: panels/common/cc-common-language.c:541
+msgid "French"
+msgstr "ફ્રેન્ચ"
+
+#: panels/common/cc-common-language.c:544
+msgid "Spanish"
+msgstr "સ્પેનિશ"
+
+#: panels/common/cc-common-language.c:546
+msgid "Chinese (simplified)"
+msgstr "ચીની (સરળ)"
+
+#: panels/common/cc-common-language.c:549
+msgid "Russian"
+msgstr "રશિયન"
+
+#: panels/common/cc-common-language.c:552
+msgid "Arabic"
+msgstr "અરેબિક"
+
+#: panels/common/cc-common-language.c:580
+msgid "United States"
+msgstr "યુનાઇટેડ સ્ટેટ્સ"
+
+#: panels/common/cc-common-language.c:581
+msgid "Germany"
+msgstr "જર્મની"
+
+#: panels/common/cc-common-language.c:582
+msgid "France"
+msgstr "ફ્રાન્સ"
+
+#: panels/common/cc-common-language.c:583
+msgid "Spain"
+msgstr "સ્પેન"
+
+#: panels/common/cc-common-language.c:584
+msgid "China"
+msgstr "ચાઇના"
+
+# #-#-#-#-#  cinnamon-session.cinnamon-2-2.hi.po (cinnamon-session VERSION)  #-#-#-#-# cinnamon-session/logout.c:266
+#: panels/common/cc-language-chooser.c:304
+msgid "Select a region"
+msgstr "વિસ્તાર પસંદ કરો"
+
+#: panels/common/gdm-languages.c:781
+msgid "Unspecified"
+msgstr "સ્પષ્ટ થયેલ નથી"
+
+#: panels/display/cc-display-panel.c:624 panels/display/cc-rr-labeler.c:449
+msgid "Mirrored Displays"
+msgstr "મિરર દેખાવો"
+
+#: panels/display/cc-display-panel.c:648 panels/display/display-capplet.ui.h:1
+msgid "Monitor"
+msgstr "મોનિટર"
+
+#: panels/display/cc-display-panel.c:752
+#, c-format
+msgid "%d x %d (%s)"
+msgstr "%d x %d (%s)"
+
+#: panels/display/cc-display-panel.c:754
+#, c-format
+msgid "%d x %d"
+msgstr "%d x %d"
+
+#: panels/display/cc-display-panel.c:1666
+msgid ""
+"Select a monitor to change its properties; drag it to rearrange its "
+"placement."
+msgstr ""
+"તેનાં ગુણધર્મોને બદલવા માટે મોનિટરને પસંદ કરો; તેનાં સ્થાનને પુન:ગોઠવવા માટે "
+"તેને ખેંચો."
+
+#: panels/display/cc-display-panel.c:2185
+#: panels/display/cc-display-panel.c:2237
+#, c-format
+msgid "Failed to apply configuration: %s"
+msgstr "રૂપરેખાંકનને લાગુ કરવામાં નિષ્ફળતા: %s"
+
+#: panels/display/cc-display-panel.c:2265
+msgid "Could not save the monitor configuration"
+msgstr "મોનિટર રૂપરેખાંકનને સંગ્રહ કરી શકાયુ નહિં"
+
+#: panels/display/cc-display-panel.c:2325
+msgid "Could not detect displays"
+msgstr "દર્શાવોને શોધી શકાયુ નહિં"
+
+#: panels/display/cc-display-panel.c:2533
+msgid "Could not get screen information"
+msgstr "સ્ક્રીન જાણકારી ને મેળવી શકાયુ નહિં"
+
+#: panels/network/cc-network-panel.c:661
+msgid "Network proxy"
+msgstr "નેટવર્ક પ્રોક્સી"
+
+#: panels/network/cc-network-panel.c:853 panels/network/net-vpn.c:278
+#, c-format
+msgid "%s VPN"
+msgstr "%s VPN"
+
+#: panels/network/cc-network-panel.c:920
+msgid "The system network services are not compatible with this version."
+msgstr "સિસ્ટમ નેટવર્ક સેવાઓ આવૃત્તિ સાથે સુસંગત નથી."
+
+#: panels/network/cc-network-panel.c:1108
+msgid "Air_plane Mode"
+msgstr "ઍરપ્લેન સ્થિતિ (_p)"
+
+#: panels/network/net-device-mobile.c:222
+msgid "Add new connection"
+msgstr "નવાં જોડાણને ઉમેરો"
+
+#: panels/network/net-device-mobile.c:261 panels/network/net-device-wifi.c:725
+#: panels/network/net-device-wired.c:126
+#, c-format
+msgid "%d Mb/s"
+msgstr "%d Mb/s"
+
+#: panels/network/net-device-wifi.c:258 panels/network/net-device-wifi.c:437
+msgid "WEP"
+msgstr "WEP"
+
+#: panels/network/net-device-wifi.c:262 panels/network/net-device-wifi.c:441
+msgid "WPA"
+msgstr "WPA"
+
+#: panels/network/net-device-wifi.c:266
+msgid "WPA2"
+msgstr "WPA2"
+
+#: panels/network/net-device-wifi.c:271
+msgid "Enterprise"
+msgstr "એન્ટરપ્રાઇઝ"
+
+#: panels/network/net-device-wifi.c:652
+msgid "never"
+msgstr "કદી નહિં"
+
+#: panels/network/net-device-wifi.c:662
+msgid "today"
+msgstr "આજે"
+
+#: panels/network/net-device-wifi.c:664
+msgid "yesterday"
+msgstr "ગઇ કાલે"
+
+#: panels/network/net-device-wifi.c:666
+#, c-format
+msgid "%i day ago"
+msgid_plural "%i days ago"
+msgstr[0] "%i દિવસ અગાઉ"
+msgstr[1] "%i દિવસો અગાઉ"
+
+#: panels/network/net-device-wifi.c:735 panels/network/panel-common.c:277
+msgid "Not connected"
+msgstr "જોડાયેલ નથી"
+
+#: panels/network/net-device-wifi.c:737 panels/network/net-device-wifi.c:2108
+msgid "Out of range"
+msgstr "સીમાની બહાર"
+
+#: panels/network/net-device-wifi.c:960
+#, c-format
+msgid ""
+"Network details for %s including password and any custom configuration will "
+"be lost."
+msgstr ""
+"પાસવર્ડ અને કોઇપણ વૈવિધ્ય રૂપરેખાંકનને સમાવતા %s માટે નેટવર્ક વિગતો ગુમ થઇ "
+"જશે."
+
+#: panels/network/net-device-wifi.c:971
+msgid "Forget"
+msgstr "ભૂલી જાઓ"
+
+#: panels/network/net-device-wifi.c:1554
+msgid ""
+"If you have a connection to the Internet other than wireless, you can use it "
+"to share your internet connection with others."
+msgstr ""
+"જો તમારી પાસે વાયરલેસ કરતા બીજુ ઇન્ટરનેટનું જોડાણ હોય તો, તમે બીજા સાથે "
+"તમારાં ઇન્ટરનેટ જોડાણને વહેંચીને તેને વાપરી શકો છો."
+
+#: panels/network/net-device-wifi.c:1558
+#, c-format
+msgid "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+msgstr ""
+"વાયરલેસ હૉટસ્પોટ પર અદલાબદલી કરવાથી <b>%s</b> માંથી તમારુ જોડાણ તૂટી જશે."
+
+#: panels/network/net-device-wifi.c:1562
+msgid ""
+"It is not possible to access the internet through your wireless while the "
+"hotspot is active."
+msgstr ""
+"તમારા વાયરલેસ મારફતે ઇન્ટરનેટને વાપરવાનું તેની માટે શક્ય નથી જ્યારે હૉટસ્પોટ "
+"સક્રિય હોય."
+
+#: panels/network/net-device-wifi.c:1636
+msgid "Stop hotspot and disconnect any users?"
+msgstr "હૉટસ્પોટને અટકાવો અને કોઇપણ વપરાશકર્તાનું જોડાણ તોડો?"
+
+#: panels/network/net-device-wifi.c:1639
+msgid "_Stop Hotspot"
+msgstr "હૉટસ્પોટ બંધ કરો (_S)"
+
+#: panels/network/net-proxy.c:67
+msgid ""
+"Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+msgstr ""
+"Web Proxy Autodiscovery વાપરેલ છે જ્યારે રૂપરેખાંકન URL પૂરી પાડેલ નથી."
+
+#: panels/network/net-proxy.c:75
+msgid "This is not recommended for untrusted public networks."
+msgstr "આ અવિશ્ર્વાસુ સાર્વજનિક નેટવર્કો માટે અગ્રહણીય નથી."
+
+#: panels/network/net-proxy.c:368
+msgid "Proxy"
+msgstr "પ્રોક્સી"
+
+#: panels/network/panel-common.c:82 panels/network/panel-common.c:162
+msgid "Unknown"
+msgstr "અજ્ઞાત"
+
+#: panels/network/panel-common.c:86
+msgid "Wired"
+msgstr "વાયર લગાવેલ"
+
+#: panels/network/panel-common.c:90 panels/network/network-wifi.ui.h:3
+msgid "Wireless"
+msgstr "વાયરલેસ"
+
+#: panels/network/panel-common.c:97
+msgid "Mobile broadband"
+msgstr "મોબાઇલ બ્રોડબેન્ડ"
+
+#: panels/network/panel-common.c:102
+msgid "Bluetooth"
+msgstr "બ્લુટુથ"
+
+# libgnomeprintui/gpaui/add-printer-dialog.c:83
+# libgnomeprintui/gpaui/config-dialog.c:83
+#: panels/network/panel-common.c:106
+msgid "Mesh"
+msgstr "મેશ"
+
+#: panels/network/panel-common.c:166
+msgid "Ad-hoc"
+msgstr "Ad-hoc"
+
+#: panels/network/panel-common.c:170
+msgid "Infrastructure"
+msgstr "ઇન્ફ્રાસ્ટ્રક્ચર"
+
+#: panels/network/panel-common.c:194 panels/network/panel-common.c:255
+msgid "Status unknown"
+msgstr "અજ્ઞાત સ્થિતિ"
+
+#: panels/network/panel-common.c:198
+msgid "Unmanaged"
+msgstr "અસંચાલિત"
+
+#: panels/network/panel-common.c:203
+msgid "Firmware missing"
+msgstr "ફર્મવેર ગેરહાજર"
+
+#: panels/network/panel-common.c:206
+msgid "Cable unplugged"
+msgstr "કૅબલ પ્લગ થયેલ નથી"
+
+#: panels/network/panel-common.c:208
+msgid "Unavailable"
+msgstr "બિનઉપલબ્ધ"
+
+#: panels/network/panel-common.c:212
+msgid "Disconnected"
+msgstr "જોડાણ તૂટી ગયું"
+
+#: panels/network/panel-common.c:219 panels/network/panel-common.c:261
+msgid "Connecting"
+msgstr "જોડાઇ રહ્યા છે"
+
+#: panels/network/panel-common.c:223 panels/network/panel-common.c:265
+msgid "Authentication required"
+msgstr "સત્તાધિકરણ જરૂરી"
+
+#: panels/network/panel-common.c:227 panels/network/panel-common.c:269
+msgid "Connected"
+msgstr "જોડાયેલ"
+
+#: panels/network/panel-common.c:231
+msgid "Disconnecting"
+msgstr "જોડાણ તૂટી રહ્યુ છે"
+
+#: panels/network/panel-common.c:235 panels/network/panel-common.c:273
+msgid "Connection failed"
+msgstr "જોડાણ નિષ્ફળ"
+
+#: panels/network/panel-common.c:239 panels/network/panel-common.c:281
+msgid "Status unknown (missing)"
+msgstr "અજ્ઞાત સ્થિતિ (ગેરહાજર)"
+
+#: panels/network/panel-common.c:301
+msgid "Configuration failed"
+msgstr "રૂપરેખાંકન નિષ્ફળ"
+
+#: panels/network/panel-common.c:305
+msgid "IP configuration failed"
+msgstr "IP રૂપરેખાંકન નિષ્ફળ"
+
+#: panels/network/panel-common.c:309
+msgid "IP configuration expired"
+msgstr "IP રૂપરેખાંકન નિવૃત્ત"
+
+#: panels/network/panel-common.c:313
+msgid "Secrets were required, but not provided"
+msgstr "ખાનગીની જરૂરિયાત હતી, પરંતુ પૂરુ પાડેલ નથી"
+
+#: panels/network/panel-common.c:317
+msgid "802.1x supplicant disconnected"
+msgstr "802.1X સપ્લિકન્ટનું જોડાણ તૂટી ગયુ"
+
+#: panels/network/panel-common.c:321
+msgid "802.1x supplicant configuration failed"
+msgstr "802.1X સપ્લિકન્ટ રૂપરેખાંકન નિષ્ફળ"
+
+#: panels/network/panel-common.c:325
+msgid "802.1x supplicant failed"
+msgstr "802.1X સપ્લિકન્ટ નિષ્ફળ"
+
+#: panels/network/panel-common.c:329
+msgid "802.1x supplicant took too long to authenticate"
+msgstr "802.1X સપ્લિકન્ટ સત્તાધિકરણ કરવા માટે લાંબો સમય લીધો"
+
+#: panels/network/panel-common.c:333
+msgid "PPP service failed to start"
+msgstr "શરૂ કરવા માટે PPP સેવા નિષ્ફળ"
+
+#: panels/network/panel-common.c:337
+msgid "PPP service disconnected"
+msgstr "તૂટી ગયેલ PPP સેવા જોડાણ"
+
+#: panels/network/panel-common.c:341
+msgid "PPP failed"
+msgstr "PPP નિષ્ફળ"
+
+#: panels/network/panel-common.c:345
+msgid "DHCP client failed to start"
+msgstr "શરૂ કરવા માટે DHCP ક્લાયન્ટ નિષ્ફળ"
+
+#: panels/network/panel-common.c:349
+msgid "DHCP client error"
+msgstr "DHCP ક્લાયન્ટ ભૂલ"
+
+#: panels/network/panel-common.c:353
+msgid "DHCP client failed"
+msgstr "DHCP ક્લાયન્ટ નિષ્ફળ"
+
+#: panels/network/panel-common.c:357
+msgid "Shared connection service failed to start"
+msgstr "શરૂ કરતી વખતે વહેંચાયેલ જોડાણ સેવા નિષ્ફળ"
+
+#: panels/network/panel-common.c:361
+msgid "Shared connection service failed"
+msgstr "વહેંચાયેલ જોડાણ સેવા નિષ્ફળ"
+
+#: panels/network/panel-common.c:365
+msgid "AutoIP service failed to start"
+msgstr "શરૂ કરવા માટે AutoIP સેવા નિષ્ફળ"
+
+#: panels/network/panel-common.c:369
+msgid "AutoIP service error"
+msgstr "AutoIP સેવા ભૂલ"
+
+#: panels/network/panel-common.c:373
+msgid "AutoIP service failed"
+msgstr "AutoIP સેવા નિષ્ફળ"
+
+#: panels/network/panel-common.c:377
+msgid "Line busy"
+msgstr "લાઇન વ્યસ્ત છે"
+
+#: panels/network/panel-common.c:381
+msgid "No dial tone"
+msgstr "ડાયલ ટોન નથી"
+
+#: panels/network/panel-common.c:385
+msgid "No carrier could be established"
+msgstr "કૅરિઅર સ્થાપિત કરી શક્યા નહિં"
+
+#: panels/network/panel-common.c:389
+msgid "Dialing request timed out"
+msgstr "ડાયલ કરવાની માંગણીનો સમય સમાપ્ત"
+
+#: panels/network/panel-common.c:393
+msgid "Dialing attempt failed"
+msgstr "ડાયલ કરવાનો પ્રયાસ નિષ્ફળ"
+
+#: panels/network/panel-common.c:397
+msgid "Modem initialization failed"
+msgstr "મોડેમની શરૂઆત નિષ્ફળ"
+
+#: panels/network/panel-common.c:401
+msgid "Failed to select the specified APN"
+msgstr "ખાસ APN ને પસંદ કરવાનું નિષ્ફળ"
+
+#: panels/network/panel-common.c:405
+msgid "Not searching for networks"
+msgstr "નેટવર્કો માટે શોધી રહ્યા નથી"
+
+#: panels/network/panel-common.c:409
+msgid "Network registration denied"
+msgstr "નામંજૂર થયેલ નેટવર્ક રજીસ્ટ્રેશન"
+
+#: panels/network/panel-common.c:413
+msgid "Network registration timed out"
+msgstr "નેટવર્ક રજીસ્ટ્રેશન કરવાનો સમય સમાપ્ત થઇ ગયો"
+
+#: panels/network/panel-common.c:417
+msgid "Failed to register with the requested network"
+msgstr "સૂચિત નેટવર્ક સાથે રજીસ્ટર કરવાનું નિષ્ફળ"
+
+#: panels/network/panel-common.c:421
+msgid "PIN check failed"
+msgstr "PIN ચકાસણી નિષ્ફળ"
+
+#: panels/network/panel-common.c:425
+msgid "Firmware for the device may be missing"
+msgstr "ઉપકરણ માટે જરૂરી ફર્મવેર ગુમ થઇ શકે છે"
+
+#: panels/network/panel-common.c:429
+msgid "Connection disappeared"
+msgstr "જોડાણ અદૃશ્ય"
+
+#: panels/network/panel-common.c:433
+msgid "Carrier/link changed"
+msgstr "કૅરિઅર/કડી બદલાયેલ છે"
+
+#: panels/network/panel-common.c:437
+msgid "Existing connection was assumed"
+msgstr "હાલનાં જોડાણને ધારેલ હતુ"
+
+#: panels/network/panel-common.c:441
+msgid "Modem not found"
+msgstr "મોડેમ મળ્યુ નથી"
+
+#: panels/network/panel-common.c:445
+msgid "Bluetooth connection failed"
+msgstr "બ્લુટુથ જોડાણ નિષ્ફળ"
+
+#: panels/network/panel-common.c:449
+msgid "SIM Card not inserted"
+msgstr "SIM કાર્ડ દાખલ થયેલ નથી"
+
+#: panels/network/panel-common.c:453
+msgid "SIM Pin required"
+msgstr "SIM પીનની જરૂરિયાત છે"
+
+#: panels/network/panel-common.c:457
+msgid "SIM Puk required"
+msgstr "SIM Puk જરૂરી"
+
+#: panels/network/panel-common.c:461
+msgid "SIM wrong"
+msgstr "SIM ખોટુ"
+
+#: panels/network/panel-common.c:465
+msgid "InfiniBand device does not support connected mode"
+msgstr "InfiniBand ઉપકરણ જોડાયેલ સ્થિતિને આધાર આપતુ નથી"
+
+#: panels/network/panel-common.c:469
+msgid "Connection dependency failed"
+msgstr "જોડાણ નિર્ભરતા નિષ્ફળ"
+
+#: panels/network/panel-common.c:683 panels/network/network-wifi.ui.h:13
+#: panels/network/network-wired.ui.h:2
+msgid "IPv4 Address"
+msgstr "IPv4 સરનામું"
+
+#: panels/network/panel-common.c:684 panels/network/network-mobile.ui.h:4
+#: panels/network/network-wifi.ui.h:14 panels/network/network-wired.ui.h:3
+msgid "IPv6 Address"
+msgstr "IPv6 સરનામું"
+
+#: panels/network/panel-common.c:686 panels/network/panel-common.c:688
+#: panels/network/network-mobile.ui.h:3
+msgid "IP Address"
+msgstr "IP સરનામું"
+
+#: panels/power/cc-power-panel.c:160
+msgid "Unknown time"
+msgstr "અજ્ઞાત સમય"
+
+#: panels/power/cc-power-panel.c:166
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "%i મિનિટ"
+msgstr[1] "%i મિનિટ"
+
+#: panels/power/cc-power-panel.c:178
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] "%i કલાક"
+msgstr[1] "%i કલાકો"
+
+#: panels/power/cc-power-panel.c:186
+#, c-format
+msgid "%i %s %i %s"
+msgstr "%i %s %i %s"
+
+#: panels/power/cc-power-panel.c:187
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "કલાક"
+msgstr[1] "કલાકો"
+
+#: panels/power/cc-power-panel.c:188
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "મિનિટ"
+msgstr[1] "મિનિટ"
+
+#: panels/power/cc-power-panel.c:230
+#, c-format
+msgid "Charging - %s until fully charged"
+msgstr "ચાર્જિંગ -%s પૂર્ણ ચાર્જ સુધી"
+
+#: panels/power/cc-power-panel.c:238
+#, c-format
+msgid "Caution low battery, %s remaining"
+msgstr "સાવધાન બેટરી ઓછી, %s બાકી રહેલ છે"
+
+#: panels/power/cc-power-panel.c:246
+#, c-format
+msgid "Using battery power - %s remaining"
+msgstr "બેટરી પાવરને વાપરી રહ્યા છે - %s બાકી રહેલ છે"
+
+#: panels/power/cc-power-panel.c:263
+msgid "Charging"
+msgstr "ચાર્જિંગ"
+
+#: panels/power/cc-power-panel.c:268
+msgid "Using battery power"
+msgstr "બેટરી પાવર વાપરી રહ્યા છે"
+
+#: panels/power/cc-power-panel.c:272
+msgid "Charging - fully charged"
+msgstr "ચાર્જિંગ - સંપૂર્ણ ચાર્જ"
+
+#: panels/power/cc-power-panel.c:276
+msgid "Empty"
+msgstr "ખાલી"
+
+#: panels/power/cc-power-panel.c:340
+#, c-format
+msgid "Caution low UPS, %s remaining"
+msgstr "સાવધાન UPS ઓછુ, %s બાકી રહેલ છે"
+
+#: panels/power/cc-power-panel.c:346
+#, c-format
+msgid "Using UPS power - %s remaining"
+msgstr "UPS પાવરને વાપરી રહ્યા છે - %s બાકી રહેલ છે"
+
+#: panels/power/cc-power-panel.c:364
+msgid "Caution low UPS"
+msgstr "સાવધાન UPS ઓછુ"
+
+#: panels/power/cc-power-panel.c:369
+msgid "Using UPS power"
+msgstr "UPS પાવરને વાપરી રહ્યા છે"
+
+#: panels/power/cc-power-panel.c:418
+msgid "Your secondary battery is fully charged"
+msgstr "તમારી ગૌણ બેટરી સંપૂર્ણપણે ચાર્જ થયેલ છે"
+
+#: panels/power/cc-power-panel.c:422
+msgid "Your secondary battery is empty"
+msgstr "તમારી ગૌણ બેટરી ખાલી છે"
+
+#: panels/power/cc-power-panel.c:503
+msgid "Wireless mouse"
+msgstr "વાયરલેસ માઉસ"
+
+#: panels/power/cc-power-panel.c:507
+msgid "Wireless keyboard"
+msgstr "વાયરલેસ કિબોર્ડ"
+
+#: panels/power/cc-power-panel.c:511
+msgid "Uninterruptible power supply"
+msgstr "અવરોધી ન શકાય તેવો વીજ પુરવઠો"
+
+#: panels/power/cc-power-panel.c:515
+msgid "Personal digital assistant"
+msgstr "વ્યક્તિગત ડિઝિટલ મદદકર્તા"
+
+#: panels/power/cc-power-panel.c:519
+msgid "Cellphone"
+msgstr "સેલફોન"
+
+#: panels/power/cc-power-panel.c:523
+msgid "Media player"
+msgstr "મીડિયા પ્લેયર"
+
+# #-#-#-#-#  cinnamon-applets.cinnamon-2-2.hi.po (cinnamon-applets 2.x)  #-#-#-#-# gtk/gtkinputdialog.c:238
+#: panels/power/cc-power-panel.c:527
+msgid "Tablet"
+msgstr "ટૅબલેટ"
+
+#: panels/power/cc-power-panel.c:531
+msgid "Computer"
+msgstr "કમ્પ્યૂટર"
+
+#: panels/power/cc-power-panel.c:535
+msgid "Battery"
+msgstr "બેટરી"
+
+#: panels/region/cinnamon-region-panel-xkblt.c:210
+msgid "Layout"
+msgstr "દેખાવ"
+
+#: panels/region/cinnamon-region-panel-xkbot.c:229
+msgid "Default"
+msgstr "મૂળભૂત"
+
+#: panels/sound/applet-main.c:49
+msgid "Enable debugging code"
+msgstr "ડિબગીંગ સ્થિતિ સક્રિય કરો"
+
+#: panels/sound/applet-main.c:50
+msgid "Version of this application"
+msgstr "આ કાર્યક્રમની આવૃત્તિ"
+
+#: panels/sound/applet-main.c:62
+msgid " — Cinnamon Volume Control Applet"
+msgstr ""
+
+#: panels/sound/gvc-applet.c:270 panels/sound/gvc-mixer-dialog.c:1654
+#: panels/sound-nua/gvc-mixer-dialog.c:1811
+msgid "Output"
+msgstr "આઉટપુટ"
+
+#: panels/sound/gvc-applet.c:272
+msgid "Sound Output Volume"
+msgstr "સાઉન્ડ આઉટપુટ વોલ્યુમ"
+
+#: panels/sound/gvc-applet.c:276 panels/sound/gvc-mixer-dialog.c:1695
+#: panels/sound-nua/gvc-mixer-dialog.c:1944
+msgid "Input"
+msgstr "ઇનપુટ"
+
+#: panels/sound/gvc-applet.c:278
+msgid "Microphone Volume"
+msgstr "માઇક્રોફોન વોલ્યુમ"
+
+#: panels/sound/gvc-balance-bar.c:295 panels/sound-nua/gvc-balance-bar.c:295
+msgid "_Balance:"
+msgstr "સમતુલન (_B):"
+
+#: panels/sound/gvc-balance-bar.c:298 panels/sound-nua/gvc-balance-bar.c:298
+msgid "_Fade:"
+msgstr "ઝાંખુ પડવુ (_F):"
+
+#: panels/sound/gvc-balance-bar.c:301 panels/sound-nua/gvc-balance-bar.c:301
+msgid "_Subwoofer:"
+msgstr "સબવુફર (_S):"
+
+# libgnomeprintui/gpaui/add-printer-dialog.c:83
+# libgnomeprintui/gpaui/config-dialog.c:83
+#: panels/sound/gvc-combo-box.c:167 panels/sound/gvc-mixer-dialog.c:258
+#: panels/sound/gvc-mixer-dialog.c:519
+msgid "_Profile:"
+msgstr "રૂપરેખા (_P):"
+
+# #-#-#-#-#  cinnamon-applets.cinnamon-2-2.hi.po (cinnamon-applets 2.x)  #-#-#-#-#
+# gtk/gtkinputdialog.c:238
+#: panels/sound/gvc-mixer-control.c:1834
+msgid "Disabled"
+msgstr "નિષ્ક્રિય"
+
+#: panels/sound/gvc-mixer-control.c:1841
+#, c-format
+msgid "%u Output"
+msgid_plural "%u Outputs"
+msgstr[0] "%u આઉટપુટ"
+msgstr[1] "%u આઉટપુટો"
+
+#: panels/sound/gvc-mixer-control.c:1851
+#, c-format
+msgid "%u Input"
+msgid_plural "%u Inputs"
+msgstr[0] "%u ઇનપુટ"
+msgstr[1] "%u ઇનપુટો"
+
+#: panels/sound/gvc-mixer-control.c:2375
+msgid "System Sounds"
+msgstr "સિસ્ટમ સાઉન્ડ"
+
+#: panels/sound/gvc-mixer-dialog.c:260
+msgid "_Test Speakers"
+msgstr "સ્પીકર ચકાસો (_T)"
+
+#: panels/sound/gvc-mixer-dialog.c:424 panels/sound-nua/gvc-mixer-dialog.c:345
+msgid "Peak detect"
+msgstr "પીક મળ્યુ"
+
+#: panels/sound/gvc-mixer-dialog.c:1504
+#: panels/sound-nua/gvc-mixer-dialog.c:1582
+msgid "Name"
+msgstr "નામ"
+
+#: panels/sound/gvc-mixer-dialog.c:1586
+#: panels/sound-nua/gvc-mixer-dialog.c:1684
+#, c-format
+msgid "Speaker Testing for %s"
+msgstr "%s માટે સ્પીકર ચકાસણી"
+
+#: panels/sound/gvc-mixer-dialog.c:1640
+#: panels/sound-nua/gvc-mixer-dialog.c:2106
+msgid "_Output volume:"
+msgstr "આઉટપુટ વોલ્યુમ (_O):"
+
+#: panels/sound/gvc-mixer-dialog.c:1659
+msgid "C_hoose a device for sound output:"
+msgstr "સાઉન્ડ આઉટપુટ માટે ઉપકરણને પસંદ કરો (_h):"
+
+#: panels/sound/gvc-mixer-dialog.c:1684
+msgid "Settings for the selected device:"
+msgstr "પસંદ થયેલ ઉપકરણ માટે સુયોજનો:"
+
+#: panels/sound/gvc-mixer-dialog.c:1702
+#: panels/sound-nua/gvc-mixer-dialog.c:1991
+msgid "_Input volume:"
+msgstr "ઇનપુટ વોલ્યુમ (_I):"
+
+#: panels/sound/gvc-mixer-dialog.c:1725
+#: panels/sound-nua/gvc-mixer-dialog.c:2024
+msgid "Input level:"
+msgstr "ઈનપુટ સ્તર:"
+
+#: panels/sound/gvc-mixer-dialog.c:1753
+msgid "C_hoose a device for sound input:"
+msgstr "સાઉન્ડ ઇનપુટ માટે ઉપકરણને પસંદ કરો (_h):"
+
+#: panels/sound/gvc-mixer-dialog.c:1780
+#: panels/sound-nua/gvc-mixer-dialog.c:2050
+msgid "Sound Effects"
+msgstr "સાઉન્ડ અસરો"
+
+#: panels/sound/gvc-mixer-dialog.c:1787
+#: panels/sound-nua/gvc-mixer-dialog.c:2057
+msgid "_Alert volume:"
+msgstr "ચેતવણી વોલ્યુમ (_A):"
+
+#: panels/sound/gvc-mixer-dialog.c:1795
+#: panels/sound-nua/gvc-mixer-dialog.c:2087
+msgid "Applications"
+msgstr "કાર્યક્રમો"
+
+#: panels/sound/gvc-mixer-dialog.c:1799
+#: panels/sound-nua/gvc-mixer-dialog.c:2091
+msgid "No application is currently playing or recording audio."
+msgstr "કાર્યક્રમ હાલમાં ઓડિયોને વગાડી અથવા રેકોર્ડ કરી રહ્યુ છે."
+
+#: panels/sound/gvc-speaker-test.c:220
+msgid "Stop"
+msgstr "બંધ કરો"
+
+#: panels/sound/gvc-speaker-test.c:220 panels/sound/gvc-speaker-test.c:332
+msgid "Test"
+msgstr "ચકાસો"
+
+#: panels/sound/gvc-speaker-test.c:228
+msgid "Subwoofer"
+msgstr "સબવુફર"
+
+#: panels/sound/gvc-stream-status-icon.c:236
+#, c-format
+msgid "Failed to start Sound Preferences: %s"
+msgstr "સાઉન્ડ પસંદગીઓને શરૂ કરવામાં નિષ્ફળતા: %s"
+
+#: panels/sound/gvc-stream-status-icon.c:262
+msgid "_Mute"
+msgstr "મૂંગુ (_M)"
+
+#: panels/sound/gvc-stream-status-icon.c:271
+msgid "_Sound Preferences"
+msgstr "સાઉન્ડ પસંદગીઓ (_S)"
+
+#: panels/sound/gvc-stream-status-icon.c:416
+msgid "Muted"
+msgstr "મૂંગુ"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:778
+#: panels/sound-nua/gvc-mixer-dialog.c:948
+#, c-format
+msgid "Settings for %s"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:804
+#: panels/sound-nua/gvc-mixer-dialog.c:957
+msgid "Mode:"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1736
+msgid "Choose an audio file"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1816
+msgid "Play sound through"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1841
+#: panels/sound-nua/gvc-mixer-dialog.c:1973
+msgid "Settings for the selected device"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1914
+msgid "Test:"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1921
+msgid "Test Sound"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1948
+msgid "Record sound from"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2069
+msgid "Starting Cinnamon:"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2070
+msgid "Switching workspace:"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2071
+msgid "Mapping windows:"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2072
+msgid "Closing windows:"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2073
+msgid "Minimizing windows:"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2074
+msgid "Maximizing windows:"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2075
+msgid "Unmaximizing windows:"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2076
+msgid "Tiling and snapping windows:"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2077
+msgid "Inserting a device:"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2078
+msgid "Removing a device:"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2079
+msgid "Changing the sound volume:"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2080
+msgid "Leaving Cinnamon:"
+msgstr ""
+
+#: panels/universal-access/cc-ua-panel.c:289
+#: panels/universal-access/cc-ua-panel.c:295
+msgid "No shortcut set"
+msgstr "ટૂંકાણો સુયોજિત નથી"
+
+#: panels/wacom/cc-wacom-mapping-panel.c:275
+msgid "Output:"
+msgstr ""
+
+#: panels/wacom/cc-wacom-mapping-panel.c:287
+msgid "Keep aspect ratio (letterbox):"
+msgstr ""
+
+#: panels/wacom/cc-wacom-mapping-panel.c:298
+msgid "Map to single monitor"
+msgstr ""
+
+#: panels/wacom/cc-wacom-nav-button.c:89
+#, c-format
+msgid "%d of %d"
+msgstr ""
+
+#: panels/wacom/cc-wacom-page.c:663
+msgid "Switch Modes"
+msgstr ""
+
+#: panels/wacom/cc-wacom-page.c:753 panels/wacom/cc-wacom-stylus-page.c:373
+msgid "Button"
+msgstr ""
+
+#: panels/wacom/cc-wacom-page.c:790
+msgid "Type"
+msgstr ""
+
+#: panels/wacom/cc-wacom-page.c:811
+msgid "Action"
+msgstr ""
+
+#: panels/wacom/cc-wacom-page.c:921
+msgid "Display Mapping"
+msgstr ""
+
+#: panels/wacom/csd-wacom-device.c:1076
+msgid "Left Ring"
+msgstr ""
+
+#: panels/wacom/csd-wacom-device.c:1086
+#, c-format
+msgid "Left Ring Mode #%d"
+msgstr ""
+
+#: panels/wacom/csd-wacom-device.c:1105
+msgid "Right Ring"
+msgstr ""
+
+#: panels/wacom/csd-wacom-device.c:1115
+#, c-format
+msgid "Right Ring Mode #%d"
+msgstr ""
+
+#: panels/wacom/csd-wacom-device.c:1156
+msgid "Left Touchstrip"
+msgstr ""
+
+#: panels/wacom/csd-wacom-device.c:1166
+#, c-format
+msgid "Left Touchstrip Mode #%d"
+msgstr ""
+
+#: panels/wacom/csd-wacom-device.c:1185
+msgid "Right Touchstrip"
+msgstr ""
+
+#: panels/wacom/csd-wacom-device.c:1195
+#, c-format
+msgid "Right Touchstrip Mode #%d"
+msgstr ""
+
+#: panels/wacom/csd-wacom-device.c:1220
+msgid "Left Touchring Mode Switch"
+msgstr ""
+
+#: panels/wacom/csd-wacom-device.c:1222
+msgid "Right Touchring Mode Switch"
+msgstr ""
+
+#: panels/wacom/csd-wacom-device.c:1225
+msgid "Left Touchstrip Mode Switch"
+msgstr ""
+
+#: panels/wacom/csd-wacom-device.c:1227
+msgid "Right Touchstrip Mode Switch"
+msgstr ""
+
+#: panels/wacom/csd-wacom-device.c:1232
+#, c-format
+msgid "Mode Switch #%d"
+msgstr ""
+
+#: panels/wacom/csd-wacom-device.c:1336
+#, c-format
+msgid "Left Button #%d"
+msgstr ""
+
+#: panels/wacom/csd-wacom-device.c:1339
+#, c-format
+msgid "Right Button #%d"
+msgstr ""
+
+#: panels/wacom/csd-wacom-device.c:1342
+#, c-format
+msgid "Top Button #%d"
+msgstr ""
+
+#: panels/wacom/csd-wacom-device.c:1345
+#, c-format
+msgid "Bottom Button #%d"
+msgstr ""
+
+#: shell/cc-shell-nav-bar.c:117
+msgid "_All Settings"
+msgstr ""
+
+#: shell/control-center.c:58
+msgid "Enable verbose mode"
+msgstr "વર્બોસ સ્થિતિ સક્રિય કરો"
+
+#: shell/control-center.c:59
+msgid "Show the overview"
+msgstr "ઝાંખી બતાવો"
+
+#: shell/control-center.c:60 shell/control-center.c:61
+#: shell/control-center.c:62
+msgid "Show help options"
+msgstr "મદદ વિકલ્પો બતાવો"
+
+#: shell/control-center.c:63
+msgid "Panel to display"
+msgstr "દર્શાવવા માટે પેનલ"
+
+#: shell/control-center.c:85
+msgid "- System Settings"
+msgstr "- સિસ્ટમ સુયોજનો"
+
+#: shell/control-center.c:93
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"ઉપલબ્ધ આદેશ વાક્ય વિકલ્પોની સંપૂર્ણ યાદીને જોવા માટે  '%s --help' ચલાવો.\n"
+
+#: shell/control-center.c:215
+msgid "Help"
+msgstr "મદદ"
+
+#: shell/control-center.c:216
+msgid "Quit"
+msgstr "બહાર નીકળો"
+
+#: panels/color/color.ui.h:3 generate_additional_files.py:85
+msgid "Color"
+msgstr ""
+
+#: panels/color/color.ui.h:4
+msgid "Each device needs an up to date color profile to be color managed."
+msgstr ""
+
+#: panels/color/color.ui.h:5
+msgid "Learn more"
+msgstr ""
+
+#: panels/color/color.ui.h:6
+msgid "Learn more about color management"
+msgstr ""
+
+#: panels/color/color.ui.h:7
+msgid "Add device"
+msgstr ""
+
+#: panels/color/color.ui.h:8
+msgid "Add a virtual device"
+msgstr ""
+
+#: panels/color/color.ui.h:9
+msgid "Delete device"
+msgstr ""
+
+#: panels/color/color.ui.h:10
+msgid "Remove a device"
+msgstr ""
+
+#: panels/color/color.ui.h:12
+msgid "Set this profile for all users on this computer"
+msgstr ""
+
+#: panels/color/color.ui.h:13
+msgid "Add profile"
+msgstr ""
+
+#: panels/color/color.ui.h:14 panels/wacom/cinnamon-wacom-properties.ui.h:10
+msgid "Calibrate…"
+msgstr ""
+
+#: panels/color/color.ui.h:15
+msgid "Calibrate the device"
+msgstr ""
+
+#: panels/color/color.ui.h:16
+msgid "Remove profile"
+msgstr ""
+
+#: panels/color/color.ui.h:17
+msgid "View details"
+msgstr ""
+
+#: panels/color/color.ui.h:18
+msgid "Device type:"
+msgstr ""
+
+#: panels/color/color.ui.h:19
+msgid "Manufacturer:"
+msgstr ""
+
+#: panels/color/color.ui.h:20
+msgid "Model:"
+msgstr ""
+
+#: panels/color/color.ui.h:21
+msgid ""
+"Image files can be dragged on this window to auto-complete the above fields."
+msgstr ""
+
+#: panels/common/language-chooser.ui.h:1
+msgid "Select a language"
+msgstr ""
+
+#: panels/common/language-chooser.ui.h:2
+msgid "_Cancel"
+msgstr ""
+
+#: panels/common/language-chooser.ui.h:3
+msgid "_Select"
+msgstr ""
+
+#: panels/datetime/datetime.ui.h:1
+msgid "_Region:"
+msgstr ""
+
+#: panels/datetime/datetime.ui.h:2
+msgid "_City:"
+msgstr ""
+
+#: panels/datetime/datetime.ui.h:3
+msgid "_Network Time"
+msgstr ""
+
+#: panels/datetime/datetime.ui.h:5
+msgid ":"
+msgstr ""
+
+#: panels/datetime/datetime.ui.h:6
+msgid "Set the time one hour ahead."
+msgstr ""
+
+#: panels/datetime/datetime.ui.h:7
+msgid "Set the time one hour back."
+msgstr ""
+
+#: panels/datetime/datetime.ui.h:8
+msgid "Set the time one minute ahead."
+msgstr ""
+
+#: panels/datetime/datetime.ui.h:9
+msgid "Set the time one minute back."
+msgstr ""
+
+#: panels/datetime/datetime.ui.h:10
+msgid "Month"
+msgstr ""
+
+#: panels/datetime/datetime.ui.h:11
+msgid "Day"
+msgstr ""
+
+#: panels/datetime/datetime.ui.h:12
+msgid "Year"
+msgstr ""
+
+#: panels/datetime/datetime.ui.h:13
+msgid "January"
+msgstr ""
+
+#: panels/datetime/datetime.ui.h:14
+msgid "February"
+msgstr ""
+
+#: panels/datetime/datetime.ui.h:15
+msgid "March"
+msgstr ""
+
+#: panels/datetime/datetime.ui.h:16
+msgid "April"
+msgstr ""
+
+#: panels/datetime/datetime.ui.h:17
+msgid "May"
+msgstr ""
+
+#: panels/datetime/datetime.ui.h:18
+msgid "June"
+msgstr ""
+
+#: panels/datetime/datetime.ui.h:19
+msgid "July"
+msgstr ""
+
+#: panels/datetime/datetime.ui.h:20
+msgid "August"
+msgstr ""
+
+#: panels/datetime/datetime.ui.h:21
+msgid "September"
+msgstr ""
+
+#: panels/datetime/datetime.ui.h:22
+msgid "October"
+msgstr ""
+
+#: panels/datetime/datetime.ui.h:23
+msgid "November"
+msgstr ""
+
+#: panels/datetime/datetime.ui.h:24
+msgid "December"
+msgstr ""
+
+#: panels/display/display-capplet.ui.h:2
+msgid "Set as Primary"
+msgstr ""
+
+#: panels/display/display-capplet.ui.h:3
+msgid "_Resolution"
+msgstr ""
+
+#: panels/display/display-capplet.ui.h:4
+msgid "R_otation"
+msgstr ""
+
+#: panels/display/display-capplet.ui.h:6
+msgid "_Mirror displays"
+msgstr ""
+
+#: panels/display/display-capplet.ui.h:7
+msgid "Note: may limit resolution options"
+msgstr ""
+
+#: panels/display/display-capplet.ui.h:8
+msgid "_Detect Displays"
+msgstr ""
+
+#: panels/network/network-mobile.ui.h:1
+msgid "IMEI"
+msgstr ""
+
+#: panels/network/network-mobile.ui.h:2
+msgid "Provider"
+msgstr ""
+
+#: panels/network/network-mobile.ui.h:5 panels/network/network-wifi.ui.h:15
+#: panels/network/network-wired.ui.h:4
+msgid "Default Route"
+msgstr ""
+
+#: panels/network/network-mobile.ui.h:6 panels/network/network-wifi.ui.h:16
+#: panels/network/network-wired.ui.h:5
+msgid "DNS"
+msgstr ""
+
+#: panels/network/network-mobile.ui.h:7 generate_additional_files.py:175
+msgid "Network"
+msgstr ""
+
+#: panels/network/network-mobile.ui.h:8 panels/network/network-wired.ui.h:6
+#: panels/region/cinnamon-region-panel.ui.h:11
+msgid "_Options..."
+msgstr ""
+
+#: panels/network/network-proxy.ui.h:4
+msgid "_Method"
+msgstr ""
+
+#: panels/network/network-proxy.ui.h:5
+msgid "_Configuration URL"
+msgstr ""
+
+#: panels/network/network-proxy.ui.h:6
+msgid "_HTTP Proxy"
+msgstr ""
+
+#: panels/network/network-proxy.ui.h:7
+msgid "H_TTPS Proxy"
+msgstr ""
+
+#: panels/network/network-proxy.ui.h:8
+msgid "_FTP Proxy"
+msgstr ""
+
+#: panels/network/network-proxy.ui.h:9
+msgid "_Socks Host"
+msgstr ""
+
+#: panels/network/network.ui.h:1
+msgid "Select the interface to use for the new service"
+msgstr ""
+
+#: panels/network/network.ui.h:2
+msgid "C_reate..."
+msgstr ""
+
+#: panels/network/network.ui.h:3
+msgid "_Interface"
+msgstr ""
+
+#: panels/network/network.ui.h:4 panels/network/network-vpn.ui.h:1
+msgid "VPN"
+msgstr ""
+
+#: panels/network/network.ui.h:8
+msgid "Add Device"
+msgstr ""
+
+#: panels/network/network.ui.h:9
+msgid "Remove Device"
+msgstr "ઉપકરણ દૂર કરો"
+
+#: panels/network/network-vpn.ui.h:2
+msgid "VPN Type"
+msgstr ""
+
+#: panels/network/network-vpn.ui.h:3
+msgid "Gateway"
+msgstr ""
+
+#: panels/network/network-vpn.ui.h:4
+msgid "Group Name"
+msgstr ""
+
+#: panels/network/network-vpn.ui.h:5
+msgid "Group Password"
+msgstr ""
+
+#: panels/network/network-vpn.ui.h:6
+msgid "Username"
+msgstr ""
+
+#: panels/network/network-vpn.ui.h:7
+msgid "_Configure..."
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:1
+msgid "Wireless Hotspot"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:2
+msgid "_Turn On"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:4
+msgid "_Use as Hotspot..."
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:5
+msgid "Connect to a Hidden Network"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:6
+msgid "_Disconnect"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:7
+msgid "_Connect"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:8
+msgid "Last used"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:9 panels/network/network-wired.ui.h:1
+msgid "Hardware Address"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:10
+msgid "Security"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:11
+msgid "Strength"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:12
+msgid "Link speed"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:17
+msgid "_Forget Network"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:18
+msgid "_Settings..."
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:19
+msgid "Switch off to connect to a wireless network"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:20
+msgid "Network Name"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:21
+msgid "Connected Devices"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:22
+msgid "Security type"
+msgstr ""
+
+#: panels/network/network-wifi.ui.h:23
+msgid "Security key"
+msgstr ""
+
+#: panels/power/power.ui.h:1
+msgid "Hibernate"
+msgstr ""
+
+#: panels/power/power.ui.h:2
+msgid "Power off"
+msgstr ""
+
+#: panels/power/power.ui.h:3
+msgid "5 minutes"
+msgstr ""
+
+#: panels/power/power.ui.h:4
+msgid "10 minutes"
+msgstr ""
+
+#: panels/power/power.ui.h:5
+msgid "30 minutes"
+msgstr ""
+
+#: panels/power/power.ui.h:6
+msgid "1 hour"
+msgstr ""
+
+#: panels/power/power.ui.h:7
+msgid "Never"
+msgstr ""
+
+#: panels/power/power.ui.h:8
+msgid "When battery is present"
+msgstr ""
+
+#: panels/power/power.ui.h:9
+msgid "When battery is charging/in use"
+msgstr ""
+
+#: panels/power/power.ui.h:10
+msgid "Suspend"
+msgstr ""
+
+#: panels/power/power.ui.h:11
+msgid "Do nothing"
+msgstr ""
+
+#: panels/power/power.ui.h:12
+msgid "Lock Screen"
+msgstr ""
+
+#: panels/power/power.ui.h:13
+msgid "Shutdown Immediately"
+msgstr ""
+
+#: panels/power/power.ui.h:14
+msgid "Ask"
+msgstr ""
+
+#: panels/power/power.ui.h:15
+msgid "On battery power"
+msgstr ""
+
+#: panels/power/power.ui.h:16
+msgid "On A/C power"
+msgstr ""
+
+#: panels/power/power.ui.h:17
+msgid "When the lid is closed"
+msgstr ""
+
+#: panels/power/power.ui.h:18
+msgid "When the power button is pressed"
+msgstr ""
+
+#: panels/power/power.ui.h:19
+msgid "When battery power is critically low"
+msgstr ""
+
+#: panels/power/power.ui.h:20
+msgid "Suspend when inactive for"
+msgstr ""
+
+#: panels/power/power.ui.h:21
+msgid "Turn off the screen when inactive for"
+msgstr ""
+
+#: panels/power/power.ui.h:22
+msgid "Start the screensaver when inactive for"
+msgstr ""
+
+#: panels/power/power.ui.h:23
+msgid "<b>Power Options</b>"
+msgstr ""
+
+#: panels/power/power.ui.h:24
+msgid "<b>Battery Status</b>"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:1
+msgid "Choose a Layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:2
+msgid "Preview"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:3
+msgid "Select an input source to add"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel-options-dialog.ui.h:1
+msgid "Keyboard Layout Options"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:1
+msgid "Region and Language"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:2
+msgid "Add Layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:3
+msgid "Remove Layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:4
+msgid "Move Up"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:5
+msgid "Move Down"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:6
+msgid "Preview Layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:7
+msgid "Use the same layout for all windows"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:8
+msgid "Allow different layouts for individual windows"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:9
+msgid "New windows use the default layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:10
+msgid "New windows use the previous window's layout"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:12
+msgid "View and edit keyboard layout options"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:13
+msgid "Reset to De_faults"
+msgstr ""
+
+#: panels/region/cinnamon-region-panel.ui.h:14
+msgid ""
+"Replace the current keyboard layout settings with the\n"
+"default settings"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:5
+msgid "On screen keyboard"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:6
+msgid "GOK"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:7
+msgid "OnBoard"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:8
+msgid "None"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:10
+#, no-c-format
+msgid "75%"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:13
+#, no-c-format
+msgid "100%"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:16
+#, no-c-format
+msgid "125%"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:19
+#, no-c-format
+msgid "150%"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:21
+msgid "High Contrast"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:22
+msgid "Beep on Caps and Num Lock"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:23
+msgid "Options..."
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:24
+msgid "Screen Reader"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:25
+msgid "Turn on or off:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:27
+msgid "Zoom in:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:28
+msgid "Zoom out:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:29
+msgid "Large Text"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:30
+msgid "Seeing"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:31
+msgid "Visual Alerts"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:32
+msgid "Use a visual indication when an alert sound occurs"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:33
+msgid "Flash the window title"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:34
+msgid "Flash the entire screen"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:35
+msgid "Closed Captioning"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:36
+msgid "Display a textual description of speech and sounds"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:37
+msgid "_Test flash"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:38
+msgid "Hearing"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:39
+msgid "On Screen Keyboard"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:40
+msgid "Sticky Keys"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:41
+msgid "Treats a sequence of modifier keys as a key combination"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:42
+msgid "_Disable if two keys are pressed together"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:43
+msgid "Beep when a _modifer key is pressed"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:44
+msgid "Slow Keys"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:45
+msgid "Puts a delay between when a key is pressed and when it is accepted"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:46
+msgid "A_cceptance delay:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:48
+msgid "Short"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:49
+msgid "Slow keys typing delay"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:51
+msgid "Long"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:53
+msgid "Beep when a key is"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:55
+msgid "pressed"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:57
+msgid "accepted"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:59
+msgid "rejected"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:60
+msgid "Bounce Keys"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:61
+msgid "Ignores fast duplicate keypresses"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:62
+msgid "Acc_eptance delay:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:63
+msgid "Bounce keys typing delay"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:64
+msgid "Beep when a key is _rejected"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:65
+msgid "Enable by Keyboard"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:66
+msgid "Turn accessibility features on and off using the keyboard"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:67
+msgid "Typing"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:68
+msgid "Mouse Keys"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:69
+msgid "Control the pointer using the keypad"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:70
+msgid "Video Mouse"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:71
+msgid "Control the pointer using the video camera."
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:72
+msgid "Simulated Secondary Click"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:73
+msgid "Trigger a secondary click by holding down the primary button"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:74
+msgid "Secondary click delay"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:75
+msgid "Hover Click"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:76
+msgid "Trigger a click when the pointer hovers"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:77
+msgid "D_elay:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:78
+msgid "Motion _threshold:"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:80
+msgid "Small"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:82
+msgid "Large"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:83
+msgid "Mouse Settings"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:84
+msgid "Pointing and Clicking"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:1
+msgid "Full Screen"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:2
+msgid "Top Half"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:3
+msgid "Bottom Half"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:4
+msgid "Left Half"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:5
+msgid "Right Half"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:6
+msgid "Zoom Options"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:7
+msgid "Zoom"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:8
+msgid "Magnification:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:9
+msgid "Follow mouse cursor"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:10
+msgid "Screen part:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:11
+msgid "Magnifier extends outside of screen"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:12
+msgid "Keep magnifier cursor centered"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:13
+msgid "Magnifier cursor pushes contents around"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:14
+msgid "Magnifier cursor moves with contents"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:15
+msgid "Magnifier Position:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:16
+msgid "Magnifier"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:17
+msgid "Thickness:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:19
+msgid "Thin"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:21
+msgid "Thick"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:22
+msgid "Length:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:23
+msgid "Color:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:24
+msgid "Crosshairs:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:25
+msgid "Overlaps mouse cursor"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:26
+msgid "Crosshairs"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:27
+msgid "White on black:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:28
+msgid "Brightness:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:29
+msgid "Contrast:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:34
+msgid "Low"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:36
+msgid "High"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:37
+msgid "Color Effects:"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:38
+msgid "Color Effects"
+msgstr ""
+
+#: panels/wacom/button-mapping.ui.h:1
+msgid "Map Buttons"
+msgstr ""
+
+#: panels/wacom/button-mapping.ui.h:2
+msgid "Map buttons to functions"
+msgstr ""
+
+#: panels/wacom/button-mapping.ui.h:3
+msgid ""
+"To edit a shortcut, click the row and hold down the new keys or press "
+"Backspace to clear."
+msgstr ""
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:1
+msgid "Tablet (absolute)"
+msgstr ""
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:2
+msgid "Touchpad (relative)"
+msgstr ""
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:3
+msgid "Tablet Preferences"
+msgstr ""
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:4
+msgid "No tablet detected"
+msgstr ""
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:5
+msgid "Please plug in or turn on your graphics tablet"
+msgstr ""
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:6
+msgid "Bluetooth Settings"
+msgstr ""
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:7
+msgid "Graphics Tablet"
+msgstr ""
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:8
+msgid "Map to Monitor…"
+msgstr ""
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:9
+msgid "Map Buttons…"
+msgstr ""
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:11
+msgid "Adjust display resolution"
+msgstr ""
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:12
+msgid "Tracking Mode"
+msgstr ""
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:13
+msgid "Left-Handed Orientation"
+msgstr ""
+
+#: panels/wacom/wacom-stylus-page.ui.h:1
+msgid "No Action"
+msgstr ""
+
+#: panels/wacom/wacom-stylus-page.ui.h:2
+msgid "Left Mouse Button Click"
+msgstr ""
+
+#: panels/wacom/wacom-stylus-page.ui.h:3
+msgid "Middle Mouse Button Click"
+msgstr ""
+
+#: panels/wacom/wacom-stylus-page.ui.h:4
+msgid "Right Mouse Button Click"
+msgstr ""
+
+#: panels/wacom/wacom-stylus-page.ui.h:5
+msgid "Scroll Up"
+msgstr ""
+
+#: panels/wacom/wacom-stylus-page.ui.h:6
+msgid "Scroll Down"
+msgstr ""
+
+#: panels/wacom/wacom-stylus-page.ui.h:7
+msgid "Scroll Left"
+msgstr ""
+
+#: panels/wacom/wacom-stylus-page.ui.h:8
+msgid "Scroll Right"
+msgstr ""
+
+#: panels/wacom/wacom-stylus-page.ui.h:9
+msgid "Back"
+msgstr ""
+
+#: panels/wacom/wacom-stylus-page.ui.h:10
+msgid "Forward"
+msgstr ""
+
+#: panels/wacom/wacom-stylus-page.ui.h:11
+msgid "Stylus"
+msgstr ""
+
+#: panels/wacom/wacom-stylus-page.ui.h:12
+msgid "Eraser Pressure Feel"
+msgstr ""
+
+#: panels/wacom/wacom-stylus-page.ui.h:13
+msgid "Soft"
+msgstr ""
+
+#: panels/wacom/wacom-stylus-page.ui.h:14
+msgid "Firm"
+msgstr ""
+
+#: panels/wacom/wacom-stylus-page.ui.h:15
+msgid "Top Button"
+msgstr ""
+
+#: panels/wacom/wacom-stylus-page.ui.h:16
+msgid "Lower Button"
+msgstr ""
+
+#: panels/wacom/wacom-stylus-page.ui.h:17
+msgid "Tip Pressure Feel"
+msgstr ""
+
+#: generate_additional_files.py:55
+msgid "Brightness & Lock"
+msgstr ""
+
+#: generate_additional_files.py:55
+msgid "Screen brightness and lock settings"
+msgstr ""
+
+#: generate_additional_files.py:70 generate_additional_files.py:101
+msgid "Sound"
+msgstr ""
+
+#: generate_additional_files.py:70 generate_additional_files.py:101
+msgid "Change sound volume and sound events"
+msgstr ""
+
+#: generate_additional_files.py:85
+msgid "Color management settings"
+msgstr ""
+
+#: generate_additional_files.py:115
+msgid "Volume Control"
+msgstr ""
+
+#: generate_additional_files.py:115
+msgid "Show desktop volume control"
+msgstr ""
+
+#: generate_additional_files.py:130
+msgid "Power"
+msgstr ""
+
+#: generate_additional_files.py:130
+msgid "Power management settings"
+msgstr ""
+
+#: generate_additional_files.py:145
+msgid "Region & Language"
+msgstr ""
+
+#: generate_additional_files.py:145
+msgid "Change your region and language settings"
+msgstr ""
+
+#: generate_additional_files.py:160
+msgid "Displays"
+msgstr ""
+
+#: generate_additional_files.py:160
+msgid "Change resolution and position of monitors and projectors"
+msgstr ""
+
+#: generate_additional_files.py:175
+msgid "Network settings"
+msgstr ""
+
+#: generate_additional_files.py:190
+msgid "Universal Access"
+msgstr ""
+
+#: generate_additional_files.py:190
+msgid "Universal Access Preferences"
+msgstr ""
+
+#: generate_additional_files.py:205
+msgid "Date & Time"
+msgstr ""
+
+#: generate_additional_files.py:205
+msgid "Date and Time preferences"
+msgstr ""

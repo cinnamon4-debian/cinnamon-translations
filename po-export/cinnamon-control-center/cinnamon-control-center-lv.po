@@ -1,0 +1,2388 @@
+# translation of cinnamon-control-center.HEAD.lv.po to Latvian
+# cinnamon-control-center for Latvian.
+# Copyright (C) 2001, 2006, 2007, 2009 Free Software Foundation, Inc.
+#
+# Artis Trops <hornet@navigators.lv>, 2001.
+# Raivis Dejus <orvils@gmail.com>, 2006, 2007, 2009.
+# Anita Reitere <nitalynx@gmail.com>, 2010, 2012.
+# Rudolfs <rudolfs.mazurs@gmail.com>, 2011.
+# Rūdofls Mazurs <rudolfs.mazurs@gmail.com>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: cinnamon-control-center.HEAD.lv\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=cinnamon-control-"
+"center&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-03-29 10:54+0000\n"
+"PO-Revision-Date: 2014-05-10 07:12+0000\n"
+"Last-Translator: Juris Daikteris <juris.daikteris@gmail.com>\n"
+"Language-Team: Latviešu <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2014-05-25 11:54+0000\n"
+"X-Generator: Launchpad (build 17017)\n"
+"Language: lv\n"
+
+#: panels/color/cc-color-panel.c:106
+msgid "Other profile…"
+msgstr "Cits profils..."
+
+#: panels/color/cc-color-panel.c:119
+msgid "Default: "
+msgstr "Noklusētais: "
+
+#: panels/color/cc-color-panel.c:126
+msgid "Colorspace: "
+msgstr "Krāsu telpa: "
+
+#: panels/color/cc-color-panel.c:132
+msgid "Test profile: "
+msgstr "Testa profils: "
+
+#: panels/color/cc-color-panel.c:185 panels/color/color.ui.h:11
+msgid "Set for all users"
+msgstr "Iestatīt visiem lietotājiem"
+
+#: panels/color/cc-color-panel.c:192
+msgid "Create virtual device"
+msgstr "Izveidot virtuālu ierīci"
+
+#: panels/color/cc-color-panel.c:227
+msgid "Select ICC Profile File"
+msgstr "Izvēlieties ICC profila datni"
+
+#: panels/color/cc-color-panel.c:230
+msgid "_Import"
+msgstr "_Importēt"
+
+#: panels/color/cc-color-panel.c:241
+msgid "Supported ICC profiles"
+msgstr "Atbalstītie ICC profili"
+
+#: panels/color/cc-color-panel.c:248
+msgid "All files"
+msgstr "Visas datnes"
+
+#: panels/color/cc-color-panel.c:638
+msgid "Available Profiles for Displays"
+msgstr "Pieejamie displeju profili"
+
+#: panels/color/cc-color-panel.c:642
+msgid "Available Profiles for Scanners"
+msgstr "Pieejamie skeneru profili"
+
+#: panels/color/cc-color-panel.c:646
+msgid "Available Profiles for Printers"
+msgstr "Pieejamie printeru profili"
+
+#: panels/color/cc-color-panel.c:650
+msgid "Available Profiles for Cameras"
+msgstr "Pieejamie fotoaparātu profili"
+
+#: panels/color/cc-color-panel.c:654
+msgid "Available Profiles for Webcams"
+msgstr "Pieejamie tīmekļa kameru profili"
+
+#: panels/color/cc-color-panel.c:659 panels/color/color.ui.h:2
+msgid "Available Profiles"
+msgstr "Pieejamie profili"
+
+#: panels/color/cc-color-panel.c:935 panels/sound/gvc-mixer-dialog.c:1523
+#: panels/sound-nua/gvc-mixer-dialog.c:1600
+msgid "Device"
+msgstr "Ierīce"
+
+#: panels/color/cc-color-panel.c:970
+msgid "Calibration"
+msgstr "Kalibrācija"
+
+#: panels/color/cc-color-panel.c:1002
+msgid "Create a color profile for the selected device"
+msgstr "Izveidot krāsu profilu izvēlētajai ierīcei"
+
+#: panels/color/cc-color-panel.c:1016 panels/color/cc-color-panel.c:1040
+msgid ""
+"The measuring instrument is not detected. Please check it is turned on and "
+"correctly connected."
+msgstr ""
+"Mērinstruments nav atrasts. Pārbaudiet, vai tas ir ieslēgts un pareizi "
+"pievienots."
+
+#: panels/color/cc-color-panel.c:1049
+msgid "The measuring instrument does not support printer profiling."
+msgstr "Mērinstruments neatbalsta printera profilēšanu."
+
+#: panels/color/cc-color-panel.c:1060
+msgid "The device type is not currently supported."
+msgstr "Ierīces veids pašlaik nav atbalstīts."
+
+#: panels/color/cc-color-panel.c:1132
+msgid "Cannot remove automatically added profile"
+msgstr "Nevar izņemt automātiski pievienotu profilu"
+
+#: panels/color/cc-color-panel.c:1463
+msgid "No profile"
+msgstr "Nav profila"
+
+#: panels/color/cc-color-panel.c:1494
+#, c-format
+msgid "%i year"
+msgid_plural "%i years"
+msgstr[0] "%i gads"
+msgstr[1] "%i gadi"
+msgstr[2] "%i gadu"
+
+#: panels/color/cc-color-panel.c:1505
+#, c-format
+msgid "%i month"
+msgid_plural "%i months"
+msgstr[0] "%i mēnesis"
+msgstr[1] "%i mēneši"
+msgstr[2] "%i mēnešu"
+
+#: panels/color/cc-color-panel.c:1516
+#, c-format
+msgid "%i week"
+msgid_plural "%i weeks"
+msgstr[0] "%i nedēļa"
+msgstr[1] "%i nedēļas"
+msgstr[2] "%i nedēļu"
+
+#: panels/color/cc-color-panel.c:1523
+msgid "Less than 1 week"
+msgstr "Mazāk kā 1 nedēļa"
+
+#: panels/color/cc-color-panel.c:1713 panels/color/cc-color-panel.c:1754
+#: panels/color/cc-color-panel.c:1765 panels/color/cc-color-panel.c:1776
+msgid "Uncalibrated"
+msgstr "Nekalibrēts"
+
+#: panels/color/cc-color-panel.c:1716
+msgid "This device is not color managed."
+msgstr "Ierīces krāsas netiek pārvaldītas."
+
+#: panels/color/cc-color-panel.c:1757
+msgid "This device is using manufacturing calibrated data."
+msgstr "Šī ierīce izmanto ražotnes kalibrētos datus."
+
+#: panels/color/cc-color-panel.c:1768
+msgid ""
+"This device does not have a profile suitable for whole-screen color "
+"correction."
+msgstr ""
+"Šai ierīcei nav profila, kas ir piemērots visa ekrāna krāsu korekcijai."
+
+#: panels/color/cc-color-panel.c:1801
+msgid "This device has an old profile that may no longer be accurate."
+msgstr "Ierīcei ir vecs profils, kas varētu vairs nebūt aktuāls."
+
+#: panels/color/cc-color-panel.c:1829
+msgid "Not specified"
+msgstr "Nav norādīts"
+
+#: panels/color/cc-color-panel.c:2014
+msgid "No devices supporting color management detected"
+msgstr "Nav atrastas ierīces, kas atbalsta krāsu pārvaldīšanu"
+
+#: panels/common/cc-common-language.c:533
+msgid "English"
+msgstr "Angļu"
+
+#: panels/common/cc-common-language.c:535
+msgid "British English"
+msgstr "Britu angļu"
+
+#: panels/common/cc-common-language.c:538
+msgid "German"
+msgstr "Vācu"
+
+#: panels/common/cc-common-language.c:541
+msgid "French"
+msgstr "Franču"
+
+#: panels/common/cc-common-language.c:544
+msgid "Spanish"
+msgstr "Spāņu"
+
+#: panels/common/cc-common-language.c:546
+msgid "Chinese (simplified)"
+msgstr "Ķīniešu (vienkāršota)"
+
+#: panels/common/cc-common-language.c:549
+msgid "Russian"
+msgstr "Krievu"
+
+#: panels/common/cc-common-language.c:552
+msgid "Arabic"
+msgstr "Arābu"
+
+#: panels/common/cc-common-language.c:580
+msgid "United States"
+msgstr "Amerikas Savienotās Valstis"
+
+#: panels/common/cc-common-language.c:581
+msgid "Germany"
+msgstr "Vācija"
+
+#: panels/common/cc-common-language.c:582
+msgid "France"
+msgstr "Francija"
+
+#: panels/common/cc-common-language.c:583
+msgid "Spain"
+msgstr "Spānija"
+
+#: panels/common/cc-common-language.c:584
+msgid "China"
+msgstr "Ķīna"
+
+#: panels/common/cc-language-chooser.c:304
+msgid "Select a region"
+msgstr "Izvēlieties reģionu"
+
+#: panels/common/gdm-languages.c:781
+msgid "Unspecified"
+msgstr "Nenorādīta"
+
+#: panels/display/cc-display-panel.c:624 panels/display/cc-rr-labeler.c:449
+#| msgid "Mirror Displays"
+msgid "Mirrored Displays"
+msgstr "Dublēti ekrāni"
+
+#: panels/display/cc-display-panel.c:648 panels/display/display-capplet.ui.h:1
+msgid "Monitor"
+msgstr "Monitors"
+
+#: panels/display/cc-display-panel.c:752
+#, c-format
+msgid "%d x %d (%s)"
+msgstr "%d × %d (%s)"
+
+#: panels/display/cc-display-panel.c:754
+#, c-format
+msgid "%d x %d"
+msgstr "%d × %d"
+
+#: panels/display/cc-display-panel.c:1666
+msgid ""
+"Select a monitor to change its properties; drag it to rearrange its "
+"placement."
+msgstr ""
+"Izvēlieties monitoru, lai mainītu tā īpašības; velciet, lai mainītu "
+"novietojumu."
+
+#: panels/display/cc-display-panel.c:2185
+#: panels/display/cc-display-panel.c:2237
+#, c-format
+msgid "Failed to apply configuration: %s"
+msgstr "Neizdevās pielietot konfigurāciju: %s"
+
+#: panels/display/cc-display-panel.c:2265
+msgid "Could not save the monitor configuration"
+msgstr "Neizdevās saglabāt monitora konfigurāciju"
+
+#: panels/display/cc-display-panel.c:2325
+msgid "Could not detect displays"
+msgstr "Neizdevās noteikt displejus"
+
+#: panels/display/cc-display-panel.c:2533
+msgid "Could not get screen information"
+msgstr "Neizdevās iegūt ekrāna informāciju"
+
+#: panels/network/cc-network-panel.c:661
+msgid "Network proxy"
+msgstr "Tīkla starpniekserveris"
+
+#: panels/network/cc-network-panel.c:853 panels/network/net-vpn.c:278
+#, c-format
+msgid "%s VPN"
+msgstr "%s VPN"
+
+#: panels/network/cc-network-panel.c:920
+msgid "The system network services are not compatible with this version."
+msgstr "Sistēmas tīklu servisi nav savietojami ar šo versiju."
+
+#: panels/network/cc-network-panel.c:1108
+#| msgid "Airplane Mode"
+msgid "Air_plane Mode"
+msgstr "_Lidmašīnas režīms"
+
+#: panels/network/net-device-mobile.c:222
+#| msgid "Connection"
+msgid "Add new connection"
+msgstr "Pievienot jaunu savienojumu"
+
+#: panels/network/net-device-mobile.c:261 panels/network/net-device-wifi.c:725
+#: panels/network/net-device-wired.c:126
+#, c-format
+msgid "%d Mb/s"
+msgstr "%d Mb/s"
+
+#: panels/network/net-device-wifi.c:258 panels/network/net-device-wifi.c:437
+msgid "WEP"
+msgstr "WEP"
+
+#: panels/network/net-device-wifi.c:262 panels/network/net-device-wifi.c:441
+msgid "WPA"
+msgstr "WPA"
+
+#: panels/network/net-device-wifi.c:266
+msgid "WPA2"
+msgstr "WPA2"
+
+#: panels/network/net-device-wifi.c:271
+msgid "Enterprise"
+msgstr "Enterprise"
+
+#: panels/network/net-device-wifi.c:652
+msgid "never"
+msgstr "nekad"
+
+#: panels/network/net-device-wifi.c:662
+msgid "today"
+msgstr "šodien"
+
+#: panels/network/net-device-wifi.c:664
+msgid "yesterday"
+msgstr "vakar"
+
+#: panels/network/net-device-wifi.c:666
+#, c-format
+msgid "%i day ago"
+msgid_plural "%i days ago"
+msgstr[0] "pirms %i dienas"
+msgstr[1] "pirms %i dienām"
+msgstr[2] "pirms %i dienām"
+
+#: panels/network/net-device-wifi.c:735 panels/network/panel-common.c:277
+msgid "Not connected"
+msgstr "Nav savienots"
+
+#: panels/network/net-device-wifi.c:737 panels/network/net-device-wifi.c:2108
+#| msgid "Out of toner"
+msgid "Out of range"
+msgstr "Ārpus apgabala"
+
+#: panels/network/net-device-wifi.c:960
+#, c-format
+#| msgid ""
+#| "Network details for %s including password and any custom configuration "
+#| "will be lost"
+msgid ""
+"Network details for %s including password and any custom configuration will "
+"be lost."
+msgstr ""
+"Informācija par tīklu %s, tai skaitā parole un jebkāda pielāgota "
+"konfigurācija, tiks pazaudēta"
+
+#: panels/network/net-device-wifi.c:971
+msgid "Forget"
+msgstr "Aizmirst"
+
+#: panels/network/net-device-wifi.c:1554
+msgid ""
+"If you have a connection to the Internet other than wireless, you can use it "
+"to share your internet connection with others."
+msgstr ""
+"Ja jums bez bezvadu pieslēguma ir arī cits pieslēgums Internetam, šādi jūs "
+"varat tajā dalīties ar citiem."
+
+#: panels/network/net-device-wifi.c:1558
+#, c-format
+msgid "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+msgstr "Bezvadu tīklāja ieslēgšana atvienos jūs no <b>%s</b>."
+
+#: panels/network/net-device-wifi.c:1562
+msgid ""
+"It is not possible to access the internet through your wireless while the "
+"hotspot is active."
+msgstr ""
+"Nav iespējams piekļūt Internetam, izmantojot šo bezvadu pieslēgumu, kamēr "
+"darbojas tīklājs."
+
+#: panels/network/net-device-wifi.c:1636
+msgid "Stop hotspot and disconnect any users?"
+msgstr "Apturēt tīklāju un atvienot visus lietotājus?"
+
+#: panels/network/net-device-wifi.c:1639
+msgid "_Stop Hotspot"
+msgstr "_Apturēt tīklāju"
+
+#: panels/network/net-proxy.c:67
+msgid ""
+"Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+msgstr ""
+"Kad nav dots konfigurācijas URL, tiek izmantota tīmekļa starpnieka "
+"automātiskā atklāšana."
+
+#: panels/network/net-proxy.c:75
+msgid "This is not recommended for untrusted public networks."
+msgstr "Tas nav ieteicams neuzticamos publiskos tīklos."
+
+#: panels/network/net-proxy.c:368
+msgid "Proxy"
+msgstr "Starpnieks"
+
+#: panels/network/panel-common.c:82 panels/network/panel-common.c:162
+msgid "Unknown"
+msgstr "Nezināms"
+
+#: panels/network/panel-common.c:86
+msgid "Wired"
+msgstr "Vadu"
+
+#: panels/network/panel-common.c:90 panels/network/network-wifi.ui.h:3
+msgid "Wireless"
+msgstr "Bezvadu"
+
+#: panels/network/panel-common.c:97
+msgid "Mobile broadband"
+msgstr "Mobilā platjosla"
+
+#: panels/network/panel-common.c:102
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: panels/network/panel-common.c:106
+msgid "Mesh"
+msgstr "Režģtīkls"
+
+#: panels/network/panel-common.c:166
+msgid "Ad-hoc"
+msgstr "Ekspromta"
+
+#: panels/network/panel-common.c:170
+msgid "Infrastructure"
+msgstr "Infrastruktūra"
+
+#: panels/network/panel-common.c:194 panels/network/panel-common.c:255
+msgid "Status unknown"
+msgstr "Nezināms statuss"
+
+#: panels/network/panel-common.c:198
+msgid "Unmanaged"
+msgstr "Nepārvaldīts"
+
+#: panels/network/panel-common.c:203
+msgid "Firmware missing"
+msgstr "Trūkst aparātprogrammatūras"
+
+#: panels/network/panel-common.c:206
+msgid "Cable unplugged"
+msgstr "Vads atvienots"
+
+#: panels/network/panel-common.c:208
+msgid "Unavailable"
+msgstr "Nav pieejams"
+
+#: panels/network/panel-common.c:212
+msgid "Disconnected"
+msgstr "Atvienots"
+
+#: panels/network/panel-common.c:219 panels/network/panel-common.c:261
+msgid "Connecting"
+msgstr "Savienojas"
+
+#: panels/network/panel-common.c:223 panels/network/panel-common.c:265
+msgid "Authentication required"
+msgstr "Nepieciešama autentifikācija"
+
+#: panels/network/panel-common.c:227 panels/network/panel-common.c:269
+msgid "Connected"
+msgstr "Savienots"
+
+#: panels/network/panel-common.c:231
+msgid "Disconnecting"
+msgstr "Atvieno"
+
+#: panels/network/panel-common.c:235 panels/network/panel-common.c:273
+msgid "Connection failed"
+msgstr "Savienojums neizdevās"
+
+#: panels/network/panel-common.c:239 panels/network/panel-common.c:281
+msgid "Status unknown (missing)"
+msgstr "Nezināms statuss (trūkst)"
+
+#: panels/network/panel-common.c:301
+#| msgid "Connection failed"
+msgid "Configuration failed"
+msgstr "Konfigurēšana neizdevās"
+
+#: panels/network/panel-common.c:305
+#| msgid "Connection failed"
+msgid "IP configuration failed"
+msgstr "IP konfigurēšana neizdevās"
+
+#: panels/network/panel-common.c:309
+#| msgid "_Configuration URL"
+msgid "IP configuration expired"
+msgstr "IP konfigurēšanai iestājās noildze"
+
+#: panels/network/panel-common.c:313
+msgid "Secrets were required, but not provided"
+msgstr "Netika doti nepieciešamie noslēpumi"
+
+#: panels/network/panel-common.c:317
+msgid "802.1x supplicant disconnected"
+msgstr "802.1x pieprasītājports atvienots"
+
+#: panels/network/panel-common.c:321
+msgid "802.1x supplicant configuration failed"
+msgstr "802.1x pieprasītājporta konfigurēšana neizdevās"
+
+#: panels/network/panel-common.c:325
+msgid "802.1x supplicant failed"
+msgstr "802.1x pieprasītājports nestrādā"
+
+#: panels/network/panel-common.c:329
+msgid "802.1x supplicant took too long to authenticate"
+msgstr "802.1x pieprasītājports neautentificējās atvēlētajā laikā"
+
+#: panels/network/panel-common.c:333
+msgid "PPP service failed to start"
+msgstr "PPP servisa palaišana neizdevās"
+
+#: panels/network/panel-common.c:337
+#| msgid "Disconnected"
+msgid "PPP service disconnected"
+msgstr "PPP serviss atvienots"
+
+#: panels/network/panel-common.c:341
+msgid "PPP failed"
+msgstr "PPP nestrādā"
+
+#: panels/network/panel-common.c:345
+msgid "DHCP client failed to start"
+msgstr "DHCP klienta palaišana neizdevās"
+
+#: panels/network/panel-common.c:349
+msgid "DHCP client error"
+msgstr "DHCP klienta kļūda"
+
+#: panels/network/panel-common.c:353
+#| msgid "Connection failed"
+msgid "DHCP client failed"
+msgstr "DHCP klients nestrādā"
+
+#: panels/network/panel-common.c:357
+msgid "Shared connection service failed to start"
+msgstr "Koplietojamā savienojuma serviss nepalaidās"
+
+#: panels/network/panel-common.c:361
+#| msgid "Connection failed"
+msgid "Shared connection service failed"
+msgstr "Koplietojamā savienojuma serviss nestrādā"
+
+#: panels/network/panel-common.c:365
+msgid "AutoIP service failed to start"
+msgstr "AutoIP servisa palaišana neizdevās"
+
+#: panels/network/panel-common.c:369
+msgid "AutoIP service error"
+msgstr "AutoIP servisa kļūda"
+
+#: panels/network/panel-common.c:373
+#| msgid "Authentication failed"
+msgid "AutoIP service failed"
+msgstr "AutoIP serviss nestrādā"
+
+#: panels/network/panel-common.c:377
+msgid "Line busy"
+msgstr "Līnija aizņemta"
+
+#: panels/network/panel-common.c:381
+msgid "No dial tone"
+msgstr "Nav centrāles gatavības signāla"
+
+#: panels/network/panel-common.c:385
+msgid "No carrier could be established"
+msgstr "Neizdevās izveidot nesēju"
+
+#: panels/network/panel-common.c:389
+msgid "Dialing request timed out"
+msgstr "Iezvanīšanās pieprasījuma noildze"
+
+#: panels/network/panel-common.c:393
+msgid "Dialing attempt failed"
+msgstr "Iezvanīšanās neizdevās"
+
+#: panels/network/panel-common.c:397
+#| msgid "Authentication failed"
+msgid "Modem initialization failed"
+msgstr "Neizdevās inicializēt modemu"
+
+#: panels/network/panel-common.c:401
+#| msgid "Failed to delete user"
+msgid "Failed to select the specified APN"
+msgstr "Neizdevās izvēlēties norādīto APN"
+
+#: panels/network/panel-common.c:405
+msgid "Not searching for networks"
+msgstr "Nemeklē tīklus"
+
+#: panels/network/panel-common.c:409
+#| msgid "Network settings"
+msgid "Network registration denied"
+msgstr "Reģistrācija tīklā liegta"
+
+#: panels/network/panel-common.c:413
+msgid "Network registration timed out"
+msgstr "Tīkla reģistrācijas noildze"
+
+#: panels/network/panel-common.c:417
+msgid "Failed to register with the requested network"
+msgstr "Neizdevās reģistrēties pieprasītajā tīklā"
+
+#: panels/network/panel-common.c:421
+msgid "PIN check failed"
+msgstr "PIN nav atzīts par derīgu"
+
+#: panels/network/panel-common.c:425
+msgid "Firmware for the device may be missing"
+msgstr "Iespējams, ierīcei pietrūkst aparātprogrammatūras"
+
+#: panels/network/panel-common.c:429
+#| msgid "Connection failed"
+msgid "Connection disappeared"
+msgstr "Savienojums pazuda"
+
+#: panels/network/panel-common.c:433
+msgid "Carrier/link changed"
+msgstr "Mainīts nesējs / savienojums"
+
+#: panels/network/panel-common.c:437
+msgid "Existing connection was assumed"
+msgstr "Tika pieņemts, ka jau eksistē savienojums"
+
+#: panels/network/panel-common.c:441
+msgid "Modem not found"
+msgstr "Modems nav atrasts"
+
+#: panels/network/panel-common.c:445
+#| msgid "Connection failed"
+msgid "Bluetooth connection failed"
+msgstr "Bluetooth savienojums neizdevās"
+
+#: panels/network/panel-common.c:449
+msgid "SIM Card not inserted"
+msgstr "Nav ievietota SIM karte"
+
+#: panels/network/panel-common.c:453
+msgid "SIM Pin required"
+msgstr "Vajadzīgs SIM PIN"
+
+#: panels/network/panel-common.c:457
+msgid "SIM Puk required"
+msgstr "Vajadzīgs SIM PUK"
+
+#: panels/network/panel-common.c:461
+#| msgctxt "Password strength"
+#| msgid "Strong"
+msgid "SIM wrong"
+msgstr "Nepareiza SIM karte"
+
+#: panels/network/panel-common.c:465
+msgid "InfiniBand device does not support connected mode"
+msgstr "InfiniBand ierīce neatbalsta savietoto režīmu"
+
+#: panels/network/panel-common.c:469
+#| msgid "Connection failed"
+msgid "Connection dependency failed"
+msgstr "Savienojuma priekšnoteikums nav izpildīts"
+
+#: panels/network/panel-common.c:683 panels/network/network-wifi.ui.h:13
+#: panels/network/network-wired.ui.h:2
+msgid "IPv4 Address"
+msgstr "IPv4 adrese"
+
+#: panels/network/panel-common.c:684 panels/network/network-mobile.ui.h:4
+#: panels/network/network-wifi.ui.h:14 panels/network/network-wired.ui.h:3
+msgid "IPv6 Address"
+msgstr "IPv6 adrese"
+
+#: panels/network/panel-common.c:686 panels/network/panel-common.c:688
+#: panels/network/network-mobile.ui.h:3
+msgid "IP Address"
+msgstr "IP adrese"
+
+#: panels/power/cc-power-panel.c:160
+msgid "Unknown time"
+msgstr "Nezināms laiks"
+
+#: panels/power/cc-power-panel.c:166
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "%i minūte"
+msgstr[1] "%i minūtes"
+msgstr[2] "%i minūšu"
+
+#: panels/power/cc-power-panel.c:178
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] "%i stunda"
+msgstr[1] "%i stundas"
+msgstr[2] "%i stundu"
+
+#: panels/power/cc-power-panel.c:186
+#, c-format
+msgid "%i %s %i %s"
+msgstr "%i %s %i %s"
+
+#: panels/power/cc-power-panel.c:187
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "stunda"
+msgstr[1] "stundas"
+msgstr[2] "stundu"
+
+#: panels/power/cc-power-panel.c:188
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minūte"
+msgstr[1] "minūtes"
+msgstr[2] "minūšu"
+
+#: panels/power/cc-power-panel.c:230
+#, c-format
+msgid "Charging - %s until fully charged"
+msgstr "Uzlādējas — būs pilna pēc %s"
+
+#: panels/power/cc-power-panel.c:238
+#, c-format
+msgid "Caution low battery, %s remaining"
+msgstr "Brīdinājums — baterija gandrīz tukša. Atlicis %s"
+
+#: panels/power/cc-power-panel.c:246
+#, c-format
+msgid "Using battery power - %s remaining"
+msgstr "Izmanto baterijas strāvu — atlicis %s"
+
+#: panels/power/cc-power-panel.c:263
+msgid "Charging"
+msgstr "Uzlādējas"
+
+#: panels/power/cc-power-panel.c:268
+msgid "Using battery power"
+msgstr "Izmanto baterijas strāvu"
+
+#: panels/power/cc-power-panel.c:272
+msgid "Charging - fully charged"
+msgstr "Uzlādējas — pilnībā uzlādēta"
+
+#: panels/power/cc-power-panel.c:276
+msgid "Empty"
+msgstr "Tukša"
+
+#: panels/power/cc-power-panel.c:340
+#, c-format
+msgid "Caution low UPS, %s remaining"
+msgstr "Brīdinājums — UPS gandrīz tukšs. Atlicis %s"
+
+#: panels/power/cc-power-panel.c:346
+#, c-format
+msgid "Using UPS power - %s remaining"
+msgstr "Izmanto UPS strāvu — atlicis %s"
+
+#: panels/power/cc-power-panel.c:364
+msgid "Caution low UPS"
+msgstr "Brīdinājums — UPS maz enerģijas"
+
+#: panels/power/cc-power-panel.c:369
+msgid "Using UPS power"
+msgstr "Izmanto UPS strāvu"
+
+#: panels/power/cc-power-panel.c:418
+msgid "Your secondary battery is fully charged"
+msgstr "Jūsu sekundārā baterija ir pilnībā uzlādēta"
+
+#: panels/power/cc-power-panel.c:422
+msgid "Your secondary battery is empty"
+msgstr "Jūsu sekundārā baterija ir tukša"
+
+#: panels/power/cc-power-panel.c:503
+msgid "Wireless mouse"
+msgstr "Bezvadu pele"
+
+#: panels/power/cc-power-panel.c:507
+msgid "Wireless keyboard"
+msgstr "Bezvadu tastatūra"
+
+#: panels/power/cc-power-panel.c:511
+msgid "Uninterruptible power supply"
+msgstr "Nepārtrauktā barošana"
+
+#: panels/power/cc-power-panel.c:515
+msgid "Personal digital assistant"
+msgstr "Personālais ciparasistents"
+
+#: panels/power/cc-power-panel.c:519
+msgid "Cellphone"
+msgstr "Mobilais tālrunis"
+
+#: panels/power/cc-power-panel.c:523
+msgid "Media player"
+msgstr "Multimediju atskaņotājs"
+
+#: panels/power/cc-power-panel.c:527
+msgid "Tablet"
+msgstr "Planšete"
+
+#: panels/power/cc-power-panel.c:531
+msgid "Computer"
+msgstr "Dators"
+
+#: panels/power/cc-power-panel.c:535
+msgid "Battery"
+msgstr "Baterija"
+
+#: panels/region/cinnamon-region-panel-xkblt.c:210
+msgid "Layout"
+msgstr "Izkārtojums"
+
+#: panels/region/cinnamon-region-panel-xkbot.c:229
+msgid "Default"
+msgstr "Noklusētais"
+
+#: panels/sound/applet-main.c:49
+msgid "Enable debugging code"
+msgstr "Aktivēt atkļūdošanas kodu"
+
+#: panels/sound/applet-main.c:50
+msgid "Version of this application"
+msgstr "Šīs lietotnes versija"
+
+#: panels/sound/applet-main.c:62
+msgid " — Cinnamon Volume Control Applet"
+msgstr " - Cinnamon skaļuma regulēšanas rīks"
+
+#: panels/sound/gvc-applet.c:270 panels/sound/gvc-mixer-dialog.c:1654
+#: panels/sound-nua/gvc-mixer-dialog.c:1811
+msgid "Output"
+msgstr "Izvade"
+
+#: panels/sound/gvc-applet.c:272
+msgid "Sound Output Volume"
+msgstr "Skaņas izvades skaļums"
+
+#: panels/sound/gvc-applet.c:276 panels/sound/gvc-mixer-dialog.c:1695
+#: panels/sound-nua/gvc-mixer-dialog.c:1944
+msgid "Input"
+msgstr "Ievade"
+
+#: panels/sound/gvc-applet.c:278
+msgid "Microphone Volume"
+msgstr "Mikrofona skaļums"
+
+#: panels/sound/gvc-balance-bar.c:295 panels/sound-nua/gvc-balance-bar.c:295
+msgid "_Balance:"
+msgstr "_Līdzsvars:"
+
+#: panels/sound/gvc-balance-bar.c:298 panels/sound-nua/gvc-balance-bar.c:298
+msgid "_Fade:"
+msgstr "_Pakāpeniski klusināt:"
+
+#: panels/sound/gvc-balance-bar.c:301 panels/sound-nua/gvc-balance-bar.c:301
+msgid "_Subwoofer:"
+msgstr "_Zemfrekvences reproduktors:"
+
+#: panels/sound/gvc-combo-box.c:167 panels/sound/gvc-mixer-dialog.c:258
+#: panels/sound/gvc-mixer-dialog.c:519
+msgid "_Profile:"
+msgstr "_Profils:"
+
+#: panels/sound/gvc-mixer-control.c:1834
+msgid "Disabled"
+msgstr "Atslēgts"
+
+#: panels/sound/gvc-mixer-control.c:1841
+#, c-format
+msgid "%u Output"
+msgid_plural "%u Outputs"
+msgstr[0] "%u izvade"
+msgstr[1] "%u izvades"
+msgstr[2] "%u izvades"
+
+#: panels/sound/gvc-mixer-control.c:1851
+#, c-format
+msgid "%u Input"
+msgid_plural "%u Inputs"
+msgstr[0] "%u ievade"
+msgstr[1] "%u ievades"
+msgstr[2] "%u ievades"
+
+#: panels/sound/gvc-mixer-control.c:2375
+msgid "System Sounds"
+msgstr "Sistēmas skaņas"
+
+#: panels/sound/gvc-mixer-dialog.c:260
+msgid "_Test Speakers"
+msgstr "Pārbaudī_t skaļruņus"
+
+#: panels/sound/gvc-mixer-dialog.c:424 panels/sound-nua/gvc-mixer-dialog.c:345
+msgid "Peak detect"
+msgstr "Pīķu noteikšana"
+
+#: panels/sound/gvc-mixer-dialog.c:1504
+#: panels/sound-nua/gvc-mixer-dialog.c:1582
+msgid "Name"
+msgstr "Nosaukums"
+
+#: panels/sound/gvc-mixer-dialog.c:1586
+#: panels/sound-nua/gvc-mixer-dialog.c:1684
+#, c-format
+msgid "Speaker Testing for %s"
+msgstr "%s skaļruņa pārbaude"
+
+#: panels/sound/gvc-mixer-dialog.c:1640
+#: panels/sound-nua/gvc-mixer-dialog.c:2106
+msgid "_Output volume:"
+msgstr "_Izvades skaļums:"
+
+#: panels/sound/gvc-mixer-dialog.c:1659
+msgid "C_hoose a device for sound output:"
+msgstr "Iz_vēlieties ierīci skaņas izvadei:"
+
+#: panels/sound/gvc-mixer-dialog.c:1684
+msgid "Settings for the selected device:"
+msgstr "Izvēlētās ierīces iestatījumi:"
+
+#: panels/sound/gvc-mixer-dialog.c:1702
+#: panels/sound-nua/gvc-mixer-dialog.c:1991
+msgid "_Input volume:"
+msgstr "_Ievades skaļums:"
+
+#: panels/sound/gvc-mixer-dialog.c:1725
+#: panels/sound-nua/gvc-mixer-dialog.c:2024
+msgid "Input level:"
+msgstr "Ievades līmenis:"
+
+#: panels/sound/gvc-mixer-dialog.c:1753
+msgid "C_hoose a device for sound input:"
+msgstr "Iz_vēlieties ierīci skaņas ievadei:"
+
+#: panels/sound/gvc-mixer-dialog.c:1780
+#: panels/sound-nua/gvc-mixer-dialog.c:2050
+msgid "Sound Effects"
+msgstr "Skaņas efekti"
+
+#: panels/sound/gvc-mixer-dialog.c:1787
+#: panels/sound-nua/gvc-mixer-dialog.c:2057
+msgid "_Alert volume:"
+msgstr "Tr_auksmes skaļums:"
+
+#: panels/sound/gvc-mixer-dialog.c:1795
+#: panels/sound-nua/gvc-mixer-dialog.c:2087
+msgid "Applications"
+msgstr "Lietotnes"
+
+#: panels/sound/gvc-mixer-dialog.c:1799
+#: panels/sound-nua/gvc-mixer-dialog.c:2091
+msgid "No application is currently playing or recording audio."
+msgstr "Neviena lietotne šobrīd neatskaņo un neieraksta audio."
+
+#: panels/sound/gvc-speaker-test.c:220
+msgid "Stop"
+msgstr "Apturēt"
+
+#: panels/sound/gvc-speaker-test.c:220 panels/sound/gvc-speaker-test.c:332
+msgid "Test"
+msgstr "Testēt"
+
+#: panels/sound/gvc-speaker-test.c:228
+msgid "Subwoofer"
+msgstr "Zemfrekvences reproduktors"
+
+#: panels/sound/gvc-stream-status-icon.c:236
+#, c-format
+msgid "Failed to start Sound Preferences: %s"
+msgstr "Neizdevās palaist skaņas iestatījumus: %s"
+
+#: panels/sound/gvc-stream-status-icon.c:262
+msgid "_Mute"
+msgstr "_Apklusināt"
+
+#: panels/sound/gvc-stream-status-icon.c:271
+msgid "_Sound Preferences"
+msgstr "_Skaņas iestatījumi"
+
+#: panels/sound/gvc-stream-status-icon.c:416
+msgid "Muted"
+msgstr "Apklusināts"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:778
+#: panels/sound-nua/gvc-mixer-dialog.c:948
+#, c-format
+msgid "Settings for %s"
+msgstr "%s iestatījumi"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:804
+#: panels/sound-nua/gvc-mixer-dialog.c:957
+msgid "Mode:"
+msgstr "Režīms:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1736
+msgid "Choose an audio file"
+msgstr "Izvēlieties audio failu"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1816
+msgid "Play sound through"
+msgstr "Atskaņot skaņu caur"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1841
+#: panels/sound-nua/gvc-mixer-dialog.c:1973
+msgid "Settings for the selected device"
+msgstr "Izvēlētās ierīces iestatījumi"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1914
+msgid "Test:"
+msgstr "Tests:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1921
+msgid "Test Sound"
+msgstr "Pārbaudīt skaņu"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1948
+msgid "Record sound from"
+msgstr "Ierakstīt skaņu no"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2069
+msgid "Starting Cinnamon:"
+msgstr "Sākt Cinnamon"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2070
+msgid "Switching workspace:"
+msgstr "Pārslēgt darbvietu:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2071
+msgid "Mapping windows:"
+msgstr "Logu piesaistīšana:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2072
+msgid "Closing windows:"
+msgstr "Aizver logus:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2073
+msgid "Minimizing windows:"
+msgstr "Samazina logus:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2074
+msgid "Maximizing windows:"
+msgstr "Palielina logus:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2075
+msgid "Unmaximizing windows:"
+msgstr "Atslēgt logu maksimizēšanu"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2076
+msgid "Tiling and snapping windows:"
+msgstr ""
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2077
+msgid "Inserting a device:"
+msgstr "Ierīces pievienošana:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2078
+msgid "Removing a device:"
+msgstr "Ierīces atvienošana:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2079
+msgid "Changing the sound volume:"
+msgstr "Mainīt skaļumu:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2080
+msgid "Leaving Cinnamon:"
+msgstr "Iziet no Cinnamon:"
+
+#: panels/universal-access/cc-ua-panel.c:289
+#: panels/universal-access/cc-ua-panel.c:295
+msgid "No shortcut set"
+msgstr "Nav iestatīta saīsne"
+
+#: panels/wacom/cc-wacom-mapping-panel.c:275
+msgid "Output:"
+msgstr "Izvade:"
+
+#: panels/wacom/cc-wacom-mapping-panel.c:287
+msgid "Keep aspect ratio (letterbox):"
+msgstr "Saglabāt proporcijas (letterbox):"
+
+#: panels/wacom/cc-wacom-mapping-panel.c:298
+msgid "Map to single monitor"
+msgstr "Piesaistīt vienam monitoram"
+
+#: panels/wacom/cc-wacom-nav-button.c:89
+#, c-format
+msgid "%d of %d"
+msgstr "%d no %d"
+
+#: panels/wacom/cc-wacom-page.c:663
+msgid "Switch Modes"
+msgstr "Pārslēgt režīmus"
+
+#: panels/wacom/cc-wacom-page.c:753 panels/wacom/cc-wacom-stylus-page.c:373
+msgid "Button"
+msgstr "Poga"
+
+#: panels/wacom/cc-wacom-page.c:790
+msgid "Type"
+msgstr "Tips"
+
+#: panels/wacom/cc-wacom-page.c:811
+msgid "Action"
+msgstr "Darbība"
+
+#: panels/wacom/cc-wacom-page.c:921
+msgid "Display Mapping"
+msgstr "Displeju piesaistīšana"
+
+#: panels/wacom/csd-wacom-device.c:1076
+msgid "Left Ring"
+msgstr "Kreisais skārienriņķis"
+
+#: panels/wacom/csd-wacom-device.c:1086
+#, c-format
+msgid "Left Ring Mode #%d"
+msgstr "Kreisā skārienriņķa režīms #%d"
+
+#: panels/wacom/csd-wacom-device.c:1105
+msgid "Right Ring"
+msgstr "Labais skārienriņķis"
+
+#: panels/wacom/csd-wacom-device.c:1115
+#, c-format
+msgid "Right Ring Mode #%d"
+msgstr "Labā skārienriņķa režīms #%d"
+
+#: panels/wacom/csd-wacom-device.c:1156
+msgid "Left Touchstrip"
+msgstr "Kreisā skārienjosla"
+
+#: panels/wacom/csd-wacom-device.c:1166
+#, c-format
+msgid "Left Touchstrip Mode #%d"
+msgstr "Kreisās skārienjoslas režīms #%d"
+
+#: panels/wacom/csd-wacom-device.c:1185
+msgid "Right Touchstrip"
+msgstr "Labā skārienjosla"
+
+#: panels/wacom/csd-wacom-device.c:1195
+#, c-format
+msgid "Right Touchstrip Mode #%d"
+msgstr "Labās skārienjoslas režīms #%d"
+
+#: panels/wacom/csd-wacom-device.c:1220
+msgid "Left Touchring Mode Switch"
+msgstr "Kreisā skārienriņķa režīma slēdzis"
+
+#: panels/wacom/csd-wacom-device.c:1222
+msgid "Right Touchring Mode Switch"
+msgstr "Labā skārienriņķa režīma slēdzis"
+
+#: panels/wacom/csd-wacom-device.c:1225
+msgid "Left Touchstrip Mode Switch"
+msgstr "Kreisās skārienjoslas režīma slēdzis"
+
+#: panels/wacom/csd-wacom-device.c:1227
+msgid "Right Touchstrip Mode Switch"
+msgstr "Labās skārienjoslas režīma slēdzis"
+
+#: panels/wacom/csd-wacom-device.c:1232
+#, c-format
+msgid "Mode Switch #%d"
+msgstr "Režīma slēdzis #%d"
+
+#: panels/wacom/csd-wacom-device.c:1336
+#, c-format
+msgid "Left Button #%d"
+msgstr "Kreisā poga #%d"
+
+#: panels/wacom/csd-wacom-device.c:1339
+#, c-format
+msgid "Right Button #%d"
+msgstr "Labā poga #%d"
+
+#: panels/wacom/csd-wacom-device.c:1342
+#, c-format
+msgid "Top Button #%d"
+msgstr "Augšējā poga #%d"
+
+#: panels/wacom/csd-wacom-device.c:1345
+#, c-format
+msgid "Bottom Button #%d"
+msgstr "Apakšējā poga #%d"
+
+#: shell/cc-shell-nav-bar.c:117
+msgid "_All Settings"
+msgstr "Visi iestatījumi"
+
+#: shell/control-center.c:58
+msgid "Enable verbose mode"
+msgstr "Aktivēt detalizēto režīmu"
+
+#: shell/control-center.c:59
+msgid "Show the overview"
+msgstr "Rādīt pārskatu"
+
+#: shell/control-center.c:60 shell/control-center.c:61
+#: shell/control-center.c:62
+msgid "Show help options"
+msgstr "Rādīt palīdzības opcijas"
+
+#: shell/control-center.c:63
+msgid "Panel to display"
+msgstr "Panelis, ko attēlot"
+
+#: shell/control-center.c:85
+msgid "- System Settings"
+msgstr "- Sistēmas iestatījumi"
+
+#: shell/control-center.c:93
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Palaidiet '%s --help', lai redzētu pilnu komandrindas opciju sarakstu.\n"
+
+#: shell/control-center.c:215
+msgid "Help"
+msgstr "Palīdzība"
+
+#: shell/control-center.c:216
+msgid "Quit"
+msgstr "Iziet"
+
+#: panels/color/color.ui.h:3 generate_additional_files.py:85
+msgid "Color"
+msgstr "Krāsa"
+
+#: panels/color/color.ui.h:4
+msgid "Each device needs an up to date color profile to be color managed."
+msgstr ""
+"Katrai ierīcei vajag aktuālu krāsu profilu, lai to krāsas būtu pārvaldītas."
+
+#: panels/color/color.ui.h:5
+msgid "Learn more"
+msgstr "Uzziniet vairāk"
+
+#: panels/color/color.ui.h:6
+msgid "Learn more about color management"
+msgstr "Uzziniet vairāk par krāsu pārvaldīšanu"
+
+#: panels/color/color.ui.h:7
+msgid "Add device"
+msgstr "Pievienot ierīci"
+
+#: panels/color/color.ui.h:8
+msgid "Add a virtual device"
+msgstr "Pievienot virtuālu ierīci"
+
+#: panels/color/color.ui.h:9
+msgid "Delete device"
+msgstr "Dzēst ierīci"
+
+#: panels/color/color.ui.h:10
+msgid "Remove a device"
+msgstr "Izņemt ierīci"
+
+#: panels/color/color.ui.h:12
+msgid "Set this profile for all users on this computer"
+msgstr "Iestatīt šo profilu visiem šī datora lietotājiem"
+
+#: panels/color/color.ui.h:13
+msgid "Add profile"
+msgstr "Pievienot profilu"
+
+#: panels/color/color.ui.h:14 panels/wacom/cinnamon-wacom-properties.ui.h:10
+msgid "Calibrate…"
+msgstr "Kalibrēt…"
+
+#: panels/color/color.ui.h:15
+msgid "Calibrate the device"
+msgstr "Kalibrēt ierīci"
+
+#: panels/color/color.ui.h:16
+msgid "Remove profile"
+msgstr "Izņemt profilu"
+
+#: panels/color/color.ui.h:17
+msgid "View details"
+msgstr "Skatīt detaļas"
+
+#: panels/color/color.ui.h:18
+msgid "Device type:"
+msgstr "Ierīces tips:"
+
+#: panels/color/color.ui.h:19
+msgid "Manufacturer:"
+msgstr "Ražotājs:"
+
+#: panels/color/color.ui.h:20
+msgid "Model:"
+msgstr "Modelis:"
+
+#: panels/color/color.ui.h:21
+msgid ""
+"Image files can be dragged on this window to auto-complete the above fields."
+msgstr ""
+"Attēlus failus var ievilkt šajā logā, lai automātiski pabeigtu augšējos "
+"laukus."
+
+#: panels/common/language-chooser.ui.h:1
+msgid "Select a language"
+msgstr "Izvēlieties valodu"
+
+#: panels/common/language-chooser.ui.h:2
+msgid "_Cancel"
+msgstr "_Atcelt"
+
+#: panels/common/language-chooser.ui.h:3
+msgid "_Select"
+msgstr "_Izvēlēties"
+
+#: panels/datetime/datetime.ui.h:1
+msgid "_Region:"
+msgstr "_Reģions:"
+
+#: panels/datetime/datetime.ui.h:2
+msgid "_City:"
+msgstr "_Pilsēta:"
+
+#: panels/datetime/datetime.ui.h:3
+msgid "_Network Time"
+msgstr "_Tīkla laiks"
+
+#: panels/datetime/datetime.ui.h:5
+msgid ":"
+msgstr ":"
+
+#: panels/datetime/datetime.ui.h:6
+msgid "Set the time one hour ahead."
+msgstr "Iestatīt laiku vienu stundu uz priekšu."
+
+#: panels/datetime/datetime.ui.h:7
+msgid "Set the time one hour back."
+msgstr "Iestatīt laiku vienu stundu atpakaļ."
+
+#: panels/datetime/datetime.ui.h:8
+msgid "Set the time one minute ahead."
+msgstr "Iestatīt laiku vienu minūti uz priekšu."
+
+#: panels/datetime/datetime.ui.h:9
+msgid "Set the time one minute back."
+msgstr "Iestatīt laiku vienu minūti atpakaļ."
+
+#: panels/datetime/datetime.ui.h:10
+msgid "Month"
+msgstr "Mēnesis"
+
+#: panels/datetime/datetime.ui.h:11
+msgid "Day"
+msgstr "Diena"
+
+#: panels/datetime/datetime.ui.h:12
+msgid "Year"
+msgstr "Gads"
+
+#: panels/datetime/datetime.ui.h:13
+msgid "January"
+msgstr "Janvāris"
+
+#: panels/datetime/datetime.ui.h:14
+msgid "February"
+msgstr "Februāris"
+
+#: panels/datetime/datetime.ui.h:15
+msgid "March"
+msgstr "Marts"
+
+#: panels/datetime/datetime.ui.h:16
+msgid "April"
+msgstr "Aprīlis"
+
+#: panels/datetime/datetime.ui.h:17
+msgid "May"
+msgstr "Maijs"
+
+#: panels/datetime/datetime.ui.h:18
+msgid "June"
+msgstr "Jūnijs"
+
+#: panels/datetime/datetime.ui.h:19
+msgid "July"
+msgstr "Jūlijs"
+
+#: panels/datetime/datetime.ui.h:20
+msgid "August"
+msgstr "Augusts"
+
+#: panels/datetime/datetime.ui.h:21
+msgid "September"
+msgstr "Septembris"
+
+#: panels/datetime/datetime.ui.h:22
+msgid "October"
+msgstr "Oktobris"
+
+#: panels/datetime/datetime.ui.h:23
+msgid "November"
+msgstr "Novembris"
+
+#: panels/datetime/datetime.ui.h:24
+msgid "December"
+msgstr "Decembris"
+
+#: panels/display/display-capplet.ui.h:2
+msgid "Set as Primary"
+msgstr "Noteikt kā galveno"
+
+#: panels/display/display-capplet.ui.h:3
+msgid "_Resolution"
+msgstr "_Izšķirtspēja"
+
+#: panels/display/display-capplet.ui.h:4
+msgid "R_otation"
+msgstr "R_otācija"
+
+#: panels/display/display-capplet.ui.h:6
+msgid "_Mirror displays"
+msgstr "_Dublēt ekrānus"
+
+#: panels/display/display-capplet.ui.h:7
+msgid "Note: may limit resolution options"
+msgstr "Piezīme: var ierobežot izšķirtspējas iespējas"
+
+#: panels/display/display-capplet.ui.h:8
+msgid "_Detect Displays"
+msgstr "_Noteikt displejus"
+
+#: panels/network/network-mobile.ui.h:1
+msgid "IMEI"
+msgstr "IMEI"
+
+#: panels/network/network-mobile.ui.h:2
+msgid "Provider"
+msgstr "Operators"
+
+#: panels/network/network-mobile.ui.h:5 panels/network/network-wifi.ui.h:15
+#: panels/network/network-wired.ui.h:4
+msgid "Default Route"
+msgstr "Noklusētais maršruts"
+
+#: panels/network/network-mobile.ui.h:6 panels/network/network-wifi.ui.h:16
+#: panels/network/network-wired.ui.h:5
+msgid "DNS"
+msgstr "DNS"
+
+#: panels/network/network-mobile.ui.h:7 generate_additional_files.py:175
+msgid "Network"
+msgstr "Tīkls"
+
+#: panels/network/network-mobile.ui.h:8 panels/network/network-wired.ui.h:6
+#: panels/region/cinnamon-region-panel.ui.h:11
+msgid "_Options..."
+msgstr "_Opcijas..."
+
+#: panels/network/network-proxy.ui.h:4
+msgid "_Method"
+msgstr "_Metode"
+
+#: panels/network/network-proxy.ui.h:5
+msgid "_Configuration URL"
+msgstr "_Konfigurācijas URL"
+
+#: panels/network/network-proxy.ui.h:6
+msgid "_HTTP Proxy"
+msgstr "_HTTP starpnieks"
+
+#: panels/network/network-proxy.ui.h:7
+msgid "H_TTPS Proxy"
+msgstr "H_TTPS starpnieks:"
+
+#: panels/network/network-proxy.ui.h:8
+msgid "_FTP Proxy"
+msgstr "_FTP starpnieks"
+
+#: panels/network/network-proxy.ui.h:9
+msgid "_Socks Host"
+msgstr "_Socks serveris"
+
+#: panels/network/network.ui.h:1
+msgid "Select the interface to use for the new service"
+msgstr "Izvēlieties saskarni, ko izmantot jaunajam servisam"
+
+#: panels/network/network.ui.h:2
+msgid "C_reate..."
+msgstr "Iz_veidot..."
+
+#: panels/network/network.ui.h:3
+msgid "_Interface"
+msgstr "_Saskarne"
+
+#: panels/network/network.ui.h:4 panels/network/network-vpn.ui.h:1
+msgid "VPN"
+msgstr "VPN"
+
+#: panels/network/network.ui.h:8
+msgid "Add Device"
+msgstr "Pievienot ierīci"
+
+#: panels/network/network.ui.h:9
+msgid "Remove Device"
+msgstr "Izņemt ierīci"
+
+#: panels/network/network-vpn.ui.h:2
+msgid "VPN Type"
+msgstr "VPN tips"
+
+#: panels/network/network-vpn.ui.h:3
+msgid "Gateway"
+msgstr "Vārteja"
+
+#: panels/network/network-vpn.ui.h:4
+msgid "Group Name"
+msgstr "Grupas nosaukums"
+
+#: panels/network/network-vpn.ui.h:5
+msgid "Group Password"
+msgstr "Grupas parole"
+
+#: panels/network/network-vpn.ui.h:6
+msgid "Username"
+msgstr "Lietotājvārds"
+
+#: panels/network/network-vpn.ui.h:7
+msgid "_Configure..."
+msgstr "_Konfigurēt..."
+
+#: panels/network/network-wifi.ui.h:1
+msgid "Wireless Hotspot"
+msgstr "Bezvadu tīklājs"
+
+#: panels/network/network-wifi.ui.h:2
+msgid "_Turn On"
+msgstr "_Ieslēgt"
+
+#: panels/network/network-wifi.ui.h:4
+msgid "_Use as Hotspot..."
+msgstr "_Lietot kā tīklāju..."
+
+#: panels/network/network-wifi.ui.h:5
+msgid "Connect to a Hidden Network"
+msgstr "Savienoties ar slēptu tīklu"
+
+#: panels/network/network-wifi.ui.h:6
+msgid "_Disconnect"
+msgstr "_Atvienoties"
+
+#: panels/network/network-wifi.ui.h:7
+msgid "_Connect"
+msgstr "_Savienoties"
+
+#: panels/network/network-wifi.ui.h:8
+msgid "Last used"
+msgstr "Pēdējoreiz lietots"
+
+#: panels/network/network-wifi.ui.h:9 panels/network/network-wired.ui.h:1
+msgid "Hardware Address"
+msgstr "Aparatūras adrese"
+
+#: panels/network/network-wifi.ui.h:10
+msgid "Security"
+msgstr "Drošība"
+
+#: panels/network/network-wifi.ui.h:11
+msgid "Strength"
+msgstr "Stiprums"
+
+#: panels/network/network-wifi.ui.h:12
+msgid "Link speed"
+msgstr "Savienojuma ātrums"
+
+#: panels/network/network-wifi.ui.h:17
+msgid "_Forget Network"
+msgstr "_Aizmirst tīklu"
+
+#: panels/network/network-wifi.ui.h:18
+msgid "_Settings..."
+msgstr "_Uzstādījumi..."
+
+#: panels/network/network-wifi.ui.h:19
+msgid "Switch off to connect to a wireless network"
+msgstr "Izslēdziet, lai savienotos ar bezvadu tīklu"
+
+#: panels/network/network-wifi.ui.h:20
+msgid "Network Name"
+msgstr "Tīkla nosaukums"
+
+#: panels/network/network-wifi.ui.h:21
+msgid "Connected Devices"
+msgstr "Pievienotās ierīces"
+
+#: panels/network/network-wifi.ui.h:22
+msgid "Security type"
+msgstr "Drošības veids"
+
+#: panels/network/network-wifi.ui.h:23
+msgid "Security key"
+msgstr "Drošības atslēga"
+
+#: panels/power/power.ui.h:1
+msgid "Hibernate"
+msgstr "Hibrenēt"
+
+#: panels/power/power.ui.h:2
+msgid "Power off"
+msgstr "Izslēgt"
+
+#: panels/power/power.ui.h:3
+msgid "5 minutes"
+msgstr "5 minūtes"
+
+#: panels/power/power.ui.h:4
+msgid "10 minutes"
+msgstr "10 minūtes"
+
+#: panels/power/power.ui.h:5
+msgid "30 minutes"
+msgstr "30 minūtes"
+
+#: panels/power/power.ui.h:6
+msgid "1 hour"
+msgstr "1 stunda"
+
+#: panels/power/power.ui.h:7
+msgid "Never"
+msgstr "Nekad"
+
+#: panels/power/power.ui.h:8
+msgid "When battery is present"
+msgstr "Kad baterija ir pievienota"
+
+#: panels/power/power.ui.h:9
+msgid "When battery is charging/in use"
+msgstr "Kad baterija ir uzlādēta/tiek lietota"
+
+#: panels/power/power.ui.h:10
+msgid "Suspend"
+msgstr "Iemidzināt"
+
+#: panels/power/power.ui.h:11
+msgid "Do nothing"
+msgstr "Neko nedarīt"
+
+#: panels/power/power.ui.h:12
+msgid "Lock Screen"
+msgstr "Bloķēt ekrānu"
+
+#: panels/power/power.ui.h:13
+msgid "Shutdown Immediately"
+msgstr "Izslēgt uzreiz"
+
+#: panels/power/power.ui.h:14
+msgid "Ask"
+msgstr "Jautāt"
+
+#: panels/power/power.ui.h:15
+msgid "On battery power"
+msgstr "Izmanto baterijas enerģiju"
+
+#: panels/power/power.ui.h:16
+msgid "On A/C power"
+msgstr "Izmanto elektrotīkla enerģiju"
+
+#: panels/power/power.ui.h:17
+msgid "When the lid is closed"
+msgstr "Kad vāks ir aizvērts"
+
+#: panels/power/power.ui.h:18
+msgid "When the power button is pressed"
+msgstr "Kad barošanas poga tiek nospiesta"
+
+#: panels/power/power.ui.h:19
+msgid "When battery power is critically low"
+msgstr "Kad akumulatora enerģijas līmenis ir kritiski zems"
+
+#: panels/power/power.ui.h:20
+msgid "Suspend when inactive for"
+msgstr "Iemidzināt, kad neaktīvs"
+
+#: panels/power/power.ui.h:21
+msgid "Turn off the screen when inactive for"
+msgstr "Izslēgtu ekrānu, kad neaktīvs"
+
+#: panels/power/power.ui.h:22
+msgid "Start the screensaver when inactive for"
+msgstr "Sākt ekrānsaudzētāju, kad neaktīvs"
+
+#: panels/power/power.ui.h:23
+msgid "<b>Power Options</b>"
+msgstr "<b>Barošanas opcijas</b>"
+
+#: panels/power/power.ui.h:24
+msgid "<b>Battery Status</b>"
+msgstr "<b>Baterijas status</b>"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:1
+msgid "Choose a Layout"
+msgstr "Izvēlieties izkārtojumu"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:2
+msgid "Preview"
+msgstr "Priekšskatījums"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:3
+msgid "Select an input source to add"
+msgstr "Izvēlieties ievades avotu, ko pievienot"
+
+#: panels/region/cinnamon-region-panel-options-dialog.ui.h:1
+msgid "Keyboard Layout Options"
+msgstr "Tastatūras izkārtojuma opcijas"
+
+#: panels/region/cinnamon-region-panel.ui.h:1
+msgid "Region and Language"
+msgstr "Reģions un valoda"
+
+#: panels/region/cinnamon-region-panel.ui.h:2
+msgid "Add Layout"
+msgstr "Pievienot izkārtojumu"
+
+#: panels/region/cinnamon-region-panel.ui.h:3
+msgid "Remove Layout"
+msgstr "Noņemt izkārtojumu"
+
+#: panels/region/cinnamon-region-panel.ui.h:4
+msgid "Move Up"
+msgstr "Pārvietot uz augšu"
+
+#: panels/region/cinnamon-region-panel.ui.h:5
+msgid "Move Down"
+msgstr "Pārvietot uz leju"
+
+#: panels/region/cinnamon-region-panel.ui.h:6
+msgid "Preview Layout"
+msgstr "Priekšskatīt izkārtojumu"
+
+#: panels/region/cinnamon-region-panel.ui.h:7
+msgid "Use the same layout for all windows"
+msgstr "Visiem logiem izmantot vienu un to pašu izkārtojumu"
+
+#: panels/region/cinnamon-region-panel.ui.h:8
+msgid "Allow different layouts for individual windows"
+msgstr "Atļaut savu izkārtojumu katram logam"
+
+#: panels/region/cinnamon-region-panel.ui.h:9
+msgid "New windows use the default layout"
+msgstr "Jaunie logi lietos noklusēto izkārtojumu"
+
+#: panels/region/cinnamon-region-panel.ui.h:10
+msgid "New windows use the previous window's layout"
+msgstr "Jaunie logi lietos iepriekšējo logu izkārtojumu"
+
+#: panels/region/cinnamon-region-panel.ui.h:12
+msgid "View and edit keyboard layout options"
+msgstr "Skatīt un rediģēt tastatūras izkārtojuma opcijas"
+
+#: panels/region/cinnamon-region-panel.ui.h:13
+msgid "Reset to De_faults"
+msgstr "Atjaunot noklusē_tos"
+
+#: panels/region/cinnamon-region-panel.ui.h:14
+msgid ""
+"Replace the current keyboard layout settings with the\n"
+"default settings"
+msgstr ""
+"Aizvietot pašreizējos tastatūras izkārtojuma iestatījumus\n"
+"ar noklusētajiem iestatījumiem"
+
+#: panels/universal-access/uap.ui.h:5
+msgid "On screen keyboard"
+msgstr "Ekrāna tastatūra"
+
+#: panels/universal-access/uap.ui.h:6
+msgid "GOK"
+msgstr "GOK"
+
+#: panels/universal-access/uap.ui.h:7
+msgid "OnBoard"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:8
+msgid "None"
+msgstr "Neviena"
+
+#: panels/universal-access/uap.ui.h:10
+#, no-c-format
+msgid "75%"
+msgstr "75%"
+
+#: panels/universal-access/uap.ui.h:13
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#: panels/universal-access/uap.ui.h:16
+#, no-c-format
+msgid "125%"
+msgstr "125%"
+
+#: panels/universal-access/uap.ui.h:19
+#, no-c-format
+msgid "150%"
+msgstr "150%"
+
+#: panels/universal-access/uap.ui.h:21
+msgid "High Contrast"
+msgstr "Augsts kontrasts"
+
+#: panels/universal-access/uap.ui.h:22
+msgid "Beep on Caps and Num Lock"
+msgstr "Pīkstēt, kad piespiež Caps un Num Lock"
+
+#: panels/universal-access/uap.ui.h:23
+msgid "Options..."
+msgstr "Opcijas..."
+
+#: panels/universal-access/uap.ui.h:24
+msgid "Screen Reader"
+msgstr "Ekrāna lasītājs"
+
+#: panels/universal-access/uap.ui.h:25
+msgid "Turn on or off:"
+msgstr "Ieslēgt vai izslēgt:"
+
+#: panels/universal-access/uap.ui.h:27
+msgid "Zoom in:"
+msgstr "Tuvināt:"
+
+#: panels/universal-access/uap.ui.h:28
+msgid "Zoom out:"
+msgstr "Tālināt:"
+
+#: panels/universal-access/uap.ui.h:29
+msgid "Large Text"
+msgstr "Liels teksts"
+
+#: panels/universal-access/uap.ui.h:30
+msgid "Seeing"
+msgstr "Redzēšana"
+
+#: panels/universal-access/uap.ui.h:31
+msgid "Visual Alerts"
+msgstr "Vizuālie brīdinājumi"
+
+#: panels/universal-access/uap.ui.h:32
+msgid "Use a visual indication when an alert sound occurs"
+msgstr "Pievienot skaņas brīdinājumiem vizuālas norādes"
+
+#: panels/universal-access/uap.ui.h:33
+msgid "Flash the window title"
+msgstr "Zibsnīt loga virsrakstu"
+
+#: panels/universal-access/uap.ui.h:34
+msgid "Flash the entire screen"
+msgstr "Zibsnīt visu ekrānu"
+
+#: panels/universal-access/uap.ui.h:35
+msgid "Closed Captioning"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:36
+msgid "Display a textual description of speech and sounds"
+msgstr "Rādīt rakstisku aprakstu runai un skaņām"
+
+#: panels/universal-access/uap.ui.h:37
+msgid "_Test flash"
+msgstr "_Testēt zibsni"
+
+#: panels/universal-access/uap.ui.h:38
+msgid "Hearing"
+msgstr "Dzirdēšana"
+
+#: panels/universal-access/uap.ui.h:39
+msgid "On Screen Keyboard"
+msgstr "Ekrāna tastatūra"
+
+#: panels/universal-access/uap.ui.h:40
+msgid "Sticky Keys"
+msgstr "Lipīgie taustiņi"
+
+#: panels/universal-access/uap.ui.h:41
+msgid "Treats a sequence of modifier keys as a key combination"
+msgstr "Taustiņu secīga piespiešana strādā kā taustiņu kombinācija"
+
+#: panels/universal-access/uap.ui.h:42
+msgid "_Disable if two keys are pressed together"
+msgstr "_Deaktivēt, ja divi taustiņi nospiesti reizē"
+
+#: panels/universal-access/uap.ui.h:43
+msgid "Beep when a _modifer key is pressed"
+msgstr "Pīkstēt, kad tiek nospiests _modifikatora taustiņš"
+
+#: panels/universal-access/uap.ui.h:44
+msgid "Slow Keys"
+msgstr "Lēnie taustiņi"
+
+#: panels/universal-access/uap.ui.h:45
+msgid "Puts a delay between when a key is pressed and when it is accepted"
+msgstr ""
+"Rada aizturi starp brīdi, kad tiek piespiests taustiņš un kad tas tiek "
+"pieņemts"
+
+#: panels/universal-access/uap.ui.h:46
+msgid "A_cceptance delay:"
+msgstr "_Pieņemšanas aizture:"
+
+#: panels/universal-access/uap.ui.h:48
+msgid "Short"
+msgstr "Īsa"
+
+#: panels/universal-access/uap.ui.h:49
+msgid "Slow keys typing delay"
+msgstr "Lēno taustiņu rakstīšanas aizture"
+
+#: panels/universal-access/uap.ui.h:51
+msgid "Long"
+msgstr "Gara"
+
+#: panels/universal-access/uap.ui.h:53
+msgid "Beep when a key is"
+msgstr "Pīkstēt, kad taustiņš tiek"
+
+#: panels/universal-access/uap.ui.h:55
+msgid "pressed"
+msgstr "nospiests"
+
+#: panels/universal-access/uap.ui.h:57
+msgid "accepted"
+msgstr "pieņemts"
+
+#: panels/universal-access/uap.ui.h:59
+msgid "rejected"
+msgstr "noraidīts"
+
+#: panels/universal-access/uap.ui.h:60
+msgid "Bounce Keys"
+msgstr "Atlecošie taustiņi"
+
+#: panels/universal-access/uap.ui.h:61
+msgid "Ignores fast duplicate keypresses"
+msgstr "Ignorē ātrus taustiņu piespiešanas atkārtojumus"
+
+#: panels/universal-access/uap.ui.h:62
+msgid "Acc_eptance delay:"
+msgstr "Pi_eņemšanas aizture:"
+
+#: panels/universal-access/uap.ui.h:63
+msgid "Bounce keys typing delay"
+msgstr "Atlecošo taustiņu rakstīšanas aizture"
+
+#: panels/universal-access/uap.ui.h:64
+msgid "Beep when a key is _rejected"
+msgstr "Pīkstēt, kad taustiņš tiek _noraidīts"
+
+#: panels/universal-access/uap.ui.h:65
+msgid "Enable by Keyboard"
+msgstr "Ieslēgt ar tastatūru"
+
+#: panels/universal-access/uap.ui.h:66
+msgid "Turn accessibility features on and off using the keyboard"
+msgstr "Ieslēgt un izslēgt pieejamības iespējas, lietojot tastatūru"
+
+#: panels/universal-access/uap.ui.h:67
+msgid "Typing"
+msgstr "Rakstīšana"
+
+#: panels/universal-access/uap.ui.h:68
+msgid "Mouse Keys"
+msgstr "Peles taustiņi"
+
+#: panels/universal-access/uap.ui.h:69
+msgid "Control the pointer using the keypad"
+msgstr "Vadīt rādītāju, izmantojot cipartastatūru"
+
+#: panels/universal-access/uap.ui.h:70
+msgid "Video Mouse"
+msgstr "Video pele"
+
+#: panels/universal-access/uap.ui.h:71
+msgid "Control the pointer using the video camera."
+msgstr "Vadīt rādītāju, izmantojot videokameru."
+
+#: panels/universal-access/uap.ui.h:72
+msgid "Simulated Secondary Click"
+msgstr "Simulēt sekundāro klikšķi"
+
+#: panels/universal-access/uap.ui.h:73
+msgid "Trigger a secondary click by holding down the primary button"
+msgstr "Izraisīt sekundāro klikšķi, turot nospiesto primāro taustiņu"
+
+#: panels/universal-access/uap.ui.h:74
+msgid "Secondary click delay"
+msgstr "Sekundārā klikšķa aizture"
+
+#: panels/universal-access/uap.ui.h:75
+msgid "Hover Click"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:76
+msgid "Trigger a click when the pointer hovers"
+msgstr "Radīt klikšķi, kad rādītājs atrodas virs"
+
+#: panels/universal-access/uap.ui.h:77
+msgid "D_elay:"
+msgstr "Aiztur_e:"
+
+#: panels/universal-access/uap.ui.h:78
+msgid "Motion _threshold:"
+msgstr "Kus_tības robeža:"
+
+#: panels/universal-access/uap.ui.h:80
+msgid "Small"
+msgstr "Mazs"
+
+#: panels/universal-access/uap.ui.h:82
+msgid "Large"
+msgstr "Liels"
+
+#: panels/universal-access/uap.ui.h:83
+msgid "Mouse Settings"
+msgstr "Peles iestatījumi"
+
+#: panels/universal-access/uap.ui.h:84
+msgid "Pointing and Clicking"
+msgstr "Norādīšana un klikšķināšana"
+
+#: panels/universal-access/zoom-options.ui.h:1
+msgid "Full Screen"
+msgstr "Pilnekrāna"
+
+#: panels/universal-access/zoom-options.ui.h:2
+msgid "Top Half"
+msgstr "Augšējā puse"
+
+#: panels/universal-access/zoom-options.ui.h:3
+msgid "Bottom Half"
+msgstr "Apakšējā puse"
+
+#: panels/universal-access/zoom-options.ui.h:4
+msgid "Left Half"
+msgstr "Kreisā puse"
+
+#: panels/universal-access/zoom-options.ui.h:5
+msgid "Right Half"
+msgstr "Labā puse"
+
+#: panels/universal-access/zoom-options.ui.h:6
+msgid "Zoom Options"
+msgstr "Tuvināšanas opcijas"
+
+#: panels/universal-access/zoom-options.ui.h:7
+msgid "Zoom"
+msgstr "Tālummaiņa"
+
+#: panels/universal-access/zoom-options.ui.h:8
+msgid "Magnification:"
+msgstr "Palielinājums:"
+
+#: panels/universal-access/zoom-options.ui.h:9
+msgid "Follow mouse cursor"
+msgstr "Sekot peles kursoram"
+
+#: panels/universal-access/zoom-options.ui.h:10
+msgid "Screen part:"
+msgstr "Ekrāna daļa:"
+
+#: panels/universal-access/zoom-options.ui.h:11
+msgid "Magnifier extends outside of screen"
+msgstr "Palielinātājs iziet ārpus ekrāna"
+
+#: panels/universal-access/zoom-options.ui.h:12
+msgid "Keep magnifier cursor centered"
+msgstr "Turēt palielinātāja kursoru vidū"
+
+#: panels/universal-access/zoom-options.ui.h:13
+msgid "Magnifier cursor pushes contents around"
+msgstr "Palielinātāja kursors bīda skatlauku"
+
+#: panels/universal-access/zoom-options.ui.h:14
+msgid "Magnifier cursor moves with contents"
+msgstr "Palielinātāja kursors pārvietojas līdz ar saturu"
+
+#: panels/universal-access/zoom-options.ui.h:15
+msgid "Magnifier Position:"
+msgstr "Palielinātāja novietojums:"
+
+#: panels/universal-access/zoom-options.ui.h:16
+msgid "Magnifier"
+msgstr "Palielinātājs"
+
+#: panels/universal-access/zoom-options.ui.h:17
+msgid "Thickness:"
+msgstr "Biezums:"
+
+#: panels/universal-access/zoom-options.ui.h:19
+msgid "Thin"
+msgstr "Plāns"
+
+#: panels/universal-access/zoom-options.ui.h:21
+msgid "Thick"
+msgstr "Biezs"
+
+#: panels/universal-access/zoom-options.ui.h:22
+msgid "Length:"
+msgstr "Garums:"
+
+#: panels/universal-access/zoom-options.ui.h:23
+msgid "Color:"
+msgstr "Krāsa:"
+
+#: panels/universal-access/zoom-options.ui.h:24
+msgid "Crosshairs:"
+msgstr "Krustiņš:"
+
+#: panels/universal-access/zoom-options.ui.h:25
+msgid "Overlaps mouse cursor"
+msgstr "Pārklāj peles kursoru"
+
+#: panels/universal-access/zoom-options.ui.h:26
+msgid "Crosshairs"
+msgstr "Krustiņš"
+
+#: panels/universal-access/zoom-options.ui.h:27
+msgid "White on black:"
+msgstr "Balts uz melna:"
+
+#: panels/universal-access/zoom-options.ui.h:28
+msgid "Brightness:"
+msgstr "Spilgtums:"
+
+#: panels/universal-access/zoom-options.ui.h:29
+msgid "Contrast:"
+msgstr "Kontrasts:"
+
+#: panels/universal-access/zoom-options.ui.h:34
+msgid "Low"
+msgstr "Zems"
+
+#: panels/universal-access/zoom-options.ui.h:36
+msgid "High"
+msgstr "Augsts"
+
+#: panels/universal-access/zoom-options.ui.h:37
+msgid "Color Effects:"
+msgstr "Krāsas efekti:"
+
+#: panels/universal-access/zoom-options.ui.h:38
+msgid "Color Effects"
+msgstr "Krāsas efekti"
+
+#: panels/wacom/button-mapping.ui.h:1
+msgid "Map Buttons"
+msgstr "Saistīt pogas"
+
+#: panels/wacom/button-mapping.ui.h:2
+msgid "Map buttons to functions"
+msgstr "Saistīt pogas ar funkcijām"
+
+#: panels/wacom/button-mapping.ui.h:3
+msgid ""
+"To edit a shortcut, click the row and hold down the new keys or press "
+"Backspace to clear."
+msgstr ""
+"Lai rediģētu saīsni, klikšķiniet rindā, tad spiediet jaunos taustiņus vai "
+"lietojiet Backspace taustiņu dzēšanai."
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:1
+msgid "Tablet (absolute)"
+msgstr "Planšete (absolūta)"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:2
+msgid "Touchpad (relative)"
+msgstr "Skārienpaliktnis (relatīvs)"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:3
+msgid "Tablet Preferences"
+msgstr "Planšetes iestatījumi"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:4
+msgid "No tablet detected"
+msgstr "Nav atrasta planšete"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:5
+msgid "Please plug in or turn on your graphics tablet"
+msgstr ""
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:6
+msgid "Bluetooth Settings"
+msgstr "Bluetooth iestatījumi"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:7
+msgid "Graphics Tablet"
+msgstr "Grafiskā planšete"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:8
+msgid "Map to Monitor…"
+msgstr "Piesaistīt monitoram…"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:9
+msgid "Map Buttons…"
+msgstr "Piesaistīt pogas…"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:11
+msgid "Adjust display resolution"
+msgstr "Pielāgot ekrāna izšķirtspēju"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:12
+msgid "Tracking Mode"
+msgstr "Sekošanas režīms"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:13
+msgid "Left-Handed Orientation"
+msgstr "Orientācija kreiļiem"
+
+#: panels/wacom/wacom-stylus-page.ui.h:1
+msgid "No Action"
+msgstr "Nav darbības"
+
+#: panels/wacom/wacom-stylus-page.ui.h:2
+msgid "Left Mouse Button Click"
+msgstr "Kreisās peles pogas klikšķis"
+
+#: panels/wacom/wacom-stylus-page.ui.h:3
+msgid "Middle Mouse Button Click"
+msgstr "Vidējās peles pogas klikšķis"
+
+#: panels/wacom/wacom-stylus-page.ui.h:4
+msgid "Right Mouse Button Click"
+msgstr "Labās peles pogas klikšķis"
+
+#: panels/wacom/wacom-stylus-page.ui.h:5
+msgid "Scroll Up"
+msgstr "Ritināt augšup"
+
+#: panels/wacom/wacom-stylus-page.ui.h:6
+msgid "Scroll Down"
+msgstr "Ritināt lejup"
+
+#: panels/wacom/wacom-stylus-page.ui.h:7
+msgid "Scroll Left"
+msgstr "Ritināt pa kreisi"
+
+#: panels/wacom/wacom-stylus-page.ui.h:8
+msgid "Scroll Right"
+msgstr "Ritināt pa labi"
+
+#: panels/wacom/wacom-stylus-page.ui.h:9
+msgid "Back"
+msgstr "Atpakaļ"
+
+#: panels/wacom/wacom-stylus-page.ui.h:10
+msgid "Forward"
+msgstr "Uz priekšu"
+
+#: panels/wacom/wacom-stylus-page.ui.h:11
+msgid "Stylus"
+msgstr "Irbulis"
+
+#: panels/wacom/wacom-stylus-page.ui.h:12
+msgid "Eraser Pressure Feel"
+msgstr ""
+
+#: panels/wacom/wacom-stylus-page.ui.h:13
+msgid "Soft"
+msgstr "Viegla"
+
+#: panels/wacom/wacom-stylus-page.ui.h:14
+msgid "Firm"
+msgstr ""
+
+#: panels/wacom/wacom-stylus-page.ui.h:15
+msgid "Top Button"
+msgstr "Augšējā poga"
+
+#: panels/wacom/wacom-stylus-page.ui.h:16
+msgid "Lower Button"
+msgstr "Apakšējā poga"
+
+#: panels/wacom/wacom-stylus-page.ui.h:17
+msgid "Tip Pressure Feel"
+msgstr ""
+
+#: generate_additional_files.py:55
+msgid "Brightness & Lock"
+msgstr "Spilgtums un slēgšana"
+
+#: generate_additional_files.py:55
+msgid "Screen brightness and lock settings"
+msgstr "Ekrāna spilgtuma un slēgšanas iestatījumi"
+
+#: generate_additional_files.py:70 generate_additional_files.py:101
+msgid "Sound"
+msgstr "Skaņa"
+
+#: generate_additional_files.py:70 generate_additional_files.py:101
+msgid "Change sound volume and sound events"
+msgstr "Mainīt skaļumu un skaņas dažādiem notikumiem"
+
+#: generate_additional_files.py:85
+msgid "Color management settings"
+msgstr "Krāsu pārvaldības iestatījumi"
+
+#: generate_additional_files.py:115
+msgid "Volume Control"
+msgstr "Skaļuma vadība"
+
+#: generate_additional_files.py:115
+msgid "Show desktop volume control"
+msgstr "Rādīt darbvirsmas skaņas vadību"
+
+#: generate_additional_files.py:130
+msgid "Power"
+msgstr "Barošana"
+
+#: generate_additional_files.py:130
+msgid "Power management settings"
+msgstr "Barošanas pārvaldības iestatījumi"
+
+#: generate_additional_files.py:145
+msgid "Region & Language"
+msgstr "Reģions un valoda"
+
+#: generate_additional_files.py:145
+msgid "Change your region and language settings"
+msgstr "Mainīt reģiona un valodas iestatījums"
+
+#: generate_additional_files.py:160
+msgid "Displays"
+msgstr "Displeji"
+
+#: generate_additional_files.py:160
+msgid "Change resolution and position of monitors and projectors"
+msgstr "Mainīt monitoru un projektoru izšķirtspēju un izvietojumu"
+
+#: generate_additional_files.py:175
+msgid "Network settings"
+msgstr "Tīkla iestatījumi"
+
+#: generate_additional_files.py:190
+msgid "Universal Access"
+msgstr "Universālā piekļuve"
+
+#: generate_additional_files.py:190
+msgid "Universal Access Preferences"
+msgstr "Universālās pieejas iestatījumi"
+
+#: generate_additional_files.py:205
+msgid "Date & Time"
+msgstr "Datums un laiks"
+
+#: generate_additional_files.py:205
+msgid "Date and Time preferences"
+msgstr "Datuma un laika iestatījumi"

@@ -1,0 +1,2387 @@
+# Bulgarian translation of cinnamon-control-center po-file.
+# Copyright (C) 2002, 2004, 2005, 2006 Free Software Foundation, Inc.
+# Copyright (C) 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
+# Copyright (C) 2011, 2012 Free Software Foundation, Inc.
+# Copyright (C) 2009 Krasimir "Bfaf" Chonov <mk2616@abv.bg>.
+# Borislav Aleksandrov <B.Aleksandrov@cnsys.bg>, 2002.
+# Yanko Kaneti <yaneti@declera.com>, 2002.
+# Rostislav Raykov <zbrox@i-space.org>, 2004, 2005.
+# Vladimir Petkov <kaladan@gmial.com>, 2004, 2005, 2006.
+# Alexander Shopov <ash@kambanaria.org>, 2006, 2007, 2009, 2012.
+# Yavor Doganov <yavor@gnu.org>, 2007, 2008.
+# Krasimir "Bfaf" Chonov <mk2616@abv.bg>, 2009.
+# Jordan Miladinov <jordanmiladinov@gmail.com>, 2011
+# Ivaylo Valkov <ivaylo@e-valkov.org>, 2011, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cinnamon-control-center master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-29 10:54+0000\n"
+"PO-Revision-Date: 2014-03-30 17:40+0000\n"
+"Last-Translator: spacy01 <Unknown>\n"
+"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2014-05-25 11:55+0000\n"
+"X-Generator: Launchpad (build 17017)\n"
+"Language: bg\n"
+
+#: panels/color/cc-color-panel.c:106
+msgid "Other profile…"
+msgstr "Друг профил…"
+
+#: panels/color/cc-color-panel.c:119
+msgid "Default: "
+msgstr "Стандартен: "
+
+#: panels/color/cc-color-panel.c:126
+msgid "Colorspace: "
+msgstr "Цветово пространство: "
+
+#: panels/color/cc-color-panel.c:132
+msgid "Test profile: "
+msgstr "Пробен профил: "
+
+#: panels/color/cc-color-panel.c:185 panels/color/color.ui.h:11
+msgid "Set for all users"
+msgstr "Задаване за всички потребители"
+
+#: panels/color/cc-color-panel.c:192
+msgid "Create virtual device"
+msgstr "Създаване на виртуално устройство"
+
+#: panels/color/cc-color-panel.c:227
+msgid "Select ICC Profile File"
+msgstr "Избиране на файл с цветови (ICC) профил"
+
+#: panels/color/cc-color-panel.c:230
+msgid "_Import"
+msgstr "_Внасяне"
+
+#: panels/color/cc-color-panel.c:241
+msgid "Supported ICC profiles"
+msgstr "Поддържани цветови профили (ICC)"
+
+#: panels/color/cc-color-panel.c:248
+msgid "All files"
+msgstr "Всички файлове"
+
+#: panels/color/cc-color-panel.c:638
+msgid "Available Profiles for Displays"
+msgstr "Налични профили за екрани"
+
+#: panels/color/cc-color-panel.c:642
+msgid "Available Profiles for Scanners"
+msgstr "Налични профили за скенери"
+
+#: panels/color/cc-color-panel.c:646
+msgid "Available Profiles for Printers"
+msgstr "Налични профили за принтери"
+
+#: panels/color/cc-color-panel.c:650
+msgid "Available Profiles for Cameras"
+msgstr "Налични профили за цифрови фотоапарати"
+
+#: panels/color/cc-color-panel.c:654
+msgid "Available Profiles for Webcams"
+msgstr "Налични профили за уеб камери"
+
+#: panels/color/cc-color-panel.c:659 panels/color/color.ui.h:2
+msgid "Available Profiles"
+msgstr "Налични профили"
+
+#: panels/color/cc-color-panel.c:935 panels/sound/gvc-mixer-dialog.c:1523
+#: panels/sound-nua/gvc-mixer-dialog.c:1600
+msgid "Device"
+msgstr "Устройство"
+
+#: panels/color/cc-color-panel.c:970
+msgid "Calibration"
+msgstr "Калибриране"
+
+#: panels/color/cc-color-panel.c:1002
+msgid "Create a color profile for the selected device"
+msgstr "Създаване на цветови профил за избраното устройство"
+
+#: panels/color/cc-color-panel.c:1016 panels/color/cc-color-panel.c:1040
+msgid ""
+"The measuring instrument is not detected. Please check it is turned on and "
+"correctly connected."
+msgstr ""
+"Колориметърът не е открит. Проверете дали е правилно свързан и включен."
+
+#: panels/color/cc-color-panel.c:1049
+msgid "The measuring instrument does not support printer profiling."
+msgstr "Колориметърът не поддържа профилиране на принтери."
+
+#: panels/color/cc-color-panel.c:1060
+msgid "The device type is not currently supported."
+msgstr "Видът на устройството в момента не е поддържан."
+
+#: panels/color/cc-color-panel.c:1132
+msgid "Cannot remove automatically added profile"
+msgstr "Автоматично добавени профили не могат да бъдат премахвани"
+
+#: panels/color/cc-color-panel.c:1463
+msgid "No profile"
+msgstr "Не е наличен профил"
+
+#: panels/color/cc-color-panel.c:1494
+#, c-format
+msgid "%i year"
+msgid_plural "%i years"
+msgstr[0] "%i година"
+msgstr[1] "%i години"
+
+#: panels/color/cc-color-panel.c:1505
+#, c-format
+msgid "%i month"
+msgid_plural "%i months"
+msgstr[0] "%i месец"
+msgstr[1] "%i месеци"
+
+#: panels/color/cc-color-panel.c:1516
+#, c-format
+msgid "%i week"
+msgid_plural "%i weeks"
+msgstr[0] "%i седмица"
+msgstr[1] "%i седмици"
+
+#: panels/color/cc-color-panel.c:1523
+msgid "Less than 1 week"
+msgstr "По-малко от 1 седмица"
+
+#: panels/color/cc-color-panel.c:1713 panels/color/cc-color-panel.c:1754
+#: panels/color/cc-color-panel.c:1765 panels/color/cc-color-panel.c:1776
+msgid "Uncalibrated"
+msgstr "Без калибриране"
+
+#: panels/color/cc-color-panel.c:1716
+msgid "This device is not color managed."
+msgstr "Цветовете на устройството не се управляват."
+
+#: panels/color/cc-color-panel.c:1757
+msgid "This device is using manufacturing calibrated data."
+msgstr ""
+"Устройството използва данни за калибриране зададени при производство."
+
+#: panels/color/cc-color-panel.c:1768
+msgid ""
+"This device does not have a profile suitable for whole-screen color "
+"correction."
+msgstr ""
+"За устройството няма наличен профил, необходим за цветова корекция на целия "
+"екран."
+
+#: panels/color/cc-color-panel.c:1801
+msgid "This device has an old profile that may no longer be accurate."
+msgstr "Устройството има профил, който е стар и може да не е точен."
+
+#: panels/color/cc-color-panel.c:1829
+msgid "Not specified"
+msgstr "Не e указано"
+
+#: panels/color/cc-color-panel.c:2014
+msgid "No devices supporting color management detected"
+msgstr "Не са открити устройства, които поддържат управление на цветовете"
+
+#: panels/common/cc-common-language.c:533
+msgid "English"
+msgstr "Английски"
+
+#: panels/common/cc-common-language.c:535
+msgid "British English"
+msgstr "Британски английски"
+
+#: panels/common/cc-common-language.c:538
+msgid "German"
+msgstr "Немски"
+
+#: panels/common/cc-common-language.c:541
+msgid "French"
+msgstr "Френски"
+
+#: panels/common/cc-common-language.c:544
+msgid "Spanish"
+msgstr "Испански"
+
+#: panels/common/cc-common-language.c:546
+msgid "Chinese (simplified)"
+msgstr "Китайски (опростен)"
+
+#: panels/common/cc-common-language.c:549
+msgid "Russian"
+msgstr "Руски"
+
+#: panels/common/cc-common-language.c:552
+msgid "Arabic"
+msgstr "Арабски"
+
+#: panels/common/cc-common-language.c:580
+msgid "United States"
+msgstr "САЩ"
+
+#: panels/common/cc-common-language.c:581
+msgid "Germany"
+msgstr "Германия"
+
+#: panels/common/cc-common-language.c:582
+msgid "France"
+msgstr "Франция"
+
+#: panels/common/cc-common-language.c:583
+msgid "Spain"
+msgstr "Испания"
+
+#: panels/common/cc-common-language.c:584
+msgid "China"
+msgstr "Китай"
+
+#: panels/common/cc-language-chooser.c:304
+msgid "Select a region"
+msgstr "Избор на регион"
+
+#: panels/common/gdm-languages.c:781
+msgid "Unspecified"
+msgstr "Неуказан"
+
+#: panels/display/cc-display-panel.c:624 panels/display/cc-rr-labeler.c:449
+msgid "Mirrored Displays"
+msgstr "Еднакво изображение на екраните"
+
+#: panels/display/cc-display-panel.c:648 panels/display/display-capplet.ui.h:1
+msgid "Monitor"
+msgstr "Екран"
+
+#: panels/display/cc-display-panel.c:752
+#, c-format
+msgid "%d x %d (%s)"
+msgstr "%d × %d (%s)"
+
+#: panels/display/cc-display-panel.c:754
+#, c-format
+msgid "%d x %d"
+msgstr "%d × %d"
+
+#: panels/display/cc-display-panel.c:1666
+msgid ""
+"Select a monitor to change its properties; drag it to rearrange its "
+"placement."
+msgstr ""
+"Изберете екран, за да промените настройките му. С влачене променяте "
+"положението му."
+
+#: panels/display/cc-display-panel.c:2185
+#: panels/display/cc-display-panel.c:2237
+#, c-format
+msgid "Failed to apply configuration: %s"
+msgstr "Неуспешно прилагане на настройката: „%s“"
+
+#: panels/display/cc-display-panel.c:2265
+msgid "Could not save the monitor configuration"
+msgstr "Неуспешно запазване на настройките на екрана"
+
+#: panels/display/cc-display-panel.c:2325
+msgid "Could not detect displays"
+msgstr "Неуспешно откриване на екрани"
+
+#: panels/display/cc-display-panel.c:2533
+msgid "Could not get screen information"
+msgstr "Неуспешно получаване на информацията за екрана"
+
+#: panels/network/cc-network-panel.c:661
+msgid "Network proxy"
+msgstr "Мрежов сървър-посредник"
+
+#: panels/network/cc-network-panel.c:853 panels/network/net-vpn.c:278
+#, c-format
+msgid "%s VPN"
+msgstr "ВЧМ „%s“"
+
+#: panels/network/cc-network-panel.c:920
+msgid "The system network services are not compatible with this version."
+msgstr "Мрежовите услуги на системата не се поддържат в тази версия."
+
+#: panels/network/cc-network-panel.c:1108
+msgid "Air_plane Mode"
+msgstr "Режим „В само_лет“"
+
+#: panels/network/net-device-mobile.c:222
+msgid "Add new connection"
+msgstr "Добавяне на нова връзка"
+
+#: panels/network/net-device-mobile.c:261 panels/network/net-device-wifi.c:725
+#: panels/network/net-device-wired.c:126
+#, c-format
+msgid "%d Mb/s"
+msgstr "%d Mb/s"
+
+#: panels/network/net-device-wifi.c:258 panels/network/net-device-wifi.c:437
+msgid "WEP"
+msgstr "WEP"
+
+#: panels/network/net-device-wifi.c:262 panels/network/net-device-wifi.c:441
+msgid "WPA"
+msgstr "WPA"
+
+#: panels/network/net-device-wifi.c:266
+msgid "WPA2"
+msgstr "WPA2"
+
+#: panels/network/net-device-wifi.c:271
+msgid "Enterprise"
+msgstr "Корпоративна"
+
+#: panels/network/net-device-wifi.c:652
+msgid "never"
+msgstr "никога"
+
+#: panels/network/net-device-wifi.c:662
+msgid "today"
+msgstr "днес"
+
+#: panels/network/net-device-wifi.c:664
+msgid "yesterday"
+msgstr "вчера"
+
+#: panels/network/net-device-wifi.c:666
+#, c-format
+msgid "%i day ago"
+msgid_plural "%i days ago"
+msgstr[0] "преди %i ден"
+msgstr[1] "преди %i дни"
+
+#: panels/network/net-device-wifi.c:735 panels/network/panel-common.c:277
+msgid "Not connected"
+msgstr "Без връзка"
+
+#: panels/network/net-device-wifi.c:737 panels/network/net-device-wifi.c:2108
+msgid "Out of range"
+msgstr "Извън обхват"
+
+#: panels/network/net-device-wifi.c:960
+#, c-format
+msgid ""
+"Network details for %s including password and any custom configuration will "
+"be lost."
+msgstr ""
+"Данните за мрежата „%s“, включително пароли и потребителски настройки ще "
+"бъдат изгубени."
+
+#: panels/network/net-device-wifi.c:971
+msgid "Forget"
+msgstr "Премахване"
+
+#: panels/network/net-device-wifi.c:1554
+msgid ""
+"If you have a connection to the Internet other than wireless, you can use it "
+"to share your internet connection with others."
+msgstr ""
+"Ако имате друга връзка към Интернет освен безжична мрежа,  можете да я "
+"използвате за споделяне на Интернет с други хора."
+
+#: panels/network/net-device-wifi.c:1558
+#, c-format
+msgid "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+msgstr ""
+"Ако включите точката за безжичен достъп, връзката ви към <b>%s</b> ще бъде "
+"прекъсната."
+
+#: panels/network/net-device-wifi.c:1562
+msgid ""
+"It is not possible to access the internet through your wireless while the "
+"hotspot is active."
+msgstr ""
+"Не е възможно да ползвате Интернет през безжична мрежа докато точката за "
+"безжичен достъп е включена."
+
+#: panels/network/net-device-wifi.c:1636
+msgid "Stop hotspot and disconnect any users?"
+msgstr ""
+"Спиране на точката за безжичен достъп и изключване на всички потребители?"
+
+#: panels/network/net-device-wifi.c:1639
+msgid "_Stop Hotspot"
+msgstr "_Спиране на точката за безжичен достъп"
+
+#: panels/network/net-proxy.c:67
+msgid ""
+"Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+msgstr ""
+"Автоматичното откриване на уеб сървър-посредник се използва, когато не е "
+"зададен адрес за настройка."
+
+#: panels/network/net-proxy.c:75
+msgid "This is not recommended for untrusted public networks."
+msgstr "Не се препоръчва за недоверени общодостъпни мрежи."
+
+#: panels/network/net-proxy.c:368
+msgid "Proxy"
+msgstr "Сървър-посредник"
+
+#: panels/network/panel-common.c:82 panels/network/panel-common.c:162
+msgid "Unknown"
+msgstr "Неизвестен"
+
+#: panels/network/panel-common.c:86
+msgid "Wired"
+msgstr "Жична мрежа"
+
+#: panels/network/panel-common.c:90 panels/network/network-wifi.ui.h:3
+msgid "Wireless"
+msgstr "Безжична мрежа"
+
+#: panels/network/panel-common.c:97
+msgid "Mobile broadband"
+msgstr "Мобилна широколентова мрежа"
+
+#: panels/network/panel-common.c:102
+msgid "Bluetooth"
+msgstr "Мрежа през Bluetooth"
+
+#: panels/network/panel-common.c:106
+msgid "Mesh"
+msgstr "Децентрализирана мрежа (Mesh)"
+
+#: panels/network/panel-common.c:166
+msgid "Ad-hoc"
+msgstr "Децентрализирана мрежа (Ad-hoc)"
+
+#: panels/network/panel-common.c:170
+msgid "Infrastructure"
+msgstr "Инфраструктура"
+
+#: panels/network/panel-common.c:194 panels/network/panel-common.c:255
+msgid "Status unknown"
+msgstr "Неизвестно състояние"
+
+#: panels/network/panel-common.c:198
+msgid "Unmanaged"
+msgstr "Без управление"
+
+#: panels/network/panel-common.c:203
+msgid "Firmware missing"
+msgstr "Липсва фърмуер"
+
+#: panels/network/panel-common.c:206
+msgid "Cable unplugged"
+msgstr "Кабелът е изваден"
+
+#: panels/network/panel-common.c:208
+msgid "Unavailable"
+msgstr "Недостъпна"
+
+#: panels/network/panel-common.c:212
+msgid "Disconnected"
+msgstr "Без връзка"
+
+#: panels/network/panel-common.c:219 panels/network/panel-common.c:261
+msgid "Connecting"
+msgstr "Свързване"
+
+#: panels/network/panel-common.c:223 panels/network/panel-common.c:265
+msgid "Authentication required"
+msgstr "Изисква се удостоверяване"
+
+#: panels/network/panel-common.c:227 panels/network/panel-common.c:269
+msgid "Connected"
+msgstr "Връзката е осъществена"
+
+#: panels/network/panel-common.c:231
+msgid "Disconnecting"
+msgstr "Прекъсване на връзката"
+
+#: panels/network/panel-common.c:235 panels/network/panel-common.c:273
+msgid "Connection failed"
+msgstr "Връзката е неуспешна"
+
+#: panels/network/panel-common.c:239 panels/network/panel-common.c:281
+msgid "Status unknown (missing)"
+msgstr "Състоянието на връзката е неизвестно (липсва информация)"
+
+#: panels/network/panel-common.c:301
+msgid "Configuration failed"
+msgstr "Неуспешно настройване"
+
+#: panels/network/panel-common.c:305
+msgid "IP configuration failed"
+msgstr "Неуспешно настройване на IP адреса"
+
+#: panels/network/panel-common.c:309
+msgid "IP configuration expired"
+msgstr "Изтече времето за настройката на IP адреса"
+
+#: panels/network/panel-common.c:313
+msgid "Secrets were required, but not provided"
+msgstr ""
+"Не бяха предоставени задължителните данни за установяване на връзката"
+
+#: panels/network/panel-common.c:317
+msgid "802.1x supplicant disconnected"
+msgstr ""
+"Връзката (802.1x) беше прекъсната от програмата за удостоверяване "
+"(supplicant)"
+
+#: panels/network/panel-common.c:321
+msgid "802.1x supplicant configuration failed"
+msgstr ""
+"Неуспех при настройка на програмата за удостоверяване (supplicant) на "
+"връзката (802.1x)"
+
+#: panels/network/panel-common.c:325
+msgid "802.1x supplicant failed"
+msgstr ""
+"Програмата за удостоверяване (supplicant) на връзката (802.1x) приключи "
+"неуспешно"
+
+#: panels/network/panel-common.c:329
+msgid "802.1x supplicant took too long to authenticate"
+msgstr ""
+"Удостоверяването на връзката (802.1x) отне на програмата (supplicant) повече "
+"време от стандартното"
+
+#: panels/network/panel-common.c:333
+msgid "PPP service failed to start"
+msgstr "Неуспешно стартиране на услугата за връзка чрез PPP"
+
+#: panels/network/panel-common.c:337
+msgid "PPP service disconnected"
+msgstr "Услугата за връзка чрез PPP е прекъсната"
+
+#: panels/network/panel-common.c:341
+msgid "PPP failed"
+msgstr "Услугата за връзка чрез PPP приключи неуспешно"
+
+#: panels/network/panel-common.c:345
+msgid "DHCP client failed to start"
+msgstr ""
+"Неуспешно стартиране на клиента за автоматична настройка на връзката (DHCP)"
+
+#: panels/network/panel-common.c:349
+msgid "DHCP client error"
+msgstr "Грешка на клиента за автоматична настройка на връзката (DHCP)"
+
+#: panels/network/panel-common.c:353
+msgid "DHCP client failed"
+msgstr ""
+"Клиентът за автоматична настройка на връзката (DHCP) приключи неуспешно"
+
+#: panels/network/panel-common.c:357
+msgid "Shared connection service failed to start"
+msgstr "Неуспешно стартиране на услугата за споделяне на връзката"
+
+#: panels/network/panel-common.c:361
+msgid "Shared connection service failed"
+msgstr "Услугата за споделяне на връзката приключи неуспешно"
+
+#: panels/network/panel-common.c:365
+msgid "AutoIP service failed to start"
+msgstr ""
+"Неуспешно стартиране на услугата за локална връзка (AutoIP, 169.254.0.0/16, "
+"fe80::/10)"
+
+#: panels/network/panel-common.c:369
+msgid "AutoIP service error"
+msgstr ""
+"Грешка в услугата за локална връзка (AutoIP, 169.254.0.0/16, fe80::/10)"
+
+# AutoIP = link-local
+#: panels/network/panel-common.c:373
+msgid "AutoIP service failed"
+msgstr ""
+"Услугата за локална връзка (AutoIP, 169.254.0.0/16, fe80::/10) приключи "
+"неуспешно"
+
+#: panels/network/panel-common.c:377
+msgid "Line busy"
+msgstr "Линията е заета"
+
+#: panels/network/panel-common.c:381
+msgid "No dial tone"
+msgstr "Няма сигнал"
+
+#: panels/network/panel-common.c:385
+msgid "No carrier could be established"
+msgstr "Неуспешно установяване на носещата честота"
+
+#: panels/network/panel-common.c:389
+msgid "Dialing request timed out"
+msgstr "Времето на заявката за набиране изтече"
+
+#: panels/network/panel-common.c:393
+msgid "Dialing attempt failed"
+msgstr "Опитът за набиране приключи неуспешно"
+
+#: panels/network/panel-common.c:397
+msgid "Modem initialization failed"
+msgstr "Неуспешно инициализиране на модема"
+
+#: panels/network/panel-common.c:401
+msgid "Failed to select the specified APN"
+msgstr "Неуспешно избиране на зададената точка за достъп (APN)"
+
+#: panels/network/panel-common.c:405
+msgid "Not searching for networks"
+msgstr "Да не се търсят мрежи"
+
+#: panels/network/panel-common.c:409
+msgid "Network registration denied"
+msgstr "Регистрацията в мрежата е отхвърлена"
+
+#: panels/network/panel-common.c:413
+msgid "Network registration timed out"
+msgstr "Времето на заявката за регистрация в мрежата изтече"
+
+#: panels/network/panel-common.c:417
+msgid "Failed to register with the requested network"
+msgstr "Неуспешна регистрация в заявената мрежа"
+
+#: panels/network/panel-common.c:421
+msgid "PIN check failed"
+msgstr "Неуспешна проверка на кода (PIN)"
+
+#: panels/network/panel-common.c:425
+msgid "Firmware for the device may be missing"
+msgstr "Възможно е фърмуерът за устройството да липсва"
+
+#: panels/network/panel-common.c:429
+msgid "Connection disappeared"
+msgstr "Връзката пропадна"
+
+#: panels/network/panel-common.c:433
+msgid "Carrier/link changed"
+msgstr "Носещата честота/връзката се промени"
+
+#: panels/network/panel-common.c:437
+msgid "Existing connection was assumed"
+msgstr "Предполагаше се съществуваща връзка"
+
+#: panels/network/panel-common.c:441
+msgid "Modem not found"
+msgstr "Не е открит модем"
+
+#: panels/network/panel-common.c:445
+msgid "Bluetooth connection failed"
+msgstr "Неуспешна връзка чрез Bluetooth"
+
+#: panels/network/panel-common.c:449
+msgid "SIM Card not inserted"
+msgstr "SIM картата не е поставена"
+
+#: panels/network/panel-common.c:453
+msgid "SIM Pin required"
+msgstr "Необходим е код (PIN) за  SIM картата"
+
+#: panels/network/panel-common.c:457
+msgid "SIM Puk required"
+msgstr "Необходим е код (PUK) за SIM картата"
+
+#: panels/network/panel-common.c:461
+msgid "SIM wrong"
+msgstr "Грешна SIM карта"
+
+#: panels/network/panel-common.c:465
+msgid "InfiniBand device does not support connected mode"
+msgstr ""
+"Устройството (InfiniBand) не поддържа режима „установена връзка“ (connected "
+"mode)"
+
+#: panels/network/panel-common.c:469
+msgid "Connection dependency failed"
+msgstr "Неуспешно активиране на зависимост за връзката"
+
+#: panels/network/panel-common.c:683 panels/network/network-wifi.ui.h:13
+#: panels/network/network-wired.ui.h:2
+msgid "IPv4 Address"
+msgstr "Адрес (IPv4)"
+
+#: panels/network/panel-common.c:684 panels/network/network-mobile.ui.h:4
+#: panels/network/network-wifi.ui.h:14 panels/network/network-wired.ui.h:3
+msgid "IPv6 Address"
+msgstr "Адрес (IPv6)"
+
+#: panels/network/panel-common.c:686 panels/network/panel-common.c:688
+#: panels/network/network-mobile.ui.h:3
+msgid "IP Address"
+msgstr "Адрес по IP"
+
+#: panels/power/cc-power-panel.c:160
+msgid "Unknown time"
+msgstr "Неизвестно време"
+
+#: panels/power/cc-power-panel.c:166
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] "%i минута"
+msgstr[1] "%i минути"
+
+#: panels/power/cc-power-panel.c:178
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] "%i час"
+msgstr[1] "%i часа"
+
+#: panels/power/cc-power-panel.c:186
+#, c-format
+msgid "%i %s %i %s"
+msgstr "%i %s и %i %s"
+
+#: panels/power/cc-power-panel.c:187
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "час"
+msgstr[1] "часа"
+
+#: panels/power/cc-power-panel.c:188
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "минута"
+msgstr[1] "минути"
+
+#: panels/power/cc-power-panel.c:230
+#, c-format
+msgid "Charging - %s until fully charged"
+msgstr "Зареждане. Остават %s до пълно зареждане"
+
+#: panels/power/cc-power-panel.c:238
+#, c-format
+msgid "Caution low battery, %s remaining"
+msgstr "Внимание нисък заряд на батерията. Остават %s"
+
+#: panels/power/cc-power-panel.c:246
+#, c-format
+msgid "Using battery power - %s remaining"
+msgstr "Работа от батерии. Остават %s"
+
+#: panels/power/cc-power-panel.c:263
+msgid "Charging"
+msgstr "Зареждане"
+
+#: panels/power/cc-power-panel.c:268
+msgid "Using battery power"
+msgstr "Работа от батерии"
+
+#: panels/power/cc-power-panel.c:272
+msgid "Charging - fully charged"
+msgstr "Зареждане. Пълно зареждане"
+
+#: panels/power/cc-power-panel.c:276
+msgid "Empty"
+msgstr "Разредена"
+
+#: panels/power/cc-power-panel.c:340
+#, c-format
+msgid "Caution low UPS, %s remaining"
+msgstr ""
+"Внимание: нисък заряд на непрекъсваемото токозахранване (UPS). Остават %s"
+
+#: panels/power/cc-power-panel.c:346
+#, c-format
+msgid "Using UPS power - %s remaining"
+msgstr "Работа от непрекъсваемо токозахранване (UPS). Остават %s"
+
+#: panels/power/cc-power-panel.c:364
+msgid "Caution low UPS"
+msgstr "Внимание: нисък заряд на непрекъсваемото токозахранване (UPS)"
+
+#: panels/power/cc-power-panel.c:369
+msgid "Using UPS power"
+msgstr "Работа от непрекъсваемо токозахранване (UPS)"
+
+#: panels/power/cc-power-panel.c:418
+msgid "Your secondary battery is fully charged"
+msgstr "Допълнителната батерия е напълно заредена"
+
+#: panels/power/cc-power-panel.c:422
+msgid "Your secondary battery is empty"
+msgstr "Допълнителната батерия е разредена"
+
+#: panels/power/cc-power-panel.c:503
+msgid "Wireless mouse"
+msgstr "Безжична мишка"
+
+#: panels/power/cc-power-panel.c:507
+msgid "Wireless keyboard"
+msgstr "Безжична клавиатура"
+
+#: panels/power/cc-power-panel.c:511
+msgid "Uninterruptible power supply"
+msgstr "Непрекъсваемо токозахранване"
+
+#: panels/power/cc-power-panel.c:515
+msgid "Personal digital assistant"
+msgstr "Цифров помощник"
+
+#: panels/power/cc-power-panel.c:519
+msgid "Cellphone"
+msgstr "Мобилен телефон"
+
+#: panels/power/cc-power-panel.c:523
+msgid "Media player"
+msgstr "Музикално устройство"
+
+#: panels/power/cc-power-panel.c:527
+msgid "Tablet"
+msgstr "Таблет"
+
+#: panels/power/cc-power-panel.c:531
+msgid "Computer"
+msgstr "Компютър"
+
+#: panels/power/cc-power-panel.c:535
+msgid "Battery"
+msgstr "Батерия"
+
+#: panels/region/cinnamon-region-panel-xkblt.c:210
+msgid "Layout"
+msgstr "Оформление"
+
+# На едното място е в женски род — подредба, на другото май е мъжки.
+# Затова вместо „стандартно“ ползвам „По подразбиране“.
+#: panels/region/cinnamon-region-panel-xkbot.c:229
+msgid "Default"
+msgstr "По подразбиране"
+
+#: panels/sound/applet-main.c:49
+msgid "Enable debugging code"
+msgstr "Включване на кода за изчистване на грешки"
+
+#: panels/sound/applet-main.c:50
+msgid "Version of this application"
+msgstr "Версията на тази програма"
+
+#: panels/sound/applet-main.c:62
+msgid " — Cinnamon Volume Control Applet"
+msgstr " — аплет на Cinnamon за силата на звука"
+
+#: panels/sound/gvc-applet.c:270 panels/sound/gvc-mixer-dialog.c:1654
+#: panels/sound-nua/gvc-mixer-dialog.c:1811
+msgid "Output"
+msgstr "Изход"
+
+#: panels/sound/gvc-applet.c:272
+msgid "Sound Output Volume"
+msgstr "Сила на изхода"
+
+#: panels/sound/gvc-applet.c:276 panels/sound/gvc-mixer-dialog.c:1695
+#: panels/sound-nua/gvc-mixer-dialog.c:1944
+msgid "Input"
+msgstr "Вход"
+
+#: panels/sound/gvc-applet.c:278
+msgid "Microphone Volume"
+msgstr "Сила на микрофона"
+
+#: panels/sound/gvc-balance-bar.c:295 panels/sound-nua/gvc-balance-bar.c:295
+msgid "_Balance:"
+msgstr "_Баланс:"
+
+#: panels/sound/gvc-balance-bar.c:298 panels/sound-nua/gvc-balance-bar.c:298
+msgid "_Fade:"
+msgstr "_Затихване:"
+
+#: panels/sound/gvc-balance-bar.c:301 panels/sound-nua/gvc-balance-bar.c:301
+msgid "_Subwoofer:"
+msgstr "_Бас:"
+
+#: panels/sound/gvc-combo-box.c:167 panels/sound/gvc-mixer-dialog.c:258
+#: panels/sound/gvc-mixer-dialog.c:519
+msgid "_Profile:"
+msgstr "_Профил:"
+
+#: panels/sound/gvc-mixer-control.c:1834
+msgid "Disabled"
+msgstr "изключен"
+
+#: panels/sound/gvc-mixer-control.c:1841
+#, c-format
+msgid "%u Output"
+msgid_plural "%u Outputs"
+msgstr[0] "%u изход"
+msgstr[1] "%u изхода"
+
+#: panels/sound/gvc-mixer-control.c:1851
+#, c-format
+msgid "%u Input"
+msgid_plural "%u Inputs"
+msgstr[0] "%u вход"
+msgstr[1] "%u входа"
+
+#: panels/sound/gvc-mixer-control.c:2375
+msgid "System Sounds"
+msgstr "Системни звуци"
+
+#: panels/sound/gvc-mixer-dialog.c:260
+msgid "_Test Speakers"
+msgstr "_Изпробване на високоговорителите"
+
+#: panels/sound/gvc-mixer-dialog.c:424 panels/sound-nua/gvc-mixer-dialog.c:345
+msgid "Peak detect"
+msgstr "Засичане на връхната точка"
+
+#: panels/sound/gvc-mixer-dialog.c:1504
+#: panels/sound-nua/gvc-mixer-dialog.c:1582
+msgid "Name"
+msgstr "Име"
+
+#: panels/sound/gvc-mixer-dialog.c:1586
+#: panels/sound-nua/gvc-mixer-dialog.c:1684
+#, c-format
+msgid "Speaker Testing for %s"
+msgstr "Изпробване на високоговорител към „%s“"
+
+#: panels/sound/gvc-mixer-dialog.c:1640
+#: panels/sound-nua/gvc-mixer-dialog.c:2106
+msgid "_Output volume:"
+msgstr "Сила на _изхода:"
+
+#: panels/sound/gvc-mixer-dialog.c:1659
+msgid "C_hoose a device for sound output:"
+msgstr "_Избор на изходно звуково устройство:"
+
+#: panels/sound/gvc-mixer-dialog.c:1684
+msgid "Settings for the selected device:"
+msgstr "Настройки на избраното устройство:"
+
+#: panels/sound/gvc-mixer-dialog.c:1702
+#: panels/sound-nua/gvc-mixer-dialog.c:1991
+msgid "_Input volume:"
+msgstr "Сила на _входа:"
+
+#: panels/sound/gvc-mixer-dialog.c:1725
+#: panels/sound-nua/gvc-mixer-dialog.c:2024
+msgid "Input level:"
+msgstr "Ниво на входа:"
+
+#: panels/sound/gvc-mixer-dialog.c:1753
+msgid "C_hoose a device for sound input:"
+msgstr "_Избор на входно звуково устройство:"
+
+#: panels/sound/gvc-mixer-dialog.c:1780
+#: panels/sound-nua/gvc-mixer-dialog.c:2050
+msgid "Sound Effects"
+msgstr "Звукови ефекти"
+
+#: panels/sound/gvc-mixer-dialog.c:1787
+#: panels/sound-nua/gvc-mixer-dialog.c:2057
+msgid "_Alert volume:"
+msgstr "Сила на _известяването:"
+
+#: panels/sound/gvc-mixer-dialog.c:1795
+#: panels/sound-nua/gvc-mixer-dialog.c:2087
+msgid "Applications"
+msgstr "Програми"
+
+#: panels/sound/gvc-mixer-dialog.c:1799
+#: panels/sound-nua/gvc-mixer-dialog.c:2091
+msgid "No application is currently playing or recording audio."
+msgstr "В момента никоя програма не записва и не възпроизвежда звук."
+
+#: panels/sound/gvc-speaker-test.c:220
+msgid "Stop"
+msgstr "Спиране"
+
+#: panels/sound/gvc-speaker-test.c:220 panels/sound/gvc-speaker-test.c:332
+msgid "Test"
+msgstr "Изпробване"
+
+#: panels/sound/gvc-speaker-test.c:228
+msgid "Subwoofer"
+msgstr "Бас"
+
+#: panels/sound/gvc-stream-status-icon.c:236
+#, c-format
+msgid "Failed to start Sound Preferences: %s"
+msgstr "Настройките на звука не могат да бъдат стартирани: %s"
+
+#: panels/sound/gvc-stream-status-icon.c:262
+msgid "_Mute"
+msgstr "_Заглушаване"
+
+#: panels/sound/gvc-stream-status-icon.c:271
+msgid "_Sound Preferences"
+msgstr "_Настройки на звука"
+
+# Контекстът би трябвало да е „вход“/„изход“.
+#: panels/sound/gvc-stream-status-icon.c:416
+msgid "Muted"
+msgstr "Заглушен"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:778
+#: panels/sound-nua/gvc-mixer-dialog.c:948
+#, c-format
+msgid "Settings for %s"
+msgstr "Настройки за „%s“"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:804
+#: panels/sound-nua/gvc-mixer-dialog.c:957
+msgid "Mode:"
+msgstr "Режим:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1736
+msgid "Choose an audio file"
+msgstr "Избиране на аудио файл"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1816
+msgid "Play sound through"
+msgstr "Възпроизвеждане на звук чрез"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1841
+#: panels/sound-nua/gvc-mixer-dialog.c:1973
+msgid "Settings for the selected device"
+msgstr "Настройки на избраното устройство:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1914
+msgid "Test:"
+msgstr "Изпробване"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1921
+msgid "Test Sound"
+msgstr "Пробен звук"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:1948
+msgid "Record sound from"
+msgstr "Запис на звук от"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2069
+msgid "Starting Cinnamon:"
+msgstr "Стартиране на Cinnamon:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2070
+msgid "Switching workspace:"
+msgstr "Превключване на работен плот:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2071
+msgid "Mapping windows:"
+msgstr "Подреждане на прозорци:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2072
+msgid "Closing windows:"
+msgstr "Затваряне на прозорци:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2073
+msgid "Minimizing windows:"
+msgstr "Минимизиране на прозорци:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2074
+msgid "Maximizing windows:"
+msgstr "Максимизиране на прозорци:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2075
+msgid "Unmaximizing windows:"
+msgstr "Демаксимизиране на прозорци:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2076
+msgid "Tiling and snapping windows:"
+msgstr "Подреждане и прилепване на прозорци"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2077
+msgid "Inserting a device:"
+msgstr "Поставено устройство:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2078
+msgid "Removing a device:"
+msgstr "Премахнато устройство:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2079
+msgid "Changing the sound volume:"
+msgstr "Промяна силата на звука:"
+
+#: panels/sound-nua/gvc-mixer-dialog.c:2080
+msgid "Leaving Cinnamon:"
+msgstr "Напускайки Cinnamon:"
+
+#: panels/universal-access/cc-ua-panel.c:289
+#: panels/universal-access/cc-ua-panel.c:295
+msgid "No shortcut set"
+msgstr "Не е зададена клавишна комбинация"
+
+#: panels/wacom/cc-wacom-mapping-panel.c:275
+msgid "Output:"
+msgstr "Изход:"
+
+#: panels/wacom/cc-wacom-mapping-panel.c:287
+msgid "Keep aspect ratio (letterbox):"
+msgstr "Запазване на пропорцията (портрет):"
+
+#: panels/wacom/cc-wacom-mapping-panel.c:298
+msgid "Map to single monitor"
+msgstr "Карта на един монитор"
+
+#: panels/wacom/cc-wacom-nav-button.c:89
+#, c-format
+msgid "%d of %d"
+msgstr "%d от %d"
+
+#: panels/wacom/cc-wacom-page.c:663
+msgid "Switch Modes"
+msgstr "Режими на превключвателите"
+
+#: panels/wacom/cc-wacom-page.c:753 panels/wacom/cc-wacom-stylus-page.c:373
+msgid "Button"
+msgstr "Бутон"
+
+#: panels/wacom/cc-wacom-page.c:790
+msgid "Type"
+msgstr "Тип"
+
+#: panels/wacom/cc-wacom-page.c:811
+msgid "Action"
+msgstr "Действиe"
+
+#: panels/wacom/cc-wacom-page.c:921
+msgid "Display Mapping"
+msgstr "Показване на карта"
+
+#: panels/wacom/csd-wacom-device.c:1076
+msgid "Left Ring"
+msgstr "Ляв пръстен"
+
+#: panels/wacom/csd-wacom-device.c:1086
+#, c-format
+msgid "Left Ring Mode #%d"
+msgstr "Режим на левия пръстен № %d"
+
+#: panels/wacom/csd-wacom-device.c:1105
+msgid "Right Ring"
+msgstr "Десен пръстен"
+
+#: panels/wacom/csd-wacom-device.c:1115
+#, c-format
+msgid "Right Ring Mode #%d"
+msgstr "Режим на десния пръстен № %d"
+
+#: panels/wacom/csd-wacom-device.c:1156
+msgid "Left Touchstrip"
+msgstr "Лява сензорна лента"
+
+#: panels/wacom/csd-wacom-device.c:1166
+#, c-format
+msgid "Left Touchstrip Mode #%d"
+msgstr "Режим на лявата сензорна лента № %d"
+
+#: panels/wacom/csd-wacom-device.c:1185
+msgid "Right Touchstrip"
+msgstr "Дясна сензорна лента"
+
+#: panels/wacom/csd-wacom-device.c:1195
+#, c-format
+msgid "Right Touchstrip Mode #%d"
+msgstr "Режим на дясната сензорна лента № %d"
+
+#: panels/wacom/csd-wacom-device.c:1220
+msgid "Left Touchring Mode Switch"
+msgstr "Превключвател на режима на левия сензорен пръстен"
+
+#: panels/wacom/csd-wacom-device.c:1222
+msgid "Right Touchring Mode Switch"
+msgstr "Превключвател на режима на десния сензорен пръстен"
+
+#: panels/wacom/csd-wacom-device.c:1225
+msgid "Left Touchstrip Mode Switch"
+msgstr "Превключвател на режима на лявата сензорна лента"
+
+#: panels/wacom/csd-wacom-device.c:1227
+msgid "Right Touchstrip Mode Switch"
+msgstr "Превключвател на режима на дясната сензорна лента"
+
+#: panels/wacom/csd-wacom-device.c:1232
+#, c-format
+msgid "Mode Switch #%d"
+msgstr "Превключвател на режима № %d"
+
+#: panels/wacom/csd-wacom-device.c:1336
+#, c-format
+msgid "Left Button #%d"
+msgstr "Ляв бутон № %d"
+
+#: panels/wacom/csd-wacom-device.c:1339
+#, c-format
+msgid "Right Button #%d"
+msgstr "Десен бутон № %d"
+
+#: panels/wacom/csd-wacom-device.c:1342
+#, c-format
+msgid "Top Button #%d"
+msgstr "Горен бутон № %d"
+
+#: panels/wacom/csd-wacom-device.c:1345
+#, c-format
+msgid "Bottom Button #%d"
+msgstr "Долен бутон № %d"
+
+#: shell/cc-shell-nav-bar.c:117
+msgid "_All Settings"
+msgstr "_Всички настройки"
+
+#: shell/control-center.c:58
+msgid "Enable verbose mode"
+msgstr "Включване на подробен режим"
+
+#: shell/control-center.c:59
+msgid "Show the overview"
+msgstr "Преглед"
+
+#: shell/control-center.c:60 shell/control-center.c:61
+#: shell/control-center.c:62
+msgid "Show help options"
+msgstr "Показване на настройките на помощта"
+
+#: shell/control-center.c:63
+msgid "Panel to display"
+msgstr "Панел за показване"
+
+#: shell/control-center.c:85
+msgid "- System Settings"
+msgstr "— системни настройки"
+
+#: shell/control-center.c:93
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Използвайте „%s --help“, за да видите пълен списък с валидните опции от "
+"командния ред.\n"
+
+#: shell/control-center.c:215
+msgid "Help"
+msgstr "Помощ"
+
+#: shell/control-center.c:216
+msgid "Quit"
+msgstr "Спиране на програмата"
+
+#: panels/color/color.ui.h:3 generate_additional_files.py:85
+msgid "Color"
+msgstr "Цвят"
+
+#: panels/color/color.ui.h:4
+msgid "Each device needs an up to date color profile to be color managed."
+msgstr ""
+"Всяко устройство трябва да има актуализиран профил за да бъде настроено"
+
+#: panels/color/color.ui.h:5
+msgid "Learn more"
+msgstr "Научете повече"
+
+#: panels/color/color.ui.h:6
+msgid "Learn more about color management"
+msgstr "Научете повече за цветовите настройки (може да е на английски)"
+
+#: panels/color/color.ui.h:7
+msgid "Add device"
+msgstr "Добавяне на устройство"
+
+#: panels/color/color.ui.h:8
+msgid "Add a virtual device"
+msgstr "Добавяне на виртуално устройство"
+
+#: panels/color/color.ui.h:9
+msgid "Delete device"
+msgstr "Изтриване на устройството"
+
+#: panels/color/color.ui.h:10
+msgid "Remove a device"
+msgstr "Премахване на устройството"
+
+#: panels/color/color.ui.h:12
+msgid "Set this profile for all users on this computer"
+msgstr "Този профил да се приложи за всички потребители на този компютър"
+
+#: panels/color/color.ui.h:13
+msgid "Add profile"
+msgstr "Добавяне на профил"
+
+#: panels/color/color.ui.h:14 panels/wacom/cinnamon-wacom-properties.ui.h:10
+msgid "Calibrate…"
+msgstr "Калибриране..."
+
+#: panels/color/color.ui.h:15
+msgid "Calibrate the device"
+msgstr "Калибриране на устройството"
+
+#: panels/color/color.ui.h:16
+msgid "Remove profile"
+msgstr "Премахване на профил"
+
+#: panels/color/color.ui.h:17
+msgid "View details"
+msgstr "Детайлен преглед"
+
+#: panels/color/color.ui.h:18
+msgid "Device type:"
+msgstr "Вид на устройството:"
+
+#: panels/color/color.ui.h:19
+msgid "Manufacturer:"
+msgstr "Производител:"
+
+#: panels/color/color.ui.h:20
+msgid "Model:"
+msgstr "Модел:"
+
+#: panels/color/color.ui.h:21
+msgid ""
+"Image files can be dragged on this window to auto-complete the above fields."
+msgstr ""
+"Файлове с изображения могат да бъдат влачени в този прозорец, за да бъдат "
+"автоматично попълнени горните полета."
+
+#: panels/common/language-chooser.ui.h:1
+msgid "Select a language"
+msgstr "Избор на език"
+
+#: panels/common/language-chooser.ui.h:2
+msgid "_Cancel"
+msgstr "_Отказ"
+
+#: panels/common/language-chooser.ui.h:3
+msgid "_Select"
+msgstr "_Избор"
+
+#: panels/datetime/datetime.ui.h:1
+msgid "_Region:"
+msgstr "_Регион:"
+
+#: panels/datetime/datetime.ui.h:2
+msgid "_City:"
+msgstr "_Град:"
+
+#: panels/datetime/datetime.ui.h:3
+msgid "_Network Time"
+msgstr "_Мрежово време"
+
+#: panels/datetime/datetime.ui.h:5
+msgid ":"
+msgstr ":"
+
+#: panels/datetime/datetime.ui.h:6
+msgid "Set the time one hour ahead."
+msgstr "Настрой времето с един час напред."
+
+#: panels/datetime/datetime.ui.h:7
+msgid "Set the time one hour back."
+msgstr "Настрой времето с един час назад."
+
+#: panels/datetime/datetime.ui.h:8
+msgid "Set the time one minute ahead."
+msgstr "Настрой времето с една минута напред."
+
+#: panels/datetime/datetime.ui.h:9
+msgid "Set the time one minute back."
+msgstr "Настрой времето с една минута назад."
+
+#: panels/datetime/datetime.ui.h:10
+msgid "Month"
+msgstr "Месец"
+
+#: panels/datetime/datetime.ui.h:11
+msgid "Day"
+msgstr "Ден"
+
+#: panels/datetime/datetime.ui.h:12
+msgid "Year"
+msgstr "Година"
+
+#: panels/datetime/datetime.ui.h:13
+msgid "January"
+msgstr "Януари"
+
+#: panels/datetime/datetime.ui.h:14
+msgid "February"
+msgstr "Февруари"
+
+#: panels/datetime/datetime.ui.h:15
+msgid "March"
+msgstr "Март"
+
+#: panels/datetime/datetime.ui.h:16
+msgid "April"
+msgstr "Април"
+
+#: panels/datetime/datetime.ui.h:17
+msgid "May"
+msgstr "Май"
+
+#: panels/datetime/datetime.ui.h:18
+msgid "June"
+msgstr "Юни"
+
+#: panels/datetime/datetime.ui.h:19
+msgid "July"
+msgstr "Юли"
+
+#: panels/datetime/datetime.ui.h:20
+msgid "August"
+msgstr "Август"
+
+#: panels/datetime/datetime.ui.h:21
+msgid "September"
+msgstr "Септември"
+
+#: panels/datetime/datetime.ui.h:22
+msgid "October"
+msgstr "Октомври"
+
+#: panels/datetime/datetime.ui.h:23
+msgid "November"
+msgstr "Ноември"
+
+#: panels/datetime/datetime.ui.h:24
+msgid "December"
+msgstr "Декември"
+
+#: panels/display/display-capplet.ui.h:2
+msgid "Set as Primary"
+msgstr "Задаване като основен"
+
+#: panels/display/display-capplet.ui.h:3
+msgid "_Resolution"
+msgstr "_Разделителна способност"
+
+#: panels/display/display-capplet.ui.h:4
+msgid "R_otation"
+msgstr "_Завъртане"
+
+#: panels/display/display-capplet.ui.h:6
+msgid "_Mirror displays"
+msgstr "_Еднакво изобразяване на екраните"
+
+#: panels/display/display-capplet.ui.h:7
+msgid "Note: may limit resolution options"
+msgstr "Бележка: може да ограничи възможностите на разделителната способност"
+
+#: panels/display/display-capplet.ui.h:8
+msgid "_Detect Displays"
+msgstr "_Откриване на екрани"
+
+#: panels/network/network-mobile.ui.h:1
+msgid "IMEI"
+msgstr "Международен идентификатор за мобилни устройства (IMEI)"
+
+#: panels/network/network-mobile.ui.h:2
+msgid "Provider"
+msgstr "Доставчик"
+
+#: panels/network/network-mobile.ui.h:5 panels/network/network-wifi.ui.h:15
+#: panels/network/network-wired.ui.h:4
+msgid "Default Route"
+msgstr "Стандартен маршрут"
+
+#: panels/network/network-mobile.ui.h:6 panels/network/network-wifi.ui.h:16
+#: panels/network/network-wired.ui.h:5
+msgid "DNS"
+msgstr "Система от имена (DNS)"
+
+#: panels/network/network-mobile.ui.h:7 generate_additional_files.py:175
+msgid "Network"
+msgstr "Мрежа"
+
+#: panels/network/network-mobile.ui.h:8 panels/network/network-wired.ui.h:6
+#: panels/region/cinnamon-region-panel.ui.h:11
+msgid "_Options..."
+msgstr "Настро_йки…"
+
+#: panels/network/network-proxy.ui.h:4
+msgid "_Method"
+msgstr "_Метод"
+
+#: panels/network/network-proxy.ui.h:5
+msgid "_Configuration URL"
+msgstr "Адрес за _настройка"
+
+#: panels/network/network-proxy.ui.h:6
+msgid "_HTTP Proxy"
+msgstr "_Сървър-посредник за HTTP"
+
+#: panels/network/network-proxy.ui.h:7
+msgid "H_TTPS Proxy"
+msgstr "_HTTPS сървър-посредник"
+
+#: panels/network/network-proxy.ui.h:8
+msgid "_FTP Proxy"
+msgstr "Сървър-_посредник за FTP"
+
+#: panels/network/network-proxy.ui.h:9
+msgid "_Socks Host"
+msgstr "_Хост за Socks:"
+
+#: panels/network/network.ui.h:1
+msgid "Select the interface to use for the new service"
+msgstr "Изберете устройството, което ще се използва за новата услуга"
+
+#: panels/network/network.ui.h:2
+msgid "C_reate..."
+msgstr "_Създаване"
+
+#: panels/network/network.ui.h:3
+msgid "_Interface"
+msgstr "_Устройство"
+
+#: panels/network/network.ui.h:4 panels/network/network-vpn.ui.h:1
+msgid "VPN"
+msgstr "ВЧМ"
+
+#: panels/network/network.ui.h:8
+msgid "Add Device"
+msgstr "Добавяне на устройство"
+
+#: panels/network/network.ui.h:9
+msgid "Remove Device"
+msgstr "Премахване на устройството"
+
+#: panels/network/network-vpn.ui.h:2
+msgid "VPN Type"
+msgstr "Вид на ВЧМ"
+
+#: panels/network/network-vpn.ui.h:3
+msgid "Gateway"
+msgstr "Шлюз"
+
+#: panels/network/network-vpn.ui.h:4
+msgid "Group Name"
+msgstr "Име на групата"
+
+#: panels/network/network-vpn.ui.h:5
+msgid "Group Password"
+msgstr "Парола на групата"
+
+#: panels/network/network-vpn.ui.h:6
+msgid "Username"
+msgstr "Потребителско име"
+
+#: panels/network/network-vpn.ui.h:7
+msgid "_Configure..."
+msgstr "_Настройване..."
+
+#: panels/network/network-wifi.ui.h:1
+msgid "Wireless Hotspot"
+msgstr "Създаване на _точка за безжичен достъп"
+
+#: panels/network/network-wifi.ui.h:2
+msgid "_Turn On"
+msgstr "_Включване"
+
+#: panels/network/network-wifi.ui.h:4
+msgid "_Use as Hotspot..."
+msgstr "_Използване като точка за безжичен достъп…"
+
+#: panels/network/network-wifi.ui.h:5
+msgid "Connect to a Hidden Network"
+msgstr "Свързване към скрита мрежа"
+
+#: panels/network/network-wifi.ui.h:6
+msgid "_Disconnect"
+msgstr "_Разкачване"
+
+#: panels/network/network-wifi.ui.h:7
+msgid "_Connect"
+msgstr "_Свързване"
+
+#: panels/network/network-wifi.ui.h:8
+msgid "Last used"
+msgstr "Последно използван"
+
+#: panels/network/network-wifi.ui.h:9 panels/network/network-wired.ui.h:1
+msgid "Hardware Address"
+msgstr "Хардуерен адрес"
+
+#: panels/network/network-wifi.ui.h:10
+msgid "Security"
+msgstr "Сигурност"
+
+#: panels/network/network-wifi.ui.h:11
+msgid "Strength"
+msgstr "Сила"
+
+#: panels/network/network-wifi.ui.h:12
+msgid "Link speed"
+msgstr "Скорост на връзката"
+
+#: panels/network/network-wifi.ui.h:17
+msgid "_Forget Network"
+msgstr "Забравяне на мрежата"
+
+#: panels/network/network-wifi.ui.h:18
+msgid "_Settings..."
+msgstr "_Настройки"
+
+#: panels/network/network-wifi.ui.h:19
+msgid "Switch off to connect to a wireless network"
+msgstr "Изключете,  за да се свържете към безжична мрежа"
+
+#: panels/network/network-wifi.ui.h:20
+msgid "Network Name"
+msgstr "Име на мрежата"
+
+#: panels/network/network-wifi.ui.h:21
+msgid "Connected Devices"
+msgstr "Свързани устройства"
+
+#: panels/network/network-wifi.ui.h:22
+msgid "Security type"
+msgstr "Вид сигурност"
+
+#: panels/network/network-wifi.ui.h:23
+msgid "Security key"
+msgstr "Ключ за сигурност"
+
+#: panels/power/power.ui.h:1
+msgid "Hibernate"
+msgstr "Дълбоко приспиване"
+
+#: panels/power/power.ui.h:2
+msgid "Power off"
+msgstr "Изключване"
+
+#: panels/power/power.ui.h:3
+msgid "5 minutes"
+msgstr "5 минути"
+
+#: panels/power/power.ui.h:4
+msgid "10 minutes"
+msgstr "10 минути"
+
+#: panels/power/power.ui.h:5
+msgid "30 minutes"
+msgstr "10 минути"
+
+#: panels/power/power.ui.h:6
+msgid "1 hour"
+msgstr "1 час"
+
+#: panels/power/power.ui.h:7
+msgid "Never"
+msgstr "Никога"
+
+#: panels/power/power.ui.h:8
+msgid "When battery is present"
+msgstr "При наличие на батерия"
+
+#: panels/power/power.ui.h:9
+msgid "When battery is charging/in use"
+msgstr "Когато батерията се зарежда/използва"
+
+#: panels/power/power.ui.h:10
+msgid "Suspend"
+msgstr "Приспиване"
+
+#: panels/power/power.ui.h:11
+msgid "Do nothing"
+msgstr "Не прави нищо"
+
+#: panels/power/power.ui.h:12
+msgid "Lock Screen"
+msgstr "Заключване на екрана"
+
+#: panels/power/power.ui.h:13
+msgid "Shutdown Immediately"
+msgstr "Незабавно изключване"
+
+#: panels/power/power.ui.h:14
+msgid "Ask"
+msgstr "Питане за действие"
+
+#: panels/power/power.ui.h:15
+msgid "On battery power"
+msgstr "При работа на батерия"
+
+#: panels/power/power.ui.h:16
+msgid "On A/C power"
+msgstr "Захранване включено"
+
+#: panels/power/power.ui.h:17
+msgid "When the lid is closed"
+msgstr "При затваряне на екрана"
+
+#: panels/power/power.ui.h:18
+msgid "When the power button is pressed"
+msgstr "При натискане бутона на захранването"
+
+#: panels/power/power.ui.h:19
+msgid "When battery power is critically low"
+msgstr "Когато новото на батерията е критично ниско"
+
+#: panels/power/power.ui.h:20
+msgid "Suspend when inactive for"
+msgstr "Изключване при липса на активност след"
+
+#: panels/power/power.ui.h:21
+msgid "Turn off the screen when inactive for"
+msgstr "Изключване на екрана, когато устройството не е активно от"
+
+#: panels/power/power.ui.h:22
+msgid "Start the screensaver when inactive for"
+msgstr "Включи предпазителя за екрана, когато устройството не е активно от"
+
+#: panels/power/power.ui.h:23
+msgid "<b>Power Options</b>"
+msgstr "<b>Опции на захранването</b>"
+
+#: panels/power/power.ui.h:24
+msgid "<b>Battery Status</b>"
+msgstr "<b>Статус на батерията</b>"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:1
+msgid "Choose a Layout"
+msgstr "Избиране на клавиатурна подредба"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:2
+msgid "Preview"
+msgstr "Предварителен преглед"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:3
+msgid "Select an input source to add"
+msgstr "Изберете източник за добавяне"
+
+#: panels/region/cinnamon-region-panel-options-dialog.ui.h:1
+msgid "Keyboard Layout Options"
+msgstr "Настройки на клавиатурната подредба"
+
+#: panels/region/cinnamon-region-panel.ui.h:1
+msgid "Region and Language"
+msgstr "Регион и език"
+
+#: panels/region/cinnamon-region-panel.ui.h:2
+msgid "Add Layout"
+msgstr "Добавяне на оформление"
+
+#: panels/region/cinnamon-region-panel.ui.h:3
+msgid "Remove Layout"
+msgstr "Премахване на оформление"
+
+#: panels/region/cinnamon-region-panel.ui.h:4
+msgid "Move Up"
+msgstr "Преместване нагоре"
+
+#: panels/region/cinnamon-region-panel.ui.h:5
+msgid "Move Down"
+msgstr "Преместване надолу"
+
+#: panels/region/cinnamon-region-panel.ui.h:6
+msgid "Preview Layout"
+msgstr "Предишно оформление"
+
+#: panels/region/cinnamon-region-panel.ui.h:7
+msgid "Use the same layout for all windows"
+msgstr "Използване на това оформление за всички прозорци"
+
+#: panels/region/cinnamon-region-panel.ui.h:8
+msgid "Allow different layouts for individual windows"
+msgstr "Отделна подредба за всеки прозорец"
+
+#: panels/region/cinnamon-region-panel.ui.h:9
+msgid "New windows use the default layout"
+msgstr "Новите прозорци да използват оформлението по подразбиране"
+
+#: panels/region/cinnamon-region-panel.ui.h:10
+msgid "New windows use the previous window's layout"
+msgstr "Новите прозорци да наследяват оформлението си от предхождащия ги"
+
+#: panels/region/cinnamon-region-panel.ui.h:12
+msgid "View and edit keyboard layout options"
+msgstr "Преглед и редактиране на клавиатурната подредба"
+
+#: panels/region/cinnamon-region-panel.ui.h:13
+msgid "Reset to De_faults"
+msgstr "Въ_зстанови по подразбиране"
+
+#: panels/region/cinnamon-region-panel.ui.h:14
+msgid ""
+"Replace the current keyboard layout settings with the\n"
+"default settings"
+msgstr ""
+"Замени текущите клавиaтурни настройки с \n"
+"тези по подразбиране"
+
+#: panels/universal-access/uap.ui.h:5
+msgid "On screen keyboard"
+msgstr "Екранна клавиатура"
+
+#: panels/universal-access/uap.ui.h:6
+msgid "GOK"
+msgstr "GOK"
+
+#: panels/universal-access/uap.ui.h:7
+msgid "OnBoard"
+msgstr "Екранна"
+
+#: panels/universal-access/uap.ui.h:8
+msgid "None"
+msgstr "Няма"
+
+#: panels/universal-access/uap.ui.h:10
+#, no-c-format
+msgid "75%"
+msgstr "75%"
+
+#: panels/universal-access/uap.ui.h:13
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#: panels/universal-access/uap.ui.h:16
+#, no-c-format
+msgid "125%"
+msgstr "125%"
+
+#: panels/universal-access/uap.ui.h:19
+#, no-c-format
+msgid "150%"
+msgstr "150%"
+
+#: panels/universal-access/uap.ui.h:21
+msgid "High Contrast"
+msgstr "Висок контраст"
+
+#: panels/universal-access/uap.ui.h:22
+msgid "Beep on Caps and Num Lock"
+msgstr "Звук при натискане на Caps Lock и Num Lock"
+
+#: panels/universal-access/uap.ui.h:23
+msgid "Options..."
+msgstr "Опции.."
+
+#: panels/universal-access/uap.ui.h:24
+msgid "Screen Reader"
+msgstr "Екранен четец"
+
+#: panels/universal-access/uap.ui.h:25
+msgid "Turn on or off:"
+msgstr "Включване или изключване:"
+
+#: panels/universal-access/uap.ui.h:27
+msgid "Zoom in:"
+msgstr "Увеличаване:"
+
+#: panels/universal-access/uap.ui.h:28
+msgid "Zoom out:"
+msgstr "Намаляване:"
+
+#: panels/universal-access/uap.ui.h:29
+msgid "Large Text"
+msgstr "Едър текст"
+
+#: panels/universal-access/uap.ui.h:30
+msgid "Seeing"
+msgstr "Зрение"
+
+#: panels/universal-access/uap.ui.h:31
+msgid "Visual Alerts"
+msgstr "Зрителни известия"
+
+#: panels/universal-access/uap.ui.h:32
+msgid "Use a visual indication when an alert sound occurs"
+msgstr "Едновременно зрително и звуково известяване"
+
+#: panels/universal-access/uap.ui.h:33
+msgid "Flash the window title"
+msgstr "Проблясване на заглавната лента на прозореца"
+
+#: panels/universal-access/uap.ui.h:34
+msgid "Flash the entire screen"
+msgstr "Проблясване на целия екран"
+
+#: panels/universal-access/uap.ui.h:35
+msgid "Closed Captioning"
+msgstr "Екранни надписи"
+
+#: panels/universal-access/uap.ui.h:36
+msgid "Display a textual description of speech and sounds"
+msgstr "Показване на текстово описание на речта и звуците"
+
+#: panels/universal-access/uap.ui.h:37
+msgid "_Test flash"
+msgstr "_Проба на проблясването"
+
+#: panels/universal-access/uap.ui.h:38
+msgid "Hearing"
+msgstr "Слух"
+
+#: panels/universal-access/uap.ui.h:39
+msgid "On Screen Keyboard"
+msgstr "Екранна клавиатура"
+
+#: panels/universal-access/uap.ui.h:40
+msgid "Sticky Keys"
+msgstr "Лепкави клавиши"
+
+#: panels/universal-access/uap.ui.h:41
+msgid "Treats a sequence of modifier keys as a key combination"
+msgstr "Използване на модификаторите на клавиши като клавишни комбинации"
+
+#: panels/universal-access/uap.ui.h:42
+msgid "_Disable if two keys are pressed together"
+msgstr "_Изключване при натискането на два клавиша едновременно"
+
+#: panels/universal-access/uap.ui.h:43
+msgid "Beep when a _modifer key is pressed"
+msgstr "Звук при натискане на _модификатор"
+
+#: panels/universal-access/uap.ui.h:44
+msgid "Slow Keys"
+msgstr "Бавни клавиши"
+
+#: panels/universal-access/uap.ui.h:45
+msgid "Puts a delay between when a key is pressed and when it is accepted"
+msgstr "Въвеждане на закъснение между натискането на клавиш и отчитането му"
+
+#: panels/universal-access/uap.ui.h:46
+msgid "A_cceptance delay:"
+msgstr "За_къснение при отчитане:"
+
+#: panels/universal-access/uap.ui.h:48
+msgid "Short"
+msgstr "Късо"
+
+#: panels/universal-access/uap.ui.h:49
+msgid "Slow keys typing delay"
+msgstr "Забавяне за бавните клавиши"
+
+#: panels/universal-access/uap.ui.h:51
+msgid "Long"
+msgstr "Дълго"
+
+#: panels/universal-access/uap.ui.h:53
+msgid "Beep when a key is"
+msgstr "Звук, когато клавишът е"
+
+#: panels/universal-access/uap.ui.h:55
+msgid "pressed"
+msgstr "натиснат"
+
+#: panels/universal-access/uap.ui.h:57
+msgid "accepted"
+msgstr "приет"
+
+#: panels/universal-access/uap.ui.h:59
+msgid "rejected"
+msgstr "отхвърлен"
+
+#: panels/universal-access/uap.ui.h:60
+msgid "Bounce Keys"
+msgstr "Подскачащи клавиши"
+
+#: panels/universal-access/uap.ui.h:61
+msgid "Ignores fast duplicate keypresses"
+msgstr "Игнориране на бързо натискане на еднакви клавиши"
+
+#: panels/universal-access/uap.ui.h:62
+msgid "Acc_eptance delay:"
+msgstr "Зак_ъснение при отчитане:"
+
+#: panels/universal-access/uap.ui.h:63
+msgid "Bounce keys typing delay"
+msgstr "Забавяне за подскачащите клавиши"
+
+#: panels/universal-access/uap.ui.h:64
+msgid "Beep when a key is _rejected"
+msgstr "Звук при _отхвърляне на клавиша"
+
+#: panels/universal-access/uap.ui.h:65
+msgid "Enable by Keyboard"
+msgstr "Включване на клавишните комбинации"
+
+#: panels/universal-access/uap.ui.h:66
+msgid "Turn accessibility features on and off using the keyboard"
+msgstr "Включване и изключване на функциите за достъпност чрез клавиатурата"
+
+#: panels/universal-access/uap.ui.h:67
+msgid "Typing"
+msgstr "Писане"
+
+#: panels/universal-access/uap.ui.h:68
+msgid "Mouse Keys"
+msgstr "Бутони на мишката"
+
+#: panels/universal-access/uap.ui.h:69
+msgid "Control the pointer using the keypad"
+msgstr "Движение на показалеца чрез клавиатурата"
+
+#: panels/universal-access/uap.ui.h:70
+msgid "Video Mouse"
+msgstr "Видео мишка"
+
+#: panels/universal-access/uap.ui.h:71
+msgid "Control the pointer using the video camera."
+msgstr "Движение на показалеца чрез видеокамерата."
+
+#: panels/universal-access/uap.ui.h:72
+msgid "Simulated Secondary Click"
+msgstr "Симулирано повторно натискане"
+
+#: panels/universal-access/uap.ui.h:73
+msgid "Trigger a secondary click by holding down the primary button"
+msgstr "Второ натискане при задържане на основния бутон"
+
+#: panels/universal-access/uap.ui.h:74
+msgid "Secondary click delay"
+msgstr "Закъснение при повторно натискане"
+
+#: panels/universal-access/uap.ui.h:75
+msgid "Hover Click"
+msgstr "Натискане чрез задържане"
+
+#: panels/universal-access/uap.ui.h:76
+msgid "Trigger a click when the pointer hovers"
+msgstr "Натискане при посочване с мишката"
+
+#: panels/universal-access/uap.ui.h:77
+msgid "D_elay:"
+msgstr "_Закъснение:"
+
+#: panels/universal-access/uap.ui.h:78
+msgid "Motion _threshold:"
+msgstr "П_раг на движение:"
+
+#: panels/universal-access/uap.ui.h:80
+msgid "Small"
+msgstr "Малко"
+
+#: panels/universal-access/uap.ui.h:82
+msgid "Large"
+msgstr "Голямо"
+
+#: panels/universal-access/uap.ui.h:83
+msgid "Mouse Settings"
+msgstr "Настройки на мишката"
+
+#: panels/universal-access/uap.ui.h:84
+msgid "Pointing and Clicking"
+msgstr "Посочване и натискане"
+
+#: panels/universal-access/zoom-options.ui.h:1
+msgid "Full Screen"
+msgstr "Цял екран"
+
+#: panels/universal-access/zoom-options.ui.h:2
+msgid "Top Half"
+msgstr "Горната половина"
+
+#: panels/universal-access/zoom-options.ui.h:3
+msgid "Bottom Half"
+msgstr "Долната половина"
+
+#: panels/universal-access/zoom-options.ui.h:4
+msgid "Left Half"
+msgstr "Лявата половина"
+
+#: panels/universal-access/zoom-options.ui.h:5
+msgid "Right Half"
+msgstr "Дясната половина"
+
+#: panels/universal-access/zoom-options.ui.h:6
+msgid "Zoom Options"
+msgstr "Настройки на лупата"
+
+#: panels/universal-access/zoom-options.ui.h:7
+msgid "Zoom"
+msgstr "Мащабиране"
+
+#: panels/universal-access/zoom-options.ui.h:8
+msgid "Magnification:"
+msgstr "Мащаб:"
+
+#: panels/universal-access/zoom-options.ui.h:9
+msgid "Follow mouse cursor"
+msgstr "Следване на показалеца на мишката"
+
+#: panels/universal-access/zoom-options.ui.h:10
+msgid "Screen part:"
+msgstr "Част от екрана:"
+
+#: panels/universal-access/zoom-options.ui.h:11
+msgid "Magnifier extends outside of screen"
+msgstr "Лупата да излиза извън екрана"
+
+#: panels/universal-access/zoom-options.ui.h:12
+msgid "Keep magnifier cursor centered"
+msgstr "Показалецът на мишката да е в средата на лупата"
+
+#: panels/universal-access/zoom-options.ui.h:13
+msgid "Magnifier cursor pushes contents around"
+msgstr "Показалецът на мишката да избутва лупата"
+
+#: panels/universal-access/zoom-options.ui.h:14
+msgid "Magnifier cursor moves with contents"
+msgstr "Показалецът на мишката да се движи заедно с лупата"
+
+#: panels/universal-access/zoom-options.ui.h:15
+msgid "Magnifier Position:"
+msgstr "Положение на лупата:"
+
+#: panels/universal-access/zoom-options.ui.h:16
+msgid "Magnifier"
+msgstr "Лупа"
+
+#: panels/universal-access/zoom-options.ui.h:17
+msgid "Thickness:"
+msgstr "Дебелина:"
+
+#: panels/universal-access/zoom-options.ui.h:19
+msgid "Thin"
+msgstr "Тънък"
+
+#: panels/universal-access/zoom-options.ui.h:21
+msgid "Thick"
+msgstr "Удебелен"
+
+#: panels/universal-access/zoom-options.ui.h:22
+msgid "Length:"
+msgstr "Дължина:"
+
+#: panels/universal-access/zoom-options.ui.h:23
+msgid "Color:"
+msgstr "Цвят:"
+
+#: panels/universal-access/zoom-options.ui.h:24
+msgid "Crosshairs:"
+msgstr "Кръстачка:"
+
+#: panels/universal-access/zoom-options.ui.h:25
+msgid "Overlaps mouse cursor"
+msgstr "Лупата да е върху показалеца на мишката"
+
+#: panels/universal-access/zoom-options.ui.h:26
+msgid "Crosshairs"
+msgstr "Кръстачка"
+
+#: panels/universal-access/zoom-options.ui.h:27
+msgid "White on black:"
+msgstr "Бяло на черно:"
+
+#: panels/universal-access/zoom-options.ui.h:28
+msgid "Brightness:"
+msgstr "Яркост"
+
+#: panels/universal-access/zoom-options.ui.h:29
+msgid "Contrast:"
+msgstr "Контраст"
+
+#: panels/universal-access/zoom-options.ui.h:34
+msgid "Low"
+msgstr "Нисък"
+
+#: panels/universal-access/zoom-options.ui.h:36
+msgid "High"
+msgstr "Висок"
+
+#: panels/universal-access/zoom-options.ui.h:37
+msgid "Color Effects:"
+msgstr "Цветови ефекти:"
+
+#: panels/universal-access/zoom-options.ui.h:38
+msgid "Color Effects"
+msgstr "Цветови ефекти"
+
+#: panels/wacom/button-mapping.ui.h:1
+msgid "Map Buttons"
+msgstr "Функции на бутоните"
+
+#: panels/wacom/button-mapping.ui.h:2
+msgid "Map buttons to functions"
+msgstr "Настройване на функциите на бутоните"
+
+#: panels/wacom/button-mapping.ui.h:3
+msgid ""
+"To edit a shortcut, click the row and hold down the new keys or press "
+"Backspace to clear."
+msgstr ""
+"За да редактирате клавишната комбинация, натиснете върху съответния ред и "
+"въведете новата комбинация, или натиснете „Backspace“ за изчистване."
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:1
+msgid "Tablet (absolute)"
+msgstr "Таблет (абсолютни координати)"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:2
+msgid "Touchpad (relative)"
+msgstr "Сензорен панел (относителни координати)"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:3
+msgid "Tablet Preferences"
+msgstr "Настройки на таблет"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:4
+msgid "No tablet detected"
+msgstr "Не е открит таблет"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:5
+msgid "Please plug in or turn on your graphics tablet"
+msgstr "Моля включете Вашият графичен таблет"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:6
+msgid "Bluetooth Settings"
+msgstr "Блутут настройки"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:7
+msgid "Graphics Tablet"
+msgstr "Графичен таблет"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:8
+msgid "Map to Monitor…"
+msgstr "Настройки на монитора..."
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:9
+msgid "Map Buttons…"
+msgstr "Настройка на бутоните..."
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:11
+msgid "Adjust display resolution"
+msgstr "Задаване на разделителната способност на екрана"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:12
+msgid "Tracking Mode"
+msgstr "Режим на следене"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:13
+msgid "Left-Handed Orientation"
+msgstr "Ориентация за лява ръка"
+
+#: panels/wacom/wacom-stylus-page.ui.h:1
+msgid "No Action"
+msgstr "Без действие"
+
+#: panels/wacom/wacom-stylus-page.ui.h:2
+msgid "Left Mouse Button Click"
+msgstr "Натискане на левия бутон на мишката"
+
+#: panels/wacom/wacom-stylus-page.ui.h:3
+msgid "Middle Mouse Button Click"
+msgstr "Натискане на среден бутон на мишката"
+
+#: panels/wacom/wacom-stylus-page.ui.h:4
+msgid "Right Mouse Button Click"
+msgstr "Натискане на десен бутон на мишката"
+
+#: panels/wacom/wacom-stylus-page.ui.h:5
+msgid "Scroll Up"
+msgstr "Придвижване нагоре"
+
+#: panels/wacom/wacom-stylus-page.ui.h:6
+msgid "Scroll Down"
+msgstr "Придвижване надолу"
+
+#: panels/wacom/wacom-stylus-page.ui.h:7
+msgid "Scroll Left"
+msgstr "Придвижване наляво"
+
+#: panels/wacom/wacom-stylus-page.ui.h:8
+msgid "Scroll Right"
+msgstr "Придвижване надясно"
+
+#: panels/wacom/wacom-stylus-page.ui.h:9
+msgid "Back"
+msgstr "Назад"
+
+#: panels/wacom/wacom-stylus-page.ui.h:10
+msgid "Forward"
+msgstr "Напред"
+
+#: panels/wacom/wacom-stylus-page.ui.h:11
+msgid "Stylus"
+msgstr "Писалка"
+
+#: panels/wacom/wacom-stylus-page.ui.h:12
+msgid "Eraser Pressure Feel"
+msgstr "Усещане на натиска на гумата"
+
+#: panels/wacom/wacom-stylus-page.ui.h:13
+msgid "Soft"
+msgstr "Меко"
+
+#: panels/wacom/wacom-stylus-page.ui.h:14
+msgid "Firm"
+msgstr "Твърдо"
+
+#: panels/wacom/wacom-stylus-page.ui.h:15
+msgid "Top Button"
+msgstr "Горен бутон"
+
+#: panels/wacom/wacom-stylus-page.ui.h:16
+msgid "Lower Button"
+msgstr "Долен бутон"
+
+#: panels/wacom/wacom-stylus-page.ui.h:17
+msgid "Tip Pressure Feel"
+msgstr "Усещане на натиска на писеца"
+
+#: generate_additional_files.py:55
+msgid "Brightness & Lock"
+msgstr "Яркост и заключване"
+
+#: generate_additional_files.py:55
+msgid "Screen brightness and lock settings"
+msgstr "Настройки на яркостта и заключването"
+
+#: generate_additional_files.py:70 generate_additional_files.py:101
+msgid "Sound"
+msgstr "Звук"
+
+#: generate_additional_files.py:70 generate_additional_files.py:101
+msgid "Change sound volume and sound events"
+msgstr "Промяна на силата на звука и звуците свързани със събития"
+
+#: generate_additional_files.py:85
+msgid "Color management settings"
+msgstr "Настройка на цвета"
+
+#: generate_additional_files.py:115
+msgid "Volume Control"
+msgstr "Регулиране силата на звука"
+
+#: generate_additional_files.py:115
+msgid "Show desktop volume control"
+msgstr "Показване на управлението на звука"
+
+#: generate_additional_files.py:130
+msgid "Power"
+msgstr "Захранване"
+
+#: generate_additional_files.py:130
+msgid "Power management settings"
+msgstr "Настройки на захранването"
+
+#: generate_additional_files.py:145
+msgid "Region & Language"
+msgstr "Регион и език"
+
+#: generate_additional_files.py:145
+msgid "Change your region and language settings"
+msgstr "Променете своите регионални и езикови настройки"
+
+#: generate_additional_files.py:160
+msgid "Displays"
+msgstr "Монитори"
+
+#: generate_additional_files.py:160
+msgid "Change resolution and position of monitors and projectors"
+msgstr ""
+"Промяна на разделителната способност и положението на екраните и проекторите"
+
+#: generate_additional_files.py:175
+msgid "Network settings"
+msgstr "Мрежови настройки"
+
+#: generate_additional_files.py:190
+msgid "Universal Access"
+msgstr "Универсален достъп"
+
+#: generate_additional_files.py:190
+msgid "Universal Access Preferences"
+msgstr "Настройки за универсален достъп"
+
+#: generate_additional_files.py:205
+msgid "Date & Time"
+msgstr "Дата и час"
+
+#: generate_additional_files.py:205
+msgid "Date and Time preferences"
+msgstr "Настройки на часа и датата"
