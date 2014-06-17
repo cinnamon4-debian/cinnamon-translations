@@ -10,6 +10,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-cinnamon/cinnamon-translations.git
 
 Package: cinnamon-translations
 Architecture: all
+Depends: ${misc:Depends}
 Replaces: cinnamon-common (<< 2.0)
 Breaks: cinnamon-common (<< 2.0)
 Description: Translation files for the Cinnamon desktop
