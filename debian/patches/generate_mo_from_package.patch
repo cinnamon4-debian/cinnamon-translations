@@ -1,0 +1,60 @@
+Description: Generate mo files on package build for respect debian standard.
+Author: Fabio Fantoni <fantonifabio@tiscali.it>
+Origin: improvements proposed to upstream
+Forwarded: yes, awaiting reply
+Last-Update: 2014-06-22
+--- /dev/null
++++ b/Makefile
+@@ -0,0 +1,18 @@
++
++all: buildmo
++
++buildmo:
++	@echo "Building the mo files"
++	# WARNING: the second sed below will only works correctly with the languages that don't contain "-"
++	for dir in `ls po-export`; do \
++		for file in `ls po-export/$$dir/*.po`; do \
++			lang=`echo $$file | sed 's/\.po$$//' | sed 's/.*\-//'`; \
++			install -d usr/share/cinnamon/locale/$$lang/LC_MESSAGES/; \
++			msgfmt -o usr/share/cinnamon/locale/$$lang/LC_MESSAGES/$$dir.mo $$file; \
++		done \
++	 done
++
++clean:
++	rm -rf usr
++	./cleanup.sh
++
+--- a/README.md
++++ b/README.md
+@@ -1,5 +1,4 @@
+-1. Download MOs and POs from Launchpad
+-2. Replace the content of mo-export and po-export with the content of the two archives
++1. Download POs from Launchpad
++2. Replace the content po-export with the content of archive downloaded
+ 3. run ./cleanup.sh
+-4. run ./check.sh
+-5. If everything is fine, build the package with dpkg-buildpackage
++4. If everything is fine, build the package with dpkg-buildpackage
+--- a/cleanup.sh
++++ b/cleanup.sh
+@@ -1,4 +1,4 @@
+-echo "Cleaning up mo and po files"
++echo "Cleaning up po files"
+ 
+ # Remove non-Cinnamon PO files
+ rm -rf po-export/live-installer
+@@ -6,14 +6,3 @@
+ rm -rf po-export/mint*
+ rm -rf po-export/slideshow*
+ 
+-# Remove non-Cinnamon MO files
+-rm -rf mo-export/*/LC_MESSAGES/live-installer*
+-rm -rf mo-export/*/LC_MESSAGES/mdm*
+-rm -rf mo-export/*/LC_MESSAGES/mint*
+-rm -rf mo-export/*/LC_MESSAGES/slideshow*
+-
+-# Remove templates
+-rm -rf mo-export/templates
+-
+-
+-

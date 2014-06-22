@@ -1,6 +1,10 @@
 cinnamon-translations (2.2.3-1~) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * Initial release.
   * Improve copyright information.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 02 Jun 2014 09:47:42 +0200
+  [ Fabio Fantoni ]
+  * Generate mo files on package build for respect debian standard.
+
+ -- Fabio Fantoni <fantonifabio@tiscali.it>  Sun, 22 Jun 2014 15:12:12 +0200
