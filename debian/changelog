@@ -1,4 +1,4 @@
-cinnamon-translations (2.2.3-2~) UNRELEASED; urgency=medium
+cinnamon-translations (2.2.3-2) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * Initial release.
@@ -7,4 +7,4 @@ cinnamon-translations (2.2.3-2~) UNRELEASED; urgency=medium
   [ Fabio Fantoni ]
   * Generate mo files on package build to follow Debian policy.
 
- -- Margarita Manterola <marga@debian.org>  Sat, 12 Jul 2014 11:41:03 +0200
+ -- Margarita Manterola <marga@debian.org>  Sat, 12 Jul 2014 12:14:44 +0200
