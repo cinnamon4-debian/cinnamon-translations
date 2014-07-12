@@ -17,4 +17,4 @@ Depends: ${misc:Depends}
 Replaces: cinnamon-common (<< 2.0)
 Breaks: cinnamon-common (<< 2.0)
 Description: Translation files for the Cinnamon desktop
- The package contains the translation files for the Cinnamon packages.
+ The package contains the translation files for all the Cinnamon packages.
