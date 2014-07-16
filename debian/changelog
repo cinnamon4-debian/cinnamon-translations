@@ -1,3 +1,9 @@
+cinnamon-translations (2.2.3-3) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Jul 2014 11:30:00 +0200
+
 cinnamon-translations (2.2.3-2) experimental; urgency=medium
 
   [ Maximiliano Curia ]
