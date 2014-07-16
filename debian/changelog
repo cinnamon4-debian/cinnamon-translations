@@ -7,4 +7,4 @@ cinnamon-translations (2.2.3-2) experimental; urgency=medium
   [ Fabio Fantoni ]
   * Generate mo files on package build to follow Debian policy.
 
- -- Margarita Manterola <marga@debian.org>  Sat, 12 Jul 2014 12:14:44 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Jul 2014 11:21:02 +0200
