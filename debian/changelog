@@ -1,3 +1,9 @@
+cinnamon-translations (2.2.3-4~) UNRELEASED; urgency=medium
+
+  * Renamed cinnamon-translations binary in cinnamon-l10n.
+
+ -- Fabio Fantoni <fantonifabio@tiscali.it>  Thu, 24 Jul 2014 12:40:07 +0200
+
 cinnamon-translations (2.2.3-3) unstable; urgency=medium
 
   * Release to unstable.

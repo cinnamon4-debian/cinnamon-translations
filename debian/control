@@ -11,10 +11,10 @@ Homepage: http://cinnnamon.linuxmint.com
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-cinnamon/cinnamon-translations.git
 Vcs-Git: git://anonscm.debian.org/pkg-cinnamon/cinnamon-translations.git
 
-Package: cinnamon-translations
+Package: cinnamon-l10n
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: cinnamon-common (<< 2.0)
-Breaks: cinnamon-common (<< 2.0)
+Replaces: cinnamon-common (<< 2.0), cinnamon-translations
+Breaks: cinnamon-common (<< 2.0), cinnamon-translations
 Description: Translation files for the Cinnamon desktop
  The package contains the translation files for all the Cinnamon packages.
