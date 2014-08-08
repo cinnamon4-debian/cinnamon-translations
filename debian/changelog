@@ -1,3 +1,9 @@
+cinnamon-translations (2.2.3-5~) UNRELEASED; urgency=medium
+
+  * debian/copyright: fixed the source license and changed the debian/
+
+ -- Fabio Fantoni <fantonifabio@tiscali.it>  Fri, 08 Aug 2014 12:18:54 +0200
+
 cinnamon-translations (2.2.3-4) unstable; urgency=medium
 
   [ Fabio Fantoni ]
