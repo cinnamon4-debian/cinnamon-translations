@@ -1,9 +1,10 @@
-cinnamon-translations (2.2.4-1~) UNRELEASED; urgency=medium
+cinnamon-translations (2.2.4-1) unstable; urgency=medium
 
+  [ Fabio Fantoni ]
   * New upstream release.
   * debian/copyright: fixed the source license and changed the debian/
 
- -- Fabio Fantoni <fantonifabio@tiscali.it>  Tue, 19 Aug 2014 16:19:58 +0200
+ -- Margarita Manterola <marga@debian.org>  Fri, 22 Aug 2014 12:06:10 -0700
 
 cinnamon-translations (2.2.3-4) unstable; urgency=medium
 
