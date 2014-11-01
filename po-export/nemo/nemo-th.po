@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-04-12 15:47+0100\n"
-"PO-Revision-Date: 2014-08-15 13:25+0000\n"
-"Last-Translator: KL <sumoisrock@gmail.com>\n"
+"PO-Revision-Date: 2014-08-31 11:00+0000\n"
+"Last-Translator: Rockworld <sumoisrock@gmail.com>\n"
 "Language-Team: Thai <th@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2014-08-19 13:38+0000\n"
-"X-Generator: Launchpad (build 17156)\n"
+"X-Launchpad-Export-Date: 2014-10-31 00:58+0000\n"
+"X-Generator: Launchpad (build 17211)\n"
 
 #: src/nemo-application.c:158
 #, c-format
@@ -5015,7 +5015,7 @@ msgstr ""
 
 #: src/nemo-file-management-properties.glade:1041
 msgid "Prompt or autorun/autostart programs when media are inserted"
-msgstr ""
+msgstr "รอก่อน หรือเริ่มเปิดโปรแกรมโดยอัตโนมัติเมื่อใส่สื่อเข้าไป"
 
 #: src/nemo-file-management-properties.glade:1057
 msgid ""
@@ -5085,59 +5085,59 @@ msgstr "<b>ย้าย/คัดลอกไปยังเมนู</b>"
 
 #: src/nemo-file-management-properties.glade:1684
 msgid "List bookmarks in the menu"
-msgstr ""
+msgstr "เพิ่มที่คั่นหน้าในรายการในเมนู"
 
 #: src/nemo-file-management-properties.glade:1700
 msgid "List devices and network locations in the menu"
-msgstr ""
+msgstr "เพิ่มอุปกรณ์และที่ตั้งเครือข่ายต่างๆในรายการในเมนู"
 
 #: src/nemo-file-management-properties.glade:1743
 msgid "Display"
-msgstr ""
+msgstr "แสดง"
 
 #: src/nemo-file-management-properties.glade:1776
 msgid "<b>List Columns</b>"
-msgstr ""
+msgstr "<b>คอลัมน์ในรายชื่อ</b>"
 
 #: src/nemo-file-management-properties.glade:1801
 msgid "Choose the order of information to appear in the list view."
-msgstr ""
+msgstr "เลือกลำดับข้อมูลที่จะแสดงในมุมมองแบบรายชื่อ"
 
 #: src/nemo-file-management-properties.glade:1842
 msgid "List Columns"
-msgstr ""
+msgstr "คอลัมน์ในรายชื่อ"
 
 #: src/nemo-file-management-properties.glade:1875
 msgid "<b>Text Files</b>"
-msgstr ""
+msgstr "<b>แฟ้มข้อความ</b>"
 
 #: src/nemo-file-management-properties.glade:1905
 msgid "Show te_xt in icons:"
-msgstr ""
+msgstr "แสดงตัวอย่าง_ข้อความในไอคอน:"
 
 #: src/nemo-file-management-properties.glade:1967
 msgid "<b>Other Previewable Files</b>"
-msgstr ""
+msgstr "<b>แฟ้มอื่นๆ ที่แสดงตัวอย่างได้</b>"
 
 #: src/nemo-file-management-properties.glade:1997
 msgid "Show _thumbnails:"
-msgstr ""
+msgstr "แสดงรู_ปย่อ:"
 
 #: src/nemo-file-management-properties.glade:2042
 msgid "_Only for files smaller than:"
-msgstr ""
+msgstr "เฉพาะแฟ้มที่เ_ล็กกว่า:"
 
 #: src/nemo-file-management-properties.glade:2104
 msgid "<b>Folders</b>"
-msgstr ""
+msgstr "<b>โฟลเดอร์</b>"
 
 #: src/nemo-file-management-properties.glade:2134
 msgid "Count _number of items:"
-msgstr ""
+msgstr "นั_บจำนวนรายการ:"
 
 #: src/nemo-file-management-properties.glade:2196
 msgid "<b>Tooltips</b>"
-msgstr ""
+msgstr "<b>ทูลทิป</b>"
 
 #: src/nemo-file-management-properties.glade:2218
 msgid "Show tooltips in icon and compact views"
@@ -5145,11 +5145,11 @@ msgstr ""
 
 #: src/nemo-file-management-properties.glade:2235
 msgid "Show tooltips in list views"
-msgstr ""
+msgstr "แสดงทูลทิปในมุมมองรายการ"
 
 #: src/nemo-file-management-properties.glade:2252
 msgid "Show tooltips on the desktop"
-msgstr ""
+msgstr "แสดงทูลทิปบนพื้นโต๊ะ"
 
 #: src/nemo-file-management-properties.glade:2272
 msgid ""
@@ -5157,18 +5157,20 @@ msgid ""
 "their size.\n"
 "Select additional information to display in the tooltip:</i>"
 msgstr ""
+"<i>โดยปกติทูลทิปโฟลเดอร์จะแสดงจำนวนรายการและขนาดแฟ้มอยู่แล้ว\n"
+"กรุณาเลือกข้อมูลเพิ่มเติมที่จะแสดงในทูลทิป:</i>"
 
 #: src/nemo-file-management-properties.glade:2296
 msgid "Detailed file type"
-msgstr ""
+msgstr "ชนิดแฟ้มที่มีรายละเอียด"
 
 #: src/nemo-file-management-properties.glade:2311
 msgid "Accessed date"
-msgstr ""
+msgstr "วันที่เข้าถึง"
 
 #: src/nemo-file-management-properties.glade:2327
 msgid "Modified date"
-msgstr ""
+msgstr "วันที่แก้ไข"
 
 #: src/nemo-file-management-properties.glade:2342
 msgid "File or folder location"
