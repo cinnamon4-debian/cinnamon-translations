@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-04-12 16:39+0100\n"
-"PO-Revision-Date: 2014-06-05 20:13+0000\n"
-"Last-Translator: Vlad Stratila <vlad.stratila@gmail.com>\n"
+"PO-Revision-Date: 2014-09-25 12:22+0000\n"
+"Last-Translator: Flaviu <flaviu@gmx.com>\n"
 "Language-Team: Romanian <ro@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-08-19 13:41+0000\n"
-"X-Generator: Launchpad (build 17156)\n"
+"X-Launchpad-Export-Date: 2014-10-31 01:00+0000\n"
+"X-Generator: Launchpad (build 17211)\n"
 
 #: capplet/csm-app-dialog.c:133
 msgid "Select Command"
@@ -47,7 +47,7 @@ msgstr "Program"
 
 #: capplet/csm-properties-dialog.c:566
 msgid "Delay (s)"
-msgstr "Pauză (e)"
+msgstr "Întârziere (s)"
 
 #: capplet/csm-properties-dialog.c:766
 msgid "Startup Applications Preferences"
