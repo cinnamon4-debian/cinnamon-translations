@@ -18,16 +18,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: "
 "http://bugzilla.gnome.org/enter_bug.cgi?product=cinnamon-control-"
 "center&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-10-31 01:28+0100\n"
-"PO-Revision-Date: 2014-08-24 09:10+0000\n"
-"Last-Translator: mahfiaz <mahfiaz@gmail.com>\n"
+"POT-Creation-Date: 2014-11-03 12:35+0100\n"
+"PO-Revision-Date: 2014-11-20 09:24+0000\n"
+"Last-Translator: lyyser <Unknown>\n"
 "Language-Team: Estonian <cinnamon-et@linux.ee>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2014-10-31 00:59+0000\n"
-"X-Generator: Launchpad (build 17211)\n"
+"X-Launchpad-Export-Date: 2014-11-23 12:08+0000\n"
+"X-Generator: Launchpad (build 17252)\n"
 "X-Poedit-Country: ESTONIA\n"
 "Language: et\n"
 "X-Poedit-Language: Estonian\n"
@@ -158,6 +158,21 @@ msgstr[1] "%i nädalat"
 msgid "Less than 1 week"
 msgstr "Alla ühe nädala"
 
+#: panels/color/cc-color-panel.c:1585
+msgctxt "Colorspace fallback"
+msgid "Default RGB"
+msgstr "Vaikimisi RGB"
+
+#: panels/color/cc-color-panel.c:1590
+msgctxt "Colorspace fallback"
+msgid "Default CMYK"
+msgstr "Vaikimisi CMYK"
+
+#: panels/color/cc-color-panel.c:1595
+msgctxt "Colorspace fallback"
+msgid "Default Gray"
+msgstr "Vaikimisi hall"
+
 #: panels/color/cc-color-panel.c:1713 panels/color/cc-color-panel.c:1754
 #: panels/color/cc-color-panel.c:1765 panels/color/cc-color-panel.c:1776
 msgid "Uncalibrated"
@@ -190,6 +205,31 @@ msgstr "Määramata"
 #: panels/color/cc-color-panel.c:2014
 msgid "No devices supporting color management detected"
 msgstr "Värvihaldust toetavaid seadmeid ei leitud"
+
+#: panels/color/cc-color-panel.c:2243
+msgctxt "Device kind"
+msgid "Display"
+msgstr "Kuva"
+
+#: panels/color/cc-color-panel.c:2245
+msgctxt "Device kind"
+msgid "Scanner"
+msgstr "Skänner"
+
+#: panels/color/cc-color-panel.c:2247
+msgctxt "Device kind"
+msgid "Printer"
+msgstr "Printer"
+
+#: panels/color/cc-color-panel.c:2249
+msgctxt "Device kind"
+msgid "Camera"
+msgstr "Kaamera"
+
+#: panels/color/cc-color-panel.c:2251
+msgctxt "Device kind"
+msgid "Webcam"
+msgstr "Veebikaamera"
 
 #: panels/common/cc-common-language.c:533
 msgid "English"
@@ -251,6 +291,26 @@ msgstr "Vali asukoht"
 msgid "Unspecified"
 msgstr "Määramata"
 
+#: panels/display/cc-display-panel.c:482
+msgctxt "display panel, rotation"
+msgid "Normal"
+msgstr "Normaalne"
+
+#: panels/display/cc-display-panel.c:483
+msgctxt "display panel, rotation"
+msgid "Counterclockwise"
+msgstr "Vastupäeva"
+
+#: panels/display/cc-display-panel.c:484
+msgctxt "display panel, rotation"
+msgid "Clockwise"
+msgstr "Päripäeva"
+
+#: panels/display/cc-display-panel.c:485
+msgctxt "display panel, rotation"
+msgid "180 Degrees"
+msgstr "180 kraadi"
+
 #: panels/display/cc-display-panel.c:624 panels/display/cc-rr-labeler.c:449
 msgid "Mirrored Displays"
 msgstr "Peegeldatud ekraanid"
@@ -301,7 +361,7 @@ msgstr "_Lennukirežiim"
 
 #: panels/network/cc-network-panel.c:968
 msgid "Network Proxy"
-msgstr ""
+msgstr "Võrgu proksi"
 
 #: panels/network/cc-network-panel.c:1147 panels/network/net-vpn.c:278
 #: panels/network/net-vpn.c:431
@@ -320,7 +380,7 @@ msgstr ""
 #: panels/network/net-device-bond.c:102 panels/network/net-device-bridge.c:102
 #: panels/network/net-device-team.c:102
 msgid "(none)"
-msgstr ""
+msgstr "(puudub)"
 
 #: panels/network/net-device-bridge.c:77
 msgid "Bridge slaves"
@@ -410,12 +470,12 @@ msgstr "Juhtmega"
 #: panels/network/network-ethernet.ui.h:3 panels/network/network-mobile.ui.h:8
 #: panels/network/network-vpn.ui.h:8
 msgid "Options…"
-msgstr ""
+msgstr "Valikud…"
 
 #: panels/network/net-device-ethernet.c:469
 #, c-format
 msgid "Profile %d"
-msgstr ""
+msgstr "Profiil %d"
 
 #: panels/network/net-device-mobile.c:232
 msgid "Add new connection"
@@ -442,11 +502,43 @@ msgstr "WPA2"
 msgid "Enterprise"
 msgstr "Ettevõtte"
 
+#: panels/network/net-device-wifi.c:235 panels/network/net-device-wifi.c:368
+msgctxt "Wifi security"
+msgid "None"
+msgstr "Puudub"
+
+#: panels/network/net-device-wifi.c:558
+msgctxt "Signal strength"
+msgid "Terrible"
+msgstr ""
+
+#: panels/network/net-device-wifi.c:560
+msgctxt "Signal strength"
+msgid "Weak"
+msgstr "Nõrk"
+
+#: panels/network/net-device-wifi.c:562
+msgctxt "Signal strength"
+msgid "Ok"
+msgstr "Ok"
+
+#: panels/network/net-device-wifi.c:564
+msgctxt "Signal strength"
+msgid "Good"
+msgstr "Hea"
+
+#: panels/network/net-device-wifi.c:566
+msgctxt "Signal strength"
+msgid "Excellent"
+msgstr "Suurepärane"
+
 #: panels/network/net-device-wifi.c:1153
 msgid ""
 "If you have a connection to the Internet other than wireless, you can set up "
 "a wireless hotspot to share the connection with others."
 msgstr ""
+"Kui su internetiühendus ei tule juhtmeta võrgu kaudu, võid kasutada juhtmeta "
+"võrku teistele internetiühenduse jagamiseks."
 
 #: panels/network/net-device-wifi.c:1157
 #, c-format
@@ -460,6 +552,8 @@ msgid ""
 "It is not possible to access the Internet through your wireless while the "
 "hotspot is active."
 msgstr ""
+"Pole võimalik ühenduda internetti juhtmeta võrgu kaudu, kuni hotspot on "
+"aktiivne."
 
 #: panels/network/net-device-wifi.c:1238
 msgid "Stop hotspot and disconnect any users?"
@@ -476,38 +570,39 @@ msgstr "_Seiska tugijaam"
 
 #: panels/network/net-device-wifi.c:1313
 msgid "System policy prohibits use as a Hotspot"
-msgstr ""
+msgstr "Süsteemireegel keelab Hotspotina kasutamine"
 
 #: panels/network/net-device-wifi.c:1316
 msgid "Wireless device does not support Hotspot mode"
-msgstr ""
+msgstr "Juhtmevaba seade ei toeta Hotspot režiimi"
 
 #: panels/network/net-device-wifi.c:1445
 msgid ""
 "Network details for the selected networks, including passwords and any "
 "custom configuration will be lost."
 msgstr ""
+"Valitud võrkude andmed, sealhulgas parool ja eriseadistused, lähevad kaotsi."
 
 #: panels/network/net-device-wifi.c:1449 panels/network/network-wifi.ui.h:46
 #: panels/network/connection-editor/reset-page.ui.h:2
 msgid "_Forget"
-msgstr ""
+msgstr "_Unusta"
 
 #: panels/network/net-device-wifi.c:1603
 msgid "Preferences"
-msgstr ""
+msgstr "Eelistused"
 
 #: panels/network/net-device-wifi.c:1609
 msgid "Options"
-msgstr ""
+msgstr "Seaded"
 
 #: panels/network/net-device-wifi.c:1627
 msgid "Connect"
-msgstr ""
+msgstr "Ühenda"
 
 #: panels/network/net-device-wifi.c:1650
 msgid "Disconnect"
-msgstr ""
+msgstr "Ühenda lahti"
 
 #: panels/network/net-device-wifi.c:1864
 msgid "Known Networks"
@@ -515,7 +610,12 @@ msgstr ""
 
 #: panels/network/net-device-wifi.c:1868
 msgid "_Close"
-msgstr ""
+msgstr "_Sulge"
+
+#: panels/network/net-device-wifi.c:1876
+msgctxt "Wi-Fi Network"
+msgid "_Forget"
+msgstr "_Unusta"
 
 #: panels/network/net-proxy.c:67
 msgid ""
@@ -888,6 +988,36 @@ msgstr "Arvuti"
 msgid "Battery"
 msgstr "Aku"
 
+#: panels/power/cc-power-panel.c:546
+msgctxt "Battery power"
+msgid "Charging"
+msgstr "Laeb"
+
+#: panels/power/cc-power-panel.c:553
+msgctxt "Battery power"
+msgid "Caution"
+msgstr "Hoiatus"
+
+#: panels/power/cc-power-panel.c:558
+msgctxt "Battery power"
+msgid "Low"
+msgstr "Madal"
+
+#: panels/power/cc-power-panel.c:563
+msgctxt "Battery power"
+msgid "Good"
+msgstr "Hea"
+
+#: panels/power/cc-power-panel.c:568
+msgctxt "Battery power"
+msgid "Charging - fully charged"
+msgstr "Laadimine - täiesti täis"
+
+#: panels/power/cc-power-panel.c:572
+msgctxt "Battery power"
+msgid "Empty"
+msgstr "Tühi"
+
 #: panels/region/cinnamon-region-panel-xkblt.c:210
 msgid "Layout"
 msgstr "Paigutus"
@@ -926,6 +1056,36 @@ msgstr "Sisend"
 msgid "Microphone Volume"
 msgstr "Mikrofoni valjus"
 
+#: panels/sound/gvc-balance-bar.c:111 panels/sound-nua/gvc-balance-bar.c:111
+msgctxt "balance"
+msgid "Left"
+msgstr "Vasak"
+
+#: panels/sound/gvc-balance-bar.c:112 panels/sound-nua/gvc-balance-bar.c:112
+msgctxt "balance"
+msgid "Right"
+msgstr "Paremal"
+
+#: panels/sound/gvc-balance-bar.c:115 panels/sound-nua/gvc-balance-bar.c:115
+msgctxt "balance"
+msgid "Rear"
+msgstr "Tagumised"
+
+#: panels/sound/gvc-balance-bar.c:116 panels/sound-nua/gvc-balance-bar.c:116
+msgctxt "balance"
+msgid "Front"
+msgstr "Esimesed"
+
+#: panels/sound/gvc-balance-bar.c:119 panels/sound-nua/gvc-balance-bar.c:119
+msgctxt "balance"
+msgid "Minimum"
+msgstr "Miinimum"
+
+#: panels/sound/gvc-balance-bar.c:120 panels/sound-nua/gvc-balance-bar.c:120
+msgctxt "balance"
+msgid "Maximum"
+msgstr "Maksimum"
+
 #: panels/sound/gvc-balance-bar.c:295 panels/sound-nua/gvc-balance-bar.c:295
 msgid "_Balance:"
 msgstr "_Tasakaal:"
@@ -938,6 +1098,16 @@ msgstr "_Hajumine:"
 #: panels/sound/gvc-balance-bar.c:301 panels/sound-nua/gvc-balance-bar.c:301
 msgid "_Subwoofer:"
 msgstr "_Bassikõlar:"
+
+#: panels/sound/gvc-channel-bar.c:613 panels/sound/gvc-channel-bar.c:623
+msgctxt "volume"
+msgid "100%"
+msgstr "100%"
+
+#: panels/sound/gvc-channel-bar.c:617
+msgctxt "volume"
+msgid "Unamplified"
+msgstr "Võimendamata"
 
 #: panels/sound/gvc-combo-box.c:167 panels/sound/gvc-mixer-dialog.c:258
 #: panels/sound/gvc-mixer-dialog.c:519
@@ -1149,21 +1319,76 @@ msgstr ""
 msgid "No shortcut set"
 msgstr "Ühtegi kiirklahvi pole määratud"
 
+#: panels/universal-access/zoom-options.c:358
+msgctxt "Distance"
+msgid "Short"
+msgstr "Lühike"
+
+#: panels/universal-access/zoom-options.c:359
+msgctxt "Distance"
+msgid "¼ Screen"
+msgstr "¼ ekraani"
+
+#: panels/universal-access/zoom-options.c:360
+msgctxt "Distance"
+msgid "½ Screen"
+msgstr "½ ekraani"
+
+#: panels/universal-access/zoom-options.c:361
+msgctxt "Distance"
+msgid "¾ Screen"
+msgstr "¾ ekraani"
+
+#: panels/universal-access/zoom-options.c:362
+msgctxt "Distance"
+msgid "Long"
+msgstr "Pikk"
+
 #: panels/wacom/cc-wacom-mapping-panel.c:275
 msgid "Output:"
 msgstr "Väljund:"
 
 #: panels/wacom/cc-wacom-mapping-panel.c:287
 msgid "Keep aspect ratio (letterbox):"
-msgstr ""
+msgstr "Külgede suhte säilitamine:"
 
 #: panels/wacom/cc-wacom-mapping-panel.c:298
 msgid "Map to single monitor"
-msgstr ""
+msgstr "Ühele kuvarile"
 
 #: panels/wacom/cc-wacom-nav-button.c:89
 #, c-format
 msgid "%d of %d"
+msgstr "%d / %d"
+
+#: panels/wacom/cc-wacom-page.c:118 panels/wacom/cc-wacom-page.c:385
+msgctxt "Wacom action-type"
+msgid "None"
+msgstr "Pole"
+
+#: panels/wacom/cc-wacom-page.c:119
+msgctxt "Wacom action-type"
+msgid "Send Keystroke"
+msgstr ""
+
+#: panels/wacom/cc-wacom-page.c:120
+msgctxt "Wacom action-type"
+msgid "Switch Monitor"
+msgstr ""
+
+#: panels/wacom/cc-wacom-page.c:121
+msgctxt "Wacom action-type"
+msgid "Show On-Screen Help"
+msgstr ""
+
+#: panels/wacom/cc-wacom-page.c:622
+msgctxt "Wacom tablet button"
+msgid "Up"
+msgstr ""
+
+#: panels/wacom/cc-wacom-page.c:622
+msgctxt "Wacom tablet button"
+msgid "Down"
 msgstr ""
 
 #: panels/wacom/cc-wacom-page.c:663
@@ -1182,7 +1407,7 @@ msgstr ""
 msgid "Action"
 msgstr ""
 
-#: panels/wacom/cc-wacom-page.c:921
+#: panels/wacom/cc-wacom-page.c:922
 msgid "Display Mapping"
 msgstr ""
 
@@ -1517,6 +1742,21 @@ msgstr "Teenusepakkuja"
 #: panels/network/network-mobile.ui.h:7 generate_additional_files.py:149
 msgid "Network"
 msgstr "Võrk"
+
+#: panels/network/network-proxy.ui.h:1 panels/network/network.ui.h:4
+msgctxt "proxy method"
+msgid "None"
+msgstr ""
+
+#: panels/network/network-proxy.ui.h:2 panels/network/network.ui.h:5
+msgctxt "proxy method"
+msgid "Manual"
+msgstr ""
+
+#: panels/network/network-proxy.ui.h:3 panels/network/network.ui.h:6
+msgctxt "proxy method"
+msgid "Automatic"
+msgstr ""
 
 #: panels/network/network-proxy.ui.h:4
 msgid "_Method"
@@ -1853,78 +2093,86 @@ msgid "10 minutes"
 msgstr "10 minutit"
 
 #: panels/power/power.ui.h:5
+msgid "15 minutes"
+msgstr ""
+
+#: panels/power/power.ui.h:6
 msgid "30 minutes"
 msgstr "30 minutit"
 
-#: panels/power/power.ui.h:6
+#: panels/power/power.ui.h:7
+msgid "45 minutes"
+msgstr ""
+
+#: panels/power/power.ui.h:8
 msgid "1 hour"
 msgstr "1 tund"
 
-#: panels/power/power.ui.h:7
+#: panels/power/power.ui.h:9
 msgid "Never"
 msgstr "Kunagi"
 
-#: panels/power/power.ui.h:8
+#: panels/power/power.ui.h:10
 msgid "When battery is present"
 msgstr "Kui akut kasutatakse"
 
-#: panels/power/power.ui.h:9
+#: panels/power/power.ui.h:11
 msgid "When battery is charging/in use"
 msgstr "Kui akut laetakse/on kasutuses"
 
-#: panels/power/power.ui.h:10
+#: panels/power/power.ui.h:12
 msgid "Suspend"
 msgstr "Seiska"
 
-#: panels/power/power.ui.h:11
+#: panels/power/power.ui.h:13
 msgid "Do nothing"
 msgstr "Ära tee midagi"
 
-#: panels/power/power.ui.h:12
+#: panels/power/power.ui.h:14
 msgid "Lock Screen"
 msgstr "Lukusta ekraan"
 
-#: panels/power/power.ui.h:13
+#: panels/power/power.ui.h:15
 msgid "Shutdown Immediately"
 msgstr "Sulge koheselt"
 
-#: panels/power/power.ui.h:14
+#: panels/power/power.ui.h:16
 msgid "Ask"
 msgstr "Küsi"
 
-#: panels/power/power.ui.h:15
+#: panels/power/power.ui.h:17
 msgid "On battery power"
 msgstr "Akutoitel"
 
-#: panels/power/power.ui.h:16
+#: panels/power/power.ui.h:18
 msgid "On A/C power"
 msgstr ""
 
-#: panels/power/power.ui.h:17
+#: panels/power/power.ui.h:19
 msgid "When the lid is closed"
 msgstr "Kui sülearvuti kaas on suletud"
 
-#: panels/power/power.ui.h:18
+#: panels/power/power.ui.h:20
 msgid "When the power button is pressed"
 msgstr ""
 
-#: panels/power/power.ui.h:19
+#: panels/power/power.ui.h:21
 msgid "When the battery is critically low"
 msgstr ""
 
-#: panels/power/power.ui.h:20
+#: panels/power/power.ui.h:22
 msgid "Suspend when inactive for"
 msgstr "Seisata, kui aktiivsust pole"
 
-#: panels/power/power.ui.h:21
+#: panels/power/power.ui.h:23
 msgid "Turn off the screen when inactive for"
 msgstr ""
 
-#: panels/power/power.ui.h:22
+#: panels/power/power.ui.h:24
 msgid "<b>Power Options</b>"
 msgstr ""
 
-#: panels/power/power.ui.h:23
+#: panels/power/power.ui.h:25
 msgid "<b>Battery Status</b>"
 msgstr ""
 
@@ -2004,6 +2252,26 @@ msgstr ""
 "Asenda praegused klaviatuurisätted\n"
 "vaikesätetega"
 
+#: panels/universal-access/uap.ui.h:1
+msgctxt "universal access, contrast"
+msgid "Low"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:2
+msgctxt "universal access, contrast"
+msgid "Normal"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:3
+msgctxt "universal access, contrast"
+msgid "High"
+msgstr ""
+
+#: panels/universal-access/uap.ui.h:4
+msgctxt "universal access, contrast"
+msgid "High/Inverse"
+msgstr ""
+
 #: panels/universal-access/uap.ui.h:5
 msgid "On screen keyboard"
 msgstr "Ekraaniklaviatuur"
@@ -2021,20 +2289,40 @@ msgstr "OnBoard"
 msgid "75%"
 msgstr "75%"
 
+#: panels/universal-access/uap.ui.h:11
+msgctxt "universal access, text size"
+msgid "Small"
+msgstr ""
+
 #: panels/universal-access/uap.ui.h:13
 #, no-c-format
 msgid "100%"
 msgstr "100%"
+
+#: panels/universal-access/uap.ui.h:14
+msgctxt "universal access, text size"
+msgid "Normal"
+msgstr ""
 
 #: panels/universal-access/uap.ui.h:16
 #, no-c-format
 msgid "125%"
 msgstr "125%"
 
+#: panels/universal-access/uap.ui.h:17
+msgctxt "universal access, text size"
+msgid "Large"
+msgstr ""
+
 #: panels/universal-access/uap.ui.h:19
 #, no-c-format
 msgid "150%"
 msgstr "150%"
+
+#: panels/universal-access/uap.ui.h:20
+msgctxt "universal access, text size"
+msgid "Larger"
+msgstr ""
 
 #: panels/universal-access/uap.ui.h:21
 msgid "High Contrast"
@@ -2055,6 +2343,11 @@ msgstr "Ekraanilugeja"
 #: panels/universal-access/uap.ui.h:25
 msgid "Turn on or off:"
 msgstr "Lülita sisse või välja:"
+
+#: panels/universal-access/uap.ui.h:26
+msgctxt "universal access, zoom"
+msgid "Zoom"
+msgstr ""
 
 #: panels/universal-access/uap.ui.h:27
 msgid "Zoom in:"
@@ -2364,6 +2657,21 @@ msgstr "Heledus:"
 msgid "Contrast:"
 msgstr "Kontrast:"
 
+#: panels/universal-access/zoom-options.ui.h:30
+msgctxt "Zoom Grayscale"
+msgid "Color"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:31
+msgctxt "Zoom Grayscale"
+msgid "None"
+msgstr ""
+
+#: panels/universal-access/zoom-options.ui.h:32
+msgctxt "Zoom Grayscale"
+msgid "Full"
+msgstr ""
+
 #: panels/universal-access/zoom-options.ui.h:34
 msgid "Low"
 msgstr "Madal"
@@ -2419,6 +2727,7 @@ msgid "Bluetooth Settings"
 msgstr ""
 
 #: panels/wacom/cinnamon-wacom-properties.ui.h:7
+#: generate_additional_files.py:194
 msgid "Graphics Tablet"
 msgstr ""
 
@@ -2837,8 +3146,8 @@ msgid "Change your region and language settings"
 msgstr "Sinu asukoha- ja keelesätete muutmine"
 
 #: generate_additional_files.py:134
-msgid "Displays"
-msgstr "Kuvad"
+msgid "Display"
+msgstr ""
 
 #: generate_additional_files.py:134
 msgid "Change resolution and position of monitors and projectors"
@@ -2849,8 +3158,8 @@ msgid "Network settings"
 msgstr "Võrguseaded"
 
 #: generate_additional_files.py:164
-msgid "Universal Access"
-msgstr "Universaalne ligipääs"
+msgid "Accessibility"
+msgstr ""
 
 #: generate_additional_files.py:164
 msgid "Universal Access Preferences"
@@ -2862,4 +3171,9 @@ msgstr ""
 
 #: generate_additional_files.py:179
 msgid "Date and Time preferences"
+msgstr ""
+
+#: generate_additional_files.py:194
+msgid ""
+"Set button mappings and adjust stylus sensitivity for graphics tablets"
 msgstr ""
