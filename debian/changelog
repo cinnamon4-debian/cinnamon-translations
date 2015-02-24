@@ -1,9 +1,9 @@
-cinnamon-translations (2.4.2-1~) UNRELEASED; urgency=medium
+cinnamon-translations (2.4.3-1~) UNRELEASED; urgency=medium
 
   * New upstream release.
   * debian/patches: removed one patch applied upstream.
 
- -- Fabio Fantoni <fantonifabio@tiscali.it>  Sat, 01 Nov 2014 16:22:17 +0100
+ -- Fabio Fantoni <fantonifabio@tiscali.it>  Tue, 24 Feb 2015 12:09:28 +0100
 
 cinnamon-translations (2.2.4-1) unstable; urgency=medium
 
