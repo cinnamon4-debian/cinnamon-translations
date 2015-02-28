@@ -1,7 +1,11 @@
 cinnamon-translations (2.4.3-1~) UNRELEASED; urgency=medium
 
+  [ Fabio Fantoni ]
   * New upstream release.
   * debian/patches: removed one patch applied upstream.
+
+  [ Maximiliano Curia ]
+  * Bump Standards-Version to 3.9.6, no changes needed.
 
  -- Fabio Fantoni <fantonifabio@tiscali.it>  Tue, 24 Feb 2015 12:09:28 +0100
 
