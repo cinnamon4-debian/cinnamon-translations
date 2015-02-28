@@ -1,4 +1,4 @@
-cinnamon-translations (2.4.3-1~) UNRELEASED; urgency=medium
+cinnamon-translations (2.4.3-1) experimental; urgency=medium
 
   [ Fabio Fantoni ]
   * New upstream release.
@@ -7,7 +7,7 @@ cinnamon-translations (2.4.3-1~) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Bump Standards-Version to 3.9.6, no changes needed.
 
- -- Fabio Fantoni <fantonifabio@tiscali.it>  Tue, 24 Feb 2015 12:09:28 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 Feb 2015 14:36:32 +0100
 
 cinnamon-translations (2.2.4-1) unstable; urgency=medium
 
