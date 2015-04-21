@@ -1,8 +1,11 @@
-cinnamon-translations (2.4.4-1~) UNRELEASED; urgency=medium
+cinnamon-translations (2.4.4-1) experimental; urgency=medium
 
+  [ Fabio Fantoni ]
   * New upstream release.
 
- -- Fabio Fantoni <fantonifabio@tiscali.it>  Tue, 31 Mar 2015 14:18:27 +0200
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 21 Apr 2015 23:18:13 +0200
 
 cinnamon-translations (2.4.3-1) experimental; urgency=medium
 
