@@ -1,3 +1,9 @@
+cinnamon-translations (2.8.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (2.8.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 21 Oct 2015 12:59:32 +0200
+
 cinnamon-translations (2.6.3-1) unstable; urgency=medium
 
   [ Fabio Fantoni ]
