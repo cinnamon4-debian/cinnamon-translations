@@ -8,16 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cinnamon-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-19 17:13+0200\n"
-"PO-Revision-Date: 2015-05-26 18:55+0000\n"
+"POT-Creation-Date: 2015-10-16 14:26+0100\n"
+"PO-Revision-Date: 2015-10-19 14:27+0000\n"
 "Last-Translator: samson <Unknown>\n"
 "Language-Team: Amharic <locales@geez.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2015-06-26 13:21+0000\n"
-"X-Generator: Launchpad (build 17578)\n"
+"X-Launchpad-Export-Date: 2015-10-20 10:28+0000\n"
+"X-Generator: Launchpad (build 17812)\n"
 
 #: panels/color/cc-color-panel.c:106
 msgid "Other profile…"
@@ -41,7 +41,7 @@ msgstr "ለሁሉም ተጠቃሚዎች ማሰናጃ"
 
 #: panels/color/cc-color-panel.c:190
 msgid "Create virtual device"
-msgstr ""
+msgstr "virtual device መፍጠሪያ"
 
 #: panels/color/cc-color-panel.c:225
 msgid "Select ICC Profile File"
@@ -296,7 +296,7 @@ msgstr "180 ዲግሪዎች"
 
 #: panels/display/cc-display-panel.c:624 panels/display/cc-rr-labeler.c:449
 msgid "Mirrored Displays"
-msgstr ""
+msgstr "በ መስታወት ማሳያ ዘዴ"
 
 #: panels/display/cc-display-panel.c:648 panels/display/display-capplet.ui.h:1
 msgid "Monitor"
@@ -318,21 +318,20 @@ msgid ""
 "placement."
 msgstr "መመልከቻ ይምረጡ ባህሪውን ለመቀየር፡ ይጎትቱ እና ቦታውን ይቀያይሩ"
 
-#: panels/display/cc-display-panel.c:2185
-#: panels/display/cc-display-panel.c:2237
-#, c-format
-msgid "Failed to apply configuration: %s"
-msgstr "የተዋቀረውን መፈጸም አልተቻለም: %s"
+#: panels/display/cc-display-panel.c:2192
+#: panels/display/cc-display-panel.c:2244
+msgid "Failed to apply configuration"
+msgstr "ማዋቀሪያውን መፈጸም አልተቻለም"
 
-#: panels/display/cc-display-panel.c:2265
+#: panels/display/cc-display-panel.c:2272
 msgid "Could not save the monitor configuration"
 msgstr "የተዋቀረውን መመልከቻ ማስቀመጥ አልተቻለም"
 
-#: panels/display/cc-display-panel.c:2325
+#: panels/display/cc-display-panel.c:2332
 msgid "Could not detect displays"
 msgstr "ማሳያዎቹን ማግኘት አልተቻለም"
 
-#: panels/display/cc-display-panel.c:2533
+#: panels/display/cc-display-panel.c:2540
 msgid "Could not get screen information"
 msgstr "የ መመልከቻውን መረጃ ማግኘት አልተቻለም"
 
@@ -426,7 +425,7 @@ msgstr "የ ሀርድዌር አድራሻ"
 #: panels/network/network-wifi.ui.h:14
 #: panels/network/connection-editor/details-page.ui.h:7
 msgid "Default Route"
-msgstr ""
+msgstr "ነባር መንገድ"
 
 #: panels/network/net-device-ethernet.c:173
 #: panels/network/network-mobile.ui.h:6 panels/network/network-simple.ui.h:6
@@ -621,7 +620,7 @@ msgstr "ሁኔታው ያልታወቀ"
 
 #: panels/network/panel-common.c:155
 msgid "Unmanaged"
-msgstr ""
+msgstr "ያልተስተካከለ"
 
 #: panels/network/panel-common.c:159
 msgid "Unavailable"
@@ -669,7 +668,7 @@ msgstr ""
 
 #: panels/network/panel-common.c:264
 msgid "Secrets were required, but not provided"
-msgstr ""
+msgstr "ምስጢር ያስፈልግ ነበር ነገር ግን አልቀረበም"
 
 #: panels/network/panel-common.c:268
 msgid "802.1x supplicant disconnected"
@@ -753,11 +752,11 @@ msgstr "የመደወያ ጥሪ ድምፅ ሙከራ ወድቋል"
 
 #: panels/network/panel-common.c:348
 msgid "Modem initialization failed"
-msgstr ""
+msgstr "ሞደም ማስጀመር አልተቻለም"
 
 #: panels/network/panel-common.c:352
 msgid "Failed to select the specified APN"
-msgstr ""
+msgstr "የ ተወሰነውን APN መምረጥ አልተቻለም"
 
 #: panels/network/panel-common.c:356
 msgid "Not searching for networks"
@@ -773,11 +772,11 @@ msgstr "የ ኔትዎርክ ምዝገባ ጊዜው አልፏል"
 
 #: panels/network/panel-common.c:368
 msgid "Failed to register with the requested network"
-msgstr ""
+msgstr "የሚያስፈልገውን ኔትዎርክ መመዝገብ አልተቻለምን"
 
 #: panels/network/panel-common.c:372
 msgid "PIN check failed"
-msgstr ""
+msgstr "ፒን መመርመር ወድቋል"
 
 #: panels/network/panel-common.c:376
 msgid "Firmware for the device may be missing"
@@ -841,7 +840,7 @@ msgstr "ነባር"
 
 #: panels/sound/applet-main.c:49
 msgid "Enable debugging code"
-msgstr ""
+msgstr "debugging ኮድ ማስቻያ"
 
 #: panels/sound/applet-main.c:50
 msgid "Version of this application"
@@ -1163,7 +1162,7 @@ msgstr "ውጤት:"
 
 #: panels/wacom/cc-wacom-mapping-panel.c:287
 msgid "Keep aspect ratio (letterbox):"
-msgstr ""
+msgstr "የ ማነፃፀሪያ መጠን መጠበቂያ (የ ደብዳቤ ሳጥን):"
 
 #: panels/wacom/cc-wacom-mapping-panel.c:298
 msgid "Map to single monitor"
@@ -1192,7 +1191,7 @@ msgstr ""
 #: panels/wacom/cc-wacom-page.c:121
 msgctxt "Wacom action-type"
 msgid "Show On-Screen Help"
-msgstr ""
+msgstr "በ-መመልከቻው ላይ እርዳታ ማሳያ"
 
 #: panels/wacom/cc-wacom-page.c:622
 msgctxt "Wacom tablet button"
@@ -1244,21 +1243,21 @@ msgstr "በ ቀኝ ቀለበት ዘዴ #%d"
 
 #: panels/wacom/csd-wacom-device.c:1162
 msgid "Left Touchstrip"
-msgstr ""
+msgstr "የ ግራ ተችፓድ"
 
 #: panels/wacom/csd-wacom-device.c:1172
 #, c-format
 msgid "Left Touchstrip Mode #%d"
-msgstr ""
+msgstr "የ ግራ ተችፓድ ዘዴ #%d"
 
 #: panels/wacom/csd-wacom-device.c:1191
 msgid "Right Touchstrip"
-msgstr ""
+msgstr "የ ቀኝ ተችፓድ"
 
 #: panels/wacom/csd-wacom-device.c:1201
 #, c-format
 msgid "Right Touchstrip Mode #%d"
-msgstr ""
+msgstr "የ ቀኝ ተችፓድ ዘዴ #%d"
 
 #: panels/wacom/csd-wacom-device.c:1226
 msgid "Left Touchring Mode Switch"
@@ -1341,7 +1340,7 @@ msgstr "እርዳታ"
 msgid "Quit"
 msgstr "ማጥፊያ"
 
-#: panels/color/color.ui.h:3 generate_additional_files.py:57
+#: panels/color/color.ui.h:3 generate_additional_files.py:41
 msgid "Color"
 msgstr "ቀለም"
 
@@ -1363,7 +1362,7 @@ msgstr "አካል መጨመሪያ"
 
 #: panels/color/color.ui.h:8
 msgid "Add a virtual device"
-msgstr ""
+msgstr "የ virtual device መጨመሪያ"
 
 #: panels/color/color.ui.h:9
 msgid "Delete device"
@@ -1528,11 +1527,11 @@ msgstr "ማ_ዞሪያ"
 
 #: panels/display/display-capplet.ui.h:6
 msgid "_Mirror displays"
-msgstr ""
+msgstr "በ _መስታወት ማሳያ ዘዴ"
 
 #: panels/display/display-capplet.ui.h:7
 msgid "Note: may limit resolution options"
-msgstr ""
+msgstr "ማስታወሻ: የ ሪዞሊሽን መጠን ምርጫ መወሰኛ"
 
 #: panels/display/display-capplet.ui.h:8
 msgid "_Detect Displays"
@@ -1550,7 +1549,7 @@ msgstr "IMEI"
 msgid "Provider"
 msgstr "አቅራቢው"
 
-#: panels/network/network-mobile.ui.h:7 generate_additional_files.py:149
+#: panels/network/network-mobile.ui.h:7 generate_additional_files.py:117
 msgid "Network"
 msgstr "ኔትዎርክ"
 
@@ -1575,7 +1574,7 @@ msgstr "_ዘዴ"
 
 #: panels/network/network-proxy.ui.h:5
 msgid "_Configuration URL"
-msgstr ""
+msgstr "URL _ማዋቀሪያ"
 
 #: panels/network/network-proxy.ui.h:6
 msgid "_HTTP Proxy"
@@ -1631,7 +1630,7 @@ msgstr "አካሉን ማስወገጃ"
 
 #: panels/network/network-vpn.ui.h:2
 msgid "VPN Type"
-msgstr ""
+msgstr "የ VPN አይነት"
 
 #: panels/network/network-vpn.ui.h:3
 msgid "Gateway"
@@ -1893,7 +1892,7 @@ msgstr "ቅድመ እይታ"
 
 #: panels/region/cinnamon-region-panel-layout-chooser.ui.h:3
 msgid "Select an input source to add"
-msgstr ""
+msgstr "የ ማስገቢያ ምንጭ ይምረጡ ለ መጨመር"
 
 #: panels/region/cinnamon-region-panel-options-dialog.ui.h:1
 msgid "Keyboard Layout Options"
@@ -1983,7 +1982,7 @@ msgstr "የፊደል ገበታ በመመልከቻው ላይ"
 
 #: panels/universal-access/uap.ui.h:6
 msgid "GOK"
-msgstr ""
+msgstr "GOK"
 
 #: panels/universal-access/uap.ui.h:7
 msgid "OnBoard"
@@ -2448,7 +2447,7 @@ msgid "Bluetooth Settings"
 msgstr "ብሉቱዝ ማሰናጃ"
 
 #: panels/wacom/cinnamon-wacom-properties.ui.h:7
-#: generate_additional_files.py:194
+#: generate_additional_files.py:162
 msgid "Graphics Tablet"
 msgstr ""
 
@@ -2822,79 +2821,63 @@ msgstr ""
 msgid "_Type"
 msgstr ""
 
-#: generate_additional_files.py:27
-msgid "Brightness & Lock"
-msgstr "ብሩነት & መቆለፊያ"
-
-#: generate_additional_files.py:27
-msgid "Screen brightness and lock settings"
-msgstr "የመመልከቻ ብሩህነት እና መቆለፊያ ማሰናጃ"
-
-#: generate_additional_files.py:42 generate_additional_files.py:73
+#: generate_additional_files.py:26 generate_additional_files.py:57
 msgid "Sound"
 msgstr "ድምፅ"
 
-#: generate_additional_files.py:42 generate_additional_files.py:73
+#: generate_additional_files.py:26 generate_additional_files.py:57
 msgid "Change sound volume and sound events"
 msgstr "የድምፅ መጠን እና ሁኔታዎችን መቀየሪያ"
 
-#: generate_additional_files.py:57
+#: generate_additional_files.py:41
 msgid "Color management settings"
 msgstr "የ ቀለም አስተዳዳሪ ማሰናጃ"
 
-#: generate_additional_files.py:87
+#: generate_additional_files.py:71
 msgid "Volume Control"
 msgstr "ድምፅ መቆጣጠሪያ"
 
-#: generate_additional_files.py:87
+#: generate_additional_files.py:71
 msgid "Show desktop volume control"
 msgstr "በ ዴስክቶፕ ላይ የመጠን መቆጣጠሪያ ማሳያ"
 
-#: generate_additional_files.py:103
-msgid "Power"
-msgstr "ሐይል"
-
-#: generate_additional_files.py:103
-msgid "Power management settings"
-msgstr "የ ሐይል አስተዳዳሪ ማሰናጃ"
-
-#: generate_additional_files.py:119
+#: generate_additional_files.py:87
 msgid "Region & Language"
 msgstr "አካባቢ & ቋንቋ"
 
-#: generate_additional_files.py:119
+#: generate_additional_files.py:87
 msgid "Change your region and language settings"
 msgstr "የ አካባቢ እና ቋንቋ ማሰናጃ መቀየሪያ"
 
-#: generate_additional_files.py:134
+#: generate_additional_files.py:102
 msgid "Display"
 msgstr ""
 
-#: generate_additional_files.py:134
+#: generate_additional_files.py:102
 msgid "Change resolution and position of monitors and projectors"
 msgstr ""
 
-#: generate_additional_files.py:149
+#: generate_additional_files.py:117
 msgid "Network settings"
 msgstr "የኔትዎርክ ማሰናጃ"
 
-#: generate_additional_files.py:164
+#: generate_additional_files.py:132
 msgid "Accessibility"
 msgstr ""
 
-#: generate_additional_files.py:164
+#: generate_additional_files.py:132
 msgid "Universal Access Preferences"
 msgstr "የ አለም አቀፍ መድረሻ ምርጫዎች"
 
-#: generate_additional_files.py:179
+#: generate_additional_files.py:147
 msgid "Date & Time"
 msgstr "ቀን & ሰአት"
 
-#: generate_additional_files.py:179
+#: generate_additional_files.py:147
 msgid "Date and Time preferences"
 msgstr "የ ቀን እና ሰአት ምርጫዎች"
 
-#: generate_additional_files.py:194
+#: generate_additional_files.py:162
 msgid ""
 "Set button mappings and adjust stylus sensitivity for graphics tablets"
 msgstr ""
