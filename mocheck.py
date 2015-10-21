@@ -15,6 +15,7 @@ COMMON_DATE_TOKENS = "ABeHYDMSmyp"
 COMMON_INT_TOKENS = ["d", "'d", "ld", "I"]
 COMMON_STR_TOKENS = ["s", "B"]
 COMMON_I_TOKENS = ["i", "li", "I"]
+COMMON_U_TOKENS = ["%'u", "%u", "%Iu"]
 DATE_THRESHOLD = 2
 
 MO_EXT = ".mo"
@@ -33,12 +34,14 @@ BAD_MISMATCH_MAYBE_DATE = 100
 def allowed(char):
     return char in ALLOWED
 
-def same_type(token1, token2):    
+def same_type(token1, token2):
     if (token1[1:] in COMMON_INT_TOKENS and token2[1:] in COMMON_INT_TOKENS):
         return True
     if (token1[1:] in COMMON_STR_TOKENS and token2[1:] in COMMON_STR_TOKENS):
         return True
     if (token1[1:] in COMMON_I_TOKENS and token2[1:] in COMMON_I_TOKENS):
+        return True
+    if (token1 in COMMON_U_TOKENS and token2 in COMMON_U_TOKENS):
         return True
     return False
 
@@ -121,7 +124,7 @@ class ThreadedTreeView(Gtk.TreeView):
     def dirty_pixbuf_func(self, col, cell, model, iter, data):
         dirty = model.get_value(iter, 5)
         if dirty:
-            if self.check_entry(model.get_value(iter, 1), model.get_value(iter, 4)) == GOOD:
+            if self.check_entry(model.get_value(iter, 3), model.get_value(iter, 4)) == GOOD:
                 cell.set_property("stock-id", "gtk-yes")
             else:
                 cell.set_property("stock-id", "gtk-no")
@@ -258,27 +261,38 @@ class ThreadedTreeView(Gtk.TreeView):
                 for entry in to_load.mofile:
                     if entry.obsolete:
                         continue # skip obsolete translations (prefixed with #~ in po file)
-                    res = self.check_entry(entry)
+                    res = self.check_entry(entry.msgid, entry.msgstr)
                     exclude_dates = self.datecheck.get_active()
                     if (res > GOOD and res < BAD_MISCOUNT_MAYBE_DATE) or \
                        (res > BAD_EXCLUSIONS and not exclude_dates):
                         self._loaded_data_lock.acquire()
                         self._loaded_data.append((to_load, entry, to_load.locale, entry.msgid, entry.msgstr, to_load.current_index))
                         self._loaded_data_lock.release()
+                    if (len(entry.msgstr_plural) > 0):
+                        for plurality in entry.msgstr_plural.keys():
+                            msgstr = entry.msgstr_plural[plurality]
+                            if plurality > 0:
+                                msgid = entry.msgid_plural
+                            else:
+                                msgid = entry.msgid
+                            res = self.check_entry(msgid, msgstr, is_plural=True)
+                            exclude_dates = self.datecheck.get_active()
+                            if (res > GOOD and res < BAD_MISCOUNT_MAYBE_DATE) or \
+                               (res > BAD_EXCLUSIONS and not exclude_dates):
+                                self._loaded_data_lock.acquire()
+                                self._loaded_data.append((to_load, entry, to_load.locale, msgid, msgstr, to_load.current_index))
+                                self._loaded_data_lock.release()
                     to_load.current_index += 1
 
         self._loading_lock.acquire()
         self._loading = False
         self._loading_lock.release()
 
-    def check_entry(self, entry, updated_val = None):
+    def check_entry(self, msgid, msgstr, is_plural=False):
+        msgid = msgid.replace("%%", " ")
+        msgstr = msgstr.replace("%%", " ")
         id_tokens = TokenList()
         str_tokens = TokenList()
-        msgid = entry.msgid
-        if updated_val:
-            msgstr = updated_val
-        else:
-            msgstr = entry.msgstr
         id_date_count = 0
         str_date_count = 0
 
@@ -338,14 +352,21 @@ class ThreadedTreeView(Gtk.TreeView):
             except:
                 pass
         if msgstr != "":
-            if (len(id_tokens) != len(str_tokens)):
+            if (not is_plural and len(id_tokens) != len(str_tokens)):
                 if id_date_count >= DATE_THRESHOLD or str_date_count >= DATE_THRESHOLD:
                     return BAD_MISCOUNT_MAYBE_DATE
                 else:
+                    print "Miscount: %s -- %s" % (id_tokens, str_tokens)
+                    return BAD_MISCOUNT
+            elif (is_plural and len(id_tokens) < len(str_tokens)):
+                if id_date_count >= DATE_THRESHOLD or str_date_count >= DATE_THRESHOLD:
+                    return BAD_MISCOUNT_MAYBE_DATE
+                else:
+                    print "Miscount: %s -- %s" % (id_tokens, str_tokens)
                     return BAD_MISCOUNT
             else:
                 mismatch = False
-                for j in range(len(id_tokens)):
+                for j in range(len(str_tokens)):
                     id_token = id_tokens[j]
                     str_token = str_tokens[j]
                     if id_token != str_token:
@@ -366,10 +387,8 @@ class ThreadedTreeView(Gtk.TreeView):
 
                 if (id_date_count >= DATE_THRESHOLD or str_date_count >= DATE_THRESHOLD) and mismatch:
                     return BAD_MISMATCH_MAYBE_DATE
-                elif mismatch:       
-                    print id_tokens
-                    print str_tokens
-                    print ""         
+                elif mismatch:
+                    print "Mismatch %s -- %s" % (id_tokens, str_tokens)
                     return BAD_MISMATCH
         return GOOD
 
@@ -432,7 +451,7 @@ class Main:
         model, treeiter = self.treeview.get_selection().get_selected()
         if treeiter:
             entry = self.treeview.model.get_value(treeiter, 1)
-            status = self.treeview.check_entry(entry)
+            status = self.treeview.check_entry(entry.msgid, entry.msgstr)
             if status == BAD_MISCOUNT:
                 self.status.set_text("Number of tokens does not match")
             elif status == BAD_MISCOUNT_MAYBE_DATE:
