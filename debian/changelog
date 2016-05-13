@@ -1,8 +1,11 @@
-cinnamon-translations (3.0.0-1~) UNRELEASED; urgency=medium
+cinnamon-translations (3.0.0-1) unstable; urgency=medium
 
   * New upstream release (3.0.0).
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Add a .gitattributes file to use dpkg-mergechangelogs
+  * Bump Standards-Version to 3.9.8
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 05 May 2016 08:06:07 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 13 May 2016 13:03:19 +0200
 
 cinnamon-translations (2.8.3-1) unstable; urgency=medium
 
