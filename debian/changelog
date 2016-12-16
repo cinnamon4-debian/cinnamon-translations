@@ -1,12 +1,13 @@
-cinnamon-translations (3.2.1-1~) UNRELEASED; urgency=medium
+cinnamon-translations (3.2.2-1~) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * Update homepage entry
+  * New upstream release (3.2.2).
 
   [ Margarita Manterola ]
   * New upstream release.
 
- -- Margarita Manterola <marga@debian.org>  Sat, 19 Nov 2016 12:28:08 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Dec 2016 22:19:53 +0100
 
 cinnamon-translations (3.0.3-1) unstable; urgency=medium
 
