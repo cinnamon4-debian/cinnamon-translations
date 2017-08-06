@@ -1,8 +1,9 @@
-cinnamon-translations (3.4.3-1~) UNRELEASED; urgency=medium
+cinnamon-translations (3.4.3-1) experimental; urgency=medium
 
   * New upstream release (3.4.3).
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 04 Aug 2017 21:46:47 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 06 Aug 2017 17:31:43 +0200
 
 cinnamon-translations (3.2.2-2) unstable; urgency=medium
 
