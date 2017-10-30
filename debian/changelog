@@ -1,9 +1,10 @@
-cinnamon-translations (3.4.3-3~) UNRELEASED; urgency=medium
+cinnamon-translations (3.6.0-1~) UNRELEASED; urgency=medium
 
   * Make cinnamon-l10n Multi-Arch: foreign (closes: #874327)
     Thanks to Hugh McMaster
+  * New upstream release (3.6.0).
 
- -- Fabio Fantoni <fantonifabio@tiscali.it>  Tue, 05 Sep 2017 16:09:07 +0200
+ -- Fabio Fantoni <fantonifabio@tiscali.it>  Mon, 30 Oct 2017 13:51:07 +0100
 
 cinnamon-translations (3.4.3-2) unstable; urgency=medium
 
