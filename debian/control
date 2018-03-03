@@ -2,20 +2,29 @@ Source: cinnamon-translations
 Section: localization
 Priority: optional
 Maintainer: Debian Cinnamon Team <pkg-cinnamon-team@lists.alioth.debian.org>
-Uploaders: Maximiliano Curia <maxy@debian.org>,
-           Margarita Manterola <marga@debian.org>,
-           Fabio Fantoni <fantonifabio@tiscali.it>
+Uploaders:
+ Maximiliano Curia <maxy@debian.org>,
+ Margarita Manterola <marga@debian.org>,
+ Fabio Fantoni <fantonifabio@tiscali.it>,
 Build-Depends: debhelper (>= 9), gettext
 Standards-Version: 3.9.8
 Homepage: https://github.com/linuxmint/Cinnamon
-Vcs-Browser: https://anonscm.debian.org/git/pkg-cinnamon/cinnamon-translations.git
-Vcs-Git: https://anonscm.debian.org/git/pkg-cinnamon/cinnamon-translations.git
+Vcs-Browser: https://salsa.debian.org/cinnamon-team/cinnamon-translations
+Vcs-Git: https://salsa.debian.org/cinnamon-team/cinnamon-translations.git
 
 Package: cinnamon-l10n
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
-Replaces: cinnamon-common (<< 2.0), cinnamon-translations, cinnamon-settings-daemon (<< 3.5), cinnamon-session-common (<< 3.5)
-Breaks: cinnamon-common (<< 2.0), cinnamon-translations, cinnamon-settings-daemon (<< 3.5), cinnamon-session-common (<< 3.5)
+Replaces:
+ cinnamon-common (<< 2.0),
+ cinnamon-session-common (<< 3.5),
+ cinnamon-settings-daemon (<< 3.5),
+ cinnamon-translations,
+Breaks:
+ cinnamon-common (<< 2.0),
+ cinnamon-session-common (<< 3.5),
+ cinnamon-settings-daemon (<< 3.5),
+ cinnamon-translations,
 Description: Translation files for the Cinnamon desktop
  The package contains the translation files for all the Cinnamon packages.
