@@ -17,12 +17,10 @@ Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
 Replaces:
- cinnamon-common (<< 2.0),
  cinnamon-session-common (<< 3.5),
  cinnamon-settings-daemon (<< 3.5),
  cinnamon-translations,
 Breaks:
- cinnamon-common (<< 2.0),
  cinnamon-session-common (<< 3.5),
  cinnamon-settings-daemon (<< 3.5),
  cinnamon-translations,
