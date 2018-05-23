@@ -1,0 +1,263 @@
+cinnamon-translations (3.8.1) tara; urgency=medium
+
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 22 May 2018 12:35:05 +0100
+
+cinnamon-translations (3.8.0) tara; urgency=medium
+
+  [ Clement Lefebvre ]
+  * Add CI configuration
+
+  [ Fabio Fantoni ]
+  * Improve debian packaging (#32)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 20 Apr 2018 12:22:44 +0100
+
+cinnamon-translations (3.6.4) sylvia; urgency=medium
+
+  * Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 06 Jan 2018 16:07:47 +0000
+
+cinnamon-translations (3.6.3) sylvia; urgency=medium
+
+  * Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 23 Nov 2017 11:52:11 +0000
+
+cinnamon-translations (3.6.2) sylvia; urgency=medium
+
+  * Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 12 Nov 2017 10:30:02 +0000
+
+cinnamon-translations (3.6.1) sylvia; urgency=medium
+
+  * Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 03 Nov 2017 14:14:26 +0000
+
+cinnamon-translations (3.6.0) sylvia; urgency=medium
+
+  * 3.6.0
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 24 Oct 2017 17:06:58 +0100
+
+cinnamon-translations (3.4.3) sonya; urgency=medium
+
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 28 Jun 2017 11:21:00 +0200
+
+cinnamon-translations (3.4.2) sonya; urgency=medium
+
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 23 May 2017 14:53:50 +0100
+
+cinnamon-translations (3.4.1) sonya; urgency=medium
+
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 06 May 2017 14:43:45 +0100
+
+cinnamon-translations (3.4.0) sonya; urgency=medium
+
+  * 3.4.0
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 04 May 2017 16:05:58 +0100
+
+cinnamon-translations (3.2.2) serena; urgency=medium
+
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 12 Dec 2016 14:18:34 +0000
+
+cinnamon-translations (3.2.1) serena; urgency=medium
+
+  * Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 10 Nov 2016 10:10:35 +0000
+
+cinnamon-translations (3.2.0) serena; urgency=medium
+
+  * 3.2.0
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 07 Nov 2016 20:42:38 +0000
+
+cinnamon-translations (3.0.3) sarah; urgency=medium
+
+  * Updated translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 25 Jun 2016 12:54:32 +0100
+
+cinnamon-translations (3.0.2) sarah; urgency=medium
+
+  * Fixed Makefile
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 24 May 2016 14:11:08 +0100
+
+cinnamon-translations (3.0.1) sarah; urgency=medium
+
+  * Removed mocheck (already in mint-translations).
+  * Updated translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 24 May 2016 13:59:06 +0100
+
+cinnamon-translations (3.0.0) sarah; urgency=medium
+
+  * Renamed cinnamon-translations -> cinnamon-l10n
+  * Renamed debian/cinnamon-translations.install -> debian/cinnamon-l10n.install
+  * Mocheck: Specify GTK version with gi
+  * Mocheck: Delete trailing spaces
+  * Mocheck: Fixed more false positives
+  * Filter Xapps PO files in cleanup script
+  * Updated translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 25 Apr 2016 10:19:12 +0100
+
+cinnamon-translations (2.8.3) rosa; urgency=medium
+
+  * Updated translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 28 Nov 2015 13:56:57 +0000
+
+cinnamon-translations (2.8.2) rosa; urgency=medium
+
+  * Updated translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 13 Nov 2015 22:22:44 +0000
+
+cinnamon-translations (2.8.1) rosa; urgency=medium
+
+  * Updated translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 09 Nov 2015 10:30:07 +0000
+
+cinnamon-translations (2.8.0) rosa; urgency=medium
+
+  * Updated translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 20 Oct 2015 11:43:20 +0100
+
+cinnamon-translations (2.6.3) rafaela; urgency=medium
+
+  * Updated translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 26 Jun 2015 15:41:29 +0200
+
+cinnamon-translations (2.6.2) rafaela; urgency=medium
+
+  * Updated translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 02 Jun 2015 12:25:40 +0200
+
+cinnamon-translations (2.6.1) rafaela; urgency=medium
+
+  * Updated translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 21 May 2015 13:46:20 +0200
+
+cinnamon-translations (2.6.0) rafaela; urgency=medium
+
+  * 2.6.0 
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 19 May 2015 17:07:39 +0200
+
+cinnamon-translations (2.5.0) unstable; urgency=medium
+
+  * bump for dev
+
+ -- Michael Webster <miketwebster@gmail.com>  Sat, 11 Apr 2015 09:10:25 -0400
+
+cinnamon-translations (2.4.4) rebecca; urgency=medium
+
+  * Updated translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 31 Mar 2015 12:24:38 +0200
+
+cinnamon-translations (2.4.3) rebecca; urgency=medium
+
+  * Updated translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 23 Feb 2015 11:52:42 +0100
+
+cinnamon-translations (2.4.2) rebecca; urgency=medium
+
+  * Updated translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 23 Nov 2014 13:56:53 +0100
+
+cinnamon-translations (2.4.1) rebecca; urgency=medium
+
+  * Updated translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 11 Nov 2014 13:03:43 +0100
+
+cinnamon-translations (2.4.0) rebecca; urgency=medium
+
+  * 2.4.0
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 31 Oct 2014 13:42:26 +0100
+
+cinnamon-translations (2.3.0) unstable; urgency=medium
+
+  * 2.3.0
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 27 Jun 2014 14:25:01 +0100
+
+cinnamon-translations (2.2.3) qiana; urgency=medium
+
+  * 2.2.3
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 25 May 2014 13:24:30 +0100
+
+cinnamon-translations (2.2.2) qiana; urgency=medium
+
+  * 2.2.2
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 08 May 2014 11:47:54 +0100
+
+cinnamon-translations (2.2.1) qiana; urgency=medium
+
+  * 2.2.1
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 03 May 2014 22:42:25 +0100
+
+cinnamon-translations (2.2.0) qiana; urgency=medium
+
+  * 2.2.0
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 13 Apr 2014 14:40:31 +0100
+
+cinnamon-translations (2.0.3) petra; urgency=low
+
+  * 2.0.3
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 26 Nov 2013 12:04:07 +0000
+
+cinnamon-translations (2.0.2) petra; urgency=low
+
+  * 2.0.2
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 07 Nov 2013 11:04:24 +0000
+
+cinnamon-translations (2.0.1) petra; urgency=low
+
+  * 2.0.1
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 09 Oct 2013 12:38:29 +0100
+
+cinnamon-translations (2.0.0) petra; urgency=low
+
+  * 2.0.0
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 02 Oct 2013 16:54:59 +0100
+
+cinnamon-translations (1.9.1) olivia; urgency=low
+
+  * Initial release
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri,  2 Aug 2013 11:27:00 +0000
+

@@ -1,0 +1,21 @@
+Source: cinnamon-translations
+Section: localization
+Priority: optional
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Build-Depends: debhelper (>= 10), gettext
+Standards-Version: 3.9.5
+
+Package: cinnamon-l10n
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Replaces:
+ cinnamon-common (<< 2.0),
+ cinnamon-settings-daemon (<< 3.5),
+ cinnamon-translations,
+Breaks:
+ cinnamon-common (<< 2.0),
+ cinnamon-settings-daemon (<< 3.5),
+ cinnamon-translations,
+Description: Translation files for the Cinnamon desktop
+ The package contains the translation files for all the Cinnamon packages.
