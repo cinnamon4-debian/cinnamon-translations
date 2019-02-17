@@ -1,8 +1,8 @@
-cinnamon-translations (4.0.1-1~) UNRELEASED; urgency=medium
+cinnamon-translations (4.0.2-1~1) UNRELEASED; urgency=medium
 
-  * New upstream release (4.0.1)
+  * New upstream release (4.0.{1,2})
 
- -- Norbert Preining <preining@debian.org>  Tue, 11 Dec 2018 20:18:37 +0900
+ -- Norbert Preining <norbert@preining.info>  Sun, 17 Feb 2019 19:29:27 +0900
 
 cinnamon-translations (3.8.2-1) unstable; urgency=medium
 
